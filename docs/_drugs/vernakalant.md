@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "Vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 description: "Vernakalant: ennustettu uusi käyttöaihe Aivohalvaussairaus (stroke disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Atrial Fibrillation"
@@ -110,11 +110,30 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Ennuste perustuu lähinnä eteisvärinän ja aivohalvauksen väliseen epäsuoraan yhteyteen tietämysgraafissa. Kliinisiä tutkimuksia ei ole, kirjallisuus ei tue aivohalvausvaikutusta.
 
+<!-- review:begin fi-lic-20261106-vernakalant-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliinisiä tutkimuksia ei ole, kirjallisuus ei tue aivohalvausvaikutusta, ja ainoa Suomen myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-vernakalant-1 -->
+
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (estää turvallisuusseulonnan)
 - Vaikutusmekanismitietojen täydentämistä
 - Tutkimusnäyttöä, joka osoittaa vernakalantin vaikutuksen aivohalvauksen ehkäisyyn tai hoitoon
 - Turvallisuusarviota potilailla, joilla on äskettäinen aivo- tai sydäntapahtuma
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja ainoa Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

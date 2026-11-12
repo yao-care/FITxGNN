@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 221
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
 description: "Idelalisib: ennustettu uusi käyttöaihe Mantle cell lymphoma (näytön taso L2). Alkuperäinen käyttöaihe: Lymphoma, Non-Hodgkin"
@@ -57,6 +57,12 @@ Ennustetta tukevat tähän raporttiin koottujen tietojen mukaan **5 kliinistä t
 | Suositeltu päätös | Hold (odota) |
 
 Huomio: tietojen mukainen pisteytys luokittelee manttelisolulymfooman tutkimuskysymykseksi (S1). Koska satunnaistettua näyttöä manttelisolulymfoomasta ei ole, päätös on varovainen.
+
+<!-- review:begin fi-lic-20261106-idelalisib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Koska satunnaistettua näyttöä manttelisolulymfoomasta ei ole ja myyntilupa on peruutettu, päätös on varovainen.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-idelalisib-1 -->
 
 ---
 
@@ -124,6 +130,12 @@ Satunnaistettua, loppuun asti viedyä näyttöä manttelisolulymfoomasta ei ole.
 - **Lääkeyhteisvaikutukset:** Yhteisvaikutustietoja löytyi 100 kappaletta. Vakavaksi (Major) luokiteltuja ovat mm. loperamidi, triamsinoloni, budesonidi ja eliglustaatti. Kohtalaisia (Moderate) ovat mm. deksametasoni, hydrokortisoni, klaritromysiini, bupropioni, aprepitantti, pioglitatsoni, doksisykliini ja minosykliini.
 - **Tunnetut vakavat haitat:** Kootun näytön mukaan idelalisibiin liittyy maksatoksisuutta, vaikeaa ripulia/koliittia, pneumoniittia ja infektioita. Koliitti on erityinen huolenaihe ruoansulatuskanavan syövissä, kuten paksusuolen adenokarsinoomassa.
 
+<!-- review:begin fi-lic-20261106-idelalisib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Koliitti on erityinen huolenaihe ruoansulatuskanavan syövissä, kuten paksusuolen adenokarsinoomassa. / Valmisteen myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-idelalisib-2 -->
+
 Muilta osin turvallisuustiedot: ks. valmisteyhteenveto.
 
 ---
@@ -134,6 +146,12 @@ Muilta osin turvallisuustiedot: ks. valmisteyhteenveto.
 
 **Perustelut:**
 - Manttelisolulymfoomasta on vain vaiheen 1 ja keskeytetty vaiheen 2 näyttöä, eikä loppuun vietyä satunnaistettua tutkimusta ole.
+
+<!-- review:begin fi-lic-20261106-idelalisib-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Manttelisolulymfoomasta on vain vaiheen 1 ja keskeytetty vaiheen 2 näyttöä, eikä loppuun vietyä satunnaistettua tutkimusta ole. Myyntilupa on peruutettu, tunnetut vakavat haitat (maksatoksisuus, koliitti, infektiot) ovat merkittäviä, ja uudemmat BTK- ja BCL2-estäjät ovat syrjäyttäneet idelalisibin.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-idelalisib-3 -->
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (turvallisuusarvioinnin estävä tietoaukko)
@@ -148,6 +166,21 @@ Muilta osin turvallisuustiedot: ks. valmisteyhteenveto.
 
 - **B-solusyöpä** (L1, S2, Proceed with Guardrails): vaiheen 3 satunnaistettuja tutkimuksia on, mutta kyse on pääosin alkuperäisen käyttöaiheen laajennuksesta, ei varsinaisesta uudelleenkäytöstä.
 - **Hodgkinin lymfooma, myelooinen leukemia, krooninen myelooinen leukemia, paksusuolen adenokarsinooma ja muut:** näyttö on vähäistä tai pelkästään prekliinistä (Hold).
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Valmisteen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu, tunnetut vakavat haitat (maksatoksisuus, koliitti, infektiot) ovat merkittäviä, ja uudemmat BTK- ja BCL2-estäjät o” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

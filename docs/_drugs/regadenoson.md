@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Regadenoson: ennustettu uusi käyttöaihe Anafylaksia (näytön taso L5). Alkuperäinen käyttöaihe: Sydänlihaksen perfuusiokuvantaminen"
 monitor_inn: "REGADENOSON"
 predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
@@ -78,6 +78,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
+<!-- review:begin fi-lic-20261106-regadenoson-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia myyntilupia ei ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-regadenoson-1 -->
+
 ---
 
 ## Suomen markkinatiedot
@@ -108,6 +114,12 @@ Tarkemmat turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelu:**
 - Ennuste perustuu pelkästään laskennalliseen malliin ilman kliinistä tai kirjallista näyttöä (L5). Vaikutuksen suunta on epävarma, ja lääkkeellä itsellään on anafylaksiaan liittyviä varoituksia.
 
+<!-- review:begin fi-lic-20261106-regadenoson-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Vaikutuksen suunta on epävarma, ja lääkkeellä itsellään on anafylaksiaan liittyviä varoituksia. / Suomessa ainoa myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-regadenoson-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hakemista Fimean sivustolta (turvallisuusarvioinnin estävä tietoaukko)
 - Yksityiskohtaisten vaikutusmekanismitietojen hakemista DrugBankista
@@ -115,6 +127,20 @@ Tarkemmat turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Systemaattista kirjallisuushakua anafylaksiasta ja adenosiinireseptoreista
 - Antoreitin ja annostelun soveltuvuuden arviointia (lyhytvaikutteinen suonensisäinen diagnostinen aine vs. akuutti hoitotilanne)
 - Esotropian ennusteen käsittelyä todennäköisenä mallin artefaktina, jota ei kannata viedä eteenpäin ilman biologista perustelua
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

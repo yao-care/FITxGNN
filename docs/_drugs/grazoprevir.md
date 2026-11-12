@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 212
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "GRAZOPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Grazoprevir: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L1). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
@@ -137,6 +137,12 @@ Muiden turvallisuustietojen osalta tarkista valmisteyhteenveto.
 **Perustelut:**
 - Useat valmistuneet vaiheen 3 tutkimukset tukevat grazopreviirin ja elbasviirin tehoa C-hepatiitin hoidossa HIV/HCV-yhteisinfektoiduilla potilailla (näytön taso L1). Näyttö ei kuitenkaan koske HIV:n hoitoa, vaan hyväksytyn C-hepatiittiaiheen laajentamista yhteisinfektioryhmään.
 
+<!-- review:begin fi-lic-20261106-grazoprevir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö ei kuitenkaan koske HIV:n hoitoa, vaan hyväksytyn C-hepatiittiaiheen laajentamista yhteisinfektioryhmään. / Suomessa ainoa myyntilupa on peruutettu, joten käyttö edellyttäisi saatavuuden selvittämistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-grazoprevir-1 -->
+
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (Fimea)
 - Vaikutusmekanismin tietojen täydentämistä
@@ -154,6 +160,19 @@ Muilla ennustetuilla käyttöaiheilla näyttö on heikko, eikä niille suositell
 - **E-hepatiitti, eläinten virushepatiitti, simiaaninen ja kissan immuunikatovirusinfektio, harvinainen neurokehityshäiriö (L5, Hold):** ei kliinistä näyttöä eikä uskottavaa mekanismia.
 - **Omskin verenvuotokuume (L5, Hold):** flavivirusproteaasi on etäisesti HCV:n proteaasin sukua, mutta kokeellista näyttöä ei ole.
 - **Kyasanurin metsätauti (L5, tutkimuskysymys):** yksi tietokonesimulaatiotutkimus (PMID 34662258); vaatisi in vitro -validoinnin.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten käyttö edellyttäisi saatavuuden selvittämistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

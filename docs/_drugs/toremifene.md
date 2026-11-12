@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TOREMIFENE"
 predicted_indications: ["HIV infectious disease"]
 description: "Toremifene: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
@@ -115,11 +115,30 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla tämän rap
 **Perustelut:**
 - Ennuste on pelkkää mallipäättelyä (L5). Ainoa tukeva julkaisu on prekliininen sienitautitutkimus, joka ei osoita vaikutusta HIV-infektioon, eikä kliinisiä tutkimuksia ole. QT-aikaan liittyvät turvallisuushuolet ovat merkittäviä.
 
+<!-- review:begin fi-lic-20261106-toremifene-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa ja QT-aikaan liittyvät turvallisuushuolet ovat merkittäviä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-toremifene-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (estävä tietoaukko)
 - Toimintamekanismitietojen täydentämistä (esim. DrugBankista)
 - Prekliinistä näyttöä toremifeenin suorasta vaikutuksesta HIV:hen tai selkeää perustetta HIV:hen liittyvän kryptokokkoosin tutkimiselle erillisenä käyttöaiheena
 - QT-pidennysriskin ja yhteisvaikutusten arviointia HIV-potilaiden tyypillisessä lääkityksessä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa ja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

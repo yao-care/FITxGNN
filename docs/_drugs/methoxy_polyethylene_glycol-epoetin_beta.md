@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Methoxy Polyethylene Glycol-Epoetin Beta: ennustettu uusi käyttöaihe Verihiutaleiden primaarinen vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Anemia"
 monitor_inn: "METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -90,6 +90,12 @@ Ei tällä hetkellä aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksi
 
 Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
+<!-- review:begin fi-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-1 -->
+
 ---
 
 ## Tiedot Suomen markkinoilta
@@ -115,11 +121,38 @@ Lääkeyhteisvaikutuksia ei löytynyt. Muuten turvallisuustiedoista saa lisätie
 **Perustelut:**
 - Ennuste on pelkästään laskennallinen (L5), eikä sen tueksi ole kliinisiä tutkimuksia eikä julkaisuja. Mekanistinen perustelu on heikko, ja luokkaan liittyvä tromboosiriski puhuu käyttöä vastaan.
 
+<!-- review:begin fi-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistinen perustelu on heikko, ja luokkaan liittyvä tromboosiriski puhuu käyttöä vastaan. Lisäksi ainoa myyntilupa Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Lääkkeen vaikutusmekanismin tietojen täydentämistä.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimealta.
 - Mekanistista tai prekliinistä näyttöä EPO-reseptorin roolista verihiutaleiden toiminnassa.
 - Tromboosiriskin arviointia ennen kuin tutkimussuuntaa harkitaan.
+
+<!-- review:begin fi-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tromboosiriskin arviointia ennen kuin tutkimussuuntaa harkitaan. / Markkinatilanteen selvittämistä, koska voimassa olevaa myyntilupaa ei ole.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-methoxy_polyethylene_glycol-epoetin_beta-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi ainoa myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Markkinatilanteen selvittämistä, koska voimassa olevaa myyntilupaa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

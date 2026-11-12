@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Propranolol: ennustettu uusi käyttöaihe Distaalinen myopatia, Tateyama-tyyppi (näytön taso L5). Alkuperäinen käyttöaihe: Hemangiooma"
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
@@ -129,12 +129,31 @@ Lääkeyhteisvaikutuksista ei ole kliinisesti luokiteltua tietoa. Saatavilla on 
 **Perustelut:**
 - Ensisijaiselle ennusteelle (distaalinen myopatia, Tateyama-tyyppi) ei ole kliinisiä tutkimuksia, julkaisuja eikä mekanistista perustetta. Näytön taso on L5 ja korkea pistemäärä (0,9940) perustuu vain graafimalliin.
 
+<!-- review:begin fi-lic-20261106-propranolol-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näytön taso on L5 ja korkea pistemäärä (0,9940) perustuu vain graafimalliin. / Suomessa ainoa myyntilupa on peruutettu, ja vasta-aihesignaalit koskevat myös lihassairauksia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-propranolol-1 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimeasta (estää turvallisuusseulonnan jatkamisen)
 - Vaikutusmekanismin (MOA) tiedot DrugBankista
 - Kirjallisuushaku ja mekanistinen arvio ensisijaiselle kohteelle
 - Harkinta, tulisiko tutkimusta suunnata kirroottiseen kardiomyopatiaan tai kardiomyopatiaan (näyttö L4, "tutkimuskysymys"), joilla on aineistossa enemmän tukea kuin ensisijaisella ennusteella; kirroosissa on huomioitava turvallisuussignaalit
 - Muiden ennustelistan kohteiden (synnynnäinen myopatia, urheilijan hypertrofinen kardiomyopatia, kondrooma) osalta ei ole perustetta jatkaa ilman uutta näyttöä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, ja vasta-aihesignaalit koskevat myös lihassairauksia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

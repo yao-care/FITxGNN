@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: ennustettu uusi käyttöaihe Sanfilippo syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Mucopolysaccharidosis I"
@@ -107,6 +107,12 @@ Muut turvallisuustiedot: katso valmisteyhteenveto.
 **Perustelut:**
 - Ennustettu indikaatio on suurelta osin päällekkäinen jo hyväksytyn MPS I -käyttöaiheen kanssa, eikä siitä ole suoraa kliinistä näyttöä.
 
+<!-- review:begin fi-lic-20261106-laronidase-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennustettu indikaatio on suurelta osin päällekkäinen jo hyväksytyn MPS I -käyttöaiheen kanssa, eikä siitä ole suoraa kliinistä näyttöä. Valmisteen myyntilupa Suomessa on lisäksi peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-laronidase-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen täydentämistä
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkimista
@@ -120,6 +126,19 @@ Muut turvallisuustiedot: katso valmisteyhteenveto.
 Kliinisiä tutkimuksia ei ole.
 
 Sanfilippon oireyhtymä johtuu muiden heparaanisulfaattia hajottavien entsyymien (SGSH, NAGLU, HGSNAT, GNS) puutteesta, ei alfa-L-iduronidaasin puutteesta. Entsymaattista perustetta ei siis ole. Sairaus on lisäksi pääosin neuronopaattinen, eikä laskimoon annettava laronidaasi läpäise veri-aivoestettä tehokkaasti. Haetut julkaisut koskevat MPS I:tä (mm. lumekontrolloitu RCT, [PMID 15126990](https://pubmed.ncbi.nlm.nih.gov/15126990/), ja biosimilaarivertailu, [PMID 40830667](https://pubmed.ncbi.nlm.nih.gov/40830667/)), eivät MPS III:a. Korkea pistemäärä heijastaa todennäköisesti glykosaminoglykaanireitin läheisyyttä verkostossa, ei kliinistä tai mekanistista näyttöä.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Valmisteen myyntilupa Suomessa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

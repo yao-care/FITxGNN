@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PEGVALIASE"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
 description: "Pegvaliase: ennustettu uusi käyttöaihe Diabetic retinopathy (näytön taso L5). Alkuperäinen käyttöaihe: Phenylketonurias"
@@ -112,12 +112,38 @@ Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ole saatavilla. Katso t
 **Perustelut:**
 - Ennuste perustuu pelkkään mallilaskentaan: kliinisiä tutkimuksia ja julkaisuja ei ole, mekanistista yhteyttä ei ole osoitettu.
 
+<!-- review:begin fi-lic-20261106-pegvaliase-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste perustuu pelkkään mallilaskentaan: kliinisiä tutkimuksia ja julkaisuja ei ole, mekanistista yhteyttä ei ole osoitettu, ja Suomessa ainoa myyntilupa on peruttu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pegvaliase-1 -->
+
 **Jatkoa varten tarvitaan:**
 - Vaikutusmekanismitiedot (esim. DrugBankista) ja mekanistisen yhteyden arviointi
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivuilta
 - Prekliininen näyttö pegvaliaasin vaikutuksesta diabeettisen retinopatian malleissa
 - Arvio lääkkeen pääsystä silmään ja antoreitin soveltuvuudesta
 - Immunogeenisuuden ja yliherkkyyden riskin arviointi potilailla, joilla ei ole fenyyliketonuriaa
+
+<!-- review:begin fi-lic-20261106-pegvaliase-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Immunogeenisuuden ja yliherkkyyden riskin arviointi potilailla, joilla ei ole fenyyliketonuriaa / Selvitys myyntiluvan peruuntumisen syistä” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pegvaliase-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuntumisen syistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

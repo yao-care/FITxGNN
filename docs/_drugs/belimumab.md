@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
 description: "Belimumab: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) (näytön taso L5). Alkuperäinen käyttöaihe: Lupus Erythematosus, Systemic"
@@ -117,11 +117,37 @@ Yleisesti ottaen yhteisvaikutukset liittyvät pääosin muihin immuunivastetta h
 **Perustelut:**
 - Ennusteet perustuvat pelkästään TxGNN-mallin laskentaan (L5), eikä yhtään kliinistä tutkimusta tai julkaisua tue niitä. Useimmissa ennustetuissa sairauksissa mekanistinen yhteys BLyS:n estoon puuttuu.
 
+<!-- review:begin fi-lic-20261106-belimumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Useimmissa ennustetuissa sairauksissa mekanistinen yhteys BLyS:n estoon puuttuu. Lisäksi Suomessa on vain peruutettu myyntilupa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-belimumab-1 -->
+
 **Edetäkseen tarvitaan seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen Fimean sivustolta (estää turvallisuusseulonnan jatkamisen)
 - Vaikutusmekanismitiedot (MOA) DrugBankista
 - Systemaattinen kirjallisuushaku ja tutkimusrekisterihaku erityisesti FNAIT:lle, joka on mekanistisesti uskottavin ehdokas
 - FNAIT:n osalta raskauden ja sikiöaltistuksen turvallisuuden arviointi sekä vertailu nykyiseen vakiohoitoon (IVIG, anti-FcRn)
+
+<!-- review:begin fi-lic-20261106-belimumab-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”FNAIT:n osalta raskauden ja sikiöaltistuksen turvallisuuden arviointi sekä vertailu nykyiseen vakiohoitoon (IVIG, anti-FcRn) / Selvitys peruutetun myyntiluvan syistä ja nykyisestä saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-belimumab-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys peruutetun myyntiluvan syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

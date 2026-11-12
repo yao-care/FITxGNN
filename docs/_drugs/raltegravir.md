@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -120,10 +120,36 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Perustelut:**
 - SIV-näyttö on suoraa ei-ihmisprimaattinäyttöä lääkkeen antiviraalisesta vaikutuksesta, mutta se on eläinmallidataa ilman ihmisillä tehtyjä kliinisiä tutkimuksia. SIV on lisäksi pääasiassa HIV:n tutkimusmalli, joten se ei ole itsenäinen ihmisen hoitoaihe ja tuo vähän lisäarvoa alkuperäiseen käyttöaiheeseen nähden.
 
+<!-- review:begin fi-lic-20261106-raltegravir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”SIV on lisäksi pääasiassa HIV:n tutkimusmalli, joten se ei ole itsenäinen ihmisen hoitoaihe ja tuo vähän lisäarvoa alkuperäiseen käyttöaiheeseen nähden. / Lääkkeen myyntilupa Suomessa on peruutettu, ja kaksi muuta ennustetta (FIV ja neurokehityshäiriö) perustuvat pelkkään mallipohjaiseen ennusteeseen (L5) ilman tukevaa näyttöä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-raltegravir-1 -->
+
 **Eteneminen edellyttäisi seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta (puute estää turvallisuusarvioinnin).
 - Vaikutusmekanismin tiedot (esim. DrugBankista) mekanistisen yhteyden analysointia varten.
 - Selkeä kysymys siitä, onko ennusteella ihmisen hoidon kannalta merkitystä, tai vaihtoehtoisesti eläinlääketieteellisen käytön (FIV) arviointi erikseen.
+
+<!-- review:begin fi-lic-20261106-raltegravir-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selkeä kysymys siitä, onko ennusteella ihmisen hoidon kannalta merkitystä, tai vaihtoehtoisesti eläinlääketieteellisen käytön (FIV) arviointi erikseen. / Myyntiluvan peruuntumisen syyn selvittäminen ja saatavuuden arviointi Suomessa.” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-raltegravir-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lääkkeen myyntilupa Suomessa on peruutettu, ja kaksi muuta ennustetta (FIV ja neurokehityshäiriö) perustuvat pelkkään mallipohjaiseen ennust” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syyn selvittäminen ja saatavuuden arviointi Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

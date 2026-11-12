@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 462
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
@@ -129,6 +129,12 @@ Toissijaisen ennusteen (pahanlaatuinen renovaskulaarinen hypertensio) tuki:
 - **Lääkeinteraktiot:** tietoja löytyi 100 yhteisvaikutuksesta. Merkittävimmät (**vakavat**) ovat kaliumbikarbonaatti ja kaliumkloridi (hyperkalemian riski). Kohtalaisia yhteisvaikutuksia ovat mm. hydrokortisoni, eksenatidi, eluksadoliini, polyetyleeniglykoli-elektrolyyttivalmisteet sekä useat insuliinivalmisteet.
 - **Huomio:** ARB-lääkkeet voivat aiheuttaa akuutin munuaisvaurion kahdenpuolisessa munuaisvaltimon ahtaumassa.
 
+<!-- review:begin fi-lic-20261106-valsartan-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki yhdeksän myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 9 myyntilupaa, joista 9 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-valsartan-1 -->
+
 Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla; ne on tarkistettava valmisteyhteenvedosta.
 
 ---
@@ -140,12 +146,32 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla; ne on tarkis
 **Perustelut:**
 - Ennuste perustuu lähinnä TxGNN-pisteisiin; kliinisiä tutkimuksia ei ole, ja ainoa kirjallisuuslöydös koskee toista lääkettä (avosentaani). Valsartaani on jo käytössä verenpainetaudissa, joten lisäarvo olisi pieni.
 
+<!-- review:begin fi-lic-20261106-valsartan-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valsartaani on jo käytössä verenpainetaudissa, joten lisäarvo olisi pieni. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 9 myyntilupaa, joista 9 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-valsartan-2 -->
+
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (estää turvallisuusseulonnan).
 - Vaikutusmekanismin tietojen täydentämistä (esim. DrugBank).
 - Valsartaanikohtaista esikliinistä tai kliinistä näyttöä pahanlaatuisesta hypertensiivisestä munuaissairaudesta.
 - Selvitystä siitä, onko markkinoilla voimassa olevaa valsartaanivalmistetta Suomessa.
 - Varovaisuutta munuaisvaltimon ahtaumassa ja hyperkalemian seurantaa.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki yhdeksän myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

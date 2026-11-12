@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "DIBOTERMIN ALFA"
 predicted_indications: ["esotropia", "HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "non-syndromic esophageal malformation", "multifocal choroiditis", "atypical coarctation of aorta"]
 description: "Dibotermin Alfa: ennustettu uusi käyttöaihe Esotropia (näytön taso L5). Alkuperäinen käyttöaihe: Tibial Fractures"
@@ -80,6 +80,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 Esotropialle ei löytynyt kirjallisuutta. Ainoa ennustettuihin käyttöaiheisiin liitetty julkaisu liittyy rintakasvaimen alatyyppiin (luminaalinen A tai B):
 
+<!-- review:begin fi-lic-20261106-dibotermin_alfa-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-dibotermin_alfa-1 -->
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
 | [27441597](https://pubmed.ncbi.nlm.nih.gov/27441597/) | 2016 | Prekliininen in vitro -geeniekspressiotutkimus | European Surgical Research | Kuvaa ihmisen osteoblastien geeniekspressiomalleja BMP2-käsittelyn jälkeen. Jopa 33 % potilaista ei vastaa hoitoon luun muodostuksessa. Ei ole rintakasvaintutkimus eikä tue hoidollista vaikutusta. |
@@ -109,12 +115,32 @@ Aineiston perusteella huomioitava: rintasyöpäennusteiden osalta ulkoinen BMP-2
 **Perustelut:**
 - Ennuste on L5-tasoa: pelkkä mallin tuottama ennuste ilman kliinistä tai kirjallisuusnäyttöä, eikä uskottavaa mekanistista yhteyttä ole osoitettu. Rintasyöpäkäyttöön liittyy mahdollinen turvallisuushuoli.
 
+<!-- review:begin fi-lic-20261106-dibotermin_alfa-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi Suomen myyntiluvat on peruutettu ja rintasyöpäkäyttöön liittyy mahdollinen turvallisuushuoli.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-dibotermin_alfa-2 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estää turvallisuusseulonnan jatkamisen)
 - Yksityiskohtainen vaikutusmekanismitieto
 - Prekliininen näyttö valitusta ennustetusta käyttöaiheesta, erityisesti mekanistinen perustelu esotropialle
 - Arvio antoreitin soveltuvuudesta ennustettuun käyttöaiheeseen (nykyinen valmiste on tarkoitettu paikalliseen luukäyttöön)
 - Turvallisuusarvio kasvainten etenemisen riskistä ennen mitään syöpäkäyttöä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntiluvat on peruutettu ja r” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

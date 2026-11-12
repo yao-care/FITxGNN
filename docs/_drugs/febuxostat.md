@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 185
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Febuxostat: ennustettu uusi käyttöaihe Munuaisperäinen hypourikemia (hypouricemia, renal) (näytön taso L4). Alkuperäinen käyttöaihe: Hyperurikemia, kihti"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -101,6 +101,12 @@ Erittäin korkea TxGNN-pistemäärä johtuu todennäköisesti verkostolähellä 
   - **Merkittävät (Major):** atsatiopriini, merkaptopuriini, leflunomidi, teriflunomidi
   - **Kohtalaiset (Moderate):** metotreksaatti, teofylliini, aminofylliini, dyfylliini, oksitrifylliini, tioguaniini, epirubisiini, trabektediini, klofarabiini, pegaspargaasi, asparaginaasi, brentuksimabivedotiini, naltreksoni sekä beeta-interferonit (beeta-1a, beeta-1b, peginterferoni beeta-1a)
 
+<!-- review:begin fi-lic-20261106-febuxostat-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-febuxostat-1 -->
+
 Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tämän raportin aineistossa, joten ne on tarkistettava valmisteyhteenvedosta.
 
 ---
@@ -119,12 +125,32 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tämän raportin aine
 **Perustelut:**
 - Mekanistinen peruste on heikko tai jopa ristiriitainen, koska virtsahapon laskeminen ei ole järkevää tilassa, jossa virtsahappo on jo matala. Näyttö rajoittuu yhteen tapausraporttiin ja yleiskatsaukseen, ja ainoa kliininen tutkimus ei liity käyttöaiheeseen.
 
+<!-- review:begin fi-lic-20261106-febuxostat-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö rajoittuu yhteen tapausraporttiin ja yleiskatsaukseen, ja ainoa kliininen tutkimus ei liity käyttöaiheeseen. Suomessa kaikki myyntiluvat on lisäksi peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-febuxostat-2 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen Fimean sivuilta (turvallisuusarvioinnin estävä tietoaukko)
 - Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)
 - Tarkempi arvio siitä, onko febuksostaatilla perusteltua roolia rasituksen aiheuttaman akuutin munuaisvaurion ehkäisyssä, sekä kontrolloituja tutkimuksia
 - Sydän- ja verisuoniturvallisuuden arviointi, koska tietämysgraafi liittää lääkkeen sydäninfarkti- ja aivohalvausvasta-aiheisiin
 - Jos jatketaan, kannattaa priorisoida osittainen HPRT-puutos ja Lesch-Nyhanin oireyhtymä, joissa mekanistinen perustelu on vahvempi kuin munuaisperäisessä hypourikemiassa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

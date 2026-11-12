@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 291
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Midazolam: ennustettu uusi käyttöaihe Unettomuus (insomnia) (näytön taso L2). Alkuperäinen käyttöaihe: Epilepsia"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -112,12 +112,31 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten ne 
 **Perustelut:**
 - Biologinen perustelu on vahva ja vanhoja kontrolloituja tutkimuksia on (1980–1990-luvut), mutta ne ovat vanhoja, eikä viimeaikaista vahvistavaa näyttöä ole.
 
+<!-- review:begin fi-lic-20261106-midazolam-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Biologinen perustelu on vahva ja vanhoja kontrolloituja tutkimuksia on (1980–1990-luvut), mutta ne ovat vanhoja, eikä viimeaikaista vahvistavaa näyttöä ole. Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei ole saatavilla, ja turvallisuustietojen keskeinen aukko estää etenemisen turvallisuusseulontaan.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-midazolam-1 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimeasta (estävä tietoaukko).
 - Tarkka vaikutusmekanismitieto (esim. DrugBankista).
 - Vanhojen RCT-tutkimusten (PMID 2121802, 2229461) yksityiskohtainen arvio tehosta ja turvallisuudesta, mukaan lukien riippuvuus, toleranssi ja päiväaikainen sedaatio.
 - Selvitys, onko unettomuuteen soveltuvaa midatsolaamivalmistetta saatavilla Suomessa, sekä reittien ja lääkemuotojen yhteensopivuus.
 - Vertailu nykyisiin unettomuuden hoitoihin ja hoitosuosituksiin.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei ole saatavilla, ja turvallisuustietojen keskeinen aukko estää etenemisen turva” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

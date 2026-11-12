@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -88,6 +88,12 @@ Ensisijainen ennuste (FIV):
 
 Muiden ennusteiden tukena olevaa kirjallisuutta (valikoima):
 
+<!-- review:begin fi-lic-20261106-rilpivirine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Yhteensä myyntilupia on 6, ja kaikki on peruutettu. Kuudes lupa (Eviplera, EMEA/H/C/002312) on myös peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-rilpivirine-1 -->
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
 | [41225339](https://pubmed.ncbi.nlm.nih.gov/41225339/) | 2025 | Systemaattinen katsaus ja meta-analyysi | BMC Infectious Diseases | Kabotegraviirin turvallisuus raskauden aikana. |
@@ -124,11 +130,31 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tämän raportin ainei
 **Perustelut:**
 - Ennuste perustuu pääosin malliin. Tukena on vain yksi in vitro -tutkimus, kliinisiä kokeita ei ole ja käyttöaihe on eläinlääkinnällinen.
 
+<!-- review:begin fi-lic-20261106-rilpivirine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tukena on vain yksi in vitro -tutkimus, kliinisiä kokeita ei ole ja käyttöaihe on eläinlääkinnällinen. Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-rilpivirine-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Rilpiviriinin vaikutusmekanismitietojen täydentämistä
 - Valmisteyhteenvedon turvallisuustietojen hankkimista (Fimea)
 - Rilpiviriinin tehon vahvistamista FIV-käänteiskopioijaentsyymiä vastaan (in vitro ja eläinkokeet) sekä eläinlääkinnällisen kehityspolun ja annosmuodon arviointia
 - Synnynnäisen HIV:n osalta rilpiviriinispesifistä tietoa vastasyntyneistä ja imeväisistä, sillä nykyinen näyttö koskee pääosin kabotegraviiri/rilpiviriini-yhdistelmää raskauden aikana
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Yhteensä myyntilupia on 6, ja kaikki on peruutettu. Kuudes lupa (Eviplera, EMEA/H/C/002312) on myös peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

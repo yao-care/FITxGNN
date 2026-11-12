@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Pegfilgrastim: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijaisesti… (näytön taso L5). Alkuperäinen käyttöaihe: Neutropenia, kuumeinen neutropenia…"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -81,6 +81,12 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 Alla on lupia, joista käyttöaihetieto oli saatavilla, sekä muut keskeiset valmisteet.
 
+<!-- review:begin fi-lic-20261106-pegfilgrastim-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 11 myyntilupaa on peruutettu. Alla on lupia, joista käyttöaihetieto oli saatavilla, sekä muut keskeiset valmisteet.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pegfilgrastim-1 -->
+
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000420 | Neulasta | – | Syöpä, neutropenia, kuumeinen neutropenia, solunsalpaajahoidon aiheuttama kuumeinen neutropenia |
@@ -118,12 +124,39 @@ Useat näistä ovat solunsalpaajia tai sädelääkkeitä, joiden kanssa myelosup
 **Perustelut:**
 - Ennuste perustuu pelkästään TxGNN-mallin pistemäärään (L5). Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä mekanistista yhteyttä ole osoitettu. G-CSF:n pro-inflammatorinen vaikutus voisi jopa pahentaa verkkokalvon tilaa.
 
+<!-- review:begin fi-lic-20261106-pegfilgrastim-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”G-CSF:n pro-inflammatorinen vaikutus voisi jopa pahentaa verkkokalvon tilaa. Lisäksi kaikki myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pegfilgrastim-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
 - Valmisteyhteenvedon turvallisuustietojen (varoitukset, vasta-aiheet) hankkimista Fimean sivustolta
 - Prekliinistä näyttöä G-CSF:n vaikutuksesta diabeettisen retinopatian malleissa, mukaan lukien tulehdusriskin arviointi
 - Kirjallisuushakua aiheesta sekä reittien ja lääkemuotojen soveltuvuuden arviointia (silmänsisäinen vs. ihonalainen anto)
 - Selvitystä siitä, onko valmistetta saatavilla Suomen markkinoilla
+
+<!-- review:begin fi-lic-20261106-pegfilgrastim-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitystä siitä, onko valmistetta saatavilla Suomen markkinoilla, koska nykyiset myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pegfilgrastim-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki 11 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska nykyiset myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

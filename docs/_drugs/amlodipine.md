@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Amlodipine: ennustettu uusi käyttöaihe Aivorunkoinfarkti (näytön taso L5). Alkuperäinen käyttöaihe: Verenpainetauti (hypertensio)"
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -123,12 +123,31 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tähän raporttiin koo
 - Aivorunkoinfarktille ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, joten ennuste on pelkkä mallin tuottama hypoteesi (L5).
 - Sukulaisindikaatio, aivoverenvuodon uusiutumisen ehkäisy, on huomattavasti vahvemmin tuettu (L1, TRIDENT). Siinä hyöty tulee kuitenkin kolmen lääkkeen kiinteästä yhdistelmästä, eikä sitä voi kohdistaa pelkästään amlodipiinille.
 
+<!-- review:begin fi-lic-20261106-amlodipine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Aivorunkoinfarktille ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, joten ennuste on pelkkä mallin tuottama hypoteesi (L5). Lisäksi kaikki Suomen myyntiluvat on peruttu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 8 myyntilupaa, joista 8 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-amlodipine-1 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (tämä on estävä tietopuute turvallisuusseulonnalle)
 - Tarkat vaikutusmekanismitiedot
 - Systemaattinen kirjallisuushaku aivorunkoinfarktista ja amlodipiinista
 - TRIDENT-tutkimuksen vuoden 2026 tulosten tarkistus alkuperäisjulkaisusta (vaikutuksen suuruus ja turvallisuus), jos aivoverenvuodon ehkäisyn suuntaa tutkitaan
 - Arvio siitä, onko Suomessa saatavilla voimassa olevaa amlodipiinivalmistetta, ja sairauksien samankaltaisuuden sekä antoreitin soveltuvuuden arviointi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

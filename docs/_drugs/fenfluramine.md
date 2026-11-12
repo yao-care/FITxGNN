@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Fenfluramine: ennustettu uusi käyttöaihe Proksimaalinen 16p11.2-mikrodeleetiosyndrooma (näytön taso L5). Alkuperäinen käyttöaihe: Myokloniset epilepsiat"
 monitor_inn: "Fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
@@ -90,11 +90,37 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Ennuste perustuu ainoastaan malliin (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, ja mekanistinen yhteys on vahvistamaton hypoteesi. Tietämysgraafi tuo esiin merkittäviä vasta-aiheita.
 
+<!-- review:begin fi-lic-20261106-fenfluramine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja tietämysgraafi tuo esiin merkittäviä vasta-aiheita.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-fenfluramine-1 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja jäsentäminen Fimean sivustolta (estävä tietoaukko turvallisuusarvioinnin jatkamiselle)
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA) esimerkiksi DrugBankista
 - Kirjallisuushaku ja prekliiniset tutkimukset fenfluramiinista 16p11.2-deleetiomalleissa
 - Selvitys antoreittien yhteensopivuudesta ja käyttöaiheen samankaltaisuudesta alkuperäiseen käyttöaiheeseen
+
+<!-- review:begin fi-lic-20261106-fenfluramine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys antoreittien yhteensopivuudesta ja käyttöaiheen samankaltaisuudesta alkuperäiseen käyttöaiheeseen / Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittäminen Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-fenfluramine-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittäminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

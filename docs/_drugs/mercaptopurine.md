@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 282
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L2). Alkuperäinen käyttöaihe: Leukemia, Lymphoid"
@@ -155,12 +155,38 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole saatavilla; katso tuo
 - Ennustettu myeloidinen leukemia perustuu monilääkeprotokolliin, joissa merkaptopuriinin oma panos ei erotu, ja yksittäishoidon satunnaistettua näyttöä ei ole.
 - Aineiston vahvimmat tulokset (ALL, prekursori-lymfoblastileukemia/lymfooma; L1, "Proceed with Guardrails") ovat lääkkeen alkuperäistä käyttöä, eivät uudelleenkäyttöä.
 
+<!-- review:begin fi-lic-20261106-mercaptopurine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennustettu myeloidinen leukemia perustuu monilääkeprotokolliin, joissa merkaptopuriinin oma panos ei erotu, ja yksittäishoidon satunnaistettua näyttöä ei ole. Suomessa ainoa myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-mercaptopurine-1 -->
+
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (puute estää turvallisuusseulonnan)
 - Vaikutusmekanismin tarkka dokumentointi
 - Merkaptopuriinin osuuden erottaminen AML-ylläpitohoidosta (esim. kontrolloitu tutkimus tai alaryhmäanalyysi)
 - Valmisteen saatavuuden vahvistaminen Suomessa
 - Suojatoimet: TPMT/NUDT15-genotyypitys ja annoksen säätö, luuydin- ja maksatoksisuuden seuranta sekä yhteisvaikutusten hallinta (esim. allopurinoli, metotreksaatti)
+
+<!-- review:begin fi-lic-20261106-mercaptopurine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valmisteen saatavuuden vahvistaminen Suomessa (myyntilupa peruutettu)” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-mercaptopurine-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”(myyntilupa peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

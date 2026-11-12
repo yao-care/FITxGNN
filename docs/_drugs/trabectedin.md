@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
 description: "Trabectedin: ennustettu uusi käyttöaihe Female breast carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Sarcoma"
@@ -119,11 +119,37 @@ Muista turvallisuustiedoista (varoitukset, vasta-aiheet) katso valmisteyhteenvet
 **Perustelut:**
 - Rintasyöpää koskevaa vaiheen 2 näyttöä on (mm. satunnaistettu tutkimus ja BRCA-mutaatiotutkimus), ja mekanistinen perusta on uskottava. Ainoa rekisteröity kliininen tutkimus on kuitenkin QT-turvallisuustutkimus, eikä vaiheen 3 tehonäyttöä ole.
 
+<!-- review:begin fi-lic-20261106-trabectedin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa rekisteröity kliininen tutkimus on kuitenkin QT-turvallisuustutkimus, eikä vaiheen 3 tehonäyttöä ole. Lisäksi molemmat Suomen myyntiluvat on peruutettu, eikä valmisteyhteenvedon turvallisuustietoja ole saatavilla.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-trabectedin-1 -->
+
 **Jatkamiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimealta
 - Vaikutusmekanismitietojen täydentäminen (DrugBank)
 - Rintasyöpää koskevien vaiheen 2 tutkimusten tulosten arviointi tarkemmin (teho, osallistujaryhmät, haittavaikutukset), erityisesti BRCA-mutaatiota kantavien ja kolmoisnegatiivisten potilaiden osalta
 - Suunnitelma myelosuppression ja maksatoksisuuden seurannasta sekä yhteisvaikutusten (erityisesti klaritromysiini) hallinnasta
+
+<!-- review:begin fi-lic-20261106-trabectedin-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Rintasyöpää koskevien vaiheen 2 tutkimusten tulosten arviointi tarkemmin (teho, osallistujaryhmät, haittavaikutukset), erityisesti BRCA-mutaatiota kantavien ja kolmoisnegatiivisten potilaiden osalta / Selvitys myyntiluvan peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-trabectedin-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu, eikä valmisteyhteenvedon turvallisuustietoja ole saatavilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

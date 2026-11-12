@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Nintedanib: ennustettu uusi käyttöaihe Dermatofibrosarcoma protuberans (näytön taso L5). Alkuperäinen käyttöaihe: Idiopaattinen keuhkofibroosi (sekä interstitiaaliset keuhkosairaudet…"
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
@@ -120,12 +120,24 @@ Varoituksia ja vasta-aiheita koskevat tiedot eivät olleet saatavilla; niiden os
 **Perustelut:**
 - Ennuste perustuu mekanistisesti uskottavaan PDGFR-yhteyteen, mutta tukena on vain yksi yleiskatsaus eikä yhtään kliinistä tai nintedanibia koskevaa prekliinistä tutkimusta. Imatinibi on DFSP:ssa jo vakiintunut hoito, joten nintedanibin lisäarvo on epäselvä.
 
+<!-- review:begin fi-lic-20261106-nintedanib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Imatinibi on DFSP:ssa jo vakiintunut hoito, joten nintedanibin lisäarvo on epäselvä. Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nintedanib-1 -->
+
 **Jatkoa varten tarvitaan:**
 - Nintedanibia koskevat prekliiniset tiedot (esim. DFSP-solulinjat ja eläinmallit)
 - Vertailu imatinibiin sekä resistenssin tai imatinibi-intoleranssin tilanteen arviointi
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean tiedot), jotta turvallisuusarviointi voidaan tehdä
 - Vaikutusmekanismitietojen täydentäminen DrugBankista
 - Selvitys valmisteen saatavuudesta Suomessa
+
+<!-- review:begin fi-lic-20261106-nintedanib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys valmisteen saatavuudesta Suomessa, koska voimassa olevia myyntilupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nintedanib-2 -->
 
 ---
 
@@ -137,6 +149,20 @@ Varoituksia ja vasta-aiheita koskevat tiedot eivät olleet saatavilla; niiden os
 | 3 | Munasarjan myksoidi liposarkooma | 0,9912 | L5 | Hold |
 
 Kummallekaan ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, ja ennusteet ovat pelkästään laskennallisia.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

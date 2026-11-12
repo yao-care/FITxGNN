@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: ennustettu uusi käyttöaihe Tendinitis (näytön taso L5). Alkuperäinen käyttöaihe: Anxiety Disorders"
@@ -87,6 +87,12 @@ Tällä hetkellä ei ole tendiniittiin liittyviä rekisteröityjä kliinisiä tu
 
 Taulukossa on 5 niistä.
 
+<!-- review:begin fi-lic-20261106-pregabalin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 6 myyntilupaa ovat keskitettyjä EU-myyntilupia, ja ne on peruutettu. Taulukossa on 5 niistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pregabalin-1 -->
+
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Myyntilupaan hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
 | EMEA/H/C/000546 | Lyrica | Ei ilmoitettu | Epilepsia, ahdistuneisuushäiriöt, hermosärky | Peruutettu |
@@ -126,13 +132,40 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 **Perustelut:**
 - Tendiniittiennuste perustuu vain TxGNN-malliin. Kliinisiä tutkimuksia ei ole, eikä kirjallisuus osoita pregabaliinin hoitavan tendiniittiä itseään.
 
+<!-- review:begin fi-lic-20261106-pregabalin-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliinisiä tutkimuksia ei ole, eikä kirjallisuus osoita pregabaliinin hoitavan tendiniittiä itseään. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pregabalin-2 -->
+
 **Eteenpäin siirtymiseksi tarvitaan:**
 - tendiniittiä (esim. tendinopatia, kiertäjäkalvosin- tai akillesjänneperäinen kipu) suoraan tutkivia kontrolloituja tutkimuksia
 - valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys sekä yksityiskohtaisemmat vaikutusmekanismitiedot
 - selvitys pregabaliinivalmisteiden nykyisestä saatavuudesta Suomessa
 - turvallisuuden seurantasuunnitelma erityisesti munuaisten vajaatoimintaa sairastaville sekä opioidien tai muiden keskushermostoa lamaavien lääkkeiden käyttäjille
 
+<!-- review:begin fi-lic-20261106-pregabalin-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”selvitys pregabaliinivalmisteiden nykyisestä saatavuudesta Suomessa, koska keskitetyt myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pregabalin-3 -->
+
 **Huomio muista ennusteista:** Samasta aineistosta **migreeni** (sijalla 5, TxGNN-pisteet 0,9947) on selvästi paremmin tuettu kuin tendiniitti. Siitä löytyy mm. lasten satunnaistettuja kokeita (pregabaliini vs. propranololi ja natriumvalproaatti) sekä prekliinistä näyttöä kortikaalisen leviävän depression estosta. Aikuisten vaiheen 3 tutkimus (NCT00447369) kuitenkin peruttiin ilman tuloksia. Migreeniä kannattaa tarkastella erillisenä tutkimuskysymyksenä.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki 6 myyntilupaa ovat keskitettyjä EU-myyntilupia, ja ne on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska keskitetyt myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

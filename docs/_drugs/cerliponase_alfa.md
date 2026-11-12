@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Cerliponase Alfa: ennustettu uusi käyttöaihe Scheien oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Neuronaaliset seroidilipofuskinoosit"
 monitor_inn: "CERLIPONASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
@@ -107,12 +107,31 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Ennusteelle ei ole kliinistä tai kirjallista tukea (näytön taso L5), eikä ole mekanistista perustetta, koska TPP1 ei korvaa iduronidaasia. Kaikki kymmenen ennustettua käyttöaihetta on arvioitu tasolla Hold.
 - Turvallisuustiedot puuttuvat, joten edetä ei voi.
 
+<!-- review:begin fi-lic-20261106-cerliponase_alfa-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi Suomessa on vain yksi peruutettu myyntilupa, ja turvallisuustiedot puuttuvat, joten edetä ei voi.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-cerliponase_alfa-1 -->
+
 **Eteneminen edellyttäisi seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta (estävä tietoaukko)
 - Vaikutusmekanismitietojen täydentäminen DrugBankista
 - Prekliinistä tai mekanistista näyttöä siitä, että TPP1 voisi vaikuttaa Scheien oireyhtymän patologiaan
 - Antoreittien yhteensopivuuden arviointi (nykyinen reitti on intraventrikulaarinen)
 - Vaihtoehtoisesti sellaisen ennustetun käyttöaiheen valinta, jolla on vahvempi biologinen peruste
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain yksi peruutettu myyntilupa, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

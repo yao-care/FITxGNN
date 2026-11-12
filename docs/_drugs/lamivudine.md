@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Hepatitis B, Chronic"
@@ -101,6 +101,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 - **Tietokannan vasta-aiheet (tietämysgraafi, ei valmisteyhteenvetoa):** maksan vajaatoiminta, munuaissairaus, haimatulehdus, maksasairaus, sappirakon sairaus, myopatia ja lihassairaudet, neutropenia, agranulosytoosi, hypertriglyseridemia, anemia, rasvamaksa ja ei-alkoholiperäinen steatohepatiitti, maitohappoasidoosi, dermatomyosiitti ja myosiitti. Nämä perustuvat TxGNN-tietämysgraafiin, eivät valmisteyhteenvedon tekstiin.
 - **Lääkeyhteisvaikutukset:** haettu 100 yhteisvaikutusta. Kohtalaisiksi luokiteltuja ovat laktitoli, mannitoli, naltreksoni, orlistaatti ja sorbitoli. Muiden (mm. metformiini, omepratsoli, vankomysiini, amfoterisiini B) vaikutustaso on tuntematon.
 
+<!-- review:begin fi-lic-20261106-lamivudine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki lamivudiinia sisältävät keskitetyt myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 10 myyntilupaa, joista 10 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-lamivudine-1 -->
+
 Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten tarkista ne valmisteyhteenvedosta.
 
 ---
@@ -111,6 +117,12 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten tarkis
 
 **Perustelut:**
 - Ennuste on mekanistisesti uskottava, mutta näyttö on vain eläinlääketieteellistä ja yhdistelmähoitoihin perustuvaa. Lamivudiinin oma osuus on erottamatta, eikä kyseessä ole uusi ihmisen käyttöaihe.
+
+<!-- review:begin fi-lic-20261106-lamivudine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lamivudiinin oma osuus on erottamatta, eikä kyseessä ole uusi ihmisen käyttöaihe. Lääkkeellä ei myöskään ole voimassa olevia myyntilupia Suomessa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 10 myyntilupaa, joista 10 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-lamivudine-2 -->
 
 **Edetäkseen tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku ja jäsentäminen Fimean sivuilta (estää turvallisuusarvioinnin jatkamisen)
@@ -123,6 +135,20 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten tarkis
 ### Huomio muista ennusteista
 
 Aineistossa oli myös muita ennusteita, joista mikään ei ole vahva: apinoiden immuunikatovirus (SIV; vain prekliininen malli, ei uusi ihmisen käyttöaihe, koska HIV on jo hyväksytty käyttöaihe), krooninen hepatiitti C (ei tunnettua tehoa HCV:hen), neurokehityshäiriö ja vanhentunut familiaalisen yhdistetyn hyperlipidemian termi (ei mekanistista perustetta, vain mallin ennuste). Kaikkien suositus on Hold.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki lamivudiinia sisältävät keskitetyt myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lääkkeellä ei myöskään ole voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Emtricitabine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (FIV) (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektiot"
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -90,6 +90,12 @@ Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkim
 
 Valmisteet on listattu keskitetyillä EU-myyntiluvilla (EMEA), ja kaikissa käyttöaihe on HIV-infektiot. Alla viisi esimerkkiä:
 
+<!-- review:begin fi-lic-20261106-emtricitabine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 18 myyntilupaa on peruutettu. Valmisteet on listattu keskitetyillä EU-myyntiluvilla (EMEA), ja kaikissa käyttöaihe on HIV-infektiot.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 18 myyntilupaa, joista 18 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-emtricitabine-1 -->
+
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000533 | Emtriva | – | HIV-infektiot |
@@ -120,11 +126,38 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla; tarkista
 - Ennuste koskee eläintautia (FIV), eikä kliinisiä tutkimuksia ole. Näyttö on vain prekliinistä (L4), ja korkea TxGNN-pistemäärä kuvaa verkostosamankaltaisuutta, ei tehoa.
 - Valmisteyhteenvedon turvallisuustiedot puuttuvat, joten turvallisuusseulontaan ei voi edetä.
 
+<!-- review:begin fi-lic-20261106-emtricitabine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki Suomen myyntiluvat on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat, joten turvallisuusseulontaan ei voi edetä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 18 myyntilupaa, joista 18 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-emtricitabine-2 -->
+
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
 - Vaikutusmekanismitietojen täydentämistä (DrugBank)
 - Selkeää päätöstä siitä, onko eläinlääkinnällinen käyttöaihe tämän arvioinnin kannalta relevantti
 - FIV:n osalta kontrolloituja tutkimuksia emtrisitabiinilla yksinään, sillä nykyinen näyttö koskee yhdistelmähoitoa
+
+<!-- review:begin fi-lic-20261106-emtricitabine-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”FIV:n osalta kontrolloituja tutkimuksia emtrisitabiinilla yksinään, sillä nykyinen näyttö koskee yhdistelmähoitoa / Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 18 myyntilupaa, joista 18 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-emtricitabine-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki 18 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on peruutettu, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

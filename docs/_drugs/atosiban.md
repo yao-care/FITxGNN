@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Atosiban: ennustettu uusi käyttöaihe Primaarinen perinnöllinen glaukooma (näytön taso L5). Alkuperäinen käyttöaihe: Ennenaikainen synnytys"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -78,6 +78,12 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta primaar
 
 Sivuhuomio: toiseksi viimeisenä luetellun ennusteen "verisuonisairaus" osalta aineistossa oli 14 julkaisua. Ne koskevat pääosin oksitosiinin (atosibaanin kohdeligandin) sydänsuojaavaa vaikutusta rottamalleissa, eivät atosibaania itseään. Yksi kohorttitutkimus (PMID 30646165, 2018, JAMA Network Open) liitti tokolyyttialtistuksen ennenaikaisten vauvojen aivoverenvuotoon ja kuolemaan, mikä on turvallisuussignaali eikä hyötynäyttöä. Verisuonisairauden näyttötaso on L4 ja suositus "tutkimuskysymys".
 
+<!-- review:begin fi-lic-20261106-atosiban-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kumpikaan myyntilupa ei ole voimassa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-atosiban-1 -->
+
 ---
 
 ## Markkinatiedot Suomessa
@@ -105,12 +111,39 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tätä rapo
 **Perustelut:**
 - Ennuste perustuu pelkästään laskennalliseen malliin (L5). Kliinisiä tutkimuksia tai kirjallisuutta ei ole, eikä uskottavaa mekanistista yhteyttä glaukoomaan ole osoitettu. Peptidinä sen antoreitti (infuusio) ei sovellu silmäsairauden pitkäaikaishoitoon ilman uutta lääkemuotoa.
 
+<!-- review:begin fi-lic-20261106-atosiban-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi lääkkeen kaikki Suomen myyntiluvat on peruutettu, ja peptidinä sen antoreitti (infuusio) ei sovellu silmäsairauden pitkäaikaishoitoon ilman uutta lääkemuotoa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-atosiban-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Mekanistista selvitystä oksitosiini- ja vasopressiinireseptoreiden roolista silmänsisäisessä paineessa ja kammiovesidynamiikassa
 - Prekliinisiä kokeita (esim. soluviljelmät tai eläinmallit glaukoomassa)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista turvallisuusarviointia varten
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
 - Antoreitin ja lääkemuodon (esim. paikallinen silmälääke) soveltuvuuden arviointia
+
+<!-- review:begin fi-lic-20261106-atosiban-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Antoreitin ja lääkemuodon (esim. paikallinen silmälääke) soveltuvuuden arviointia / Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-atosiban-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kumpikaan myyntilupa ei ole voimassa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi lääkkeen kaikki Suomen myyntiluvat on peruutettu, ja p” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

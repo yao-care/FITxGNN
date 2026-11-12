@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: ennustettu uusi käyttöaihe Beta-ketothiolase deficiency (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsy"
@@ -115,6 +115,12 @@ Aineistossa on lisäksi muita tutkimuksia (mm. NCT07163572, NCT06067412, NCT0417
 
 Taulukossa on viisi esimerkkiä.
 
+<!-- review:begin fi-lic-20261106-levetiracetam-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki yhdeksän myyntilupaa on merkitty peruutetuiksi, eikä voimassa olevia lupia ole. Taulukossa on viisi esimerkkiä.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 9 myyntilupaa, joista 9 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-levetiracetam-1 -->
+
 ---
 
 ## Turvallisuushuomiot
@@ -134,6 +140,12 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin
 **Perustelu:**
 - Kaksi vaiheen 3 satunnaistettua tutkimusta (NCT01960075, NCT01150331) ja useita vaiheen 2 tutkimuksia sekä merkittäviä julkaistuja RCT:itä (ESETT, EcLiPSE) tukevat käyttöä status epilepticuksessa. Näyttö vastaa tasoa L1. Käyttö on kuitenkin lähellä alkuperäistä käyttöaihetta.
 
+<!-- review:begin fi-lic-20261106-levetiracetam-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Käyttö on kuitenkin lähellä alkuperäistä käyttöaihetta. / Suomessa kaikki myyntiluvat on peruutettu, mikä on selvitettävä ennen käyttöönottoa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 9 myyntilupaa, joista 9 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-levetiracetam-2 -->
+
 **Muut ennusteet (kaikki heikommin tuettuja):**
 - **Startle-epilepsia (säpsähdysepilepsia):** taso L3, Research Question. Pienet avoimet tutkimukset ja tapausraportit, ei RCT:itä.
 - **Audiogeeniset kohtaukset:** taso L3, Research Question. Prekliinistä näyttöä ja kissoilla tehty RCT, ihmisnäyttö puuttuu.
@@ -146,6 +158,27 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin
 - Selvitys Suomen markkinatilanteesta.
 - Hoitolinjan sijoittelu paikallisten hoitosuositusten mukaan, munuaisten toiminnan mukainen annoksen säätö sekä käytöshaittojen (mielialan ja käytöksen muutokset) seuranta.
 - Aiheiden, joissa vain heikkoa näyttöä (startle-epilepsia, audiogeeniset kohtaukset), osalta kontrolloidut tutkimukset ennen jatkokäsittelyä.
+
+<!-- review:begin fi-lic-20261106-levetiracetam-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys Suomen markkinatilanteesta, koska kaikki myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 9 myyntilupaa, joista 9 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-levetiracetam-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki yhdeksän myyntilupaa on merkitty peruutetuiksi, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, mikä on selvitettävä ennen käyttöönottoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

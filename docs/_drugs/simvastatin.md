@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: ennustettu uusi käyttöaihe Brain stem infarction (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemias"
@@ -115,6 +115,12 @@ Vain kaksi tutkimusta (ENHANCE ja nuorten ezetimibi–simvastatiinitutkimus) arv
 - **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi 100. Merkittäviksi (Major) luokiteltuja ovat muun muassa amiodaroni, amlodipiini ja fenofibraatti. Useat muut, esimerkiksi nifedipiini, omepratsoli, aprepitantti ja etanoli, ovat keskivakavia (Moderate).
 - **HIV-lääkitys:** Simvastatiini on CYP3A4-substraatti, ja proteaasinestäjät sekä kobisistaattia sisältävät hoito-ohjelmat nostavat merkittävästi sen pitoisuutta ja myopatian riskiä.
 
+<!-- review:begin fi-lic-20261106-simvastatin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valmisteella on vain yksi, peruutettu myyntilupa. Voimassa olevia simvastatiinivalmisteita ei tässä aineistossa ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-simvastatin-1 -->
+
 Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, joten niiden osalta on tarkistettava Fimean valmisteyhteenveto.
 
 ---
@@ -127,6 +133,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 - Simvastatiinin mekanismi on sama kuin alkuperäisessä käyttöaiheessa, ja familiaalisessa hyperkolesterolemiassa on useita vaiheen 3 tutkimuksia ja ohjeistuksia. Näyttötaso on L1, mutta suoraan simvastatiinia arvioivia tutkimuksia on vain kaksi.
 - Valmisteyhteenvedon turvallisuustiedot puuttuvat, mikä rajoittaa etenemistä.
 
+<!-- review:begin fi-lic-20261106-simvastatin-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat, mikä rajoittaa etenemistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-simvastatin-2 -->
+
 **Jatkaminen edellyttää:**
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja läpikäyntiä (turvallisuusseulonnan estävä tietoaukko)
 - Vaikutusmekanismitietojen täydentämistä lääketietokannasta
@@ -134,6 +146,20 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 - Yhteisvaikutusten hallintasuunnitelmaa (erityisesti amiodaroni, amlodipiini, fenofibraatti ja HIV-lääkkeet) sekä lihasoireiden ja maksa-arvojen seurantaa
 
 **Muut ennustetut käyttöaiheet:** Dominantisti periytyvä hyperkolesterolemia (sija 4) on samalla tavalla Proceed with Guardrails -tasolla. HIV-infektion yhteydessä kyse on lähinnä HIV-potilaiden rasvahäiriön hoidosta, ei infektion hoidosta (näyttö L3, tutkimuskysymys). Aivorunkoinfarkti, CETP-puutos, CYP7A1-puutteeseen liittyvä hyperkolesterolemia, ABri-amyloidoosi ja harvinainen neurokehityshäiriö on arvioitu Hold-tasolle, koska näyttö on vähäistä tai puuttuu.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Valmisteella on vain yksi, peruutettu myyntilupa. Voimassa olevia simvastatiinivalmisteita ei tässä aineistossa ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Filgrastim: ennustettu uusi käyttöaihe Primary release disorder of platelets (näytön taso L5). Alkuperäinen käyttöaihe: Hematopoieettinen kantasolusiirto"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -90,6 +90,12 @@ Alla olevat tutkimukset liittyvät listan 10. ennusteeseen (platelet-type bleedi
 
 Valmisteista ei ole tässä aineistossa annettu lääkemuotoa.
 
+<!-- review:begin fi-lic-20261106-filgrastim-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki seitsemän myyntilupaa on peruutettu. Valmisteista ei ole tässä aineistossa annettu lääkemuotoa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-filgrastim-1 -->
+
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000918 | Filgrastim Hexal | – | Hematopoieettinen kantasolusiirto; syöpä |
@@ -120,11 +126,38 @@ Suuri osa näistä liittyy syöpähoitoihin, joissa filgrastiimia yleensä käyt
 **Perustelut:**
 - Ennuste perustuu pelkästään laskennalliseen malliin (L5). Mekanistinen yhteys verihiutaleiden toimintahäiriöihin on heikko, eikä suoria kliinisiä tai kirjallisuusnäyttöjä ole. Ainoa löytynyt tutkimusaineisto (7 kantasolusiirtotutkimusta) on epäsuoraa eikä testaa tätä käyttöaihetta.
 
+<!-- review:begin fi-lic-20261106-filgrastim-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa löytynyt tutkimusaineisto (7 kantasolusiirtotutkimusta) on epäsuoraa eikä testaa tätä käyttöaihetta. / Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten valmisteen saatavuus on epävarma.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-filgrastim-2 -->
+
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimean sivustolta), jotta turvallisuusarviointi voidaan tehdä
 - Vaikutusmekanismitiedot (esim. DrugBankista) mekanistisen yhteyden arviointia varten
 - Systemaattinen kirjallisuushaku filgrastiimista ja verihiutaleiden toimintahäiriöistä (prekliiniset ja kliiniset tutkimukset)
 - Reittien ja lääkemuotojen yhteensopivuuden arviointi, jos hanketta jatketaan
+
+<!-- review:begin fi-lic-20261106-filgrastim-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Systemaattinen kirjallisuushaku filgrastiimista ja verihiutaleiden toimintahäiriöistä (prekliiniset ja kliiniset tutkimukset) / Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-filgrastim-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten valmisteen saatavuus on epävarma” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

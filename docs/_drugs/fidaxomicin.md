@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "FIDAXOMICIN"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
 description: "Fidaxomicin: ennustettu uusi käyttöaihe Stafylokokin aiheuttama kuoriutuva ihosyndrooma (staphylococcal scalded skin syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Clostridium Infections"
@@ -110,12 +110,31 @@ Muuta turvallisuustietoa (varoitukset, vasta-aiheet) ei ole saatavilla; tarkista
 **Perustelut:**
 - Ennuste perustuu pelkkään mallipisteytykseen (L5), eikä sille ole kliinistä tutkimusta tai kirjallisuutta. Lääkkeen vähäinen imeytyminen heikentää uskottavuutta systeemisissä ja kudoskohteissa, ja vakiintuneita hoitoja on olemassa.
 
+<!-- review:begin fi-lic-20261106-fidaxomicin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lääkkeen vähäinen imeytyminen heikentää uskottavuutta systeemisissä ja kudoskohteissa, ja vakiintuneita hoitoja on olemassa. Lisäksi Suomen myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-fidaxomicin-1 -->
+
 **Etenemiseksi tarvitaan seuraavat tiedot tai toimet:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estää turvallisuusarvioinnin jatkamisen)
 - Vaikutusmekanismin (MOA) tiedot
 - Prekliiniset tiedot fidaksomisiinin tehosta SSSS:n aiheuttajaa (*S. aureus*) vastaan sekä kudosaltistuksesta
 - Arvio mahdollisista antoreiteistä (esim. paikallinen valmiste), sillä nykyinen suun kautta annettava muoto ei sovellu systeemiseen tai ihokohteeseen
 - Ennusteiden uudelleenarviointi vasta, kun ensimmäistä tukevaa kliinistä tai kirjallista näyttöä on saatavilla
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

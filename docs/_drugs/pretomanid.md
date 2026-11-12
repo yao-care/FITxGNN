@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PRETOMANID"
 predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
 description: "Pretomanid: ennustettu uusi käyttöaihe Candidiasis (näytön taso L5). Alkuperäinen käyttöaihe: Tuberculosis, Multidrug-Resistant"
@@ -83,6 +83,12 @@ Kandidoosista ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjalli
 
 Toiseksi sijoittuneesta ennusteesta (lepra) haettiin kahdeksan julkaisua, mutta ne koskevat kaikki lääkeresistenttiä tuberkuloosia eivätkä leprapotilaita. Ne eivät siis tue ennustetta. Ne kuvaavat kuitenkin pretomanidin käyttöä alkuperäisessä käyttöaiheessa:
 
+<!-- review:begin fi-lic-20261106-pretomanid-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on tilaltaan peruutettu, eikä Suomessa ole voimassa olevia pretomanidivalmisteiden myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pretomanid-1 -->
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
 | [41263908](https://pubmed.ncbi.nlm.nih.gov/41263908/) | 2025 | Katsaus | Archives of Microbiology | Kattava katsaus pretomanidiin lääkeresistentin keuhkotuberkuloosin hoidossa osana BPaL-hoito-ohjelmaa |
@@ -119,12 +125,32 @@ Varoituksia ja vasta-aiheita koskevat tiedot tulee tarkistaa valmisteyhteenvedos
 **Perustelut:**
 - Kaikkien viiden ennustetun käyttöaiheen näyttö on tasoa L5: kyse on vain mallin ennusteesta, eikä kliinisiä tutkimuksia tai aiheeseen osuvaa kirjallisuutta ole. Mekanistista yhteyttä ei ole osoitettu kandidoosille eikä sydän- ja verisuonitaudeille, ja lepran osalta se on vain teoreettisesti mahdollinen.
 
+<!-- review:begin fi-lic-20261106-pretomanid-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistista yhteyttä ei ole osoitettu kandidoosille eikä sydän- ja verisuonitaudeille, ja lepran osalta se on vain teoreettisesti mahdollinen. Lääkkeellä ei myöskään ole voimassa olevaa myyntilupaa Suomessa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pretomanid-2 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (Fimean sivustolta), sillä turvallisuusarviointia ei voi tehdä ilman niitä
 - Yksityiskohtainen vaikutusmekanismi (esim. DrugBankista)
 - Prekliiniset in vitro -tiedot pretomanidin vaikutuksesta *Candida*-lajeihin ja *M. leprae* -bakteeriin sekä Ddn-reitin esiintymisestä niissä
 - Lepran osalta kirjallisuushaun tarkennus, koska nykyiset osumat koskevat vain tuberkuloosia
 - Sydänturvallisuuden (QT-aika) ja yhteisvaikutusten arviointi ennen mitään jatkokehitystä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilaltaan peruutettu, eikä Suomessa ole voimassa olevia pretomanidivalmisteiden myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lääkkeellä ei myöskään ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

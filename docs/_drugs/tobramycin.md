@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 441
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: ennustettu uusi käyttöaihe Exposure keratitis (näytön taso L4). Alkuperäinen käyttöaihe: Respiratory Tract Infections"
@@ -109,12 +109,31 @@ Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Ennuste perustuu lähinnä mallin pisteytykseen (L4). Kliinisiä tutkimuksia ei ole, kirjallisuus on epäsuoraa, ja sarveiskalvon epiteelitoksisuus on huomattava turvallisuushuoli.
 
+<!-- review:begin fi-lic-20261106-tobramycin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliinisiä tutkimuksia ei ole, kirjallisuus on epäsuoraa, ja sarveiskalvon epiteelitoksisuus on huomattava turvallisuushuoli. Tobramysiinillä ei lisäksi ole voimassa olevia myyntilupia Suomessa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tobramycin-1 -->
+
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen Fimean sivuilta (estää tällä hetkellä turvallisuusarvioinnin).
 - Vaikutusmekanismitietojen täydentäminen DrugBankista.
 - Silmäkäyttöön soveltuvan valmisteen ja antoreitin saatavuuden selvittäminen.
 - Prekliininen ja kliininen näyttö tobramysiinin hyöty–haitta-suhteesta eksponoitumiskeratiitissa, erityisesti sarveiskalvon toksisuuden osalta.
 - Vaihtoehtoisena tutkimuskohteena voidaan harkita **ulkokorvatulehdusta** (decision stage S1, "Research Question"), jossa mekanistinen peruste on vahvempi. Sen vahvistamiseksi tarvitaan kontrolloituja tutkimuksia.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tobramysiinillä ei lisäksi ole voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

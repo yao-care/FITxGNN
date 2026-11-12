@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: ennustettu uusi käyttöaihe Duodenal obstruction (näytön taso L5). Alkuperäinen käyttöaihe: Gastroesophageal Reflux"
@@ -102,6 +102,12 @@ Ensisijaiselle käyttöaiheelle löytyneestä kirjallisuudesta merkittävimmät 
 
 Pohjukaissuolihaavan osalta vahvimmat suorat tutkimukset ovat satunnaistetut vertailut:
 
+<!-- review:begin fi-lic-20261106-pantoprazole-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa (valmistaja Takeda GmbH) on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pantoprazole-1 -->
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |---------|-----|------|------|---------|
 | [7569755](https://pubmed.ncbi.nlm.nih.gov/7569755/) | 1995 | RCT | Scand J Gastroenterol | Pantopratsoli vs. ranitidiini akuutissa pohjukaissuolihaavassa |
@@ -136,12 +142,39 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten ne tulee tarkis
 - Pantopratsolin happoestomekanismi sopii suoraan peptisen haavataudin ja pohjukaissuolihaavan hoitoon, ja näille on useita vaiheen 3 tutkimuksia sekä satunnaistettuja vertailuja ranitidiiniin ja omepratsoliin. Peptisen haavataudin ensisijaisessa ennusteessa suoraa tukea antaa kuitenkin vain yksi päättynyt vaiheen 3 tutkimus, jonka otsikko on katkaistu.
 - Muiden ennustettujen käyttöaiheiden päätökset: gastrojejunaalihaava, haavan puhkeama ja duodenogastrinen refluksi ovat tutkimuskysymystasolla (L3), ja pohjukaissuolen tukos on pidossa (Hold; L5), koska tila on mekaaninen eikä happoesto ratkaise sitä.
 
+<!-- review:begin fi-lic-20261106-pantoprazole-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Muiden ennustettujen käyttöaiheiden päätökset: gastrojejunaalihaava, haavan puhkeama ja duodenogastrinen refluksi ovat tutkimuskysymystasolla (L3), ja pohjukaissuolen tukos on pidossa (Hold; L5), koska tila on mekaaninen eikä happoesto ratkaise sitä. / Suomessa kaikki myyntiluvat on peruutettu, mikä rajoittaa suoraa käyttöönottoa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pantoprazole-2 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonnan estävä aineistopuute)
 - Tutkimuksen NCT02084420 vertailuasetelman ja päätetapahtuman varmistus
 - Virallinen mekanismitieto (DrugBank)
 - Myyntilupatilanteen selvitys Suomessa
 - Luustoon liittyvien vasta-aiheiden (osteoporoosi, murtumat) ja B12-puutteen arviointi pitkäaikaiskäytössä
+
+<!-- review:begin fi-lic-20261106-pantoprazole-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Myyntilupatilanteen selvitys Suomessa, koska voimassa olevia lupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pantoprazole-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa (valmistaja Takeda GmbH) on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, mikä rajoittaa suoraa käyttöönottoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

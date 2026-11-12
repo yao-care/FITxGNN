@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: ennustettu uusi käyttöaihe Malignant cutaneous granular cell skin tumor (näytön taso L5). Alkuperäinen käyttöaihe: Stomach Neoplasms"
@@ -116,6 +116,12 @@ Taulukossa on 10 relevanteimpaa tutkimusta, mutta tälle käyttöaiheelle on kai
 
 Taulukossa on viisi esimerkkiä.
 
+<!-- review:begin fi-lic-20261106-trastuzumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 11 myyntilupaa on peruutettu, eikä voimassa olevia valmisteita ole. Taulukossa on viisi esimerkkiä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-trastuzumab-1 -->
+
 ---
 
 ## Sytotoksisuus
@@ -155,6 +161,12 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Trastutsumabin teho HER2-positiivisessa rintasyövässä on vahvasti osoitettu suurilla vaiheen 3 tutkimuksilla, ja teho määräytyy HER2-statuksen, ei PR-statuksen mukaan. Kyseessä on pikemminkin vakiintunut käyttö kuin uusi käyttöaihe.
 
+<!-- review:begin fi-lic-20261106-trastuzumab-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kyseessä on pikemminkin vakiintunut käyttö kuin uusi käyttöaihe. / Suomessa kaikki myyntiluvat on peruutettu, joten saatavuus on selvitettävä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-trastuzumab-2 -->
+
 **Eteneminen edellyttää:**
 - HER2-statuksen varmistamista ennen hoitoa ja HER2-negatiivisen (kolmoisnegatiivisen) taudin rajaamista pois
 - Sydämen toiminnan (LVEF) seurantasuunnitelmaa
@@ -162,6 +174,20 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä
 - Suomen markkinatilanteen ja valmisteiden saatavuuden selvittämistä
 - Yhteensovittamista hormonihoidon kanssa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki 11 myyntilupaa on peruutettu, eikä voimassa olevia valmisteita ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, joten saatavuus on selvitettävä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

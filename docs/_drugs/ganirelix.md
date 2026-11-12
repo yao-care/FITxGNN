@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ganirelix: ennustettu uusi käyttöaihe Hypertrikoosi (näytön taso L5). Alkuperäinen käyttöaihe: Avustetut lisääntymistekniikat, ovulaation induktio…"
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -101,11 +101,30 @@ Varoituksista ja vasta-aiheista tarkemmat tiedot löytyvät valmisteyhteenvedost
 **Perustelut:**
 - Ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja mekanistinen yhteys hypertrikoosiin on heikko.
 
+<!-- review:begin fi-lic-20261106-ganirelix-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja mekanistinen yhteys hypertrikoosiin on heikko. Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ganirelix-1 -->
+
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkimista Fimeasta (estää tällä hetkellä turvallisuusseulonnan)
 - Yksityiskohtaisen vaikutusmekanismitiedon täydentämistä DrugBankista
 - Jos jatketaan, painopisteen siirtämistä sentraaliseen ennenaikaiseen puberteettiin, jossa mekanistinen perustelu on uskottavampi, sekä prekliinistä tai kirjallisuuteen perustuvaa selvitystä
 - Annosmuodon ja antoreitin soveltuvuuden arviointia uudelle käyttöaiheelle
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

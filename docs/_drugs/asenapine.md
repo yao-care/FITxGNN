@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "Asenapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Asenapine: ennustettu uusi käyttöaihe Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia (retinal dystrophy with or without extraocular anomalies) (näytön taso L5)."
@@ -74,6 +74,12 @@ Ennustettuun käyttöaiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä 
 
 Ennustettuun käyttöaiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
+<!-- review:begin fi-lic-20261106-asenapine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on peruutettu, joten voimassa olevaa asenapiinivalmistetta ei Suomessa ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-asenapine-1 -->
+
 ---
 
 ## Markkinatiedot Suomessa
@@ -108,6 +114,12 @@ Julkaisuissa mainitaan lisäksi uneliaisuus, akatisia ja painonnousu antipsykoot
 - Ennuste perustuu pelkästään mallin pistemäärään (L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä asenapiinin farmakologian ja verkkokalvon dystrofian välillä ole uskottavaa mekanistista yhteyttä.
 - Lääkkeellä on laaja mahdollisten vasta-aiheiden profiili.
 
+<!-- review:begin fi-lic-20261106-asenapine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja lääkkeellä on laaja mahdollisten vasta-aiheiden profiili.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-asenapine-2 -->
+
 **Jatkoon tarvitaan:**
 - Vaikutusmekanismitiedot ja selvitys siitä, voisiko mikään asenapiinin kohteista liittyä verkkokalvon patologiaan
 - Prekliiniset tutkimukset (esim. verkkokalvon rappeuman solu- tai eläinmallit), jotta saadaan vähintään L4-tason näyttö
@@ -115,6 +127,20 @@ Julkaisuissa mainitaan lisäksi uneliaisuus, akatisia ja painonnousu antipsykoot
 - Selvitys antoreitistä: asenapiini on sublingvaalinen valmiste, ja silmäsairauteen tarvittaisiin todennäköisesti toinen antotapa
 
 Se on kuitenkin lääkkeen alkuperäinen käyttöaihe, joten kyse on uudelleen löydetystä käyttöaiheesta eikä aidosta uudelleenkäytöstä.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu, joten voimassa olevaa asenapiinivalmistetta ei Suomessa ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja l” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

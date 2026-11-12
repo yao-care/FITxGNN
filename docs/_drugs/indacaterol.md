@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
 description: "Indacaterol: ennustettu uusi käyttöaihe Nephrogenic syndrome of inappropriate antidiuresis (näytön taso L5). Alkuperäinen käyttöaihe: Pulmonary Disease, Chronic Obstructive"
@@ -106,6 +106,12 @@ Lähes kaikki tutkimukset on tehty astmapotilailla, eli jo hyväksytyssä käytt
 
 Huomautus: kaksi lähdettä (PMID 32653074 ja 34783265) on luokiteltu RCT-tyyppisiksi aineistossa; jälkimmäinen on todellisuudessa katsaustyyppinen artikkeli.
 
+<!-- review:begin fi-lic-20261106-indacaterol-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 10 myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 10 myyntilupaa, joista 8 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-indacaterol-1 -->
+
 ---
 
 ## Myyntiluvat Suomessa
@@ -144,12 +150,32 @@ Täydelliset turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Näyttö koskee pääosin jo hyväksyttyjä käyttöaiheita (astma, COPD), joten se ei osoita uutta uudelleenkäyttöä.
 - Muiden ennustettujen käyttöaiheiden (esim. päänsärky, myosiitti, anafylaksia) tukena ei ole kliinistä näyttöä eikä uskottavaa mekanismia.
 
+<!-- review:begin fi-lic-20261106-indacaterol-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö koskee pääosin jo hyväksyttyjä käyttöaiheita (astma, COPD), joten se ei osoita uutta uudelleenkäyttöä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten kaupallinen ja sääntelyllinen tilanne on epäselvä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 10 myyntilupaa, joista 8 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-indacaterol-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Fimean pakkausselosteen varoitusten ja vasta-aiheiden hankkimista ja läpikäyntiä (estää tällä hetkellä turvallisuusarvioinnin etenemisen)
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
 - Myyntilupien peruuttamisen syiden sekä markkinatilanteen sääntely- ja kaupallisen arvioinnin selvittämistä
 - Tarkennusta siitä, mitä "keuhkoputkisairaus" tarkoittaa suhteessa nykyisiin käyttöaiheisiin, ja onko olemassa aidosti uusi potilasryhmä
 - Sydän- ja verisuoni- sekä aineenvaihduntariskien arviointia, koska tietämysgraafi liittää lääkkeeseen useita näihin liittyviä vasta-aiheita
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki 10 myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten kaupallinen ja sääntelyllinen tilanne on epäselvä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

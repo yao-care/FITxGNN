@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
 description: "Cabozantinib: ennustettu uusi käyttöaihe Liposarkooma (liposarcoma) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Renal Cell"
@@ -61,6 +61,12 @@ Tämän raportin tarpeisiin koottu aineisto ei sisällä yksityiskohtaista vaiku
 Alkuperäiset käyttöaiheet, kuten munuaissolusyöpä, ovat kasvaimia, joissa samat signalointireitit ovat keskeisiä. Tämä tekee mekanistisesti uskottavaksi, että lääke voisi tehota myös pehmytkudossarkoomiin ja liposarkoomaan. Liposarkoomaspesifistä näyttöä ei kuitenkaan vielä ole. Tutkimus koskee sekalaista pehmytkudossarkoomapotilasryhmää, jossa liposarkooma on korkeintaan osaryhmä.
 
 Luokittelemattoman munuaissolusyövän kohdalla perustelu on vahvempi: MET- ja VEGF-reitit ovat merkityksellisiä ei-kirkassolusyövissä, ja useat vaiheen 2 tutkimukset sekä takautuvat aineistot osoittavat lääkkeen tehoavan niihin.
+
+<!-- review:begin fi-lic-20261106-cabozantinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia valmisteita ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-cabozantinib-1 -->
 
 ## Kliininen tutkimusnäyttö
 
@@ -153,6 +159,26 @@ Munuaiskarsinooman L1-näyttö perustuu vaiheen 3 tutkimuksiin (METEOR, CheckMat
 - NCT05836571:n tulokset ja liposarkoomaspesifiset alaryhmäanalyysit on odotettava.
 - Nykyinen saatavuus (esim. keskitetty EU-myyntilupa) on selvitettävä.
 - Yhteisvaikutusten hallintasuunnitelma (erityisesti QT-aikaa pidentävät ja CYP3A4:n kautta vaikuttavat lääkkeet) ja turvallisuusseurantasuunnitelma on laadittava.
+
+<!-- review:begin fi-lic-20261106-cabozantinib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suomen myyntilupien peruutuksen syy ja nykyinen saatavuus (esim. keskitetty EU-myyntilupa) on selvitettävä.” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-cabozantinib-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia valmisteita ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomen myyntilupien peruutuksen syy ja n” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

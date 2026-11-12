@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase: ennustettu uusi käyttöaihe Congenital coronary artery anomaly (näytön taso L5). Alkuperäinen käyttöaihe: Myocardial Infarction"
@@ -120,12 +120,38 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 **Perustelut:**
 - Parhaiten pisteytetyt ennusteet ovat jo hyväksytyn sydäninfarktiaiheen alatyyppejä, eikä niille ole omaa kliinistä näyttöä (L5–L4). Ainoa kohtalaisesti tuettu suunta, koronaarinen ahtauma (L3, tutkimuskysymys), perustuu pieniin, heterogeenisiin ja pääosin havainnoiviin tutkimuksiin.
 
+<!-- review:begin fi-lic-20261106-tenecteplase-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa kohtalaisesti tuettu suunta, koronaarinen ahtauma (L3, tutkimuskysymys), perustuu pieniin, heterogeenisiin ja pääosin havainnoiviin tutkimuksiin. Lisäksi ainoa Suomen myyntilupa on peruutettu, ja turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tenecteplase-1 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja jäsentäminen (estävä tietopuute)
 - Vaikutusmekanismitietojen täydentäminen (esim. DrugBank)
 - Sepelvaltimonsisäisen annostelun osalta satunnaistettuja, riittävän suuria tutkimuksia sekä reittiyhteensopivuuden arviointi
 - Verenvuotoriskin hallintasuunnitelma yhteiskäytössä antikoagulanttien ja verihiutaleiden estäjien kanssa
 - Selvitys siitä, onko sydäninfarktin alatyyppien erottelu ylipäätään uusi käyttöaihe vai jo katettu nykyisellä käyttöaiheella
+
+<!-- review:begin fi-lic-20261106-tenecteplase-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”DrugBank) / Tarkennus myyntiluvan tilasta Suomessa (peruutuksen syy ja mahdolliset muut tenekteplaasivalmisteet)” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tenecteplase-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi ainoa Suomen myyntilupa on peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Tarkennus myyntiluvan tilasta Suomessa (peruutuksen syy ja mahdolliset muut tenekteplaasivalmisteet)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Nevirapine: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -131,12 +131,31 @@ Täydelliset turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Näyttö rajoittuu yhteen prekliiniseen tutkimukseen (L4), eikä kliinisiä tutkimuksia ole. Ennustetut käyttöaiheet ovat eläinlääketieteellisiä tai eläinmalleihin liittyviä, eikä niillä ole suoraa ihmisen kliinistä merkitystä. NNRTI-lääkkeiden teho muihin kuin HIV-1-lentiviruksiin on tunnetusti rajallinen.
 - Kolmannella ennusteella (neurokehityshäiriö) ei ole mitään tukevaa näyttöä (L5).
 
+<!-- review:begin fi-lic-20261106-nevirapine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi valmiste on Suomessa peruutettu ja NNRTI-lääkkeiden teho muihin kuin HIV-1-lentiviruksiin on tunnetusti rajallinen.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nevirapine-1 -->
+
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivustolta)
 - Vaikutusmekanismin tiedot (DrugBank)
 - FIV-spesifiset entsyymi- ja soluviljelykokeet nevirapiinille
 - Päätös siitä, onko eläinlääketieteellinen käyttöaihe tavoiteltava vai tulisiko arviointi kohdistaa muihin ihmisen käyttöaiheisiin
 - Maksa- ja ihotoksisuuden riskinhallintasuunnitelma, jos jatkotutkimuksiin edetään
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi valmiste on Suomessa peruutettu ja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

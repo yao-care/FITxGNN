@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: ennustettu uusi käyttöaihe Sydämen fibrosarkooma (heart fibrosarcoma) (näytön taso L5). Alkuperäinen käyttöaihe: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
@@ -84,6 +84,12 @@ Sydämen fibrosarkoomalle on yksi viite:
 
 Viite ei käsittele sydämen fibrosarkoomaa suoraan.
 
+<!-- review:begin fi-lic-20261106-imatinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-imatinib-1 -->
+
 ## Myyntiluvat Suomessa
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
@@ -117,11 +123,38 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta. Tarkista 
 - Sydämen fibrosarkoomalle ei ole kliinisiä kokeita eikä kohdekohtaista näyttöä, vain yksi yleinen katsaus. Mekanistinen yhteys on ekstrapolaatio DFSP:stä.
 - Turvallisuustiedoista puuttuu valmisteyhteenveto, joten etenemistä ei voi tässä vaiheessa perustella.
 
+<!-- review:begin fi-lic-20261106-imatinib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi Suomen myyntiluvat on kaikki peruutettu ja turvallisuustiedoista puuttuu valmisteyhteenveto, joten etenemistä ei voi tässä vaiheessa perustella.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-imatinib-2 -->
+
 **Etenemiseksi tarvitaan:**
 - Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä tietopuute turvallisuusseulonnalle)
 - Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)
 - Kohdekohtaista näyttöä sydämen fibrosarkoomasta (tapausraportit, prekliiniset mallit, PDGFR/KIT-tila)
 - Vertailu muihin ennustettuihin kohteisiin: liposarkooma (näytön taso L2, vaikka mekanistinen sopivuus on heikko) ja fibroblastinen kasvain/DFSP-alatyypit ovat todennäköisesti tutkimuskysymyksinä vahvempia kuin sydämen fibrosarkooma
+
+<!-- review:begin fi-lic-20261106-imatinib-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kohdekohtaista näyttöä sydämen fibrosarkoomasta (tapausraportit, prekliiniset mallit, PDGFR/KIT-tila) / Arvio myyntiluvan peruutusten vaikutuksesta saatavuuteen Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-imatinib-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntiluvat on kaikki peruutettu ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Arvio myyntiluvan peruutusten vaikutuksesta saatavuuteen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

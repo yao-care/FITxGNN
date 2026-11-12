@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 128
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Darunavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -106,6 +106,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 Tietograafissa (PrimeKG) darunaviiriin liittyy vasta-aiheita seuraavissa tiloissa (ei valmisteyhteenvedon tekstiä): maksan vajaatoiminta, maksasairaus, sappirakon sairaus, hyperglykemia, maksakirroosi, diabetes, diabeettinen ketoasidoosi, krooninen hepatiitti C- ja B-infektio, hypertriglyseridemia sekä hemofilia.
 
+<!-- review:begin fi-lic-20261106-darunavir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-darunavir-1 -->
+
 **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 100. Merkittävin on **vakava (Major)** yhteisvaikutus sisapridin kanssa. Useita **kohtalaisia (Moderate)** yhteisvaikutuksia on mm. diabeteslääkkeiden (asarboosi, metformiini, pioglitatsoni, alogliptiini, kanagliflotsiini, dapagliflotsiini, saksagliptiini, klooripropamidi, asetoheksamidi, albiglutidi), kortikosteroidien (hydrokortisoni, deksametasoni, triamsinoloni, betametasoni, budesonidi), aprepitantin ja klaritromysiinin kanssa.
 
 Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
@@ -119,11 +125,31 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Ennuste on mekanistisesti uskottava, mutta se koskee apinoiden SIV-infektiota eikä uutta ihmisen sairautta. Näyttö on vain prekliinistä, eikä darunaviirin omaa osuutta voi erottaa yhdistelmähoidoista.
 
+<!-- review:begin fi-lic-20261106-darunavir-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö on vain prekliinistä, eikä darunaviirin omaa osuutta voi erottaa yhdistelmähoidoista. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-darunavir-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (Fimea) turvallisuusarviointia varten
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBank)
 - SIV-tutkimusten täystekstien tarkistamista sen selvittämiseksi, sisälsivätkö hoito-ohjelmat darunaviiria
 - Arviota siitä, onko ennusteella tutkimuksellista arvoa (esim. tutkimuskysymyksenä), koska uutta ihmisen käyttöaihetta ei ole tunnistettu
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

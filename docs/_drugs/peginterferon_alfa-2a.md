@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 335
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: ennustettu uusi käyttöaihe Hepatitis E virus infection (näytön taso L1). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"
@@ -114,6 +114,12 @@ Alla on keskeisimmät hepatiitti B:tä koskevat tutkimukset. Mukana on myös rek
 
 Valmisteen saatavuus Suomessa on siksi selvitettävä erikseen.
 
+<!-- review:begin fi-lic-20261106-peginterferon_alfa-2a-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole. Valmisteen saatavuus Suomessa on siksi selvitettävä erikseen.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-peginterferon_alfa-2a-1 -->
+
 ---
 
 ## Sytotoksisuus
@@ -158,12 +164,32 @@ Muut ennustetut käyttöaiheet ovat heikosti perusteltuja:
 **Perustelut:**
 - Krooninen hepatiitti B on jo lääkkeen alkuperäinen käyttöaihe, ja tuki on laaja: useita vaiheen 3–4 tutkimuksia ja satunnaistettuja tutkimuksia sekä metaanalyysejä.
 
+<!-- review:begin fi-lic-20261106-peginterferon_alfa-2a-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Krooninen hepatiitti B on jo lääkkeen alkuperäinen käyttöaihe, ja tuki on laaja: useita vaiheen 3–4 tutkimuksia ja satunnaistettuja tutkimuksia sekä metaanalyysejä. Valmisteen myyntilupa on kuitenkin Suomessa peruutettu, joten saatavuus on rajoite.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-peginterferon_alfa-2a-2 -->
+
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estävä tietoaukko)
 - Vaikutusmekanismin (MOA) tietojen täydentäminen DrugBankista
 - Suomen saatavuuden ja myyntiluvan tilanteen selvittäminen
 - Potilasvalintakriteerit (HBeAg-status, HBsAg-taso, genotyyppi) ja hoidon lopetussäännöt
 - Turvallisuuden seurantasuunnitelma: verenkuva, masennuksen seulonta, kilpirauhasen toiminta sekä merkittävien yhteisvaikutusten tarkistus
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Valmisteen myyntilupa on kuitenkin Suomessa peruutettu, joten saatavuus on rajoite” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

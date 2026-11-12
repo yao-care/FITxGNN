@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -136,11 +136,37 @@ Keskivaikeita (Moderate) ovat mm. asarboosi, hydrokortisoni, metformiini, deksam
 - Ennusteet perustuvat laskennalliseen malliin ilman kliinisiä tutkimuksia. FIV:lle ei ole lainkaan kirjallisuutta, ja SIV-näyttö on epäsuoraa esikliinistä tietoa. SIV on lisäksi HIV:n eläinmalli, ei uusi ihmisen käyttöaihe.
 - Neurokehityshäiriöllä ei ole tunnistettavaa mekanistista yhteyttä.
 
+<!-- review:begin fi-lic-20261106-ritonavir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Neurokehityshäiriöllä ei ole tunnistettavaa mekanistista yhteyttä. / Ritonaviirilla ei ole tällä hetkellä voimassa olevia myyntilupia Suomessa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ritonavir-1 -->
+
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (estää tällä hetkellä turvallisuusseulonnan)
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
 - FIV-proteaasin ritonaviiriherkkyyttä koskevat in vitro -tiedot ja eläinlääkinnällinen turvallisuusarvio
 - SIV-tutkimusten täydet tekstit, jotta ritonaviirin osuus voidaan erottaa muista yhdistelmähoidon lääkkeistä
+
+<!-- review:begin fi-lic-20261106-ritonavir-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”SIV-tutkimusten täydet tekstit, jotta ritonaviirin osuus voidaan erottaa muista yhdistelmähoidon lääkkeistä / Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ritonavir-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Ritonaviirilla ei ole tällä hetkellä voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Catumaxomab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (näytön taso L5). Alkuperäinen käyttöaihe: Askites"
 monitor_inn: "CATUMAXOMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
@@ -86,6 +86,12 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 Valmisteen EU-myyntilupa peruutettiin aiemmin valmistajan pyynnöstä kaupallisista syistä (2017), ja farmakologiatietojen mukaan pahanlaatuisen askiteksen myyntilupa on myönnetty uudelleen vuoden 2025 alussa.
 
+<!-- review:begin fi-lic-20261106-catumaxomab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valmisteen EU-myyntilupa peruutettiin aiemmin valmistajan pyynnöstä kaupallisista syistä (2017), ja farmakologiatietojen mukaan pahanlaatuisen askiteksen myyntilupa on myönnetty uudelleen vuoden 2025 alussa. Fimean tietojen mukaan myyntilupa on kuitenkin tällä hetkellä merkitty vain peruutetuksi, mikä rajoittaa kehityksen käytännön toteutettavuutta.” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-catumaxomab-1 -->
+
 ---
 
 ## Sytotoksisuus
@@ -115,6 +121,12 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Ennuste perustuu pelkästään laskennalliseen malliin (L5), eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Mekanistista yhteyttä EpCAM/CD3-välitteisen vaikutuksen ja diabeettisen retinopatian välillä ei ole, ja immuuniaktivaatio voisi olla verkkokalvolle haitallista.
 
+<!-- review:begin fi-lic-20261106-catumaxomab-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistista yhteyttä EpCAM/CD3-välitteisen vaikutuksen ja diabeettisen retinopatian välillä ei ole, ja immuuniaktivaatio voisi olla verkkokalvolle haitallista. Myyntilupa on lisäksi peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-catumaxomab-2 -->
+
 **Jatkaminen edellyttäisi:**
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta turvallisuusarvioinnin mahdollistamiseksi
@@ -131,6 +143,19 @@ Samalla ennustelistalla olivat myös seuraavat, joilla on sama heikko näyttöta
 |------|------|------|------|
 | 2 | Lääkeaineen aiheuttama osteoporoosi | 0,9958 | Yhteyttä EpCAM/CD3-välitteisen T-solutuhon ja luuston uudistumisen (RANKL/OPG) välillä ei ole; sytokiinien vapautuminen voisi vaikuttaa luun vaihduntaan haitallisesti. |
 | 3 | Diabeettinen retinopatia | 0,9947 | Edellisen laajempi yläluokka; ennusteet perustuvat samaan signaaliin, joten ne eivät vahvista toisiaan. |
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Fimean tietojen mukaan myyntilupa on kuitenkin tällä hetkellä merkitty vain peruutetuksi, mikä rajoittaa kehityksen käytännön toteutettavuut” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntilupa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

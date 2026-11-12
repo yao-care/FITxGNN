@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tagraxofusp: ennustettu uusi käyttöaihe Esotropia (näytön taso L5). Alkuperäinen käyttöaihe: Lymfooma"
 monitor_inn: "TAGRAXOFUSP"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "cystic neoplasm", "thyroglossal duct cyst"]
@@ -121,11 +121,30 @@ Kattavat varoitukset ja vasta-aiheet puuttuvat, joten niiden osalta on tarkistet
 **Perustelu:**
 - Ennuste perustuu pelkästään tietoverkkomalliin (L5), eikä siihen liity kliinisiä tutkimuksia, kirjallisuutta tai uskottavaa mekanistista yhteyttä. Sen toksisuusprofiili on merkittävä.
 
+<!-- review:begin fi-lic-20261106-tagraxofusp-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu ja sen toksisuusprofiili on merkittävä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tagraxofusp-1 -->
+
 **Jatkoon etenemiseksi tarvitaan:**
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (estää turvallisuusarvioinnin jatkamisen)
 - Vaikutusmekanismitietojen täydentäminen (esim. DrugBankista)
 - Tutkimusnäyttöä CD123-ilmentymisestä ennustetussa kohdesairaudessa sekä alkuperäisen ja uuden käyttöaiheen samankaltaisuuden arviointi
 - Muiden ennustettujen käyttöaiheiden uudelleenarviointi, sillä kukaan kymmenen parhaan ennusteen joukosta ei saa tukea nykyisestä aineistosta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi lääkkeen myyntilupa uomessa on peruutettu ja s” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

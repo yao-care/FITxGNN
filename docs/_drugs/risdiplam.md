@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Risdiplam: ennustettu uusi käyttöaihe Akne (näytön taso L5). Alkuperäinen käyttöaihe: Spinaalinen lihasatrofia"
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
@@ -87,11 +87,37 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Perustelut:**
 - Ennuste perustuu yksinomaan mallin pistemäärään (L5), eikä kliinisiä tutkimuksia, kirjallisuutta tai dokumentoitua vaikutusmekanismia ole.
 
+<!-- review:begin fi-lic-20261106-risdiplam-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste perustuu yksinomaan mallin pistemäärään (L5), eikä kliinisiä tutkimuksia, kirjallisuutta tai dokumentoitua vaikutusmekanismia ole. Lisäksi valmisteen myyntilupa Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-risdiplam-1 -->
+
 **Jatkamiseksi tarvitaan:**
 - Vaikutusmekanismin tiedot ja biologisen yhteyden arviointi aknen patogeneesiin
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusseulontaa varten
 - Prekliiniset tai varhaiset kliiniset tutkimukset, jotka tukevat aknen käyttöaihetta
 - Antoreittien yhteensopivuuden arviointi (akne vs. nykyinen valmistemuoto)
+
+<!-- review:begin fi-lic-20261106-risdiplam-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Antoreittien yhteensopivuuden arviointi (akne vs. nykyinen valmistemuoto) / Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-risdiplam-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

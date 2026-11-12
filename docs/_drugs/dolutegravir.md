@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 144
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Dolutegravir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus inf… (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -69,6 +69,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 Kaikki alla olevat tutkimukset ovat prekliinisiä tai eläinkokeellisia, eikä ihmisillä tehtyjä satunnaistettuja tutkimuksia ole.
 
+<!-- review:begin fi-lic-20261106-dolutegravir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-dolutegravir-1 -->
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
 | [30381490](https://pubmed.ncbi.nlm.nih.gov/30381490/) | 2019 | Prekliininen (apinakoe) | Journal of Virology | Dolutegraviirimonoterapia SIV-infektoiduilla makakeilla valitsi useita resistenssimutaatiokuvioita ja virologiset tulokset vaihtelivat |
@@ -110,6 +116,12 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Perustelut:**
 - Näyttö on vain prekliinistä (L4). SIV on eläinmallitauti, joten ennuste vahvistaa lähinnä mekanismia ja mallia, ei potilaille suunnattua uudelleenkäyttömahdollisuutta.
 
+<!-- review:begin fi-lic-20261106-dolutegravir-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”SIV on eläinmallitauti, joten ennuste vahvistaa lähinnä mekanismia ja mallia, ei potilaille suunnattua uudelleenkäyttömahdollisuutta. Lisäksi Suomessa kaikki dolutegraviirin myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-dolutegravir-2 -->
+
 **Muut ennusteet (arvioitu lyhyesti):**
 - *Kissan hankinnainen immuunikatooireyhtymä (FIV):* Vain yksi eläinkoe (PMID 37112803), jossa dolutegraviiria käytettiin yhdistelmähoidossa. Eläinlääkinnällinen käyttöaihe, ei kliinisiä tutkimuksia. Päätös: Hold.
 - *Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen):* Pelkkä TxGNN-mallin (syväoppiminen) ennuste ilman tutkimuksia tai kirjallisuutta, eikä mekanistista yhteyttä ole. Pistemäärä voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä. Päätös: Hold.
@@ -118,6 +130,27 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen Fimean sivuilta (tällä hetkellä puuttuu ja estää turvallisuusseulonnan)
 - Yksityiskohtainen vaikutusmekanismitieto DrugBankista
 - Päätös siitä, onko aiheella ihmisten hoidon kannalta merkitystä, vai käytetäänkö sitä vain eläinmallin tutkimukseen
+
+<!-- review:begin fi-lic-20261106-dolutegravir-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Yksityiskohtainen vaikutusmekanismitieto DrugBankista / Selvitys dolutegraviirin myyntilupien peruuntumisen syistä Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-dolutegravir-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa kaikki dolutegraviirin myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys dolutegraviirin myyntilupien peruuntumisen syistä Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

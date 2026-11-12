@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
 description: "Tegafur: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
@@ -137,12 +137,38 @@ Kirjallisuudessa on raportoitu yksittäinen tapaus UFT:hen liittyvästä hemolyy
 **Perustelu:**
 - Useat päättyneet laajat vaiheen 3 satunnaistetut tutkimukset (esim. NCT00378716, NCT00392899, NCT00660894, NCT00152230) tukevat tegafuuripohjaisten hoitojen käyttöä paksusuolisyövän liitännäishoidossa, joten näytön taso on L1.
 
+<!-- review:begin fi-lic-20261106-tegafur-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”NCT00378716, NCT00392899, NCT00660894, NCT00152230) tukevat tegafuuripohjaisten hoitojen käyttöä paksusuolisyövän liitännäishoidossa, joten näytön taso on L1. Tegafuurin ainoa Suomen myyntilupa on kuitenkin peruutettu, eikä turvallisuustietoja ole saatavilla.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tegafur-1 -->
+
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja tarkistus (estävä tietoaukko)
 - Yksityiskohtaiset vaikutusmekanismitiedot DrugBankista
 - Suomen sääntelytilanteen selvitys
 - DPD-puutoksen testaus- ja turvallisuusseurantasuunnitelma
 - Muut ennustetut käyttöaiheet (hyvänlaatuiset kasvaimet ja muut) jäävät odotustilaan (Hold), koska niistä ei ole näyttöä; peräsuolen ja sigmasuolen liitoskohdan kasvain on käsiteltävä osana kolorektaalista käyttöaihetta
+
+<!-- review:begin fi-lic-20261106-tegafur-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suomen sääntelytilanteen selvitys, koska voimassa olevaa myyntilupaa ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tegafur-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tegafuurin ainoa Suomen myyntilupa on kuitenkin peruutettu, eikä turvallisuustietoja ole saatavilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska voimassa olevaa myyntilupaa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

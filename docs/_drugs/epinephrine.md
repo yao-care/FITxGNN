@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Epinephrine: ennustettu uusi käyttöaihe Obstruktiivinen keuhkosairaus (näytön taso L5). Alkuperäinen käyttöaihe: Anafylaksia"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -126,6 +126,12 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten ne on 
 **Perustelut:**
 - Useat päättyneet vaiheen 3 tutkimukset tukevat inhaloidun epinefriinin tehoa ja turvallisuutta astmassa, ja bronkioliitista on satunnaistettuja tutkimuksia sekä Cochrane-katsauksia. Mekanismi sopii hyvin hengitysteiden ahtautumiseen. Bronkioliitissa näyttö on kuitenkin ristiriitaista ja osin yhdistelmähoitoihin perustuvaa, ja sydän- ja verisuoniriskit vaativat rajauksia.
 
+<!-- review:begin fi-lic-20261106-epinephrine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Bronkioliitissa näyttö on kuitenkin ristiriitaista ja osin yhdistelmähoitoihin perustuvaa, ja sydän- ja verisuoniriskit vaativat rajauksia. / Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei tällä hetkellä ole markkinoilla.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-epinephrine-1 -->
+
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estävä tietoaukko turvallisuusseulonnalle).
 - Yksityiskohtaisten vaikutusmekanismitietojen täydentäminen DrugBankista.
@@ -135,6 +141,19 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten ne on 
 ---
 
 *Muut ennustetut käyttöaiheet:* ruokaperäinen rasitusanafylaksia (L4, tutkimuskysymys; käytännössä nykyisen anafylaksiaindikaation laajennus ilman erillisiä tutkimuksia), hengitysteiden epämuodostuma (L3, tutkimuskysymys; vaikutus oireenmukainen, yhteys epäsuora) ja Rienhoffin oireyhtymä (L5, Hold; ei tutkimus- tai kirjallisuusnäyttöä, pelkkä mallin ennuste).
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei tällä hetkellä ole markkinoilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

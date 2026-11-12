@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Topotecan: ennustettu uusi käyttöaihe Naisen rintasyöpä (näytön taso L5). Alkuperäinen käyttöaihe: Kohdunkaulan syöpä"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -139,17 +139,43 @@ Useiden lääkkeiden (mm. omepratsoli, ondansetroni, deksametasoni, morfiini) yh
 **Perustelut:**
 - Rintasyöpäindikaation tuki on pääosin prekliinistä, ja kliiniset tutkimukset ovat yhdistelmä- tai varhaisvaiheen tutkimuksia, joista topotekaanin oma osuus ei erotu. Vanhin monoterapiatutkimus ei osoittanut merkittävää tehoa.
 
+<!-- review:begin fi-lic-20261106-topotecan-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Vanhin monoterapiatutkimus ei osoittanut merkittävää tehoa. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-topotecan-1 -->
+
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä tietoaukko turvallisuusarviointiin)
 - Yksityiskohtainen vaikutusmekanismitieto
 - Topotekaanin monoterapiaa tai selkeästi eroteltua tehoa arvioivia vaiheen 2 tutkimuksia rintasyövässä, erityisesti kolmoisnegatiivisessa tai MYC-ohjatussa alatyypissä
 - Arvio Suomen myyntilupatilanteesta ja saatavuudesta
 
+<!-- review:begin fi-lic-20261106-topotecan-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Arvio Suomen myyntilupatilanteesta (kaikki luvat peruutettu) ja saatavuudesta” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-topotecan-2 -->
+
 ---
 
 ### Muut ennustetut käyttöaiheet (lyhyesti)
 
 - **Aikuisten sukusolukasvain** (TxGNN 0,9957, L2, Research Question): näyttö tulee pääosin lasten ja nuorten uusiutuneista kiinteistä kasvaimista (neuroblastooma, aivokasvaimet, retinoblastooma). Suoraa aikuisten sukusolukasvaindataa on vain vähän.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”(kaikki luvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

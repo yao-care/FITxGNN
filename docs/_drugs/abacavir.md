@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 11
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Abacavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektiot"
 monitor_inn: "ABACAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -95,6 +95,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä kokeit
 - **Lääkeyhteisvaikutukset**: tietoja löytyi yhteensä 93 yhteisvaikutuksesta. Kohtalaiseksi luokiteltuja ovat naltreksoni ja orlistaatti. Muiden, esimerkiksi metformiinin, omepratsolin, morfiinin ja prednisonin, vaikutusasteen luokitus on tuntematon.
 - Lisäksi abakaviiriin liittyy tunnetusti HLA-B*57:01-yliherkkyysreaktion ja sydän- ja verisuoniriskin huomioitavat tekijät.
 
+<!-- review:begin fi-lic-20261106-abacavir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-abacavir-1 -->
+
 Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten tarkista ne valmisteyhteenvedosta.
 
 ---
@@ -111,6 +117,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten tarkista ne val
 - Vaikutusmekanismitietojen täydentämistä lääketietokannasta.
 - Selkeää ihmislääketieteellistä perustetta käyttöaiheelle ennen jatkoselvityksiä.
 
+<!-- review:begin fi-lic-20261106-abacavir-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selkeää ihmislääketieteellistä perustetta käyttöaiheelle ennen jatkoselvityksiä, sillä myyntiluvat on tällä hetkellä peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-abacavir-2 -->
+
 ---
 
 ### Huomio muista ennustetuista käyttöaiheista
@@ -118,6 +130,20 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten tarkista ne val
 Samassa aineistossa on kaksi muuta ennustetta, joilla ei ole merkittävää uudelleenkäyttösignaalia ihmislääketieteessä:
 - **Kissan hankinnainen immuunikatooireyhtymä (FIV)**: pistemäärä 0,9979, näytön taso L4. Tukena on yksi prekliininen yhdistelmähoitotutkimus (PMID [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/), 2002, Antiviral Research), jossa abakaviirin osuutta ei voi erottaa. Eläinlääketieteellinen käyttöaihe. Päätös: Hold.
 - **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen)**: pistemäärä 0,9978, näytön taso L5. Kliinisiä kokeita tai kirjallisuutta ei ole, eikä mekanistista yhteyttä ole havaittavissa. Päätös: Hold.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”sillä myyntiluvat on tällä hetkellä peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

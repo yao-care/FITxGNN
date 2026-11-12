@@ -7,7 +7,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -91,6 +91,24 @@ Tälle kandidaatille ei ole luotu TxGNN-uudelleenkäyttöennusteita, ja kaksi kr
 - **[Korkea — DG002]** Hae DrugBank-API:sta toimintamekanismin tiedot DB08822:lle
 - **[Vaadittu]** Suorita TxGNN-ennuste-pipeline uudelleen DB08822:lle uudelleenkäyttöehdokkaiden tuottamiseksi
 - **[Vaadittu]** Luo Evidence Pack kokonaisuudessaan uudelleen (tavoite v5), kun kaikki lähtötiedot ovat saatavilla, ja lähetä sitten uudelleen arviointia varten
+
+<!-- review:begin fi-lic-20261106-azilsartan_medoxomil-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”**[Estävä — DG001]** Lataa ja jäsennä pakkausseloste-PDF TFDA-verkkosivustolta keskeisten varoitusten ja vasta-aiheisten purkamiseksi” Poistettu: Taiwanin mallipohjasta (TFDA) jäänyt teksti, joka ei koske tätä sivua. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-azilsartan_medoxomil-1 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”TFDA-verkkosivustolta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

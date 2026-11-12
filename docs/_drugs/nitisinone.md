@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Nitisinone: ennustettu uusi käyttöaihe Munuaisten tubulusasidoosi (renal tubular acidosis) (näytön taso L5). Alkuperäinen käyttöaihe: Tyrosinemiat"
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
@@ -119,12 +119,38 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa pakkausselostees
 **Perustelut:**
 - Ennuste perustuu pelkästään malliin (L5), eikä kliinisiä tutkimuksia tai suoraa kirjallisuutta ole. Mekanistinen yhteys on epäsuora ja voi johtua siitä, että munuaistubulusten toimintahäiriö kuuluu tyrosinemia tyypin 1 kuvaan. Tietämysgraafi liittää munuaissairauden vasta-aiheeksi.
 
+<!-- review:begin fi-lic-20261106-nitisinone-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia ja tietämysgraafi liittää munuaissairauden vasta-aiheeksi.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nitisinone-1 -->
+
 **Jatkoon etenemiseksi tarvitaan:**
 - Tarkka vaikutusmekanismitieto (MOA) esimerkiksi DrugBankista
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (turvallisuusseulonnan edellytys)
 - Prekliiniset tai kliiniset tutkimukset, jotka osoittavat nitisinonin vaikutuksen primaarisessa munuaisten tubulusasidoosissa
 - Arvio siitä, ovatko ennusteet erotettavissa tyrosinemia tyypin 1 aiheuttamasta tubulopatiasta
 - Selvitys valmisteen saatavuudesta Suomessa
+
+<!-- review:begin fi-lic-20261106-nitisinone-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys valmisteen saatavuudesta Suomessa, koska kaikki myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nitisinone-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

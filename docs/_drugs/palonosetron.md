@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 327
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Palonosetron: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Oksentelu, pahoinvointi (syöpähoitoihin liittyvä)"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -97,6 +97,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 - **QT-ajan pidentyminen:** Julkaistu katsaus nostaa antiemeettien QT-riskin keskeiseksi turvallisuuskysymykseksi.
 - **Päänsärky:** Tapausselostuksessa palonosetroni laukaisi migreenityyppisen päänsäryn.
 
+<!-- review:begin fi-lic-20261106-palonosetron-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-palonosetron-1 -->
+
 Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla; tarkista ne valmisteyhteenvedosta.
 
 ---
@@ -109,11 +115,38 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 - Ennuste perustuu pelkkään laskennalliseen malliin (korkea pistemäärä), eikä kliinisiä tutkimuksia ole. Ainoa asiaan liittyvä julkaisu osoittaa palonosetronin voivan aiheuttaa migreenityyppistä päänsärkyä.
 - Muut ennustetut käyttöaiheet (migreeni aivorunko-oireilla, atrophoderma vermiculata, ulerythema ophryogenes) ovat joko samaa migreeniryhmää ilman omaa näyttöä tai mekanistisesti perusteettomia, ja ne voivat heijastaa TxGNN-mallin (syväoppiminen) oppimia samankaltaisuuksia sairauksien välillä, eivät biologista näyttöä.
 
+<!-- review:begin fi-lic-20261106-palonosetron-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa asiaan liittyvä julkaisu osoittaa palonosetronin voivan aiheuttaa migreenityyppistä päänsärkyä, ja lääkkeellä ei ole voimassa olevia myyntilupia Suomessa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-palonosetron-2 -->
+
 **Jatkotoimet:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (Fimea) turvallisuusarviointia varten
 - Yksityiskohtaisen vaikutusmekanismin tiedot (DrugBank)
 - Systemaattinen kirjallisuushaku palonosetronin tai muiden 5-HT3-salpaajien vaikutuksesta migreeniin (prekliiniset ja kliiniset tutkimukset)
 - QT-riskin ja yhteisvaikutusten (erityisesti triptaanit) arviointi mahdollista migreenikäyttöä varten
+
+<!-- review:begin fi-lic-20261106-palonosetron-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”QT-riskin ja yhteisvaikutusten (erityisesti triptaanit) arviointi mahdollista migreenikäyttöä varten / Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-palonosetron-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja lääkkeellä ei ole voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

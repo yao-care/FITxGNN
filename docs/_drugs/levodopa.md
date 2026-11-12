@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: ennustettu uusi käyttöaihe Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis) (näytön taso L5). Alkuperäinen käyttöaihe: Parkinson Disease"
@@ -60,6 +60,12 @@ Rasmussenin enkefaliitti on harvinainen, toispuoleinen ja krooninen tulehduksell
 
 Tunnettua mekanistista yhteyttä lääkkeen ja sairauden välillä ei ole. Korkea pistemäärä (0,9906) on vain tietämysgraafin tuottama ennuste, ja se voi heijastaa yhteisiä neurologisia sairausassosiaatioita eikä biologisesti validoitua mekanismia. Dopamiinikorvaushoidon ei odoteta vaikuttavan sairauden tulehduksellisiin tai immuunivälitteisiin taustatekijöihin. Lisäksi dopaminergiset lääkkeet voivat joissakin tilanteissa laskea kouristuskynnystä, mikä on mahdollinen turvallisuusriski.
 
+<!-- review:begin fi-lic-20261106-levodopa-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-levodopa-1 -->
+
 ## Myyntiluvat Suomessa
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
@@ -83,12 +89,32 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tällä hetkellä aine
 **Perustelut:**
 - Ennuste perustuu vain mallin pistemäärään: kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä tunnettua mekanistista yhteyttä ole. Lisäksi dopaminergiset lääkkeet voivat heikentää kouristuskynnystä.
 
+<!-- review:begin fi-lic-20261106-levodopa-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi dopaminergiset lääkkeet voivat heikentää kouristuskynnystä, ja kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-levodopa-2 -->
+
 **Jatkoa varten tarvitaan:**
 - Levodopan vaikutusmekanismitiedot (esim. DrugBankista)
 - Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
 - Prekliininen tai mekanistinen näyttö dopaminergisen hoidon vaikutuksesta Rasmussenin enkefaliitissa
 - Kirjallisuushaku mahdollisista tapausraporteista ja arvio kohtausriskistä
 - Reittien yhteensopivuuden ja lääkemuodon arviointi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

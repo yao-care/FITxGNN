@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 197
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Fulvestrant: ennustettu uusi käyttöaihe HIV-infektio (näytön taso L4). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms)"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -99,12 +99,38 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Näyttö HIV-käyttöaiheelle on vain esikliinistä ja epäsuoraa, kliinisiä tutkimuksia ei ole.
 - Muut ennusteet ovat joko laskennallisia ilman tukea (esim. SIV, kissan immuunikato, akne, harvinaiset oireyhtymät) tai suunnaltaan huolestuttavia: nivelreumassa eläinkoe viittaa, että estrogeenin esto voi pahentaa tulehdusta.
 
+<!-- review:begin fi-lic-20261106-fulvestrant-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö HIV-käyttöaiheelle on vain esikliinistä ja epäsuoraa, kliinisiä tutkimuksia ei ole. Lisäksi Suomessa kaikki fulvestrantin myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-fulvestrant-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (tällä hetkellä estää turvallisuusseulonnan).
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista).
 - Lisää esikliinistä näyttöä ER-estosta HIV:n latenssissa ja mahdollisesti eläinmallikokeita.
 - Arviota fulvestrantin antoreitistä (lihaksensisäinen injektio).
 - Yhteisvaikutusten vaikeusastearviota HIV-lääkityksen kannalta.
+
+<!-- review:begin fi-lic-20261106-fulvestrant-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Arviota fulvestrantin antoreitistä (lihaksensisäinen injektio) ja valmisteen saatavuudesta Suomessa myyntilupien peruutuksen jälkeen.” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-fulvestrant-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa kaikki fulvestrantin myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja valmisteen saatavuudesta Suomessa myyntilupien peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

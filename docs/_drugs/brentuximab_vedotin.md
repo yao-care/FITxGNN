@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 81
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Brentuximab Vedotin: ennustettu uusi käyttöaihe Follikulaarinen lymfooma (näytön taso L2). Alkuperäinen käyttöaihe: Non-Hodgkin-lymfooma"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -139,6 +139,12 @@ Muuten turvallisuustietojen osalta katso valmisteyhteenveto.
 - Follikulaarisen lymfooman näyttö koostuu pienistä vaiheen 2 tutkimuksista, joista kolme on peruttu ja kaksi keskeytetty. Ainoa suoraan kohdeindikaatiota tutkiva tutkimus (NCT04587687, n=23) on yhä käynnissä eikä ole tuottanut tuloksia. Follikulaarinen lymfooma ilmentää CD30:a harvoin, mikä heikentää mekanistista perustetta.
 - Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
+<!-- review:begin fi-lic-20261106-brentuximab_vedotin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi suomalainen myyntilupa on peruutettu ja valmisteyhteenvedon turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-brentuximab_vedotin-1 -->
+
 **Etenemiseksi tarvitaan:**
 - NCT04587687-tutkimuksen tulokset
 - CD30-ilmentymisen selvitys follikulaarisen lymfooman potilasryhmässä
@@ -149,6 +155,19 @@ Muuten turvallisuustietojen osalta katso valmisteyhteenveto.
 - **B-solusyöpä (rank 4)**: näyttö on laajin (mm. valmistunut vaiheen 2 tutkimus NCT01421667, n=176, ja käynnissä oleva vaiheen 3 tutkimus NCT04404283 DLBCL:ssä, n=239), joten se ansaitsee erillisen arvion. Huomaa, että vaiheen 3 -merkintä NCT06186986 on kuvantamistutkimus, ei tehotutkimus.
 - **Myeloidileukemia (rank 2)**: vain vaiheen 1/2 -tason tietoa CD30-positiivisesta AML:stä.
 - **Muut (ALL, CLL/SLL, Richterin oireyhtymä, manttelisolulymfooma, ganglioneuroblastooma ja harvinainen oireyhtymä)**: näyttö on vähäistä tai puuttuu, ja ne ovat Hold-tasolla.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi suomalainen myyntilupa on peruutettu ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

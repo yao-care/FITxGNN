@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Raloxifene: ennustettu uusi käyttöaihe Pohjukaissuolen haavauma (duodenal ulcer) (näytön taso L5). Alkuperäinen käyttöaihe: Postmenopausaalinen osteoporoosi"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
@@ -98,6 +98,12 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole tällä hetkellä saatavi
 - Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta (näytön taso L5), eikä mekanistista yhteyttä pohjukaissuolen haavaumaan ole osoitettu.
 - Tietämysgraafin mukaan vasta-aiheita on runsaasti.
 
+<!-- review:begin fi-lic-20261106-raloxifene-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suomessa kaikki myyntiluvat on peruutettu, ja tietämysgraafin mukaan vasta-aiheita on runsaasti.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-raloxifene-1 -->
+
 **Eteneminen edellyttää seuraavaa:**
 - Vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta
@@ -105,6 +111,26 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole tällä hetkellä saatavi
 - Systemaattinen kirjallisuushaku ja kliinisten tutkimusten rekisterihaku
 - Alkuperäisen ja uuden käyttöaiheen samankaltaisuuden sekä antoreittien yhteensopivuuden arviointi
 - Selvitys siitä, onko lääkkeen saatavuus Suomessa mahdollista
+
+<!-- review:begin fi-lic-20261106-raloxifene-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys siitä, onko lääkkeen saatavuus Suomessa mahdollista, kun voimassa olevia myyntilupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-raloxifene-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”kun voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

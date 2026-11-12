@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 242
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ketorolac: ennustettu uusi käyttöaihe Päänsärkyhäiriö (headache disorder) (näytön taso L1). Alkuperäinen käyttöaihe: Silmänsisäinen linssi-implantaatio"
 monitor_inn: "KETOROLAC"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -133,12 +133,31 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä raportista, jo
 - Päänsärkyhäiriön (erityisesti migreenin ja jännityspäänsäryn) osalta on useita päättyneitä vaiheen 2–4 tutkimuksia, systemaattisia katsauksia, meta-analyysi ja kansainvälisiä hoito-ohjeita, jotka tukevat ketorolaakin käyttöä. Näytön taso on L1.
 - Ennusteet ruusufinnin sidekalvotulehdukseen (L5) ja trigeminaaliseen autonomiseen päänsärkyyn (L4) ovat tässä vaiheessa Hold-tasolla.
 
+<!-- review:begin fi-lic-20261106-ketorolac-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näytön taso on L1. Suomessa ainoa myyntilupa (Omidria) on kuitenkin peruutettu, eikä kyseinen valmiste ole päänsäryn hoitoon tarkoitettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ketorolac-1 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen (estää etenemisen turvallisuusseulontaan)
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Selvitys Suomessa saatavilla olevista ketorolaakkivalmisteista ja antoreiteistä (parenteraalinen, nenänsisäinen) päänsärkykäyttöön
 - Turvallisuuden seurantasuunnitelma: ruoansulatuskanavan verenvuoto, munuaisten toiminta, sydän- ja verisuoniriski, antikoagulanttien käyttö sekä annos- ja hoitoajan rajat
 - Lasten annostelun ja yhteisvaikutusten (erityisesti asetyylisalisyylihappo) tarkempi arviointi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa (Omidria) on kuitenkin peruutettu, eikä kyseinen valmiste ole päänsäryn hoitoon tarkoitettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

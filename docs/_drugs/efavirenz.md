@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 153
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Efavirenz: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus inf… (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -77,6 +77,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 Alla on keskeisimmät julkaisut (kaikki eläin- tai prekliinisiä tutkimuksia; satunnaistettuja kokeita ei ole).
 
+<!-- review:begin fi-lic-20261106-efavirenz-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki viisi myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-efavirenz-1 -->
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
 | [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Eläinkoe | Antimicrob Agents Chemother | Efavirentsihoito resusmakakeilla, jotka oli infektoitu HIV-1:n RT:tä sisältävällä SIV-kimeerallä (RT-SHIV) |
@@ -121,11 +127,31 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niiden tarkistu
 **Perustelut:**
 - Ennustettu SIV-infektio on eläintutkimusmalli, ei ihmisen hoitoindikaatio, ja näyttö on pelkästään prekliinistä (L4) ilman kliinisiä kokeita. Efavirentsin teho riippuu HIV-1-RT-kimeerasta, ja korkea pistemäärä heijastaa pääosin jo hyväksyttyä HIV-käyttöaihetta.
 
+<!-- review:begin fi-lic-20261106-efavirenz-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Efavirentsin teho riippuu HIV-1-RT-kimeerasta, ja korkea pistemäärä heijastaa pääosin jo hyväksyttyä HIV-käyttöaihetta. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-efavirenz-2 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimean sivuilta (estävä tietoaukko turvallisuusseulonnalle).
 - Vaikutusmekanismitietojen täydentäminen DrugBankista.
 - Arvio siitä, onko ennusteella lainkaan merkitystä ihmisen lääkekehitykselle, sillä SIV- ja FIV-indikaatiot ovat eläinlääketieteellisiä.
 - Mahdollisten ihmisen käyttöaiheiden osalta uusi ennustehaku ja näytön arviointi.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

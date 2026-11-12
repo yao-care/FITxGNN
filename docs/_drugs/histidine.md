@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Histidine: ennustettu uusi käyttöaihe Gastropareesi (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (Maple Syrup Urine Disease)"
 monitor_inn: "histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
@@ -121,6 +121,12 @@ Lääkkeiden yhteisvaikutuksia ei löytynyt kyselyssä.
 **Perustelut:**
 - Gastropareesiennusteella on korkea laskennallinen pistemäärä, mutta ei kliinisiä tutkimuksia, ei kirjallisuutta eikä mekanistista perustetta (L5). Sklerosoivan kolangiitin prekliininen näyttö (L4) puhuu histidiinin hyödyllisyyttä vastaan, koska histamiinireitin esto lievensi tautia.
 
+<!-- review:begin fi-lic-20261106-histidine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Sklerosoivan kolangiitin prekliininen näyttö (L4) puhuu histidiinin hyödyllisyyttä vastaan, koska histamiinireitin esto lievensi tautia. Lisäksi Suomessa ainoa myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-histidine-1 -->
+
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (Fimean sivusto), jotta turvallisuusseulonta on mahdollinen
 - Vaikutusmekanismin tiedot (esim. DrugBank)
@@ -128,6 +134,19 @@ Lääkkeiden yhteisvaikutuksia ei löytynyt kyselyssä.
 - Prekliininen arviointi siitä, pahentaako histidiinin lisäys histamiinivälitteistä sappitiehyiden vauriota
 - Antoreittien yhteensopivuuden ja alkuperäisen sekä uuden käyttöaiheen samankaltaisuuden arviointi
 - Kidesairauksien, munuaisten vajaatoiminnan ja fenyylialaniiniaineenvaihdunnan häiriöiden huomioiminen turvallisuusarvioinnissa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

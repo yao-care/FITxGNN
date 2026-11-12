@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "OTERACIL"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
 description: "Oteracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
@@ -137,11 +137,30 @@ Muilta osin turvallisuustiedot, vasta-aiheet ja yhteisvaikutukset: katso valmist
 - Suuret vaiheen 3 tutkimukset tukevat S-1-yhdistelmää paksusuolisyövässä, ja yksi niistä (NCT00660894, n=1535) on valmistunut. Näyttö koskee kuitenkin koko yhdistelmää, ei oteraciilia yksinään, jolla ei ole omaa kasvainvaikutusta.
 - Muut ennustetut käyttöaiheet (esim. hyvänlaatuiset kasvaimet, kuten lipooma ja hemangiooma) perustuvat vain mallin ennusteeseen, eikä niille ole näyttöä. Ne kannattaa jättää odottamaan (Hold).
 
+<!-- review:begin fi-lic-20261106-oteracil-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö koskee kuitenkin koko yhdistelmää, ei oteraciilia yksinään, jolla ei ole omaa kasvainvaikutusta. Lisäksi myyntilupa on vain peruutettu eikä yhtään voimassa olevaa lupaa ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-oteracil-1 -->
+
 **Jatkamiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (ratkaiseva puute turvallisuusarvioinnissa)
 - Yksityiskohtainen vaikutusmekanismitieto (MOA)
 - Valmistunut vaiheen 3 tutkimus NCT00660894 ja sen tulokset sekä vahvistus, että S-1:n ja oteraciilin osuus on erotettavissa
 - Turvallisuuden seurantasuunnitelma erityisryhmille ja selvitys S-1-valmisteen nykyisestä saatavuudesta Suomessa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi myyntilupa on vain peruutettu eikä yhtään voimassa olevaa lupaa ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

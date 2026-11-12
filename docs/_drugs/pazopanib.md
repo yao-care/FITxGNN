@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 332
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: ennustettu uusi käyttöaihe Liposarcoma (näytön taso L3). Alkuperäinen käyttöaihe: Carcinoma, Renal Cell"
@@ -142,10 +142,36 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla; ne tulee
 - Luokittelemattoman munuaissolusyövän osalta näyttö rajoittuu retrospektiivisiin aineistoihin ja yhteen yksihaaraiseen vaiheen 2 tutkimukseen, eikä satunnaistettua näyttöä ole. Keskeiset turvallisuustiedot puuttuvat.
 - Vahvempi näyttö on sarkoomissa, erityisesti DFSP:ssä ja liposarkoomassa (L2), joita kannattaa tarkastella erillisinä tutkimuskysymyksinä. Näiden tulokset eivät kuitenkaan ole tässä aineistossa nähtävissä, ja liposarkooma on rajattu pois pehmytkudossarkooman virallisesta käyttöaiheesta.
 
+<!-- review:begin fi-lic-20261106-pazopanib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Pazopanibin myyntilupa Suomessa on lisäksi peruutettu, ja keskeiset turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pazopanib-1 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta (estää turvallisuusseulonnan)
 - Vaikutusmekanismitiedon täydentäminen DrugBankista
 - Ei-kirkassoluisten ja luokittelemattomien munuaissolusyöpien tutkimusten tulosten läpikäynti ja vertailu nykyisiin vaihtoehtoihin (esim. kabotsantinibi, immuno-onkologiset yhdistelmät)
+
+<!-- review:begin fi-lic-20261106-pazopanib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ei-kirkassoluisten ja luokittelemattomien munuaissolusyöpien tutkimusten tulosten läpikäynti ja vertailu nykyisiin vaihtoehtoihin (esim. kabotsantinibi, immuno-onkologiset yhdistelmät) / Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pazopanib-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Pazopanibin myyntilupa Suomessa on lisäksi peruutettu, ja k” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

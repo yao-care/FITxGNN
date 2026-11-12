@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: ennustettu uusi käyttöaihe Pleural adenomatoid tumor (näytön taso L5). Alkuperäinen käyttöaihe: Mesothelioma"
@@ -138,6 +138,12 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Pemetreksedi-platina on käytännössä vakiintunut vatsakalvon mesoteliooman systeeminen hoito, ja näyttöä on vaiheen 2 tutkimuksista ja retrospektiivisistä aineistoista. Vatsakalvokohtaisia vaiheen 3 tutkimuksia ei kuitenkaan ole, joten näytön taso on L2.
 
+<!-- review:begin fi-lic-20261106-pemetrexed-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Vatsakalvokohtaisia vaiheen 3 tutkimuksia ei kuitenkaan ole, joten näytön taso on L2. / Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pemetrexed-1 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (tällä hetkellä puuttuvat; estävä tietoaukko)
 - Vaikutusmekanismin tiedot lääketietokannasta
@@ -155,6 +161,19 @@ Samoista tiedoista nousi esiin myös muita ennusteita:
 - **Sarkomatoidi- ja bifaasinen mesotelioma (L2):** tutkimustyön aihe; alatyyppikohtainen näyttö niukkaa.
 - **Sydänpussin syöpä (L4):** vain tapausselostuksia, tutkimustyön aihe.
 - **Hyvin erilaistunut papillaarinen mesotelioma, lymfohistiosytoidi mesotelioma, pleuraalinen adenomatoidikasvain ja iminoglysinuria:** odota (Hold); näyttö puuttuu tai mekanistinen peruste on heikko.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

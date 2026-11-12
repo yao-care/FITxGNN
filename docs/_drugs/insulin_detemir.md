@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Detemir: ennustettu uusi käyttöaihe Autoimmune oophoritis (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
@@ -42,6 +42,12 @@ Insulindetemir on pitkävaikutteinen perusinsuliinianalogi, jota on alun perin k
 TxGNN-malli ennustaa sen sopivan **tyypin 1 diabetekseen**, mutta kyseessä on käytännössä myönteisen käyttöaiheen vahvistus, ei varsinainen lääkkeen uudelleenkäyttö.
 Tukena on yli **30 kliinistä tutkimusta** ja **20 julkaisua**.
 
+<!-- review:begin fi-lic-20261106-insulin_detemir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tukena on yli **30 kliinistä tutkimusta** ja **20 julkaisua**, ja Suomessa valmisteen myyntilupa on tällä hetkellä vain peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_detemir-1 -->
+
 ---
 
 ## Pikakatsaus
@@ -63,6 +69,12 @@ Tukena on yli **30 kliinistä tutkimusta** ja **20 julkaisua**.
 Insulindetemir on liukoinen, pitkävaikutteinen ihmisinsuliinin analogi. Siitä on poistettu treoniini kohdassa B30, ja lysiiniin B29 on liitetty 14-hiilinen rasvahappo (myristiinihappo). Muutos lisää molekyylin itseassosiaatiota ja mahdollistaa sitoutumisen albumiiniin. Tämä hidastaa imeytymistä ihonalaisesta pistoskohdasta ja pidentää vaikutusta. Insuliinireseptoriin sitoutuessaan lääke korvaa puutteellisen oman insuliinin.
 
 Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten perusinsuliini on hoidon ydin. Tyypin 1 diabetes kuuluu lääkkeen alkuperäisen käyttöaiheen (diabetes mellitus) piiriin. Ennuste on siis johdonmukainen, mutta se ei tuo uutta terapeuttista käyttöä. Käytännön suojatoimien tulee siksi koskea valmisteen saatavuutta ja korvaamista muilla perusinsuliinianalogeilla, kuten glargiinilla ja degludekilla.
+
+<!-- review:begin fi-lic-20261106-insulin_detemir-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste on siis johdonmukainen, mutta se ei tuo uutta terapeuttista käyttöä. Huomattavaa on, että valmisteen myyntiluvan tila on "vain peruutettu".” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_detemir-2 -->
 
 Ennustelistan muut kohteet (esim. autoimmuuninen munasarjatulehdus, stiff person -oireyhtymä, paikalliset lipodystrofiat) perustuvat lähinnä verkostoyhteyksiin, eikä niille ole kliinistä näyttöä. Ne on arvioitu tasolle L5 ja suositus on Hold. Haimattomuus (pancreatic agenesis) on fysiologisesti perusteltu insuliinikorvauksen kohde, mutta detemirille ei ole omaa näyttöä (L4, tutkimuskysymys).
 
@@ -132,11 +144,32 @@ Pakkausselosteen varoitukset ja vasta-aiheet tulee tarkistaa valmisteyhteenvedos
 **Perustelut:**
 - Useat valmistuneet vaiheen 3 satunnaistetut tutkimukset ja Cochrane-katsaukset tukevat detemirin tehoa ja turvallisuutta tyypin 1 diabeteksessa, joten näyttö on vahva (L1). Kyseessä on kuitenkin lääkkeen oma ydinkäyttöaihe, ei varsinainen uudelleenkäyttö.
 
+<!-- review:begin fi-lic-20261106-insulin_detemir-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kyseessä on kuitenkin lääkkeen oma ydinkäyttöaihe, ei varsinainen uudelleenkäyttö, ja Suomessa myyntilupa on vain peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_detemir-3 -->
+
 **Jatkamiseksi tarvitaan:**
 - Valmisteen saatavuuden ja korvaavien perusinsuliinien (glargiini, degludek) arviointi
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen Fimean lähteistä
 - Vaikutusmekanismin (MOA) tietojen täydentäminen DrugBankista
 - Hypoglykemian seurantasuunnitelma ja yhteisvaikutusten (erityisesti beetasalpaajat ja muut diabeteslääkkeet) huomiointi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja Suomessa valmisteen myyntilupa on tällä hetkellä vain peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Huomattavaa on, että valmisteen myyntiluvan tila on "vain peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja Suomessa myyntilupa on vain peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

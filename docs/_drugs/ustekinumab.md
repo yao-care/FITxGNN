@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 461
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Ustekinumab: ennustettu uusi käyttöaihe Dermatiitti (näytön taso L2). Alkuperäinen käyttöaihe: Psoriasis, psoriaattinen niveltulehdus, Crohnin tauti…"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -102,6 +102,12 @@ Mekanistinen sopivuus on kuitenkin vain osittainen: atooppista ihottumaa ohjaava
 
 Viisi esimerkkiä:
 
+<!-- review:begin fi-lic-20261106-ustekinumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 13 myyntilupaa on peruutettu. Viisi esimerkkiä:” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 13 myyntilupaa, joista 12 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ustekinumab-1 -->
+
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000958 | Stelara | – | Psoriasis, psoriaattinen niveltulehdus, Crohnin tauti, haavainen paksusuolitulehdus |
@@ -133,11 +139,31 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 - Ustekinumabista on kaksi päättynyttä vaiheen 2 tutkimusta atooppisessa ihottumassa, mutta otokset ovat pieniä ja kliininen teho on ollut vaatimaton. Mekanistinen sopivuus on vain osittainen, koska atooppista ihottumaa ohjaavat pääasiassa Th2-reitit.
 - Muut ennustetut käyttöaiheet (esim. dermatomyosiitti, pityriasis lichenoides, diabeettinen retinopatia) perustuvat pelkkään malliennusteeseen (L5) ilman tutkimuksia tai kirjallisuutta.
 
+<!-- review:begin fi-lic-20261106-ustekinumab-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistinen sopivuus on vain osittainen, koska atooppista ihottumaa ohjaavat pääasiassa Th2-reitit. Suomessa kaikki myyntiluvat on lisäksi peruutettu, ja turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 13 myyntilupaa, joista 12 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ustekinumab-2 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (estää turvallisuusseulonnan jatkamisen)
 - Yksityiskohtainen vaikutusmekanismitieto (MOA)
 - Suurempi vaiheen 2b/3 -tutkimus tietyssä dermatiittialatyypissä (esim. Th1/Th17-painotteinen tai krooninen vaihe) potilasvalinnan tarkentamiseksi
 - Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki 13 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on lisäksi peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

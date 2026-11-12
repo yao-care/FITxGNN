@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine: ennustettu uusi käyttöaihe Thiamine-responsive dysfunction syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
@@ -62,6 +62,12 @@ Insuliiniglulisiini on pikavaikutteinen ihmisinsuliinin analogi, joka sitoutuu i
 
 Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten aterioiden yhteydessä annettava pikavaikutteinen insuliini on vakiintunut hoitomuoto. Ennuste on siis mekanistisesti uskottava ja kliinisesti jo vahvistettu.
 
+<!-- review:begin fi-lic-20261106-insulin_glulisine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Markkinatilanne on kaupallinen rajoite, ei näytön puute: Apidra-valmisteen myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_glulisine-1 -->
+
 ---
 
 ## Kliininen tutkimusnäyttö
@@ -110,6 +116,12 @@ Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten aterio
 
 Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä raportissa käytettävissä, joten niiden osalta on tutustuttava valmisteyhteenvetoon.
 
+<!-- review:begin fi-lic-20261106-insulin_glulisine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on tilassa "peruutettu".” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_glulisine-2 -->
+
 **Yhteisvaikutukset:** Aineiston mukaan yhteisvaikutuksia on yhteensä 100. Esimerkkejä keskivaikeista (Moderate) yhteisvaikutuksista:
 
 - Sympatomimeetit: fenyylefriini, adrenaliini, pseudoefedriini
@@ -130,17 +142,45 @@ Lisäksi lieviä (Minor) yhteisvaikutuksia on mm. paikallisesti käytettävien k
 **Perustelut:**
 - Tyypin 1 diabetes on insuliinin vakiintunut käyttöaihe. Useat vaiheen 3 ja 4 tutkimukset sekä satunnaistetut julkaisut tukevat glulisiinin tehoa ja turvallisuutta, joten näyttö on vahvaa (L1).
 
+<!-- review:begin fi-lic-20261106-insulin_glulisine-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Useat vaiheen 3 ja 4 tutkimukset sekä satunnaistetut julkaisut tukevat glulisiinin tehoa ja turvallisuutta, joten näyttö on vahvaa (L1). / Myyntilupa Suomessa on peruutettu, mikä on kaupallinen ja saatavuuteen liittyvä rajoite eikä näytön puute.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_glulisine-3 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (Fimean tai EMA:n lähteistä)
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Selvitys valmisteen saatavuudesta
 - Yhteisvaikutusten (erityisesti muiden diabeteslääkkeiden ja sympatomimeettien) seurantasuunnitelma
 
+<!-- review:begin fi-lic-20261106-insulin_glulisine-4 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys valmisteen saatavuudesta ja myyntiluvan peruutuksen syystä” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_glulisine-4 -->
+
 ---
 
 ### Huomio muista ennusteista
 
 Muut ennustetut käyttöaiheet (mm. tiamiinivasteinen toimintahäiriöoireyhtymä, opsismodysplasia, jäykkäraaja- ja jäykkä ihminen -oireyhtymä, autoimmuuninen munasarjatulehdus, lipodystrofiat) perustuvat pelkkään mallin ennusteeseen (L5), eikä niille ole kliinistä tai kirjallista näyttöä. Haimaagenesian osalta insuliinikorvaus on mekanistisesti perusteltu (L4), mutta se hoitaa vain sairauden aiheuttamaa diabetesta. Lipodystrofiat ovat tunnettuja insuliini-injektioiden haittavaikutuksia, joten näiden ennusteiden taustalla on todennäköisesti haittavaikutussignaali, ei hoitohyöty. Näiden osalta suositus on Hold.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Markkinatilanne on kaupallinen rajoite, ei näytön puute: Apidra-valmisteen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntilupa Suomessa on peruutettu, mikä on kaupallinen ja saatavuuteen liittyvä rajoite eikä näytön puute” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja myyntiluvan peruutuksen syystä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

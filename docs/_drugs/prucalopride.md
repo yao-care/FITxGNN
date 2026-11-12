@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
 description: "Prucalopride: ennustettu uusi käyttöaihe Hypoalphalipoproteinemia (näytön taso L5). Alkuperäinen käyttöaihe: Constipation"
@@ -111,11 +111,30 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Ennuste on pelkkä mallilaskenta (näytön taso L5). Mekanistista yhteyttä ei ole, eikä tutkimuksia tai kirjallisuutta ole.
 
+<!-- review:begin fi-lic-20261106-prucalopride-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistista yhteyttä ei ole, eikä tutkimuksia tai kirjallisuutta ole. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-prucalopride-1 -->
+
 **Eteenpäin siirtyminen edellyttäisi:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja läpikäyntiä
 - Vaikutusmekanismitietojen täydentämistä
 - Prekliinistä tai mekanistista näyttöä 5-HT4-agonismin ja HDL-aineenvaihdunnan yhteydestä
 - Vaihtoehtoisesti arvioida erikseen amyloidoosin liitännäisiä suolisto-oireita, joissa oireenmukainen perustelu on uskottavampi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

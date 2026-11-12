@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 129
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Dasatinib: ennustettu uusi käyttöaihe Ewingin sarkoomaa (Ewing sarcoma) (näytön taso L2). Alkuperäinen käyttöaihe: Prekursorisolu-lymfoblastileukemia/lymfooma"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -130,11 +130,37 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten tar
 - Ewingin sarkoomaa tukee prekliininen SRC-mekanismi, mutta kliininen teho yksittäislääkkeenä on jäänyt heikoksi: ainoa merkittävä tutkimus oli ei-spesifi sarkoomatutkimus ja Ewing-spesifinen lastentutkimus keskeytettiin 7 potilaalla. Ennuste kannattaa käsitellä tutkimuskysymyksenä.
 - Muista ennusteista myeloidinen leukemia on tuettu parhaiten (L1), mutta valtaosa näytöstä koskee jo hyväksyttyä KML-käyttöaihetta, joten kyse ei ole varsinaisesta uudelleenkäytöstä. Todellista uutta suuntaa edustaa vaiheen 3 tutkimus ydinsitojatekijä-AML:ssä (PMID 41490515), jossa hyödynnetään KIT-mutaatioita.
 
+<!-- review:begin fi-lic-20261106-dasatinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ewingin sarkoomaa tukee prekliininen SRC-mekanismi, mutta kliininen teho yksittäislääkkeenä on jäänyt heikoksi: ainoa merkittävä tutkimus oli ei-spesifi sarkoomatutkimus ja Ewing-spesifinen lastentutkimus keskeytettiin 7 potilaalla. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-dasatinib-1 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto)
 - Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
 - Ewing-spesifiset, yhdistelmähoitoja tai biomarkkerivalintaa koskevat tutkimukset (esim. RIST-hoito)
 - Turvallisuuden seurantasuunnitelma, erityisesti QT-aika, sydän- ja nestekertymäriskit sekä interaktiot happamuutta vähentävien lääkkeiden kanssa
+
+<!-- review:begin fi-lic-20261106-dasatinib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”RIST-hoito) / Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-dasatinib-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

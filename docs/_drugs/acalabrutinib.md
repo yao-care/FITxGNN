@@ -7,7 +7,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -90,6 +90,12 @@ Tällä hetkellä tähän näyttöpakettiin ei ole liittyvää kirjallisuutta.
 
 > **Huomio:** Acalabrutinib on markkinoilla kansainvälisesti brändin nimellä **Calquence®** (AstraZeneca) ja se on saanut hyväksynnän Yhdysvaltain FDA:lta, EMA:lta ja muista sääntelyviranomaisista CLL/SLL:lle ja MCL:lle.
 
+<!-- review:begin fi-lic-20261106-acalabrutinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Acalabrutinib ei ole tällä hetkellä markkinoilla Taiwanissa. TFDA-lisenssejä ei löytynyt.” Poistettu: Taiwanin mallipohjasta (TFDA) jäänyt teksti, joka ei koske tätä sivua. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-acalabrutinib-1 -->
+
 ---
 
 ## Sytotoksisyys
@@ -121,6 +127,12 @@ Acalabrutinib on antineoplastinen lääke (BTK-estäjäluokka, kohdennettu hoito
 >
 > *Nämä täydennettiin yleisestä tiedosta.*
 
+<!-- review:begin fi-lic-20261106-acalabrutinib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”> *Nämä täydennettiin yleisestä tiedosta; näyttöpaketti ei sisältänyt TFDA-kohtaisia turvallisuustietoja.*” Poistettu: Taiwanin mallipohjasta (TFDA) jäänyt teksti, joka ei koske tätä sivua. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-acalabrutinib-2 -->
+
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
@@ -130,10 +142,44 @@ Acalabrutinib on antineoplastinen lääke (BTK-estäjäluokka, kohdennettu hoito
 **Perustelut:**
 Acalabrutiniibin osalta ei ole tällä hetkellä TxGNN-ennustettuja uusia indikaatioita saatavilla. Ilman ennustettua indikaatiota ja lähtötason sääntely-/turvallisuustietoja, uudelleenkäyttötarkoituksen arviointia ei voida jatkaa.
 
+<!-- review:begin fi-lic-20261106-acalabrutinib-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Acalabrutiniibin osalta ei ole tällä hetkellä TxGNN-ennustettuja uusia indikaatioita saatavilla. Lisäksi lääkettä ei ole markkinoilla Taiwanissa (0 TFDA-lupaa), eikä ydinturvallisuustiedot (pakkauksen varoitukset, vasta-aiheet, lääkeyhteisvaikutukset) ole täydennetty näyttöpakettiin.” Poistettu: Taiwanin mallipohjasta (TFDA) jäänyt teksti, joka ei koske tätä sivua. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-acalabrutinib-3 -->
+
 **Etenemiseksi tarvitaan seuraavaa:**
 - **TxGNN-ennustusajo** — Suorita TxGNN-malli acalabrutiniipin osalta (DB11703) tuottaaksesi ehdokasindikaaatiot ennustuspisteillä
 - **MOA-tiedot** — Kysy DrugBank-ohjelmointirajapinnasta virallista vaikutusmekanismin dokumentaatiota (vastaa tietoaukko DG002:een)
 - **Lääkeyhteisvaikutustiedot** — Hanki lääkeyhteisvaikutustiedot DrugBankista tai muista vuorovaikutustietokannoista
+
+<!-- review:begin fi-lic-20261106-acalabrutinib-4 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”**MOA-tiedot** — Kysy DrugBank-ohjelmointirajapinnasta virallista vaikutusmekanismin dokumentaatiota (vastaa tietoaukko DG002:een) / **TFDA-pakkauksen tiedot** — Hanki ja jäsennä Taiwanin pakkauksen tiedot varoituksista, vasta-aiheista ja turvallisuustiedoista (vastaa tietoaukko DG001:een)” Poistettu: Taiwanin mallipohjasta (TFDA) jäänyt teksti, joka ei koske tätä sivua. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-acalabrutinib-4 -->
+
+<!-- review:begin fi-lic-20261106-acalabrutinib-5 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”**Lääkeyhteisvaikutustiedot** — Hanki lääkeyhteisvaikutustiedot DrugBankista tai muista vuorovaikutustietokannoista / **Taiwanin sääntelyreittiarvio** — Koska lääkettä ei ole markkinoilla Taiwanissa, arvioi, soveltuisiko tuontiin tai hyväntahtoisen käytön reitti mihin tahansa tulevaisuuden uudelleenkäyttöindikaatioon” Poistettu: Taiwanin mallipohjasta (TFDA) jäänyt teksti, joka ei koske tätä sivua. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-acalabrutinib-5 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Acalabrutinib ei ole tällä hetkellä markkinoilla Taiwanissa. TFDA-lisenssejä ei löytynyt” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”näyttöpaketti ei sisältänyt TFDA-kohtaisia turvallisuustietoja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi lääkettä ei ole markkinoilla Taiwanissa (0 TFDA-lupaa), eikä ydinturvallisuustiedot (pakkauksen varoitukset, vasta-aiheet, lääkeyhte” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”**TFDA-pakkauksen tiedot** — Hanki ja jäsennä Taiwanin pakkauksen tiedot varoituksista, vasta-aiheista ja turvallisuustiedoista (vastaa tiet” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”**Taiwanin sääntelyreittiarvio** — Koska lääkettä ei ole markkinoilla Taiwanissa, arvioi, soveltuisiko tuontiin tai hyväntahtoisen käytön re” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tyrosine: ennustettu uusi käyttöaihe Cauda equina -oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (MSUD)"
 monitor_inn: "tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -117,11 +117,30 @@ Turvallisuustiedoista (varoitukset, vasta-aiheet, yhteisvaikutukset) ei ole täl
 **Perustelut:**
 - Ennuste on pelkkä tietämysgraafiin perustuva tulos (L5) ilman kliinisiä tutkimuksia, kirjallisuutta tai tunnistettavaa mekanistista yhteyttä.
 
+<!-- review:begin fi-lic-20261106-tyrosine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste on pelkkä tietämysgraafiin perustuva tulos (L5) ilman kliinisiä tutkimuksia, kirjallisuutta tai tunnistettavaa mekanistista yhteyttä. Lisäksi ainoa Suomessa tunnettu myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tyrosine-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin (MOA) tietojen hankkimista DrugBankista
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää tällä hetkellä turvallisuusarvioinnin)
 - Prekliinistä tai mekanistista näyttöä tyrosiinin yhteydestä cauda equina -oireyhtymään
 - Harkintaa siitä, kannattaisiko arviointi kohdistaa uskottavampaan ehdokkaaseen, kuten katekoliamiiniyhteyden vuoksi POTS-oireyhtymään, ottaen huomioon että nykyinen tuki on epäsuora
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi ainoa Suomessa tunnettu myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

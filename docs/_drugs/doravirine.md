@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "DORAVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Doravirine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -79,6 +79,12 @@ Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksi
 
 Ensisijaiseen ennusteeseen (kissan immuunipuutosoireyhtymä) ei ole saatavilla kirjallisuutta. Toiseksi sijoittuneeseen SIV-ennusteeseen liitetty julkaisu on esitetty alla; se ei koske doravirinia.
 
+<!-- review:begin fi-lic-20261106-doravirine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-doravirine-1 -->
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
 | [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Katsaus | Current Opinion in HIV and AIDS | Islatravirin (käänteiskopioijaentsyymin translokaation estäjä) mahdollinen rooli HIV-1-infektion hoidossa ja ehkäisyssä; ei suoraa näyttöä doravirinista |
@@ -112,11 +118,31 @@ Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ollut saatavilla; niide
 **Perustelut:**
 - Ennuste perustuu vain mallin pisteytykseen (L5). Kliinisiä tutkimuksia ei ole, eikä doravirinia koskevaa kirjallisuutta ole. Biologinen perustelu on heikko, koska NNRTI-lääkkeet tehoavat huonosti FIV:hen ja SIV:hen.
 
+<!-- review:begin fi-lic-20261106-doravirine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Biologinen perustelu on heikko, koska NNRTI-lääkkeet tehoavat huonosti FIV:hen ja SIV:hen. Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-doravirine-2 -->
+
 **Eteneminen edellyttää seuraavaa:**
 - Vaikutusmekanismitietojen täydentäminen (DrugBank)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti (Fimea), mikä estää tällä hetkellä turvallisuusseulonnan
 - In vitro -tutkimus doravirinin tehosta FIV:tä ja SIV:tä vastaan (rakenteellinen NNRTI-sitoutumistaskun vertailu)
 - Käyttöaiheen ja kohdelajin (eläinlääkinnällinen vs. ihmislääkinnällinen käyttö) selkeyttäminen ennen jatkotoimia
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

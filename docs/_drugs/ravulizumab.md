@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ravulizumab: ennustettu uusi käyttöaihe Autosomaalinen resessiivinen vaikea synnynnäinen neutropenia (G6PC3-puutos) (näytön taso L5). Alkuperäinen käyttöaihe: Paroksysmaalinen hemoglobinuria"
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
@@ -92,12 +92,31 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Perustelu:**
 Ennuste perustuu pelkkään mallilaskentaan (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä biologista yhteyttä C5-eston ja G6PC3-puutoksen välillä ole osoitettu. Lisäksi meningokokki-infektio on tietämyskaavion mukaan vasta-aihe.
 
+<!-- review:begin fi-lic-20261106-ravulizumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi meningokokki-infektio on tietämyskaavion mukaan vasta-aihe, ja Suomessa lääkkeen ainoa myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ravulizumab-1 -->
+
 **Jatkaminen edellyttää:**
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta
 - Prekliininen tai mekanistinen näyttö komplementin roolista G6PC3-puutoksessa
 - Antoreittien yhteensopivuuden ja ennusteen ja alkuperäisen käyttöaiheen samankaltaisuuden arviointi
 - Meningokokkiriskin hallintasuunnitelma (rokotus, seuranta)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja Suomessa lääkkeen ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

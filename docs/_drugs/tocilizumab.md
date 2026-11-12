@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 442
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: ennustettu uusi käyttöaihe Selkärankareuma (ankylosing spondylitis) (näytön taso L2). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
@@ -116,6 +116,12 @@ Muista ennusteista vahvin on monen nivelen lastenreuma (polyartikulaarinen JIA),
 - **Kohtalainen (Moderate):** naltreksoni, metronidatsoli, tinidatsoli, rosuvastatiini, simvastatiini, apiksabaani, rivaroksabaani, varfariini, dikumaroli, klorokiini, hydroksiklorokiini, disulfiraami, lidokaiini
 - **Lievä (Minor):** sinkkisuolat (sulfaatti, asetaatti, glukonaatti, kloridi)
 
+<!-- review:begin fi-lic-20261106-tocilizumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia lupia ei ole.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tocilizumab-1 -->
+
 **Ennustekohtaisia turvallisuushuomioita:**
 - Tosilitsumabi on immunosuppressiivinen ja lisää infektioriskiä, myös tuberkuloosia. Tämän vuoksi ennuste mykobakteeri-infektioille alttiilla (IL12B-puutos) on vakava turvallisuusongelma.
 - Kirjallisuudessa on raportoitu tosilitsumabin aiheuttamia vaskuliitin kaltaisia reaktioita ja vakava maksavaurio hoidon aloituksen jälkeen.
@@ -132,6 +138,12 @@ Muilta osin turvallisuustiedot on luettava valmisteyhteenvedosta.
 **Perustelut:**
 - Selkärankareuman osalta molemmat vaiheen 3 tutkimukset keskeytettiin, eikä aineistosta käy ilmi osoitettua kliinistä tehoa. IL-6-salpaus on mekanistisesti uskottava, mutta TNF- ja IL-17-estäjät ovat vakiintuneempia vaihtoehtoja, joten tämä on toistaiseksi tutkimuskysymys.
 
+<!-- review:begin fi-lic-20261106-tocilizumab-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”IL-6-salpaus on mekanistisesti uskottava, mutta TNF- ja IL-17-estäjät ovat vakiintuneempia vaihtoehtoja, joten tämä on toistaiseksi tutkimuskysymys. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tocilizumab-2 -->
+
 **Eteneminen edellyttää:**
 - Keskeytettyjen tutkimusten (NCT01209689, NCT01209702) tulosten ja keskeyttämissyiden tarkistamista sekä BUILDER-1/2-julkaisun (PMID 23765873) arviointia
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (tällä hetkellä puuttuvat ja estävät turvallisuusseulonnan)
@@ -145,6 +157,20 @@ Muilta osin turvallisuustiedot on luettava valmisteyhteenvedosta.
 - Selkärankasairaus (vertebral disease): L4, Hold (näyttö epäsuoraa)
 - Spondyloartropatia-alttius: L5, Hold
 - Häntäluun liikkuvuuslisä, Kümmellin tauti, IL12B-puutoksen mykobakteerialttius: L5, Hold (pelkkä mallin ennuste; viimeisessä lisäksi vakava turvallisuushuoli)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

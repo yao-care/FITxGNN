@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 412
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Sunitinib: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L2). Alkuperäinen käyttöaihe: Maha-suolikanavan stroomakasvaimet (GIST), munuaissolusyöpä…"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -127,6 +127,12 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tähän rapor
 **Perustelut:**
 - Liposarkoomaa koskeva näyttö on epäsuoraa ja rajallista: kaksi vaiheen 2 tutkimusta pehmytkudossarkoomissa yleisesti, yksi tapausselostus eikä vaiheen 3 näyttöä. Teho vaikuttaa histologiasta riippuvaiselta ja rajalliselta. Turvallisuustiedot (valmisteyhteenveto) puuttuvat.
 
+<!-- review:begin fi-lic-20261106-sunitinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi Suomessa kaikki sunitinibin myyntiluvat on peruutettu, ja turvallisuustiedot (valmisteyhteenveto) puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-sunitinib-1 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimeasta (estää turvallisuusseulonnan)
 - Vaikutusmekanismitietojen täydentäminen DrugBankista
@@ -134,11 +140,31 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tähän rapor
 - Selvitys sunitinibin saatavuudesta Suomessa
 - Yhteisvaikutusten ja sydän- ja maksaturvallisuuden seurantasuunnitelma
 
+<!-- review:begin fi-lic-20261106-sunitinib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys sunitinibin saatavuudesta Suomessa, koska myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-sunitinib-2 -->
+
 ---
 
 ## Muut ennustetut käyttöaiheet (lyhyesti)
 
 Raporttiin koottujen tietojen perusteella muista ennusteista vahvin on **munuaiskarsinooma** (L1, suositus Proceed with Guardrails). Se on kuitenkin jo sunitinibin alkuperäinen käyttöaihe, eli kyse ei ole varsinaisesta uudelleenkäytöstä. Todellisia uusia ehdokkaita ovat mm. luokittelematon munuaissolusyöpä, Xp11.2/TFE3-translokaatioon liittyvä munuaissolusyöpä ja dermatofibrosarcoma protuberans (L2–L3, tutkimuskysymys). Useimmilla muilla ennusteilla (esim. angiolipooma, sydämen fibrosarkooma) ei ole kliinistä näyttöä (L5, Hold).
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa kaikki sunitinibin myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 290
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Micafungin: ennustettu uusi käyttöaihe Virtsatieinfektio (näytön taso L3). Alkuperäinen käyttöaihe: Kandidiaasi"
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -105,6 +105,12 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelu:**
 Näyttö koostuu pääosin kohorttitutkimuksista, tapaussarjoista ja tapauskuvauksista (taso L3), eikä rekisteröityjä kliinisiä tutkimuksia ole. Valmisteyhteenvedon turvallisuustiedot puuttuvat. Ennuste on mekanistisesti uskottava, mutta se on toistaiseksi tutkimuskysymys.
 
+<!-- review:begin fi-lic-20261106-micafungin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valmisteyhteenvedon turvallisuustiedot puuttuvat, ja Suomessa ainoa myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-micafungin-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää turvallisuusarvioinnin jatkamisen)
 - Vaikutusmekanismitietojen täydentämistä DrugBankista
@@ -112,6 +118,26 @@ Näyttö koostuu pääosin kohorttitutkimuksista, tapaussarjoista ja tapauskuvau
 - Virtsan lääkepitoisuuksia ja kliinistä vastetta koskevan lisänäytön arviointia
 - Myyntiluvan ja saatavuuden selvittämistä Suomessa
 - Munuaisten vajaatoimintaa sairastavien potilaiden turvallisuussuunnitelmaa
+
+<!-- review:begin fi-lic-20261106-micafungin-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Myyntiluvan ja saatavuuden selvittämistä Suomessa, koska voimassa olevaa myyntilupaa ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-micafungin-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska voimassa olevaa myyntilupaa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

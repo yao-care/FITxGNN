@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 407
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: ennustettu uusi käyttöaihe Hepatitis B virus infection (näytön taso L2). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"
@@ -139,12 +139,31 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Hepatiitti E:llä on ennustetuista indikaatioista vahvin biologinen perustelu (RdRp-kohde, in vitro- ja eläinkoenäyttö) ja ainoa suora kliininen pilottitutkimus. Kliininen teho on kuitenkin vahvistamatta: pysyvää vastetta ei saavutettu ja resistenssiä ilmaantui.
 
+<!-- review:begin fi-lic-20261106-sofosbuvir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliininen teho on kuitenkin vahvistamatta: pysyvää vastetta ei saavutettu ja resistenssiä ilmaantui. / Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-sofosbuvir-1 -->
+
 **Etenemiseksi tarvitaan:**
 - Suurempi, mieluiten satunnaistettu ja kontrolloitu tutkimus kroonisessa HEV-infektiossa, erityisesti ribaviriinille reagoimattomilla immuunipuutteisilla potilailla (esim. yhdistelmähoidot ja resistenssin seuranta)
 - Yksityiskohtaiset vaikutusmekanismitiedot ja valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea)
 - Arvio saatavuudesta ja myyntiluvan tilasta Suomessa
 - Yhteisvaikutusten hallintasuunnitelma ja HBV-seulonta ennen hoitoa
 - Muiden ennustettujen indikaatioiden (HBV, HIV, HAV jne.) osalta ei suositella jatkoa uudelleenkäyttönä ilman uutta näyttöä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

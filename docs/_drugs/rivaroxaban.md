@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
 description: "Rivaroxaban: ennustettu uusi käyttöaihe Nivelreuma (rheumatoid arthritis) (näytön taso L5). Alkuperäinen käyttöaihe: Venous Thromboembolism"
@@ -83,6 +83,12 @@ Tällä hetkellä ei ole nivelreumaan liittyviä rekisteröityjä kliinisiä tut
 
 Yksikään julkaisu ei tutki rivaroksabaanin tehoa nivelreuman hoidossa.
 
+<!-- review:begin fi-lic-20261106-rivaroxaban-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-rivaroxaban-1 -->
+
 ---
 
 ## Suomen markkinatiedot
@@ -119,15 +125,42 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - TxGNN-pistemäärä on erittäin korkea (0,9957), mutta näyttö on tasoa L5: kliinisiä tutkimuksia ei ole, eikä kirjallisuus tue rivaroksabaanin käyttöä nivelreuman hoidossa. Mahdollinen hyöty rajoittuisi epäsuoraan tromboosiriskin hallintaan.
 - Turvallisuustietojen puute estää etenemisen turvallisuusseulontaan.
 
+<!-- review:begin fi-lic-20261106-rivaroxaban-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustietojen puute estää etenemisen turvallisuusseulontaan.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-rivaroxaban-2 -->
+
 **Jatkaminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (estävä tietoaukko)
 - Vaikutusmekanismin tiedot (esim. DrugBankista)
 - Systemaattinen kirjallisuushaku rivaroksabaanin käytöstä nivelreumapotilailla, erityisesti tromboosiprofylaksiassa
 - Samankaltaisuusarvio alkuperäisen ja ennustetun käyttöaiheen välillä sekä antoreittien yhteensopivuuden arviointi
 
+<!-- review:begin fi-lic-20261106-rivaroxaban-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Samankaltaisuusarvio alkuperäisen ja ennustetun käyttöaiheen välillä sekä antoreittien yhteensopivuuden arviointi / Markkinatilanteen selvittäminen, koska voimassa olevia myyntilupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-rivaroxaban-3 -->
+
 ---
 
 **Muut ennustetut käyttöaiheet (tiedoksi):** kihti (piste 0.9951), HIV-infektio (0.9917) ja brakydaktylia-syndaktylia-oireyhtymä (0.9910) saivat kaikki suosituksen Hold. Kihdelle ja harvinaiselle raajojen epämuodostumalle ei löytynyt uskottavaa mekanistista perustetta. HIV:n osalta kirjallisuus koskee lähinnä rivaroksabaanin yhteisvaikutuksia retroviruslääkkeiden (ritonaviiri, kobisistaatti) kanssa eikä hoitovaikutusta.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Markkinatilanteen selvittäminen, koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

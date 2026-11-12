@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 414
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: ennustettu uusi käyttöaihe Seborrheic dermatitis (näytön taso L1). Alkuperäinen käyttöaihe: Liver Transplantation"
@@ -60,6 +60,12 @@ Seborrooisessa ihottumassa ihon Malassezia-hiivalle antama tulehdusvaste on kesk
 
 Muut ennustetut käyttöaiheet ovat heikommin tuettuja. Parapsoriaasista on vain tapausselostuksia samankaltaisesta tilasta (pityriasis lichenoides), joten näyttö on L4 ja suositus "Hold". Yleinen "ihottuma"-ennuste (L1) on lähinnä vahvistava, koska näyttö koskee pääosin atooppista ihottumaa, joka on jo hyväksytty käyttöaihe.
 
+<!-- review:begin fi-lic-20261106-tacrolimus-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia myyntilupia ei tähän raporttiin koottujen tietojen mukaan ole.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tacrolimus-1 -->
+
 ## Kliininen tutkimusnäyttö
 
 | Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
@@ -107,11 +113,38 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ni
 **Perustelu:**
 - Seborrooisesta ihottumasta on valmistunut vaiheen 3 tutkimus (n=120), vaiheen 4 tutkimus (n=104) ja satunnaistettu, kaksoissokkoutettu, vehikkelikontrolloitu tutkimus (n=75). Mekanismi on uskottava ja TxGNN-pistemäärä korkea. Näyttö on kuitenkin pääosin ylläpitohoidosta kasvoilla.
 
+<!-- review:begin fi-lic-20261106-tacrolimus-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö on kuitenkin pääosin ylläpitohoidosta kasvoilla, ja Suomessa ei ole voimassa olevaa myyntilupaa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tacrolimus-2 -->
+
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (tämä on estävä tietoaukko).
 - Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä.
 - Pitkäaikaisen turvallisuuden seurantasuunnitelmaa (mm. pahanlaatuisten kasvainten riski) ja käytön rajaamista paikalliseen antoon.
 - Vaiheen 3 tulosten ja satunnaistettujen tutkimusten tarkempaa arviointia sekä ihottuman alatyyppikohtaista validointia.
+
+<!-- review:begin fi-lic-20261106-tacrolimus-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä. / Suomen myyntilupatilanteen selvittämistä, koska kaikki lupatiedot ovat peruutettuja, sekä paikallisen lääkemuodon saatavuuden varmistamista.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tacrolimus-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia myyntilupia ei tähän raporttiin koottujen tietojen mukaan ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomen myyntilupatilanteen selvittämistä, koska kaikki lupatiedot ovat peruutettuja, sekä paikallisen lääkemuodon saatavuuden varmistamista” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

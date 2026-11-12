@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tadalafil: ennustettu uusi käyttöaihe Ambras-tyypin yleistynyt synnynnäinen liikakarvoitus (Ambras type hyp… (näytön taso L5). Alkuperäinen käyttöaihe: Erektiohäiriö"
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -77,6 +77,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 Ensisijaiselle ennusteelle (Ambras-tyypin liikakarvoitus) ei ole saatavilla kirjallisuutta. Ainoa löytynyt julkaisu liittyy ennusteeseen sijalta 8 (migreeni aivorunkoauralla):
 
+<!-- review:begin fi-lic-20261106-tadalafil-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi yksi peruutettu myyntilupa (Yuvanci, EMEA/H/C/005001, keuhkovaltimoverenpaine).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tadalafil-1 -->
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
 | [17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/) | 2006 | Tapausselostus | Cephalalgia | Tadalafiiliin liittyi tyypillinen migreeniaura ilman päänsärkyä. Viittaa siihen, että lääke voi laukaista migreenioireita, ei hoitaa niitä. |
@@ -112,11 +118,31 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut käytettävissä, joten
 **Perustelut:**
 - Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta, eikä uskottavaa mekanismia ole tunnistettu. Korkea pistemäärä näyttää johtuvan tietämysgraafin rakenteesta.
 
+<!-- review:begin fi-lic-20261106-tadalafil-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Korkea pistemäärä näyttää johtuvan tietämysgraafin rakenteesta. Lisäksi kaikki tadalafiilin myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tadalafil-2 -->
+
 **Jatkoon tarvitaan:**
 - Tadalafiilin vaikutusmekanismia koskevat tiedot (esim. DrugBankista)
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta
 - Biologisen mekanismin selvitys ennen mitään prekliinistä tai kliinistä työtä
 - Myyntilupatilanteen selvitys, jos jokin käyttöaihe halutaan viedä eteenpäin
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi yksi peruutettu myyntilupa (Yuvanci, EMEA/H/C/005001, keuhkovaltimoverenpaine)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki tadalafiilin myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

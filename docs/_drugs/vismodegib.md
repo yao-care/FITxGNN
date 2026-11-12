@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
 description: "Vismodegib: ennustettu uusi käyttöaihe Medulloblastoma with extensive nodularity (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Basal Cell"
@@ -119,6 +119,12 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 - Ennuste perustuu pelkästään TxGNN-pistemäärään (0,9993), eikä tukena ole kliinisiä tutkimuksia eikä kirjallisuutta (näytön taso L5).
 - Turvallisuusprofiili (teratogeenisuus) vaatii huolellista harkintaa.
 
+<!-- review:begin fi-lic-20261106-vismodegib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suomessa vismodegibin myyntiluvat on peruutettu, ja turvallisuusprofiili (teratogeenisuus) vaatii huolellista harkintaa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-vismodegib-1 -->
+
 **Etenemiseksi tarvitaan:**
 - Systemaattinen kirjallisuushaku medulloblastoomasta ja vismodegibista, myös lasten aiemmat tutkimukset.
 - SHH-alaryhmän molekyylitason varmistus (esim. PTCH1/SMO-mutaatiot).
@@ -128,6 +134,19 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 **Huomio muista ennusteista:** Samassa ennustelistassa kaksi muuta kohdetta erottuu vahvemman näytön vuoksi:
 - **Xeroderma pigmentosum** (näytön taso L4): neljä kirjallisuusviitettä, joista kaksi on vismodegibia koskevia tapausselostuksia, mukaan lukien 8-vuotias lapsi. Vismodegibi hoitaa tällöin kasvaimia (tyvisolusyöpiä), ei taustalla olevaa korjausmekanismin vikaa.
 - **Ihosyöpä** (näytön taso L2, suositus Proceed with Guardrails): tuki on pääosin Vaihe 2- ja varhaisvaiheen tutkimuksia sekä hoitosuosituksia, mutta kohde menee suurelta osin päällekkäin alkuperäisen tyvisolusyöpäkäyttöaiheen kanssa, eikä se ole todellista uudelleenkäyttöä. Vaiheen 3 satunnaistettua tutkimusta ei tunnistettu.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa vismodegibin myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

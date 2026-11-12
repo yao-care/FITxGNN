@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Oxybutynin: ennustettu uusi käyttöaihe Levottomien jalkojen oireyhtymä (restless legs syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Pakkotihentymisinkontinenssi (urge-inkontinenssi)"
 monitor_inn: "OXYBUTYNIN"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
@@ -124,11 +124,30 @@ Kohtalaisia (Moderate) yhteisvaikutuksia on mm. muiden antikolinergisten tai ant
 - Levottomien jalkojen oireyhtymän ennuste perustuu pelkästään mallin pistemäärään: kliinisiä tutkimuksia ja kirjallisuutta ei ole, uskottavaa mekanismia ei tunnistettu ja antikolinergit voivat jopa pahentaa oireita.
 - Peptisen haavauman osalta kirjallisuus on vanhaa ja epäsuoraa, ja oksibutyniinin aiheuttama refluksiesofagiitti on turvallisuussignaali käyttöä vastaan.
 
+<!-- review:begin fi-lic-20261106-oxybutynin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Peptisen haavauman osalta kirjallisuus on vanhaa ja epäsuoraa, ja oksibutyniinin aiheuttama refluksiesofagiitti on turvallisuussignaali käyttöä vastaan. Lisäksi Suomessa ainoa myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-oxybutynin-1 -->
+
 **Jatkotoimien edellytyksenä on:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (turvallisuusarvioinnin estävä tietoaukko)
 - Vaikutusmekanismin (MOA) tiedot esimerkiksi DrugBankista
 - Prekliininen tai kliininen näyttö, joka tukee yhteyttä oksibutyniinin ja ennustetun käyttöaiheen välillä
 - Lääkemuotojen ja antoreittien yhteensopivuuden selvitys sekä myyntiluvan tilanteen tarkistus
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

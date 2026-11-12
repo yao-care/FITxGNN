@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
 description: "Nelarabine: ennustettu uusi käyttöaihe Relapsing-remitting multiple sclerosis (näytön taso L5). Alkuperäinen käyttöaihe: Precursor T-Cell Lymphoblastic Leukemia-Lymphoma"
@@ -109,6 +109,12 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetiedot on vielä hankittava.
 **Perustelut:**
 - Ennuste perustuu vain korkeaan TxGNN-pisteeseen (näytön taso L5), eikä tukevia tutkimuksia tai julkaisuja ole. Nelarabiinin tunnettu neurotoksisuus, myös demyelinaatio, on vakava turvallisuushuoli MS-taudissa. Yhteisvaikutuksia on runsaasti.
 
+<!-- review:begin fi-lic-20261106-nelarabine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi Suomessa on vain peruutettu myyntilupa ja yhteisvaikutuksia on runsaasti.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nelarabine-1 -->
+
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku ja analysointi (Fimea)
 - Vaikutusmekanismin (MOA) tiedot
@@ -116,6 +122,19 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetiedot on vielä hankittava.
 - Systemaattinen kirjallisuushaku sekä mahdollisen kliinisen tutkimuksen suunnittelu
 - Neurotoksisuusriskin arviointi MS-potilailla ja vertailu kladribiiniin
 - Reittien ja lääkemuodon yhteensopivuuden selvitys sekä myyntiluvan tilanteen tarkistus
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa ja y” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

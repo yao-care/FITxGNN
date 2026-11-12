@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Etravirine: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "ETRAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
@@ -106,6 +106,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet ovat tarkistamatta; katso turval
 **Perustelut:**
 - Näyttö rajoittuu yhteen välillisesti aiheeseen liittyvään prekliiniseen julkaisuun, eikä kliinisiä tutkimuksia ole. SIV on lisäksi luontaisesti NNRTI-resistentti, ja ennuste on pikemmin eläinmallin laajennus kuin ihmisen uusi hoitokäyttö.
 
+<!-- review:begin fi-lic-20261106-etravirine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”SIV on lisäksi luontaisesti NNRTI-resistentti, ja ennuste on pikemmin eläinmallin laajennus kuin ihmisen uusi hoitokäyttö. Myyntilupa Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-etravirine-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Etraviriinin suoraa in vitro -tehotestausta SIV:tä vastaan
 - Yksityiskohtaisia mekanismitietoja (MOA)
@@ -118,6 +124,19 @@ Muista kymmenen parhaan ennusteen joukossa olevista käyttöaiheista ei löytyny
 - **Synnynnäinen HIV** (taso L3): kuuluu alkuperäisen käyttöaiheen piiriin; tukena vain kaksi raskaana olevaa koskeva tapausraportti (2010), joten lasten annostus- ja tehotietoja ei ole.
 - **AIDS-related complex** (L4): kuuluu alkuperäisen HIV-käyttöaiheen piiriin; julkaisut ovat epäsuoria.
 - **Muut ennusteet** (kissan immuunikatoyhtymä, neurokehityshäiriö, eturauhasen fibrooma, Brennerin kasvain, hyvänlaatuiset sukuelinkasvaimet, eturauhasen hyvänlaatuinen phyllodes-kasvain, vanhentunut familiaalinen yhdistetty hyperlipidemia): ei kliinistä näyttöä eikä uskottavaa mekanismia, ja ne ovat todennäköisesti tietämysgraafin artefakteja.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

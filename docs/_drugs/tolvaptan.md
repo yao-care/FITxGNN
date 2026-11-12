@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: ennustettu uusi käyttöaihe Renal-hepatic-pancreatic dysplasia (näytön taso L5). Alkuperäinen käyttöaihe: Inappropriate ADH Syndrome"
@@ -118,12 +118,24 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla tämän
 **Perustelut:**
 - Tolvaptaanin teho ADPKD:ssa on osoitettu keskeisillä RCT-tutkimuksilla, ja PKD3 jakaa saman cAMP-välitteisen kystogeenisen mekanismin. Alatyypille ei kuitenkaan ole omaa kliinistä näyttöä.
 
+<!-- review:begin fi-lic-20261106-tolvaptan-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Alatyypille ei kuitenkaan ole omaa kliinistä näyttöä, ja Suomessa kaikki myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tolvaptan-1 -->
+
 **Jatkaminen edellyttää seuraavaa:**
 - Alatyyppikohtainen näyttö (PKD3/GANAB) tai perusteltu ekstrapolaatio ADPKD-tutkimuksista
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti (ei saatavilla tässä aineistossa)
 - Maksa-arvojen seurantasuunnitelma (DILI-riski)
 - CYP3A4-yhteisvaikutusten ja 100 yhteisvaikutuksen arviointi
 - Vaikutusmekanismitietojen (MOA) täydentäminen lääketietokannasta
+
+<!-- review:begin fi-lic-20261106-tolvaptan-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”CYP3A4-yhteisvaikutusten ja 100 yhteisvaikutuksen arviointi / Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tolvaptan-2 -->
 
 ---
 
@@ -142,6 +154,20 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla tämän
 | 10 | Dandy-Walker-epämuodostumaoireyhtymä | L5 | Hold |
 
 Näistä vain Joubertin oireyhtymä munuaisoireineen (ciliopatia, jossa cAMP-signaloinnin häiriö on uskottava) on mekanistisesti perusteltu tutkimuskysymys. Muut ennusteet ovat todennäköisesti tietämyskaavion läheisyyden aiheuttamia artefakteja.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja Suomessa kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

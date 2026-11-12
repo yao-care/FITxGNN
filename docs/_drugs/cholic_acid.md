@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 112
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "CHOLIC ACID"
 predicted_indications: ["HIV infectious disease", "obsolete familial combined hyperlipidemia", "homozygous familial hypercholesterolemia", "biotin metabolic disease", "vitamin deficiency disorder", "hereditary hemochromatosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hemosiderosis", "disorder of phenylalanine metabolism", "bone Paget disease"]
 description: "Cholic Acid: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L4). Alkuperäinen käyttöaihe: Digestive System Diseases"
@@ -109,11 +109,30 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Perustelut:**
 - Ennuste perustuu lähinnä malliin. Kliinisiä tutkimuksia ei ole, prekliininen näyttö on ristiriitaista ja osa viittaa HIV:n replikaation lisääntymiseen.
 
+<!-- review:begin fi-lic-20261106-cholic_acid-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliinisiä tutkimuksia ei ole, prekliininen näyttö on ristiriitaista ja osa viittaa HIV:n replikaation lisääntymiseen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-cholic_acid-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin tarkempaa kuvausta.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä.
 - Uusia in vitro- ja eläinkokeita, joissa selvitetään kolihapon vaikutus HIV:n replikaatioon (ristiriitainen aiempi näyttö).
 - Tarvittaessa toisen, paremmin tuetun ennustetun käyttöaiheen tarkastelua. Esimerkiksi rasvaliukoisten vitamiinien puutos sappihappojen synteesihäiriöissä on epäsuorasti tuettu, mutta se on pikemminkin alkuperäisen käyttöaiheen sivuhyöty kuin uusi käyttöaihe.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

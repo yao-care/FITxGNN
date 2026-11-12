@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Corifollitropin Alfa: ennustettu uusi käyttöaihe Gastroduodeniitti (näytön taso L5). Alkuperäinen käyttöaihe: Avustetut lisääntymistekniikat"
 monitor_inn: "CORIFOLLITROPIN ALFA"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
@@ -99,11 +99,30 @@ Ennustettuihin käyttöaiheisiin liittyen aineistossa todetaan, että munasarjoj
 **Perustelut:**
 - Ennuste perustuu pelkästään graafipohjaiseen mallipisteytykseen (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, uskottavaa mekanismia ei ole tunnistettu.
 
+<!-- review:begin fi-lic-20261106-corifollitropin_alfa-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliinistä tai kirjallisuusnäyttöä ei ole, uskottavaa mekanismia ei ole tunnistettu, ja Suomessa valmisteen ainoa myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-corifollitropin_alfa-1 -->
+
 **Jatkotoimiin tarvitaan:**
 - Vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (nykyinen turvallisuusarvioinnin estävä tietoaukko)
 - Prekliininen tai mekanistinen näyttö FSH-signaloinnin roolista ennustetussa sairaudessa
 - Systemaattinen kirjallisuushaku ennen kuin ehdokasta harkitaan uudelleen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja Suomessa valmisteen ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

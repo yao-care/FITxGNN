@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "FERRIC MALTOL"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Ferric Maltol: ennustettu uusi käyttöaihe Vitamin B12- and folate-independent constitutional megaloblastic anemia (näytön taso L5). Alkuperäinen käyttöaihe: Anemia, Iron-Deficiency"
 ---
 
@@ -60,6 +60,12 @@ Plummer-Vinsonin oireyhtymälle (jota kutsutaan myös Paterson-Brown-Kelly-oirey
 
 Pistemäärä 0,9998 on kuitenkin todennäköisesti seurausta lääkkeen tunnetusta raudanpuuteanemiaan liittyvästä asemasta ja mallin sisäisestä läheisyydestä, ei itsenäisestä näytöstä. Ruokatorven kalvomuodostumat ovat rakenteellisia, eikä niiden odoteta korjaantuvan pelkällä raudalla.
 
+<!-- review:begin fi-lic-20261106-ferric_maltol-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ruokatorven kalvomuodostumat ovat rakenteellisia, eikä niiden odoteta korjaantuvan pelkällä raudalla. Lisäksi lupa on tilassa "peruutettu", mikä rajoittaa käytännön saatavuutta.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ferric_maltol-1 -->
+
 ## Kliininen tutkimusnäyttö
 
 Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
@@ -90,6 +96,19 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistaminen Fimean sivustolta
 - Yksityiskohtaiset tiedot vaikutusmekanismista
 - Lupatilanteen ja valmisteen saatavuuden selvittäminen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi lupa on tilassa "peruutettu", mikä rajoittaa käytännön saatavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

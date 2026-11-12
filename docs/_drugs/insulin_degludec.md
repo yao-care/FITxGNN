@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 description: "Insulin Degludec: ennustettu uusi käyttöaihe Autoimmune oophoritis (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
@@ -118,6 +118,12 @@ Aineistossa on lisäksi useita vaiheen 1 farmakodynamiikkatutkimuksia ja kaksi l
 
 - **Lääkkeiden yhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 100. Esimerkkejä keskivaikeista yhteisvaikutuksista: beetasalpaajat (asebutololi), sympatomimeetit (fenyylefriini, pseudoefedriini, adrenaliini, salbutamoli, formoteroli), metformiini, pioglitatsoni, alogliptiini, albiglutidi, alpelisibi, hydrokortisoni, hydroklooritiatsidi, estradioli, levonorgestreeli, noretisteroni, doksisykliini ja etanoli. Lieviä yhteisvaikutuksia on mm. paikallisesti käytettävillä kortikosteroideilla (hydrokortisoni, alklometasoni). Yhteisvaikutukset liittyvät pääosin verensokeriin vaikuttaviin lääkkeisiin ja hypoglykemian riskiin tai oireiden peittymiseen.
 
+<!-- review:begin fi-lic-20261106-insulin_degludec-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa on peruutettu, joten voimassa olevaa myyntilupaa ei ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_degludec-1 -->
+
 Varoituksia ja vasta-aiheita koskevia valmisteyhteenvetotietoja ei ollut käytettävissä. Tarkista ne valmisteyhteenvedosta.
 
 ---
@@ -130,10 +136,37 @@ Varoituksia ja vasta-aiheita koskevia valmisteyhteenvetotietoja ei ollut käytet
 - Tyypin 1 diabeteksen näyttö on vahva: useita valmistuneita vaiheen 3 satunnaistettuja tutkimuksia ja useita RCT-julkaisuja sekä järjestelmällisiä katsauksia. Käyttöaihe on kuitenkin käytännössä merkinnän mukainen, joten kyse ei ole varsinaisesta uudelleenkäytöstä.
 - Muut ennustetut käyttöaiheet (rank 2–6) jäävät tasolle Hold, koska niistä ei ole kliinistä näyttöä.
 
+<!-- review:begin fi-lic-20261106-insulin_degludec-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Käyttöaihe on kuitenkin käytännössä merkinnän mukainen, joten kyse ei ole varsinaisesta uudelleenkäytöstä. Kaikki Suomen myyntiluvat on peruutettu, mikä rajoittaa saatavuutta.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_degludec-2 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonta ei ole mahdollinen ilman niitä)
 - Vaikutusmekanismin tarkka kuvaus
 - Hypoglykemian seurantasuunnitelma ja yhteisvaikutusten hallinta erityisesti samanaikaisessa beetasalpaaja- ja sympatomimeettihoidossa
+
+<!-- review:begin fi-lic-20261106-insulin_degludec-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Vaikutusmekanismin tarkka kuvaus / Selvitys valmisteen nykyisestä saatavuudesta ja myyntiluvan tilasta Suomessa (peruutettujen lupien syy ja mahdolliset korvaavat valmisteet)” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_degludec-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu, joten voimassa olevaa myyntilupaa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on peruutettu, mikä rajoittaa saatavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys valmisteen nykyisestä saatavuudesta ja myyntiluvan tilasta Suomessa (peruutettujen lupien syy ja mahdolliset korvaavat valmisteet)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

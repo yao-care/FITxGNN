@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 380
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Risankizumab: ennustettu uusi käyttöaihe Dermatiitti (dermatitis) (näytön taso L2). Alkuperäinen käyttöaihe: Psoriasis"
@@ -123,12 +123,38 @@ Moderate-tason yhteisvaikutuksia ovat mm. takrolimuusi, siklosporiini, atsatiopr
 **Perustelut:**
 - Ainoa suora vaiheen 2 RCT atooppisessa ihottumassa ei osoita selvää tehoa, ja mekanistinen sopivuus on heikko Th2-vetoisessa taudissa. Lisäksi risankitsumabi voi aiheuttaa paradoksaalista ekseemaa. Muiden ennustettujen käyttöaiheiden (sijat 2–10) näyttö on pelkästään laskennallista (L5).
 
+<!-- review:begin fi-lic-20261106-risankizumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Muiden ennustettujen käyttöaiheiden (sijat 2–10) näyttö on pelkästään laskennallista (L5). Suomessa ainoa myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-risankizumab-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Vaiheen 2 tutkimuksen (NCT03706040 / PMID 36588137) tehotulosten tarkistamista päätyöstä
 - Tarkempaa rajausta dermatiittifenotyypille, jossa IL-23/Th17-reitti on keskeinen (psoriaasinkaltainen tai sekamuotoinen)
 - Yksityiskohtaisia vaikutusmekanismitietoja
 - Valmisteyhteenvedon turvallisuustietoja (varoitukset, vasta-aiheet)
 - Selvitystä Suomen myyntilupatilanteesta
+
+<!-- review:begin fi-lic-20261106-risankizumab-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitystä Suomen myyntilupatilanteesta (nykyinen lupa peruutettu)” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-risankizumab-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”(nykyinen lupa peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

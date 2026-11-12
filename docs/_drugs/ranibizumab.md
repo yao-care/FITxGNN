@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: ennustettu uusi käyttöaihe Immature cataract (näytön taso L5). Alkuperäinen käyttöaihe: Wet Macular Degeneration"
@@ -107,6 +107,12 @@ Kirjallisuudessa on RIDE/RISE-tutkimusten analyysejä, joissa diabeettinen retin
 - **Yksittäinen haittatapahtumaraportti:** Kirjallisuudessa on tapausselostus kapselilukkooireyhtymästä ranibitsumabin lasiaisensisäisen injektion jälkeen.
 - **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia ei löytynyt tehdyssä haussa.
 
+<!-- review:begin fi-lic-20261106-ranibizumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikkiaan myyntilupia on 7, ja ne ovat kaikki peruutettuja.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ranibizumab-1 -->
+
 Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla, joten niiden tarkistus on tehtävä erikseen.
 
 ---
@@ -118,12 +124,39 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla, joten 
 **Perustelut:**
 - Ennuste on mekanistisesti uskottava (VEGF-esto), ja kirjallisuudessa on satunnaistettu tutkimus (Pavilion) sekä RIDE/RISE-analyysejä. Ennustettuun käyttöaiheeseen ei ole annettu rekisteröityjä tutkimuksia, joten L1-taso perustuu kirjallisuuteen.
 
+<!-- review:begin fi-lic-20261106-ranibizumab-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennustettuun käyttöaiheeseen ei ole annettu rekisteröityjä tutkimuksia, joten L1-taso perustuu kirjallisuuteen, ja suomalaiset myyntiluvat ovat kaikki peruutettuja.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ranibizumab-2 -->
+
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estävä tietoaukko).
 - Vaikutusmekanismin vahvistamista DrugBankista.
 - Kirjallisuuden suhteen tarkistamista, koskevatko tulokset nimenomaan vaikeaa ei-proliferatiivista retinopatiaa.
 
+<!-- review:begin fi-lic-20261106-ranibizumab-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kirjallisuuden suhteen tarkistamista, koskevatko tulokset nimenomaan vaikeaa ei-proliferatiivista retinopatiaa. / Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ranibizumab-3 -->
+
 **Muut ennustetut käyttöaiheet (Odota / Hold):** Kaihin eri muodot (kypsymätön, kypsä, tetaaninen, kraniostenoosiin liittyvä, nukleaarinen, kortikaalinen, seniili ja tyypin 2 diabetekseen liittyvä kaihi) sekä vastasyntyneen verenvuototauti saivat korkeat ennustepisteet, mutta niille ei löytynyt uskottavaa mekanistista yhteyttä tai tukevaa terapeuttista näyttöä. Kirjallisuus koski pääosin verkkokalvosairauksia tai kaihileikkauksen yhteydessä annettua ranibitsumabia. Ainoa rekisteröity tutkimus (NCT01406639, perinnöllinen verenvuototauti HHT) peruttiin ilman osallistujia, eikä toinen tutkimus (NCT00470977) liity ennustettuun käyttöaiheeseen. Näitä ei suositella jatkoon.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikkiaan myyntilupia on 7, ja ne ovat kaikki peruutettuja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja suomalaiset myyntiluvat ovat kaikki peruutettuja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

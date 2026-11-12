@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Diroximel Fumarate: ennustettu uusi käyttöaihe Diabeettinen kaihi (näytön taso L5). Alkuperäinen käyttöaihe: Relapsoiva-remittoiva multippeliskleroosi"
 monitor_inn: "DIROXIMEL FUMARATE"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "tetanic cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "mature cataract"]
@@ -96,12 +96,31 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, ei ole tässä rap
 - Ennuste perustuu pelkästään TxGNN-mallin pisteytykseen (L5). Tukevia kliinisiä tutkimuksia tai julkaisuja ei ole.
 - Turvallisuuden arvioinnin estävä tietoaukko (valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat) estää etenemisen turvallisuusseulontaan.
 
+<!-- review:begin fi-lic-20261106-diroximel_fumarate-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tukevia kliinisiä tutkimuksia tai julkaisuja ei ole, ja valmisteen ainoa Suomen myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-diroximel_fumarate-1 -->
+
 **Jatkaminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta
 - Vaikutusmekanismitietojen täydentäminen DrugBankista
 - Prekliinisen näytön kartoitus Nrf2-aktivaatiosta diabeettisen kaihin ja retinopatian malleissa
 - Antoreitin ja silmäkudoksen altistuksen arviointi, koska systeemisen suun kautta annettavan lääkkeen riittävä altistus linssille on epävarma
 - Painopisteen rajaaminen diabeettisiin käyttöaiheisiin (diabeettinen retinopatia ja kaihi), koska muiden kaihityyppien yhteys on heikko, sekä vertailu nykyhoitoihin (anti-VEGF ja laserhoito)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja valmisteen ainoa Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

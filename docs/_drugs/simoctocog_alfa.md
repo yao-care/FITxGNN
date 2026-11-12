@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Simoctocog Alfa: ennustettu uusi käyttöaihe Pseudo-von Willebrandin tauti (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
 monitor_inn: "SIMOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
@@ -105,6 +105,12 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 Myyntiluvan haltija on Octapharma AB.
 
+<!-- review:begin fi-lic-20261106-simoctocog_alfa-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Molemmat myyntiluvat ovat peruutettuja, joten valmiste ei ole tällä hetkellä markkinoilla Suomessa. Myyntiluvan haltija on Octapharma AB.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-simoctocog_alfa-1 -->
+
 ---
 
 ## Turvallisuusnäkökohdat
@@ -122,11 +128,38 @@ Yksittäisen ennustetun käyttöaiheen osalta on huomattava, että TTP:ssä FVII
 **Perustelut:**
 - Ennuste perustuu pelkästään verkostopohjaiseen laskentaan (L5): kliinisiä tutkimuksia tai julkaisuja ei ole, ja useimmissa ennustetuissa käyttöaiheissa perusvika on verihiutalelähtöinen, jota FVIII ei korjaa.
 
+<!-- review:begin fi-lic-20261106-simoctocog_alfa-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste perustuu pelkästään verkostopohjaiseen laskentaan (L5): kliinisiä tutkimuksia tai julkaisuja ei ole, ja useimmissa ennustetuissa käyttöaiheissa perusvika on verihiutalelähtöinen, jota FVIII ei korjaa. Lisäksi valmisteen myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-simoctocog_alfa-2 -->
+
 **Jatkotoimiin ryhtyminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estävä tietoaukko)
 - Vaikutusmekanismin tiedot DrugBankista
 - Kirjallisuushaku ja prekliiniset tutkimukset, erityisesti VWF–FVIII-vuorovaikutuksesta pseudo-von Willebrandin taudissa
 - Hankinnaisen hyytymistekijäpuutoksen osalta alatyypin täsmentäminen (esim. hankinnainen hemofilia A vs. monitekijäpuutokset)
+
+<!-- review:begin fi-lic-20261106-simoctocog_alfa-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Hankinnaisen hyytymistekijäpuutoksen osalta alatyypin täsmentäminen (esim. hankinnainen hemofilia A vs. monitekijäpuutokset) / Myyntiluvan peruutuksen syiden ja valmisteen saatavuuden selvittäminen Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-simoctocog_alfa-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Molemmat myyntiluvat ovat peruutettuja, joten valmiste ei ole tällä hetkellä markkinoilla Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden ja valmisteen saatavuuden selvittäminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

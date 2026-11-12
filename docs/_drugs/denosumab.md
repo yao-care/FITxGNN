@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Denosumab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijainen en… (näytön taso L5). Alkuperäinen käyttöaihe: Luun jättisolukasvain (luukudoksen kasvaimet)"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -91,6 +91,12 @@ Kumpikaan julkaisu ei testaa denosumabia diabeettisessa retinopatiassa, joten ne
 
 Alla viisi esimerkkiä.
 
+<!-- review:begin fi-lic-20261106-denosumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 20 myyntilupaa on peruutettu. Alla viisi esimerkkiä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-denosumab-1 -->
+
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/006468 | Xbryk | – | Luukudoksen kasvaimet; luun jättisolukasvain |
@@ -133,12 +139,32 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, katso valmisteyhte
 - Ennuste perustuu lähes yksinomaan TxGNN-mallin korkeaan pistemäärään. Kliinisiä tutkimuksia ei ole, ja kaksi julkaisua ovat vain epäsuoraa, diabetekseen liittyvää näyttöä, joka ei testaa denosumabia retinopatiassa.
 - Turvallisuustietoja ei ole saatavilla.
 
+<!-- review:begin fi-lic-20261106-denosumab-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suomessa kaikki denosumabin myyntiluvat on peruutettu, ja turvallisuustietoja ei ole saatavilla.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-denosumab-2 -->
+
 **Jatkotoimiin tarvitaan:**
 - Denosumabin vaikutusmekanismitiedot (MOA), jotta mekanistinen yhteys retinopatiaan voidaan arvioida
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta turvallisuusarviointia varten
 - Julkaisun 38899553 koko teksti sen selvittämiseksi, raportoiko se retinopatiatuloksia
 - Prekliiniset tutkimukset tai havainnoivat aineistot, jotka tarkastelevat RANKL/OPG-signalointia verkkokalvon mikroverisuonisairaudessa
 - Selvitys Suomen myyntilupien nykytilasta ja lääkemuodoista, mukaan lukien antoreitin soveltuvuus silmänpohjan käyttöaiheeseen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki 20 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa kaikki denosumabin myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

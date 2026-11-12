@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 182
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Everolimus: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L2). Alkuperäinen käyttöaihe: Tuberoosiskleroosi"
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
@@ -102,6 +102,12 @@ Rajoitus: näyttö perustuu yhteen yhden haaran vaiheen 2 yhdistelmätutkimuksee
 
 Everolimuusi on syöpälääke (mTOR-estäjä, kohdennettu hoito). Tarkempia toksisuustietoja ei ole tässä aineistossa, joten viitataan valmisteyhteenvedon varoituksiin ja varotoimiin.
 
+<!-- review:begin fi-lic-20261106-everolimus-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-everolimus-1 -->
+
 | Kohta | Sisältö |
 |------|------|
 | Sytotoksisuusluokitus | Kohdennettu hoito (mTOR-estäjä), ei perinteinen sytostaatti |
@@ -132,11 +138,38 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niih
 - Liposarkoomaa tukee vain yksi yhden haaran vaiheen 2 yhdistelmätutkimus, jossa everolimuusin oma vaikutus ei ole erotettavissa. Turvallisuustiedot ovat puutteelliset.
 - Vaihtoehtona toinen ennuste, määrittämätön munuaissolukarsinooma, on näytöltään vahvempi (useita vaiheen 2 tutkimuksia, ASPEN-satunnaistettu tutkimus). Sen suositus on Proceed with Guardrails: ASPENissa everolimuusi ei ylittänyt sunitinibia etenemisvapaassa elinajassa, joten käyttö rajattaisiin valikoituihin potilaisiin. Näyttö koskee ei-kirkassoluista munuaissolukarsinoomaa yleisesti, ei tarkasti tätä alatyyppiä.
 
+<!-- review:begin fi-lic-20261106-everolimus-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja turvallisuustiedot ovat puutteelliset.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-everolimus-2 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimean sivusto)
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
 - Ribosiklibi-everolimuusi-tutkimuksen (NCT03114527) lopputulokset ja everolimuusin osuuden arviointi
 - Turvallisuuden seurantasuunnitelma (verenkuva, maksa, munuaiset, glukoosi, lipidit, keuhkot) sekä yhteisvaikutusten arviointi
+
+<!-- review:begin fi-lic-20261106-everolimus-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ribosiklibi-everolimuusi-tutkimuksen (NCT03114527) lopputulokset ja everolimuusin osuuden arviointi / Selvitys myyntilupien peruutuksen syistä ja valmisteen saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-everolimus-3 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruutuksen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

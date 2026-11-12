@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 406
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Sodium Oxybate: ennustettu uusi käyttöaihe Unettomuus (insomnia) (näytön taso L2). Alkuperäinen käyttöaihe: Kataplexia"
 monitor_inn: "SODIUM OXYBATE"
 predicted_indications: ["insomnia (disease)", "obsolete neurogenic bladder (disease)", "sleep disorder, initiating and maintaining sleep", "cauda equina syndrome", "Wernicke-Korsakoff syndrome", "restless legs syndrome"]
@@ -94,6 +94,12 @@ Käyttöä laajassa unettomuuspotilasjoukossa rajoittavat kuitenkin väärinkäy
 
 Huomattavaa: unettomuudesta ei ole satunnaistettua isoa tutkimusta, ja suurin osa kirjallisuudesta koskee narkolepsiaa tai muita potilasryhmiä.
 
+<!-- review:begin fi-lic-20261106-sodium_oxybate-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on peruutettu, eikä Suomessa ole voimassa olevaa myyntilupaa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-sodium_oxybate-1 -->
+
 ---
 
 ## Suomen markkinatiedot
@@ -128,6 +134,12 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Unettomuudesta on yksi pieni vaiheen 2 satunnaistettu tutkimus (n = 48), joten näyttö on rajallista.
 
+<!-- review:begin fi-lic-20261106-sodium_oxybate-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Unettomuudesta on yksi pieni vaiheen 2 satunnaistettu tutkimus (n = 48), joten näyttö on rajallista. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteen väärinkäyttöriski, hengityslama ja runsaat keskushermostoa lamaavat yhteisvaikutukset rajoittavat laajaa käyttöä unettomuuspotilailla.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-sodium_oxybate-2 -->
+
 **Jatkaminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen (tällä hetkellä aukko, joka estää turvallisuusseulonnan).
 - Yksityiskohtaiset vaikutusmekanismitiedot.
@@ -135,6 +147,20 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Riskienhallintasuunnitelma väärinkäytölle, riippuvuudelle ja hengityslamalle sekä arvio markkinoille paluun mahdollisuudesta Suomessa.
 
 **Muut ennusteet (lyhyesti):** Unen aloittamisen ja ylläpidon häiriö (L3) on päällekkäinen unettomuuden kanssa ja perustuu pääosin narkolepsiasta ekstrapoloituun näyttöön. Levottomat jalat (L4) -ennusteessa kirjallisuus viittaa mahdolliseen haittavaikutukseen, ei hyötyyn. Virtsarakon neurogeeninen häiriö (vanhentunut termi), cauda equina -oireyhtymä ja Wernicke-Korsakoffin oireyhtymä (kaikki L5) ovat pelkkiä malliennusteita ilman tutkimus- tai kirjallisuusnäyttöä, eikä niille ole uskottavaa mekanistista perustetta.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu, eikä Suomessa ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteen väärinkäyttöriski, hengityslama ja runsaat keskushermostoa lamaavat yhtei” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: ennustettu uusi käyttöaihe Faciodigitogenitaalinen oireyhtymä (faciodigitogenital syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Attention Deficit Disorder with Hyperactivity"
@@ -109,12 +109,31 @@ Lääkeaineiden yhteisvaikutuksista ei ole kliinisiä yhteisvaikutustietoja. Far
 **Perustelut:**
 - Ensisijaisella ennusteella (faciodigitogenitaalinen oireyhtymä) ei ole kliinisiä tutkimuksia, kirjallisuutta eikä tunnistettua mekanistista yhteyttä, joten näyttö on tasoa L5 (pelkkä mallin ennuste).
 
+<!-- review:begin fi-lic-20261106-methylphenidate-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ensisijaisella ennusteella (faciodigitogenitaalinen oireyhtymä) ei ole kliinisiä tutkimuksia, kirjallisuutta eikä tunnistettua mekanistista yhteyttä, joten näyttö on tasoa L5 (pelkkä mallin ennuste). Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-methylphenidate-1 -->
+
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot Fimeasta
 - Vaikutusmekanismin (MOA) tiedot DrugBankista
 - Kirjallisuushaku metyylifenidaatin käytöstä Aarskog-Scottin oireyhtymän ADHD-oireisiin
 - Mikäli ADHD-oireiden hoitoa pidetään tavoitteena, arvioitava, tuoko ennuste mitään lisäarvoa jo hyväksyttyyn käyttöaiheeseen verrattuna
 - Spesifisen kehityshäiriön ja dystymian ennusteille kontrolloituja tutkimuksia ennen kuin niitä voidaan pitää uusina käyttöaiheina
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

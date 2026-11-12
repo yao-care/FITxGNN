@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 description: "Imiglucerase: ennustettu uusi käyttöaihe Hurler syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Gaucher Disease"
@@ -76,6 +76,12 @@ Kaikkien suositus on toistaiseksi Hold.
 
 Hurlerin oireyhtymään liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
 
+<!-- review:begin fi-lic-20261106-imiglucerase-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-imiglucerase-1 -->
+
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
@@ -101,11 +107,31 @@ Muuten turvallisuustiedot on luettava valmisteyhteenvedosta.
 **Perustelut:**
 - Ennuste perustuu vain tietoverkon läheisyyteen. Imiglusidaasi ei korvaa MPS I:ssä puuttuvaa alfa-L-iduronidaasia, kliinisiä tutkimuksia ei ole, ainoa kirjallisuuslähde on yleinen katsaus ja MPS I:lle on jo olemassa spesifinen hoito (laronidaasi).
 
+<!-- review:begin fi-lic-20261106-imiglucerase-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Imiglusidaasi ei korvaa MPS I:ssä puuttuvaa alfa-L-iduronidaasia, kliinisiä tutkimuksia ei ole, ainoa kirjallisuuslähde on yleinen katsaus ja MPS I:lle on jo olemassa spesifinen hoito (laronidaasi). Myös Suomen myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-imiglucerase-2 -->
+
 **Jatkoa varten tarvitaan:**
 - Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotta turvallisuusarvio voidaan tehdä
 - Prekliininen näyttö siitä, onko imiglusidaasilla mitään vaikutusta glykosaminoglykaanien kertymiseen
 - Vertailu laronidaasiin hoitovaihtoehtona
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myös Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

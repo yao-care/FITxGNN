@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 331
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Parathyroid Hormone: ennustettu uusi käyttöaihe Migreenihäiriö (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Hypoparatyreoosi"
 monitor_inn: "PARATHYROID HORMONE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
@@ -111,6 +111,12 @@ Muuta turvallisuustietoa ei ole saatavilla. Tarkista varoitukset ja vasta-aiheet
 - Migreeniennusteella on korkea mallipistemäärä, mutta näyttö on epäsuoraa: yksi geneettinen tutkimus ja havainnoivia kalsium- ja D-vitamiinitutkimuksia. Interventiotutkimuksia ei ole, eikä vaikutussuuntaa tunneta.
 - Keskitetty EU-myyntilupa (EMA, Natpar) on peruttu; kansallisia myyntilupia (Fimea) ei ole tässä käytetyissä tiedoissa.
 
+<!-- review:begin fi-lic-20261031-parathyroid_hormone-1 -->
+
+> **Tarkistuskorjaus (2026-10-31)**: Alun perin tässä luki: ”Suomessa ainoa myyntilupa (Natpar) on peruutettu, joten valmiste ei ole markkinoilla.” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-10-31). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 0 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261031-parathyroid_hormone-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin selvittämistä (agonismi vai antagonismi PTH1R-reitillä) ja prekliinistä näyttöä
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankintaa ja arviointia
@@ -120,6 +126,19 @@ Muuta turvallisuustietoa ei ole saatavilla. Tarkista varoitukset ja vasta-aiheet
 ---
 
 *Muut ennustetut käyttöaiheet (migreeni aurana aivorungossa, amenorrea, Raynaud'n tauti, ruokatorven sairaudet, erektiohäiriö ym.) perustuvat joko pelkkään tietämysgraafin ennusteeseen tai kirjallisuuteen, jossa PTH on vain oheislöydös. Niille ei löytynyt terapeuttista perustetta, ja ne on tässä raportissa jätetty syvällisemmän arvioinnin ulkopuolelle.*
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-10-31 | Poistettu: ”Suom sa ainoa ute , jote v m mar k n ll” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

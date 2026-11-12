@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 254
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ledipasvir: ennustettu uusi käyttöaihe Hepatiitti B -virusinfektio (näytön taso L2). Alkuperäinen käyttöaihe: Krooninen hepatiitti C"
 monitor_inn: "LEDIPASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -127,6 +127,12 @@ Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 - Suoraa anti-HBV-tehoa ei ole osoitettu: ainoa kohdeindikaation tutkimus on pieni (n=21), yksihaarainen faasin 2 tutkimus, ja aineisto koostuu pääosin HCV/HBV-samanaikaisinfektiosta, jossa HBV:n uudelleenaktivoituminen on keskeinen turvallisuusriski.
 - Mekanistinen peruste on heikko (HBV:llä ei ole NS5A-kohdetta).
 
+<!-- review:begin fi-lic-20261106-ledipasvir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistinen peruste on heikko (HBV:llä ei ole NS5A-kohdetta), ja Suomen myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ledipasvir-1 -->
+
 **Eteenpäin vietäessä tarvitaan:**
 - Satunnaistettu, kontrolloitu tutkimus HBV-monoinfektiossa, jossa on suurempi otos ja kliinisesti merkityksellisiä päätepisteitä
 - Selvitys siitä, selittääkö sofosbuviiri ledipasviirin sijaan mahdollisen HBsAg-vaikutuksen
@@ -134,6 +140,19 @@ Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea)
 - HBV:n uudelleenaktivoitumisen seuranta- ja riskienhallintasuunnitelma
 - Arvio myyntiluvan tilanteesta Suomessa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

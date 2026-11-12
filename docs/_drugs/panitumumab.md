@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Panitumumab: ennustettu uusi käyttöaihe Lääkkeen aiheuttama osteoporoosi (näytön taso L5). Alkuperäinen käyttöaihe: Paksu- ja peräsuolen kasvaimet (kolorektaalikasvaimet)"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -116,6 +116,12 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, katso valmisteyhte
 **Perustelut:**
 - Ennuste perustuu ainoastaan TxGNN-mallin korkeaan pistemäärään. Kliinisiä tutkimuksia tai julkaisuja ei ole, vaikutusmekanismi on tuntematon ja EGFR:n eston vaikutus luuhun voi olla haitallinen.
 
+<!-- review:begin fi-lic-20261106-panitumumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliinisiä tutkimuksia tai julkaisuja ei ole, vaikutusmekanismi on tuntematon ja EGFR:n eston vaikutus luuhun voi olla haitallinen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-panitumumab-1 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), koska nykyisellään turvallisuusarviointia ei voida viedä eteenpäin
 - Vaikutusmekanismin tiedot (esim. DrugBank)
@@ -128,6 +134,19 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, katso valmisteyhte
 ## Muu ennustettu käyttöaihe (sija 2)
 
 Toiseksi sijoittui **vaikea ei-proliferatiivinen diabeettinen retinopatia** (TxGNN-pistemäärä 0,9905, näytön taso L5, suositus Hold). Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta. EGFR-signaloinnin yhteys verkkokalvon verisuoni- ja tulehdusprosesseihin on vain yleistä taustatietoa. Panitumumabi on suuri IgG2-vasta-aine, jota ei ole testattu silmänsisäisesti, ja siihen liittyy systeemisiä EGFR:ään liittyviä haittoja (esim. iho- ja elektrolyyttihäiriöt). Hyöty–riskisuhde on epäselvä, koska anti-VEGF-hoito on vakiintunutta.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

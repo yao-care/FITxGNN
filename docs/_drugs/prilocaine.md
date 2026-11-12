@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: ennustettu uusi käyttöaihe Papillary conjunctivitis (näytön taso L5). Alkuperäinen käyttöaihe: Sexual Dysfunction, Physiological"
@@ -129,12 +129,31 @@ Lisätietoja turvallisuudesta on lääkevalmisteen valmisteyhteenvedossa.
 **Perustelut:**
 - Parhaiten pisteytetylle ennusteelle (papillaarinen konjunktiviitti) ja useimmille muille ennusteille ei ole kliinistä eikä kirjallisuusnäyttöä (L5). Ainoa kohtuullisen uskottava suunta on neuralgia (L3), mutta näyttö on pientä, vanhaa, enimmäkseen kontrolloimatonta ja sekoittunutta lidokaiinin vaikutuksen kanssa.
 
+<!-- review:begin fi-lic-20261106-prilocaine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa kohtuullisen uskottava suunta on neuralgia (L3), mutta näyttö on pientä, vanhaa, enimmäkseen kontrolloimatonta ja sekoittunutta lidokaiinin vaikutuksen kanssa. Lisäksi Suomessa ainoa myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-prilocaine-1 -->
+
 **Eteneminen edellyttää seuraavia:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (tällä hetkellä puuttuu ja estää turvallisuusseulonnan)
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
 - Prilokaiinin oman vaikutuksen erottaminen lidokaiinista neuralgiassa (satunnaistettu, kontrolloitu tutkimus)
 - Selvitys valmistemuodosta ja antoreitistä (reittisopivuus on arvioimatta)
 - Methemoglobinemian ja systeemisen altistuksen seurantasuunnitelma, erityisesti lapsille, atooppiselle iholle ja potilaille, joilla on yhteisvaikutuksia aiheuttavia lääkityksiä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

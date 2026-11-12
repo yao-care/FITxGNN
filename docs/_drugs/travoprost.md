@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
 description: "Travoprost: ennustettu uusi käyttöaihe Visceral calciphylaxis (näytön taso L5). Alkuperäinen käyttöaihe: Glaucoma, Open-Angle"
@@ -108,6 +108,12 @@ Ennustetulle käyttöaiheelle (viskeraalinen kalsifylaksia) ei ole julkaisuja. V
 
 Lisäksi yksi tapauskertomus ([19107053](https://pubmed.ncbi.nlm.nih.gov/19107053/), 2008, J Fr Ophtalmol) kuvaa travoprostin aiheuttamaa uveaalista effuusiota Sturge-Weber-Krabbe-oireyhtymässä. Kyseessä on haittatapahtuma, ei hoitovaikutus.
 
+<!-- review:begin fi-lic-20261106-travoprost-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-travoprost-1 -->
+
 ---
 
 ## Markkinatiedot Suomessa
@@ -137,12 +143,32 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen valmist
 **Perustelut:**
 - Ennuste perustuu ainoastaan TxGNN-mallin pistemäärään (L5). Ennustetulle käyttöaiheelle ei ole kliinisiä tutkimuksia eikä julkaisuja, ja paikallisen silmälääkkeen vähäinen systeeminen altistus tekee mekanistisesta yhteydestä epätodennäköisen.
 
+<!-- review:begin fi-lic-20261106-travoprost-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennustetulle käyttöaiheelle ei ole kliinisiä tutkimuksia eikä julkaisuja, ja paikallisen silmälääkkeen vähäinen systeeminen altistus tekee mekanistisesta yhteydestä epätodennäköisen. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-travoprost-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimealta (nykyinen estävä tietoaukko turvallisuusarvioinnille)
 - Vaikutusmekanismitietojen täydentämistä (DrugBank)
 - Prekliinistä näyttöä FP-reseptorin roolista kalsifylaksiassa
 - Arviota annostelureitistä ja systeemisestä altistuksesta, sillä silmään annosteltava valmiste ei sovellu systeemiseen käyttöön
 - Ennustelistan muiden kohteiden uudelleenarviointia, koska viskeraalinen kalsifylaksia ei välttämättä ole tutkimuksellisesti paras ehdokas
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

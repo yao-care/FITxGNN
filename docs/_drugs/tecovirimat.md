@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tecovirimat: ennustettu uusi käyttöaihe Ohrainen (hordeolum) (näytön taso L5). Alkuperäinen käyttöaihe: Poksvirusinfektiot, lehmärokko, apinarokko, vacciniarokko, isorokko"
 monitor_inn: "TECOVIRIMAT"
 predicted_indications: ["hordeolum", "vibrio infectious disease", "Klebsiella infectious disease", "noma", "coinfection", "infective dermatitis associated with HTLV-1", "Arterivirus infectious disease", "arbovirus infection", "escherichia coli infection"]
@@ -119,10 +119,36 @@ Turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon. Kootuissa tiedoi
 - Ensisijaiselle ennusteelle (ohrainen) on vain mallin ennuste (L5): ei tutkimuksia, ei julkaisuja eikä uskottavaa vaikutusmekanismia, sillä tekovirimaatin kohde puuttuu bakteereilta.
 - Vacciniarokko ja siihen liittyvät mpox-käytöt ovat jo alkuperäisten käyttöaiheiden piirissä, eikä niissä ole kyse uudesta lääkkeen uudelleenkäytöstä.
 
+<!-- review:begin fi-lic-20261106-tecovirimat-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ensisijaiselle ennusteelle (ohrainen) on vain mallin ennuste (L5): ei tutkimuksia, ei julkaisuja eikä uskottavaa vaikutusmekanismia, sillä tekovirimaatin kohde puuttuu bakteereilta. Lisäksi Suomen myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tecovirimat-1 -->
+
 **Edetäkseen tarvitaan seuraavat tiedot:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto), jotka estävät turvallisuusarvioinnin jatkamisen
 - Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
 - Perusteltu biologinen hypoteesi ennustetulle käyttöaiheelle ennen mitään kliinistä työtä
+
+<!-- review:begin fi-lic-20261106-tecovirimat-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Perusteltu biologinen hypoteesi ennustetulle käyttöaiheelle ennen mitään kliinistä työtä / Selvitys Suomen myyntiluvan peruuttamisen syystä ja nykyisestä saatavuudesta” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tecovirimat-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys Suomen myyntiluvan peruuttamisen syystä ja nykyisestä saatavuudesta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

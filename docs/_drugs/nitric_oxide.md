@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "NITRIC OXIDE"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
 description: "Nitric Oxide: ennustettu uusi käyttöaihe Malformation syndrome with odontal and/or periodontal component (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
@@ -96,6 +96,12 @@ Yksikään julkaisu ei ole satunnaistettu kontrolloitu koe, eikä yksikään tes
 
 Aineistossa on myös muita ennusteita, joiden näyttö on parempi kuin ensisijaisen ennusteen. Ne liittyvät pääosin alkuperäiseen käyttöaiheeseen, joten ne ovat enemmän vahvistavia kuin uudelleenkäyttöä.
 
+<!-- review:begin fi-lic-20261106-nitric_oxide-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nitric_oxide-1 -->
+
 | Ennustettu käyttöaihe | Näytön taso | Kommentti |
 |------|------|------|
 | Keuhkovaltimoverenpainetauti (PAH) | L2 | Vaiheen 2 tutkimus (NCT02734953, n=10), pieniä vaiheen 1–2 tutkimuksia ja päättynyt vaiheen 3 -tutkimus (NCT02725372, n=207, päättynyt ennenaikaisesti). Vaiheen 3 -satunnaistettua tutkimusta, jonka tulokset olisivat saatavilla, ei ole. |
@@ -130,11 +136,31 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tätä rapo
 **Perustelut:**
 - Ennuste perustuu vain TxGNN-mallin pisteisiin. Kliinisiä tutkimuksia ei ole, eikä kirjallisuus testaa typpioksidia hoitona. Uskottavaa vaikutusmekanismia ei ole osoitettu.
 
+<!-- review:begin fi-lic-20261106-nitric_oxide-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Uskottavaa vaikutusmekanismia ei ole osoitettu, ja myyntilupakin on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nitric_oxide-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietoja ja tutkimushypoteesin siitä, miten typpioksidi voisi vaikuttaa hampaiston tai igenkudoksen kehityshäiriöön
 - Kohdesairauteen liittyvää prekliinistä näyttöä
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (erityisesti methemoglobiiniriski ja sydämen vajaatoiminta)
 - Harkintaa siitä, kannattaisiko resurssit suunnata paremmin perusteltuihin ennusteisiin, kuten keuhkojen valtimo-laskimomalformaatioon tai hemolyyttiseen anemiaan liittyvään PAH:iin
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja myyntilupakin on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

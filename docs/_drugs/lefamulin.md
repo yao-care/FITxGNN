@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "Lefamulin"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 description: "Lefamulin: ennustettu uusi käyttöaihe Leishmaniasis, diffuse cutaneous (näytön taso L5). Alkuperäinen käyttöaihe: Pneumonia, Bacterial"
@@ -108,6 +108,12 @@ Muiden turvallisuustietojen osalta tutustu valmisteyhteenvetoon.
 **Perustelut:**
 - Ennuste perustuu pelkästään tietämysgraafimalliin, eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Mekanistinen yhteys on epäuskottava, koska lääkkeen bakteeriribosomikohde ei vastaa eukaryoottista loista.
 
+<!-- review:begin fi-lic-20261106-lefamulin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistinen yhteys on epäuskottava, koska lääkkeen bakteeriribosomikohde ei vastaa eukaryoottista loista. / Lääkkeellä on Suomessa vain peruutettu myyntilupa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-lefamulin-1 -->
+
 **Jatkoon etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimea), jotka estävät nykyisellään turvallisuusseulonnan.
 - Lääkkeen vaikutusmekanismitiedot (esim. DrugBankista).
@@ -117,6 +123,19 @@ Muiden turvallisuustietojen osalta tutustu valmisteyhteenvetoon.
 ---
 
 *Huomio muista ennustetuista käyttöaiheista:* Polyklonaalinen hyperviskositeettisyndrooma ja hyperamylasemia (molemmat pistemäärä 0,9910) sijoittuivat myös tasolle L5 ja suositus on Hold. Uskottavaa mekanistista yhteyttä ei ole havaittu. Hyperamylasemia on laboratoriolöydös, joten sitä tulisi tarkastella pikemmin haittavaikutus- tai seurantakysymyksenä kuin uutena käyttöaiheena.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lääkkeellä on Suomessa vain peruutettu myyntilupa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

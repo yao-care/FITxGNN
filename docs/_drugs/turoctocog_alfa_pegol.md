@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Turoctocog Alfa Pegol: ennustettu uusi käyttöaihe Ensisijainen verihiutaleiden vapautumishäiriö (primary release disord… (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
@@ -102,6 +102,12 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 Valmistaja: Novo Nordisk A/S.
 
+<!-- review:begin fi-lic-20261106-turoctocog_alfa_pegol-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valmistaja: Novo Nordisk A/S. Voimassa olevia myyntilupia ei ole.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-turoctocog_alfa_pegol-1 -->
+
 ---
 
 ## Turvallisuushuomiot
@@ -117,12 +123,32 @@ Turvallisuustietoja (varoitukset, vasta-aiheet) ei ole tällä hetkellä saatavi
 **Perustelut:**
 - Ennuste perustuu pelkästään malliin (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen arvio osoittaa, että FVIII-korvaus ei korjaisi ennustettujen sairauksien taustalla olevia verihiutale- tai muita vikoja.
 
+<!-- review:begin fi-lic-20261106-turoctocog_alfa_pegol-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistinen arvio osoittaa, että FVIII-korvaus ei korjaisi ennustettujen sairauksien taustalla olevia verihiutale- tai muita vikoja. Lisäksi valmisteella ei ole voimassa olevaa myyntilupaa Suomessa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-turoctocog_alfa_pegol-2 -->
+
 **Eteenpäin siirtyminen edellyttäisi:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta
 - Vaikutusmekanismitietojen täydentämistä (DrugBank)
 - Hankinnaisen hyytymistekijäpuutoksen (erityisesti hankinnaisen hemofilia A:n) tarkempaa arviointia kirjallisuushaulla
 - Termin "flood factor deficiency" tarkistamista ennen jatkoarviota
 - Prekliinistä tai kliinistä näyttöä ennen kuin mitään ennustetuista käyttöaiheista harkitaan
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi valmisteella ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

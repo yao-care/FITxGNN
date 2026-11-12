@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tipranavir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunode… (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektiot"
 monitor_inn: "TIPRANAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
@@ -62,11 +62,23 @@ Tipranaviiri estää HIV-1-viruksen proteaasientsyymiä, joka tarvitaan viruksen
 
 Kissan immuunipuutosvirus (FIV) on lentivirus, jonka proteaasi on rakenteellisesti sukua HIV-1-proteaasille. Siksi ristiin vaikuttaminen on mahdollista. Tipranaviirin ei-peptidimäisen rakenteen on raportoitu estävän joitakin sukulaisretrovirusten proteaaseja in vitro, mutta tästä ei ole tässä aineistossa dataa. Korkea pistemäärä heijastaa todennäköisesti lääkkeen tunnettua HIV-lääkeluokkaa ja verkostoetäisyyttä, ei itsenäistä näyttöä.
 
+<!-- review:begin fi-lic-20261106-tipranavir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi valmiste on peruutettu, eikä aineistossa ole dokumentoitua eläinlääkinnällistä käyttöä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tipranavir-1 -->
+
 ---
 
 ## Muut ennustetut käyttöaiheet
 
 Aineistossa oli yhteensä 10 ennustetta. Kaikkien suositus on Hold, eikä yhdellekään ole kliinistä tutkimusta tai julkaisuja.
+
+<!-- review:begin fi-lic-20261106-tipranavir-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Myyntilupa (valmistaja Boehringer Ingelheim International GmbH) on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tipranavir-2 -->
 
 | Sija | Käyttöaihe | Pistemäärä | Näytön taso | Huomio |
 |------|------|------|------|------|
@@ -108,11 +120,32 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla, joten niih
 - Ennusteelle ei ole kliinistä tai kirjallisuusnäyttöä. Sen turvallisuusprofiili on vakava (mm. maksatoksisuus ja kallonsisäinen verenvuoto).
 - Ennustettu kohde on eläinlääkinnällinen, eikä ihmisen uutta käyttöaihetta ole osoitettu. Useimmat muut ennusteet joko kuuluvat jo HIV-käyttöaiheeseen tai niille ei löydy uskottavaa mekanismia.
 
+<!-- review:begin fi-lic-20261106-tipranavir-3 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi valmiste on peruutettu Suomessa ja sen turvallisuusprofiili on vakava (mm. maksatoksisuus ja kallonsisäinen verenvuoto).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-tipranavir-3 -->
+
 **Etenemiseksi tarvitaan:**
 - Vaikutusmekanismin tiedot (MOA), esimerkiksi DrugBankista
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivuilta
 - Prekliiniset in vitro -tiedot tipranaviirin vaikutuksesta FIV-proteaasiin
 - Arvio eläinlääkinnällisen käytön mahdollisuudesta, tarvittavista antoreiteistä ja sääntelypolusta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi valmiste on peruutettu, eikä aineistossa ole dokumentoitua eläinlääkinnällistä käyttöä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntilupa (valmistaja Boehringer Ingelheim International GmbH) on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi valmiste on peruutettu uomessa ja s” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 description: "Zanubrutinib: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L5). Alkuperäinen käyttöaihe: Waldenstrom Macroglobulinemia"
@@ -141,11 +141,37 @@ Kirjallisuudessa on lisäksi nostettu esiin BTK-estäjiin liittyvä hepatiitti B
 **Perustelut:**
 - Korkeasta TxGNN-pisteestä (0,9965) huolimatta myeloidista leukemiaa koskevaa suoraa kliinistä tai prekliinistä näyttöä ei ole. Ainoa liittyvä tutkimus on vaiheen 1 tutkimus, jossa zanubrutinibi on vain yhdistelmäkumppani, ja kirjallisuus koskee lymfaattisia syöpiä.
 
+<!-- review:begin fi-lic-20261106-zanubrutinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa liittyvä tutkimus on vaiheen 1 tutkimus, jossa zanubrutinibi on vain yhdistelmäkumppani, ja kirjallisuus koskee lymfaattisia syöpiä. Lisäksi lääkkeellä ei ole Suomessa voimassa olevaa myyntilupaa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-zanubrutinib-1 -->
+
 **Jatkotoimiin tarvitaan:**
 - Vaikutusmekanismia koskevat tiedot (MOA) ja BTK-signaloinnin merkityksen arviointi myeloidisessa leukemiassa
 - Prekliiniset tutkimukset (solulinjat, eläinmallit) zanubrutinibista myeloidisessa leukemiassa
 - Valmisteyhteenvedon (Fimea) varoitus- ja vasta-aihetiedot turvallisuusseulontaa varten
 - Yhteisvaikutusten arviointi, erityisesti CYP3A:n estäjien ja induktorien osalta
+
+<!-- review:begin fi-lic-20261106-zanubrutinib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valmisteyhteenvedon (Fimea) varoitus- ja vasta-aihetiedot turvallisuusseulontaa varten / Selvitys Brukinsan myyntiluvan peruutuksen syistä ja nykyisestä saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-zanubrutinib-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole Suomessa voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys Brukinsan myyntiluvan peruutuksen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 344
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Phenylephrine: ennustettu uusi käyttöaihe Nenäontelon sairaus (näytön taso L4). Alkuperäinen käyttöaihe: Silmänsisäinen linssi-implantaatio"
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -113,12 +113,31 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tähän rap
 **Perustelut:**
 - Mekanismi on uskottava nenäontelon sairaudessa, mutta rekisteröityjä kliinisiä tutkimuksia ei ole, ja kirjallisuus on epäsuoraa tai yhdistelmävalmisteisiin perustuvaa. Näytön taso on L4. Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
+<!-- review:begin fi-lic-20261106-phenylephrine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-phenylephrine-1 -->
+
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (turvallisuusarvioinnin estävä puute)
 - Tarkka vaikutusmekanismitieto (esim. DrugBankista)
 - Kontrolloidut tutkimukset pelkästä fenyylefriinistä nenäontelon sairauksissa, erotettuna yhdistelmävalmisteista
 - Reitin ja lääkemuodon soveltuvuuden arviointi (nenän kautta annettava valmiste) sekä sydän- ja verisuoniturvallisuuden arviointi
 - Muiden ennustettujen käyttöaiheiden (akuutti laryngofaryngiitti, trigeminaalinen autonominen päänsärky) osalta ei suositella jatkotoimia ilman uutta näyttöä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

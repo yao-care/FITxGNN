@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: ennustettu uusi käyttöaihe Classic stiff person syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus, Type 2"
@@ -80,6 +80,12 @@ Tälle käyttöaiheelle ei ole tällä hetkellä saatavilla aiheeseen liittyvä�
 
 Luvat ovat EU:n keskitettyjä myyntilupia (EMEA/H/C), ja kaikkien hyväksytty käyttöaihe on tyypin 2 diabetes.
 
+<!-- review:begin fi-lic-20261106-vildagliptin-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki seitsemän myyntilupaa on peruutettu. Voimassa olevia vildagliptiinivalmisteita ei siis ole tässä aineistossa. Luvat ovat EU:n keskitettyjä myyntilupia (EMEA/H/C), ja kaikkien hyväksytty käyttöaihe on tyypin 2 diabetes.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-vildagliptin-1 -->
+
 | Myyntiluvan numero | Valmisteen nimi | Hyväksytty käyttöaihe |
 |---------|------|-----------|
 | EMEA/H/C/001051 | Xiliarx | Tyypin 2 diabetes |
@@ -135,11 +141,31 @@ Muut ennusteet, kuten jäykän ihmisen oireyhtymä, lipodystrofiat ja haiman age
 - Ensisijaisella ennusteella (klassinen jäykän ihmisen oireyhtymä) ei ole tutkimuksia eikä kirjallisuutta, eikä mekanistista yhteyttä voida perustella.
 - Tyypin 1 diabeteksessa on pieniä vaiheen 2–4 tutkimuksia, mutta vahvistettuja kliinisiä tulosmuuttujia sisältävää vaiheen 3 näyttöä ei ole.
 
+<!-- review:begin fi-lic-20261106-vildagliptin-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ensisijaisella ennusteella (klassinen jäykän ihmisen oireyhtymä) ei ole tutkimuksia eikä kirjallisuutta, eikä mekanistista yhteyttä voida perustella. Kaikki Suomen myyntiluvat on lisäksi peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-vildagliptin-2 -->
+
 **Jatkoon tarvitaan:**
 - Vaikutusmekanismin tiedot (DrugBank) mekanistisen yhteyden arviointia varten
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea) turvallisuusarviota varten
 - Jäykän ihmisen oireyhtymän osalta biologisen perustelun selvittäminen ennen mitään kliinistä työtä
 - Tyypin 1 diabeteksen osalta riittävän suuri, satunnaistettu ja kontrolloitu vaiheen 3 tutkimus, jossa on kliinisesti merkittävät tulosmuuttujat, sekä selvitys myyntiluvan tilanteesta Suomessa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu. Voimassa olevia vildagliptiinivalmisteita ei siis ole tässä aineistossa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

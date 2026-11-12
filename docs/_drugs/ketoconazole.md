@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 241
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ketoconazole: ennustettu uusi käyttöaihe Akne (näytön taso L4). Alkuperäinen käyttöaihe: Cushingin oireyhtymä"
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
@@ -123,12 +123,31 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 **Perustelut:**
 - Näyttö jää tasolle L4: ainoa kliininen tutkimus on pieni, ilman tuloksia ja vaiheluokittelematon, ja kirjallisuus on pääosin epäsuoraa tai laboratoriotasoa.
 
+<!-- review:begin fi-lic-20261106-ketoconazole-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö jää tasolle L4: ainoa kliininen tutkimus on pieni, ilman tuloksia ja vaiheluokittelematon, ja kirjallisuus on pääosin epäsuoraa tai laboratoriotasoa. Lisäksi suun kautta otettavan ketokonatsolin turvallisuusprofiili (mm. maksa- ja QT-aikariskit sekä runsaat yhteisvaikutukset) sekä peruutettu myyntilupa Suomessa rajoittavat etenemistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ketoconazole-1 -->
+
 **Etenemiseksi tarvitaan:**
 - Tutkimuksen NCT07237763 tulokset sekä satunnaistettuja vaiheen 2/3 tutkimuksia aknessa
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (tällä hetkellä estävä tietoaukko turvallisuusarvioinnille)
 - Tarkempi vaikutusmekanismitieto (esim. DrugBankista)
 - Antoreitin arviointi: paikallinen voide vs. suun kautta otettava valmiste, ja Suomessa saatavilla olevat valmisteet
 - Aknen alatyyppien (esim. hyperandrogeeninen/PCOS-akne) rajaus ja hyöty–riskiarvio
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi suun kautta otettavan ketokonatsolin turvallisuusprofiili (mm. maksa- ja QT-aikariskit sekä runsaat yhteisvaikutukset) sekä peruutet” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

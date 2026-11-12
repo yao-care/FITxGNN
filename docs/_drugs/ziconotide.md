@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 478
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "ZICONOTIDE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
 description: "Ziconotide: ennustettu uusi käyttöaihe Migreenihäiriö (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Injections, Spinal"
@@ -113,6 +113,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava erikseen.
 **Perustelu:**
 Mekanistinen yhteys migreeniin on uskottava, mutta näyttö rajoittuu kolmeen julkaisuun, joista kaksi on tapausselostuksia, eikä kliinisiä tutkimuksia ole. Intratekaalinen antotapa, neuropsykiatriset haittavaikutukset.
 
+<!-- review:begin fi-lic-20261106-ziconotide-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Intratekaalinen antotapa, neuropsykiatriset haittavaikutukset ja lääkkeen peruutettu myyntilupa Suomessa heikentävät käytännön toteutettavuutta.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ziconotide-1 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja arviointia (estävä tietoaukko)
 - Vaikutusmekanismitietojen täydentämistä (DrugBank)
@@ -120,7 +126,27 @@ Mekanistinen yhteys migreeniin on uskottava, mutta näyttö rajoittuu kolmeen ju
 - Riski-hyötyarviota intratekaalisen annon ja neuropsykiatristen haittojen osalta
 - Selvitystä lääkkeen saatavuudesta Suomessa
 
+<!-- review:begin fi-lic-20261106-ziconotide-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitystä lääkkeen saatavuudesta Suomessa, koska myyntilupa on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ziconotide-2 -->
+
 **Muut ennustetut käyttöaiheet:** Muille ennusteille (mm. aivorungon aurallinen migreeni, cauda equina -oireyhtymä, lihavuus, ohimenevä aivoverenkiertohäiriö, glaukooma, neurogeeninen rakko, preeklampsia) ei ole kliinistä näyttöä, ja ne ovat tasolla L5 (pelkkä mallin ennuste). Ne on suositeltavaa pitää tilassa Hold.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”ja lääkkeen peruutettu myyntilupa Suomessa heikentävät käytännön toteutettavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

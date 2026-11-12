@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
 description: "Miglustat: ennustettu uusi käyttöaihe Autosomal ichthyosis syndrome with fatal disease course (näytön taso L5). Alkuperäinen käyttöaihe: Gaucher Disease"
@@ -116,6 +116,12 @@ Näyttö on kuitenkin ristiriitaista. Myöhäisalkuisessa Tay-Sachsin taudissa t
 - **Tietämysgraafin perusteella havaitut sairausyhteydet (eivät ole valmisteyhteenvedon tekstiä):** perifeerisen hermoston sairaus, perifeerinen neuropatia ja munuaisten vajaatoiminta. Nämä on vahvistettava valmisteyhteenvedosta.
 - **Kirjallisuudessa mainitut haittavaikutukset:** ruoansulatuskanavan haittavaikutukset rajoittavat hoidon käyttöä.
 
+<!-- review:begin fi-lic-20261106-miglustat-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki viisi myyntilupaa on peruutettu, joten voimassa olevaa valmistetta ei tällä hetkellä ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-miglustat-1 -->
+
 Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niiden osalta on tutustuttava valmisteyhteenvetoon.
 
 ---
@@ -127,6 +133,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niiden osalta o
 **Perustelu:**
 Tay-Sachsin taudille on olemassa mekanistisesti uskottava perustelu ja useita tutkimuksia, mutta ne ovat pieniä, keskeytyneitä tai suunniteltu lähinnä turvallisuuden ja farmakokinetiikan arviointiin. Hyöty on osoittautunut rajalliseksi ja ruoansulatuskanavan haittavaikutukset ovat merkittäviä.
 
+<!-- review:begin fi-lic-20261106-miglustat-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Hyöty on osoittautunut rajalliseksi ja ruoansulatuskanavan haittavaikutukset ovat merkittäviä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuusarviointia (S1) voida aloittaa ilman valmisteyhteenvetoa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-miglustat-2 -->
+
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto)
 - Virallinen vaikutusmekanismin kuvaus (esim. DrugBank)
@@ -135,6 +147,20 @@ Tay-Sachsin taudille on olemassa mekanistisesti uskottava perustelu ja useita tu
 - Arvio ruoansulatuskanavan haittavaikutusten hallinnasta sekä hermosto- ja munuaisriskeistä
 
 *Muut ennusteet (esim. kolesteryyliesterien varastotauti, Krabben tauti, metakromaattinen leukodystrofia) perustuvat pelkkään mallin ennusteeseen ilman kliinistä näyttöä, ja niiden suositus on Hold.*
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on peruutettu, joten voimassa olevaa valmistetta ei tällä hetkellä ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuusarviointia (S1) voida aloittaa ilman valmisteyhteenvetoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

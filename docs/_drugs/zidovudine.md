@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tiet…"
@@ -95,6 +95,12 @@ Huomautus: NCT00001104 (vaihe 3, 538 osallistujaa, hemofiliapotilaat) on synnynn
 
 Ensisijaisen ennusteen (kissan immuunipuutos) kirjallisuus on kokonaan eläintutkimuksia:
 
+<!-- review:begin fi-lic-20261106-zidovudine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-zidovudine-1 -->
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |---------|------|------|------|---------|
 | [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Kohorttitutkimus (luonnollisesti tartunnan saaneet kissat) | Viruses | Tsidovudiinin ja sen yhdistelmien (interferoni-α, lamivudiini, valproaatti) tehon vertailu vuoden seurannassa |
@@ -152,11 +158,31 @@ Kaksi viimeistä ennustetta eivät ole aitoa uudelleenkäyttöä, koska ARC on h
 - Ennuste perustuu eläinkokeisiin, eikä ihmisen käyttöaihetta ole. Mekanistinen perustelu on vahva, mutta kyseessä on eläintauti, joten ennuste ei tue ihmisen lääkkeen uudelleenkäyttöä. Näytön taso on L4.
 - Kahdessa HIV:n alle kuuluvassa ennusteessa (ARC ja synnynnäinen HIV) on L1-tason näyttö, ja niiden osalta päätös on Proceed with Guardrails: käyttö vain yhdistelmähoidon osana, hematologisen toksisuuden seuranta (mm. vastasyntyneillä) ja raskauden aikaisen käytön turvallisuustiedot (PMID 28537936). Tsidovudiinimonoterapia ei ole nykyinen hoitostandardi resistenssin ja luuydintoksisuuden vuoksi.
 
+<!-- review:begin fi-lic-20261106-zidovudine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tsidovudiinimonoterapia ei ole nykyinen hoitostandardi resistenssin ja luuydintoksisuuden vuoksi. Lisäksi molemmat Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-zidovudine-2 -->
+
 **Jatkotoimina tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta
 - Tarkempi vaikutusmekanismitieto (MOA), esim. DrugBankista
 - Selvitys siitä, onko eläinlääkinnällinen käyttö (kissat) tarkoituksenmukainen tavoite, sillä se vaatisi eläinlääkevalmisteena erillisen arvioinnin
 - HIV:n alle kuuluvien ennusteiden osalta tarkistus nykyisistä hoitosuosituksista ja siitä, onko tsidovudiinia edelleen saatavilla Suomessa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

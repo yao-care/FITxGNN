@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ethinylestradiol: ennustettu uusi käyttöaihe Kohonnut plasman sinkki (zinc, elevated plasma) (näytön taso L5). Alkuperäinen käyttöaihe: Ehkäisy"
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
@@ -102,11 +102,30 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 **Perustelu:**
 - Ennuste perustuu pelkästään korkeaan TxGNN-pistemäärään (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Kohonnut plasman sinkki on laboratoriolöydös, ja mekanistinen yhteys on spekulatiivinen.
 
+<!-- review:begin fi-lic-20261106-ethinylestradiol-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kohonnut plasman sinkki on laboratoriolöydös, ja mekanistinen yhteys on spekulatiivinen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ethinylestradiol-1 -->
+
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotka estävät turvallisuusarvioinnin jatkamisen
 - Yksityiskohtainen vaikutusmekanismi (esim. DrugBank)
 - Kirjallisuushaku estrogeenin ja sinkin aineenvaihdunnan yhteydestä sekä arvio siitä, onko kohonnut plasman sinkki lainkaan kliinisesti hoidettava tila
 - Reittien yhteensopivuuden ja alkuperäisen käyttöaiheen samankaltaisuuden arviointi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

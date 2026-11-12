@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Olopatadine: ennustettu uusi käyttöaihe Ruusufinnin sidekalvotulehdus (rosacea conjunctivitis) (näytön taso L5). Alkuperäinen käyttöaihe: Allerginen sidekalvotulehdus"
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -102,11 +102,37 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Perustelut:**
 - Ennuste perustuu pelkästään TxGNN-malliin (näytön taso L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Ruusufinnin sidekalvotulehduksen taustamekanismeissa histamiinin rooli on epävarma, ja hyöty rajoittuisi todennäköisesti oireiden lievitykseen.
 
+<!-- review:begin fi-lic-20261106-olopatadine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ruusufinnin sidekalvotulehduksen taustamekanismeissa histamiinin rooli on epävarma, ja hyöty rajoittuisi todennäköisesti oireiden lievitykseen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-olopatadine-1 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankinta Fimeasta (estää tällä hetkellä turvallisuusseulonnan).
 - Tarkka vaikutusmekanismitieto (esim. DrugBankista).
 - Kirjallisuushaku ja prekliiniset tai pilottitutkimukset olopatadiinin vaikutuksesta silmän ruusufinnissa.
 - Antoreittien yhteensopivuuden ja mahdollisen samankaltaisuuden arviointi alkuperäiseen käyttöaiheeseen nähden.
+
+<!-- review:begin fi-lic-20261106-olopatadine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Antoreittien yhteensopivuuden ja mahdollisen samankaltaisuuden arviointi alkuperäiseen käyttöaiheeseen nähden. / Myyntilupatilanteen selvitys, sillä ainoa tunnettu myyntilupa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-olopatadine-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvitys, sillä ainoa tunnettu myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

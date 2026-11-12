@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: ennustettu uusi käyttöaihe Autoimmune oophoritis (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
@@ -105,6 +105,12 @@ Aineistossa on yhteensä 30 tutkimusta, joista vähintään kymmenen on päätty
 
 Pysyvän vastasyntyneiden diabeteksen osalta on yksi katsaus insuliinihoidosta ([28527303](https://pubmed.ncbi.nlm.nih.gov/28527303/), 2017, Diabetes Res Clin Pract).
 
+<!-- review:begin fi-lic-20261106-insulin_aspart-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki seitsemän myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_aspart-1 -->
+
 ---
 
 ## Markkinatiedot Suomessa
@@ -135,11 +141,31 @@ Huomioitavaa: paikallinen lipodystrofia on tunnettu insuliini-injektioiden haitt
 - Tyypin 1 diabeteksen näyttö on vahva (useita päättyneitä vaiheen 3 tutkimuksia), mutta kyseessä on lääkkeen vakiintunut alkuperäinen käyttöaihe, ei uusi käyttöaihe.
 - Muut ennustetut käyttöaiheet (sijat 2–10) ovat joko pelkkiä malliennusteita (Hold) tai vain epäsuorasti tuettuja tutkimuskysymyksiä (pysyvä vastasyntyneiden diabetes, haiman agenesia).
 
+<!-- review:begin fi-lic-20261106-insulin_aspart-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tyypin 1 diabeteksen näyttö on vahva (useita päättyneitä vaiheen 3 tutkimuksia), mutta kyseessä on lääkkeen vakiintunut alkuperäinen käyttöaihe, ei uusi käyttöaihe. Kaikki Suomen myyntiluvat on peruutettu, joten suositus riippuu valmisteen saatavuudesta ja siitä, mitä valmistetta tarkoitetaan.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-insulin_aspart-2 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto) turvallisuusseulontaa varten
 - Vaikutusmekanismitiedot (DrugBank)
 - Selvitys peruutettujen myyntilupien syistä ja valmisteen nykyisestä saatavuudesta Suomessa
 - Mahdollisten uusien käyttöaiheiden osalta aspartinsuliinille spesifiset tutkimukset
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on peruutettu, joten suositus riippuu valmisteen saatavuudesta ja siitä, mitä valmistetta tarkoitetaan” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

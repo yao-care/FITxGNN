@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ticagrelor: ennustettu uusi käyttöaihe Kallonsisäinen valtimokovettumatauti (intracranial arteriosclerosis) (näytön taso L5). Alkuperäinen käyttöaihe: Perifeeriset verisuonisairaudet"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
@@ -102,6 +102,12 @@ Alkuperäinen käyttöaihe (valtimoperäinen tromboosi sydämessä ja raajoissa)
 - **Lääkeyhteisvaikutukset**: tarkastuksessa löytyi 100 yhteisvaikutusta. Merkittävä (Major) yhteisvaikutus on klaritromysiinin kanssa. Kohtalaisia (Moderate) ovat mm. asetyylisalisyylihappo, morfiini, deksametasoni, budesonidi, simvastatiini, ketokonatsolin kaltaiset atsolit (mikonatsoli, klotrimatsoli), aprepitantti ja sisapridi. Vähäisiä (Minor) ovat mm. naloksegoli ja prukalopridi.
 - **Verenvuotoriski**: antitromboottinen hoito lisää verenvuotoriskiä, ja kallonsisäisessä käyttöaiheessa verenvuotoriski vaatii erityistä seurantaa.
 
+<!-- review:begin fi-lic-20261106-ticagrelor-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ticagrelor-1 -->
+
 Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, joten ne on tarkistettava valmisteyhteenvedosta.
 
 ---
@@ -113,6 +119,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 **Perustelut:**
 - Ennusteen pistemäärä on korkea ja mekanismi uskottava, ja suora vaiheen 3 -tutkimus (CAPTIVA) on käynnissä. Tuloksia ei kuitenkaan vielä ole, eikä tikagrelorin roolia yksittäisenä haarana ole aineistossa vahvistettu, joten näyttö jää L2-tasolle eikä L1:een.
 - Valmisteyhteenvedon turvallisuustiedot puuttuvat. Kallonsisäisen verenvuodon vasta-aihe edellyttää tarkkaa riski–hyötyarviota.
+
+<!-- review:begin fi-lic-20261106-ticagrelor-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valmisteen myyntilupa Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-ticagrelor-2 -->
 
 **Etenemiseksi tarvitaan:**
 - CAPTIVA-tutkimuksen tulokset (ensisijaiset päätetapahtumat ja tikagrelori-haaran tulokset).
@@ -126,6 +138,20 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 ## Muut ennustetut käyttöaiheet (lyhyt yhteenveto)
 
 Muista ennusteista vahvin näyttö on käyttöaiheella **iskeeminen sairaus (ischemic disease)** (pistemäärä 0,9964, näytön taso L1, suositus Proceed with Guardrails). Siitä on useita suuria satunnaistettuja tutkimuksia (mm. TWILIGHT, THEMIS, CHANCE-2-tyyppiset tutkimukset ja sepelvaltimoohitusleikkauksen jälkeinen ACS-tutkimus). Se kuitenkin menee suurelta osin päällekkäin jo hyväksyttyjen käyttöaiheiden kanssa, joten kyseessä on pikemminkin käyttöaiheen laajennus kuin aito uudelleenkäyttö. Muilla ennusteilla (Mönckebergin arterioskleroosi, priapismi, May–Thurnerin oireyhtymä, livedo reticularis, suoliliepeen verisuonitukos, verisuonten ektasia, angiodysplasia, laskimotromboembolia) ei ole kliinistä näyttöä tikagrelorista, ja ne on merkitty tilaan Hold. Angiodysplasian kohdalla ennuste viittaa todennäköisemmin turvallisuusriskiin (verenvuoto) kuin hoitohyötyyn.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”almisteen myyntilupa Suomessa on peruutettu, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

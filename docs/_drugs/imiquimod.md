@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Imiquimod: ennustettu uusi käyttöaihe Esisyövällinen kasvain (pre-malignant neoplasm) (näytön taso L5). Alkuperäinen käyttöaihe: Keratoosi, aktiininen keratoosi"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -119,6 +119,12 @@ Ennusteen piirissä on myös useita muita kohteita, joista suurimmalla osalla ei
 - **Lääkeyhteisvaikutukset:** Aineistossa on 59 mahdollista yhteisvaikutusta (mm. pantopratsoli, morfiini, omepratsoli, prednisoni, simvastatiini, varfariini, klopidogreeli ja ibuprofeeni). Vaikeusasteluokitusta ei ole saatavilla.
 - **Kirjallisuuden turvallisuushuomiot:** Yhdessä tapausselostuksessa suun papillomatoosi muuttui pahanlaatuiseksi imikimodihoidon aikana, ja suun alueen off-label-käytön turvallisuutta on kyseenalaistettu. Lisäksi on raportoitu muun muassa jäkälämäinen hiuspohjan tulehdus ja erythema multiforme imikimodihoidon yhteydessä.
 
+<!-- review:begin fi-lic-20261106-imiquimod-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Molemmat myyntiluvat ovat peruutettuja, joten voimassa olevaa myyntilupaa Suomessa ei ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-imiquimod-1 -->
+
 Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tässä aineistossa saatavilla, joten niihin on tutustuttava erikseen.
 
 ---
@@ -137,6 +143,26 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tässä aineistossa s
 - Riittävän kokoiset satunnaistetut tutkimukset intraepiteliaalisista neoplasioista (kohdunkaula, ulkosynnyttimet, peräaukko).
 - Selvitys Suomen myyntilupatilanteesta ja mahdollisista saatavuusvaihtoehdoista.
 - Valoherkkyyden, autoimmuunisairauksien ja suun alueen pahanlaatuistumisriskin turvallisuussuunnitelma.
+
+<!-- review:begin fi-lic-20261106-imiquimod-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys Suomen myyntilupatilanteesta (kaikki luvat peruutettu) ja mahdollisista saatavuusvaihtoehdoista.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-imiquimod-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Molemmat myyntiluvat ovat peruutettuja, joten voimassa olevaa myyntilupaa Suomessa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”(kaikki luvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

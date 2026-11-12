@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: ennustettu uusi käyttöaihe Gaze palsy, familial horizontal, with progressive scoliosis (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
@@ -74,6 +74,12 @@ Tähän sairauteen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuk
 
 Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 
+<!-- review:begin fi-lic-20261106-risperidone-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia yhden tai useamman vaikuttavan aineen valmisteiden myyntilupia ei ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-risperidone-1 -->
+
 ---
 
 ## Myyntiluvat Suomessa
@@ -117,11 +123,31 @@ Samalle lääkkeelle on tehty muitakin ennusteita, joista osa on huomattavasti p
 **Perustelut:**
 - Ykkösennusteelle ei löydy kliinistä tutkimusta, kirjallisuutta eikä uskottavaa mekanistista yhteyttä. Korkea ennustepistemäärä ei yksin riitä perusteeksi jatkaa.
 
+<!-- review:begin fi-lic-20261106-risperidone-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Korkea ennustepistemäärä ei yksin riitä perusteeksi jatkaa. Lisäksi risperidonilla ei ole Suomessa voimassa olevaa myyntilupaa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-risperidone-2 -->
+
 **Jatkaminen edellyttäisi:**
 - Perustelua, miksi juuri tämä ennuste on kliinisesti mielekäs, tai ennusteen hylkäämistä.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta.
 - Vaikutusmekanismitietojen täydentämistä DrugBankista.
 - Tutkimusresurssien suuntaamista paremmin tuettuihin ennusteisiin, erityisesti hoitoresistenttiin masennukseen ja kaksisuuntaiseen mielialahäiriöön (L1). Suomen nykyinen myyntilupatilanne ja hyväksytyt käyttöaiheet tulee vahvistaa ennen etenemistä.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia yhden tai useamman vaikuttavan aineen valmisteiden myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi risperidonilla ei ole Suomessa voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

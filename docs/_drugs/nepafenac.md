@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 299
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Nepafenac: ennustettu uusi käyttöaihe Silmäsairaus (eye disease) (näytön taso L1). Alkuperäinen käyttöaihe: Leikkauksen jälkeinen kipu"
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -127,6 +127,12 @@ Alla on valikoima merkityksellisimpiä tutkimuksia (enintään 10).
 - **Tietämyskuvaajaan perustuvat vasta-aiheet:** TxGNN-tietämyskuvaajan (PrimeKG) mukaan lääkkeeseen liittyy mahdollisia vasta-aihe-yhteyksiä seuraavissa tiloissa: nivelreuma, diabetes, diabeettinen ketoasidoosi, veren hyytymishäiriöt, keratiitti, keratokonjunktiviitti, kuivasilmäisyys, kserooftalmia ja sarveiskalvon haava. Nämä eivät perustu valmisteyhteenvetoon, vaan ne on varmennettava erikseen.
 - **Kirjallisuudessa raportoitu riski:** Sarveiskalvon sulamisesta on kuvattu tapaus potilaalla, jolla oli graft-versus-host-tauti (PMID 17964407), mikä on linjassa sarveiskalvon sairauksiin liittyvien varoitusten kanssa.
 
+<!-- review:begin fi-lic-20261106-nepafenac-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa myyntilupa (Novartis Europharm Limited) on peruutettu, joten tuotteen saatavuus on tarkistettava.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nepafenac-1 -->
+
 Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
@@ -143,6 +149,26 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA) lääketietokannasta
 - Sarveiskalvon sairauksien ja diabeteksen riskipotilaiden turvallisuusseurantasuunnitelma
 - Arvio siitä, kuinka laajasti "silmäsairaus"-ennuste on tarkennettava konkreettisiin käyttöaiheisiin (esim. makulaturvotus)
+
+<!-- review:begin fi-lic-20261106-nepafenac-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Yksityiskohtaiset vaikutusmekanismitiedot (MOA) lääketietokannasta / Saatavuuden varmistaminen, koska Suomen myyntilupa on peruutettu (mahdolliset muut valmisteet, esim. 0,3 % vahvuus)” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-nepafenac-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Ainoa myyntilupa (Novartis Europharm Limited) on peruutettu, joten tuotteen saatavuus on tarkistettava” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Saatavuuden varmistaminen, koska Suomen myyntilupa on peruutettu (mahdolliset muut valmisteet, esim. 0,3 % vahvuus)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

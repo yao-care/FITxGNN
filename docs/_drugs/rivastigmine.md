@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Rivastigmine: ennustettu uusi käyttöaihe Glaukooma (näytön taso L5). Alkuperäinen käyttöaihe: Dementia, Alzheimerin tauti, Parkinsonin tauti"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
@@ -84,6 +84,12 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/001183).
 
+<!-- review:begin fi-lic-20261106-rivastigmine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole. Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/001183).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-rivastigmine-1 -->
+
 ## Turvallisuusnäkökohdat
 
 - **Mahdolliset vasta-aiheet (tietämysgraafista, ei valmisteyhteenvedosta):** epilepsia, astma, keuhkoahtaumatauti (COPD), sairas sinus -oireyhtymä, eteis-kammiokatkos, sydämen johtumishäiriöt, äkillinen sydänpysähdys, aktiivinen mahahaava, virtsateiden tukos, ripulitaudit, anoreksia nervosa, tyvitumakkeiden sairaudet, blefarospasmi, fokaalinen käden dystonia sekä parkinsonismi ja Parkinsonin tauti.
@@ -97,12 +103,32 @@ Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/0
 **Perustelut:**
 - Näyttö rajoittuu yhteen kaniinikokeeseen ja kahteen katsaukseen, eikä ihmisillä tehtyjä tutkimuksia ole. Silmään annettava valmiste vaatisi uutta kehitystä.
 
+<!-- review:begin fi-lic-20261106-rivastigmine-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Myyntiluvat on peruutettu, ja silmään annettava valmiste vaatisi uutta kehitystä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-rivastigmine-2 -->
+
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estävä tietoaukko)
 - Vaikutusmekanismin tarkempaa dokumentointia
 - Silmään paikallisesti annettavan formulaation ja antoreitin kehittämistä sekä sen turvallisuuden arviointia
 - Lisää prekliinistä näyttöä (mm. glaukoomamalleissa) ja sen jälkeen varhaisen vaiheen kliinisiä tutkimuksia
 - Systeemisen altistuksen sekä sydän- ja hengityselinriskien arviointia
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntiluvat on peruutettu, ja s” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

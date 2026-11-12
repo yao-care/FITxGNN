@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Leflunomide: ennustettu uusi käyttöaihe Brachydactyly-syndactyly syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
@@ -66,6 +66,12 @@ Alkuperäinen käyttöaihe (autoimmuuni nivelsairaus) ja ennustettu käyttöaihe
 
 Toinen ennuste, kolobomatoottinen mikroftalmia-rhizomeelinen dysplasia -oireyhtymä (pistemäärä 0,9993), on samalla tavoin pelkkä graafiennuste ilman tukevaa näyttöä. Siinä on kyse silmän ja raajojen rakenteellisista epämuodostumista, joiden lääkehoito vakiintuneessa sairaudessa on biologisesti epäuskottavaa.
 
+<!-- review:begin fi-lic-20261106-leflunomide-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on peruutettu, eikä voimassa olevia myyntilupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-leflunomide-1 -->
+
 ---
 
 ## Markkinatiedot Suomessa
@@ -107,12 +113,32 @@ Lisäksi leflunomidin aktiivinen metaboliitti on teratogeeninen, mikä on merkit
 **Perustelut:**
 - Ennusteilla ei ole kliinistä eikä kirjallisuusnäyttöä (taso L5), ja ennustetut sairaudet ovat synnynnäisiä rakenteellisia epämuodostumia, joiden lääkkeellinen hoito on biologisesti epäuskottavaa. Lisäksi lääke on teratogeeninen.
 
+<!-- review:begin fi-lic-20261106-leflunomide-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi lääke on teratogeeninen ja kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-leflunomide-2 -->
+
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
 - Prekliinistä tai mekanistista näyttöä ennustetuista käyttöaiheista
 - Arviota teratogeenisuuden ja ennustetun käyttöaiheen yhteensopivuudesta
 - Selvitystä peruutettujen myyntilupien syistä ja nykyisistä saatavuusreiteistä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

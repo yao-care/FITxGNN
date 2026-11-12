@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 345
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Pibrentasvir: ennustettu uusi käyttöaihe Hepatiitti B -virusinfektio (näytön taso L4). Alkuperäinen käyttöaihe: Krooninen hepatiitti C"
 monitor_inn: "PIBRENTASVIR"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -120,12 +120,31 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Tähän raporttiin ko
 **Perustelut:**
 - Pibrentasviirin NS5A-kohde puuttuu HBV:ltä, eikä HBV-käytölle ole kliinistä tai kirjallisuusnäyttöä. Korkea mallipiste on todennäköisesti tietoverkon artefakti.
 
+<!-- review:begin fi-lic-20261106-pibrentasvir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Korkea mallipiste on todennäköisesti tietoverkon artefakti. / Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa (vain peruutettu).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pibrentasvir-1 -->
+
 **Jatkotoimia varten tarvitaan:**
 - Pibrentasviirin vaikutusmekanismitiedot (DrugBank)
 - Valmisteyhteenvedon turvallisuustiedot (varoitukset, vasta-aiheet), jotka ovat estävä tietoaukko
 - Prekliiniset in vitro -kokeet pibrentasviirin HBV-aktiivisuudesta ennen kliinisiä tutkimuksia
 - Myyntiluvan tilan selvitys Suomessa
 - Huomio: HIV/HCV-koinfektiotutkimukset tukevat HCV-hoidon turvallisuutta koinfektiossa, mutta eivät HIV- tai HBV-käyttöä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa (vain peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

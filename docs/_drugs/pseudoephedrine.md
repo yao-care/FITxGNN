@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Pseudoephedrine: ennustettu uusi käyttöaihe Nenäontelon sairaus (nasal cavity disease) (näytön taso L5). Alkuperäinen käyttöaihe: Kausiluontoinen allerginen nuha"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -113,12 +113,31 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin
 - Ennuste on mekanistisesti uskottava, mutta tueksi ei ole kliinisiä tutkimuksia, ja näyttö koostuu pääosin eläinmalleista ja katsauksesta (L4). Ainoa suora vertaileva tutkimus on vuodelta 2001.
 - Muut ennustetut käyttöaiheet ovat heikommin perusteltuja: akuutin kurkunpää-nielutulehduksen osalta ei ole lainkaan näyttöä (L5), ja allergisen nokkosihottuman osalta kirjallisuus koskee antihistamiineja, ei pseudoefedriiniä (L5).
 
+<!-- review:begin fi-lic-20261106-pseudoephedrine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa suora vertaileva tutkimus on vuodelta 2001. Valmisteen myyntilupa on lisäksi peruutettu, ja turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-pseudoephedrine-1 -->
+
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä puute turvallisuusarvioinnin jatkamiselle)
 - Virallinen vaikutusmekanismitieto
 - Kontrolloidut kliiniset tutkimukset pseudoefedriinillä rajatussa nenäsairauden käyttöaiheessa (esim. ei-allerginen nuha)
 - Arvio sydän- ja verisuoniriskeistä, sillä graafin mukaan vasta-aiheita ovat mm. verenpainetauti ja sepelvaltimotauti
 - Selvitys valmisteen peruutuksen syistä ja saatavilla olevista valmisteista Suomessa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Valmisteen myyntilupa on lisäksi peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

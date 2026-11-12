@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 89
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 description: "Buprenorphine: ennustettu uusi käyttöaihe Akuutti ajoittainen porfyria (näytön taso L4). Alkuperäinen käyttöaihe: Opioidiriippuvuus (opioidien käyttöön liittyvät häiriöt)"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "extrapyramidal and movement disease", "benign shuddering attacks"]
@@ -109,6 +109,12 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 **Perustelut:**
 - Ennuste perustuu lähes pelkästään malliin: kliinisiä tutkimuksia ei ole, eikä ainoa julkaisu tue tehoa. Mekanistista yhteyttä sairauden patologiaan ei ole, ja lääkkeen porfyriaturvallisuus on epäselvä.
 
+<!-- review:begin fi-lic-20261106-buprenorphine-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistista yhteyttä sairauden patologiaan ei ole, ja lääkkeen porfyriaturvallisuus on epäselvä. / Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-buprenorphine-1 -->
+
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimea)
 - Vaikutusmekanismin tiedot (DrugBank)
@@ -118,6 +124,19 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 ---
 
 **Huomio muista ennustetuista käyttöaiheista:** Muita TxGNN-ennusteita (kasvojen ja kielen dyskinesia, krooninen tic-häiriö, uniaikainen jatkuva piikki-aalto-purkaus, ekstrapyramidaaliset liikehäiriöt, hyvänlaatuiset vapistuskohtaukset) ei tue kliininen näyttö, ja kaikkien suositus on Hold. Osa kirjallisuudesta viittaa jopa opioidien aiheuttamiin liikehäiriöhaittoihin (esim. myoklonus), mikä puhuu hyödyn puolesta heikosti.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: ennustettu uusi käyttöaihe Epiglottis neoplasm (näytön taso L5). Alkuperäinen käyttöaihe: Fallopian Tube Neoplasms"
@@ -137,12 +137,38 @@ Muuten turvallisuustietojen osalta katso valmisteyhteenveto.
 **Perustelut:**
 - Kystisen neoplasian osalta näyttö on epäsuoraa: tutkimukset koskevat seroosia munasarja- ja kohdun limakalvon syöpää, ja ne ovat pääosin alkuperäisen käyttöaiheen laajennuksia. Vaiheen 3 satunnaistettua tutkimusta ei ole, ainoa vaiheen 2 tutkimus on yhä käynnissä ilman tuloksia, ja kaksi muuta tutkimusta on keskeytetty tai peruttu. Muiden yhdeksän ennusteen (mm. epiglottiksen, kielen, suunpohjan ja hypofarynxin kasvaimet, kohdunkaulan neuroblastooma, kives- ja lisäkivesten kasvain, sisäkorvan kasvain, esiasteneoplasia, jugulaarisen aukon schwannooma) kohdalla ei ole lainkaan tutkimus- tai kirjallisuusnäyttöä (L5), ja korkea pistemäärä vaikuttaa yleiseltä kasvainluokan signaalilta. Hyvänlaatuisissa kasvaimissa riski–hyötysuhde on lisäksi epäedullinen.
 
+<!-- review:begin fi-lic-20261106-niraparib-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Hyvänlaatuisissa kasvaimissa riski–hyötysuhde on lisäksi epäedullinen. / Suomessa kummatkin myyntiluvat on peruttu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-niraparib-1 -->
+
 **Jatkoon siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon (Fimea) varoitukset ja vasta-aiheet, jotka ovat estävä tietoaukko turvallisuusseulonnassa
 - Yksityiskohtainen vaikutusmekanismitieto (MOA) DrugBankista
 - Kystisen neoplasian täsmällinen määrittely ja sen biologisen yhteyden (esim. HRD-status) selvittäminen
 - Käynnissä olevan vaiheen 2 tutkimuksen (NCT04716686) tulokset
 - Kirjallisuuden relevanssiarvioinnin viimeistely (osa julkaisuista vielä arvioimatta)
+
+<!-- review:begin fi-lic-20261106-niraparib-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kirjallisuuden relevanssiarvioinnin viimeistely (osa julkaisuista vielä arvioimatta) / Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-niraparib-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa kummatkin myyntiluvat on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

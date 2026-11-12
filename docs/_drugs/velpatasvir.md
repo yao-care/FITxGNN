@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 465
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Velpatasvir: ennustettu uusi käyttöaihe Hepatiitti B -virusinfektio (näytön taso L3). Alkuperäinen käyttöaihe: Krooninen hepatiitti C"
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -127,11 +127,37 @@ Lisätietoja varoituksista ja vasta-aiheista on valmisteyhteenvedossa.
 - Ennusteelle ei ole mekanistista perustetta: HBV:llä ei ole NS5A-kohdetta, ja kaikki tutkimukset koskevat HCV-hoitoa tai HCV/HBV-samanaikaista infektiota, jossa HBV:hen tehoaa TAF.
 - Muista ennustetuista käyttöaiheista (mm. hepatiitti E ja A, HIV, Omskin verenvuotokuume, Kyasanur-metsätauti) mikään ei saa tukea tutkimuksista tai kirjallisuudesta. Hepatiitti A- ja HIV-tutkimukset ovat HCV-tutkimuksia, jotka on liitetty ennusteeseen luokkien päällekkäisyyden perusteella.
 
+<!-- review:begin fi-lic-20261106-velpatasvir-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennusteelle ei ole mekanistista perustetta: HBV:llä ei ole NS5A-kohdetta, ja kaikki tutkimukset koskevat HCV-hoitoa tai HCV/HBV-samanaikaista infektiota, jossa HBV:hen tehoaa TAF. Suomessa kummankin valmisteen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-velpatasvir-1 -->
+
 **Etenemiseksi tarvitaan:**
 - Velpatasviirin vaikutusmekanismitiedot (esim. DrugBankista)
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimeasta (puuttuvat, estävä aukko turvallisuusarvioinnissa)
 - In vitro -näyttö velpatasviirin mahdollisesta anti-HBV-aktiivisuudesta
 - HBV-reaktivaation seurantasuunnitelma, jos käyttöä HCV/HBV-samanaikaisinfektiossa harkitaan
+
+<!-- review:begin fi-lic-20261106-velpatasvir-2 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”In vitro -näyttö velpatasviirin mahdollisesta anti-HBV-aktiivisuudesta / Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-velpatasvir-2 -->
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa kummankin valmisteen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

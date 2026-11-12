@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 296
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 description: "Mycophenolate Mofetil: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L2). Alkuperäinen käyttöaihe: Graft Rejection"
@@ -121,12 +121,31 @@ Huomattavaa on, että vasta-aihelistalla ovat useat infektiot ja neutropenia, mi
 **Perustelut:**
 - HIV-käyttöaiheelle on uskottava mekanistinen perustelu, mutta ainoa suoraan relevantti tutkimus peruttiin ilman osallistujia, eikä vaiheen 3 näyttöä HIV-tehosta ole. Lääkkeen immunosuppressiivinen luonne ja infektioihin liittyvät vasta-aiheet heikentävät hyöty-haittasuhdetta.
 
+<!-- review:begin fi-lic-20261106-mycophenolate_mofetil-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lääkkeen immunosuppressiivinen luonne ja infektioihin liittyvät vasta-aiheet heikentävät hyöty-haittasuhdetta. Lisäksi kaikki Suomen myyntiluvat on peruttu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-mycophenolate_mofetil-1 -->
+
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (puuttuvat tästä aineistosta)
 - Lääketietokannan mekanismitiedot (MOA)
 - Riittävän kokoiset satunnaistetut tutkimukset MMF:n HIV-tehosta ja turvallisuudesta
 - Arvio myyntilupatilanteesta Suomessa ja käytettävissä olevista valmisteista
 - Vaihtoehtoisena suuntana multippeliskleroosi (vaiheen 2 näyttöä ja Cochrane-katsauksia, mutta matalan varmuuden näyttöä), jota kannattaa arvioida erikseen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

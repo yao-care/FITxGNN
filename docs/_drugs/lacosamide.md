@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: ennustettu uusi käyttöaihe Manic bipolar affective disorder (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsies, Partial"
@@ -120,6 +120,12 @@ Varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 **Perustelut:**
 - Migreenistä on valmistuneita vaiheen 3 tutkimuksia ja julkaistu RCT, joten muodollinen näytön taso on L1. Tulosten sisältöä ei kuitenkaan ole varmennettu tässä aineistossa: vaiheen 2 lumekontrolloidun tutkimuksen ja CGRP-pilotin tulokset ovat epäselviä, ja topiramaattivertailun tila on tuntematon. Siksi suositus on odottaa tulosten tarkistamista.
 
+<!-- review:begin fi-lic-20261106-lacosamide-1 -->
+
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Siksi suositus on odottaa tulosten tarkistamista. / Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261106-lacosamide-1 -->
+
 **Jatkotoimiin tarvitaan:**
 - Julkaisun PMID 41863672 sekä tutkimusten NCT05851781 ja NCT00440518 tulosten tarkistaminen (teho, turvallisuus, keskeyttämiset)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean verkkosivuilta
@@ -144,6 +150,18 @@ Seuraavat ennusteet perustuvat enimmäkseen pelkkään malliin:
 | Myofaskiaalinen kipuoireyhtymä | L2 | Tutkimuskysymys; päättynyt vaiheen 2 tutkimus ([NCT00401830](https://clinicaltrials.gov/study/NCT00401830), n=159, fibromyalgia), tuloksia ei ole saatavilla |
 | Pakko-oireinen häiriö | L5 | Hold; ainoa tutkimus koskee alkoholin käyttöä |
 | Papillaarinen konjunktiviitti | L5 | Hold; ei näyttöä |
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-06 | Poistettu: ”Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

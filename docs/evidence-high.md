@@ -8,6 +8,11 @@ description: "FITxGNN:n L1–L2-tason uudelleensijoitteluehdokkaat, joita tukeva
 
 # Vahva näyttö (L1-L2)
 
+<!-- page-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
+{% assign pd_m = site.data.drug_stats.level_counts.L1 | plus: site.data.drug_stats.level_counts.L2 %}
+Sivulla on **{{ pd_m }}** sivuston **{{ site.data.drug_stats.total_drugs }}** raportoidusta lääkkeestä ({{ pd_m | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }} %). Tasojen määritelmät: [Menetelmät]({{ '/methodology/' | relative_url }}).
+<!-- page-data:end -->
+
 <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
 Ehdokkaat, jotka voidaan asettaa etusijalle kliinisessä arvioinnissa
 </p>

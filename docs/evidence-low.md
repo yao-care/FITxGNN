@@ -8,6 +8,11 @@ description: "FITxGNN:n L5-tason ehdokkaat: pelkkä mallin ennuste, ilman kliini
 
 # Pelkkä mallin ennuste (L5)
 
+<!-- page-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
+{% assign pd_m = site.data.drug_stats.level_counts.L5 %}
+Sivulla on **{{ pd_m }}** sivuston **{{ site.data.drug_stats.total_drugs }}** raportoidusta lääkkeestä ({{ pd_m | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }} %). Tasojen määritelmät: [Menetelmät]({{ '/methodology/' | relative_url }}).
+<!-- page-data:end -->
+
 <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
 Ehdokkaat, joilla on vain mallin ennuste eikä vielä lainkaan näyttöä ihmisillä
 </p>

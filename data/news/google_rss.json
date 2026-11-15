@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-15T08:30:43.569663+00:00",
+  "fetched_at": "2026-11-15T15:55:22.780864+00:00",
   "source": "Google News Health RSS",
-  "count": 44,
+  "count": 46,
   "articles": [
     {
       "id": "8074ba8efa95",
@@ -114,16 +114,6 @@
       }
     },
     {
-      "id": "84469cdae09d",
-      "title": "Orion lopettaa ei-addiktoivan kipulääkkeen kehittelyn – lääke ehti herättää odotuksia - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5sbWRfS3pRaGJhZnRPOFRPaTVuaGV1UFdGOGZwbER6S1NtLWg1WG1MQXNvVTMzVTdGY1JLVkJMdG93QQ?oc=5",
-      "published": "2024-10-24T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "39efd1dbc37b",
       "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava piirre - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EYnhRSVpOSmJHbkRJSS1naG9xLTRvTU10SlhjaXhhLXNXMTZWT1Ria2hsZlk4dnlQbHVBdGxSR2tyaEF6TEpSZGtyTXIzNW5pVEZRMGFkSS1wM2FL?oc=5",
@@ -131,6 +121,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "0f831658063f",
+      "title": "Uusi yhdiste yllättää: Voi hidastaa Alzheimeria ja parantaa sydäntä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR1QyUnQxSnpmTi11ajd6TllIajB3VDFHUG5kdkZ6b0UxTzQzNGVRQmlKaEtGN1p3ZjJGdjZaWEdUdTdXSlN4RWcwT210LTBVdEFINHdCRW5EeTB1OW1hNndtQ3ZlSnhRcVV1d2RtMmd3TjdZR1JGTElzdkJkVDFHUnZQT0s?oc=5",
+      "published": "2026-06-10T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -144,23 +144,23 @@
       }
     },
     {
-      "id": "bc10383a5bc0",
-      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
-      "published": "2025-06-02T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "554d47140e03",
-      "title": "Kaksi yleistä lääkettä, joilla voi olla yllättäviä terveyshyötyjä – toinen voi auttaa rasvamaksaan - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUEUtNW94amFENi1aam11MlN4ekRvanNoVWgzMjVuVWNLNHJyTklxdEFVOWxKdHk2czlDS0pObzFNNmlyRW5COFdOLUhTbENMWjd1MERhWXptZFQw?oc=5",
-      "published": "2026-08-11T07:00:00+00:00",
+      "id": "ba1f809fcd68",
+      "title": "Tuttu lääke voi hillitä myös alkoholin käyttöä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rT3pjRFBQZlJRaXBjZ2o4ZzF6em5QWlNhMlNHNXFJSXpWMzdKdGpmZzJxUWV4emt2NFJ1bWZzQ0tsWjV3Qmp4N2Y1NDA1MVhGbHJiVC1qQjNqQWhO?oc=5",
+      "published": "2026-06-02T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "2b9a72f56b67",
+      "title": "Petra, 22, on tiettävästi ainoa Suomessa, joka sairastaa julmaa tautia – ”Jonain päivänä olen täysin muiden armoilla” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcUdnV2h5OThSX3dJdGVoZ09kTnpXX0UtSmloT1R2ZGFrWWYweVNBb0h5amZwTE5sdjdqNVdwd01Zbmt0R2x0SmlGZFZFaEdRV1pONDRJVnNoaGhQV3ZrUjRzSnZ4R1ZVdkxaVFpzcWdXd3Nza2QwWmEteHhaaGg0SGpuYmc?oc=5",
+      "published": "2026-06-09T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -168,6 +168,16 @@
       "title": "Syötkö samanaikaisesti yli neljää eri lääkettä? Tämän vaivan riski lisääntyy - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6cDVyUUZOX1N2em15bldOdmhRTkZRczc2cENCNHFvS2pXVnJWd1FILUpmdjVRWWlQam5meC1DRlJld24walZzYUwxbTJGekFIWFhlNVVxcERfSVhl?oc=5",
       "published": "2026-05-17T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "554d47140e03",
+      "title": "Kaksi yleistä lääkettä, joilla voi olla yllättäviä terveyshyötyjä – toinen voi auttaa rasvamaksaan - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUEUtNW94amFENi1aam11MlN4ekRvanNoVWgzMjVuVWNLNHJyTklxdEFVOWxKdHk2czlDS0pObzFNNmlyRW5COFdOLUhTbENMWjd1MERhWXptZFQw?oc=5",
+      "published": "2026-08-11T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -184,13 +194,23 @@
       }
     },
     {
-      "id": "69a00a65e750",
-      "title": "”Lääke” voimattomaan oloon voi löytyä yllättävän läheltä – jo kahden viikon jälkeen helpottaa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFRFI0eEdNVUZXX21XdkxWLVhOT3E2dEFFamg0bXdnUnV3b1pHa1hmaFl4Rkc0MF9YeGZGc3FXbkZFT2t2bDQ5OVp0SGRUajJwYnFlMzNHa0UtYVJv?oc=5",
-      "published": "2025-12-15T08:00:00+00:00",
+      "id": "84469cdae09d",
+      "title": "Orion lopettaa ei-addiktoivan kipulääkkeen kehittelyn – lääke ehti herättää odotuksia - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5sbWRfS3pRaGJhZnRPOFRPaTVuaGV1UFdGOGZwbER6S1NtLWg1WG1MQXNvVTMzVTdGY1JLVkJMdG93QQ?oc=5",
+      "published": "2024-10-24T07:00:00+00:00",
       "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "bc10383a5bc0",
+      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
+      "published": "2025-06-02T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -284,6 +304,16 @@
       }
     },
     {
+      "id": "ab6cb1071079",
+      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
+      "published": "2021-06-16T07:00:00+00:00",
+      "source": {
+        "name": "Helsingin Uutiset",
+        "url": "https://www.helsinginuutiset.fi"
+      }
+    },
+    {
       "id": "6422fd56dd23",
       "title": "Tuttu lääke voi tehota rasvamaksaan – saattaa myös pidentää elämää - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUUUVjZnZ0UE85S1pSUHRKVFdIMkZSNC0xZUt5dm8zcExwSVEtMVVJVjFBT2xaODZVMVZMTF9oSWVNUHRmYkY2Q25DdzFMTGVreUxINi14UXRfMXB5?oc=5",
@@ -314,20 +344,20 @@
       }
     },
     {
-      "id": "ab6cb1071079",
-      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
-      "published": "2021-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Helsingin Uutiset",
-        "url": "https://www.helsinginuutiset.fi"
-      }
-    },
-    {
       "id": "7672d7180419",
       "title": "Vähänkin vanhentunut lääke voi olla hengenvaarallinen – proviisori kertoo, mitä lääkkeitä erityisesti kannattaa varoa - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBOTXpybjhoMXIzSE9aR3RwOG1XS0hmTW84clRMa1NKajZNUElyczZ3OU9TYkJKcHU3VWd0Z1FnTmJkRGZxWFM5TmQwMkYzd1dFMVNla3ZMVmdHLWw1?oc=5",
       "published": "2018-05-24T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "0d856b7b4a47",
+      "title": "Tuttu lääke voisi ehkäistä epäterveellisesti elävien suolistosyöpiä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03Tm5oWVAwMGdQWThwWU1LRThnSVFpRmJaZ1BJSVFOQXFYRlV4YXA4YUVjbVZMME9wZ09OdmJyYkhtVFI2RU9XLXVWazh5dzVnZHBoMlhVa0pndnFw?oc=5",
+      "published": "2024-10-24T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -344,10 +374,20 @@
       }
     },
     {
-      "id": "0d856b7b4a47",
-      "title": "Tuttu lääke voisi ehkäistä epäterveellisesti elävien suolistosyöpiä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03Tm5oWVAwMGdQWThwWU1LRThnSVFpRmJaZ1BJSVFOQXFYRlV4YXA4YUVjbVZMME9wZ09OdmJyYkhtVFI2RU9XLXVWazh5dzVnZHBoMlhVa0pndnFw?oc=5",
-      "published": "2024-10-24T07:00:00+00:00",
+      "id": "2f1ef40e7e3b",
+      "title": "Kuolemaan johtavaan sairauteen on löydetty lupaava lääke - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oY21mRWNSM1FGZHh2dC1YTEZRWGpkaHlrMV93WDlOZEpJNkltdmpjTkFDWUx2UHJ5NWRUUWJkaXFKbmJHaTRFa3FaOU1nTjBzSUNZalJGUTBhYjdG?oc=5",
+      "published": "2023-09-25T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "a2c09748162a",
+      "title": "Miehen lääke ei aina auta naista – on tapauksia, joissa nainen ei ole saanut parasta hoitoa, koska eroja ei huomioitu - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVcnFVUDZSN0ZFenpCQzhtQ2hHc3E2enpjdG5TaWVQUS1tbElDM1JIdl9vUUFFZUJYNFlFdnlUOHAtUktwQkJBU3RyY1Brak41UE9vYk1qV21QcXZx?oc=5",
+      "published": "2019-07-06T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -361,16 +401,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "a2c09748162a",
-      "title": "Miehen lääke ei aina auta naista – on tapauksia, joissa nainen ei ole saanut parasta hoitoa, koska eroja ei huomioitu - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVcnFVUDZSN0ZFenpCQzhtQ2hHc3E2enpjdG5TaWVQUS1tbElDM1JIdl9vUUFFZUJYNFlFdnlUOHAtUktwQkJBU3RyY1Brak41UE9vYk1qV21QcXZx?oc=5",
-      "published": "2019-07-06T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
       }
     },
     {
@@ -394,10 +424,10 @@
       }
     },
     {
-      "id": "2f1ef40e7e3b",
-      "title": "Kuolemaan johtavaan sairauteen on löydetty lupaava lääke - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oY21mRWNSM1FGZHh2dC1YTEZRWGpkaHlrMV93WDlOZEpJNkltdmpjTkFDWUx2UHJ5NWRUUWJkaXFKbmJHaTRFa3FaOU1nTjBzSUNZalJGUTBhYjdG?oc=5",
-      "published": "2023-09-25T07:00:00+00:00",
+      "id": "213903fae655",
+      "title": "Alzheimer-lääke mullistaa hampaiden hoidon – Kasvavatko reiät pian umpeen? - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JYmM3NHdrZkp4R0JNbWtsRzQwRno1TTc4QkRYWVBTX0xpeEJHVWtocFYyN2JGa3dEMWw5cVczZjhWa3l6TWE3dkRJaDF3c3B6UjB1cWg2SHFyejVO?oc=5",
+      "published": "2017-01-21T08:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -411,16 +441,6 @@
       "source": {
         "name": "Terve.fi",
         "url": "https://www.terve.fi"
-      }
-    },
-    {
-      "id": "213903fae655",
-      "title": "Alzheimer-lääke mullistaa hampaiden hoidon – Kasvavatko reiät pian umpeen? - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JYmM3NHdrZkp4R0JNbWtsRzQwRno1TTc4QkRYWVBTX0xpeEJHVWtocFYyN2JGa3dEMWw5cVczZjhWa3l6TWE3dkRJaDF3c3B6UjB1cWg2SHFyejVO?oc=5",
-      "published": "2017-01-21T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
       }
     },
     {

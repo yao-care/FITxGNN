@@ -19,9 +19,9 @@
 
   // Severity levels with priority (higher = more severe)
   const SEVERITY = {
-    'Major': { priority: 3, class: 'ddi-major', label: 'Major' },
-    'Moderate': { priority: 2, class: 'ddi-moderate', label: 'Moderate' },
-    'Minor': { priority: 1, class: 'ddi-minor', label: 'Minor' }
+    'Major': { priority: 3, class: 'ddi-major', label: 'Vakava' },
+    'Moderate': { priority: 2, class: 'ddi-moderate', label: 'Kohtalainen' },
+    'Minor': { priority: 1, class: 'ddi-minor', label: 'Lievä' }
   };
 
   // 15 built-in high-priority DDI rules (hand-curated, DDInter consulted as a reference)
@@ -33,9 +33,9 @@
         ['ibuprofen', 'advil', 'motrin', 'brufen']
       ],
       severity: 'Major',
-      summary: 'Warfarin + Ibuprofen: increased bleeding risk',
-      detail: 'NSAIDs inhibit platelet function and may enhance the anticoagulant effect of warfarin, significantly increasing the risk of gastrointestinal bleeding.',
-      recommendation: 'Use acetaminophen instead, or add a PPI for gastric protection.'
+      summary: 'Varfariini + Ibuprofeeni: lisääntynyt verenvuotoriski',
+      detail: 'Tulehduskipulääkkeet estävät verihiutaleiden toimintaa ja voivat voimistaa varfariinin antikoagulanttivaikutusta, mikä lisää merkittävästi ruoansulatuskanavan verenvuodon riskiä.',
+      recommendation: 'Käytä sen sijaan parasetamolia tai lisää mahansuojaksi protonipumpun estäjä.'
     },
     {
       drugs: [
@@ -43,9 +43,9 @@
         ['aspirin', 'acetylsalicylic acid']
       ],
       severity: 'Major',
-      summary: 'Warfarin + Aspirin: increased bleeding risk',
-      detail: 'Both affect haemostasis; combined use greatly increases the risk of bleeding.',
-      recommendation: 'If the combination is necessary, use low-dose aspirin and monitor INR closely.'
+      summary: 'Varfariini + Asetyylisalisyylihappo: lisääntynyt verenvuotoriski',
+      detail: 'Molemmat vaikuttavat hemostaasiin; yhteiskäyttö lisää verenvuotoriskiä huomattavasti.',
+      recommendation: 'Jos yhdistelmä on välttämätön, käytä pieniannoksista asetyylisalisyylihappoa ja seuraa INR-arvoa tiiviisti.'
     },
     {
       drugs: [
@@ -53,9 +53,9 @@
         ['naproxen', 'aleve', 'naprosyn']
       ],
       severity: 'Major',
-      summary: 'Warfarin + Naproxen: increased bleeding risk',
-      detail: 'Combining naproxen with warfarin increases the risk of gastrointestinal and other bleeding events.',
-      recommendation: 'Use acetaminophen for pain relief instead.'
+      summary: 'Varfariini + Naprokseeni: lisääntynyt verenvuotoriski',
+      detail: 'Naprokseenin ja varfariinin yhdistäminen lisää ruoansulatuskanavan ja muiden verenvuotojen riskiä.',
+      recommendation: 'Käytä kivunlievitykseen sen sijaan parasetamolia.'
     },
     {
       drugs: [
@@ -63,9 +63,9 @@
         ['iodixanol', 'visipaque', 'iopamidol', 'isovue', 'contrast']
       ],
       severity: 'Major',
-      summary: 'Metformin + iodinated contrast media: risk of lactic acidosis',
-      detail: 'Contrast media may cause acute kidney injury, leading to metformin accumulation and lactic acidosis.',
-      recommendation: 'Stop metformin 48 hours before the procedure and restart only after renal function is confirmed normal.'
+      summary: 'Metformiini + jodivarjoaineet: maitohappoasidoosin riski',
+      detail: 'Varjoaineet voivat aiheuttaa äkillisen munuaisvaurion, jolloin metformiinia kertyy elimistöön ja voi syntyä maitohappoasidoosi.',
+      recommendation: 'Lopeta metformiini 48 tuntia ennen toimenpidettä ja aloita uudelleen vasta, kun munuaisten toiminta on todettu normaaliksi.'
     },
     {
       drugs: [
@@ -73,9 +73,9 @@
         ['clarithromycin', 'biaxin', 'klacid']
       ],
       severity: 'Major',
-      summary: 'Colchicine + Clarithromycin: risk of toxicity',
-      detail: 'Clarithromycin is a strong CYP3A4 inhibitor and greatly increases colchicine blood levels.',
-      recommendation: 'Avoid the combination or substantially reduce the colchicine dose.'
+      summary: 'Kolkisiini + Klaritromysiini: toksisuuden riski',
+      detail: 'Klaritromysiini on voimakas CYP3A4:n estäjä ja suurentaa kolkisiinin pitoisuuksia veressä huomattavasti.',
+      recommendation: 'Vältä yhdistelmää tai pienennä kolkisiiniannosta huomattavasti.'
     },
     {
       drugs: [
@@ -83,9 +83,9 @@
         ['ritonavir', 'norvir', 'cobicistat', 'tybost']
       ],
       severity: 'Major',
-      summary: 'Colchicine + HIV protease inhibitors: risk of severe toxicity',
-      detail: 'HIV protease inhibitors markedly increase colchicine levels and may cause fatal toxicity.',
-      recommendation: 'Contraindicated in patients with renal or hepatic impairment.'
+      summary: 'Kolkisiini + HIV-proteaasin estäjät: vakavan toksisuuden riski',
+      detail: 'HIV-proteaasin estäjät suurentavat kolkisiinipitoisuuksia merkittävästi ja voivat aiheuttaa kuolemaan johtavan myrkytyksen.',
+      recommendation: 'Vasta-aiheinen potilaille, joilla on munuaisten tai maksan vajaatoiminta.'
     },
     {
       drugs: [
@@ -93,9 +93,9 @@
         ['amiodarone', 'cordarone']
       ],
       severity: 'Major',
-      summary: 'Simvastatin + Amiodarone: risk of myopathy',
-      detail: 'Amiodarone increases simvastatin levels, raising the risk of rhabdomyolysis.',
-      recommendation: 'Do not exceed simvastatin 20 mg/day, or switch to another statin.'
+      summary: 'Simvastatiini + Amiodaroni: myopatian riski',
+      detail: 'Amiodaroni suurentaa simvastatiinin pitoisuuksia, mikä lisää rabdomyolyysin riskiä.',
+      recommendation: 'Älä ylitä simvastatiiniannosta 20 mg/vrk tai vaihda toiseen statiiniin.'
     },
     {
       drugs: [
@@ -103,9 +103,9 @@
         ['tramadol', 'ultram']
       ],
       severity: 'Major',
-      summary: 'SSRI + Tramadol: risk of serotonin syndrome',
-      detail: 'Both increase serotonergic activity; combined use may cause life-threatening serotonin syndrome.',
-      recommendation: 'Monitor closely for symptoms (hyperthermia, myoclonus, altered mental status) and consider an alternative analgesic.'
+      summary: 'SSRI + Tramadoli: serotoniinioireyhtymän riski',
+      detail: 'Molemmat lisäävät serotonergistä aktiivisuutta; yhteiskäyttö voi aiheuttaa hengenvaarallisen serotoniinioireyhtymän.',
+      recommendation: 'Seuraa tiiviisti oireita (hypertermia, myoklonia, muuttunut tajunnantila) ja harkitse muuta kipulääkettä.'
     },
     {
       drugs: [
@@ -113,9 +113,9 @@
         ['linezolid', 'zyvox']
       ],
       severity: 'Major',
-      summary: 'SSRI + Linezolid: risk of serotonin syndrome',
-      detail: 'Linezolid is an MAO inhibitor; combining it with an SSRI is highly dangerous.',
-      recommendation: 'Avoid the combination. If linezolid is required, stop the SSRI and allow an appropriate washout period.'
+      summary: 'SSRI + Linetsolidi: serotoniinioireyhtymän riski',
+      detail: 'Linetsolidi on MAO:n estäjä; sen yhdistäminen SSRI-lääkkeeseen on erittäin vaarallista.',
+      recommendation: 'Vältä yhdistelmää. Jos linetsolidi on välttämätön, lopeta SSRI-lääke ja pidä riittävä lääketauko.'
     },
     {
       drugs: [
@@ -123,9 +123,9 @@
         ['moxifloxacin', 'avelox']
       ],
       severity: 'Major',
-      summary: 'Amiodarone + Moxifloxacin: risk of QT prolongation',
-      detail: 'Both can prolong the QT interval; combined use increases the risk of torsades de pointes.',
-      recommendation: 'Avoid the combination or monitor the ECG closely.'
+      summary: 'Amiodaroni + Moksifloksasiini: QT-ajan pidentymisen riski',
+      detail: 'Molemmat voivat pidentää QT-aikaa; yhteiskäyttö lisää kääntyvien kärkien takykardian riskiä.',
+      recommendation: 'Vältä yhdistelmää tai seuraa EKG:tä tiiviisti.'
     },
     {
       drugs: [
@@ -133,9 +133,9 @@
         ['amiodarone', 'cordarone']
       ],
       severity: 'Major',
-      summary: 'Digoxin + Amiodarone: risk of digoxin toxicity',
-      detail: 'Amiodarone increases digoxin blood levels by about 70%.',
-      recommendation: 'When starting amiodarone, halve the digoxin dose and monitor blood levels.'
+      summary: 'Digoksiini + Amiodaroni: digoksiinimyrkytyksen riski',
+      detail: 'Amiodaroni suurentaa digoksiinin pitoisuuksia veressä noin 70%.',
+      recommendation: 'Kun amiodaroni aloitetaan, puolita digoksiiniannos ja seuraa pitoisuuksia.'
     },
     {
       drugs: [
@@ -143,9 +143,9 @@
         ['omeprazole', 'prilosec', 'esomeprazole', 'nexium']
       ],
       severity: 'Moderate',
-      summary: 'Clopidogrel + PPI: reduced antiplatelet effect',
-      detail: 'Omeprazole inhibits CYP2C19, reducing conversion of clopidogrel to its active metabolite.',
-      recommendation: 'Consider pantoprazole or an H2 blocker instead.'
+      summary: 'Klopidogreeli + PPI: heikentynyt verihiutaleiden estovaikutus',
+      detail: 'Omepratsoli estää CYP2C19:ää ja vähentää klopidogreelin muuttumista aktiiviseksi metaboliitiksi.',
+      recommendation: 'Harkitse sen sijaan pantopratsolia tai H2-salpaajaa.'
     },
     {
       drugs: [
@@ -153,9 +153,9 @@
         ['ibuprofen', 'advil', 'naproxen', 'aleve', 'diclofenac']
       ],
       severity: 'Major',
-      summary: 'Lithium + NSAIDs: risk of lithium toxicity',
-      detail: 'NSAIDs reduce renal excretion of lithium, raising its blood levels.',
-      recommendation: 'Avoid the combination or monitor lithium levels closely.'
+      summary: 'Litium + tulehduskipulääkkeet: litiummyrkytyksen riski',
+      detail: 'Tulehduskipulääkkeet vähentävät litiumin erittymistä munuaisten kautta, jolloin sen pitoisuus veressä suurenee.',
+      recommendation: 'Vältä yhdistelmää tai seuraa litiumpitoisuuksia tiiviisti.'
     },
     {
       drugs: [
@@ -163,9 +163,9 @@
         ['spironolactone', 'aldactone', 'eplerenone', 'inspra']
       ],
       severity: 'Major',
-      summary: 'Potassium supplements + potassium-sparing diuretics: risk of hyperkalaemia',
-      detail: 'Both raise serum potassium; combined use may cause life-threatening hyperkalaemia.',
-      recommendation: 'Monitor serum potassium regularly and avoid concurrent potassium supplementation.'
+      summary: 'Kaliumvalmisteet + kaliumia säästävät diureetit: hyperkalemian riski',
+      detail: 'Molemmat suurentavat seerumin kaliumpitoisuutta; yhteiskäyttö voi aiheuttaa hengenvaarallisen hyperkalemian.',
+      recommendation: 'Seuraa seerumin kaliumpitoisuutta säännöllisesti ja vältä samanaikaisia kaliumvalmisteita.'
     },
     {
       drugs: [
@@ -173,9 +173,9 @@
         ['trimethoprim', 'bactrim', 'septra', 'sulfamethoxazole']
       ],
       severity: 'Major',
-      summary: 'Methotrexate + TMP-SMX: risk of bone marrow suppression',
-      detail: 'Both inhibit folate metabolism; combined use increases the risk of bone marrow suppression and mucositis.',
-      recommendation: 'Avoid the combination, or ensure adequate folate supplementation and monitor blood counts closely.'
+      summary: 'Metotreksaatti + Trimetopriimi-sulfametoksatsoli: luuydinlaman riski',
+      detail: 'Molemmat estävät folaattiaineenvaihduntaa; yhteiskäyttö lisää luuydinlaman ja limakalvotulehduksen riskiä.',
+      recommendation: 'Vältä yhdistelmää tai huolehdi riittävästä foolihappolisästä ja seuraa verenkuvaa tiiviisti.'
     }
   ];
 
@@ -249,7 +249,7 @@
           summary: rule.summary,
           detail: rule.detail,
           recommendation: rule.recommendation,
-          source: 'FITxGNN built-in DDI rules (15 curated rules; not a full DDInter lookup)'
+          source: 'FITxGNN-sivuston sisäiset yhteisvaikutussäännöt (15 valittua sääntöä; ei kattava DDInter-haku)'
         });
       }
     }
@@ -318,7 +318,7 @@
    */
   function formatAlertsHTML(alerts) {
     if (!alerts || alerts.length === 0) {
-      return '<div class="ddi-no-alerts">No drug interaction alerts found</div>';
+      return '<div class="ddi-no-alerts">Yhteisvaikutusvaroituksia ei löytynyt</div>';
     }
 
     let html = '<div class="ddi-alerts">';
@@ -332,10 +332,10 @@
           </div>
           <div class="ddi-alert-body">
             <p class="ddi-detail">${escapeHtml(alert.detail)}</p>
-            <p class="ddi-recommendation"><strong>Recommendation:</strong> ${escapeHtml(alert.recommendation)}</p>
+            <p class="ddi-recommendation"><strong>Suositus:</strong> ${escapeHtml(alert.recommendation)}</p>
           </div>
           <div class="ddi-alert-footer">
-            <span class="ddi-source">Source: ${escapeHtml(alert.source)}</span>
+            <span class="ddi-source">Lähde: ${escapeHtml(alert.source)}</span>
           </div>
         </div>
       `;
@@ -353,7 +353,7 @@
       uuid: `ddi-alert-${index}`,
       summary: alert.summary,
       indicator: alert.severity === 'Major' ? 'critical' : alert.severity === 'Moderate' ? 'warning' : 'info',
-      detail: `${alert.detail}\n\nRecommendation: ${alert.recommendation}`,
+      detail: `${alert.detail}\n\nSuositus: ${alert.recommendation}`,
       source: {
         label: 'FITxGNN DDI Checker',
         url: 'https://fitxgnn.yao.care/'

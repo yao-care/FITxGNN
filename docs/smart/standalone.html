@@ -6,7 +6,7 @@
   <link rel="canonical" href="https://fitxgnn.yao.care/smart/standalone.html">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FITxGNN SMART App - Standalone Test Mode</title>
+  <title>FITxGNN SMART App - Erillinen testitila</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7ZNBYKJHJ"></script>
   <script>
     window.TXGNN_ANALYTICS = Object.assign({"measurementId": "G-W7ZNBYKJHJ", "contentGroup": "FITxGNN", "language": "fi", "citationHosts": ["fimea.fi"], "linkerDomains": ["yao.care", "www.yao.care", "fitxgnn.yao.care", "www.ods.yao.care", "app.ods.yao.care"], "pageType": "smart", "pagePath": "/smart/standalone.html"}, { pageTitle: document.title });
@@ -561,75 +561,75 @@
 <body>
   <header class="header">
     <h1>FITxGNN SMART App</h1>
-    <p>Drug Repurposing Candidate Search</p>
-    <span class="mode-badge">Standalone test mode</span>
+    <p>Lääkkeiden uudelleenkäytön ehdokkaiden haku</p>
+    <span class="mode-badge">Erillinen testitila</span>
   </header>
 
   <main class="content">
     <div class="info-card">
-      <h3>Standalone test mode</h3>
+      <h3>Erillinen testitila</h3>
       <p>
-        This page lets you enter <strong>drug names</strong> manually to test FITxGNN drug repurposing predictions
-        without connecting to an EHR. Enter drug names in English (e.g. Famotidine, Docetaxel, Paclitaxel).
+        Tällä sivulla voit kirjoittaa <strong>lääkkeiden nimiä</strong> itse ja testata FITxGNN-sivuston uudelleenkäyttöennusteita
+        ilman yhteyttä sähköiseen potilastietojärjestelmään. Kirjoita nimet englanniksi (kansainvälinen yleisnimi, esim. Bupropion, Busulfan, Grazoprevir).
       </p>
       <p style="margin-top: 8px; color: #856404;">
-        <strong>Note:</strong> enter a drug name, not a disease name, e.g. "Famotidine" rather than "diabetes".
-        Click an example button below for a quick test.
+        <strong>Huom.:</strong> kirjoita lääkkeen nimi, ei sairauden nimeä, esim. ”Bupropion” eikä ”diabetes”.
+        Napsauta esimerkkipainiketta, niin pääset kokeilemaan nopeasti.
       </p>
     </div>
 
     <section class="section">
-      <h2 class="section-title">Enter drug names</h2>
+      <h2 class="section-title">Kirjoita lääkkeiden nimet</h2>
 
       <div class="input-group">
-        <input type="text" id="drug-input" placeholder="Enter a drug name, e.g. Famotidine, Docetaxel..." autocomplete="off">
-        <button class="btn btn-primary" id="add-btn">Add</button>
+        <input type="text" id="drug-input" placeholder="Lääkkeen nimi, esim. Bupropion, Busulfan..." autocomplete="off">
+        <button class="btn btn-primary" id="add-btn">Lisää</button>
       </div>
 
       <div class="drug-tags" id="drug-tags">
-        <span style="color: #999; font-size: 14px;">No drugs added yet</span>
+        <span style="color: #999; font-size: 14px;">Lääkkeitä ei ole vielä lisätty</span>
       </div>
 
       <div style="display: flex; gap: 12px;">
-        <button class="btn btn-primary" id="query-btn">Search repurposing candidates</button>
-        <button class="btn btn-secondary" id="clear-btn">Clear all</button>
+        <button class="btn btn-primary" id="query-btn">Hae uudelleenkäytön ehdokkaita</button>
+        <button class="btn btn-secondary" id="clear-btn">Tyhjennä</button>
       </div>
 
       <div class="sample-drugs">
-        <p>Examples of L1 high-evidence drugs (click to add):</p>
+        <p>Esimerkkejä sivuston vahvimman näytön lääkkeistä (lisää napsauttamalla):</p>
         <div class="sample-list">
-          <button class="sample-btn" data-drug="Famotidine">Famotidine</button>
-          <button class="sample-btn" data-drug="Docetaxel">Docetaxel</button>
-          <button class="sample-btn" data-drug="Paclitaxel">Paclitaxel</button>
-          <button class="sample-btn" data-drug="Remdesivir">Remdesivir</button>
-          <button class="sample-btn" data-drug="Vitamin E">Vitamin E</button>
-          <button class="sample-btn" data-drug="Isosorbide dinitrate">Isosorbide dinitrate</button>
-          <button class="sample-btn" data-drug="Dronedarone">Dronedarone</button>
-          <button class="sample-btn" data-drug="Nepafenac">Nepafenac</button>
+          <button class="sample-btn" data-drug="Bupropion">Bupropion (L1)</button>
+          <button class="sample-btn" data-drug="Busulfan">Busulfan (L1)</button>
+          <button class="sample-btn" data-drug="Grazoprevir">Grazoprevir (L1)</button>
+          <button class="sample-btn" data-drug="Nepafenac">Nepafenac (L1)</button>
+          <button class="sample-btn" data-drug="Peginterferon Alfa-2A">Peginterferon Alfa-2A (L1)</button>
+          <button class="sample-btn" data-drug="Clofarabine">Clofarabine (L1)</button>
+          <button class="sample-btn" data-drug="Ketorolac">Ketorolac (L1)</button>
+          <button class="sample-btn" data-drug="Tacrolimus">Tacrolimus (L1)</button>
         </div>
       </div>
     </section>
 
     <section class="ddi-section" id="ddi-section" style="display: none;">
-      <h2 class="section-title">⚠️ Drug interaction alerts</h2>
+      <h2 class="section-title">⚠️ Yhteisvaikutusvaroitukset</h2>
       <div id="ddi-results"></div>
     </section>
 
     <section class="section">
-      <h2 class="section-title">Results</h2>
+      <h2 class="section-title">Tulokset</h2>
       <div id="results">
         <div class="empty-state">
-          <p>Add drugs and click the "Search" button</p>
+          <p>Lisää lääkkeitä ja valitse ”Hae uudelleenkäytön ehdokkaita”</p>
         </div>
       </div>
     </section>
 
     <div class="disclaimer">
-      <strong>Disclaimer</strong>
-      This content is for research reference only and is not a substitute for professional medical advice. All drug repurposing predictions require clinical validation before use.
-      If you have health concerns, please consult a qualified healthcare professional.
+      <strong>Vastuuvapauslauseke</strong>
+      Sisältö on tarkoitettu vain tutkimuksen tueksi, eikä se korvaa ammattilaisen antamaa lääketieteellistä neuvontaa. Kaikki uudelleenkäyttöennusteet on validoitava kliinisesti ennen käyttöä.
+      Jos sinulla on terveyteen liittyviä kysymyksiä, käänny pätevän terveydenhuollon ammattilaisen puoleen.
       <br><br>
-      <a href="/privacy-policy/" style="color: #856404;">Privacy policy</a>
+      <a href="/privacy-policy/" style="color: #856404;">Tietosuojaseloste</a>
     </div>
   </main>
 
@@ -674,7 +674,7 @@
       // Load search index
       async function init() {
         try {
-          resultsDiv.innerHTML = '<div class="loading">Loading drug database...</div>';
+          resultsDiv.innerHTML = '<div class="loading">Ladataan lääketietokantaa...</div>';
 
           const response = await fetch(CONFIG.searchIndexUrl);
           if (!response.ok) throw new Error('Failed to load search index');
@@ -697,18 +697,18 @@
             // Auto-query
             await queryRepurposing();
           } else {
-            resultsDiv.innerHTML = '<div class="empty-state"><p>Add drugs and click the "Search" button</p></div>';
+            resultsDiv.innerHTML = '<div class="empty-state"><p>Lisää lääkkeitä ja valitse ”Hae uudelleenkäytön ehdokkaita”</p></div>';
           }
         } catch (error) {
           console.error('Init error:', error);
-          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>Failed to load the drug database</p></div>';
+          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>Lääketietokannan lataaminen epäonnistui</p></div>';
         }
       }
 
       // Render drug tags
       function renderTags() {
         if (selectedDrugs.length === 0) {
-          drugTags.innerHTML = '<span style="color: #999; font-size: 14px;">No drugs added yet</span>';
+          drugTags.innerHTML = '<span style="color: #999; font-size: 14px;">Lääkkeitä ei ole vielä lisätty</span>';
           return;
         }
 
@@ -744,17 +744,17 @@
       // Query repurposing candidates
       async function queryRepurposing() {
         if (selectedDrugs.length === 0) {
-          resultsDiv.innerHTML = '<div class="empty-state"><p>Please add at least one drug</p></div>';
+          resultsDiv.innerHTML = '<div class="empty-state"><p>Lisää vähintään yksi lääke</p></div>';
           document.getElementById('ddi-section').style.display = 'none';
           return;
         }
 
         if (!drugMapper) {
-          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>The drug database has not loaded yet</p></div>';
+          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>Lääketietokantaa ei ole vielä ladattu</p></div>';
           return;
         }
 
-        resultsDiv.innerHTML = '<div class="loading">Searching...</div>';
+        resultsDiv.innerHTML = '<div class="loading">Haetaan...</div>';
 
         // Check DDI
         const ddiSection = document.getElementById('ddi-section');
@@ -766,7 +766,7 @@
             ddiResults.innerHTML = TwTxGNN.DDIChecker.formatAlertsHTML(ddiAlerts);
           } else {
             ddiSection.style.display = 'block';
-            ddiResults.innerHTML = '<div class="ddi-no-alerts">✓ No known drug interaction alerts</div>';
+            ddiResults.innerHTML = '<div class="ddi-no-alerts">✓ Ei tunnettuja yhteisvaikutusvaroituksia</div>';
           }
         } else {
           ddiSection.style.display = 'none';
@@ -787,13 +787,13 @@
                     <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank">${escapeHtml(match.name)}</a>
                     <span class="level-badge level-${match.level}">${match.level}</span>
                   </h3>
-                  <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank" class="view-full">View full report →</a>
+                  <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank" class="view-full">Näytä koko raportti →</a>
                 </div>
                 <div class="result-original">
-                  <strong>Original indication:</strong>${escapeHtml(match.original) || '—'}
+                  <strong>Alkuperäinen käyttöaihe:</strong>${escapeHtml(match.original) || '—'}
                 </div>
                 <div>
-                  <strong>Predicted new indications (repurposing candidates):</strong>
+                  <strong>Ennustetut uudet käyttöaiheet (uudelleenkäytön ehdokkaat):</strong>
                   <div class="indication-list">
             `;
 
@@ -807,7 +807,7 @@
                       <span class="ind-name">${escapeHtml(ind.name)}</span>
                       <span class="ind-score">${ind.score}%</span>
                       <button class="trials-btn" onclick="loadClinicalTrials('${escapeHtml(match.name)}', '${escapeHtml(ind.name)}', '${trialsContainerId}')">
-                        🔬 Clinical trials
+                        🔬 Kliiniset tutkimukset
                       </button>
                     </div>
                     <div class="trials-container" id="${trialsContainerId}"></div>
@@ -818,13 +818,13 @@
               if (indications.length > 10) {
                 html += `
                   <div class="more-link">
-                    ...and ${indications.length - 10} more predicted indications
-                    <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank">View all</a>
+                    ...ja ${indications.length - 10} muuta ennustettua käyttöaihetta
+                    <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank">Näytä kaikki</a>
                   </div>
                 `;
               }
             } else {
-              html += '<p style="color: #666; padding: 8px 0;">No predicted new indications</p>';
+              html += '<p style="color: #666; padding: 8px 0;">Ei ennustettuja uusia käyttöaiheita</p>';
             }
 
             html += '</div></div></div>';
@@ -836,10 +836,10 @@
                   <h3>${escapeHtml(drugName)}</h3>
                 </div>
                 <p class="no-match">
-                  "${escapeHtml(drugName)}" was not found in the FITxGNN database.
+                  ”${escapeHtml(drugName)}” ei löytynyt FITxGNN-tietokannasta.
                   <br><span style="font-style: normal; color: #666;">
-                    Check that this is a drug name (not a disease), or try the generic name.
-                    The database covers medicines approved in Finland.
+                    Tarkista, että kyseessä on lääkkeen nimi (ei sairaus), tai kokeile vaikuttavan aineen nimeä.
+                    Tietokanta kattaa lääkkeet, joilla on myyntilupa Suomessa.
                   </span>
                 </p>
               </div>
@@ -847,7 +847,7 @@
           }
         }
 
-        resultsDiv.innerHTML = html || '<div class="empty-state"><p>No results</p></div>';
+        resultsDiv.innerHTML = html || '<div class="empty-state"><p>Ei tuloksia</p></div>';
       }
 
       function escapeHtml(text) {
@@ -915,18 +915,18 @@
         const container = document.getElementById(containerId);
         if (!container) return;
 
-        container.innerHTML = '<span class="trials-loading">Searching clinical trials...</span>';
+        container.innerHTML = '<span class="trials-loading">Haetaan kliinisiä tutkimuksia...</span>';
 
         const result = await searchClinicalTrials(drugName, indicationName);
 
         if (result.totalCount === 0) {
-          container.innerHTML = '<span class="trials-none">No related clinical trials</span>';
+          container.innerHTML = '<span class="trials-none">Ei aiheeseen liittyviä kliinisiä tutkimuksia</span>';
           return;
         }
 
         let html = `
           <div class="trials-summary">
-            <strong>${result.totalCount}</strong> related clinical trials found
+            <strong>${result.totalCount}</strong> aiheeseen liittyvää kliinistä tutkimusta
           </div>
           <div class="trials-list">
         `;
@@ -947,7 +947,7 @@
           const searchUrl = `https://clinicaltrials.gov/search?cond=${encodeURIComponent(indicationName)}&intr=${encodeURIComponent(drugName)}`;
           html += `
             <a href="${searchUrl}" target="_blank" class="trials-more">
-              View all ${result.totalCount} clinical trials →
+              Näytä kaikki ${result.totalCount} kliinistä tutkimusta →
             </a>
           `;
         }
@@ -975,14 +975,14 @@
        */
       function formatTrialStatus(status) {
         const statusMap = {
-          'RECRUITING': 'Recruiting',
-          'ACTIVE_NOT_RECRUITING': 'Active, not recruiting',
-          'COMPLETED': 'Completed',
-          'TERMINATED': 'Terminated',
-          'NOT_YET_RECRUITING': 'Not yet recruiting',
-          'SUSPENDED': 'Suspended',
-          'WITHDRAWN': 'Withdrawn',
-          'ENROLLING_BY_INVITATION': 'Enrolling by invitation'
+          'RECRUITING': 'Rekrytoi',
+          'ACTIVE_NOT_RECRUITING': 'Käynnissä, ei rekrytoi',
+          'COMPLETED': 'Päättynyt',
+          'TERMINATED': 'Keskeytetty',
+          'NOT_YET_RECRUITING': 'Rekrytointi ei vielä alkanut',
+          'SUSPENDED': 'Tauolla',
+          'WITHDRAWN': 'Peruttu',
+          'ENROLLING_BY_INVITATION': 'Kutsusta osallistuminen'
         };
         return statusMap[status] || status;
       }
@@ -1005,7 +1005,7 @@
       clearBtn.addEventListener('click', () => {
         selectedDrugs = [];
         renderTags();
-        resultsDiv.innerHTML = '<div class="empty-state"><p>Add drugs and click the "Search" button</p></div>';
+        resultsDiv.innerHTML = '<div class="empty-state"><p>Lisää lääkkeitä ja valitse ”Hae uudelleenkäytön ehdokkaita”</p></div>';
       });
 
       // Sample drug buttons

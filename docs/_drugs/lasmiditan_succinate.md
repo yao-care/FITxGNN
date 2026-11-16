@@ -1,55 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/lasmiditan-succinate/
 sitemap: false
-layout: default
-title: Lasmiditan Succinate
-parent: Vain tunnetut käytöt (ei uusia ennusteita)
-nav_order: 250
-last_modified_at: 2026-10-29
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# Lasmiditan Succinate
-{: .fs-9 }
-
-Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
-{: .fs-6 .fw-300 }
-
----
-
-## Sisällysluettelo
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-<div id="pharmacist" markdown="1">
-
-## Farmaseutin arviointiraportti
-
-</div>
-
-## Lasmiditan Succinate
-{: .text-alpha }
-
-## Pikayleiskatsaus
-
-| Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Migraine Disorders |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien määrä | 1 (voimassa: 1) |
-| Suomen markkinoiden asema | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-
-## Vastuuvapauslauseke
-
-Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
-Kliininen validointi vaaditaan ennen kliinistä käyttöä.
-
----
-
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/lasmiditan/">
+<meta http-equiv="refresh" content="0; url=/drugs/lasmiditan/">
+<script>location="/drugs/lasmiditan/"</script>
+<a href="/drugs/lasmiditan/">/drugs/lasmiditan/</a>
+</html>

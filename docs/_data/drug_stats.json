@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-04",
-  "total_drugs": 444,
+  "generated": "2026-11-16",
+  "total_drugs": 446,
   "level_counts": {
     "L1": 8,
     "L2": 22,
     "L3": 9,
     "L4": 25,
-    "L5": 368
+    "L5": 370
   },
   "all_drugs": [
     {
@@ -194,6 +194,12 @@
       "slug": "atosiban",
       "level": "L5",
       "indication_count": 10
+    },
+    {
+      "name": "Atropine Sulfate",
+      "slug": "atropine_sulfate",
+      "level": "L5",
+      "indication_count": 2
     },
     {
       "name": "Avapritinib",
@@ -1304,6 +1310,12 @@
       "slug": "laronidase",
       "level": "L5",
       "indication_count": 1
+    },
+    {
+      "name": "Larotrectinib Sulfate",
+      "slug": "larotrectinib_sulfate",
+      "level": "L5",
+      "indication_count": 2
     },
     {
       "name": "Lasmiditan",

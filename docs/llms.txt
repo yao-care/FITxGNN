@@ -13,7 +13,7 @@
 ## Sivuston tiedot
 
 - Lääkeaineisto: EMA Medicines report (EU:n keskitetyssä menettelyssä myyntiluvan saaneet lääkkeet; Fimean kansallisia myyntilupia ei ole mukana) — https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx
-- Näytön tasot 444 lääkeraportissa: L1 8 · L2 22 · L3 9 · L4 25 · L5 368 · N/A 12 (N/A = Vain tunnetut käytöt (ei uusia ennusteita))
+- Näytön tasot 446 lääkeraportissa: L1 8 · L2 22 · L3 9 · L4 25 · L5 370 · N/A 12 (N/A = Vain tunnetut käytöt (ei uusia ennusteita))
 <!-- site-data:end -->
 
 ## Tärkeimmät sivut

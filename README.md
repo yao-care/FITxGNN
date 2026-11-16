@@ -19,7 +19,7 @@ Laakkeiden uudelleenkayton ennusteita EU:n keskitetyn myyntiluvan (EMA) saaneill
 
 | Kohde | Maaerae |
 |------|------|
-| **Laaekeraportteja** | 444 |
+| **Laaekeraportteja** | 446 |
 | **Ennusteita yhteensae** | 2,645,422 |
 | **Ainutlaatuisia laaekkeitae** | 673 |
 | **Ainutlaatuisia indikaatioita** | 17,041 |
@@ -34,7 +34,7 @@ Laakkeiden uudelleenkayton ennusteita EU:n keskitetyn myyntiluvan (EMA) saaneill
 | **L2** | 22 | Yksittaeinen RCT tai useita vaiheen 2 |
 | **L3** | 9 | Havainnointitutkimuksia |
 | **L4** | 25 | Prekliinisiaeresearchaanistisia tutkimuksia |
-| **L5** | 368 | Vain laskennallinen ennuste |
+| **L5** | 370 | Vain laskennallinen ennuste |
 | **N/A** | 12 | Vain tunnetut käytöt (ei uusia ennusteita) |
 
 ### Lahteen mukaan

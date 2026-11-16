@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06",
-  "total_count": 444,
+  "generated": "2026-11-16",
+  "total_count": 446,
   "source": "FITxGNN",
   "drugs": [
     {
@@ -312,6 +312,16 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/atosiban/"
+    },
+    {
+      "slug": "atropine-sulfate",
+      "name": "Atropine Sulfate",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/atropine-sulfate/"
     },
     {
       "slug": "avapritinib",
@@ -2162,6 +2172,16 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/laronidase/"
+    },
+    {
+      "slug": "larotrectinib-sulfate",
+      "name": "Larotrectinib Sulfate",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/larotrectinib-sulfate/"
     },
     {
       "slug": "lasmiditan",

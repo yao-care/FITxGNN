@@ -1,21 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Larotrectinib Sulfate
-parent: Vain tunnetut käytöt (ei uusia ennusteita)
-nav_order: 248
-last_modified_at: 2026-10-29
-description: "Larotrectinib Sulfate: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 247
+evidence_level: L5
+indication_count: 2
+drugbank_id: DB14723
+monitor_inn: "Larotrectinib"
+predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
+last_modified_at: 2026-11-16
+description: "Larotrectinib Sulfate: ennustettu uusi käyttöaihe Multippeli endokriininen neoplasia (multiple endocrine neoplasia) (näytön taso L5). Alkuperäinen käyttöaihe: Abdominal Neoplasms"
 ---
 
 # Larotrectinib Sulfate
 {: .fs-9 }
 
-Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -34,21 +34,66 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-## Larotrectinib Sulfate
+## Larotrectinib Sulfate: Multippeli endokriininen neoplasia (multiple endocrine neoplasia)
 {: .text-alpha }
 
-## Nopea yleiskatsaus
+## Yhden lauseen yhteenveto
+
+Larotrektinibisulfaatti on selektiivinen TRK-estäjä (TRKA/B/C), jota käytetään NTRK-fuusiopositiivisten kiinteiden kasvainten hoidossa. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **multippeli endokriininen neoplasia (multiple endocrine neoplasia)**. Tätä tukee vain **1 laaja kliininen tutkimus (ei MEN-spesifinen)** ja **2 julkaisua, jotka eivät tutki larotrektinibia tässä sairaudessa**.
+
+## Pikayhteenveto
 
 | Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Abdominal Neoplasms |
+|------|------|
+| Alkuperäinen käyttöaihe | Abdominal Neoplasms |
+| Ennustettu uusi käyttöaihe | Multippeli endokriininen neoplasia (multiple endocrine neoplasia) |
+| TxGNN-ennustepisteet | 0.9924 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
-| Todistusten taso | Ei arvioitavissa |
-| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Hold |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
+Tämän raportin aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tiedetään, että larotrektinibi on erittäin selektiivinen pan-TRK-estäjä, joka on hyväksytty NTRK-fuusiopositiivisten kiinteiden kasvainten hoitoon.
+
+Multippeli endokriininen neoplasia (erityisesti MEN2) johtuu pääosin aktivoivista RET-mutaatioista, joita larotrektinibi ei ensisijaisesti estä. Yhteys on siis epäsuora: sekä TRK että RET ovat reseptorityrosiinikinaaseja, jotka välittävät signaalia MAPK- ja PI3K-reittien kautta. Korkea TxGNN-pistemäärä kuvastaa verkostotason läheisyyttä, ei kliinistä validointia. Mekanistisesti sopivampia lääkkeitä RET-ohjatuissa kasvaimissa ovat selektiiviset RET-estäjät (selpercatinibi, pralsetinibi). Larotrektinibi voisi olla relevantti lähinnä harvinaisessa NTRK-fuusiopositiivisessa kasvaimessa tässä ympäristössä tai ohitusresistenssin pohdinnassa RET-eston jälkeen.
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Vaihe 2 | Aktiivinen, ei rekrytoi | 6452 | NCI-MATCH: genetiikkaan perustuva koritutkimus pitkälle edenneissä kiinteissä kasvaimissa, lymfoomissa ja myeloomassa. Ei MEN-spesifinen; viittaa vain epäsuorasti NTRK-fuusioalaryhmiin. |
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Katsaus | Endocrine Reviews | Pitkälle edenneen kilpirauhassyövän kinaasiestäjät; mutaatiospesifisiä käyttöaiheita. |
+| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Prekliininen/mekanistinen | NPJ Precision Oncology | RET-estäjä selpercatinibin resistenssimekanismit RET-ohjatussa medullaarisessa kilpirauhassyövässä; ei koske TRK-estoa. |
+
+## Suomen markkinatiedot
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004919 | Vitrakvi | – | Abdominal Neoplasms |
+
+## Turvallisuushuomioita
+
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Hold**
+
+**Perustelu:**
+Mikään esitetty tutkimus ei tutki larotrektinibia suoraan multippelissa endokriinisessä neoplasiassa. Yhteys RET-ohjattuun sairauteen on epäsuora, ja korkea ennustepistemäärä ei ole kliinistä näyttöä.
+
+**Jatkotoimiin tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Tapaukset tai tutkimukset NTRK-fuusiopositiivisista kasvaimista MEN-potilailla
+- Vertailu RET-estäjiin (selpercatinibi, pralsetinibi) tässä käyttöaiheessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

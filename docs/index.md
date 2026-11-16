@@ -32,6 +32,8 @@ Raportit näytön tason mukaan:
 | L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
 {% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
 
+Sivuston 4 ennustettua lääke–sairaus-paria ei esiinny millään muulla 30 TxGNN-sivustosta.
+
 ### Sivuston vahvimman näytön lääkkeet
 
 | Lääke | Näytön taso |
@@ -46,6 +48,13 @@ Raportit näytön tason mukaan:
 | [Tacrolimus](/drugs/tacrolimus/) | L1 |
 | [Brentuximab Vedotin](/drugs/brentuximab-vedotin/) | L2 |
 | [Ledipasvir](/drugs/ledipasvir/) | L2 |
+
+### Lääkkeet, jotka vain tämä sivusto kattaa 30 TxGNN-sivuston joukossa
+
+| Lääke | Näytön taso |
+|---|---|
+| [Atropine Sulfate](/drugs/atropine-sulfate/) | L5 |
+| [Larotrectinib Sulfate](/drugs/larotrectinib-sulfate/) | L5 |
 
 <!-- local-home:end -->
 

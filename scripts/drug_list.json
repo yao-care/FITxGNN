@@ -1,6 +1,6 @@
 {
-  "total": 432,
-  "generated_at": "2026-11-16T05:52:48.653919",
+  "total": 434,
+  "generated_at": "2026-11-16T21:51:17.475531",
   "drugs": [
     {
       "name": "Abacavir",
@@ -29,7 +29,7 @@
         "amenorrhea (disease)",
         "esophageal ulcer"
       ],
-      "approved_indication": "Osteoporosis, Postmenopausal;Osteoporosis"
+      "approved_indication": "Osteoporosis, Postmenopausal；Osteoporosis"
     },
     {
       "name": "Abatacept",
@@ -47,7 +47,7 @@
         "brachydactyly-syndactyly syndrome",
         "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
       ],
-      "approved_indication": "Arthritis, Psoriatic;Arthritis, Juvenile Rheumatoid;Arthritis, Rheumatoid"
+      "approved_indication": "Arthritis, Psoriatic；Arthritis, Juvenile Rheumatoid；Arthritis, Rheumatoid"
     },
     {
       "name": "Acetylsalicylic Acid",
@@ -79,7 +79,7 @@
         "Kummell disease",
         "vertebral disease"
       ],
-      "approved_indication": "Arthritis, Rheumatoid;Arthritis, Psoriatic;Psoriasis;Spondylitis, Ankylosing;Uveitis;Hidradenitis Suppurativa;Colitis, Ulcerative;Crohn Disease;Arthritis, Juvenile Rheumatoid；Arthritis, Rheumatoid;Arthritis, Psoriatic;Spondylitis, Ankylosing;Uveitis;Hidradenitis Suppurativa;Colitis, Ulcerative;Arthritis, Juvenile Rheumatoid;Crohn Disease;Skin Diseases, Papulosquamous；Spondylitis, Ankylosing;Arthritis, Juvenile Rheumatoid;Uveitis;Colitis, Ulcerative;Psoriasis;Arthritis, Psoriatic;Crohn Disease;Arthritis, Rheumatoid；Hidradenitis Suppurativa;Psoriasis;Uveitis;Arthritis, Rheumatoid;Spondylitis, Ankylosing;Crohn Disease;Colitis, Ulcerative;Arthritis, Psoriatic；Spondylitis, Ankylosing;Hidradenitis Suppurativa;Psoriasis;Arthritis, Juvenile Rheumatoid;Uveitis；Spondylitis, Ankylosing;Arthritis, Rheumatoid;Uveitis;Colitis, Ulcerative;Psoriasis;Arthritis, Psoriatic;Crohn Disease;Hidradenitis Suppurativa;Arthritis；Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Spondylitis, Ankylosing;Arthritis, Psoriatic;Psoriasis;Hidradenitis Suppurativa;Crohn Disease;Colitis, Ulcerative;Uveitis；Arthritis, Psoriatic;Colitis, Ulcerative;Arthritis, Juvenile Rheumatoid;Spondylitis, Ankylosing;Psoriasis;Crohn Disease;Arthritis, Rheumatoid；Arthritis, Psoriatic;Arthritis, Juvenile Rheumatoid;Arthritis, Rheumatoid;Colitis, Ulcerative;Crohn Disease;Hidradenitis Suppurativa;Psoriasis;Spondylitis, Ankylosing;Uveitis"
+      "approved_indication": "Arthritis, Rheumatoid；Arthritis, Psoriatic；Psoriasis；Spondylitis, Ankylosing；Uveitis；Hidradenitis Suppurativa；Colitis, Ulcerative；Crohn Disease；Arthritis, Juvenile Rheumatoid；Arthritis, Rheumatoid；Arthritis, Psoriatic；Spondylitis, Ankylosing；Uveitis；Hidradenitis Suppurativa；Colitis, Ulcerative；Arthritis, Juvenile Rheumatoid；Crohn Disease；Skin Diseases, Papulosquamous；Spondylitis, Ankylosing；Arthritis, Juvenile Rheumatoid；Uveitis；Colitis, Ulcerative；Psoriasis；Arthritis, Psoriatic；Crohn Disease；Arthritis, Rheumatoid；Hidradenitis Suppurativa；Psoriasis；Uveitis；Arthritis, Rheumatoid；Spondylitis, Ankylosing；Crohn Disease；Colitis, Ulcerative；Arthritis, Psoriatic；Spondylitis, Ankylosing；Hidradenitis Suppurativa；Psoriasis；Arthritis, Juvenile Rheumatoid；Uveitis；Spondylitis, Ankylosing；Arthritis, Rheumatoid；Uveitis；Colitis, Ulcerative；Psoriasis；Arthritis, Psoriatic；Crohn Disease；Hidradenitis Suppurativa；Arthritis；Arthritis, Rheumatoid；Arthritis, Juvenile Rheumatoid；Spondylitis, Ankylosing；Arthritis, Psoriatic；Psoriasis；Hidradenitis Suppurativa；Crohn Disease；Colitis, Ulcerative；Uveitis；Arthritis, Psoriatic；Colitis, Ulcerative；Arthritis, Juvenile Rheumatoid；Spondylitis, Ankylosing；Psoriasis；Crohn Disease；Arthritis, Rheumatoid；Arthritis, Psoriatic；Arthritis, Juvenile Rheumatoid；Arthritis, Rheumatoid；Colitis, Ulcerative；Crohn Disease；Hidradenitis Suppurativa；Psoriasis；Spondylitis, Ankylosing；Uveitis"
     },
     {
       "name": "Aflibercept",
@@ -91,7 +91,7 @@
       "predicted_indications": [
         "esotropia"
       ],
-      "approved_indication": "Wet Macular Degeneration;Macular Edema;Retinal Vein Occlusion;Choroidal Neovascularization;Diabetes Complications；Wet Macular Degeneration;Macular Edema;Diabetes Complications;Retinal Vein Occlusion；Wet Macular Degeneration;Macular Edema;Diabetes Complications;Retinal Vein Occlusion;Choroidal Neovascularization；Macular Edema;Retinal Vein Occlusion;Diabetic Retinopathy;Myopia, Degenerative;Diabetes Complications；Colorectal Neoplasms"
+      "approved_indication": "Wet Macular Degeneration；Macular Edema；Retinal Vein Occlusion；Choroidal Neovascularization；Diabetes Complications；Wet Macular Degeneration；Macular Edema；Diabetes Complications；Retinal Vein Occlusion；Wet Macular Degeneration；Macular Edema；Diabetes Complications；Retinal Vein Occlusion；Choroidal Neovascularization；Macular Edema；Retinal Vein Occlusion；Diabetic Retinopathy；Myopia, Degenerative；Diabetes Complications；Colorectal Neoplasms"
     },
     {
       "name": "Agomelatine",
@@ -256,7 +256,7 @@
         "glaucoma",
         "acute intermittent porphyria"
       ],
-      "approved_indication": "Lambert-Eaton Myasthenic Syndrome;Paraneoplastic Syndromes, Nervous System;Nervous System Neoplasms;Paraneoplastic Syndromes;Nervous System Diseases;Autoimmune Diseases of the Nervous System;Neurodegenerative Diseases;Neuromuscular Diseases;Neuromuscular Junction Diseases;Immune System Diseases;Autoimmune Diseases;Autoimmune Diseases of the Nervous System;Cancer;Neoplasms；Lambert-Eaton Myasthenic Syndrome"
+      "approved_indication": "Lambert-Eaton Myasthenic Syndrome；Paraneoplastic Syndromes, Nervous System；Nervous System Neoplasms；Paraneoplastic Syndromes；Nervous System Diseases；Autoimmune Diseases of the Nervous System；Neurodegenerative Diseases；Neuromuscular Diseases；Neuromuscular Junction Diseases；Immune System Diseases；Autoimmune Diseases；Autoimmune Diseases of the Nervous System；Cancer；Neoplasms；Lambert-Eaton Myasthenic Syndrome"
     },
     {
       "name": "Amikacin",
@@ -330,7 +330,7 @@
         "pyogenic autoinflammatory syndrome",
         "unclassified autoinflammatory syndrome"
       ],
-      "approved_indication": "Arthritis, Rheumatoid;COVID-19 virus infection"
+      "approved_indication": "Arthritis, Rheumatoid；COVID-19 virus infection"
     },
     {
       "name": "Andexanet Alfa",
@@ -357,7 +357,7 @@
       "predicted_indications": [
         "migraine disorder"
       ],
-      "approved_indication": "Arthroplasty;Venous Thromboembolism；Venous Thromboembolism;Stroke;Arthroplasty"
+      "approved_indication": "Arthroplasty；Venous Thromboembolism；Venous Thromboembolism；Stroke；Arthroplasty"
     },
     {
       "name": "Aprepitant",
@@ -378,7 +378,7 @@
         "subarachnoid hemorrhage (disease)",
         "isolated genetic hair shaft abnormality"
       ],
-      "approved_indication": "Vomiting;Postoperative Nausea and Vomiting;Cancer"
+      "approved_indication": "Vomiting；Postoperative Nausea and Vomiting；Cancer"
     },
     {
       "name": "Aripiprazole",
@@ -397,7 +397,7 @@
         "retinal dystrophy with or without extraocular anomalies",
         "hydranencephaly (disease)"
       ],
-      "approved_indication": "Schizophrenia;Bipolar Disorder；Schizophrenia"
+      "approved_indication": "Schizophrenia；Bipolar Disorder；Schizophrenia"
     },
     {
       "name": "Arsenic Trioxide",
@@ -503,7 +503,7 @@
         "signet ring cell variant cervical mucinous adenocarcinoma",
         "intestinal variant cervical mucinous adenocarcinoma"
       ],
-      "approved_indication": "Carcinoma, Transitional Cell;Carcinoma, Non-Small-Cell Lung;Urologic Neoplasms;Breast Neoplasms;Small Cell Lung Carcinoma"
+      "approved_indication": "Carcinoma, Transitional Cell；Carcinoma, Non-Small-Cell Lung；Urologic Neoplasms；Breast Neoplasms；Small Cell Lung Carcinoma"
     },
     {
       "name": "Atosiban",
@@ -525,6 +525,19 @@
         "visceral calciphylaxis"
       ],
       "approved_indication": "Obstetric Labor, Premature"
+    },
+    {
+      "name": "Atropine Sulfate",
+      "file": "atropine_sulfate.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": "",
+      "inn": "Atropine",
+      "predicted_indications": [
+        "migraine disorder",
+        "migraine with brainstem aura"
+      ],
+      "approved_indication": ""
     },
     {
       "name": "Avapritinib",
@@ -599,7 +612,7 @@
         "hyperamylasemia",
         "polyclonal hyperviscosity syndrome"
       ],
-      "approved_indication": "Pneumonia, Bacterial;Soft Tissue Infections;Pneumonia;Urinary Tract Infections;Gram-Negative Bacterial Infections；Gram-Negative Bacterial Infections;Urinary Tract Infections;Healthcare-Associated Pneumonia;Soft Tissue Infections"
+      "approved_indication": "Pneumonia, Bacterial；Soft Tissue Infections；Pneumonia；Urinary Tract Infections；Gram-Negative Bacterial Infections；Gram-Negative Bacterial Infections；Urinary Tract Infections；Healthcare-Associated Pneumonia；Soft Tissue Infections"
     },
     {
       "name": "Axitinib",
@@ -653,7 +666,7 @@
         "monoclonal gammopathy",
         "xanthogranulomatous pyelonephritis"
       ],
-      "approved_indication": "Gram-Negative Bacterial Infections;Urinary Tract Infections;Healthcare-Associated Pneumonia;Soft Tissue Infections"
+      "approved_indication": "Gram-Negative Bacterial Infections；Urinary Tract Infections；Healthcare-Associated Pneumonia；Soft Tissue Infections"
     },
     {
       "name": "Baricitinib",
@@ -755,7 +768,7 @@
         "mesenchymoma",
         "schwannoma of jugular foramen"
       ],
-      "approved_indication": "Colorectal Neoplasms;Breast Neoplasms;Carcinoma, Non-Small-Cell Lung;Carcinoma, Renal Cell;Uterine Cervical Neoplasms；Colorectal Neoplasms;Carcinoma, Non-Small-Cell Lung;Carcinoma, Renal Cell;Ovarian Neoplasms;Fallopian Tube Neoplasms;Peritoneal Neoplasms;Uterine Cervical Neoplasms；Carcinoma, Renal Cell;Peritoneal Neoplasms;Ovarian Neoplasms;Breast Neoplasms;Carcinoma, Non-Small-Cell Lung;Fallopian Tube Neoplasms；Colorectal Neoplasms;Breast Neoplasms;Ovarian Neoplasms;Fallopian Tube Neoplasms;Peritoneal Neoplasms;Carcinoma, Non-Small-Cell Lung;Carcinoma, Renal Cell;Uterine Cervical Neoplasms；Carcinoma, Non-Small-Cell Lung;Breast Neoplasms;Ovarian Neoplasms;Colorectal Neoplasms;Carcinoma, Renal Cell;Fallopian Tube Neoplasms;Peritoneal Neoplasms;Uterine Cervical Neoplasms；Wet Macular Degeneration；Colorectal Neoplasms;Breast Neoplasms;Ovarian Neoplasms;Peritoneal Neoplasms;Carcinoma, Non-Small-Cell Lung;Carcinoma, Renal Cell;Uterine Cervical Neoplasms"
+      "approved_indication": "Colorectal Neoplasms；Breast Neoplasms；Carcinoma, Non-Small-Cell Lung；Carcinoma, Renal Cell；Uterine Cervical Neoplasms；Colorectal Neoplasms；Carcinoma, Non-Small-Cell Lung；Carcinoma, Renal Cell；Ovarian Neoplasms；Fallopian Tube Neoplasms；Peritoneal Neoplasms；Uterine Cervical Neoplasms；Carcinoma, Renal Cell；Peritoneal Neoplasms；Ovarian Neoplasms；Breast Neoplasms；Carcinoma, Non-Small-Cell Lung；Fallopian Tube Neoplasms；Colorectal Neoplasms；Breast Neoplasms；Ovarian Neoplasms；Fallopian Tube Neoplasms；Peritoneal Neoplasms；Carcinoma, Non-Small-Cell Lung；Carcinoma, Renal Cell；Uterine Cervical Neoplasms；Carcinoma, Non-Small-Cell Lung；Breast Neoplasms；Ovarian Neoplasms；Colorectal Neoplasms；Carcinoma, Renal Cell；Fallopian Tube Neoplasms；Peritoneal Neoplasms；Uterine Cervical Neoplasms；Wet Macular Degeneration；Colorectal Neoplasms；Breast Neoplasms；Ovarian Neoplasms；Peritoneal Neoplasms；Carcinoma, Non-Small-Cell Lung；Carcinoma, Renal Cell；Uterine Cervical Neoplasms"
     },
     {
       "name": "Bexarotene",
@@ -824,7 +837,7 @@
         "genetic alopecia",
         "pulmonary arteriovenous malformation (disease)"
       ],
-      "approved_indication": "Glaucoma, Open-Angle;Ocular Hypertension"
+      "approved_indication": "Glaucoma, Open-Angle；Ocular Hypertension"
     },
     {
       "name": "Bosentan",
@@ -843,7 +856,7 @@
         "gout",
         "hypertrichosis (disease)"
       ],
-      "approved_indication": "Scleroderma, Systemic;Hypertension, Pulmonary；Hypertension, Pulmonary;Scleroderma, Systemic"
+      "approved_indication": "Scleroderma, Systemic；Hypertension, Pulmonary；Hypertension, Pulmonary；Scleroderma, Systemic"
     },
     {
       "name": "Brentuximab Vedotin",
@@ -953,7 +966,7 @@
         "polyp of frontal sinus",
         "polyp of external auditory canal"
       ],
-      "approved_indication": "Esophageal Diseases；Pulmonary Disease, Chronic Obstructive;Asthma；Asthma;Pulmonary Disease, Chronic Obstructive；Pulmonary Disease, Chronic Obstructive"
+      "approved_indication": "Esophageal Diseases；Pulmonary Disease, Chronic Obstructive；Asthma；Asthma；Pulmonary Disease, Chronic Obstructive；Pulmonary Disease, Chronic Obstructive"
     },
     {
       "name": "Bupivacaine",
@@ -1006,7 +1019,7 @@
         "trigeminal nerve neoplasm",
         "obsolete hypertelorism (disease)"
       ],
-      "approved_indication": "Obesity;Overweight"
+      "approved_indication": "Obesity；Overweight"
     },
     {
       "name": "Busulfan",
@@ -1080,7 +1093,7 @@
         "bilateral parasagittal parieto-occipital polymicrogyria",
         "angiolipoma"
       ],
-      "approved_indication": "Carcinoma, Renal Cell;Carcinomas, Hepatocellular；Thyroid Neoplasms"
+      "approved_indication": "Carcinoma, Renal Cell；Carcinomas, Hepatocellular；Thyroid Neoplasms"
     },
     {
       "name": "Caffeine",
@@ -1119,7 +1132,7 @@
         "monosomy X",
         "liver angiosarcoma"
       ],
-      "approved_indication": "Cryopyrin-Associated Periodic Syndromes;Arthritis, Juvenile Rheumatoid;Arthritis, Gouty"
+      "approved_indication": "Cryopyrin-Associated Periodic Syndromes；Arthritis, Juvenile Rheumatoid；Arthritis, Gouty"
     },
     {
       "name": "Capecitabine",
@@ -1131,7 +1144,7 @@
       "predicted_indications": [
         "gastric adenocarcinoma and proximal polyposis of the stomach"
       ],
-      "approved_indication": "Colonic Neoplasms;Breast Neoplasms;Colorectal Neoplasms;Stomach Neoplasms；Colorectal Neoplasms"
+      "approved_indication": "Colonic Neoplasms；Breast Neoplasms；Colorectal Neoplasms；Stomach Neoplasms；Colorectal Neoplasms"
     },
     {
       "name": "Caplacizumab",
@@ -1179,7 +1192,7 @@
       "predicted_indications": [
         "gastrin secretion abnormality"
       ],
-      "approved_indication": "Candidiasis;Aspergillosis"
+      "approved_indication": "Candidiasis；Aspergillosis"
     },
     {
       "name": "Catridecacog",
@@ -1319,7 +1332,7 @@
         "aromatase excess syndrome",
         "centra precocious puberty 1"
       ],
-      "approved_indication": "Ovulation;Ovulation Induction"
+      "approved_indication": "Ovulation；Ovulation Induction"
     },
     {
       "name": "Cetuximab",
@@ -1340,7 +1353,7 @@
         "epiglottis neoplasm",
         "pre-malignant neoplasm"
       ],
-      "approved_indication": "Head and Neck Neoplasms;Colorectal Neoplasms"
+      "approved_indication": "Head and Neck Neoplasms；Colorectal Neoplasms"
     },
     {
       "name": "Chenodeoxycholic Acid",
@@ -1467,7 +1480,7 @@
         "myositis fibrosa",
         "rheumatoid arthritis"
       ],
-      "approved_indication": "Peripheral Vascular Diseases;Stroke;Myocardial Infarction；Stroke;Peripheral Vascular Diseases;Atrial Fibrillation;Myocardial Infarction;Acute Coronary Syndrome；Peripheral Vascular Diseases;Stroke;Myocardial Infarction;Acute Coronary Syndrome；Peripheral Vascular Diseases;Acute Coronary Syndrome;Myocardial Infarction;Stroke；Peripheral Vascular Diseases;Stroke;Acute Coronary Syndrome;Myocardial Infarction；Myocardial Infarction;Acute Coronary Syndrome;Peripheral Vascular Diseases;Stroke；Stroke;Peripheral Vascular Diseases;Myocardial Infarction;Acute Coronary Syndrome；Acute Coronary Syndrome;Peripheral Vascular Diseases;Myocardial Infarction;Stroke；Acute Coronary Syndrome;Myocardial Infarction"
+      "approved_indication": "Peripheral Vascular Diseases；Stroke；Myocardial Infarction；Stroke；Peripheral Vascular Diseases；Atrial Fibrillation；Myocardial Infarction；Acute Coronary Syndrome；Peripheral Vascular Diseases；Stroke；Myocardial Infarction；Acute Coronary Syndrome；Peripheral Vascular Diseases；Acute Coronary Syndrome；Myocardial Infarction；Stroke；Peripheral Vascular Diseases；Stroke；Acute Coronary Syndrome；Myocardial Infarction；Myocardial Infarction；Acute Coronary Syndrome；Peripheral Vascular Diseases；Stroke；Stroke；Peripheral Vascular Diseases；Myocardial Infarction；Acute Coronary Syndrome；Acute Coronary Syndrome；Peripheral Vascular Diseases；Myocardial Infarction；Stroke；Acute Coronary Syndrome；Myocardial Infarction"
     },
     {
       "name": "Cobicistat",
@@ -1557,7 +1570,7 @@
         "brachydactyly-syndactyly syndrome",
         "prolapse of lacrimal gland"
       ],
-      "approved_indication": "Keratoconjunctivitis Sicca；Conjunctivitis;Keratitis；Corneal Diseases"
+      "approved_indication": "Keratoconjunctivitis Sicca；Conjunctivitis；Keratitis；Corneal Diseases"
     },
     {
       "name": "Cytarabine",
@@ -1614,7 +1627,7 @@
         "infectious mononucleosis",
         "orbital cellulitis"
       ],
-      "approved_indication": "Soft Tissue Infections;Skin Diseases, Bacterial"
+      "approved_indication": "Soft Tissue Infections；Skin Diseases, Bacterial"
     },
     {
       "name": "Dantrolene",
@@ -1652,7 +1665,7 @@
         "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
         "brachyolmia-amelogenesis imperfecta syndrome"
       ],
-      "approved_indication": "Gram-Positive Bacterial Infections;Bacteremia;Soft Tissue Infections;Endocarditis, Bacterial；Soft Tissue Infections;Skin Diseases, Bacterial"
+      "approved_indication": "Gram-Positive Bacterial Infections；Bacteremia；Soft Tissue Infections；Endocarditis, Bacterial；Soft Tissue Infections；Skin Diseases, Bacterial"
     },
     {
       "name": "Darolutamide",
@@ -1701,7 +1714,7 @@
         "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
         "hamartoma of lung"
       ],
-      "approved_indication": "Precursor Cell Lymphoblastic Leukemia-Lymphoma;Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
+      "approved_indication": "Precursor Cell Lymphoblastic Leukemia-Lymphoma；Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
     },
     {
       "name": "Daunorubicin",
@@ -1750,7 +1763,7 @@
         "obsolete familial combined hyperlipidemia",
         "dermatofibrosarcoma protuberans"
       ],
-      "approved_indication": "Iron Overload;beta-Thalassemia；beta-Thalassemia;Iron Overload"
+      "approved_indication": "Iron Overload；beta-Thalassemia；beta-Thalassemia；Iron Overload"
     },
     {
       "name": "Deferiprone",
@@ -1769,7 +1782,7 @@
         "pyruvate kinase deficiency of red cells",
         "pyropoikilocytosis, hereditary"
       ],
-      "approved_indication": "beta-Thalassemia;Iron Overload；Iron Overload;beta-Thalassemia"
+      "approved_indication": "beta-Thalassemia；Iron Overload；Iron Overload；beta-Thalassemia"
     },
     {
       "name": "Defibrotide",
@@ -1836,7 +1849,7 @@
         "severe nonproliferative diabetic retinopathy",
         "diabetic retinopathy"
       ],
-      "approved_indication": "Neoplasms, Bone Tissue;Giant Cell Tumor of Bone；Giant Cell Tumor of Bone;Neoplasms, Bone Tissue；Osteoporosis, Postmenopausal;Osteoporosis;Bone Resorption；Osteoporosis;Osteoporosis, Postmenopausal;Bone Resorption；Bone Resorption;Osteoporosis;Osteoporosis, Postmenopausal；Bone Resorption;Osteoporosis, Postmenopausal;Osteoporosis"
+      "approved_indication": "Neoplasms, Bone Tissue；Giant Cell Tumor of Bone；Giant Cell Tumor of Bone；Neoplasms, Bone Tissue；Osteoporosis, Postmenopausal；Osteoporosis；Bone Resorption；Osteoporosis；Osteoporosis, Postmenopausal；Bone Resorption；Bone Resorption；Osteoporosis；Osteoporosis, Postmenopausal；Bone Resorption；Osteoporosis, Postmenopausal；Osteoporosis"
     },
     {
       "name": "Desloratadine",
@@ -1851,7 +1864,7 @@
         "IgE responsiveness, atopic",
         "rosacea conjunctivitis"
       ],
-      "approved_indication": "Rhinitis, Allergic, Perennial;Urticaria;Rhinitis, Allergic, Seasonal；Rhinitis, Allergic, Perennial;Rhinitis, Allergic, Seasonal;Urticaria；Rhinitis, Allergic, Perennial;Rhinitis, Allergic, Seasonal；Rhinitis, Allergic, Seasonal"
+      "approved_indication": "Rhinitis, Allergic, Perennial；Urticaria；Rhinitis, Allergic, Seasonal；Rhinitis, Allergic, Perennial；Rhinitis, Allergic, Seasonal；Urticaria；Rhinitis, Allergic, Perennial；Rhinitis, Allergic, Seasonal；Rhinitis, Allergic, Seasonal"
     },
     {
       "name": "Dexamethasone",
@@ -1871,7 +1884,7 @@
         "alopecia universalis onychodystrophy vitiligo",
         "prolapse of lacrimal gland"
       ],
-      "approved_indication": "Macular Edema;Uveitis；Multiple Myeloma"
+      "approved_indication": "Macular Edema；Uveitis；Multiple Myeloma"
     },
     {
       "name": "Dibotermin Alfa",
@@ -1949,7 +1962,7 @@
         "embryonal extrahepatic bile duct rhabdomyosarcoma",
         "parameningeal embryonal rhabdomyosarcoma"
       ],
-      "approved_indication": "Head and Neck Neoplasms;Carcinoma, Non-Small-Cell Lung;Adenocarcinoma;Prostatic Neoplasms;Breast Neoplasms；Head and Neck Neoplasms;Carcinoma, Non-Small-Cell Lung;Adenocarcinoma;Prostatic Neoplasms;Stomach Neoplasms;Breast Neoplasms"
+      "approved_indication": "Head and Neck Neoplasms；Carcinoma, Non-Small-Cell Lung；Adenocarcinoma；Prostatic Neoplasms；Breast Neoplasms；Head and Neck Neoplasms；Carcinoma, Non-Small-Cell Lung；Adenocarcinoma；Prostatic Neoplasms；Stomach Neoplasms；Breast Neoplasms"
     },
     {
       "name": "Dolutegravir",
@@ -1996,7 +2009,7 @@
         "parameningeal embryonal rhabdomyosarcoma",
         "rhabdomyosarcoma (disease)"
       ],
-      "approved_indication": "Breast Neoplasms；Sarcoma, Kaposi;Multiple Myeloma;Ovarian Neoplasms;Breast Neoplasms"
+      "approved_indication": "Breast Neoplasms；Sarcoma, Kaposi；Multiple Myeloma；Ovarian Neoplasms；Breast Neoplasms"
     },
     {
       "name": "Dronedarone",
@@ -2037,7 +2050,7 @@
         "ligneous conjunctivitis",
         "blepharophimosis - intellectual disability syndrome, Ohdo type"
       ],
-      "approved_indication": "Neuralgia;Depressive Disorder, Major;Anxiety Disorders;Diabetes Mellitus；Neuralgia;Diabetic Neuropathies;Depressive Disorder, Major;Anxiety Disorders；Urinary Incontinence, Stress；Anxiety Disorders;Diabetic Neuropathies;Depressive Disorder, Major；Neuralgia;Diabetic Neuropathies;Depressive Disorder, Major"
+      "approved_indication": "Neuralgia；Depressive Disorder, Major；Anxiety Disorders；Diabetes Mellitus；Neuralgia；Diabetic Neuropathies；Depressive Disorder, Major；Anxiety Disorders；Urinary Incontinence, Stress；Anxiety Disorders；Diabetic Neuropathies；Depressive Disorder, Major；Neuralgia；Diabetic Neuropathies；Depressive Disorder, Major"
     },
     {
       "name": "Dupilumab",
@@ -2057,7 +2070,7 @@
         "hydroa vacciniforme, familial",
         "severe nonproliferative diabetic retinopathy"
       ],
-      "approved_indication": "Dermatitis, Atopic;Prurigo;Esophageal Diseases;Asthma;Sinusitis"
+      "approved_indication": "Dermatitis, Atopic；Prurigo；Esophageal Diseases；Asthma；Sinusitis"
     },
     {
       "name": "Durvalumab",
@@ -2092,7 +2105,7 @@
         "ganglioneuroblastoma (disease)",
         "vertebral anomalies and variable endocrine and T-cell dysfunction"
       ],
-      "approved_indication": "Leukemia, Lymphocytic, Chronic, B-Cell;Lymphoma, Follicular"
+      "approved_indication": "Leukemia, Lymphocytic, Chronic, B-Cell；Lymphoma, Follicular"
     },
     {
       "name": "Eculizumab",
@@ -2219,7 +2232,7 @@
       "predicted_indications": [
         "HIV infectious disease"
       ],
-      "approved_indication": "Purpura, Thrombocytopenic, Idiopathic;Anemia, Aplastic"
+      "approved_indication": "Purpura, Thrombocytopenic, Idiopathic；Anemia, Aplastic"
     },
     {
       "name": "Elvitegravir",
@@ -2268,7 +2281,7 @@
         "classic stiff person syndrome",
         "opsismodysplasia"
       ],
-      "approved_indication": "Diabetes Mellitus, Type 2;Heart Failure;Renal Insufficiency, Chronic；Diabetes Mellitus, Type 2"
+      "approved_indication": "Diabetes Mellitus, Type 2；Heart Failure；Renal Insufficiency, Chronic；Diabetes Mellitus, Type 2"
     },
     {
       "name": "Emtricitabine",
@@ -2406,7 +2419,7 @@
         "beta-thalassemia with other manifestations",
         "partial deletion of the short arm of chromosome 16"
       ],
-      "approved_indication": "Angina, Unstable;Myocardial Infarction；Myocardial Infarction"
+      "approved_indication": "Angina, Unstable；Myocardial Infarction；Myocardial Infarction"
     },
     {
       "name": "Erdafitinib",
@@ -2443,7 +2456,7 @@
         "pleural epithelioid mesothelioma",
         "heart fibrosarcoma"
       ],
-      "approved_indication": "Breast Neoplasms;Liposarcoma"
+      "approved_indication": "Breast Neoplasms；Liposarcoma"
     },
     {
       "name": "Ertapenem",
@@ -2455,7 +2468,7 @@
       "predicted_indications": [
         "bacterial arthritis"
       ],
-      "approved_indication": "Bacterial Infections；Community-Acquired Infections;Streptococcal Infections;Staphylococcal Infections;Gram-Negative Bacterial Infections;Surgical Wound Infection;Pneumonia, Bacterial"
+      "approved_indication": "Bacterial Infections；Community-Acquired Infections；Streptococcal Infections；Staphylococcal Infections；Gram-Negative Bacterial Infections；Surgical Wound Infection；Pneumonia, Bacterial"
     },
     {
       "name": "Esketamine",
@@ -2494,7 +2507,7 @@
         "Kummell disease",
         "vertebral disease"
       ],
-      "approved_indication": "Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Arthritis, Psoriatic;Spondylarthropathies;Spondylitis, Ankylosing;Psoriasis；Spondylitis, Ankylosing;Arthritis, Juvenile Rheumatoid;Arthritis, Psoriatic;Psoriasis;Arthritis, Rheumatoid；Arthritis, Psoriatic;Arthritis, Rheumatoid;Psoriasis；Arthritis, Psoriatic;Psoriasis;Arthritis, Juvenile Rheumatoid;Arthritis, Rheumatoid;Spondylitis, Ankylosing"
+      "approved_indication": "Arthritis, Rheumatoid；Arthritis, Juvenile Rheumatoid；Arthritis, Psoriatic；Spondylarthropathies；Spondylitis, Ankylosing；Psoriasis；Spondylitis, Ankylosing；Arthritis, Juvenile Rheumatoid；Arthritis, Psoriatic；Psoriasis；Arthritis, Rheumatoid；Arthritis, Psoriatic；Arthritis, Rheumatoid；Psoriasis；Arthritis, Psoriatic；Psoriasis；Arthritis, Juvenile Rheumatoid；Arthritis, Rheumatoid；Spondylitis, Ankylosing"
     },
     {
       "name": "Etelcalcetide",
@@ -2559,7 +2572,7 @@
         "rhabdomyosarcoma (disease)",
         "prostate embryonal rhabdomyosarcoma"
       ],
-      "approved_indication": "Tuberous Sclerosis；Carcinoma, Renal Cell;Breast Neoplasms;Pancreatic Neoplasms"
+      "approved_indication": "Tuberous Sclerosis；Carcinoma, Renal Cell；Breast Neoplasms；Pancreatic Neoplasms"
     },
     {
       "name": "Evolocumab",
@@ -2576,7 +2589,7 @@
         "hemophilia A with vascular abnormality",
         "disease of catalytic activity"
       ],
-      "approved_indication": "Dyslipidemias;Hypercholesterolemia"
+      "approved_indication": "Dyslipidemias；Hypercholesterolemia"
     },
     {
       "name": "Ezetimibe",
@@ -2588,7 +2601,7 @@
       "predicted_indications": [
         "cholesterol-ester transfer protein deficiency"
       ],
-      "approved_indication": "Hypercholesterolemia;Dyslipidemias"
+      "approved_indication": "Hypercholesterolemia；Dyslipidemias"
     },
     {
       "name": "Febuxostat",
@@ -2602,7 +2615,7 @@
         "hypoxanthine guanine phosphoribosyltransferase partial deficiency",
         "Lesch-Nyhan syndrome"
       ],
-      "approved_indication": "Hyperuricemia;Gout；Hyperuricemia;Arthritis, Gouty;Gout；Gout"
+      "approved_indication": "Hyperuricemia；Gout；Hyperuricemia；Arthritis, Gouty；Gout；Gout"
     },
     {
       "name": "Fenfluramine",
@@ -2642,7 +2655,7 @@
         "nephrogenic syndrome of inappropriate antidiuresis",
         "Tourette syndrome"
       ],
-      "approved_indication": "Pain;Cancer"
+      "approved_indication": "Pain；Cancer"
     },
     {
       "name": "Ferric Maltol",
@@ -2696,7 +2709,7 @@
         "fetal and neonatal alloimmune thrombocytopenia",
         "platelet-type bleeding disorder"
       ],
-      "approved_indication": "Hematopoietic Stem Cell Transplantation;Cancer；Neutropenia;Hematopoietic Stem Cell Transplantation;Cancer"
+      "approved_indication": "Hematopoietic Stem Cell Transplantation；Cancer；Neutropenia；Hematopoietic Stem Cell Transplantation；Cancer"
     },
     {
       "name": "Fluticasone Furoate",
@@ -2727,7 +2740,7 @@
         "respiratory malformation",
         "Rienhoff syndrome"
       ],
-      "approved_indication": "Pulmonary Disease, Chronic Obstructive;Asthma；Asthma;Pulmonary Disease, Chronic Obstructive；Pulmonary Disease, Chronic Obstructive"
+      "approved_indication": "Pulmonary Disease, Chronic Obstructive；Asthma；Asthma；Pulmonary Disease, Chronic Obstructive；Pulmonary Disease, Chronic Obstructive"
     },
     {
       "name": "Fosaprepitant",
@@ -2748,7 +2761,7 @@
         "echinococcus granulosus infectious disease",
         "hyperargininemia"
       ],
-      "approved_indication": "Vomiting;Cancer"
+      "approved_indication": "Vomiting；Cancer"
     },
     {
       "name": "Fostamatinib",
@@ -2829,7 +2842,7 @@
         "centra precocious puberty 1",
         "familial isolated trichomegaly"
       ],
-      "approved_indication": "Reproductive Techniques, Assisted;Ovulation Induction;Infertility, Female"
+      "approved_indication": "Reproductive Techniques, Assisted；Ovulation Induction；Infertility, Female"
     },
     {
       "name": "Gefitinib",
@@ -3012,7 +3025,7 @@
         "hypermobility of coccyx",
         "Kummell disease"
       ],
-      "approved_indication": "Arthritis, Psoriatic;Spondylitis, Ankylosing;Colitis, Ulcerative;Arthritis, Rheumatoid；Arthritis, Rheumatoid;Arthritis, Juvenile;Arthritis, Psoriatic;Axial Spondyloarthritis;Non-Radiographic Axial Spondyloarthritis;Colitis, Ulcerative；Arthritis, Rheumatoid;Arthritis, Juvenile;Arthritis, Psoriatic;Axial Spondyloarthritis;Colitis, Ulcerative;Non-Radiographic Axial Spondyloarthritis"
+      "approved_indication": "Arthritis, Psoriatic；Spondylitis, Ankylosing；Colitis, Ulcerative；Arthritis, Rheumatoid；Arthritis, Rheumatoid；Arthritis, Juvenile；Arthritis, Psoriatic；Axial Spondyloarthritis；Non-Radiographic Axial Spondyloarthritis；Colitis, Ulcerative；Arthritis, Rheumatoid；Arthritis, Juvenile；Arthritis, Psoriatic；Axial Spondyloarthritis；Colitis, Ulcerative；Non-Radiographic Axial Spondyloarthritis"
     },
     {
       "name": "Granisetron",
@@ -3033,7 +3046,7 @@
         "cold urticaria",
         "conjunctivitis"
       ],
-      "approved_indication": "Vomiting;Cancer"
+      "approved_indication": "Vomiting；Cancer"
     },
     {
       "name": "Grazoprevir",
@@ -3203,7 +3216,7 @@
         "small intestinal Burkitt lymphoma",
         "colon adenocarcinoma"
       ],
-      "approved_indication": "Lymphoma, Non-Hodgkin;Leukemia, Lymphocytic, Chronic, B-Cell"
+      "approved_indication": "Lymphoma, Non-Hodgkin；Leukemia, Lymphocytic, Chronic, B-Cell"
     },
     {
       "name": "Iloprost",
@@ -3239,7 +3252,7 @@
         "ovarian myxoid liposarcoma",
         "familial rhabdoid tumor"
       ],
-      "approved_indication": "Precursor Cell Lymphoblastic Leukemia-Lymphoma;Dermatofibrosarcoma;Myelodysplastic-Myeloproliferative Diseases;Leukemia, Myelogenous, Chronic, BCR-ABL Positive;Hypereosinophilic Syndrome；Leukemia, Myelogenous, Chronic, BCR-ABL Positive;Precursor Cell Lymphoblastic Leukemia-Lymphoma;Myelodysplastic-Myeloproliferative Diseases;Hypereosinophilic Syndrome;Dermatofibrosarcoma；Precursor Cell Lymphoblastic Leukemia-Lymphoma;Gastrointestinal Stromal Tumors;Dermatofibrosarcoma;Myelodysplastic-Myeloproliferative Diseases;Leukemia, Myelogenous, Chronic, BCR-ABL Positive;Hypereosinophilic Syndrome"
+      "approved_indication": "Precursor Cell Lymphoblastic Leukemia-Lymphoma；Dermatofibrosarcoma；Myelodysplastic-Myeloproliferative Diseases；Leukemia, Myelogenous, Chronic, BCR-ABL Positive；Hypereosinophilic Syndrome；Leukemia, Myelogenous, Chronic, BCR-ABL Positive；Precursor Cell Lymphoblastic Leukemia-Lymphoma；Myelodysplastic-Myeloproliferative Diseases；Hypereosinophilic Syndrome；Dermatofibrosarcoma；Precursor Cell Lymphoblastic Leukemia-Lymphoma；Gastrointestinal Stromal Tumors；Dermatofibrosarcoma；Myelodysplastic-Myeloproliferative Diseases；Leukemia, Myelogenous, Chronic, BCR-ABL Positive；Hypereosinophilic Syndrome"
     },
     {
       "name": "Imiglucerase",
@@ -3296,7 +3309,7 @@
         "neoplasm of major salivary gland",
         "schwannoma of jugular foramen"
       ],
-      "approved_indication": "Keratosis;Keratosis, Actinic；Condylomata Acuminata;Keratosis;Keratosis, Actinic;Carcinoma, Basal Cell"
+      "approved_indication": "Keratosis；Keratosis, Actinic；Condylomata Acuminata；Keratosis；Keratosis, Actinic；Carcinoma, Basal Cell"
     },
     {
       "name": "Inclisiran",
@@ -3316,7 +3329,7 @@
         "esophageal ulcer",
         "Raynaud disease"
       ],
-      "approved_indication": "Hypercholesterolemia;Dyslipidemias"
+      "approved_indication": "Hypercholesterolemia；Dyslipidemias"
     },
     {
       "name": "Indacaterol",
@@ -3499,7 +3512,7 @@
       "predicted_indications": [
         "choroideremia"
       ],
-      "approved_indication": "Melanoma;Carcinoma, Renal Cell;Carcinoma, Non-Small-Cell Lung;Mesothelioma, Malignant;Colorectal Neoplasms"
+      "approved_indication": "Melanoma；Carcinoma, Renal Cell；Carcinoma, Non-Small-Cell Lung；Mesothelioma, Malignant；Colorectal Neoplasms"
     },
     {
       "name": "Irbesartan",
@@ -3530,7 +3543,7 @@
         "isolated genetic hair shaft abnormality",
         "nephrogenic syndrome of inappropriate antidiuresis"
       ],
-      "approved_indication": "Angina Pectoris;Heart Failure"
+      "approved_indication": "Angina Pectoris；Heart Failure"
     },
     {
       "name": "Ivosidenib",
@@ -3542,7 +3555,7 @@
       "predicted_indications": [
         "bulbar polio"
       ],
-      "approved_indication": "Leukemia, Myeloid, Acute;Cholangiocarcinoma"
+      "approved_indication": "Leukemia, Myeloid, Acute；Cholangiocarcinoma"
     },
     {
       "name": "Ketoconazole",
@@ -3568,7 +3581,7 @@
         "rosacea conjunctivitis",
         "trigeminal autonomic cephalalgia"
       ],
-      "approved_indication": "Lens Implantation, Intraocular;Pain, Postoperative"
+      "approved_indication": "Lens Implantation, Intraocular；Pain, Postoperative"
     },
     {
       "name": "Lacosamide",
@@ -3652,6 +3665,19 @@
       "approved_indication": "Mucopolysaccharidosis I"
     },
     {
+      "name": "Larotrectinib Sulfate",
+      "file": "larotrectinib_sulfate.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": "",
+      "inn": "Larotrectinib",
+      "predicted_indications": [
+        "multiple endocrine neoplasia",
+        "HER2 positive breast carcinoma"
+      ],
+      "approved_indication": ""
+    },
+    {
       "name": "Lasmiditan",
       "file": "lasmiditan.md",
       "evidence_level": "L5",
@@ -3682,7 +3708,7 @@
         "blue toe syndrome",
         "lymphangiectasis"
       ],
-      "approved_indication": "Glaucoma, Open-Angle；Glaucoma, Open-Angle;Ocular Hypertension"
+      "approved_indication": "Glaucoma, Open-Angle；Glaucoma, Open-Angle；Ocular Hypertension"
     },
     {
       "name": "Ledipasvir",
@@ -3717,7 +3743,7 @@
         "polyclonal hyperviscosity syndrome",
         "hyperamylasemia"
       ],
-      "approved_indication": "Pneumonia, Bacterial;Community-Acquired Infections"
+      "approved_indication": "Pneumonia, Bacterial；Community-Acquired Infections"
     },
     {
       "name": "Leflunomide",
@@ -3730,7 +3756,7 @@
         "brachydactyly-syndactyly syndrome",
         "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
       ],
-      "approved_indication": "Arthritis, Rheumatoid;Arthritis, Psoriatic；Arthritis, Rheumatoid"
+      "approved_indication": "Arthritis, Rheumatoid；Arthritis, Psoriatic；Arthritis, Rheumatoid"
     },
     {
       "name": "Lenalidomide",
@@ -3745,7 +3771,7 @@
         "aregenerative anemia",
         "severe congenital hypochromic anemia with ringed sideroblasts"
       ],
-      "approved_indication": "Multiple Myeloma；Multiple Myeloma;Lymphoma, Mantle-Cell;Myelodysplastic Syndromes"
+      "approved_indication": "Multiple Myeloma；Multiple Myeloma；Lymphoma, Mantle-Cell；Myelodysplastic Syndromes"
     },
     {
       "name": "Lenvatinib",
@@ -3817,7 +3843,7 @@
         "hematological disease associated with an acquired peripheral neuropathy",
         "congenital hematological disorder"
       ],
-      "approved_indication": "Cystic Fibrosis;Respiratory Tract Infections"
+      "approved_indication": "Cystic Fibrosis；Respiratory Tract Infections"
     },
     {
       "name": "Lidocaine",
@@ -3900,7 +3926,7 @@
       "predicted_indications": [
         "leprosy"
       ],
-      "approved_indication": "Progeria;Laminopathies"
+      "approved_indication": "Progeria；Laminopathies"
     },
     {
       "name": "Lonoctocog Alfa",
@@ -3969,7 +3995,7 @@
         "syndromic myopia",
         "atypical glycine encephalopathy"
       ],
-      "approved_indication": "Schizophrenia;Bipolar Disorder"
+      "approved_indication": "Schizophrenia；Bipolar Disorder"
     },
     {
       "name": "Lumacaftor",
@@ -4094,7 +4120,7 @@
         "cervical mucinous adenocarcinoma",
         "endometrial mucinous adenocarcinoma"
       ],
-      "approved_indication": "Multiple Myeloma;Hodgkin Disease;Lymphoma, Non-Hodgkin;Precursor Cell Lymphoblastic Leukemia-Lymphoma;Leukemia, Myeloid, Acute;Neuroblastoma;Ovarian Neoplasms;Hematopoietic Stem Cell Transplantation"
+      "approved_indication": "Multiple Myeloma；Hodgkin Disease；Lymphoma, Non-Hodgkin；Precursor Cell Lymphoblastic Leukemia-Lymphoma；Leukemia, Myeloid, Acute；Neuroblastoma；Ovarian Neoplasms；Hematopoietic Stem Cell Transplantation"
     },
     {
       "name": "Memantine",
@@ -4162,7 +4188,7 @@
         "Ureaplasma urethritis",
         "gonococcal urethritis"
       ],
-      "approved_indication": "Urinary Tract Infections;Bacteremia;Bacterial Infections;Respiratory Tract Infections;Pneumonia;Pneumonia, Ventilator-Associated"
+      "approved_indication": "Urinary Tract Infections；Bacteremia；Bacterial Infections；Respiratory Tract Infections；Pneumonia；Pneumonia, Ventilator-Associated"
     },
     {
       "name": "Metformin",
@@ -4217,7 +4243,7 @@
         "parameningeal embryonal rhabdomyosarcoma",
         "botryoid-type embryonal rhabdomyosarcoma of the vagina"
       ],
-      "approved_indication": "Arthritis, Psoriatic;Precursor Cell Lymphoblastic Leukemia-Lymphoma;Psoriasis;Arthritis, Rheumatoid;Arthritis；Arthritis, Psoriatic;Psoriasis;Arthritis, Juvenile Rheumatoid;Arthritis, Rheumatoid"
+      "approved_indication": "Arthritis, Psoriatic；Precursor Cell Lymphoblastic Leukemia-Lymphoma；Psoriasis；Arthritis, Rheumatoid；Arthritis；Arthritis, Psoriatic；Psoriasis；Arthritis, Juvenile Rheumatoid；Arthritis, Rheumatoid"
     },
     {
       "name": "Methoxy Polyethylene Glycol-Epoetin Beta",
@@ -4316,7 +4342,7 @@
         "recessive X-linked ichthyosis",
         "fatty acid hydroxylase-associated neurodegeneration"
       ],
-      "approved_indication": "Gaucher Disease;Niemann-Pick Diseases；Gaucher Disease；Glycogen Storage Disease Type II"
+      "approved_indication": "Gaucher Disease；Niemann-Pick Diseases；Gaucher Disease；Glycogen Storage Disease Type II"
     },
     {
       "name": "Mogamulizumab",
@@ -4334,7 +4360,7 @@
         "ectomesenchymoma",
         "malignant cutaneous granular cell skin tumor"
       ],
-      "approved_indication": "Sezary Syndrome;Mycosis Fungoides"
+      "approved_indication": "Sezary Syndrome；Mycosis Fungoides"
     },
     {
       "name": "Mometasone",
@@ -4402,7 +4428,7 @@
         "severe nonproliferative diabetic retinopathy",
         "acute lichenoid pityriasis"
       ],
-      "approved_indication": "Multiple Sclerosis, Relapsing-Remitting;Multiple Sclerosis；Multiple Sclerosis"
+      "approved_indication": "Multiple Sclerosis, Relapsing-Remitting；Multiple Sclerosis；Multiple Sclerosis"
     },
     {
       "name": "Nelarabine",
@@ -4435,7 +4461,7 @@
         "vulvar inverted follicular keratosis",
         "vitreous detachment"
       ],
-      "approved_indication": "Pain, Postoperative;Ophthalmologic Surgical Procedures"
+      "approved_indication": "Pain, Postoperative；Ophthalmologic Surgical Procedures"
     },
     {
       "name": "Nevirapine",
@@ -4475,7 +4501,7 @@
         "liposarcoma",
         "ovarian myxoid liposarcoma"
       ],
-      "approved_indication": "Idiopathic Pulmonary Fibrosis;Lung Diseases, Interstitial;Pulmonary Fibrosis；Idiopathic Pulmonary Fibrosis;Lung Diseases, Interstitial;Pulmonary Fibrosis;Scleroderma, Systemic；Idiopathic Pulmonary Fibrosis;Lung Diseases, Interstitial;Scleroderma, Systemic;Pulmonary Fibrosis；Carcinoma, Non-Small-Cell Lung"
+      "approved_indication": "Idiopathic Pulmonary Fibrosis；Lung Diseases, Interstitial；Pulmonary Fibrosis；Idiopathic Pulmonary Fibrosis；Lung Diseases, Interstitial；Pulmonary Fibrosis；Scleroderma, Systemic；Idiopathic Pulmonary Fibrosis；Lung Diseases, Interstitial；Scleroderma, Systemic；Pulmonary Fibrosis；Carcinoma, Non-Small-Cell Lung"
     },
     {
       "name": "Niraparib",
@@ -4496,7 +4522,7 @@
         "pre-malignant neoplasm",
         "schwannoma of jugular foramen"
       ],
-      "approved_indication": "Fallopian Tube Neoplasms;Peritoneal Neoplasms;Ovarian Neoplasms；Prostatic Neoplasms, Castration-Resistant"
+      "approved_indication": "Fallopian Tube Neoplasms；Peritoneal Neoplasms；Ovarian Neoplasms；Prostatic Neoplasms, Castration-Resistant"
     },
     {
       "name": "Nitisinone",
@@ -4606,7 +4632,7 @@
         "benign paroxysmal torticollis of infancy",
         "agoraphobia"
       ],
-      "approved_indication": "Schizophrenia;Bipolar Disorder"
+      "approved_indication": "Schizophrenia；Bipolar Disorder"
     },
     {
       "name": "Olopatadine",
@@ -4638,7 +4664,7 @@
         "neonatal dermatomyositis",
         "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
       ],
-      "approved_indication": "Asthma;Urticaria;Rhinitis；Asthma;Urticaria"
+      "approved_indication": "Asthma；Urticaria；Rhinitis；Asthma；Urticaria"
     },
     {
       "name": "Oritavancin",
@@ -4652,7 +4678,7 @@
         "ophthalmic herpes zoster",
         "Mycoplasma pneumoniae pneumonia"
       ],
-      "approved_indication": "Soft Tissue Infections;Skin Diseases, Bacterial"
+      "approved_indication": "Soft Tissue Infections；Skin Diseases, Bacterial"
     },
     {
       "name": "Orlistat",
@@ -4711,7 +4737,7 @@
         "parameningeal embryonal rhabdomyosarcoma",
         "botryoid-type embryonal rhabdomyosarcoma of the vagina"
       ],
-      "approved_indication": "Breast Neoplasms;Pancreatic Neoplasms;Carcinoma, Non-Small-Cell Lung；Breast Neoplasms"
+      "approved_indication": "Breast Neoplasms；Pancreatic Neoplasms；Carcinoma, Non-Small-Cell Lung；Breast Neoplasms"
     },
     {
       "name": "Palbociclib",
@@ -4746,7 +4772,7 @@
         "Charcot-Marie-Tooth disease, demyelinating, type 1G",
         "atypical glycine encephalopathy"
       ],
-      "approved_indication": "Schizophrenia;Psychotic Disorders"
+      "approved_indication": "Schizophrenia；Psychotic Disorders"
     },
     {
       "name": "Palivizumab",
@@ -4782,7 +4808,7 @@
         "atrophoderma vermiculata",
         "ulerythema ophryogenesis"
       ],
-      "approved_indication": "Vomiting;Nausea;Cancer；Vomiting;Cancer；Vomiting;Neoplasms;Nausea;Cancer"
+      "approved_indication": "Vomiting；Nausea；Cancer；Vomiting；Cancer；Vomiting；Neoplasms；Nausea；Cancer"
     },
     {
       "name": "Panitumumab",
@@ -4887,7 +4913,7 @@
         "severe nonproliferative diabetic retinopathy",
         "diabetic retinopathy"
       ],
-      "approved_indication": "Neutropenia;Febrile Neutropenia;Chemotherapy-Induced Febrile Neutropenia;Cancer；Cancer;Neutropenia;Febrile Neutropenia;Chemotherapy-Induced Febrile Neutropenia；Neutropenia;Cancer"
+      "approved_indication": "Neutropenia；Febrile Neutropenia；Chemotherapy-Induced Febrile Neutropenia；Cancer；Cancer；Neutropenia；Febrile Neutropenia；Chemotherapy-Induced Febrile Neutropenia；Neutropenia；Cancer"
     },
     {
       "name": "Peginterferon Alfa-2A",
@@ -4941,7 +4967,7 @@
         "pulmonary sulcus neoplasm",
         "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
       ],
-      "approved_indication": "Melanoma;Hodgkin Disease;Carcinoma, Renal Cell;Carcinoma, Non-Small-Cell Lung;Carcinoma, Transitional Cell;Squamous Cell Carcinoma of Head and Neck;Urologic Neoplasms;Endometrial Neoplasms"
+      "approved_indication": "Melanoma；Hodgkin Disease；Carcinoma, Renal Cell；Carcinoma, Non-Small-Cell Lung；Carcinoma, Transitional Cell；Squamous Cell Carcinoma of Head and Neck；Urologic Neoplasms；Endometrial Neoplasms"
     },
     {
       "name": "Pemetrexed",
@@ -4955,7 +4981,7 @@
         "pericardium cancer",
         "iminoglycinuria"
       ],
-      "approved_indication": "Mesothelioma;Carcinoma, Non-Small-Cell Lung；Carcinoma, Non-Small-Cell Lung;Mesothelioma"
+      "approved_indication": "Mesothelioma；Carcinoma, Non-Small-Cell Lung；Carcinoma, Non-Small-Cell Lung；Mesothelioma"
     },
     {
       "name": "Pemigatinib",
@@ -5044,7 +5070,7 @@
         "nasal cavity disease",
         "trigeminal autonomic cephalalgia"
       ],
-      "approved_indication": "Lens Implantation, Intraocular;Pain, Postoperative"
+      "approved_indication": "Lens Implantation, Intraocular；Pain, Postoperative"
     },
     {
       "name": "Pibrentasvir",
@@ -5106,7 +5132,7 @@
         "fibroblastic neoplasm",
         "low grade fibromyxoid sarcoma"
       ],
-      "approved_indication": "Idiopathic Pulmonary Fibrosis;Lung Diseases;Respiratory Tract Diseases；Idiopathic Pulmonary Fibrosis"
+      "approved_indication": "Idiopathic Pulmonary Fibrosis；Lung Diseases；Respiratory Tract Diseases；Idiopathic Pulmonary Fibrosis"
     },
     {
       "name": "Pitolisant",
@@ -5137,7 +5163,7 @@
         "vulvar melanoma (disease)",
         "myeloid leukemia"
       ],
-      "approved_indication": "Multiple Myeloma;Hematopoietic Stem Cell Transplantation;Lymphoma；Multiple Myeloma;Hematopoietic Stem Cell Transplantation"
+      "approved_indication": "Multiple Myeloma；Hematopoietic Stem Cell Transplantation；Lymphoma；Multiple Myeloma；Hematopoietic Stem Cell Transplantation"
     },
     {
       "name": "Polatuzumab Vedotin",
@@ -5162,7 +5188,7 @@
         "fibromatosis, gingival",
         "liposarcoma"
       ],
-      "approved_indication": "Leukemia, Myeloid;Leukemia, Lymphoid"
+      "approved_indication": "Leukemia, Myeloid；Leukemia, Lymphoid"
     },
     {
       "name": "Posaconazole",
@@ -5174,7 +5200,7 @@
       "predicted_indications": [
         "pneumocystosis"
       ],
-      "approved_indication": "Candidiasis;Mycoses;Coccidioidomycosis;Aspergillosis；Mycoses"
+      "approved_indication": "Candidiasis；Mycoses；Coccidioidomycosis；Aspergillosis；Mycoses"
     },
     {
       "name": "Prasterone",
@@ -5215,7 +5241,7 @@
         "brachydactyly-syndactyly syndrome",
         "leprosy"
       ],
-      "approved_indication": "Acute Coronary Syndrome;Angina, Unstable;Myocardial Infarction"
+      "approved_indication": "Acute Coronary Syndrome；Angina, Unstable；Myocardial Infarction"
     },
     {
       "name": "Pravastatin",
@@ -5249,7 +5275,7 @@
         "migraine disorder",
         "migraine with brainstem aura"
       ],
-      "approved_indication": "Anxiety Disorders;Epilepsy；Epilepsy;Anxiety Disorders;Neuralgia；Anxiety Disorders;Neuralgia;Epilepsy"
+      "approved_indication": "Anxiety Disorders；Epilepsy；Epilepsy；Anxiety Disorders；Neuralgia；Anxiety Disorders；Neuralgia；Epilepsy"
     },
     {
       "name": "Pretomanid",
@@ -5405,7 +5431,7 @@
         "senile cataract",
         "hemorrhagic disease of newborn"
       ],
-      "approved_indication": "Wet Macular Degeneration;Macular Edema;Diabetic Retinopathy;Diabetes Complications；Wet Macular Degeneration;Macular Edema;Diabetes Complications;Myopia, Degenerative;Choroidal Neovascularization；Wet Macular Degeneration;Macular Edema;Choroidal Neovascularization;Diabetes Complications；Wet Macular Degeneration;Macular Edema;Diabetic Retinopathy;Myopia, Degenerative；Wet Macular Degeneration;Macular Edema;Diabetic Retinopathy;Diabetes Complications;Retinal Vein Occlusion;Choroidal Neovascularization"
+      "approved_indication": "Wet Macular Degeneration；Macular Edema；Diabetic Retinopathy；Diabetes Complications；Wet Macular Degeneration；Macular Edema；Diabetes Complications；Myopia, Degenerative；Choroidal Neovascularization；Wet Macular Degeneration；Macular Edema；Choroidal Neovascularization；Diabetes Complications；Wet Macular Degeneration；Macular Edema；Diabetic Retinopathy；Myopia, Degenerative；Wet Macular Degeneration；Macular Edema；Diabetic Retinopathy；Diabetes Complications；Retinal Vein Occlusion；Choroidal Neovascularization"
     },
     {
       "name": "Ranolazine",
@@ -5655,7 +5681,7 @@
         "pityriasis lichenoides",
         "acute lichenoid pityriasis"
       ],
-      "approved_indication": "Psoriasis;Arthritis, Psoriatic;Colitis, Ulcerative;Crohn Disease"
+      "approved_indication": "Psoriasis；Arthritis, Psoriatic；Colitis, Ulcerative；Crohn Disease"
     },
     {
       "name": "Risdiplam",
@@ -5711,7 +5737,7 @@
         "HIV infectious disease",
         "brachydactyly-syndactyly syndrome"
       ],
-      "approved_indication": "Venous Thromboembolism;Pulmonary Embolism;Acute Coronary Syndrome;Stroke;Coronary Artery Disease;Peripheral Arterial Disease;Atrial Fibrillation；Venous Thromboembolism;Pulmonary Embolism;Venous Thrombosis;Stroke;Embolism；Acute Coronary Syndrome;Coronary Artery Disease;Peripheral Arterial Disease;Venous Thromboembolism;Stroke;Atrial Fibrillation;Pulmonary Embolism；Arthroplasty, Replacement;Venous Thromboembolism"
+      "approved_indication": "Venous Thromboembolism；Pulmonary Embolism；Acute Coronary Syndrome；Stroke；Coronary Artery Disease；Peripheral Arterial Disease；Atrial Fibrillation；Venous Thromboembolism；Pulmonary Embolism；Venous Thrombosis；Stroke；Embolism；Acute Coronary Syndrome；Coronary Artery Disease；Peripheral Arterial Disease；Venous Thromboembolism；Stroke；Atrial Fibrillation；Pulmonary Embolism；Arthroplasty, Replacement；Venous Thromboembolism"
     },
     {
       "name": "Rivastigmine",
@@ -5723,7 +5749,7 @@
       "predicted_indications": [
         "glaucoma"
       ],
-      "approved_indication": "Dementia;Alzheimer Disease;Parkinson Disease；Alzheimer Disease;Parkinson Disease;Dementia；Alzheimer Disease;Dementia;Parkinson Disease"
+      "approved_indication": "Dementia；Alzheimer Disease；Parkinson Disease；Alzheimer Disease；Parkinson Disease；Dementia；Alzheimer Disease；Dementia；Parkinson Disease"
     },
     {
       "name": "Romiplostim",
@@ -5786,7 +5812,7 @@
         "Charcot-Marie-Tooth disease, demyelinating, type 1G",
         "myopia 26, X-linked, female-limited"
       ],
-      "approved_indication": "Restless Legs Syndrome;Parkinson Disease"
+      "approved_indication": "Restless Legs Syndrome；Parkinson Disease"
     },
     {
       "name": "Roxadustat",
@@ -5801,7 +5827,7 @@
         "dentinogenesis imperfecta",
         "squamous cell carcinoma"
       ],
-      "approved_indication": "Anemia;Kidney Failure, Chronic"
+      "approved_indication": "Anemia；Kidney Failure, Chronic"
     },
     {
       "name": "Rufinamide",
@@ -5834,7 +5860,7 @@
         "hemophagocytic syndrome associated with an infection",
         "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
       ],
-      "approved_indication": "Vitiligo；Myeloproliferative Disorders;Polycythemia Vera;Graft vs Host Disease"
+      "approved_indication": "Vitiligo；Myeloproliferative Disorders；Polycythemia Vera；Graft vs Host Disease"
     },
     {
       "name": "Sacituzumab Govitecan",
@@ -5938,7 +5964,7 @@
         "migraine disorder",
         "migraine with brainstem aura"
       ],
-      "approved_indication": "Carcinoma, Non-Small-Cell Lung;Thyroid Neoplasms"
+      "approved_indication": "Carcinoma, Non-Small-Cell Lung；Thyroid Neoplasms"
     },
     {
       "name": "Selumetinib",
@@ -6067,7 +6093,7 @@
         "lung PEComa",
         "vulva sarcoma"
       ],
-      "approved_indication": "Angiofibroma;Tuberous Sclerosis；Graft Rejection;Kidney Transplantation"
+      "approved_indication": "Angiofibroma；Tuberous Sclerosis；Graft Rejection；Kidney Transplantation"
     },
     {
       "name": "Sodium Oxybate",
@@ -6124,7 +6150,7 @@
         "postural orthostatic tachycardia syndrome",
         "disorder of peroxisomal alpha-, beta- and omega-oxidation"
       ],
-      "approved_indication": "Narcolepsy;Sleep Apnea, Obstructive"
+      "approved_indication": "Narcolepsy；Sleep Apnea, Obstructive"
     },
     {
       "name": "Sorafenib",
@@ -6141,7 +6167,7 @@
         "vulva sarcoma",
         "dermatofibrosarcoma protuberans"
       ],
-      "approved_indication": "Carcinoma, Hepatocellular;Carcinoma, Renal Cell"
+      "approved_indication": "Carcinoma, Hepatocellular；Carcinoma, Renal Cell"
     },
     {
       "name": "Sotatercept",
@@ -6175,7 +6201,7 @@
         "hypotrichosis simplex of the scalp",
         "congenital hypotrichosis milia"
       ],
-      "approved_indication": "Edema;Heart Failure;Liver Cirrhosis;Ascites;Nephrotic Syndrome;Hyperaldosteronism;Essential Hypertension"
+      "approved_indication": "Edema；Heart Failure；Liver Cirrhosis；Ascites；Nephrotic Syndrome；Hyperaldosteronism；Essential Hypertension"
     },
     {
       "name": "Sunitinib",
@@ -6191,7 +6217,7 @@
         "angiolipoma",
         "heart fibrosarcoma"
       ],
-      "approved_indication": "Gastrointestinal Stromal Tumors;Carcinoma, Renal Cell;Neuroendocrine Tumors"
+      "approved_indication": "Gastrointestinal Stromal Tumors；Carcinoma, Renal Cell；Neuroendocrine Tumors"
     },
     {
       "name": "Susoctocog Alfa",
@@ -6223,7 +6249,7 @@
         "seborrheic dermatitis",
         "parapsoriasis"
       ],
-      "approved_indication": "Liver Transplantation;Kidney Transplantation；Graft Rejection；Dermatitis, Atopic"
+      "approved_indication": "Liver Transplantation；Kidney Transplantation；Graft Rejection；Dermatitis, Atopic"
     },
     {
       "name": "Tadalafil",
@@ -6339,7 +6365,7 @@
         "arbovirus infection",
         "escherichia coli infection"
       ],
-      "approved_indication": "Poxviridae Infections;Cowpox;Monkeypox;Vaccinia;Smallpox"
+      "approved_indication": "Poxviridae Infections；Cowpox；Monkeypox；Vaccinia；Smallpox"
     },
     {
       "name": "Tegafur",
@@ -6399,7 +6425,7 @@
         "benign neoplasm of hypopharynx",
         "cervical neuroblastoma"
       ],
-      "approved_indication": "Head and Neck Neoplasms;Carcinoma, Squamous Cell"
+      "approved_indication": "Head and Neck Neoplasms；Carcinoma, Squamous Cell"
     },
     {
       "name": "Temozolomide",
@@ -6425,7 +6451,7 @@
         "ovarian myxoid liposarcoma",
         "vulva sarcoma"
       ],
-      "approved_indication": "Carcinoma, Renal Cell;Lymphoma, Mantle-Cell"
+      "approved_indication": "Carcinoma, Renal Cell；Lymphoma, Mantle-Cell"
     },
     {
       "name": "Tenecteplase",
@@ -6513,7 +6539,7 @@
         "succinyl-CoA:3-ketoacid CoA transferase deficiency",
         "amenorrhea (disease)"
       ],
-      "approved_indication": "Osteoporosis;Osteoporosis, Postmenopausal；Osteoporosis"
+      "approved_indication": "Osteoporosis；Osteoporosis, Postmenopausal；Osteoporosis"
     },
     {
       "name": "Tezacaftor",
@@ -6579,7 +6605,7 @@
         "angiodysplasia",
         "venous thromboembolism"
       ],
-      "approved_indication": "Peripheral Vascular Diseases;Acute Coronary Syndrome"
+      "approved_indication": "Peripheral Vascular Diseases；Acute Coronary Syndrome"
     },
     {
       "name": "Tildrakizumab",
@@ -6675,7 +6701,7 @@
         "infection-related hemolytic uremic syndrome",
         "epidemic keratoconjunctivitis"
       ],
-      "approved_indication": "Respiratory Tract Infections;Cystic Fibrosis；Cystic Fibrosis;Respiratory Tract Infections"
+      "approved_indication": "Respiratory Tract Infections；Cystic Fibrosis；Cystic Fibrosis；Respiratory Tract Infections"
     },
     {
       "name": "Tocilizumab",
@@ -6691,7 +6717,7 @@
         "Kummell disease",
         "vertebral disease"
       ],
-      "approved_indication": "Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Cytokine Release Syndrome;Giant Cell Arteritis;COVID-19 virus infection；Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Cytokine Release Syndrome;COVID-19 virus infection；Arthritis, Rheumatoid;Cytokine Release Syndrome;Arthritis, Juvenile Rheumatoid;COVID-19 virus infection;Giant Cell Arteritis；Arthritis, Rheumatoid;COVID-19 virus infection;Arthritis, Juvenile Rheumatoid"
+      "approved_indication": "Arthritis, Rheumatoid；Arthritis, Juvenile Rheumatoid；Cytokine Release Syndrome；Giant Cell Arteritis；COVID-19 virus infection；Arthritis, Rheumatoid；Arthritis, Juvenile Rheumatoid；Cytokine Release Syndrome；COVID-19 virus infection；Arthritis, Rheumatoid；Cytokine Release Syndrome；Arthritis, Juvenile Rheumatoid；COVID-19 virus infection；Giant Cell Arteritis；Arthritis, Rheumatoid；COVID-19 virus infection；Arthritis, Juvenile Rheumatoid"
     },
     {
       "name": "Tocofersolan",
@@ -6704,7 +6730,7 @@
         "amenorrhea (disease)",
         "acne (disease)"
       ],
-      "approved_indication": "Cholestasis;Vitamin E Deficiency"
+      "approved_indication": "Cholestasis；Vitamin E Deficiency"
     },
     {
       "name": "Tolcapone",
@@ -6758,7 +6784,7 @@
         "female breast carcinoma",
         "adult germ cell tumor"
       ],
-      "approved_indication": "Uterine Cervical Neoplasms;Small Cell Lung Carcinoma；Ovarian Neoplasms;Uterine Cervical Neoplasms;Small Cell Lung Carcinoma"
+      "approved_indication": "Uterine Cervical Neoplasms；Small Cell Lung Carcinoma；Ovarian Neoplasms；Uterine Cervical Neoplasms；Small Cell Lung Carcinoma"
     },
     {
       "name": "Toremifene",
@@ -6782,7 +6808,7 @@
       "predicted_indications": [
         "female breast carcinoma"
       ],
-      "approved_indication": "Sarcoma;Ovarian Neoplasms；Ovarian Neoplasms;Sarcoma"
+      "approved_indication": "Sarcoma；Ovarian Neoplasms；Ovarian Neoplasms；Sarcoma"
     },
     {
       "name": "Trametinib",
@@ -6811,7 +6837,7 @@
         "kidney pelvis sarcomatoid transitional cell carcinoma",
         "prostatic urethra urothelial carcinoma"
       ],
-      "approved_indication": "Stomach Neoplasms;Breast Neoplasms；Breast Neoplasms;Stomach Neoplasms；Breast Neoplasms"
+      "approved_indication": "Stomach Neoplasms；Breast Neoplasms；Breast Neoplasms；Stomach Neoplasms；Breast Neoplasms"
     },
     {
       "name": "Trastuzumab Deruxtecan",
@@ -6844,7 +6870,7 @@
         "idiopathic spontaneous coronary artery dissection",
         "hemangioendothelioma"
       ],
-      "approved_indication": "Glaucoma, Open-Angle;Ocular Hypertension；Ocular Hypertension;Glaucoma, Open-Angle"
+      "approved_indication": "Glaucoma, Open-Angle；Ocular Hypertension；Ocular Hypertension；Glaucoma, Open-Angle"
     },
     {
       "name": "Treosulfan",
@@ -6988,7 +7014,7 @@
         "pityriasis lichenoides",
         "acute lichenoid pityriasis"
       ],
-      "approved_indication": "Psoriasis;Arthritis, Psoriatic;Crohn Disease;Colitis, Ulcerative；Psoriasis;Arthritis, Psoriatic;Crohn Disease；Crohn Disease；Psoriasis;Arthritis, Psoriatic;Colitis, Ulcerative;Crohn Disease；Crohn Disease;Colitis, Ulcerative;Arthritis, Psoriatic；Crohn Disease;Colitis, Ulcerative；Crohn Disease;Psoriasis;Arthritis, Psoriatic;Colitis, Ulcerative；Crohn Disease;Psoriasis;Arthritis, Psoriatic"
+      "approved_indication": "Psoriasis；Arthritis, Psoriatic；Crohn Disease；Colitis, Ulcerative；Psoriasis；Arthritis, Psoriatic；Crohn Disease；Crohn Disease；Psoriasis；Arthritis, Psoriatic；Colitis, Ulcerative；Crohn Disease；Crohn Disease；Colitis, Ulcerative；Arthritis, Psoriatic；Crohn Disease；Colitis, Ulcerative；Crohn Disease；Psoriasis；Arthritis, Psoriatic；Colitis, Ulcerative；Crohn Disease；Psoriasis；Arthritis, Psoriatic"
     },
     {
       "name": "Valsartan",
@@ -7113,7 +7139,7 @@
       "predicted_indications": [
         "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
       ],
-      "approved_indication": "Myopia, Degenerative;Macular Degeneration"
+      "approved_indication": "Myopia, Degenerative；Macular Degeneration"
     },
     {
       "name": "Vestronidase Alfa",
@@ -7291,7 +7317,7 @@
         "primary hereditary glaucoma",
         "preeclampsia"
       ],
-      "approved_indication": "Injections, Spinal;Pain"
+      "approved_indication": "Injections, Spinal；Pain"
     },
     {
       "name": "Zidovudine",

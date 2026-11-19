@@ -7,6 +7,7 @@ evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "ZICONOTIDE"
+drugbank_id: DB06283
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
 description: "Ziconotide: ennustettu uusi käyttöaihe Migreenihäiriö (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Injections, Spinal"
 ---

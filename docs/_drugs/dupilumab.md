@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: ennustettu uusi käyttöaihe Bronkiitti (bronchitis) (näytön taso L5). Alkuperäinen käyttöaihe: Dermatitis, Atopic"

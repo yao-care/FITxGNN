@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: ennustettu uusi käyttöaihe Liposarkooma (liposarcoma) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Hepatocellular"

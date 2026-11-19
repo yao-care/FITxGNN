@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: ennustettu uusi käyttöaihe Liposarkooma (liposarcoma) (näytön taso L5). Alkuperäinen käyttöaihe: Angiofibroma"

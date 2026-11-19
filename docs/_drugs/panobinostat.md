@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
 description: "Panobinostat: ennustettu uusi käyttöaihe Myeloinen leukemia (myeloid leukemia) (näytön taso L2). Alkuperäinen käyttöaihe: Multiple Myeloma"

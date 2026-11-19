@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 309
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Norethisterone: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 monitor_inn: "Norethisterone"
 predicted_indications: []

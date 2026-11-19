@@ -3,7 +3,7 @@ layout: default
 title: Tazobactam
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 420
-last_modified_at: 2026-11-03
+last_modified_at: 2026-10-30
 description: "Tazobactam: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0

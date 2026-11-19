@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "Imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: ennustettu uusi käyttöaihe Diffuusi skleroderma (diffuse scleroderma) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"

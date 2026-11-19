@@ -5,7 +5,7 @@ layout: default
 title: Abemaciclib
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 14
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-07
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A

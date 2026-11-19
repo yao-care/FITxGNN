@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RAMUCIRUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
 description: "Ramucirumab: ennustettu uusi käyttöaihe Kohdun ligamentin adenokarsinooma (uterine ligament adenocarcinoma) (näytön taso L5). Alkuperäinen käyttöaihe: Stomach Neoplasms"

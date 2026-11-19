@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-18T18:27:44.206778+00:00",
+  "fetched_at": "2026-11-19T00:48:03.039122+00:00",
   "source": "Google News Health RSS",
-  "count": 43,
+  "count": 44,
   "articles": [
     {
       "id": "74a598b8134d",
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "98609b45feef",
-      "title": "Naiset vaativat lisää tätä lääkettä – Miksi sitä ei saa? - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZnN6TFdSZXc3WWw3OXRxaG1ROUZvUnBqTjBlMzNON29zcVpJY0dSMFZ5SVFxOFRZcXNzb2d5UVVoSUh6VVNjVFZBeDdKNWo0aUVHVmJQM0c0SC11cTJpSExib0tCekZ6VVF5WXZnSU92TWZBWnZ1ZXdXQWNjWU9jRkxUWEVfUEJKS2VHbEJwUQ?oc=5",
-      "published": "2026-11-15T19:05:22+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "80f079e4dba9",
       "title": "Suomeen perustetaan kliinisten lääke- ja laitetutkimusten toimintamalli FinTrials - Sitra",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1RaN3o3WjNYMWdqSDlUWjVwLUVaaHd3WUJsTnd5Sm0tdE5BQ2FxZzh3MmxIdGhBbDhhanNHSUVfUndLTk5GMDF2eUt3OUNtU09wMzZZb3N5Qm84LWp5ZzFMQ2JkUmJmZEljcHkwckszOGw3MzFxRHVHU3RiajZvbWtTS2t2Qmo3MlM5RkpqbnJpSFVnX2Fza3Z4YW8xUXpfZlNucUtOZ0VmYkZFbjc0?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "Sitra",
         "url": "https://www.sitra.fi"
+      }
+    },
+    {
+      "id": "07256e16a9cd",
+      "title": "Älä koskaan syö karkkia, jos sinulla on nämä lääkkeet - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbE40X1BtdVIzTnNtZC02UTNpZzRqbFprQzZZc1VERjd1dE9TczBqa000YXd4SlJjOUY5ZElPNjFURkRWNDVHU0lPMTR1R01XOVRzSnZjV1lUN1ZLTVlSNzB4blpHSnlVOXlySnV4ak5Bc0JZZnBnWmF5Y1FwSlpxbi12MWk?oc=5",
+      "published": "2026-10-08T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -84,13 +84,23 @@
       }
     },
     {
-      "id": "07256e16a9cd",
-      "title": "Älä koskaan syö karkkia, jos sinulla on nämä lääkkeet - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbE40X1BtdVIzTnNtZC02UTNpZzRqbFprQzZZc1VERjd1dE9TczBqa000YXd4SlJjOUY5ZElPNjFURkRWNDVHU0lPMTR1R01XOVRzSnZjV1lUN1ZLTVlSNzB4blpHSnlVOXlySnV4ak5Bc0JZZnBnWmF5Y1FwSlpxbi12MWk?oc=5",
-      "published": "2026-10-08T07:00:00+00:00",
+      "id": "98609b45feef",
+      "title": "Naiset vaativat lisää tätä lääkettä – Miksi sitä ei saa? - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZnN6TFdSZXc3WWw3OXRxaG1ROUZvUnBqTjBlMzNON29zcVpJY0dSMFZ5SVFxOFRZcXNzb2d5UVVoSUh6VVNjVFZBeDdKNWo0aUVHVmJQM0c0SC11cTJpSExib0tCekZ6VVF5WXZnSU92TWZBWnZ1ZXdXQWNjWU9jRkxUWEVfUEJKS2VHbEJwUQ?oc=5",
+      "published": "2026-11-15T19:05:22+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "6c0007337a67",
+      "title": "Uudet tiedot lihavuuslääkkeistä: tyypillinen virhe lääkkeen käytössä voi johtaa siihen, että lääke menettää tehonsa - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAzazhjLVJrMWlfcGFZTG5WN2s2aW1jZFlSZVpXc1lFcWFNUHA5VGRSR2l6amRycjBmeXItc25qeVJRdw?oc=5",
+      "published": "2026-06-08T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -114,40 +124,10 @@
       }
     },
     {
-      "id": "ba2b88693bc5",
-      "title": "Väitöstutkimus: Vältettäväksi luokiteltujen lääkkeiden käyttö on iäkkäillä yleistä - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0tamQwd2VKdF9lY0JWU2V0M3dPN0ZLczk4Sm52cXJvbExUMjZxQ2VsVmVkNW90V2FwZ3RhQUgzWndMUQ?oc=5",
-      "published": "2025-03-12T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "908b4cf14ccc",
       "title": "Naiskeho, mieslääkkeet - Helsinki.fi",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sal83eUcxREU3b281RFhiXzY2TWNoZHYyX1JqTjVDbnFRR3J2Y3lOX0FvSFVJT3BZZW5kOHBhR2w4VW1hanFMSmV2LVNVTWRHNTlzRWlrSVhtSktfZEVaQjl3MXJNdGtzZ3h1OVFNWnl6RGVjZE9od3d6dzE?oc=5",
       "published": "2025-04-28T07:00:00+00:00",
-      "source": {
-        "name": "Helsinki.fi",
-        "url": "https://www.helsinki.fi"
-      }
-    },
-    {
-      "id": "6b6ff09594e3",
-      "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
-      "published": "2025-02-28T08:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "48b50add51c2",
-      "title": "Biologisten lääkkeiden lääkevaihto apteekissa edellyttää ennakoivaa riskien hallintaa - Helsinki.fi",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWHNXajNpcmtLODBuQ2g5OFBNQlYySWVoUWdoLWJ0cjZWQm1iREo3NUNkOGNNdDNNMkROR18xc0k3ODFWdFI1bUVyTDl4dUY4S25ScU9qUHhoMHJqN3ZyZl92OHB5UE9QVjJlN0lqd1VwM1RheThXNzZfQnl2dkxldEhQMktScUtMS3JTZC1oWFNHdVhPYTRCd1E1TWxvUl8tcmlIWFZsOV9JWVUzR0NKN0pJdXV2WVpXZmE2VU1DRUwyOXVqbHV4WnVlSVBmZw?oc=5",
-      "published": "2023-02-14T08:00:00+00:00",
       "source": {
         "name": "Helsinki.fi",
         "url": "https://www.helsinki.fi"
@@ -164,6 +144,16 @@
       }
     },
     {
+      "id": "6b6ff09594e3",
+      "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
+      "published": "2025-02-28T08:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
       "id": "ba1f809fcd68",
       "title": "Tuttu lääke voi hillitä myös alkoholin käyttöä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rT3pjRFBQZlJRaXBjZ2o4ZzF6em5QWlNhMlNHNXFJSXpWMzdKdGpmZzJxUWV4emt2NFJ1bWZzQ0tsWjV3Qmp4N2Y1NDA1MVhGbHJiVC1qQjNqQWhO?oc=5",
@@ -171,6 +161,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "ba2b88693bc5",
+      "title": "Väitöstutkimus: Vältettäväksi luokiteltujen lääkkeiden käyttö on iäkkäillä yleistä - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0tamQwd2VKdF9lY0JWU2V0M3dPN0ZLczk4Sm52cXJvbExUMjZxQ2VsVmVkNW90V2FwZ3RhQUgzWndMUQ?oc=5",
+      "published": "2025-03-12T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -194,6 +194,16 @@
       }
     },
     {
+      "id": "48b50add51c2",
+      "title": "Biologisten lääkkeiden lääkevaihto apteekissa edellyttää ennakoivaa riskien hallintaa - Helsinki.fi",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWHNXajNpcmtLODBuQ2g5OFBNQlYySWVoUWdoLWJ0cjZWQm1iREo3NUNkOGNNdDNNMkROR18xc0k3ODFWdFI1bUVyTDl4dUY4S25ScU9qUHhoMHJqN3ZyZl92OHB5UE9QVjJlN0lqd1VwM1RheThXNzZfQnl2dkxldEhQMktScUtMS3JTZC1oWFNHdVhPYTRCd1E1TWxvUl8tcmlIWFZsOV9JWVUzR0NKN0pJdXV2WVpXZmE2VU1DRUwyOXVqbHV4WnVlSVBmZw?oc=5",
+      "published": "2023-02-14T08:00:00+00:00",
+      "source": {
+        "name": "Helsinki.fi",
+        "url": "https://www.helsinki.fi"
+      }
+    },
+    {
       "id": "bc10383a5bc0",
       "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
@@ -211,6 +221,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "e841e4d52a66",
+      "title": "Statiineilla järkyttävästi haittavaikutuksia – Mitä se tarkoittaa oikeasti? - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqdDhCbmktYzhWVEhQYkw4bExPSzZ3WU9Dd29ZVW10ZFJRNHVKaXdwcnRTaUJCQVJMQ1NaallTX3lzV3IwRTJMR3pLTkV0RndGMnV5dHN3ZnRveDB1dUdpMTNSQVVEcXRIeHNiUFhXV2Y1bE9NVmlpWA?oc=5",
+      "published": "2026-02-06T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -334,16 +354,6 @@
       }
     },
     {
-      "id": "4240ada779ac",
-      "title": "Haiseeko hengityksesi pahalta? Tarkista, käytätkö jotakin näistä yleisistä lääkkeistä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NTndGWkNVZXRkWllHbk84ZHpuaDdzWmRZc2lhSDlhMTNHRVlXMFJHWVl4YkdsQzE1NE5SaExpb20tZVpiXzRPOElsVW5ST0J5Q3plTmdqMWVSV2Zi?oc=5",
-      "published": "2025-10-19T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "001869b5d400",
       "title": "Lääkkeiden yhteisvaikutus aiheuttaa ongelmia - Yle",
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5FTGlHTU4ta3l0cklmMmI3dWxzUWdMbVJ0d21Dd2ZiOXQ3Y0EtUUU2YnVxVTFxTVZ1QjBZWUVyaw?oc=5",
@@ -404,16 +414,6 @@
       }
     },
     {
-      "id": "7287d9fce3c2",
-      "title": "Suosittu kolesterolilääke on myyty loppuun – Tästä on kyse - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kakQ2cWQ0endjbGc5cDZpQm0yQmtueWEtczc1aThtcmcyeUpQanF0dmZWeDIwb1VWcDY0dTY5ZTloNWp4eXNxdDNiazlJc1JxTUFTN0VMQnh0NHlCUF90M3pfMHpyVG9yd3BPR3NLR2EwcEI3UEVQOQ?oc=5",
-      "published": "2024-09-26T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "220d375946aa",
       "title": "Näiden lääkkeiden kanssa alkoholi ei sovi: ”Tällä cocktaililla aika moni on poistunut keskuudestamme” - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wdTR0dWZQZXNWLTRUaTN0M18xUDN1c2F0M2U4bEY2bFcxcUtOdERrV1NYcmowWDBHR3ZDRk9IQXpzNUxSTVZKVS1MeFlFbHJqT3AtX1RRYlh1blct?oc=5",
@@ -421,6 +421,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "7287d9fce3c2",
+      "title": "Suosittu kolesterolilääke on myyty loppuun – Tästä on kyse - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kakQ2cWQ0endjbGc5cDZpQm0yQmtueWEtczc1aThtcmcyeUpQanF0dmZWeDIwb1VWcDY0dTY5ZTloNWp4eXNxdDNiazlJc1JxTUFTN0VMQnh0NHlCUF90M3pfMHpyVG9yd3BPR3NLR2EwcEI3UEVQOQ?oc=5",
+      "published": "2024-09-26T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {

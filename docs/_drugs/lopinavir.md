@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Lopinavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Lopinavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) (näytön taso L4). Keskitetyt EU-myyntiluvat (EMA): 2 (voimassa: 2)"
 ---
 
 # Lopinavir

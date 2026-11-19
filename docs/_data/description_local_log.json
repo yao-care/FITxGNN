@@ -1,0 +1,235 @@
+{
+  "_note": "藥物頁 front matter description 句尾「原適應症：本地資料未記載」換成本站許可證快照事實層品項數的紀錄（母目錄 .claude/drug_meta_description.py --apply，2026-11-19 起）。pages＝目前產生的句尾（tail）與被換掉的原字樣（original）；entries＝每次改動的前後整行（from／to，可還原：把第一筆的 from 寫回該頁 description）。",
+  "pages": {
+    "acetylsalicylic_acid": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 3 (voimassa: 3)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "avibactam": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 2 (voimassa: 2)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "cilastatin": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "cytarabine": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "gimeracil": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "grazoprevir": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "imipenem": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "lidocaine": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "lopinavir": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 2 (voimassa: 2)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "meropenem": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "metformin": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 19 (voimassa: 19)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "norelgestromin": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "oteracil": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "pravastatin": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "salmeterol": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "tegafur": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "tipiracil": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "valsartan": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 9 (voimassa: 9)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    },
+    "voxilaprevir": {
+      "tail": "Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)",
+      "original": "Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin",
+      "date": "2026-11-19"
+    }
+  },
+  "entries": [
+    {
+      "page": "docs/_drugs/acetylsalicylic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Acetylsalicylic Acid: ennustettu uusi käyttöaihe Matomainen ihoatrofia (atrophoderma vermiculata) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Acetylsalicylic Acid: ennustettu uusi käyttöaihe Matomainen ihoatrofia (atrophoderma vermiculata) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 3 (voimassa: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/avibactam.md",
+      "date": "2026-11-19",
+      "from": "\"Avibactam: ennustettu uusi käyttöaihe Uretertuberkuloosi (ureter tuberculosis) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Avibactam: ennustettu uusi käyttöaihe Uretertuberkuloosi (ureter tuberculosis) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 2 (voimassa: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cilastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Cilastatin: ennustettu uusi käyttöaihe Staphylococcus aureus -infektio (staphylococcus aureus infection) (näytön taso L3). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Cilastatin: ennustettu uusi käyttöaihe Staphylococcus aureus -infektio (staphylococcus aureus infection) (näytön taso L3). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cytarabine.md",
+      "date": "2026-11-19",
+      "from": "\"Cytarabine: ennustettu uusi käyttöaihe Pienisoluinen keuhkosyöpä (small cell lung carcinoma) (näytön taso L3). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Cytarabine: ennustettu uusi käyttöaihe Pienisoluinen keuhkosyöpä (small cell lung carcinoma) (näytön taso L3). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/gimeracil.md",
+      "date": "2026-11-19",
+      "from": "\"Gimeracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Gimeracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/grazoprevir.md",
+      "date": "2026-11-19",
+      "from": "\"Grazoprevir: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L1). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Grazoprevir: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L1). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/imipenem.md",
+      "date": "2026-11-19",
+      "from": "\"Imipenem: ennustettu uusi käyttöaihe Diffuusi skleroderma (diffuse scleroderma) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Imipenem: ennustettu uusi käyttöaihe Diffuusi skleroderma (diffuse scleroderma) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lidocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Lidocaine: ennustettu uusi käyttöaihe Punctate epithelial keratoconjunctivitis (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Lidocaine: ennustettu uusi käyttöaihe Punctate epithelial keratoconjunctivitis (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lopinavir.md",
+      "date": "2026-11-19",
+      "from": "\"Lopinavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Lopinavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) (näytön taso L4). Keskitetyt EU-myyntiluvat (EMA): 2 (voimassa: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/meropenem.md",
+      "date": "2026-11-19",
+      "from": "\"Meropenem: ennustettu uusi käyttöaihe Bakteeriperäinen niveltulehdus (bacterial arthritis) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Meropenem: ennustettu uusi käyttöaihe Bakteeriperäinen niveltulehdus (bacterial arthritis) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metformin.md",
+      "date": "2026-11-19",
+      "from": "\"Metformin: ennustettu uusi käyttöaihe Fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Metformin: ennustettu uusi käyttöaihe Fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 19 (voimassa: 19)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/norelgestromin.md",
+      "date": "2026-11-19",
+      "from": "\"Norelgestromin: ennustettu uusi käyttöaihe Amenorrea (amenorrhea (disease)) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Norelgestromin: ennustettu uusi käyttöaihe Amenorrea (amenorrhea (disease)) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oteracil.md",
+      "date": "2026-11-19",
+      "from": "\"Oteracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Oteracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pravastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Pravastatin: ennustettu uusi käyttöaihe HIV infectious disease (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Pravastatin: ennustettu uusi käyttöaihe HIV infectious disease (näytön taso L4). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salmeterol.md",
+      "date": "2026-11-19",
+      "from": "\"Salmeterol: ennustettu uusi käyttöaihe Respiratory malformation (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Salmeterol: ennustettu uusi käyttöaihe Respiratory malformation (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tegafur.md",
+      "date": "2026-11-19",
+      "from": "\"Tegafur: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Tegafur: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tipiracil.md",
+      "date": "2026-11-19",
+      "from": "\"Tipiracil: ennustettu uusi käyttöaihe Umpisuolen villoosi adenooma (cecum villous adenoma) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Tipiracil: ennustettu uusi käyttöaihe Umpisuolen villoosi adenooma (cecum villous adenoma) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/valsartan.md",
+      "date": "2026-11-19",
+      "from": "\"Valsartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Valsartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L4). Keskitetyt EU-myyntiluvat (EMA): 9 (voimassa: 9)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/voxilaprevir.md",
+      "date": "2026-11-19",
+      "from": "\"Voxilaprevir: ennustettu uusi käyttöaihe Hepatitis B virus infection (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin\"",
+      "to": "\"Voxilaprevir: ennustettu uusi käyttöaihe Hepatitis B virus infection (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    }
+  ]
+}

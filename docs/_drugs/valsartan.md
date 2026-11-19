@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-description: "Valsartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Valsartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L4). Keskitetyt EU-myyntiluvat (EMA): 9 (voimassa: 9)"
 ---
 
 # Valsartan

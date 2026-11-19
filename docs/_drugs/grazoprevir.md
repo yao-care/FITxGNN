@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "GRAZOPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Grazoprevir: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L1). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Grazoprevir: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L1). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)"
 ---
 
 # Grazoprevir

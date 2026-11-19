@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
-description: "Pravastatin: ennustettu uusi käyttöaihe HIV infectious disease (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Pravastatin: ennustettu uusi käyttöaihe HIV infectious disease (näytön taso L4). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)"
 ---
 
 # Pravastatin

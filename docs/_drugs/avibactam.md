@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "AVIBACTAM"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
 last_modified_at: 2026-10-28
-description: "Avibactam: ennustettu uusi käyttöaihe Uretertuberkuloosi (ureter tuberculosis) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Avibactam: ennustettu uusi käyttöaihe Uretertuberkuloosi (ureter tuberculosis) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 2 (voimassa: 2)"
 ---
 
 # Avibactam

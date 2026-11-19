@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "GIMERACIL"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
-description: "Gimeracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Gimeracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)"
 ---
 
 # Gimeracil

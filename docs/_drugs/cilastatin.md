@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 last_modified_at: 2026-11-04
-description: "Cilastatin: ennustettu uusi käyttöaihe Staphylococcus aureus -infektio (staphylococcus aureus infection) (näytön taso L3). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Cilastatin: ennustettu uusi käyttöaihe Staphylococcus aureus -infektio (staphylococcus aureus infection) (näytön taso L3). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)"
 ---
 
 # Cilastatin

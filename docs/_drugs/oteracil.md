@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "OTERACIL"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
-description: "Oteracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Oteracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)"
 ---
 
 # Oteracil

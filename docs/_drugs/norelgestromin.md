@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "NORELGESTROMIN"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Norelgestromin: ennustettu uusi käyttöaihe Amenorrea (amenorrhea (disease)) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Norelgestromin: ennustettu uusi käyttöaihe Amenorrea (amenorrhea (disease)) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)"
 ---
 
 # Norelgestromin

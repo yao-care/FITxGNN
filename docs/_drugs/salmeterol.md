@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: ennustettu uusi käyttöaihe Respiratory malformation (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
+description: "Salmeterol: ennustettu uusi käyttöaihe Respiratory malformation (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)"
 ---
 
 # Salmeterol

@@ -14,6 +14,23 @@ Tekoälyennusteesta näytön luokitteluun — jokaisen ehdokkaan arviolla on jä
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Suomi: miten menetelmää käytetään tällä sivustolla
+
+Paikalliset tiedot: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx). Paikalliset tiedot ovat EMA:n Medicines report -tiedoston keskitettyjä EU-myyntilupia, jotka ovat voimassa myös Suomessa. Fimean kansallisia myyntilupia ei ole näissä tiedoissa.
+
+| Taso | Raportit | …joilla voimassa olevaa paikallinen merkintä |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+Tarkistuslokissa on **{{ site.data.local_facts.reviews.records }}** merkintää **{{ site.data.local_facts.reviews.public_pages_with_records }}** lääkesivulla; korjaukset muuttavat vain lupatietoja, eivät koskaan mallin ennusteita.
+
+<!-- local-facts:end -->
+
 ## Kokonaisprosessi
 
 <p class="key-answer" data-question="Miten FITxGNN tuottaa ennusteensa?">

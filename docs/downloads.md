@@ -14,27 +14,23 @@ Ennusteet julkaistaan FHIR R4 -muodossa, valmiina integroitaviksi potilastietoj�
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Suomi: sivuston tiedot
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Suomi: mitä tiedostot nyt sisältävät
 
-Sivustolla on julkaistu raportit **{{ site.data.drug_stats.total_drugs }}** lääkkeestä, joilla on EU:n keskitetty myyntilupa ([EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx), voimassa myös Suomessa).
+| Tiedosto | Sisältö nyt |
+|---|---|
+| `/data/search-index.json` | {{ site.data.local_facts.files.search_index }} lääkettä ennustettuine käyttöaiheineen |
+| `/data/drugs.json` | {{ site.data.local_facts.files.drugs_json }} lääkettä näytön tason ja alkuperäisen käyttöaiheen kanssa |
+| `/fhir/MedicationKnowledge/` | {{ site.data.local_facts.fhir.medication_knowledge }} MedicationKnowledge-resurssia (yksi lääkettä kohden) |
+| `/fhir/ClinicalUseDefinition/` | {{ site.data.local_facts.fhir.clinical_use_definition }} ClinicalUseDefinition-resurssia (yksi ennustettua käyttöaihetta kohden) |
 
-Aineisto: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); se ladataan ja verrataan automaattisesti joka viikko (maanantaisin). Lisätietoja: [Tietolähteet]({{ '/sources/' | relative_url }}).
+Paikallisen aineiston uudelleenkäyttö: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx), julkaisija Euroopan lääkevirasto (EMA); uudelleenkäyttöön sovelletaan julkaisijan ehtoja, eikä tämä sivusto myönnä lisäoikeuksia.
 
-Raportit näytön tason mukaan:
+{% if site.data.local_facts.top_licensed.size > 0 %}Lääkkeet, joilla on eniten voimassa olevaa keskitettyä EU-myyntilupaa (EMA): {% for r in site.data.local_facts.top_licensed limit: 5 offset: 3 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.lv }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Näytön taso | Raportit | Osuus |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Tarkistuslokin viimeisimmät korjaukset: {% for r in site.data.local_facts.recent_reviews limit: 8 offset: 16 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-Sivuston 4 ennustettua lääke–sairaus-paria ei esiinny millään muulla 30 TxGNN-sivustosta.
-
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## FHIR-resurssit
 

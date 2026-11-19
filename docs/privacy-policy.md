@@ -48,11 +48,32 @@ lääkkeen nimi ja käyttöaihe lähetetään ClinicalTrials.gov-palveluun.
 
 ---
 
-## Rekisteröidyn oikeudet
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Sovellettava laki
 
-Sivustolla ei ole käyttäjätilejä, eikä se tallenna henkilötietoja omille palvelimille (niitä ei ole). Käyttötilastot
-kerää Google Analytics 4; voit estää tai poistaa sen evästeet selaimesi asetuksista.
-Tätä selostetta koskevissa kysymyksissä ota yhteyttä osoitteeseen service@yao.care.
+Suomessa sovelletaan [EU:n yleistä tietosuoja-asetusta](https://eur-lex.europa.eu/eli/reg/2016/679/oj) ja sitä täydentävää [tietosuojalakia (1050/2018)](https://finlex.fi/fi/lainsaadanto/2018/1050); evästeisiin sovelletaan lisäksi sähköisen viestinnän palveluista annettua lakia. Valvova viranomainen on [tietosuojavaltuutetun toimisto](https://tietosuoja.fi/). Ylläpitäjä toimii Taiwanissa eikä sillä ole toimipaikkaa EU:ssa; käsittely koskee Google Analytics 4:n evästeillä keräämiä käyttötietoja.
+
+## Oikeutesi ja niiden käyttäminen
+
+- Oikeus saada pääsy tietoihin (15 artikla) ja oikaista ne (16 artikla).
+- Oikeus tietojen poistamiseen (17 artikla) ja käsittelyn rajoittamiseen (18 artikla).
+- Vastustamisoikeus (21 artikla), myös analytiikan osalta.
+- Oikeus tehdä valitus tietosuojavaltuutetulle (77 artikla).
+
+Pyynnöt ja kysymykset: service@yao.care. Koska sivustolla ei ole tilejä, voimme käsitellä Google Analyticsin tietoja vain, jos annat riittävät tiedot (esim. käynnin päivän ja sivut); voit myös estää tai poistaa analytiikkaevästeet selaimessasi.
+
+## Tekijänoikeus ja tietolähteet
+
+Sivuston tekstit on suojattu [tekijänoikeuslailla (404/1961)](https://finlex.fi/fi/lainsaadanto/1961/404). Sivuston koodi on julkaistu MIT-lisenssillä [GitHub-repositoriossa](https://github.com/yao-care/FITxGNN); raporttien tekstit © 藥提醒科技有限公司 (yao.care).
+
+Sivuston tietolähteet ja niiden ehdot:
+
+- **TxGNN**-ennustedata (Harvard Dataverse): CC0 1.0 (luovutettu vapaaseen käyttöön); viittaa julkaisuun Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov** ja **PubMed**: Yhdysvaltain National Library of Medicine; katso [ClinicalTrials.gov:n ehdot](https://clinicaltrials.gov/about-site/terms-conditions) ja [NCBI:n käytännöt](https://www.ncbi.nlm.nih.gov/home/about/policies/) (osa PubMedin tiivistelmistä on kustantajan tekijänoikeuden alaisia).
+- **DrugBank**-tunnisteet ja -tiedot: [DrugBankin](https://go.drugbank.com/) lisenssiehtojen mukaan (ei-kaupallinen käyttö).
+- **Paikallinen aineisto**: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx), julkaisija Euroopan lääkevirasto (EMA); uudelleenkäyttöön sovelletaan julkaisijan ehtoja, eikä tämä sivusto myönnä lisäoikeuksia.
+
+<!-- privacy-law:end -->
 
 ---
 

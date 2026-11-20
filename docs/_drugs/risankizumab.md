@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 380
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Risankizumab: ennustettu uusi käyttöaihe Dermatiitti (dermatitis) (näytön taso L2). Alkuperäinen käyttöaihe: Psoriasis"

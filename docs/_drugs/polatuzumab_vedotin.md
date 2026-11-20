@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "POLATUZUMAB VEDOTIN"
 predicted_indications: ["HER2 positive breast carcinoma"]
 description: "Polatuzumab Vedotin: ennustettu uusi käyttöaihe HER2 positive breast carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Lymphoma, B-Cell"

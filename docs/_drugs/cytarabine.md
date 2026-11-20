@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 description: "Cytarabine: ennustettu uusi käyttöaihe Pienisoluinen keuhkosyöpä (small cell lung carcinoma) (näytön taso L3). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)"
 ---
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
 description: "Safinamide: ennustettu uusi käyttöaihe Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis) (näytön taso L5). Alkuperäinen käyttöaihe: Parkinson Disease"

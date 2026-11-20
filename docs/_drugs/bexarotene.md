@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BEXAROTENE"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Bexarotene: ennustettu uusi käyttöaihe Primaarinen ihon B-solulymfooma (primary cutaneous B-cell lymphoma) (näytön taso L5). Alkuperäinen käyttöaihe: Lymphoma, T-Cell, Cutaneous"
 ---
 

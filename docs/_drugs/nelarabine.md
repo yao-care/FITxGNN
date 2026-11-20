@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
 description: "Nelarabine: ennustettu uusi käyttöaihe Relapsing-remitting multiple sclerosis (näytön taso L5). Alkuperäinen käyttöaihe: Precursor T-Cell Lymphoblastic Leukemia-Lymphoma"

@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 407
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: ennustettu uusi käyttöaihe Hepatitis B virus infection (näytön taso L2). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"

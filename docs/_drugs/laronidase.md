@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: ennustettu uusi käyttöaihe Sanfilippo syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Mucopolysaccharidosis I"

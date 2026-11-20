@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB14723
 monitor_inn: "Larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Larotrectinib Sulfate: ennustettu uusi käyttöaihe Multippeli endokriininen neoplasia (multiple endocrine neoplasia) (näytön taso L5). Alkuperäinen käyttöaihe: Abdominal Neoplasms"
 ---
 

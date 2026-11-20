@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "remimazolam"
 drugbank_id: DB12404
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]

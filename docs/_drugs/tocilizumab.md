@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 442
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: ennustettu uusi käyttöaihe Selkärankareuma (ankylosing spondylitis) (näytön taso L2). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"

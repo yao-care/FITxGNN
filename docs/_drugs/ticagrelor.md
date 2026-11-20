@@ -62,7 +62,7 @@ Huomio päätöksestä: pelkkä pistemäärä ja käynnissä oleva vaiheen 3 tut
 
 ## Miksi ennuste on järkevä?
 
-Yksityiskohtaista vaikutusmekanismitietoa (MOA) ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tiedossa olevan perusteella tikagrelori on P2Y12-reseptorin estäjä, jonka teho akuutissa sepelvaltimo-oireyhtymässä ja perifeerisissä verisuonisairauksissa on osoitettu, ja mekanistisesti se voi soveltua myös kallonsisäiseen valtimokovettumatautiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ticagrelor (epävirallinen käännös): ”Tikagrelori ja sen päämetaboliitti vaikuttavat palautuvasti verihiutaleiden P2Y 12 ADP-reseptoriin estäen signaalinvälityksen ja verihiutaleiden aktivaation. Tikagrelori ja sen aktiivinen metaboliitti ovat suunnilleen yhtä tehokkaita.” Englanninkielinen alkuteksti: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), versio 2026-05-07; haettu 2026-11-19). Tiedossa olevan perusteella tikagrelori on P2Y12-reseptorin estäjä, jonka teho akuutissa sepelvaltimo-oireyhtymässä ja perifeerisissä verisuonisairauksissa on osoitettu, ja mekanistisesti se voi soveltua myös kallonsisäiseen valtimokovettumatautiin.
 
 P2Y12-eston arvioidaan vähentävän verihiutaleiden aggregaatiota ja trombin muodostumista kallonsisäisten ateroskleroottisten plakkien kohdalla, mikä on olennaista aivohalvauksen ehkäisyssä. Tikagrelori vaikuttaa suoraan ja palautuvasti, eikä sen teho riipu CYP2C19-entsyymin aktivaatiosta kuten klopidogreelin. Tämä on merkityksellistä potilailla, joilla on CYP2C19-toimintaa heikentävä geenimuunnos.
 
@@ -143,12 +143,13 @@ Muista ennusteista vahvin näyttö on käyttöaiheella **iskeeminen sairaus (isc
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”almisteen myyntilupa Suomessa on peruutettu, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->
 

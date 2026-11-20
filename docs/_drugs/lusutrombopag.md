@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **perinnölliseen trombosytopeniaan, joss
 
 ## Miksi ennuste on perusteltu?
 
-Lusutrombopagi on TPO-R-agonisti, joka kiihdyttää megakaryosyyttien lisääntymistä ja verihiutaleiden tuotantoa. Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun lääkeluokan perusteella TPO-R-agonismi voisi periaatteessa nostaa verihiutaleiden määrää myös perinnöllisissä trombosytopenioissa, joissa verihiutaleiden toiminta on säilynyt.
+Lusutrombopagi on TPO-R-agonisti, joka kiihdyttää megakaryosyyttien lisääntymistä ja verihiutaleiden tuotantoa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lusutrombopag (epävirallinen käännös): ”Lusutrombopagi on suun kautta biologisesti hyödynnettävä pienimolekyylinen TPO-reseptoriagonisti, joka vaikuttaa megakaryosyyteissä ilmentyvien ihmisen TPO-reseptorien transmembraaniseen domeeniin ja indusoi megakaryosyyttien esiastesolujen proliferaatiota ja erilaistumista hematopoieettisista kantasoluista sekä megakaryosyyttien kypsymistä.” Englanninkielinen alkuteksti: "Lusutrombopag is an orally bioavailable, small molecule TPO receptor agonist that interacts with the transmembrane domain of human TPO receptors expressed on megakaryocytes to induce the proliferation and differentiation of megakaryocytic progenitor cells from hematopoietic stem cells and megakaryocyte maturation." ([DailyMed: Mulpleta (lusutrombopag) prescribing information, VANCOCIN ITALIA SRL](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a390aec3-6e77-45f8-95d3-d4b8c2eeee40), versio 2025-12-09; haettu 2026-11-19). Tunnetun lääkeluokan perusteella TPO-R-agonismi voisi periaatteessa nostaa verihiutaleiden määrää myös perinnöllisissä trombosytopenioissa, joissa verihiutaleiden toiminta on säilynyt.
 
 Perinnöllisten trombosytopenioiden taustalla oleva geneettinen vika vaihtelee, eikä vastetta TPO-R-agonistille voida olettaa kaikissa tapauksissa. Ennusteen korkea pistemäärä johtuu todennäköisesti siitä, että kohdesairaus sijaitsee tietämysgraafissa lähellä hyväksyttyä trombosytopenian käyttöaihetta. Se ei yksinään ole biologinen todiste tehosta.
 
@@ -118,6 +118,19 @@ Varoituksia ja vasta-aiheita koskevia tietoja ei ole saatavilla. Katso ne valmis
 - Kirjallisuushaku TPO-R-agonistien käytöstä perinnöllisissä trombosytopenioissa
 - Selvitys valmisteen peruutuksen syystä ja saatavuudesta Suomessa
 - Perinnöllisen trombosytopenian alatyyppien ja geneettisten vikojen kartoitus, jotta TPO-R-agonistille vastaavat potilaat voidaan tunnistaa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Mulpleta (lusutrombopag) prescribing information, VANCOCIN ITALIA SRL](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a390aec3-6e77-45f8-95d3-d4b8c2eeee40) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **HER2-positiiviseen rintasyöpään**, m
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin laatimiseksi koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että polatutsumabivedotiini on vasta-aine-lääkekonjugaatti, joka kohdistuu CD79b:hen (B-solureseptorin osa) ja vie solun sisään mikrotubuluksia häiritsevää MMAE-yhdistettä (monometyyliauristatiini E).
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Polatuzumab Vedotin (epävirallinen käännös): ”Polatutsumabivedotiini-piiq on CD79b:hen kohdistuva vasta-ainelääkekonjugaatti, joka vaikuttaa jakautuviin B-soluihin. Pienimolekyylinen MMAE on antimitoottinen aine, joka on kiinnittynyt vasta-aineeseen kovalenttisesti pilkottavan linkkerin välityksellä. Monoklonaalinen vasta-aine sitoutuu CD79b:hen, joka on B-soluille spesifinen pintaproteiini ja B-solureseptorin osa.” Englanninkielinen alkuteksti: "Polatuzumab vedotin-piiq is a CD79b-directed antibody-drug conjugate with activity against dividing B cells. The small molecule, MMAE, is an anti-mitotic agent covalently attached to the antibody via a cleavable linker. The monoclonal antibody binds to CD79b, a B-cell specific surface protein, which is a component of the B-cell receptor." ([DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc), versio 2026-08-24; haettu 2026-11-19). Tiedossa on, että polatutsumabivedotiini on vasta-aine-lääkekonjugaatti, joka kohdistuu CD79b:hen (B-solureseptorin osa) ja vie solun sisään mikrotubuluksia häiritsevää MMAE-yhdistettä (monometyyliauristatiini E).
 
 Alkuperäinen käyttöaihe ja ennustettu käyttöaihe eivät ole mekanistisesti lähellä toisiaan. CD79b ei ole tunnettu kohde HER2-positiivisessa rintasyövässä, eikä aineistosta löytynyt suoraa mekanistista yhteyttä. Korkea pistemäärä (0,9934) on pelkkä mallin tuottama ennuste.
 
@@ -132,13 +132,14 @@ Loput tarkastelluista ovat luokkaa kohtalainen (Moderate), mm. aprepitantti, sim
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden ja nykyisen saatavuuden selvittämistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Polivy (EMEA/H/C/004870) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc) |
 
 <!-- review:end log -->
 

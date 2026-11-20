@@ -60,7 +60,7 @@ Abakaviiri on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä, jota o
 
 Abakaviiri on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä (NRTI). Solun sisällä se fosforyloituu karbovir-trifosfaatiksi, joka kilpailee dGTP:n kanssa ja katkaisee viruksen DNA-ketjun pidentymisen. SIV on HIV-1:n ja HIV-2:n läheinen lentivirus, jolla on homologinen käänteiskopioijaentsyymi, joten vaikutus on mekanistisesti uskottava.
 
-Ennusteen korkea pistemäärä heijastaa todennäköisesti tämän käyttöaiheen rakenteellista samankaltaisuutta jo hyväksytyn HIV-käyttöaiheen kanssa, ei uutta hoitomahdollisuutta. SIV on ei-inhimillisten kädellisten mallivirus, ei ihmisen sairaus, joten ihmislääkkeen uudelleenkäytölle ei ole kliinistä kohdetta. Tästä lääkkeestä ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa lääketietokannasta, joten edellä kuvattu mekanismi perustuu yleiseen tietoon NRTI-lääkkeistä.
+Ennusteen korkea pistemäärä heijastaa todennäköisesti tämän käyttöaiheen rakenteellista samankaltaisuutta jo hyväksytyn HIV-käyttöaiheen kanssa, ei uutta hoitomahdollisuutta. SIV on ei-inhimillisten kädellisten mallivirus, ei ihmisen sairaus, joten ihmislääkkeen uudelleenkäytölle ei ole kliinistä kohdetta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta abacavir and lamivudine (yhdistelmävalmiste, joka sisältää aineen Abacavir) (epävirallinen käännös): ”Abakaviiri ja lamivudiini on antiretroviraalinen lääkeaine, joka on aktiivinen HIV-1:tä vastaan.” Englanninkielinen alkuteksti: "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), versio 2026-09-18; haettu 2026-11-19).
 
 ---
 
@@ -135,12 +135,13 @@ Samassa aineistossa on kaksi muuta ennustetta, joilla ei ole merkittävää uude
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”sillä myyntiluvat on tällä hetkellä peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ TxGNN-malli ennustaa lääkkeen voivan sopia **proksimaalisen 16p11.2-mikrodelee
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Lääkkeen alkuperäisestä vaikutusmekanismista ei ole tällä hetkellä saatavilla yksityiskohtaisia tietoja. Tunnetun tiedon perusteella fenfluramiini vapauttaa serotoniinia ja sillä on vaikutusta sigma-1-reseptoriin. Sen teho kehitykseen liittyvissä ja epileptisissä enkefalopatioissa on osoitettu, ja mekanistisesti se voisi olla sovellettavissa myös uuteen käyttöaiheeseen. Lisäksi lääkkeen farmakologisessa tietokannassa mainitaan kohteina tryptofaanihydroksylaasi 1 ja 2 (TPH1, TPH2), mutta kohteen vaikutuksesta ei ole julkisesti saatavilla biologista aktiivisuusdataa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Fenfluramine (epävirallinen käännös): ”Fenfluramiinin tarkkaa vaikutusmekanismia Dravet'n oireyhtymään ja Lennox–Gastaut'n oireyhtymään liittyvien kohtausten hoidossa ei tunneta. Fenfluramiinilla ja sen metaboliitilla, norfenfluramiinilla, on agonistivaikutusta serotoniinin 5-HT2-reseptoreissa.” Englanninkielinen alkuteksti: "The precise mechanism by which fenfluramine exerts its therapeutic effects in the treatment of seizures associated with Dravet syndrome and Lennox-Gastaut syndrome is unknown. Fenfluramine and the metabolite, norfenfluramine, exhibit agonist activity at serotonin 5-HT2 receptors." ([DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d), versio 2026-10-22; haettu 2026-11-19). Tunnetun tiedon perusteella fenfluramiini vapauttaa serotoniinia ja sillä on vaikutusta sigma-1-reseptoriin. Sen teho kehitykseen liittyvissä ja epileptisissä enkefalopatioissa on osoitettu, ja mekanistisesti se voisi olla sovellettavissa myös uuteen käyttöaiheeseen. Lisäksi lääkkeen farmakologisessa tietokannassa mainitaan kohteina tryptofaanihydroksylaasi 1 ja 2 (TPH1, TPH2), mutta kohteen vaikutuksesta ei ole julkisesti saatavilla biologista aktiivisuusdataa.
 
 16p11.2-deleetio liittyy neurokehityksellisiin häiriöihin ja epileptisiin kohtauksiin. Yhteinen kohtausfenotyyppi voisi selittää mallin ennusteen. Tämä on kuitenkin vahvistamaton hypoteesi, ei kliinisesti todennettu yhteys.
 
@@ -118,13 +118,14 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittäminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Fintepla (EMEA/H/C/003933) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d) |
 
 <!-- review:end log -->
 

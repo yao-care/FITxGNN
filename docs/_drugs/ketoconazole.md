@@ -64,7 +64,7 @@ Ketokonatsoli estää sienten ergosterolisynteesiä (CYP51). Suurempina annoksin
 
 Paikallisesti käytettynä ketokonatsolilla on lisäksi vaikutusta Malassezia/Pityrosporum-hiivoihin ja lievä tulehdusta hillitsevä vaikutus. Tämä voi auttaa aknen kaltaisissa tai follikkeleihin liittyvissä ihottumissa. Laboratoriotutkimuksissa ketokonatsoli on myös estänyt *Cutibacterium (Propionibacterium) acnes* -bakteerin kasvua ja lipaasiaktiivisuutta.
 
-Nämä yhteydet ovat kuitenkin epäsuoria. Lääkkeen alkuperäisestä vaikutusmekanismista ei ole tähän raporttiin koottua tietoa, ja korkea TxGNN-pistemäärä (0,998) on laskennallinen ennuste, joka ei todista tehoa. Huomattavaa on myös, että Cushingin oireyhtymässä käytetään suun kautta otettavaa lääkettä, kun taas aknessa tutkitaan paikallista voidetta, joten antoreittien yhteensopivuutta ei ole vielä arvioitu.
+Nämä yhteydet ovat kuitenkin epäsuoria. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ketoconazole (epävirallinen käännös): ”Ketokonatsoli estää ergosterolin, sienen solukalvon keskeisen ainesosan, synteesiä estämällä sytokromi P-450:stä riippuvaista lanosteroli-14α-demetylaasientsyymiä, joka vastaa lanosterolin muuttamisesta ergosteroliksi sienen solukalvossa. Tämä johtaa metyloituneiden sterolien esiasteiden kertymiseen ja ergosterolin vähenemiseen solukalvossa, mikä heikentää sienen solukalvon rakennetta ja toimintaa.” Englanninkielinen alkuteksti: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), versio 2025-11-18; haettu 2026-11-19). Huomattavaa on myös, että Cushingin oireyhtymässä käytetään suun kautta otettavaa lääkettä, kun taas aknessa tutkitaan paikallista voidetta, joten antoreittien yhteensopivuutta ei ole vielä arvioitu.
 
 ---
 
@@ -146,12 +146,13 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi suun kautta otettavan ketokonatsolin turvallisuusprofiili (mm. maksa- ja QT-aikariskit sekä runsaat yhteisvaikutukset) sekä peruutet” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Ketoconazole Esteve (EMEA/H/C/003906) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

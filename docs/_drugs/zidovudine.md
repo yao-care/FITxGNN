@@ -60,7 +60,7 @@ Tämä ennuste ei ole ihmisen lääkkeen uudelleenkäyttöä. Raportin lopussa a
 
 ## Miksi ennuste on perusteltu?
 
-Tsidovudiini on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä (NRTI). Se on esilääke, joka fosforyloituu solun sisällä ja estää viruksen käänteiskopioijaentsyymiä. Tarkempaa vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla, joten kuvaus perustuu lääkeryhmän yleisesti tunnettuun vaikutukseen.
+Tsidovudiini on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä (NRTI). Se on esilääke, joka fosforyloituu solun sisällä ja estää viruksen käänteiskopioijaentsyymiä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Zidovudine (epävirallinen käännös): ”Tsidovudiini on antiretroviraalinen lääkeaine. […] Tsidovudiini on synteettinen nukleosidianalogi. Solun sisällä tsidovudiini fosforyloituu aktiiviseksi 5′-trifosfaattimetaboliitikseen, tsidovudiinitrifosfaatiksi (ZDV-TP). ZDV-TP:n pääasiallinen vaikutustapa on käänteiskopioijaentsyymin (RT) estäminen DNA-ketjun päättymisen kautta sen jälkeen, kun nukleotidianalogi on liittynyt ketjuun.” Englanninkielinen alkuteksti: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), versio 2024-11-13; haettu 2026-11-19).
 
 Kissan immuunipuutosvirus (FIV) on HIV:n sukulaisvirus, ja sillä on myös käänteiskopioijaentsyymi. Siksi mekanistinen perustelu on vahva ja FIV-tartunnan saaneita kissoja käytetään HIV:n eläinmallina. Kirjallisuudessa on raportoitu viruskuorman pienenemistä ja osin kliinistä paranemista, mutta myös tsidovudiinin toksisuutta kissoilla.
 
@@ -180,13 +180,14 @@ Kaksi viimeistä ennustetta eivät ole aitoa uudelleenkäyttöä, koska ARC on h
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Combivir (EMEA/H/C/000190) on voimassa; Trizivir (EMEA/H/C/000338) on peruutettu | Korjattu (päivitetty 2026-11-12; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->
 

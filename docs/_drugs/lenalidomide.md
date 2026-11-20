@@ -60,7 +60,7 @@ Ennusteen tukena on tällä hetkellä **43 kliinistä tutkimusta** ja **19 julka
 
 ## Miksi ennuste on perusteltu?
 
-Lenalidomidi moduloi cereblon-E3-ligaasia, mikä johtaa IKZF1- ja IKZF3-proteiinien sekä CK1alfan hajoamiseen. CK1alfa on erityisen tärkeä del(5q)-tyypin myeloidisissa sairauksissa. Lisäksi lääkkeellä on immuunivastetta muokkaavia vaikutuksia (NK- ja T-solujen aktivaatio). Tämä mekanismikuvaus perustuu yleiseen lääketieteelliseen tietoon, sillä tälle raportille koottu aineisto ei sisältänyt yksityiskohtaista vaikutusmekanismitietoa.
+Lenalidomidi moduloi cereblon-E3-ligaasia, mikä johtaa IKZF1- ja IKZF3-proteiinien sekä CK1alfan hajoamiseen. CK1alfa on erityisen tärkeä del(5q)-tyypin myeloidisissa sairauksissa. Lisäksi lääkkeellä on immuunivastetta muokkaavia vaikutuksia (NK- ja T-solujen aktivaatio). Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lenalidomide (epävirallinen käännös): ”Lenalidomidi on talidomidin analogi, jolla on immunomoduloivia, angiogeneesiä estäviä ja antineoplastisia ominaisuuksia. Lenalidomidin soluvaikutukset välittyvät sen kohteen, sereblonin, kautta; sereblon on kulliinirengas-E3-ubikitiiniligaasientsyymikompleksin osa.” Englanninkielinen alkuteksti: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), versio 2023-03-24; haettu 2026-11-19).
 
 Lenalidomidi on jo hyväksytty MDS:n hoitoon, ja MDS ja akuutti myeloidinen leukemia (AML) ovat läheisiä myeloidisia kasvaimia: MDS etenee usein AML:ksi. Siksi mekanismin voidaan perustellusti olettaa soveltuvan myös AML:ään.
 
@@ -173,13 +173,14 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tälle raportille saat
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on merkitty peruutetuiksi” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lenalidomidilla ei tällä hetkellä ole voimassa olevaa myyntilupaa Suomessa, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(kaikki kolme myyntilupaa on peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
 
 <!-- review:end log -->
 

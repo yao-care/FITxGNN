@@ -54,7 +54,7 @@ Rufinamidi on epilepsialääke, jota on käytetty epilepsian hoitoon. TxGNN-mall
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista kuvausta rufinamidin vaikutusmekanismista. Tiedossa on, että rufinamidi on epilepsialääke, joka pidentää jänniteherkkien natriumkanavien inaktiivista tilaa. Sen teho epilepsiassa on osoitettu, ja mekanistisesti se voisi olla sovellettavissa myös FIRES-oireyhtymään.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Rufinamide (epävirallinen käännös): ”Tarkkaa mekanismia (tarkkoja mekanismeja), jolla rufinamidi saa aikaan epilepsialääkevaikutuksensa, ei tunneta. In vitro -tutkimusten tulokset viittaavat siihen, että rufinamidin pääasiallinen vaikutusmekanismi on natriumkanavien aktiivisuuden muuntelu ja erityisesti kanavan inaktiivisen tilan pidentäminen.” Englanninkielinen alkuteksti: "The precise mechanism(s) by which rufinamide exerts its antiepileptic effect is unknown. The results of in vitro studies suggest that the principal mechanism of action of rufinamide is modulation of the activity of sodium channels and, in particular, prolongation of the inactive state of the channel." ([DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d), versio 2022-12-15; haettu 2026-11-19). Tiedossa on, että rufinamidi on epilepsialääke, joka pidentää jänniteherkkien natriumkanavien inaktiivista tilaa. Sen teho epilepsiassa on osoitettu, ja mekanistisesti se voisi olla sovellettavissa myös FIRES-oireyhtymään.
 
 FIRES on hoitoresistentti epileptinen enkefalopatia, joka ilmenee kuumeisen sairauden jälkeen ja jonka taustalla on pitkälti hermotulehdus. Natriumkanavien salpaus voisi lievittää kohtauksia oireenmukaisesti, mutta se ei puutu taustalla olevaan sairausprosessiin. Korkea ennustepistemäärä (0,996) heijastaa todennäköisesti mallin verkostossa epilepsiaan liittyvien solmujen läheisyyttä, ei sairauskohtaista näyttöä. Ennusteen tulkinnassa on siksi syytä olla varovainen.
 
@@ -116,13 +116,14 @@ Muilta osin turvallisuustiedoista on tarkistettava valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi ainoa Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuntumisen syystä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Inovelon (EMEA/H/C/000660) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
 
 <!-- review:end log -->
 

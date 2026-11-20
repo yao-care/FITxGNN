@@ -56,7 +56,7 @@ Tätä suuntaa tukee tällä hetkellä **41 kliinistä tutkimusta** ja **20 julk
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Kirjallisuuden mukaan klofarabiini on toisen sukupolven puriininukleosidianalogi, joka estää ribonukleotidireduktaasia ja DNA-polymeraasia. Tämä vähentää DNA:n replikaatioon tarvittavien deoksinukleosiditrifosfaattien määrää ja indusoi apoptoosia mitokondrioiden kautta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Clofarabine (epävirallinen käännös): ”Klofarabiini metaboloituu solunsisäisesti vaiheittain deoksisytidiinikinaasin vaikutuksesta 5’-monofosfaattimetaboliitiksi sekä mono- ja difosfokinaasien vaikutuksesta aktiiviseksi 5’-trifosfaattimetaboliitiksi. Klofarabiinin affiniteetti aktivoivaan fosforyloivaan entsyymiin, deoksisytidiinikinaasiin, on yhtä suuri tai suurempi kuin luonnollisen substraatin, deoksisytidiinin.” Englanninkielinen alkuteksti: "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine." ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), versio 2026-08-24; haettu 2026-11-19). Kirjallisuuden mukaan klofarabiini on toisen sukupolven puriininukleosidianalogi, joka estää ribonukleotidireduktaasia ja DNA-polymeraasia. Tämä vähentää DNA:n replikaatioon tarvittavien deoksinukleosiditrifosfaattien määrää ja indusoi apoptoosia mitokondrioiden kautta.
 
 Nämä mekanismit kohdistuvat nopeasti jakautuviin myeloisiin blasteihin. Myeloinen leukemia on läheisesti sukua lymfoblastiselle leukemialle, joten kyse on pikemminkin viereisen käyttöaiheen laajennuksesta kuin kaukaisesta uudelleenkäytöstä. Korkea pistemäärä on linjassa kliinisen tutkimusnäytön kanssa.
 
@@ -129,6 +129,19 @@ Kaksi valmistunutta vaiheen 3 tutkimusta (NCT02085408 ja NCT00317642) sekä usei
 - Vaiheen 3 tutkimustulosten (teho ja turvallisuus) arviointia kohderyhmittäin
 - Munuais-, maksa- ja verenkuvaseurantasuunnitelmaa
 - Markkinatilanteen ja myyntilupien tarkistusta Suomessa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

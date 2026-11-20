@@ -54,7 +54,7 @@ Fenofibraatti on PPARα-agonisti, jota käytetään dyslipidemioiden hoitoon. Tx
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Tiedetään kuitenkin, että fenofibraatti on PPARα-agonisti, joka nostaa HDL-kolesterolia ja laskee triglyseridejä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Fenofibrate (epävirallinen käännös): ”Antaran aktiivinen osa on fenofibraattihappo. Fenofibraattihapon farmakologisia vaikutuksia sekä eläimillä että ihmisillä on tutkittu antamalla fenofibraattia suun kautta. Kliinisessä käytössä havaitut fenofibraattihapon lipidejä muokkaavat vaikutukset on selitetty in vivo siirtogeenisillä hiirillä ja in vitro ihmisen maksasoluviljelmissä PPAR-alfa-reseptorin aktivaatiolla.” Englanninkielinen alkuteksti: "The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor." ([DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce), versio 2025-10-01; haettu 2026-11-19). Tiedetään kuitenkin, että fenofibraatti on PPARα-agonisti, joka nostaa HDL-kolesterolia ja laskee triglyseridejä.
 
 Kolesteryyliesterisiirtoproteiinin (CETP) puutokselle on tyypillistä selvästi koholla oleva HDL-kolesteroli ja heikentynyt kolesteryyliesterien siirto HDL:stä apoB-pitoisiin lipoproteiineihin. Kerätyssä kirjallisuudessa on mekanistista päällekkäisyyttä: PPARα-agonismi yhdessä CETP:n eston kanssa muuttaa HDL- ja LDL-tasoja hiirimallissa, ja fenofibraatti indusoi fosfolipidisiirtoproteiinin (PLTP) geeniä, mikä edistää HDL-partikkelien suurenemista.
 
@@ -98,6 +98,19 @@ Muuhun turvallisuustietoon, kuten varoituksiin ja vasta-aiheisiin, on perehdytt�
 - Selvitys siitä, onko fenofibraatilla kliinistä hyötyä CETP:n puutoksessa (potilastason tutkimukset tai tapausraportit)
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

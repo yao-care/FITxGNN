@@ -54,7 +54,7 @@ Etelcalcetide on laskimoon annosteltava kalsimimeetti, jota on käytetty sekunda
 
 ## Miksi ennuste on perusteltu?
 
-Etelcalcetide on kalsimimeetti, joka aktivoi parathormonia tuottavien lisäkilpirauhassolujen kalsiumia aistivan reseptorin (CaSR). Tämä laskee lisäkilpirauhashormonin (PTH) pitoisuutta. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä, mutta lääkkeen kohde (CASR) tunnetaan.
+Etelcalcetide on kalsimimeetti, joka aktivoi parathormonia tuottavien lisäkilpirauhassolujen kalsiumia aistivan reseptorin (CaSR). Tämä laskee lisäkilpirauhashormonin (PTH) pitoisuutta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Etelcalcetide (epävirallinen käännös): ”Etelkalsetidi on kalsimimeetti, joka moduloi allosteerisesti kalsiumia aistivaa reseptoria (CaSR). Etelkalsetidi sitoutuu CaSR:ään ja tehostaa reseptorin aktivoitumista solunulkoisen kalsiumin vaikutuksesta. CaSR:n aktivoituminen lisäkilpirauhasen pääsoluissa vähentää PTH:n eritystä.” Englanninkielinen alkuteksti: "Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion." ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c), versio 2026-03-08; haettu 2026-11-19).
 
 Hyperfosfatemia on sekundaariseen hyperparatyreoosiin liittyvä tyypillinen häiriö dialyysipotilailla. PTH:n lasku voi välillisesti laskea seerumin fosfaattia ja kalsium-fosfaattituloa. Yhteys on uskottava mutta epäsuora: fosfaatin lasku on sivuvaikutus, ei lääkkeen ensisijainen kohde.
 
@@ -122,13 +122,14 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi myyntilupa on peruutettu, joten saatavuus on epävarma” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys peruutetun myyntiluvan syystä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Parsabiv (EMEA/H/C/003995) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c) |
 
 <!-- review:end log -->
 

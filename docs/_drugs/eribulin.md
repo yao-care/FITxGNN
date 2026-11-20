@@ -54,7 +54,7 @@ Eribuliini on mikrotubulusten dynamiikkaa estävä solunsalpaaja. TxGNN-malli en
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Eribuliinin yksityiskohtaista vaikutusmekanismia ei ole tässä aineistossa saatavilla. Yleisesti eribuliini tunnetaan mikrotubulusten dynamiikkaa estävänä solunsalpaajana, ja sen käyttö liittyy kiinteisiin kasvaimiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Eribulin (epävirallinen käännös): ”Eribuliini estää mikrotubulusten kasvuvaihetta vaikuttamatta lyhenemisvaiheeseen ja sitoo tubuliinia toimimattomiin aggregaatteihin. Eribuliini vaikuttaa tubuliiniin perustuvan antimitoottisen mekanismin kautta, mikä johtaa solusyklin pysähtymiseen G 2 /M-vaiheeseen, mitoosisukkuloiden hajoamiseen ja lopulta apoptoottiseen solukuolemaan pitkittyneen mitoosin salpautumisen jälkeen.” Englanninkielinen alkuteksti: "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage." ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), versio 2025-11-07; haettu 2026-11-19). Yleisesti eribuliini tunnetaan mikrotubulusten dynamiikkaa estävänä solunsalpaajana, ja sen käyttö liittyy kiinteisiin kasvaimiin.
 
 Familiaalinen Välimeren kuume on autoinflammatorinen sairaus, jonka taustalla on pyriini-inflammasomin säätelyhäiriö ja jota hoidetaan tavallisesti kolkisiinilla. Yhteys tubuliiniin sitoutumisen kautta on teoriassa mahdollinen, mutta spekulatiivinen. Eribuliinin haittavaikutusprofiili (neutropenia, neuropatia) tekee käytöstä ei-pahanlaatuisessa tulehdussairaudessa epäedullista. Korkea pistemäärä on todennäköisesti mallin artefakti.
 
@@ -103,6 +103,19 @@ Tarkemmat turvallisuustiedot ovat valmisteyhteenvedossa.
 - Vaikutusmekanismitietojen täydentämistä
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden jäsentämistä
 - Hyöty–haitta-arviota suhteessa vakiohoitoon (kolkisiini)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

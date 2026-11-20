@@ -58,7 +58,7 @@ Lasmiditaani on selektiivinen 5-HT1F-reseptoriagonisti, jota on alun perin käyt
 
 ## Miksi ennuste on perusteltu?
 
-Lasmiditaani on selektiivinen 5-HT1F-reseptorin agonisti. Sen vaikutusmekanismin yksityiskohtaista kuvausta ei ole saatavilla tähän raporttiin koottuna aineistona, mutta farmakologiatietojen mukaan se kohdistuu ihmisen HTR1F-geenin koodaamaan reseptoriin. Toisin kuin triptaanit, lasmiditaanilla ei ole verisuonia supistavaa vaikutusta.
+Lasmiditaani on selektiivinen 5-HT1F-reseptorin agonisti. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lasmiditan (epävirallinen käännös): ”Lasmiditaani sitoutuu suurella affiniteetilla 5-HT 1F -reseptoriin. Lasmiditaanin oletetaan saavan aikaan terapeuttiset vaikutuksensa migreenin hoidossa agonistivaikutusten kautta 5-HT 1F -reseptorissa; tarkkaa mekanismia ei kuitenkaan tunneta.” Englanninkielinen alkuteksti: "Lasmiditan binds with high affinity to the 5-HT 1F receptor. Lasmiditan presumably exerts its therapeutic effects in the treatment of migraine through agonist effects at the 5-HT 1F receptor; however, the precise mechanism is unknown." ([DailyMed: Reyvow (lasmiditan) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea3358c-ff41-4490-9e6d-c7bf7b3de13f), versio 2026-01-08; haettu 2026-11-19). Toisin kuin triptaanit, lasmiditaanilla ei ole verisuonia supistavaa vaikutusta.
 
 Aivorunkoauraan liittyvä migreeni on aurallisen migreenin alatyyppi. Lasmiditaani on hyväksytty akuuttiin migreeniin sekä auran kanssa että ilman. Mekanistinen yhteys on siis vahva. Verisuonia supistamaton vaikutus voisi olla etu alatyypissä, jossa verisuoniin liittyviä huolia on historiallisesti esitetty. Tämä on kuitenkin teoreettinen perustelu, jota ei ole testattu suoraan.
 
@@ -143,13 +143,14 @@ Kaksi muuta TxGNN-ennustetta, *atrophoderma vermiculata* (0,9959) ja *ulerythema
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntiluvat ovat vain peruutettuja, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä (peruutuksen syy ja mahdollinen uusi hakeminen)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Rayvow (EMEA/H/C/005332) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Reyvow (lasmiditan) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea3358c-ff41-4490-9e6d-c7bf7b3de13f) |
 
 <!-- review:end log -->
 

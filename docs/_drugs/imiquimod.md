@@ -60,7 +60,7 @@ Imikimodi on paikallisesti iholle levitettävä immuunivastetta muokkaava lääk
 
 ## Miksi ennuste on järkevä?
 
-Yksityiskohtaista vaikutusmekanismitietoa (MOA) ei ole tässä aineistossa saatavilla. Yleisen farmakologian perusteella imikimodi on TLR7-agonisti, joka käynnistää paikallisen synnynnäisen ja hankitun immuunivasteen (mm. interferoni-alfa, TNF-alfa ja IL-12). Tämä immuunivaste voi poistaa dysplastista epiteeliä. Tämä päätelmä perustuu yleiseen tietoon, ei toimitettuun tietueeseen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Imiquimod (epävirallinen käännös): ”ZYCLARA-valmisteen vaikutusmekanismia AK:n ja EGW:n hoidossa ei tunneta.” Englanninkielinen alkuteksti: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), versio 2025-05-23; haettu 2026-11-19). Yleisen farmakologian perusteella imikimodi on TLR7-agonisti, joka käynnistää paikallisen synnynnäisen ja hankitun immuunivasteen (mm. interferoni-alfa, TNF-alfa ja IL-12). Tämä immuunivaste voi poistaa dysplastista epiteeliä. Tämä päätelmä perustuu yleiseen tietoon, ei toimitettuun tietueeseen.
 
 Alkuperäinen käyttöaihe, aktiininen keratoosi, on itsessään esisyövällinen ihomuutos. Ennuste laajentaa siis jo hyväksyttyä käyttöaihetta lähisukuisiin intraepiteliaalisiin neoplasioihin, kuten kohdunkaulan, ulkosynnyttimien ja peräaukon alueen muutoksiin.
 
@@ -160,13 +160,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tässä aineistossa s
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat ovat peruutettuja, joten voimassa olevaa myyntilupaa Suomessa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(kaikki luvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Zyclara (EMEA/H/C/002387), Aldara (EMEA/H/C/000179)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
 
 <!-- review:end log -->
 

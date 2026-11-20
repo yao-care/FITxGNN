@@ -54,7 +54,7 @@ Kabotegraviiri on HIV-integraasin estäjä, jota on alun perin käytetty HIV-inf
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Kabotegraviiri on HIV-integraasin siirtoreaktion estäjä (integrase strand transfer inhibitor). Raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa, joten mekanistista analyysiä voidaan tehdä vain rajallisesti.
+Kabotegraviiri on HIV-integraasin siirtoreaktion estäjä (integrase strand transfer inhibitor). Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Cabotegravir (epävirallinen käännös): ”Kabotegraviiri on HIV-1:n antiretroviraalinen lääke. […] Kabotegraviiri estää HIV:n integraasia sitoutumalla integraasin aktiiviseen kohtaan ja estämällä retroviruksen deoksiribonukleiinihapon (DNA) integraation juosteensiirtovaiheen, joka on välttämätön HIV:n replikaatiosyklille. Kabotegraviirin keskimääräinen 50 %:n inhiboiva pitoisuus (IC 50 ) puhdistettua rekombinanttia HIV-1-integraasia käyttäneessä juosteensiirtomäärityksessä oli 3.0 nM.” Englanninkielinen alkuteksti: "Cabotegravir is an HIV-1 antiretroviral drug. […] Cabotegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral deoxyribonucleic acid (DNA) integration that is essential for the HIV replication cycle. The mean 50% inhibitory concentration (IC 50 ) value of cabotegravir in a strand transfer assay using purified recombinant HIV-1 integrase was 3.0 nM." ([DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3), versio 2025-04-11; haettu 2026-11-19).
 
 Nivelreuman taustalla ovat autoimmuuni- ja tulehdusreitit, kuten TNF, IL-6 ja JAK. Kabotegraviirin ja näiden reittien välillä ei ole tunnistettu uskottavaa yhteyttä. Korkea pistemäärä kuvastaa todennäköisesti tietämysgraafin rakennetta eikä osoita biologista vaikutusta.
 
@@ -119,12 +119,13 @@ Muuta turvallisuustietoa varten tutustu valmisteyhteenvetoon.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kabotegraviirin kaikki Suomen myyntiluvat on peruutettu, joten valmiste ei ole tällä hetkellä markkinoilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Apretude (EMEA/H/C/005756), Vocabria (EMEA/H/C/004976)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3) |
 
 <!-- review:end log -->
 

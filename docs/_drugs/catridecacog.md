@@ -54,7 +54,7 @@ Catridekakogi on yhdistelmä-DNA-tekniikalla valmistettu hyytymistekijä XIII:n 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Catridekakogi on rekombinantti hyytymistekijä XIII:n A-alayksikkö, joka ristisitoo fibriiniä ja vakauttaa hyytymää. Tarkkaa vaikutusmekanismia koskevia yksityiskohtaisia tietoja ei ole tällä hetkellä saatavilla.
+Catridekakogi on rekombinantti hyytymistekijä XIII:n A-alayksikkö, joka ristisitoo fibriiniä ja vakauttaa hyytymää. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Catridecacog vaikutusmekanismiksi (epävirallinen käännös): ”Eksogeeninen hyytymistekijä XIII -proteiini” Englanninkielinen alkuteksti: "Coagulation factor XIII exogenous protein" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; haettu 2026-11-19).
 
 Verihiutaleiden vapautumishäiriöissä vika on verihiutaleiden rakeiden sisällössä tai eritystoiminnassa, ei tekijä XIII:n puutteessa. Hyöty olisi korkeintaan välillistä: vahvempi fibriinihyytymän vakaus verihiutaleiden toimintahäiriön jatkona. Tämä on spekulatiivista, ja korkea pistemäärä on pelkkä mallin ennuste.
 
@@ -116,13 +116,14 @@ Turvallisuustietoja varten tutustu valmisteyhteenvetoon. Raporttia varten koottu
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu (valmistaja Novo Nordisk A/S), eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Kliinisiä tutkimuksia tai julkaisuja ei ole, mekanistinen yhteys on heikko ja välillinen, eikä valmisteella ole voimassa olevaa myyntilupaa ” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282) |
 
 <!-- review:end log -->
 

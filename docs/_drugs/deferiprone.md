@@ -54,7 +54,7 @@ Deferiproni on suun kautta otettava rautakelaattori. Sen paikallisissa myyntiluv
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tiedetään, että deferiproni on rautakelaattori, jonka teho rautakuorman hoidossa on osoitettu. Mekanistisesti se voisi soveltua sairauksiin, joissa rauta osallistuu taudin syntyyn.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Deferiprone (epävirallinen käännös): ”Deferiproni on kelatoiva aine, jolla on affiniteetti ferri-ioneihin (rauta III). Deferiproni sitoutuu ferri-ioneihin muodostaen neutraaleja 3:1 (deferiproni:rauta) -komplekseja, jotka ovat stabiileja fysiologisessa pH:ssa.” Englanninkielinen alkuteksti: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), versio 2026-01-28; haettu 2026-11-19). Tiedetään, että deferiproni on rautakelaattori, jonka teho rautakuorman hoidossa on osoitettu. Mekanistisesti se voisi soveltua sairauksiin, joissa rauta osallistuu taudin syntyyn.
 
 Porfyrioissa raudalla on patogeneettinen rooli. Porphyria cutanea tardassa maksan rautakertymä estää uroporfyrinogeenidekarboksylaasin toimintaa. Synnynnäisessä erytropoieettisessa porfyriassa raudan kelaatio voi vähentää hemin synteesin virtaa ja porfyriinien kertymistä. Haetut kaksi julkaisua tukevat tätä rautariippuvaa mekanismia, mutta vain prekliinisessä tai pienimuotoisessa asetelmassa.
 
@@ -102,6 +102,19 @@ Maksaporfyriaa koskevaa suoraa kliinistä tai julkaistua tutkimusnäyttöä ei o
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
 - Prekliininen validointi maksaporfyriamalleissa ja sen jälkeen pienet kliiniset tutkimukset
 - Arvio raudan kelaation hyöty–haittasuhteesta porfyriapotilailla (mm. neutropenia- ja agranulosytoosiriskin seuranta)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

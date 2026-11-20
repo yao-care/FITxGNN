@@ -58,7 +58,7 @@ Asenapiini on epätyypillinen antipsykootti, jota on käytetty kaksisuuntaisen m
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Asenapiinin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla tähän raporttiin. Tunnetun farmakologian perusteella asenapiini on usean reseptorin antagonisti. Se sitoutuu serotoniinireseptoreihin (5-HT1A, 1B, 1D, 1E ja 2A), dopamiini D2 -reseptoriin ja histamiini H1 -reseptoriin. Tämä reseptoriprofiili selittää sen tehon mania- ja sekamuotoisissa jaksoissa kaksisuuntaisessa mielialahäiriössä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Asenapine (epävirallinen käännös): ”Asenapiinin vaikutusmekanismia skitsofreniassa ja kaksisuuntaisessa mielialahäiriössä tyyppi I ei tunneta. On esitetty, että asenapiinin teho skitsofreniassa voisi välittyä antagonistisen aktiivisuuden D 2 - ja 5-HT 2A -reseptoreissa yhdistelmän kautta.” Englanninkielinen alkuteksti: "The mechanism of action of asenapine, in schizophrenia and bipolar I disorder, is unknown. It has been suggested that the efficacy of asenapine in schizophrenia could be mediated through a combination of antagonist activity at D 2 and 5-HT 2A receptors." ([DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8), versio 2025-01-31; haettu 2026-11-19). Tunnetun farmakologian perusteella asenapiini on usean reseptorin antagonisti. Se sitoutuu serotoniinireseptoreihin (5-HT1A, 1B, 1D, 1E ja 2A), dopamiini D2 -reseptoriin ja histamiini H1 -reseptoriin. Tämä reseptoriprofiili selittää sen tehon mania- ja sekamuotoisissa jaksoissa kaksisuuntaisessa mielialahäiriössä.
 
 Perinnöllisissä verkkokalvon rappeumasairauksissa taustalla ovat tyypillisesti geenivirheet, jotka vaurioittavat valoaistinsoluja tai niiden tukisoluja. Asenapiinin reseptoriprofiililla ei tunneta yhteyttä näihin mekanismeihin. Ennuste on siis graafipohjainen tilastollinen löydös, jolle ei ole biologista perustelua. Korkea pistemäärä ei yksin osoita hoitovaikutusta.
 
@@ -132,12 +132,13 @@ Se on kuitenkin lääkkeen alkuperäinen käyttöaihe, joten kyse on uudelleen l
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu, joten voimassa olevaa asenapiinivalmistetta ei Suomessa ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja l” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8) |
 
 <!-- review:end log -->
 

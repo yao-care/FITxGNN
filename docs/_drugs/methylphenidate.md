@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen tehoavan **faciodigitogenitaaliseen oireyhtymään** (A
 
 ## Miksi ennuste voisi olla järkevä?
 
-Lääkeaineen tarkkaa vaikutusmekanismia ei ole tämän raportin aineistossa. Farmakologiatiedon mukaan metyylifenidaatti kohdistuu noradrenaliinin kuljettajaproteiiniin (NET, SLC6A2) ja dopamiinin kuljettajaproteiiniin (DAT, SLC6A3). Se estää näiden aineiden takaisinottoa, mikä lisää dopamiinin ja noradrenaliinin pitoisuutta synapsiraossa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Methylphenidate (epävirallinen käännös): ”Metyylifenidaattihydrokloridi on keskushermostoa (CNS) stimuloiva aine. METADATE CD:n terapeuttista vaikutustapaa ADHD:n hoidossa vähintään 6-vuotiailla pediatrisilla potilailla ei tunneta. Metyylifenidaatti estää noradrenaliinin ja dopamiinin takaisinottoa presynaptiseen hermosoluun ja lisää näiden monoamiinien vapautumista hermosolun ulkopuoliseen tilaan.” Englanninkielinen alkuteksti: "Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space." ([DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4), versio 2026-10-21; haettu 2026-11-19). Farmakologiatiedon mukaan metyylifenidaatti kohdistuu noradrenaliinin kuljettajaproteiiniin (NET, SLC6A2) ja dopamiinin kuljettajaproteiiniin (DAT, SLC6A3). Se estää näiden aineiden takaisinottoa, mikä lisää dopamiinin ja noradrenaliinin pitoisuutta synapsiraossa.
 
 Faciodigitogenitaalinen oireyhtymä on harvinainen geneettinen kehityshäiriö. Joillakin potilailla esiintyy ADHD:n kaltaisia oireita, joten dopaminergisesta tai noradrenergisestä stimulantista voisi teoriassa olla apua näihin oireisiin. Aineisto ei kuitenkaan tue tätä päättelyä: yhteyttä ei ole osoitettu tutkimuksin, ja korkea pistemäärä voi olla pelkkä tietämysgraafin tuottama artefakti.
 
@@ -132,12 +132,13 @@ Lääkeaineiden yhteisvaikutuksista ei ole kliinisiä yhteisvaikutustietoja. Far
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Tuzulby (EMEA/H/C/005975) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
 
 <!-- review:end log -->
 

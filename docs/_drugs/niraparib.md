@@ -60,7 +60,7 @@ Niraparibi on PARP-estäjä, jota on käytetty munasarja-, munanjohdin- ja vatsa
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismia (MOA) ei ole tällä hetkellä saatavilla tätä raporttia varten kootussa aineistossa. Tunnetun tiedon perusteella niraparibi on PARP-estäjä, joka hyödyntää homologisen rekombinaation puutosta (HRD): kun kasvainsolun DNA:n korjausmekanismi on heikentynyt (esim. BRCA1/2-muutokset tai RAD51C-promoottorin metylaatio), PARP:n esto johtaa synteettiseen letaalisuuteen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Niraparib (epävirallinen käännös): ”Niraparibi on PARP-entsyymien, mukaan lukien PARP-1:n ja PARP-2:n, estäjä; nämä entsyymit osallistuvat DNA:n korjaukseen. In vitro -tutkimukset ovat osoittaneet, että niraparibin aiheuttamaan sytotoksisuuteen saattaa liittyä PARP:n entsymaattisen aktiivisuuden estyminen ja PARP-DNA-kompleksien lisääntynyt muodostuminen, mikä johtaa DNA-vaurioihin, apoptoosiin ja solukuolemaan.” Englanninkielinen alkuteksti: "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), versio 2026-07-28; haettu 2026-11-19). Tunnetun tiedon perusteella niraparibi on PARP-estäjä, joka hyödyntää homologisen rekombinaation puutosta (HRD): kun kasvainsolun DNA:n korjausmekanismi on heikentynyt (esim. BRCA1/2-muutokset tai RAD51C-promoottorin metylaatio), PARP:n esto johtaa synteettiseen letaalisuuteen.
 
 Aineiston tutkimukset ja julkaisut koskevat korkea-asteista seroosia munasarjasyöpää ja kohdun limakalvon seroosia syöpää. Ne ovat alkuperäisen käyttöaiheen (munasarjasyöpä) laajennuksia, eivät varsinaista uudelleenkäyttöä kystiseen neoplasiaan. Yhteys kystiseen neoplasiaan yleisesti on epäsuora.
 
@@ -160,12 +160,13 @@ Muuten turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa kummatkin myyntiluvat on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
 
 <!-- review:end log -->
 

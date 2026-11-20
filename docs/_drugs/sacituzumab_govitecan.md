@@ -60,7 +60,7 @@ Ennuste perustuu pelkästään mallin laskemaan pisteytykseen.
 
 ## Miksi ennuste on perusteltu?
 
-Tällä hetkellä tarkkaa vaikutusmekanismia koskevaa tietoa ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Yleisesti tiedetään, että sasituzumabigovitekaani on Trop-2-kohdennettu vasta-aine-lääkeyhdiste, jonka kuormana on SN-38 (topoisomeraasi I:n estäjä). Lääke on sytotoksinen, ja sen teho rintasyövässä on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Sacituzumab Govitecan (epävirallinen käännös): ”Sakitutsumabigovitekaani-hziy on Trop-2:een kohdentuva vasta-ainelääkekonjugaatti. Sakitutsumabi on humanisoitu vasta-aine, joka tunnistaa Trop-2:n. Pienimolekyylinen SN-38 on topoisomeraasi I:n estäjä, joka on kiinnitetty kovalenttisesti vasta-aineeseen linkkerin avulla.” Englanninkielinen alkuteksti: "Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker." ([DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d), versio 2026-06-24; haettu 2026-11-19). Yleisesti tiedetään, että sasituzumabigovitekaani on Trop-2-kohdennettu vasta-aine-lääkeyhdiste, jonka kuormana on SN-38 (topoisomeraasi I:n estäjä). Lääke on sytotoksinen, ja sen teho rintasyövässä on osoitettu.
 
 Alkuperäisen käyttöaiheen (syöpä) ja ennustetun käyttöaiheen (lääkkeen aiheuttama osteoporoosi) välillä ei ole tuettua mekanistista yhteyttä. Uskottavaa biologista perustetta osteoporoosin hoidolle ei ole. Sytotoksinen solusalpaajahoito todennäköisemmin heikentää luuston terveyttä, esimerkiksi luuytimen toiminnan heikkenemisen ja sukupuolirauhasvaikutusten kautta.
 
@@ -141,12 +141,13 @@ Kohtalaisiksi (Moderate) luokiteltuja ovat mm. alefaseptin, alemtutsumabin, anak
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Trodelvy (EMEA/H/C/005182) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Anakinra on interleukiini-1:n (IL-1) reseptorin salpaaja, jota käytetään tule
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismia ei ole tämän raportin aineistossa saatavilla. Tiedetään kuitenkin, että anakinra salpaa IL-1-reseptorin ja vaimentaa näin IL-1:n välittämää tulehdusta. Tämän perusteella IL-1:n salpaus voisi periaatteessa vaikuttaa mastasoluihin liittyvään tulehdukseen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Anakinra (epävirallinen käännös): ”KINERET salpaa IL-1 alfan ja beetan biologisen aktiivisuuden estämällä kilpailevasti IL-1:n sitoutumista interleukiini-1-reseptoriin tyyppi I (IL-1RI), jota ilmentyy monissa eri kudoksissa ja elimissä. IL-1:n tuotanto käynnistyy tulehdusärsykkeiden seurauksena, ja IL-1 välittää erilaisia fysiologisia vasteita, kuten tulehdus- ja immunologisia vasteita.” Englanninkielinen alkuteksti: "KINERET blocks the biologic activity of IL-1 alpha and beta by competitively inhibiting IL-1 binding to the interleukin-1 type I receptor (IL-1RI), which is expressed in a wide variety of tissues and organs. IL-1 production is induced in response to inflammatory stimuli and mediates various physiologic responses including inflammatory and immunological responses." ([DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de), versio 2026-04-03; haettu 2026-11-19). Tiedetään kuitenkin, että anakinra salpaa IL-1-reseptorin ja vaimentaa näin IL-1:n välittämää tulehdusta. Tämän perusteella IL-1:n salpaus voisi periaatteessa vaikuttaa mastasoluihin liittyvään tulehdukseen.
 
 Tämä mekanistinen yhteys on kuitenkin vain oletus. Aineistossa ei ole kliinisiä tutkimuksia eikä kirjallisuutta, jotka tukisivat anakinran käyttöä ekstrakutaanisessa mastosytoomassa. Ennuste on siksi hypoteesi, ei näyttöön perustuva johtopäätös.
 
@@ -94,6 +94,19 @@ Ennuste perustuu pelkkään mallipisteytykseen (0,9993), eikä sitä tukeva klii
 - Prekliiniset tai mekanistiset tutkimukset IL-1:n roolista mastosolukasvaimissa
 - Yksityiskohtainen vaikutusmekanismitieto (MOA)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kirjaaminen turvallisuusarviota varten
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

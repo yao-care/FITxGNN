@@ -64,7 +64,7 @@ Muut ennustetut käyttöaiheet (kaikki näytön tasolla L5 ja suositus Hold):
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Raloksifeenin vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tiedossa on, että raloksifeeni on SERM-lääke, joka sitoutuu estrogeenireseptoreihin alfa (ESR1) ja beeta (ESR2) sekä GPER-reseptoriin. Sen teho postmenopausaalisessa osteoporoosissa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Raloxifene (epävirallinen käännös): ”Raloksifeeni on estrogeeniagonisti/-antagonisti, jota kutsutaan yleisesti selektiiviseksi estrogeenireseptorin muuntelijaksi (SERM). Raloksifeenin biologiset vaikutukset välittyvät pääosin sitoutumalla estrogeenireseptoreihin. Tämä sitoutuminen johtaa estrogeenisten reittien aktivoitumiseen joissakin kudoksissa (agonismi) ja estrogeenisten reittien salpautumiseen toisissa (antagonismi).” Englanninkielinen alkuteksti: "Raloxifene is an estrogen agonist/antagonist, commonly referred to as a selective estrogen receptor modulator (SERM). The biological actions of raloxifene are largely mediated through binding to estrogen receptors. This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism)." ([DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9), versio 2026-02-11; haettu 2026-11-19). Tiedossa on, että raloksifeeni on SERM-lääke, joka sitoutuu estrogeenireseptoreihin alfa (ESR1) ja beeta (ESR2) sekä GPER-reseptoriin. Sen teho postmenopausaalisessa osteoporoosissa on osoitettu.
 
 Pohjukaissuolen haavauman patofysiologiaan (H. pylori -infektio, mahahapon eritys, tulehduskipulääkkeiden aiheuttama vaurio) ei tämän aineiston perusteella ole osoitettavissa mekanistista yhteyttä raloksifeeniin. Korkea pistemäärä (0,9972) on pelkkä mallin tuottama ennuste, eikä alkuperäisen ja uuden käyttöaiheen välistä samankaltaisuutta ole vielä arvioitu.
 
@@ -128,13 +128,14 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole tällä hetkellä saatavi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”kun voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Evista (EMEA/H/C/000184), Raloxifene Teva (EMEA/H/C/001075)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
 
 <!-- review:end log -->
 

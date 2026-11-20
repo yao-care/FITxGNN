@@ -60,7 +60,7 @@ mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä j
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Prukalopridi on selektiivinen 5-HT4-reseptorin agonisti (reseptorin geeni HTR4), joka lisää ruoansulatuskanavan liikkuvuutta. Sitä käytetään aikuisten kroonisen ummetuksen hoitoon silloin, kun laksatiivit eivät tehoa. Tämän raportin aineistossa ei ole yksityiskohtaista vaikutusmekanismikuvausta, joten mekanistinen arvio perustuu yleiseen farmakologiseen tietoon.
+Prukalopridi on selektiivinen 5-HT4-reseptorin agonisti (reseptorin geeni HTR4), joka lisää ruoansulatuskanavan liikkuvuutta. Sitä käytetään aikuisten kroonisen ummetuksen hoitoon silloin, kun laksatiivit eivät tehoa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Prucalopride (epävirallinen käännös): ”Prukalopridi, selektiivinen serotoniinityypin 4 (5-HT 4 ) reseptorin agonisti, on maha-suolikanavan (GI) prokineettinen aine, joka stimuloi paksusuolen peristaltiikkaa (suuriamplitudiset etenevät supistukset [HAPC]), mikä lisää suolen motiliteettia. Prukalopridilla ei ollut in vitro 5-HT 2A-, 5-HT 2B-, 5-HT 3-, motiliini- tai CCK-A-reseptorien välittämiä vaikutuksia pitoisuuksilla, jotka ylittivät 5-HT 4 -reseptoriaffiniteetin vähintään 150-kertaisesti.” Englanninkielinen alkuteksti: "Prucalopride, a selective serotonin type 4 (5-HT 4 ) receptor agonist, is a gastrointestinal (GI) prokinetic agent that stimulates colonic peristalsis (high-amplitude propagating contractions [HAPCs]), which increases bowel motility. Prucalopride was devoid of effects mediated via 5-HT 2A, 5-HT 2B, 5-HT 3, motilin or CCK-A receptors in vitro at concentrations exceeding 5-HT 4 receptor affinity by 150-fold or greater." ([DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b), versio 2025-07-17; haettu 2026-11-19).
 
 Alkuperäisellä käyttöaiheella (ummetus) ja ennustetulla käyttöaiheella (HDL-kolesterolin puutos) ei ole tunnistettavaa yhteyttä. Aineiston arvion mukaan 5-HT4-agonismilla ei ole tunnettua roolia HDL-aineenvaihdunnassa tai lipoproteiinien säätelyssä. Korkea pistemäärä on graafipohjainen ennuste, eikä sitä tue mikään kliininen tai kirjallisuusnäyttö.
 
@@ -133,12 +133,13 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Resolor (EMEA/H/C/001012) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b) |
 
 <!-- review:end log -->
 

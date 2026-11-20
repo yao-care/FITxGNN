@@ -54,7 +54,7 @@ Okrelitsumabi on CD20-vasta-aine, jota käytetään alun perin multippeliskleroo
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Okrelitsumabi on humanisoitu monoklonaalinen vasta-aine, joka kohdistuu CD20:ta ilmentäviin B-soluihin ja tuhoaa niitä. Tarkempaa vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Tunnetun tiedon perusteella lääkkeen teho MS-taudissa on osoitettu B-solujen tuhoamisen kautta.
+Okrelitsumabi on humanisoitu monoklonaalinen vasta-aine, joka kohdistuu CD20:ta ilmentäviin B-soluihin ja tuhoaa niitä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ocrelizumab (epävirallinen käännös): ”Okrelitsumabin terapeuttisten vaikutusten tarkkaa mekanismia MS-taudissa ei tunneta, mutta sen oletetaan perustuvan sitoutumiseen CD20:een, joka on esi-B-lymfosyyttien ja kypsien B-lymfosyyttien pinnalla esiintyvä solun pinta-antigeeni. Sitouduttuaan B-lymfosyyttien solupintaan okrelitsumabi saa aikaan vasta-aineesta riippuvaisen soluvälitteisen sytolyysin ja komplementtivälitteisen lyysin.” Englanninkielinen alkuteksti: "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d), versio 2026-05-14; haettu 2026-11-19). Tunnetun tiedon perusteella lääkkeen teho MS-taudissa on osoitettu B-solujen tuhoamisen kautta.
 
 Suoraa mekanistista yhteyttä HER2-positiiviseen rintasyöpään ei ole. Kyseinen syöpä on epiteeliperäinen kasvain, joka ei ilmennä CD20:tä, eikä B-solujen tuhoamisella ole tässä tautimuodossa vakiintunutta kasvainta vastustavaa roolia. Hyvin korkea pistemäärä (0,9989) voi heijastaa verkostotason yhteyksiä, esimerkiksi kasvaimen immuunimikroympäristöön ja kasvaimeen infiltroituviin lymfosyytteihin liittyvää biologiaa. Tätä tukevaa aineistoa ei kuitenkaan ollut käytettävissä.
 
@@ -115,12 +115,13 @@ Muista turvallisuustiedoista (varoitukset ja vasta-aiheet) katso valmisteyhteenv
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Ocrevus (EMEA/H/C/004043) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
 
 <!-- review:end log -->
 

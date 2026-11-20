@@ -56,7 +56,7 @@ mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta
 
 ## Miksi ennuste voi olla perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismin kuvausta. Tunnetun farmakologian perusteella nelarabiini on ara-G:n (deoksiguanosiinianalogi) esilääke. Se kertyy soluihin ara-GTP:nä ja estää DNA-synteesiä, ja vaikutus kohdistuu valikoivasti T-lymfosyytteihin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Nelarabine (epävirallinen käännös): ”Nelarabiini on deoksiguanosiinianalogin 9-β-D-arabinofuranosyyliguaniinin (ara-G) aihiolääke ja nukleosidiaineenvaihdunnan estäjä. ADA demetyloi nelarabiinin ara-G:ksi, joka monofosforyloituu deoksiguanosiinikinaasin ja deoksisytidiinikinaasin vaikutuksesta ja muuttuu sen jälkeen aktiiviseksi 5’-trifosfaatiksi, ara-GTP:ksi.” Englanninkielinen alkuteksti: "Nelarabine is a prodrug of the deoxyguanosine analogue 9-β- D -arabinofuranosylguanine (ara-G), a nucleoside metabolic inhibitor. Nelarabine is demethylated by ADA to ara-G, mono-phosphorylated by deoxyguanosine kinase and deoxycytidine kinase, and subsequently converted to the active 5’-triphosphate, ara-GTP." ([DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca), versio 2025-03-31; haettu 2026-11-19). Tunnetun farmakologian perusteella nelarabiini on ara-G:n (deoksiguanosiinianalogi) esilääke. Se kertyy soluihin ara-GTP:nä ja estää DNA-synteesiä, ja vaikutus kohdistuu valikoivasti T-lymfosyytteihin.
 
 MS-taudissa autoreaktiiviset T-solut ovat keskeisessä asemassa. T-solujen vähentäminen voisi siksi teoriassa olla hyödyllistä. Ajatus muistuttaa kladribiinia, joka on puriinianalogi ja hyväksytty relapsoivan MS-taudin hoitoon. Tämä yhteys on kuitenkin pelkkä päätelmä, eikä sitä tue mikään tähän raporttiin koottu tutkimusnäyttö.
 
@@ -133,12 +133,13 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetiedot on vielä hankittava.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa ja y” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Atriance (EMEA/H/C/000752) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca) |
 
 <!-- review:end log -->
 

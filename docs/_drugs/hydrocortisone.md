@@ -54,7 +54,7 @@ Hydrokortisoni on lyhytvaikutteinen glukokortikoidi, jota käytetään lisämunu
 
 ## Miksi ennuste on perusteltu?
 
-Hydrokortisoni on glukokortikoidi, jolla on tulehdusta ja immuunivastetta vaimentava vaikutus. Tarkempi vaikutusmekanismitieto ei ole käytettävissä tähän raporttiin kootuissa tiedoissa.
+Hydrokortisoni on glukokortikoidi, jolla on tulehdusta ja immuunivastetta vaimentava vaikutus. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Hydrocortisone (epävirallinen käännös): ”Hydrokortisoni on glukokortikoidi. Glukokortikoidit, lisämunuaiskuoren steroidit, aiheuttavat monenlaisia metabolisia vaikutuksia. Lisäksi ne muokkaavat elimistön immuunivasteita erilaisiin ärsykkeisiin..” Englanninkielinen alkuteksti: "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.." ([DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682), versio 2026-04-21; haettu 2026-11-19).
 
 Pälvikaljuus on T-solujen välittämä autoimmuunisairaus, jossa immuunijärjestelmä hyökkää hiusfolliklien kimppuun. Paikallisen immuuniaktiivisuuden vaimentaminen on siksi mekanistisesti uskottavaa. Kortikosteroidien käytöstä on vanhoja kuvauksia vuosilta 1956–1958, joissa on käytetty suonensisäisesti ihoon (leesion sisään) annettua tai systeemistä hoitoa.
 
@@ -106,6 +106,18 @@ Näyttötaso on L2: pälvikaljuudesta on yksi päättynyt satunnaistettu lasten 
 - Vaikutusmekanismitiedot
 - Pakkausselosteen varoitus- ja vasta-aihetiedot
 - Annostus- ja antoreittiarvio (paikallinen vs. leesionsisäinen), koska nykyiset myyntiluvat koskevat suun kautta otettavia valmisteita
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

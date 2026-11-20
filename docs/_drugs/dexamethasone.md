@@ -54,7 +54,7 @@ Deksametasoni on glukokortikoidi, jota käytetään Suomessa silmän makulaturvo
 
 ## Miksi ennuste on mahdollinen?
 
-Tässä käytettävissä olevassa aineistossa ei ole yksityiskohtaista tietoa deksametasonin vaikutusmekanismista. Tiedossa on, että deksametasoni on glukokortikoidi, jonka tulehdusta vähentävä ja immuunivastetta hillitsevä vaikutus on osoitettu sen nykyisissä käyttöaiheissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Dexamethasone (epävirallinen käännös): ”Deksametasoni on kortikosteroidi, jolla on tulehdusta estäviä vaikutuksia ja vähäinen mineralokortikoidiaktiivisuus. Tarkkaa vaikutusmekanismia multippelissa myeloomassa ei tunneta. Deksametasoni indusoi multippelin myelooman solujen apoptoosia.” Englanninkielinen alkuteksti: "Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells." ([DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129), versio 2026-01-09; haettu 2026-11-19). Tiedossa on, että deksametasoni on glukokortikoidi, jonka tulehdusta vähentävä ja immuunivastetta hillitsevä vaikutus on osoitettu sen nykyisissä käyttöaiheissa.
 
 Ennusteen korkea pistemäärä johtuu todennäköisesti siitä, että alopecia mucinosa muistuttaa muita tulehduksellisia hiustenlähtösairauksia. Mahdollinen mekanistinen yhteys, eli tulehdusta hillitsevä vaikutus follikkelia ympäröivässä lymfosyyttisoluinfiltraatissa, on toistaiseksi spekulatiivinen. Deksametasonin käyttöä tähän sairauteen tukevaa kliinistä tai kirjallista näyttöä ei ole.
 
@@ -116,11 +116,12 @@ Ennuste perustuu ainoastaan laskennalliseen malliin (näytön taso L5), eikä se
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Ozurdex (EMEA/H/C/001140), Neofordex (EMEA/H/C/004071)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Meropeneemi on laajakirjoinen karbapeneemiantibiootti, joka estää bakteerin so
 
 ## Miksi ennuste on perusteltu?
 
-Meropeneemi on karbapeneemi, joka sitoutuu penisilliiniä sitoviin proteiineihin ja estää bakteerin soluseinän synteesiä. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla, mutta lääkeryhmän yleinen vaikutustapa on tunnettu.
+Meropeneemi on karbapeneemi, joka sitoutuu penisilliiniä sitoviin proteiineihin ja estää bakteerin soluseinän synteesiä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Meropenem (epävirallinen käännös): ”Meropeneemi on bakteerilääke. […] Meropeneemin bakterisidinen vaikutus perustuu soluseinän synteesin estoon. Meropeneemi läpäisee useimpien grampositiivisten ja gramnegatiivisten bakteerien soluseinän ja sitoutuu penisilliiniä sitoviin proteiineihin (PBP), jotka ovat sen kohteita.” Englanninkielinen alkuteksti: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), versio 2026-11-02; haettu 2026-11-19).
 
 Bakteeriperäinen niveltulehdus on herkkien gramnegatiivisten tai sekabakteerien aiheuttama infektio. Meropeneemin laaja vaikutuskirjo tekee siitä mekanistisesti uskottavan vaihtoehdon, erityisesti monilääkeresistenteissä tapauksissa. Tuki on kuitenkin epäsuoraa: kirjallisuus koostuu melioidoosin luu- ja niveltulehduksia käsittelevästä takautuvasta kohorttitutkimuksesta, farmakokinetiikka- ja kudoskulkeutumistutkimuksista sekä yksittäisistä tapausselostuksista. Näyttö koskee tiettyjä taudinaiheuttajia, ei bakteeriperäistä niveltulehdusta kokonaisuutena.
 
@@ -104,6 +104,18 @@ Muuten turvallisuustiedot ovat valmisteyhteenvedossa.
 - Vaikutusmekanismitietojen täydentäminen
 - Arvio meropeneemin paikasta verrattuna nykyisiin ensisijaisiin hoitoihin sekä resistenssinhallinnan (antibioottien järkevän käytön) näkökulmasta
 - Kliinisen tutkimuksen suunnittelu, jos jatkoselvitys tukee asiaa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

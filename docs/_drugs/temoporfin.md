@@ -60,7 +60,7 @@ Näyttö on pelkkää mallipohjaista ennustetta.
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Temoporfiinin tarkkaa vaikutusmekanismia ei ole tämän raportin aineistossa saatavilla. Tiedetään kuitenkin, että temoporfiini on valoherkistäjä: valolla aktivoituna se tuottaa paikallista solutuhoa, ja sitä on käytetty pitkälle edenneen pään ja kaulan levyepiteelisyövän hoitoon EU:ssa.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Temoporfin vaikutusmekanismiksi (epävirallinen käännös): ”Valoherkistäjä” Englanninkielinen alkuteksti: "Photosensitizer" ([ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576), CC BY-SA 3.0; haettu 2026-11-19). Tiedetään kuitenkin, että temoporfiini on valoherkistäjä: valolla aktivoituna se tuottaa paikallista solutuhoa, ja sitä on käytetty pitkälle edenneen pään ja kaulan levyepiteelisyövän hoitoon EU:ssa.
 
 Ennustetun käyttöaiheen yhteys alkuperäiseen on heikko. Nenänielu sijaitsee pään ja kaulan alueella, joten anatominen yhteys on olemassa. Teratooma on kuitenkin itusolu­peräinen kasvain, eikä aineistossa ole sitä tukevaa kliinistä tai prekliinistä näyttöä. Korkea pistemäärä voi heijastaa yleistä kasvainten välistä yhteyttä mallin verkossa.
 
@@ -147,13 +147,14 @@ Huomioita ennustettuihin käyttöaiheisiin liittyen: syvällä sijaitsevat kasva
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi ainoa Suomessa tunnettu myyntilupa on peruutettu ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitystä temoporfiinin nykyisestä saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Foscan (EMEA/H/C/000318) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **pohjukaissuolen haavaumaan** (duodenal 
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin aineistossa ei ole yksityiskohtaista vaikutusmekanismitietoa. Farmakologiatietojen mukaan teriparatidi sitoutuu PTH1- ja PTH2-reseptoreihin (PTH1R, PTH2R). Luuta uudistava vaikutus osteoporoosissa perustuu tunnetusti PTH-signalointiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Teriparatide (epävirallinen käännös): ”Elimistön oma 84 aminohaposta koostuva lisäkilpirauhashormoni (PTH) on kalsium- ja fosfaattiaineenvaihdunnan ensisijainen säätelijä luussa ja munuaisissa. PTH:n fysiologisiin vaikutuksiin kuuluvat luun aineenvaihdunnan, kalsiumin ja fosfaatin munuaistubulusten takaisinimeytymisen sekä kalsiumin suolistoimeytymisen säätely. […] PTH:n ja teriparatidin biologiset vaikutukset välittyvät sitoutumalla spesifisiin, suuren affiniteetin solun pinnan reseptoreihin.” Englanninkielinen alkuteksti: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), versio 2026-08-31; haettu 2026-11-19). Farmakologiatietojen mukaan teriparatidi sitoutuu PTH1- ja PTH2-reseptoreihin (PTH1R, PTH2R). Luuta uudistava vaikutus osteoporoosissa perustuu tunnetusti PTH-signalointiin.
 
 Aineiston perusteella teriparatidin ja pohjukaissuolen haavauman välille ei löydy uskottavaa mekanistista yhteyttä. Luuta rakentava PTH-signalointi ei selitä haavaumataudin patofysiologiaa. Korkea pistemäärä on graafipohjaisen mallin tulos, eikä sitä tue kliininen tai kirjallisuusnäyttö. Ennustetta on siksi pidettävä hypoteesina, ei perusteltuna hoitosuosituksena.
 
@@ -137,13 +137,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava Fimean valmiste
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->
 

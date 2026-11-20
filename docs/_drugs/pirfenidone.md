@@ -62,7 +62,7 @@ Parhaiten tuettu ennustettu kohde on **fibroblastinen neoplasia** (sija 9), jonk
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella pirfenidoni on fibroosia estävä ja tulehdusta vaimentava lääke, jonka teho idiopaattisessa keuhkofibroosissa on osoitettu. Mekanismin on raportoitu vaimentavan muun muassa TGF-β:n ja TNF-α:n toimintaa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pirfenidone (epävirallinen käännös): ”Pirfenidonin vaikutusmekanismia IPF:n hoidossa ei ole selvitetty.” Englanninkielinen alkuteksti: "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e), versio 2025-12-05; haettu 2026-11-19). Tunnetun tiedon perusteella pirfenidoni on fibroosia estävä ja tulehdusta vaimentava lääke, jonka teho idiopaattisessa keuhkofibroosissa on osoitettu. Mekanismin on raportoitu vaimentavan muun muassa TGF-β:n ja TNF-α:n toimintaa.
 
 Ensisijaisen ennusteen (ekstrakutaaninen mastosytooma) kohdalla mekanistista yhteyttä ei ole osoitettu. Mastosolukasvaimia ajaa tyypillisesti KIT-mutaatio, eikä pirfenidonin vaikutuksella ole tunnettua yhteyttä tähän. Sama koskee muita kärkiennusteita: dermatofibrosarcoma protuberans (COL1A1-PDGFB-fuusio), aggressiivinen systeeminen mastosytoosi (KIT D816V) ja matala-asteinen fibromyxoidi sarkooma (FUS-CREB3L2-fuusio). Perhetyypin Välimeren kuume on teoriassa yhdistettävissä pirfenidonin tulehdusta vaimentavaan vaikutukseen, mutta kolkisiini ja IL-1-estäjät ovat vakiintuneita hoitoja.
 
@@ -162,7 +162,7 @@ Muuten turvallisuustiedoista, varoituksista ja vasta-aiheista, tulee tutustua va
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -170,6 +170,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syiden ja tämän vaikutuksen selvittäminen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (Pirfenidone Viatris (EMEA/H/C/005862), Esbriet (EMEA/H/C/002154), Pirfenidone axunio (EMEA/H/C/005873)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
 
 <!-- review:end log -->
 

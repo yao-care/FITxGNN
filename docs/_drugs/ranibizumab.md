@@ -60,7 +60,7 @@ Tätä suuntaa tukee **18 julkaisua**, mutta tähän käyttöaiheeseen ei ole an
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytettävissä oleva tieto ei sisällä yksityiskohtaista vaikutusmekanismia. Lääkeluokan perusteella ranibitsumabi on VEGF:ää estävä vasta-ainefragmentti. Päätelmä perustuu lääkeluokkaan, ei toimitettuun lääketietueeseen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ranibizumab (epävirallinen käännös): ”Ranibitsumabivalmisteet sitoutuvat VEGF-A:n aktiivisten muotojen reseptoria sitovaan kohtaan, mukaan lukien tämän molekyylin biologisesti aktiivinen, pilkottu muoto VEGF110. VEGF-A:n on osoitettu aiheuttavan uudissuonittumista ja vuotoa silmän angiogeneesin ja verisuonitukoksen malleissa, ja sen arvellaan osaltaan vaikuttavan neovaskulaarisen AMD:n, mCNV:n, DR:n, DME:n ja RVO:n jälkeisen makulaturvotuksen patofysiologiaan.” Englanninkielinen alkuteksti: "Ranibizumab products bind to the receptor binding site of active forms of VEGF-A, including the biologically active, cleaved form of this molecule, VEGF110. VEGF-A has been shown to cause neovascularization and leakage in models of ocular angiogenesis and vascular occlusion and is thought to contribute to pathophysiology of neovascular AMD, mCNV, DR, DME and macular edema following RVO." ([DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a), versio 2026-11-05; haettu 2026-11-19). Lääkeluokan perusteella ranibitsumabi on VEGF:ää estävä vasta-ainefragmentti. Päätelmä perustuu lääkeluokkaan, ei toimitettuun lääketietueeseen.
 
 Diabeettisessa retinopatiassa VEGF lisää verkkokalvon verisuonten läpäisevyyttä ja uudissuonten muodostusta. VEGF:n esto voi siksi lieventää taudin vaikeusastetta. Sama mekanismi on taustalla lääkkeen alkuperäisissä käyttöaiheissa (kostea ikärappeuma, diabeettinen makulaturvotus ja diabeettinen retinopatia), joten uusi käyttöaihe on mekanistisesti lähellä vanhoja.
 
@@ -153,7 +153,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla, joten 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -161,6 +161,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”ja suomalaiset myyntiluvat ovat kaikki peruutettuja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 5 myyntilupaa (Ximluci (EMEA/H/C/005617), Lucentis (EMEA/H/C/000715), Epruvy (EMEA/H/C/006528), Ranivisio (EMEA/H/C/005019), Rimmyrah (EMEA/H/C/006055)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
 
 <!-- review:end log -->
 

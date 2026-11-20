@@ -60,7 +60,7 @@ Paliperidoni on psykoosilääke, jota on alun perin käytetty skitsofrenian ja p
 
 ## Miksi ennuste on järkevä?
 
-Tähän raporttia varten koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan paliperidoni (9-hydroksirisperidoni, risperidonin aktiivinen metaboliitti) on dopamiini D2- ja serotoniini 5-HT2A -reseptorien antagonisti. Sen teho skitsofreniassa on osoitettu, ja mekanistisesti se voi olla relevantti myös hoitoresistentissä skitsofreniassa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Paliperidone (epävirallinen käännös): ”Paliperidoni on risperidonin tärkein aktiivinen metaboliitti. Paliperidonin vaikutusmekanismi skitsofreniassa on epäselvä. Lääkkeen terapeuttinen vaikutus skitsofreniassa saattaa kuitenkin välittyä keskushermoston dopamiinityypin 2 (D 2 ) ja serotoniinityypin 2 (5HT 2A ) reseptoreiden antagonismin yhdistelmän kautta.” Englanninkielinen alkuteksti: "Paliperidone is the major active metabolite of risperidone. The mechanism of action of paliperidone in schizophrenia is unclear. However, the drug's therapeutic effect in schizophrenia could be mediated through a combination of central dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916), versio 2025-01-31; haettu 2026-11-19). Tunnetun tiedon mukaan paliperidoni (9-hydroksirisperidoni, risperidonin aktiivinen metaboliitti) on dopamiini D2- ja serotoniini 5-HT2A -reseptorien antagonisti. Sen teho skitsofreniassa on osoitettu, ja mekanistisesti se voi olla relevantti myös hoitoresistentissä skitsofreniassa.
 
 Hoitoresistentti skitsofrenia on skitsofrenian alaryhmä, joten yhteys alkuperäiseen käyttöaiheeseen on suora. Toisaalta tätä potilasryhmää hoidetaan tyypillisesti klotsapiinilla, ainoalla hoitoresistentin skitsofrenian hoitoon hyväksytyllä lääkkeellä. Paliperidonin lisäarvo tässä ryhmässä on siksi epävarma, eikä kyse ole aidosta uudelleenkäytöstä.
 
@@ -146,13 +146,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ni
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen tarkistus (aineiston mukaan vain peruutettu lupa, mikä tulee varmistaa)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Invega (EMEA/H/C/000746) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Tukena on **0 kliinistä tutkimusta** ja **1 julkaisu** (prekliininen), joten n�
 
 ## Miksi ennuste on perusteltu?
 
-Emtrisitabiinin yksityiskohtaista vaikutusmekanismia ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella emtrisitabiini on HIV-1:n käänteiskopioijaentsyymiä estävä NRTI-lääke, jonka teho HIV-infektiossa on osoitettu. Se on osa useita yhdistelmävalmisteita, kuten tenofoviirin kanssa käytettäviä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Emtricitabine (epävirallinen käännös): ”Emtrisitabiini on antiretroviraalinen lääke. […] FTC, sytidiinin synteettinen nukleosidianalogi, fosforyloituu solun entsyymien vaikutuksesta emtrisitabiini-5'-trifosfaatiksi (FTC-TP), joka estää HIV-1:n käänteiskopioijaentsyymin (RT) toimintaa kilpailemalla luonnollisen substraatin deoksisytidiini-5'-trifosfaatin kanssa sekä liittymällä syntyvään virus-DNA:han, mikä johtaa ketjun katkeamiseen. FTC-TP on nisäkkäiden DNA-polymeraasien α, β ja ε sekä mitokondriaalisen DNA-polymeraasi γ:n heikko estäjä.” Englanninkielinen alkuteksti: "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f), versio 2026-11-06; haettu 2026-11-19). Tunnetun tiedon perusteella emtrisitabiini on HIV-1:n käänteiskopioijaentsyymiä estävä NRTI-lääke, jonka teho HIV-infektiossa on osoitettu. Se on osa useita yhdistelmävalmisteita, kuten tenofoviirin kanssa käytettäviä.
 
 Kissan immuunipuutosvirus (FIV) on lentivirus, jonka käänteiskopioijaentsyymi muistuttaa rakenteellisesti HIV:n entsyymiä. NRTI-vaikutus on siksi biologisesti uskottava. Ainoa löydetty julkaisu (2023) tutkii yhdistelmähoitoa (dolutegraviiri, tenofoviiri ja emtrisitabiini) FIV-infektoiduilla kissoilla ja tukee vain epäsuoraa, prekliinistä merkitystä.
 
@@ -148,13 +148,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla; tarkista
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 18 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on peruutettu, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
 
 <!-- review:end log -->
 

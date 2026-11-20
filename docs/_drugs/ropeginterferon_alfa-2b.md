@@ -58,7 +58,7 @@ Ropeginterferoni alfa-2b on pegyloitu interferoni, jota käytetään alun perin 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa (MOA). Tiedossa on, että ropeginterferoni alfa-2b on myeloproliferatiivisten neoplasioiden hoitoon käytetty interferonivalmiste, joka vaikuttaa interferonisignaloinnin kautta ja vähentää JAK2V617F-mutaatiota kantavaa kloonia.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ropeginterferon Alfa-2B (epävirallinen käännös): ”Interferoni alfa kuuluu tyypin I interferonien ryhmään, jotka saavat aikaan solutason vaikutuksensa polysytemia verassa ja essentiaalisessa trombosytemiassa luuytimessä sitoutumalla transmembraaniseen reseptoriin, jota kutsutaan interferoni alfa -reseptoriksi (IFNAR). Sitoutuminen IFNAR:iin käynnistää alavirran signalointikaskadin aktivoimalla kinaaseja, erityisesti Janus-kinaasi 1:tä (JAK1) ja tyrosiinikinaasi 2:ta (TYK2), sekä transkription aktivaattoriproteiineja (STAT).” Englanninkielinen alkuteksti: "Interferon alfa belongs to the class of type I interferons, which exhibit their cellular effects in polycythemia vera and essential thrombocythemia in the bone marrow by binding to a transmembrane receptor termed interferon alfa receptor (IFNAR). Binding to IFNAR initiates a downstream signaling cascade through the activation of kinases, in particular Janus kinase 1 (JAK1) and tyrosine kinase 2 (TYK2) and activator of transcription (STAT) proteins." ([DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb), versio 2026-08-25; haettu 2026-11-19). Tiedossa on, että ropeginterferoni alfa-2b on myeloproliferatiivisten neoplasioiden hoitoon käytetty interferonivalmiste, joka vaikuttaa interferonisignaloinnin kautta ja vähentää JAK2V617F-mutaatiota kantavaa kloonia.
 
 Laubry-Pezzin oireyhtymä (kammiovälikaivon vika ja aorttaläpän vuoto) on rakenteellinen synnynnäinen sydänvika. Sillä ja PV:llä ei ole tunnistettavaa yhteistä patofysiologiaa. Interferonivälitteinen myeloproliferatiivisten kloonien suppressio ei vaikuta rakenteellisiin sydänvikoihin.
 
@@ -154,13 +154,14 @@ Katso turvallisuustiedot valmisteyhteenvedosta. Lääkeinteraktioita ei löytyny
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä, sillä valmisteella ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Besremi (EMEA/H/C/004128) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Emisitsumabi on bispesifinen vasta-aine, joka yhdistää aktivoituneen tekijän 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Emisitsumabi toimii sitomalla yhteen aktivoituneen tekijän IX ja tekijän X. Näin se korvaa puuttuvan tekijä VIII:n kofaktoritoiminnan hyytymiskaskadissa. Tämän raportin taustatiedoissa ei ole tarkempaa kuvausta vaikutusmekanismista, joten mekanistinen arvio perustuu yleiseen tietoon lääkkeestä.
+Emisitsumabi toimii sitomalla yhteen aktivoituneen tekijän IX ja tekijän X. Näin se korvaa puuttuvan tekijä VIII:n kofaktoritoiminnan hyytymiskaskadissa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Emicizumab (epävirallinen käännös): ”HEMLIBRA yhdistää aktivoidun tekijä IX:n ja tekijä X:n palauttaen puuttuvan aktivoidun tekijä VIII:n toiminnan, jota tarvitaan tehokkaaseen hemostaasiin.” Englanninkielinen alkuteksti: "HEMLIBRA bridges activated factor IX and factor X to restore the function of missing activated factor VIII that is needed for effective hemostasis." ([DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071), versio 2025-07-11; haettu 2026-11-19).
 
 Pseudo-von Willebrandin tauti on verihiutaletyyppinen verenvuotohäiriö. Sen aiheuttaa GP1BA-geenin toiminnanlisäysmutaatio, joka lisää verihiutaleiden sitoutumista von Willebrand -tekijään. Emisitsumabin tekijä VIII:aa jäljittelevä mekanismi ei korjaa tätä primaarista verihiutaleviastaa.
 
@@ -96,6 +96,19 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Kirjallisuushaku ja tutkimusrekisterien tarkistus tähän nimenomaiseen sairauteen
 - Valmisteyhteenvedon turvallisuustietojen kokoaminen, erityisesti trombioottisen mikroangiopatian riski yhdistelmäkäytössä
 - Vaikutusmekanismitietojen täydentäminen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -60,7 +60,7 @@ TxGNN-malli ennustaa sen voivan tehota **unettomuuteen** (toisena ennusteena alk
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytettävissä olevassa aineistossa ei ole tarkkaa vaikutusmekanismitietoa. Yleisen farmakologian perusteella remimatsolaami on GABA-A-reseptorin positiivinen allosteerinen modulaattori, kuten muutkin bentsodiatsepiinit ja Z-lääkkeet, joita käytetään unettomuuden hoitoon. Tämä tekee ennusteesta biologisesti uskottavan, mutta päätelmä perustuu yleistietoon eikä toimitettuun aineistoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Remimazolam (epävirallinen käännös): ”BYFAVO on bentsodiatsepiini. BYFAVO sitoutuu aivojen bentsodiatsepiinikohtiin (gamma-aminovoihappo tyyppi A [GABA A ] -reseptoreihin), kun taas sen karboksyylihappometaboliitin (CNS7054) affiniteetti reseptoriin on 300 kertaa pienempi.” Englanninkielinen alkuteksti: "BYFAVO is a benzodiazepine. BYFAVO binds to brain benzodiazepine sites (gamma amino butyric acid type A [GABA A ] receptors), while its carboxylic acid metabolite (CNS7054) has a 300 times lower affinity for the receptor." ([DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f), versio 2025-02-20; haettu 2026-11-19). Yleisen farmakologian perusteella remimatsolaami on GABA-A-reseptorin positiivinen allosteerinen modulaattori, kuten muutkin bentsodiatsepiinit ja Z-lääkkeet, joita käytetään unettomuuden hoitoon. Tämä tekee ennusteesta biologisesti uskottavan, mutta päätelmä perustuu yleistietoon eikä toimitettuun aineistoon.
 
 Alkuperäinen käyttöaihe (sedaatio) ja unettomuus liittyvät molemmat keskushermoston estoon GABA-järjestelmän kautta. Lääkkeen hyvin lyhyt vaikutusaika (nopea esteraasihajoaminen) voisi auttaa nukahtamisessa, mutta tuskin ylläpitää untaa. Lisäksi lääke on kehitetty vain suonensisäiseen käyttöön toimenpidesedaatiossa ja anestesiassa. Suun kautta otettavaa valmistetta ei ole kuvattu, mikä heikentää soveltuvuutta pitkäaikaiseen unettomuuden hoitoon.
 
@@ -135,13 +135,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa valmisteyhteenve
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä on vain peruutettu myyntilupa uomessa, s” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Byfavo (EMEA/H/C/005246) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f) |
 
 <!-- review:end log -->
 

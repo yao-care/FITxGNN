@@ -54,7 +54,7 @@ Galkanetsumabi on CGRP-neuropeptidiin (calcitonin gene-related peptide) sitoutuv
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tarkempaa tietoa galkanetsumabin vaikutusmekanismista ei tässä aineistossa ole saatavilla. Tiedetään, että galkanetsumabi on monoklonaalinen vasta-aine, joka sitoutuu CGRP:hen ja neutraloi sen vaikutuksen. Tätä hyödynnetään migreenin ehkäisyssä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Galcanezumab (epävirallinen käännös): ”Galkanetsumabi-gnlm on humanisoitu monoklonaalinen vasta-aine, joka sitoutuu kalsitoniinigeeniin liittyvän peptidin (CGRP) ligandiin ja estää sen sitoutumisen reseptoriin.” Englanninkielinen alkuteksti: "Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0), versio 2026-06-05; haettu 2026-11-19). Tiedetään, että galkanetsumabi on monoklonaalinen vasta-aine, joka sitoutuu CGRP:hen ja neutraloi sen vaikutuksen. Tätä hyödynnetään migreenin ehkäisyssä.
 
 Hepariinikofaktori 2:n puutos on perinnöllinen trombofilia, jossa trombiinin esto on heikentynyt (SERPIND1-geeni). CGRP-signalointia ei tiedetä osalliseksi hyytymiskaskadissa eikä hepariinikofaktori II:n toiminnassa. CGRP:tä neutraloivan vasta-aineen ei siten odoteta korjaavan serpiinin puutosta.
 
@@ -92,6 +92,19 @@ Huomioitavaa: CGRP:llä on verisuonia laajentavia tehtäviä, joten CGRP-salpauk
 - Vaikutusmekanismitietojen täydentäminen
 - Perusteltu biologinen hypoteesi CGRP-salpauksen ja hepariinikofaktori 2:n toiminnan yhteydestä ennen minkään tutkimuksen suunnittelua
 - Trombo-embolisen turvallisuuden arviointi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

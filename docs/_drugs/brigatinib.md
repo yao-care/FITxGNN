@@ -60,7 +60,7 @@ Ennuste perustuu pelkästään tietämysgraafiin, ja näyttö on tasoa **L5**.
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Brigatinibin tarkkaa vaikutusmekanismia ei ole tämän raportin aineistossa saatavilla. Tiedetään kuitenkin, että brigatinibi on toisen sukupolven ALK-tyrosiinikinaasin estäjä, jonka teho ALK-positiivisessa NSCLC:ssä on osoitettu vaiheen 3 ALTA-1L-tutkimuksessa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Brigatinib (epävirallinen käännös): ”Brigatinibi on tyrosiinikinaasin estäjä (TKI), jolla on kliinisesti saavutettavissa pitoisuuksissa in vitro -aktiivisuutta useita kinaaseja, kuten ALK:ta, ROS1:tä, insuliininkaltaisen kasvutekijä 1:n reseptoria (IGF-1R) ja FLT-3:a, sekä EGFR:n deleetio- ja pistemutaatioita vastaan. Brigatinibi esti ALK:n autofosforylaatiota sekä alavirran signalointiproteiinien STAT3:n, AKT:n, ERK1/2:n ja S6:n ALK-välitteistä fosforylaatiota in vitro- ja in vivo -määrityksissä.” Englanninkielinen alkuteksti: "Brigatinib is a tyrosine kinase inhibitor (TKI) with in vitro activity at clinically achievable concentrations against multiple kinases including ALK, ROS1, insulin-like growth factor-1 receptor (IGF-1R), and FLT-3 as well as EGFR deletion and point mutations. Brigatinib inhibited autophosphorylation of ALK and ALK-mediated phosphorylation of the downstream signaling proteins STAT3, AKT, ERK1/2, and S6 in in vitro and in vivo assays." ([DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db), versio 2026-01-12; haettu 2026-11-19). Tiedetään kuitenkin, että brigatinibi on toisen sukupolven ALK-tyrosiinikinaasin estäjä, jonka teho ALK-positiivisessa NSCLC:ssä on osoitettu vaiheen 3 ALTA-1L-tutkimuksessa.
 
 Ikenen fibromatoosin ja ALK-positiivisen keuhkosyövän välille ei ole tunnistettu mekanistista yhteyttä. Hyvin korkeat ennustepisteet heijastavat todennäköisesti tietämysgraafin rakennetta, eivät biologista perustetta. Ennuste on siksi hypoteesi, ei näyttöön perustuva johtopäätös.
 
@@ -146,12 +146,13 @@ Muilta osin tarkista turvallisuustiedot valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”almisteen myyntilupa Suomessa on peruutettu, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Alunbrig (EMEA/H/C/004248) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db) |
 
 <!-- review:end log -->
 

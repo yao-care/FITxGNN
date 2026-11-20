@@ -62,7 +62,7 @@ Huomio: näytön taso L2 on määritetty muodollisesti tutkimusasetelman peruste
 
 ## Miksi ennuste on perusteltu?
 
-Tosilitsumabi on humanisoitu monoklonaalinen vasta-aine, joka salpaa IL-6-reseptorin. IL-6 on keskeinen tulehdusta ylläpitävä sytokiini nivelreumassa, ja sen salpaus on vakiintunut hoitomuoto. Yksityiskohtaista vaikutusmekanismitietoa (MOA) ei ole tässä aineistossa saatavilla, mutta IL-6R-salpaus tunnetaan lääkeaineen luokkaominaisuutena.
+Tosilitsumabi on humanisoitu monoklonaalinen vasta-aine, joka salpaa IL-6-reseptorin. IL-6 on keskeinen tulehdusta ylläpitävä sytokiini nivelreumassa, ja sen salpaus on vakiintunut hoitomuoto. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tocilizumab (epävirallinen käännös): ”Tosilitsumabivalmisteet sitoutuvat sekä liukoisiin että kalvoon sitoutuneisiin IL-6-reseptoreihin (sIL-6R ja mIL-6R), ja niiden on osoitettu estävän IL-6-välitteistä signaalinvälitystä näiden reseptorien kautta. IL-6 on pleiotrooppinen tulehdusta edistävä sytokiini, jota tuottavat useat solutyypit, mukaan lukien T- ja B-solut, lymfosyytit, monosyytit ja fibroblastit.” Englanninkielinen alkuteksti: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), versio 2026-10-20; haettu 2026-11-19).
 
 Selkärankareuma on krooninen tulehduksellinen aksiaalinen sairaus, ja IL-6-reitin salpauksen on arveltu voivan vähentää tulehdusta myös siinä. Tämä on mekanistisesti uskottava, mutta kliininen näyttö ei toistaiseksi tue sitä: kaksi vaiheen 3 tutkimusta (NCT01209689, NCT01209702) keskeytettiin, eikä toimitetuista tiedoista käy ilmi kliinistä tehoa. Katsausartikkelit sijoittavat IL-6-salpauksen TNF- ja IL-17-estäjien jälkeiseksi toissijaiseksi vaihtoehdoksi. Tapausselostukset (esim. AA-amyloidoosi selkärankareumassa) ovat kannustavia, mutta anekdoottisia.
 
@@ -168,13 +168,14 @@ Muilta osin turvallisuustiedot on luettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 4 myyntilupaa (RoActemra (EMEA/H/C/000955), Avtozma (EMEA/H/C/006196), Tyenne (EMEA/H/C/005781), Tocilizumab STADA (EMEA/H/C/005984)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
 
 <!-- review:end log -->
 

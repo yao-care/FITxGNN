@@ -54,7 +54,7 @@ Bezlotoksumabi on monoklonaalinen vasta-aine, joka neutraloi Clostridioides diff
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon mukaan bezlotoksumabi on vasta-aine, joka sitoutuu C. difficile -toksiini B:hen ja estää sen vaikutuksen suolen epiteeliin. Sen teho perustuu siis yhden bakteeritoksiinin neutralointiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Bezlotoxumab (epävirallinen käännös): ”ZINPLAVA (betslotoksumabi) on ihmisen monoklonaalinen vasta-aine, joka sitoutuu C. difficile -toksiini B:hen ja neutraloi sen vaikutukset. […] Betslotoksumabi on ihmisen monoklonaalinen vasta-aine, joka sitoutuu C. difficile -toksiini B:hen tasapainodissosiaatiovakiolla (K d ) &lt;1×10 -9 M. Betslotoksumabi estää toksiini B:n sitoutumisen ja estää sen vaikutukset nisäkässoluihin. Betslotoksumabi ei sitoudu C. difficile -toksiini A:han. Aktiivisuus in vitro Betslotoksumabi sitoutuu toksiini B:n epitooppiin, joka on säilynyt kaikissa raportoiduissa C. difficile -kannoissa, vaikka epitoopin sisällä esiintyy aminohapposekvenssin vaihtelua.” Englanninkielinen alkuteksti: "ZINPLAVA (bezlotoxumab) is a human monoclonal antibody that binds to C. difficile toxin B and neutralizes its effects. […] Bezlotoxumab is a human monoclonal antibody that binds C. difficile toxin B with an equilibrium dissociation constant (K d ) of &lt;1×10 -9 M. Bezlotoxumab inhibits the binding of toxin B and prevents its effects on mammalian cells. Bezlotoxumab does not bind to C. difficile toxin A. Activity In Vitro Bezlotoxumab binds to an epitope on toxin B that is conserved across reported strains of C. difficile, although amino acid sequence variation within the epitope does occur." ([DailyMed: Zinplava (bezlotoxumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f479bfe-2bfa-4cc5-9aee-1357364480b0), versio 2024-11-12; haettu 2026-11-19). Tunnetun tiedon mukaan bezlotoksumabi on vasta-aine, joka sitoutuu C. difficile -toksiini B:hen ja estää sen vaikutuksen suolen epiteeliin. Sen teho perustuu siis yhden bakteeritoksiinin neutralointiin.
 
 Akuutti naisen lantion peritoniitti on tyypillisesti usean eri bakteerin aiheuttama tulehdus, joka etenee sukuelimistä ylöspäin. C. difficile -toksiini B:llä ei tunneta olevan roolia sen synnyssä. Uskottavaa mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ei siten ole havaittavissa.
 
@@ -91,6 +91,19 @@ Ennuste perustuu pelkästään mallin laskennalliseen pistemäärään. Mekanist
 - Vaikutusmekanismitietojen täydentämistä
 - Valmisteyhteenvedon turvallisuustietojen kokoamista ja arviointia
 - Valmisteen markkinasaatavuuden selvittämistä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Zinplava (bezlotoxumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f479bfe-2bfa-4cc5-9aee-1357364480b0) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

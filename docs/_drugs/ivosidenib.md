@@ -60,7 +60,7 @@ Ennuste perustuu pelkästään mallilaskentaan, eikä sille ole lääketieteelli
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raportin laadintaa varten koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan ivosidenibi estää mutatoitunutta IDH1-entsyymiä (isositraattidehydrogenaasi 1), ja sitä käytetään IDH1-mutaatiopositiivisissa syövissä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ivosidenib (epävirallinen käännös): ”Ivosidenibi on pienimolekyylinen estäjä, jonka kohteena on mutatoitunut isositraattidehydrogenaasi 1 (IDH1) -entsyymi. AML-potilailla herkiksi IDH1-mutaatioiksi määritellään ne, jotka johtavat 2-hydroksiglutaraatin (2-HG) suurentuneisiin pitoisuuksiin leukemiasoluissa ja joiden kohdalla tehoa ennakoivat 1) kliinisesti merkitsevät remissiot ivosidenibin suositellulla annoksella ja/tai 2) mutatoituneen IDH1:n entsymaattisen aktiivisuuden estyminen sellaisilla ivosidenibipitoisuuksilla, jotka ovat ylläpidettävissä suositellulla annostuksella validoitujen menetelmien mukaan.” Englanninkielinen alkuteksti: "Ivosidenib is a small molecule inhibitor that targets the mutant isocitrate dehydrogenase 1 (IDH1) enzyme. In patients with AML, susceptible IDH1 mutations are defined as those leading to increased levels of 2-hydroxyglutarate (2-HG) in the leukemia cells and where efficacy is predicted by 1) clinically meaningful remissions with the recommended dose of ivosidenib and/or 2) inhibition of mutant IDH1 enzymatic activity at concentrations of ivosidenib sustainable at the recommended dosage according to validated methods." ([DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d), versio 2025-12-22; haettu 2026-11-19). Tunnetun tiedon mukaan ivosidenibi estää mutatoitunutta IDH1-entsyymiä (isositraattidehydrogenaasi 1), ja sitä käytetään IDH1-mutaatiopositiivisissa syövissä.
 
 Bulbaarinen polio on poliovirusten aiheuttama motoneuronien virusinfektio. IDH1:llä ei tunneta roolia poliovirusten replikaatiossa tai taudin synnyssä, joten uskottavaa mekanistista yhteyttä alkuperäisiin syöpäkäyttöaiheisiin ei ole tunnistettu. Korkea pistemäärä (0,9931) on todennäköisesti tietämysgraafin verkostoläheisyyden tuottama artefakti.
 
@@ -148,13 +148,14 @@ Muiden turvallisuustietojen osalta tarkista valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(nykyinen lupa on peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Tibsovo (EMEA/H/C/005936) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d) |
 
 <!-- review:end log -->
 

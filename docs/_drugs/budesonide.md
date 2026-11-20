@@ -54,7 +54,7 @@ Budesonidi on paikallisesti vaikuttava glukokortikoidi, jota käytetään tulehd
 
 ## Miksi ennuste on uskottava?
 
-Budesonidin vaikutusmekanismitietoja ei ole tämän raportin aineistossa saatavilla. Tunnetusti budesonidi on glukokortikoidi, jolla on laaja tulehdusta ja immuunivastetta vaimentava vaikutus. Tämä on periaatteessa yhteensopiva atooppiseen ekseemaan liittyvän tyypin 2 tulehduksen kanssa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Budesonide (epävirallinen käännös): ”Budesonidi on anti-inflammatorinen kortikosteroidi, jolla on voimakas glukokortikoidivaikutus ja heikko mineralokortikoidivaikutus. Tavanomaisissa in vitro- ja eläinmalleissa budesonidin affiniteetti glukokortikoidireseptoriin on noin 200-kertainen ja sen paikallinen anti-inflammatorinen teho 1000-kertainen kortisoliin verrattuna (rotan krotonöljyllä aiheutetun korvaturvotuksen määritys).” Englanninkielinen alkuteksti: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), versio 2026-06-10; haettu 2026-11-19). Tunnetusti budesonidi on glukokortikoidi, jolla on laaja tulehdusta ja immuunivastetta vaimentava vaikutus. Tämä on periaatteessa yhteensopiva atooppiseen ekseemaan liittyvän tyypin 2 tulehduksen kanssa.
 
 Ennusteen tueksi ei kuitenkaan ole kliinistä näyttöä. Kerätty kirjallisuus käsittelee pääosin kontaktiallergiaa, kortikosteroidiyliherkkyyttä tai muita allergisia sairauksia. Ainoa suoraan aiheeseen liittyvä julkaisu on vuoden 2024 prekliininen formulaatiotutkimus, jossa budesonidia sisältäviä nanopartikkeleita muotoiltiin hydrogeeleiksi atooppisen ihottuman paikallishoitoon. Korkea pistemäärä ei siis perustu kliiniseen näyttöön.
 
@@ -111,6 +111,19 @@ Ennusteella on korkea pistemäärä, mutta kliinisiä tutkimuksia ei ole eikä s
 - vaikutusmekanismitietojen täydentämistä
 - valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista
 - kortikosteroidiyliherkkyyden ja systeemisen imeytymisen (esim. lasten kasvu) arviointia
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

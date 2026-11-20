@@ -56,7 +56,7 @@ Tätä suuntaa tukee tällä hetkellä **2 kliinistä tutkimusta** ja **20 julka
 
 ## Miksi ennuste on perusteltu?
 
-Tarkkaa vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Glukagoni on proglukagonista johdettu peptidi, joka vaikuttaa glukagonireseptoriin. Sillä tiedetään olevan ruoansulatuskanavan sileää lihasta rentouttava ja liikkuvuutta hillitsevä vaikutus, mikä on perustana sen käytölle diagnostisena apuna ruoansulatuskanavan kuvantamisessa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Glucagon (epävirallinen käännös): ”Glukagoni suurentaa veren glukoosipitoisuutta aktivoimalla maksan glukagonireseptoreita, mikä stimuloi glykogeenin hajoamista ja glukoosin vapautumista maksasta. Maksan glykogeenivarastot ovat välttämättömiä, jotta glukagoni voi saada aikaan hypoglykemiaa korjaavan vaikutuksen.” Englanninkielinen alkuteksti: "Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect." ([DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84), versio 2020-09-16; haettu 2026-11-19). Glukagoni on proglukagonista johdettu peptidi, joka vaikuttaa glukagonireseptoriin. Sillä tiedetään olevan ruoansulatuskanavan sileää lihasta rentouttava ja liikkuvuutta hillitsevä vaikutus, mikä on perustana sen käytölle diagnostisena apuna ruoansulatuskanavan kuvantamisessa.
 
 Ärtyvän suolen oireyhtymään liittyy poikkeava suolen liikkuvuus ja viskeraalinen kipu, joten liikkuvuutta hillitsevä vaikutus voisi mekanistisesti olla yhteydessä oireisiin. Tämä on kuitenkin vain uskottava hypoteesi.
 
@@ -111,6 +111,19 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea)
 - Suora prekliininen tai kliininen tutkimus glukagonista ärtyvän suolen oireyhtymässä
 - Arvio glukagonin ja GLP-1-analogien reseptorivaikutusten erosta suolen liikkuvuuteen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

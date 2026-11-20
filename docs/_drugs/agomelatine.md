@@ -58,7 +58,7 @@ Tässä raportissa tarkastellaan lisäksi vahvimmin tuettua ennustetta, **melank
 
 ## Miksi ennuste on perusteltu (tai ei)?
 
-Agomelatiinin vaikutusmekanismista ei ole tässä aineistossa yksityiskohtaista tietoa. Farmakologiatiedoista ja kirjallisuudesta tiedetään kuitenkin, että agomelatiini on melatoniinireseptorien MT1 ja MT2 agonisti sekä serotoniinin 5-HT2C-reseptorin antagonisti. Se sitoutuu myös 5-HT2A- ja 5-HT2B-reseptoreihin. Vaikutuksen uskotaan normalisoivan vuorokausirytmiä, parantavan hidasaaltounta sekä lisäävän dopamiinin ja noradrenaliinin vapautumista prefrontaalikuorella.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Agomelatine vaikutusmekanismiksi (epävirallinen käännös): ”Melatoniinireseptorin agonisti; serotoniini 2c (5-HT2c) -reseptorin antagonisti” Englanninkielinen alkuteksti: "Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; haettu 2026-11-19). Farmakologiatiedoista ja kirjallisuudesta tiedetään kuitenkin, että agomelatiini on melatoniinireseptorien MT1 ja MT2 agonisti sekä serotoniinin 5-HT2C-reseptorin antagonisti. Se sitoutuu myös 5-HT2A- ja 5-HT2B-reseptoreihin. Vaikutuksen uskotaan normalisoivan vuorokausirytmiä, parantavan hidasaaltounta sekä lisäävän dopamiinin ja noradrenaliinin vapautumista prefrontaalikuorella.
 
 **Sija 1, lapsuuden hyvänlaatuinen kohtauksittainen kaularankakouristus:** Tämä on lapsuuden episodinen häiriö, joka liittyy tyypillisesti CACNA1A-geeniin. Agomelatiinin vaikutusmekanismilla ei ole tunnettua yhteyttä tähän sairauteen. Korkea pistemäärä on pelkkä graafipohjainen ennuste, eikä sen tueksi ole biologista perustetta.
 
@@ -136,13 +136,14 @@ Farmakologiset kohdetiedot: agomelatiini sitoutuu reseptoreihin 5-HT2A, 5-HT2B, 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Agomelatiinin myyntilupa Suomessa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Peruutetun myyntiluvan syyn ja uudelleenhakemisen mahdollisuuden selvittäminen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Valdoxan (EMEA/H/C/000915) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
 
 <!-- review:end log -->
 

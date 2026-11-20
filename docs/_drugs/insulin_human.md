@@ -60,7 +60,7 @@ mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tähän raporttiin koottujen tietojen mukaan yksityiskohtaisia tietoja vaikutusmekanismista ei ole saatavilla. Tiedetään, että ihmisinsuliini on diabeteksen hoidossa vakiintunut hormonikorvaushoito.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Insulin Human (epävirallinen käännös): ”Glukoosiaineenvaihdunnan säätely on insuliinien, mukaan lukien HUMULIN R U-500, ensisijainen vaikutus. Insuliinit alentavat veren glukoosipitoisuutta stimuloimalla glukoosin perifeeristä soluunottoa luustolihaksiin ja rasvakudokseen sekä estämällä maksan glukoosintuotantoa.” Englanninkielinen alkuteksti: "Regulation of glucose metabolism is the primary activity of insulins, including HUMULIN R U-500. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c), versio 2026-07-01; haettu 2026-11-19). Tiedetään, että ihmisinsuliini on diabeteksen hoidossa vakiintunut hormonikorvaushoito.
 
 Mahdollinen yhteys on insuliinisignalointi munasarjan granuloosa- ja teekasoluissa. Autoimmuuniooforiitti esiintyy usein autoimmuunien polyendokriinisten oireyhtymien yhteydessä, joihin kuuluu myös tyypin 1 diabetes. Tämä voi selittää korkean graafiassosiaation.
 
@@ -156,12 +156,13 @@ Lisäksi ennusteisiin liittyy periaatteellinen turvallisuushuomio: insuliini aih
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja vaikutusmekanismia sekä valmisteyhteenvedon varoituksia ja vasta-aiheita koskevat tiedot puu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Tsoniamidi on epilepsialääke, jota on käytetty osittaisten epileptisten kohta
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tsoniamidin yksityiskohtaista vaikutusmekanismia ei tässä aineistossa ole saatavilla. Yleisen tiedon mukaan lääke salpaa jänniteherkkiä natrium- ja T-tyypin kalsiumkanavia sekä vaikuttaa monoaminergiseen ja glutamaatti-/GABA-välitteiseen viestintään. Mahdollinen yhteys Touretten oireyhtymään voisi liittyä dopaminergisen ja serotonergisen välityksen muokkaamiseen, mutta tämä on spekulatiivista.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Zonisamide (epävirallinen käännös): ”Tsonisamidin kohtauksia estävän vaikutuksen tarkkaa mekanismia (tarkkoja mekanismeja) ei tunneta. Tsonisamidilla osoitettiin antikonvulsiivista vaikutusta useissa kokeellisissa malleissa. Eläimillä tsonisamidi oli tehokas maksimaalisen sähköshokin aiheuttamia toonisia ojennuskohtauksia vastaan, mutta tehoton ihonalaisen pentyleenitetratsolin aiheuttamia kloonisia kohtauksia vastaan.” Englanninkielinen alkuteksti: "The precise mechanism(s) by which zonisamide exerts its antiseizure effect is unknown. Zonisamide demonstrated anticonvulsant activity in several experimental models. In animals, zonisamide was effective against tonic extension seizures induced by maximal electroshock but ineffective against clonic seizures induced by subcutaneous pentylenetetrazol." ([DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb), versio 2026-09-23; haettu 2026-11-19). Yleisen tiedon mukaan lääke salpaa jänniteherkkiä natrium- ja T-tyypin kalsiumkanavia sekä vaikuttaa monoaminergiseen ja glutamaatti-/GABA-välitteiseen viestintään. Mahdollinen yhteys Touretten oireyhtymään voisi liittyä dopaminergisen ja serotonergisen välityksen muokkaamiseen, mutta tämä on spekulatiivista.
 
 Epilepsian ja Touretten oireyhtymän välinen yhteys on heikko: molemmat ovat hermoston häiriöitä, mutta tukea tehosta ei ole. Aineistossa mainittu katsaus (PMID 36005856) kertoo päinvastoin, että epilepsialääkkeet voivat aiheuttaa tic-oireita. Tämä viittaa pikemminkin mahdolliseen turvallisuussignaaliin kuin tehon tukeen.
 
@@ -122,12 +122,13 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tähän rapor
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Zonegran (EMEA/H/C/000577), Zonisamide Viatris (EMEA/H/C/004127)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb) |
 
 <!-- review:end log -->
 

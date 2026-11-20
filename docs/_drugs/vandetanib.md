@@ -55,7 +55,7 @@ Vandetanibi on moniky­naasi­inhibiittori, joka estää VEGFR2-, EGFR- ja RET-k
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä datassa saatavilla. Tunnetun tiedon perusteella vandetanibi estää VEGFR2:ta, EGFR:ää ja RET:iä. Kirkassoluisessa munuaissyövässä VHL-geenin toiminnan menetys vakauttaa HIF:n ja lisää VEGF-välitteistä angiogeneesiä, joten VEGFR2:n esto on mekanistisesti uskottava kohde.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Vandetanib (epävirallinen käännös): ”In vitro -tutkimukset ovat osoittaneet, että vandetanibi estää EGFR- ja VEGFR-perheiden, RET:n, BRK:n ja TIE2:n sekä EPH-reseptori- ja Src-kinaasiperheiden jäsenten tyrosiinikinaasiaktiivisuutta. Nämä reseptorityrosiinikinaasit osallistuvat sekä normaaliin solun toimintaan että patologisiin prosesseihin, kuten onkogeneesiin, etäpesäkkeiden muodostumiseen, kasvaimen angiogeneesiin ja kasvaimen mikroympäristön ylläpitoon.” Englanninkielinen alkuteksti: "In vitro studies have shown that vandetanib inhibits the tyrosine kinase activity of the EGFR and VEGFR families, RET, BRK, TIE2, and members of the EPH receptor and Src kinase families. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, and maintenance of the tumor microenvironment." ([DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03), versio 2026-10-30; haettu 2026-11-19). Tunnetun tiedon perusteella vandetanibi estää VEGFR2:ta, EGFR:ää ja RET:iä. Kirkassoluisessa munuaissyövässä VHL-geenin toiminnan menetys vakauttaa HIF:n ja lisää VEGF-välitteistä angiogeneesiä, joten VEGFR2:n esto on mekanistisesti uskottava kohde.
 
 Kilpirauhasen kasvaimissa vandetanibin teho perustuu RET-signaloinnin estoon. Munuaissyövässä relevantti mekanismi on pikemminkin verisuonten uudismuodostuksen esto. Munuaissyövän hoidossa on jo useita VEGFR-estäjiä, joten uudelle lääkkeelle asetettu vaatimustaso on korkea.
 
@@ -123,11 +123,12 @@ Kilpirauhasen kasvaimissa vandetanibin teho perustuu RET-signaloinnin estoon. Mu
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Caprelsa (EMEA/H/C/002315) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03) |
 
 <!-- review:end log -->
 

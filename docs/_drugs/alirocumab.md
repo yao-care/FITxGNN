@@ -54,7 +54,7 @@ Alirokumabi on PCSK9:ää (proproteiinikonvertaasi subtilisiini/keksiini tyyppi 
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin varten koottuihin tietoihin ei sisälly alirokumabin yksityiskohtaista vaikutusmekanismia. Tiedetään kuitenkin, että alirokumabi sitoutuu PCSK9:ään, jolloin LDL-reseptorien kierrätys lisääntyy ja LDL-kolesterolin puhdistuma tehostuu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Alirocumab (epävirallinen käännös): ”Alirokumabi on ihmisen monoklonaalinen vasta-aine, joka sitoutuu proproteiinikonvertaasi subtilisiini/keksiini tyyppi 9:ään (PCSK9). PCSK9 sitoutuu maksasolujen pinnalla oleviin LDL-reseptoreihin (LDLR) ja edistää LDLR:n hajoamista maksassa.” Englanninkielinen alkuteksti: "Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein (LDL) receptors (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172), versio 2026-07-16; haettu 2026-11-19). Tiedetään kuitenkin, että alirokumabi sitoutuu PCSK9:ään, jolloin LDL-reseptorien kierrätys lisääntyy ja LDL-kolesterolin puhdistuma tehostuu.
 
 Ennustetun sairauden ja alirokumabin vaikutustavan välillä ei tunnisteta uskottavaa mekanistista yhteyttä. X-kromosomaalinen iktyoosi liittyy steroidisulfataasiin ja kolesterolisulfaatin kertymiseen ihossa, eikä PCSK9:n esto tai LDL-kolesterolin lasku tunnetusti vaikuta tähän reittiin. Korkea pistemäärä on siten vain laskennallinen ennuste, eikä se yksin riitä perustelemaan käyttöä.
 
@@ -89,6 +89,19 @@ Lääkeyhteisvaikutuksista on koottu yksi farmakologinen merkintä: alirokumabin
 - Mekanistinen perustelu PCSK9:n eston ja kolesterolisulfaatin kertymisen välille sekä prekliiniset tutkimukset
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kartoitus
 - Alirokumabin vaikutusmekanismitietojen täydentäminen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

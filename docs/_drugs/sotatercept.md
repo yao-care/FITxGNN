@@ -56,7 +56,7 @@ Ennusteen tueksi ei ole tässä raportissa käytettävissä **yhtään kliinist�
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Sotatercepti tunnetaan aktiviini-reseptori tyyppi IIA:n Fc-fuusioproteiinina, joka sitoo aktiviini- ja GDF-ligandeja. Sen teho keuhkoverenpainetaudissa liittyy tähän signaalireitin muokkaukseen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Sotatercept (epävirallinen käännös): ”Sotaterseptti-csrk, rekombinantti aktiviinireseptorin tyyppi IIA-Fc (ActRIIA-Fc) -fuusioproteiini, on aktiviinisignaloinnin estäjä, joka sitoutuu aktiviini A:han ja muihin TGF- β -superperheen ligandeihin. Tämän seurauksena sotaterseptti-csrk parantaa proliferaatiota edistävän (ActRIIA/Smad2/3-välitteinen) ja proliferaatiota estävän (BMPRII/Smad1/5/8-välitteinen) signaloinnin välistä tasapainoa ja muuntelee siten verisuonten proliferaatiota.” Englanninkielinen alkuteksti: "Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation." ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), versio 2026-09-21; haettu 2026-11-19). Sotatercepti tunnetaan aktiviini-reseptori tyyppi IIA:n Fc-fuusioproteiinina, joka sitoo aktiviini- ja GDF-ligandeja. Sen teho keuhkoverenpainetaudissa liittyy tähän signaalireitin muokkaukseen.
 
 Yhteys akuuttiin lymfoblastileukemiaan on tällä hetkellä spekulatiivinen. Mahdollinen selitys voisi liittyä aktiviini- ja TGF-beeta-signalointiin luuytimen mikroympäristössä, mutta tätä ei tue mikään käytettävissä oleva tutkimus- tai kirjallisuusnäyttö. Korkea ennustepistemäärä on pelkkä mallin tuottama ennuste, eikä alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ole vielä arvioitu.
 
@@ -124,12 +124,13 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisva
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilaltaan peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7) |
 
 <!-- review:end log -->
 

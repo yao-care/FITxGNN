@@ -60,7 +60,7 @@ mutta ennusteelle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eik�
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Ravulitsumabin yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla tässä aineistossa. Tiedetään kuitenkin, että lääke on pitkävaikutteinen anti-C5-komplementin estäjä, jonka teho paroksysmaalisessa hemoglobinuriassa (komplementtivälitteinen hemolyysi) on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ravulizumab (epävirallinen käännös): ”Ravulitsumabi-cwvz on terminaalisen komplementin estäjä, joka sitoutuu spesifisesti ja suurella affiniteetilla komplementtiproteiini C5:een ja estää siten sen pilkkoutumisen C5a:ksi (proinflammatorinen anafylatoksiini) ja C5b:ksi (kalvoa hyökkäävän kompleksin [MAC tai C5b-9] muodostumisen käynnistävä alayksikkö) ja näin estää MAC:n muodostumisen. ULTOMIRIS estää terminaalisen komplementin välittämää intravaskulaarista hemolyysiä PNH-potilailla ja komplementin välittämää tromboottista mikroangiopatiaa (TMA) aHUS-potilailla.” Englanninkielinen alkuteksti: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791), versio 2026-10-29; haettu 2026-11-19). Tiedetään kuitenkin, että lääke on pitkävaikutteinen anti-C5-komplementin estäjä, jonka teho paroksysmaalisessa hemoglobinuriassa (komplementtivälitteinen hemolyysi) on osoitettu.
 
 G6PC3-puutokseen liittyvä neutropenia on neutrofiilien aineenvaihdunnan ja eloonjäämisen häiriö. Aineisto ei tue yhteyttä päätekomplementin aktivaation ja tämän sairauden välillä. Mekanistista yhteyttä ei siis ole osoitettu, ja korkea pistemäärä (0,9996) on vain mallin tuottama ennuste.
 
@@ -115,12 +115,13 @@ Ennuste perustuu pelkkään mallilaskentaan (L5): kliinisiä tutkimuksia ja julk
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa lääkkeen ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Ultomiris (EMEA/H/C/004954) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
 
 <!-- review:end log -->
 

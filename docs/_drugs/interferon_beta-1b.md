@@ -58,7 +58,7 @@ Interferoni beeta-1b on lääke, jota on alun perin käytetty multippeliskleroos
 
 ## Miksi ennuste on perusteltu?
 
-Tähän raporttiin koottu aineisto ei sisällä yksityiskohtaista tietoa interferoni beeta-1b:n vaikutusmekanismista. Tunnetun tiedon perusteella interferoni beeta-1b on tyypin I interferoni, jolla on immuunivastetta muokkaavia vaikutuksia MS:ssä. Sen tehosta MS:n hoidossa on olemassa vahvaa näyttöä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Interferon Beta-1B (epävirallinen käännös): ”BETASERON-valmisteen (beeta-1b-interferoni) vaikutusmekanismia MS-tautia sairastavilla potilailla ei tunneta.” Englanninkielinen alkuteksti: "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown." ([DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5), versio 2026-03-03; haettu 2026-11-19). Tunnetun tiedon perusteella interferoni beeta-1b on tyypin I interferoni, jolla on immuunivastetta muokkaavia vaikutuksia MS:ssä. Sen tehosta MS:n hoidossa on olemassa vahvaa näyttöä.
 
 Mekanistinen yhteys harvinaissoluleukemiaan on epäsuora. Interferoni alfa on historiallisesti ollut käytössä harvinaissoluleukemian hoidossa, ja tyypin I interferoneilla on luokkatasolla immuunivastetta muokkaavia ja solujen jakautumista estäviä vaikutuksia. Tämä voi selittää mallin ennusteen. Tämä päätelmä ei kuitenkaan perustu raporttia varten koottuun aineistoon, eikä interferoni beeta-1b:lle itselleen ole tässä aineistossa tukevaa näyttöä tähän käyttöaiheeseen.
 
@@ -141,13 +141,14 @@ Muiden turvallisuustietojen osalta tutustu valmisteyhteenvetoon.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Betaferonin myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(nykyinen lupa on peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Betaferon (EMEA/H/C/000081) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
 
 <!-- review:end log -->
 

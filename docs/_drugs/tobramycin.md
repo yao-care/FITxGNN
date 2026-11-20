@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **eksponoitumiskeratiittiin** (exposure k
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella tobramysiini on laajakirjoinen aminoglykosidiantibiootti, jonka teho gramnegatiivisia bakteereita (mm. *Pseudomonas aeruginosa*) ja stafylokokkeja vastaan on osoitettu hengitystieinfektioissa ja kystisessä fibroosissa. Mekanistisesti se voisi soveltua sarveiskalvon bakteeri-infektioihin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Tobramycin (epävirallinen käännös): ”Tobramysiini on aminoglykosidiryhmän antibakteerinen lääkeaine. […] Tobramysiini on Streptomyces tenebrarius -bakteerin tuottama aminoglykosidiryhmän antibakteerinen lääkeaine. Se vaikuttaa ensisijaisesti häiritsemällä proteiinisynteesiä, mikä johtaa solukalvon läpäisevyyden muuttumiseen, soluvaipan etenevään hajoamiseen ja lopulta solukuolemaan.” Englanninkielinen alkuteksti: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), versio 2026-04-15; haettu 2026-11-19). Tunnetun tiedon perusteella tobramysiini on laajakirjoinen aminoglykosidiantibiootti, jonka teho gramnegatiivisia bakteereita (mm. *Pseudomonas aeruginosa*) ja stafylokokkeja vastaan on osoitettu hengitystieinfektioissa ja kystisessä fibroosissa. Mekanistisesti se voisi soveltua sarveiskalvon bakteeri-infektioihin.
 
 Eksponoitumiskeratiitti on kuitenkin ensisijaisesti mekaaninen tai kuivumisesta johtuva pintavaurio, ei primaari infektio. Tobramysiinille voisi siksi olla roolia lähinnä sekundaarisen bakteeri-infektion hoidossa tai ehkäisyssä. Kirjallisuudessa on lisäksi in vitro -näyttöä aminoglykosidien sarveiskalvon epiteelitoksisuudesta, mikä on turvallisuushuoli jo vaurioituneella silmän pinnalla.
 
@@ -132,12 +132,13 @@ Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tobramysiinillä ei lisäksi ole voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Vantobra (EMEA/H/C/005086), Tobi Podhaler (EMEA/H/C/002155)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->
 

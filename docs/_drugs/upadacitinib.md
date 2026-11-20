@@ -54,7 +54,7 @@ Upadasitinibi on lääke, jota on alun perin käytetty nivelreuman hoitoon. Näy
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raportin laatimiseen koottu aineisto ei sisällä tietoa upadasitinibin vaikutusmekanismista. Yleisesti upadasitinibin tiedetään olevan selektiivinen JAK1-estäjä, joka vaimentaa tulehdusta ja immuunivastetta JAK-STAT-signalointireitin kautta. Nivelreumassa tämä mekanismi on selkeästi perusteltu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Upadacitinib (epävirallinen käännös): ”Upadasitinibi on Janus-kinaasin (JAK) estäjä. JAK-entsyymit ovat solunsisäisiä entsyymejä, jotka välittävät solukalvolla tapahtuvista sytokiinien tai kasvutekijöiden ja reseptorien vuorovaikutuksista syntyviä signaaleja ja vaikuttavat siten hematopoieesin ja immuunisolujen toiminnan soluprosesseihin.” Englanninkielinen alkuteksti: "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095), versio 2026-06-30; haettu 2026-11-19). Yleisesti upadasitinibin tiedetään olevan selektiivinen JAK1-estäjä, joka vaimentaa tulehdusta ja immuunivastetta JAK-STAT-signalointireitin kautta. Nivelreumassa tämä mekanismi on selkeästi perusteltu.
 
 Ennustettu uusi käyttöaihe on harvinainen kehityshäiriöoireyhtymä, johon liittyy silmän rakenteellisia poikkeavuuksia ja luuston kehityshäiriöitä. Tällaiset tilat ovat tyypillisesti geneettisiä ja kehityksellisiä, eikä immuunivälitteisen tulehduksen estolla ole ilmeistä yhteyttä niiden patofysiologiaan. Aineiston perusteella uskottavaa mekanistista yhteyttä JAK-STAT-estoon ei voida osoittaa.
 
@@ -123,13 +123,14 @@ Huomionarvoista on, että useat kortikosteroidit on luokiteltu merkittäviksi yh
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kyseinen myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittäminen (peruutettu myyntilupa Suomessa)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
 
 <!-- review:end log -->
 

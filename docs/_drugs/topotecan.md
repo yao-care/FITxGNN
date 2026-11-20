@@ -60,7 +60,7 @@ Tulos on tutkimuskysymys, ei vielä valmis hoitosuositus.
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismikuvausta. Tunnetun tiedon perusteella topotekaani on topoisomeraasi I:n estäjä. Se aiheuttaa DNA-vaurioita nopeasti jakautuvissa kasvainsoluissa. Sen teho kohdunkaulan syövässä ja pienisoluisessa keuhkosyövässä on osoitettu, ja mekanistisesti se voi soveltua myös rintasyöpään.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Topotecan (epävirallinen käännös): ”Topoisomeraasi I vähentää DNA:n vääntöjännitystä aiheuttamalla palautuvia yksijuosteisia katkoksia. Topotekaani sitoutuu topoisomeraasi I–DNA-kompleksiin ja estää näiden yksijuosteisten katkosten uudelleenliittymisen. Topotekaanin sytotoksisuuden arvellaan johtuvan DNA:n kaksijuosteisista vaurioista, joita syntyy DNA-synteesin aikana, kun replikaatioentsyymit ovat vuorovaikutuksessa topotekaanin, topoisomeraasi I:n ja DNA:n muodostaman kolmiosaisen kompleksin kanssa.” Englanninkielinen alkuteksti: "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579), versio 2023-09-18; haettu 2026-11-19). Tunnetun tiedon perusteella topotekaani on topoisomeraasi I:n estäjä. Se aiheuttaa DNA-vaurioita nopeasti jakautuvissa kasvainsoluissa. Sen teho kohdunkaulan syövässä ja pienisoluisessa keuhkosyövässä on osoitettu, ja mekanistisesti se voi soveltua myös rintasyöpään.
 
 Prekliininen tutkimus (PMID 37987734) viittaa siihen, että MYC-ohjatut ja kolmoisnegatiiviset rintasyövät voivat olla herkkiä TOP1-estolle, koska R-loop-rakenteet kertyvät ja replikaatiostressi kasvaa. Lisäksi topotekaani on BCRP/ABCG2-effluksikuljettajan substraatti. Kuljettaja ilmentyy rintasyövässä ja voi aiheuttaa lääkeresistenssiä.
 
@@ -173,13 +173,14 @@ Useiden lääkkeiden (mm. omepratsoli, ondansetroni, deksametasoni, morfiini) yh
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(kaikki luvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (Potactasol (EMEA/H/C/002282), Topotecan Hospira (EMEA/H/C/001192), Hycamtin (EMEA/H/C/000123)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
 
 <!-- review:end log -->
 

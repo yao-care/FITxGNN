@@ -54,7 +54,7 @@ Takrolimuusi on kalsineuriinin estäjä, jota on alun perin käytetty maksan ja 
 
 ## Miksi ennuste on perusteltu?
 
-Takrolimuusi estää kalsineuriinia ja siten T-solujen aktivaatiota sekä tulehdusta ylläpitävien sytokiinien (IL-2, IL-4, IFN-gamma) vapautumista. Tämä mekanismi selittää sen tehon elinsiirteen hyljinnän estossa ja atooppisessa ihottumassa. Tähän raporttiin koottu tieto ei sisällä yksityiskohtaista vaikutusmekanismikuvausta lääketietokannasta, joten mekanismikuvaus perustuu yleisesti tunnettuun kalsineuriinin estoon.
+Takrolimuusi estää kalsineuriinia ja siten T-solujen aktivaatiota sekä tulehdusta ylläpitävien sytokiinien (IL-2, IL-4, IFN-gamma) vapautumista. Tämä mekanismi selittää sen tehon elinsiirteen hyljinnän estossa ja atooppisessa ihottumassa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tacrolimus (epävirallinen käännös): ”Takrolimuusi sitoutuu solunsisäiseen proteiiniin, FKBP-12:een. Tämän jälkeen muodostuu takrolimuusi-FKBP-12:n, kalsiumin, kalmoduliinin ja kalsineuriinin (kaikkialla esiintyvä nisäkkään solunsisäinen entsyymi) kompleksi, ja kalsineuriinin fosfataasiaktiivisuus estyy.” Englanninkielinen alkuteksti: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), versio 2025-02-26; haettu 2026-11-19).
 
 Seborrooisessa ihottumassa ihon Malassezia-hiivalle antama tulehdusvaste on keskeisessä roolissa, ja sillä on T-soluvälitteinen tulehdusreitti, joka on yhteinen atooppisen ihottuman kanssa. Koska paikallinen takrolimuusi on jo hyväksytty atooppiseen ihottumaan, mekanismi on uskottava myös seborrooisessa ihottumassa. Lisäksi takrolimuusilla voi olla suoraa sienilääkevaikutusta Malassezia-hiivaan, mutta tämä on vielä alustavaa.
 
@@ -135,13 +135,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ni
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia myyntilupia ei tähän raporttiin koottujen tietojen mukaan ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomen myyntilupatilanteen selvittämistä, koska kaikki lupatiedot ovat peruutettuja, sekä paikallisen lääkemuodon saatavuuden varmistamista” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->
 

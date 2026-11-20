@@ -63,7 +63,7 @@ Muut mallin ennusteet samalle lääkkeelle: myeliitti (0.9946) ja PLA2G6-assosio
 
 Safinamidi on palautuva MAO-B:n estäjä, joka lisäksi salpaa jänniteherkkiä natriumkanavia ja vähentää liiallista glutamaatin vapautumista. Näillä ominaisuuksilla voisi teoriassa olla merkitystä Rasmussenin enkefaliitin aivotulehdukseen ja kouristuskohtauksiin. Tauti johtuu kuitenkin pääosin T-soluvälitteisestä autoimmuunivauriosta, jota nämä mekanismit eivät suoraan hoida. Yhteys on siis spekulatiivinen ja perustuu vain korkeaan TxGNN-pistemäärään.
 
-Tämän raportin tarpeisiin koottu aineisto ei sisällä lääkkeen vaikutusmekanismin lähdetietoja, joten mekanistista perustelua ei voitu tarkistaa lähdeaineistosta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Safinamide (epävirallinen käännös): ”Mekanismia, jolla XADAGO saa aikaan terapeuttiset vaikutuksensa Parkinsonin taudissa, ei tunneta tarkasti. XADAGO on monoamiinioksidaasi B:n (MAO-B) estäjä. MAO-B-aktiivisuuden estämisen arvellaan dopamiinin kataboliaa salpaamalla johtavan dopamiinipitoisuuksien suurenemiseen ja sen seurauksena dopaminergisen aktiivisuuden lisääntymiseen aivoissa.” Englanninkielinen alkuteksti: "The precise mechanism by which XADAGO exerts its therapeutic effects in PD is unknown. XADAGO is an inhibitor of monoamine oxidase B (MAO-B). Inhibition of MAO-B activity, by blocking the catabolism of dopamine, is thought to result in an increase in dopamine levels and a subsequent increase in dopaminergic activity in the brain." ([DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2), versio 2026-10-05; haettu 2026-11-19).
 
 Muiden ennusteiden osalta:
 - **Myeliitti:** Natriumkanavien salpaus, glutamaatin estäminen ja oksidatiivisen stressin väheneminen voisivat teoriassa rajoittaa toissijaista hermovauriota. Myeliitin syyt ovat kuitenkin moninaiset (infektio, autoimmuunisairaus, infektion jälkitila), eikä safinamidille ole tunnistettu sairauskohtaista vaikutusreittiä.
@@ -136,13 +136,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut käytettävissä, jo
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen ainoa myyntilupa Suomessa on peruutettu ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitystä peruutetun myyntiluvan syystä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Xadago (EMEA/H/C/002396) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Tämän ennusteen todistusaste on vain mallipohjainen (L5). Vahvempaa tukea on l
 
 ## Miksi ennuste on perusteltu – tai ei?
 
-Propranololin vaikutusmekanismitietoja ei ole tässä raportissa käytettävissä. Tiedetään, että propranololi sitoutuu beeta-2- ja beeta-3-adrenergisiin reseptoreihin (ADRB2, ADRB3) ja että se on epäselektiivinen beetasalpaaja. Hemangioomassa sen vaikutus perustuu mm. kasvun hidastumiseen (antiproliferatiivinen vaikutus).
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Propranolol (epävirallinen käännös): ”Propranololin verenpainetta alentavan vaikutuksen mekanismia ei ole selvitetty. Verenpainetta alentavaan vaikutukseen vaikuttavia tekijöitä ovat: sydämen minuuttitilavuuden pieneneminen, reniinin vapautumisen estyminen munuaisista sekä aivojen vasomotoristen keskusten toonisen sympaattisen hermoston ulosvirtauksen väheneminen.” Englanninkielinen alkuteksti: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), versio 2026-08-27; haettu 2026-11-19). Tiedetään, että propranololi sitoutuu beeta-2- ja beeta-3-adrenergisiin reseptoreihin (ADRB2, ADRB3) ja että se on epäselektiivinen beetasalpaaja. Hemangioomassa sen vaikutus perustuu mm. kasvun hidastumiseen (antiproliferatiivinen vaikutus).
 
 Distaalinen myopatia (Tateyama-tyyppi) on harvinainen lihassairaus, eikä sillä tunneta beetaadrenergistä mekanismia. Aineiston perusteella ennustetta tukee vain graafipohjainen mallipisteytys. Mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ei voida osoittaa, joten ennuste on tässä vaiheessa spekulatiivinen.
 
@@ -152,12 +152,13 @@ Lääkeyhteisvaikutuksista ei ole kliinisesti luokiteltua tietoa. Saatavilla on 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, ja vasta-aihesignaalit koskevat myös lihassairauksia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Hemangiol (EMEA/H/C/002621) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
 
 <!-- review:end log -->
 

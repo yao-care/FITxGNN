@@ -54,7 +54,7 @@ Kobisistaatti on CYP3A-entsyymiä estävä farmakokineettinen tehostaja, jota k�
 
 ## Miksi ennuste on perusteltu?
 
-Kobisistaatin vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla. Tiedetään, että kobisistaatti estää CYP3A-entsyymiä ja tehostaa siten samanaikaisesti annettujen, CYP3A:n kautta metaboloituvien HIV-lääkkeiden (esim. elvitegraviiri, atatsanaviiri, darunaviiri) pitoisuuksia. Sillä itsellään ei ole omaa antiviraalista vaikutusta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Cobicistat (epävirallinen käännös): ”Kobisistaatti on sytokromi P450 3A:n (CYP3A) mekanismiperusteinen estäjä. Kobisistaatin aiheuttama CYP3A-välitteisen metabolian esto suurentaa CYP3A:n substraattien atatsanaviirin ja darunaviirin systeemistä altistusta.” Englanninkielinen alkuteksti: "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010), versio 2026-02-10; haettu 2026-11-19). Tiedetään, että kobisistaatti estää CYP3A-entsyymiä ja tehostaa siten samanaikaisesti annettujen, CYP3A:n kautta metaboloituvien HIV-lääkkeiden (esim. elvitegraviiri, atatsanaviiri, darunaviiri) pitoisuuksia. Sillä itsellään ei ole omaa antiviraalista vaikutusta.
 
 SIV on HIV:n läheinen lentivirussukulainen, mikä todennäköisesti selittää korkean ennustepisteen. Mahdollinen hyöty riippuisi siitä, että samanaikaisesti annettua antiretroviraalista lääkettä tehostettaisiin. Yhteys on päätelty, ei osoitettu. Lisäksi SIV-infektio on eläinmalli- ja prekliininen tila, ei ihmisen kliininen käyttöaihe.
 
@@ -94,6 +94,19 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Vaikutusmekanismitietojen täydentämistä
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista
 - Yhteisvaikutusriskin arviointia (100 kirjattua yhteisvaikutusta)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

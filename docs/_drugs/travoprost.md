@@ -58,7 +58,7 @@ Travoprosti on prostaglandiini F2-alfa -analogi, jota on käytetty avokulmaglauk
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Käytettävissä ei tällä hetkellä ole yksityiskohtaista tietoa vaikutusmekanismista. Tiedossa on, että travoprosti on prostaglandiini F2-alfa -analogi, joka toimii FP-reseptorin kautta ja alentaa silmänpainetta lisäämällä uveoskleraalista ulosvirtausta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Travoprost (epävirallinen käännös): ”Travoprostin vapaa happo, prostaglandiinianalogi, on selektiivinen FP-prostanoidireseptorin agonisti, jonka uskotaan alentavan silmänpainetta (IOP) lisäämällä uveoskleraalista ulosvirtausta. Tarkkaa vaikutusmekanismia ei tunneta tällä hetkellä.” Englanninkielinen alkuteksti: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), versio 2026-09-28; haettu 2026-11-19). Tiedossa on, että travoprosti on prostaglandiini F2-alfa -analogi, joka toimii FP-reseptorin kautta ja alentaa silmänpainetta lisäämällä uveoskleraalista ulosvirtausta.
 
 Teoreettisesti FP-reseptorin kautta välittyvät vaikutukset verisuonten sävyyn voisivat liittyä verisuonipohjaisiin sairauksiin. Tämä yhteys on kuitenkin spekulatiivinen. Travoprosti on paikallisesti silmään annosteltava valmiste, jonka systeeminen altistus on vähäinen, joten systeemisen verisuonivaikutuksen todennäköisyys on pieni. Alkuperäisellä käyttöaiheella (silmänpaine) ja ennustetulla käyttöaiheella ei ole selvää kliinistä yhteyttä.
 
@@ -166,13 +166,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen valmist
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (Travatan (EMEA/H/C/000390), Izba (EMEA/H/C/002738), DuoTrav (EMEA/H/C/000665)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

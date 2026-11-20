@@ -61,7 +61,7 @@ TxGNN-malli ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeett
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietoihin ei sisälly tildrakitsumabin tarkkaa vaikutusmekanismitietoa. Tiedossa on, että tildrakitsumabi on anti-IL-23 p19 -vasta-aine, jonka teho psoriaasissa on osoitettu. Mekanistisesti sen voidaan ajatella soveltuvan myös tulehdusvälitteisiin sairauksiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tildrakizumab (epävirallinen käännös): ”Tildrakitsumabi on humanisoitu IgG1/k-monoklonaalinen vasta-aine, joka sitoutuu selektiivisesti IL-23:n p19-alayksikköön ja estää sen vuorovaikutuksen IL-23-reseptorin kanssa. IL-23 on luonnollisesti esiintyvä sytokiini, joka osallistuu tulehdus- ja immuunivasteisiin.” Englanninkielinen alkuteksti: "Tildrakizumab is a humanized IgG1/k monoclonal antibody that selectively binds to the p19 subunit of IL-23 and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde), versio 2026-11-02; haettu 2026-11-19). Tiedossa on, että tildrakitsumabi on anti-IL-23 p19 -vasta-aine, jonka teho psoriaasissa on osoitettu. Mekanistisesti sen voidaan ajatella soveltuvan myös tulehdusvälitteisiin sairauksiin.
 
 Ehdotettu yhteys on epäsuora. IL-23/IL-17-akselin tulehdussytokiinien on esitetty osallistuvan diabeettiseen mikrovaskulaariseen sairauteen ja verkkokalvon tulehdukseen. Tämä on kuitenkin vain TxGNN-tietämysgraafin ennuste, eikä sitä tue yksikään haettu tutkimus tai julkaisu.
 
@@ -140,12 +140,13 @@ Pakkausselosteen varoituksia ja vasta-aiheita ei ollut käytettävissä. Tarkist
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupakin on Suomessa peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde) |
 
 <!-- review:end log -->
 

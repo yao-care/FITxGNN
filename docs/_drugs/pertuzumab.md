@@ -58,7 +58,7 @@ Pertutsumabi on HER2-reseptorin dimerisaatiota estävä vasta-aine, jota on alun
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia tietoja pertutsumabin vaikutusmekanismista ei ole tässä aineistossa saatavilla. Tunnetun farmakologian perusteella pertutsumabi sitoutuu HER2-reseptoriin (ERBB2) ja estää sen heterodimerisaatiota, mikä vaimentaa kasvusignalointia. Sen teho on osoitettu HER2-positiivisessa rintasyövässä yhdessä trastutsumabin kanssa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pertuzumab (epävirallinen käännös): ”Pertutsumabi kohdistuu ihmisen epidermaalisen kasvutekijäreseptori 2 -proteiinin (HER2) solunulkoiseen dimerisaatiodomeeniin (alidomeeni II) ja estää siten HER2:n ligandiriippuvaisen heterodimerisaation muiden HER-perheen jäsenten, mukaan lukien EGFR:n, HER3:n ja HER4:n, kanssa. Tämän seurauksena pertutsumabi estää ligandin käynnistämää solunsisäistä signalointia kahden tärkeän signaalireitin, mitogeeniaktivoidun proteiinikinaasin (MAP-kinaasin) ja fosfoinositidi-3-kinaasin (PI3K), kautta.” Englanninkielinen alkuteksti: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)." ([DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff), versio 2026-04-30; haettu 2026-11-19). Tunnetun farmakologian perusteella pertutsumabi sitoutuu HER2-reseptoriin (ERBB2) ja estää sen heterodimerisaatiota, mikä vaimentaa kasvusignalointia. Sen teho on osoitettu HER2-positiivisessa rintasyövässä yhdessä trastutsumabin kanssa.
 
 Progesteronireseptoripositiivinen (PR+) rintasyöpä on reseptorien perusteella määritelty rintasyövän alaryhmä, johon kuuluvat myös HR+/HER2+ -kasvaimet. Hoidon hyöty määräytyy HER2-statuksen, ei PR-statuksen mukaan. Ennuste on siksi mekanistisesti uskottava vain HER2-positiivisessa osajoukossa. Vaiheen 2 neoadjuvanttitutkimukset (mm. NeoSphere, WSG-ADAPT ja WSG TP-II) tukevat aktiivisuutta HR+/HER2+ -taudissa.
 
@@ -147,12 +147,13 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Markkinatilanteen selvitys: Suomessa on vain peruutettuja myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Perjeta (EMEA/H/C/002547), Phesgo (EMEA/H/C/005386)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
 
 <!-- review:end log -->
 

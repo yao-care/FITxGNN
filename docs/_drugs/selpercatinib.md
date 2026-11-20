@@ -54,7 +54,7 @@ Selpercatinibi on kohdennettu lääke, jota on alun perin käytetty ei-pienisolu
 
 ## Miksi ennuste on perusteltu?
 
-Tällä hetkellä lääkkeen yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole saatavilla. Tiedetään, että selpercatinibi on RET-kinaasia estävä syöpälääke ja sen teho RET-muutoksia sisältävissä syövissä on osoitettu. Tämä ei kuitenkaan yksinään selitä, miksi sen pitäisi toimia keuhkoverenpainetaudissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Selpercatinib (epävirallinen käännös): ”Selperkatinibi on kinaasin estäjä. Selperkatinibi esti villityypin RET:iä ja useita mutatoituneita RET-isoformeja sekä VEGFR1:tä ja VEGFR3:a IC 50 -arvojen ollessa 0,92 nM – 67,8 nM. Muissa entsyymimäärityksissä selperkatinibi esti myös FGFR 1:tä, 2:ta ja 3:a suuremmilla pitoisuuksilla, jotka olivat kuitenkin kliinisesti saavutettavissa.” Englanninkielinen alkuteksti: "Selpercatinib is a kinase inhibitor. Selpercatinib inhibited wild-type RET and multiple mutated RET isoforms as well as VEGFR1 and VEGFR3 with IC 50 values ranging from 0.92 nM to 67.8 nM. In other enzyme assays, selpercatinib also inhibited FGFR 1, 2, and 3 at higher concentrations that were still clinically achievable." ([DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828), versio 2026-09-11; haettu 2026-11-19). Tiedetään, että selpercatinibi on RET-kinaasia estävä syöpälääke ja sen teho RET-muutoksia sisältävissä syövissä on osoitettu. Tämä ei kuitenkaan yksinään selitä, miksi sen pitäisi toimia keuhkoverenpainetaudissa.
 
 Kerätyn aineiston perusteella ei voida osoittaa mekanistista yhteyttä selektiivisen RET-estämisen ja keuhkoverisuonten uudelleenmuovautumisen välillä. Alkuperäisen käyttöaiheen (syöpä) ja ennustetun käyttöaiheen (verisuonisairaus) välinen samankaltaisuus on arvioimatta. TxGNN-pistemäärä on erittäin korkea, mutta se on graafipohjainen ennuste, ei kliininen todiste.
 
@@ -135,13 +135,14 @@ Muita turvallisuustietoja, kuten varoituksia ja vasta-aiheita, on tarkasteltava 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Retsevmo (EMEA/H/C/005375) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
 
 <!-- review:end log -->
 

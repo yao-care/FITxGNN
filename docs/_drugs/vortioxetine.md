@@ -54,7 +54,7 @@ Vortioksetiini on masennuslääke, jota on alun perin käytetty vakavan masennus
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla. Kirjallisuuden perusteella vortioksetiini on monimuotoisesti serotonergisesti vaikuttava masennuslääke: se estää serotoniinin kuljettajaproteiinia (SERT), salpaa 5-HT3-, 5-HT7- ja 5-HT1D-reseptoreja, on 5-HT1B-reseptorin osittaisagonisti ja 5-HT1A-reseptorin agonisti.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Vortioxetine (epävirallinen käännös): ”Vortioksetiinin masennuslääkevaikutuksen mekanismia ei täysin tunneta, mutta sen arvellaan liittyvän serotonergisen aktiivisuuden voimistumiseen keskushermostossa serotoniinin (5-HT) takaisinoton estämisen kautta. Sillä on myös useita muita vaikutuksia, kuten 5-HT3-reseptorin antagonismi ja 5-HT1A-reseptorin agonismi.” Englanninkielinen alkuteksti: "The mechanism of the antidepressant effect of vortioxetine is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS through inhibition of the reuptake of serotonin (5-HT). It also has several other activities including 5-HT3 receptor antagonism and 5-HT1A receptor agonism." ([DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e), versio 2026-04-23; haettu 2026-11-19). Kirjallisuuden perusteella vortioksetiini on monimuotoisesti serotonergisesti vaikuttava masennuslääke: se estää serotoniinin kuljettajaproteiinia (SERT), salpaa 5-HT3-, 5-HT7- ja 5-HT1D-reseptoreja, on 5-HT1B-reseptorin osittaisagonisti ja 5-HT1A-reseptorin agonisti.
 
 "Neuroottinen häiriö" on vanhentunut ja laaja luokka, joka menee pitkälti päällekkäin jo hyväksyttyjen masennus- ja ahdistuneisuushäiriöiden kanssa. Ennuste kuvastaa siksi todennäköisesti taudinkuvien nosologista sukulaisuutta alkuperäiseen MDD-käyttöaiheeseen, ei erillistä uudelleenkäyttömahdollisuutta.
 
@@ -141,13 +141,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole tässä aineistossa sa
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa, mikä heikentää toteutettavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Peruutetun myyntiluvan tilan ja syyn selvitys sekä nykyisen markkinasaatavuuden vahvistus” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Brintellix (EMEA/H/C/002717) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
 
 <!-- review:end log -->
 

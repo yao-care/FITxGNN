@@ -59,7 +59,7 @@ Ennustetta tukee tämän raportin aineistossa **30 kliinistä tutkimusta** ja **
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa saatavilla. Tunnetun farmakologian perusteella aspartinsuliini on pikavaikutteinen insuliinianalogi, joka sitoutuu insuliinireseptoriin ja korvaa tyypin 1 diabeteksessa puuttuvaa elimistön omaa insuliinia.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Insulin Aspart (epävirallinen käännös): ”Insuliinin, myös NOVOLOG MIX 70/30 -valmisteen, ensisijainen vaikutus on glukoosiaineenvaihdunnan säätely. Insuliini ja sen analogi alentavat veren glukoosipitoisuutta lisäämällä perifeeristä glukoosinottoa, erityisesti luurankolihaksiin ja rasvakudokseen, sekä estämällä glukoosin tuotantoa maksassa.” Englanninkielinen alkuteksti: "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85), versio 2026-05-18; haettu 2026-11-19). Tunnetun farmakologian perusteella aspartinsuliini on pikavaikutteinen insuliinianalogi, joka sitoutuu insuliinireseptoriin ja korvaa tyypin 1 diabeteksessa puuttuvaa elimistön omaa insuliinia.
 
 Korkea TxGNN-pistemäärä (0,9992) on sopusoinnussa tämän kanssa. Vaiheen 3 tutkimukset tukevat suoraan tehoa ja turvallisuutta.
 
@@ -157,12 +157,13 @@ Huomioitavaa: paikallinen lipodystrofia on tunnettu insuliini-injektioiden haitt
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on peruutettu, joten suositus riippuu valmisteen saatavuudesta ja siitä, mitä valmistetta tarkoitetaan” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
 
 <!-- review:end log -->
 

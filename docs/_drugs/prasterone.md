@@ -58,7 +58,7 @@ Prasteroni (DHEA) on hormoni, jota on käytetty postmenopausaalisen tilan hoitoo
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Prasteroni on DHEA:n synteettinen vastine, joka muuntuu elimistössä androgeeneiksi ja estrogeeneiksi. Sen teho postmenopaussiin liittyvissä oireissa on osoitettu, mutta mekanistista yhteyttä uuteen käyttöaiheeseen ei tunneta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Prasterone (epävirallinen käännös): ”Prasteroni on inaktiivinen endogeeninen steroidi, joka muuttuu aktiivisiksi androgeeneiksi ja/tai estrogeeneiksi. INTRAROSA-valmisteen vaikutusmekanismia postmenopausaalisilla naisilla, joilla on vulvan ja emättimen atrofia, ei ole täysin selvitetty.” Englanninkielinen alkuteksti: "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established." ([DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7), versio 2026-07-17; haettu 2026-11-19). Prasteroni on DHEA:n synteettinen vastine, joka muuntuu elimistössä androgeeneiksi ja estrogeeneiksi. Sen teho postmenopaussiin liittyvissä oireissa on osoitettu, mutta mekanistista yhteyttä uuteen käyttöaiheeseen ei tunneta.
 
 Hepariinikofaktori 2:n puutos on perinnöllinen seriiniproteaasi-inhibiittorin (serpiinin) puutos. Ei ole tunnettua mekanismia, jolla prasteroni korjaisi geneettisesti aiheutuvaa proteiinin puutosta. DHEA:n on raportoitu vaikuttavan hyytymiseen tai fibrinolyysiin vain heikosti ja epäsuorasti. Korkea pistemäärä heijastaa todennäköisesti tietoverkon läheisyyttä (hyytymiseen liittyvät geenit ja lääkkeet), ei validoitua farmakologista yhteyttä.
 
@@ -139,12 +139,13 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Intrarosa (EMEA/H/C/004138) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
 
 <!-- review:end log -->
 

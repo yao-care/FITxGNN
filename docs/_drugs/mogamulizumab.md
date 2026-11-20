@@ -56,7 +56,7 @@ mutta aiheesta ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tässä raportissa käytettävissä olevasta aineistosta ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Yleistiedon perusteella mogamulitsumabi on anti-CCR4-monoklonaalinen vasta-aine, joka tuhoaa CCR4-positiivisia soluja, myös säätelijä-T-soluja (Treg), vasta-aineesta riippuvan solujen tappamisen (ADCC) kautta. Sen teho ihon T-solulymfoomissa on osoitettu, ja tämä on alkuperäisen käyttöaiheen perusta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Mogamulizumab (epävirallinen käännös): ”Mogamulitsumabi-kpkc on fukoosista vapautettu, humanisoitu IgG1-kappa-monoklonaalinen vasta-aine, joka sitoutuu CCR4:ään, CC-kemokiinien G-proteiinikytkentäiseen reseptoriin, joka osallistuu lymfosyyttien kulkeutumiseen eri elimiin. Ei-kliiniset in vitro -tutkimukset osoittavat, että mogamulitsumabi-kpkc:n sitoutuminen kohdistaa soluun vasta-aineesta riippuvaisen soluvälitteisen sytotoksisuuden (ADCC), mikä johtaa kohdesolujen vähenemiseen.” Englanninkielinen alkuteksti: "Mogamulizumab-kpkc is a defucosylated, humanized IgG1 kappa monoclonal antibody that binds to CCR4, a G protein-coupled receptor for CC chemokines that is involved in the trafficking of lymphocytes to various organs. Non-clinical in vitro studies demonstrate mogamulizumab-kpkc binding targets a cell for antibody-dependent cellular cytotoxicity (ADCC) resulting in depletion of the target cells." ([DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f), versio 2026-03-02; haettu 2026-11-19). Yleistiedon perusteella mogamulitsumabi on anti-CCR4-monoklonaalinen vasta-aine, joka tuhoaa CCR4-positiivisia soluja, myös säätelijä-T-soluja (Treg), vasta-aineesta riippuvan solujen tappamisen (ADCC) kautta. Sen teho ihon T-solulymfoomissa on osoitettu, ja tämä on alkuperäisen käyttöaiheen perusta.
 
 Ennustettua käyttöaihetta tukeva mekanistinen olettamus on, että Treg-solujen väheneminen urotelikasvaimen mikroympäristössä voisi vahvistaa kasvainimmuniteettia. Tälle ei kuitenkaan ole suoraa näyttöä: CCR4:n ei ole osoitettu ajavan tätä kasvaintyyppiä, ja ennuste on vain laskennallinen. Alkuperäisen käyttöaiheen (T-solulymfooma) ja ennustetun käyttöaiheen (urotelikarsinooma) samankaltaisuutta ei ole arvioitu.
 
@@ -140,13 +140,14 @@ Varoitukset ja vasta-aiheet: katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys peruutetun myyntiluvan syystä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f) |
 
 <!-- review:end log -->
 

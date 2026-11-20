@@ -55,7 +55,7 @@ Sirolimuusi on mTOR-estäjä, jolle on Suomessa myönnetty myyntilupia. TxGNN-ma
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä. Tiedetään kuitenkin, että sirolimuusi estää mTORC1-kompleksia, ja PI3K/AKT/mTOR-signalointireitin aktivaatiota on kuvattu pehmytkudossarkoomissa, myös liposarkoomassa. Tämä tekee mTOR-eston mekanistisesti uskottavaksi hoitokohteeksi.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Sirolimus (epävirallinen käännös): ”FYARRO-valmisteen sisältämä sirolimuusi on mekanistisen rapamysiinikohteen kinaasin (mTOR, aiemmin nimeltään nisäkkäiden rapamysiinikohde) estäjä. mTOR on seriini-treoniinikinaasi, joka sijaitsee PI3K/AKT-reitin alavirrassa, säätelee keskeisiä solutoimintoja, kuten solujen eloonjäämistä, kasvua ja proliferaatiota, ja jonka säätely on yleisesti häiriintynyt useissa ihmisen syövissä. Soluissa sirolimuusi sitoutuu immunofiliiniin, FK:ta sitovaan proteiini 12:een (FKBP-12), jolloin muodostuu immunosuppressiivinen kompleksi.” Englanninkielinen alkuteksti: "Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex." ([DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf), versio 2026-09-09; haettu 2026-11-19). Tiedetään kuitenkin, että sirolimuusi estää mTORC1-kompleksia, ja PI3K/AKT/mTOR-signalointireitin aktivaatiota on kuvattu pehmytkudossarkoomissa, myös liposarkoomassa. Tämä tekee mTOR-eston mekanistisesti uskottavaksi hoitokohteeksi.
 
 Ennusteen tukena on yksi valmistunut vaiheen 2 tutkimus, jossa sirolimuusia käytettiin yhdessä toisen lääkkeen kanssa myksoidisessa liposarkoomassa ja kondrosarkoomassa. Yhden haaran asetelma ja yhdistelmähoito estävät kuitenkin osoittamasta tehoa yksin sirolimuusille. Muu kirjallisuus koostuu pääosin sarkoomakatsauksista ja elinsiirtopotilaiden syöpäriskiä käsittelevistä artikkeleista, jotka eivät suoraan osoita sirolimuusin tehoa liposarkoomassa.
 
@@ -119,11 +119,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa valmisteyhteenve
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Hyftor (EMEA/H/C/005896), Rapamune (EMEA/H/C/000273)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
 
 <!-- review:end log -->
 

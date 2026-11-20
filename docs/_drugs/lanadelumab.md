@@ -54,7 +54,7 @@ Lanadelumabi on monoklonaalinen vasta-aine, joka estää plasman kallikreiinia (
 
 ## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla koostetuissa tiedoissa. Tiedossa on kuitenkin, että lanadelumabi on vasta-aine, joka kohdistuu plasman kallikreiiniin (KLKB1) ja estää kallikreiini–bradykiniinireittiä. Sen teho on osoitettu paikallisesti hyväksytyssä käyttöaiheessa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lanadelumab (epävirallinen käännös): ”Lanadelumabi-flyo on täysin ihmisperäinen monoklonaalinen vasta-aine (IgG1/κ-kevytketju), joka sitoutuu plasman kallikreiiniin ja estää sen proteolyyttistä aktiivisuutta. Plasman kallikreiini on proteaasi, joka pilkkoo suurimolekyylistä kininogeenia (HMWK), jolloin muodostuu pilkottua HMWK:ta (cHMWK) ja bradykiniiniä, voimakasta vasodilataattoria, joka lisää verisuonten läpäisevyyttä, mikä johtaa HAE:hen liittyvään turvotukseen ja kipuun.” Englanninkielinen alkuteksti: "Lanadelumab-flyo is a fully human monoclonal antibody (IgG1/κ-light chain) that binds plasma kallikrein and inhibits its proteolytic activity. Plasma kallikrein is a protease that cleaves high-molecular-weight-kininogen (HMWK) to generate cleaved HMWK (cHMWK) and bradykinin, a potent vasodilator that increases vascular permeability resulting in swelling and pain associated with HAE." ([DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8), versio 2026-09-18; haettu 2026-11-19). Tiedossa on kuitenkin, että lanadelumabi on vasta-aine, joka kohdistuu plasman kallikreiiniin (KLKB1) ja estää kallikreiini–bradykiniinireittiä. Sen teho on osoitettu paikallisesti hyväksytyssä käyttöaiheessa.
 
 Ennusteen korkea pistemäärä heijastaa todennäköisesti verkostotason läheisyyttä serpiinibiologiaan (SERPING1), jota myös lanadelumabin kohdereitti sivuaa. Mekanistinen yhteys on kuitenkin heikko: toksinen serpiinien polymeroituminen on proteiinin laskostumishäiriöön ja toiminnan lisääntymiseen perustuva prosessi, jota kallikreiinin esto ei oletettavasti korjaa.
 
@@ -103,11 +103,12 @@ Muilta osin turvallisuustiedot ks. valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Takhzyro (EMEA/H/C/004806) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8) |
 
 <!-- review:end log -->
 

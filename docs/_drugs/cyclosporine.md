@@ -56,7 +56,7 @@ Tähän suuntaan ei ole yhtään kliinistä tutkimusta, ja koottu aineisto sisä
 
 ## Miksi ennuste on mahdollinen?
 
-Siklosporiini estää kalsineuriinia ja siten T-solujen aktivaatiota. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla.
+Siklosporiini estää kalsineuriinia ja siten T-solujen aktivaatiota. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Cyclosporine (epävirallinen käännös): ”Siklosporiini on voimakas immunosuppressiivinen aine, joka pidentää eläimillä allogeenisten siirteiden eloonjäämistä iho-, munuais-, maksa-, sydän-, haima-, luuydin-, ohutsuoli- ja keuhkosiirroissa. Siklosporiinin on osoitettu estävän joitakin humoraalisia immuunivasteita ja vielä voimakkaammin soluvälitteisiä immuunireaktioita, kuten allograftin hyljintää, viivästynyttä yliherkkyyttä, kokeellista allergista enkefalomyeliittiä, Freundin adjuvantin aiheuttamaa artriittia ja käänteishyljintäreaktiota, monilla eläinlajeilla useiden eri elinten osalta.” Englanninkielinen alkuteksti: "Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs." ([DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f), versio 2026-09-10; haettu 2026-11-19).
 
 Kroonisessa granulomatoottisessa taudissa keskeinen ongelma on fagosyyttien viallinen NADPH-oksidaasi, johon liittyy liiallinen tulehdus ja granuloomien muodostuminen. Immunosuppressio voisi teoriassa vaimentaa tulehduskomplikaatioita.
 
@@ -98,6 +98,19 @@ Ennuste perustuu pelkästään laskennalliseen malliin. Kliinisiä tutkimuksia e
 - Yksityiskohtaisia vaikutusmekanismitietoja
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen läpikäyntiä
 - Infektioriskin arviointia kohdepotilasryhmässä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -60,7 +60,7 @@ Muista ennustetuista käyttöaiheista mahdollinen vatsa-pohjukaissuolitulehdus (
 
 ## Miksi ennuste on perusteltu – vai onko?
 
-Oksibutyniini on muskariinireseptoreita salpaava lääke, jolla on spasmolyyttistä (kouristuksia lievittävää) vaikutusta. Tarkempaa vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla, joten mekanistista yhteyttä ei voida varmentaa.
+Oksibutyniini on muskariinireseptoreita salpaava lääke, jolla on spasmolyyttistä (kouristuksia lievittävää) vaikutusta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Oxybutynin (epävirallinen käännös): ”Oksibutyniini relaksoi virtsarakon sileää lihasta. Oksibutyniinikloridilla on suora spasmolyyttinen vaikutus sileään lihakseen, ja se estää asetyylikoliinin muskariinivaikutusta sileässä lihaksessa. Salpaavia vaikutuksia ei esiinny luustolihasten hermo-lihasliitoksissa eikä autonomisissa hermosolmuissa (antinikotiiniset vaikutukset).” Englanninkielinen alkuteksti: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), versio 2026-11-11; haettu 2026-11-19).
 
 Levottomien jalkojen oireyhtymä liittyy pääasiassa dopamiinivälitteisen toiminnan ja raudan aineenvaihdunnan häiriöihin. Oksibutyniinin antikolinergisen vaikutuksen ja tämän sairauden välillä ei ole aineiston perusteella uskottavaa mekanistista reittiä. Antikolinergit voivat lisäksi joillakin potilailla jopa pahentaa oireita. Korkea pistemäärä on siis mallin laskema ennuste, jota ei tue biologinen perustelu.
 
@@ -146,12 +146,13 @@ Kohtalaisia (Moderate) yhteisvaikutuksia on mm. muiden antikolinergisten tai ant
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Kentera (EMEA/H/C/000532) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
 
 <!-- review:end log -->
 

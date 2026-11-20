@@ -54,7 +54,7 @@ Rivastigmiini on kolinesteraasin estäjä, jota on alun perin käytetty **dement
 
 ## Miksi ennuste on perusteltu?
 
-Rivastigmiini estää kolinesteraasientsyymejä (asetyylikolinesteraasi ja butyryylikolinesteraasi) ja vähentää siten asetylokoliinin hajoamista. Tämän raportin tietoaineistossa ei ole saatavilla tarkempaa vaikutusmekanismin kuvausta, joten alla oleva päättely perustuu yleisesti tunnettuun lääkeryhmän vaikutukseen.
+Rivastigmiini estää kolinesteraasientsyymejä (asetyylikolinesteraasi ja butyryylikolinesteraasi) ja vähentää siten asetylokoliinin hajoamista. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Rivastigmine (epävirallinen käännös): ”Vaikka rivastigmiinin tarkkaa vaikutusmekanismia ei tunneta, sen arvellaan saavan aikaan terapeuttisen vaikutuksensa tehostamalla kolinergistä toimintaa. Tämä tapahtuu suurentamalla asetyylikoliinipitoisuutta estämällä reversiibelisti sen koliiniesteraasivälitteistä hydrolyysiä.” Englanninkielinen alkuteksti: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), versio 2025-11-11; haettu 2026-11-19).
 
 Silmässä lisääntynyt kolinerginen vaikutus voi supistaa sädelihasta ja parantaa kammionesteen ulosvirtausta trabekkeliverkon kautta, mikä laskee silmänpainetta. Sama farmakologinen periaate on käytössä mioottisissa lääkkeissä, kuten pilokarpiinissa ja fysostigmiinissa. Silmänpaineen alentaminen on glaukooman hoidon keskeinen tavoite.
 
@@ -120,12 +120,13 @@ Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/0
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvat on peruutettu, ja s” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

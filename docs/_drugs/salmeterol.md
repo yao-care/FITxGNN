@@ -58,7 +58,7 @@ Salmeteroli on pitkävaikutteinen beeta2-agonisti, jota on alun perin käytetty 
 
 ## Miksi ennuste on perusteltu?
 
-Lääkkeen vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Tiedossa olevan perusteella salmeteroli on pitkävaikutteinen beeta2-adrenerginen agonisti. Sen teho astmassa on osoitettu, ja mekanistisesti se voi soveltua myös keuhkoputkentulehdukseen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Salmeterol (epävirallinen käännös): ”Salmeteroli on selektiivinen LABA. In vitro -tutkimukset osoittavat salmeterolin olevan vähintään 50 kertaa selektiivisempi beeta 2 -adrenoseptoreille kuin albuteroli. Vaikka beeta 2 -adrenoseptorit ovat keuhkoputkien sileän lihaksen vallitsevia adrenergisiä reseptoreita ja beeta 1 -adrenoseptorit ovat sydämen vallitsevia reseptoreita, myös ihmisen sydämessä on beeta 2 -adrenoseptoreita, ja niiden osuus kaikista beeta-adrenoseptoreista on 10–50 %.” Englanninkielinen alkuteksti: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), versio 2022-10-10; haettu 2026-11-19). Tiedossa olevan perusteella salmeteroli on pitkävaikutteinen beeta2-adrenerginen agonisti. Sen teho astmassa on osoitettu, ja mekanistisesti se voi soveltua myös keuhkoputkentulehdukseen.
 
 Beeta2-agonismi rentouttaa hengitysteiden sileää lihasta ja voi tehostaa värekarvojen toimintaa (mukosiliaarinen puhdistuma). Suorassa ihmistutkimuksessa salmeterolin todettiin vaikuttavan limaa ja yskimistä poistavaan puhdistumaan kroonista keuhkoputkitulehdusta sairastavilla potilailla (PMID 15970448).
 
@@ -158,13 +158,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat koostetusta aineistost
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Valmisteen ainoa myyntilupa on peruutettu, joten valmisteen saatavuus on tarkistettava” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Seffalair Spiromax (EMEA/H/C/004881) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Alpelisibi on PI3K-alfa-estäjä, jota on alun perin käytetty rintasyövän hoi
 
 ## Miksi ennuste on perusteltu?
 
-Alpelisibi on PI3K-alfa-estäjä. Yksityiskohtaisia vaikutusmekanismitietoja (MOA) ei ole tällä hetkellä saatavilla raportin aineistossa, joten mekanistinen arvio perustuu yleiseen tietoon lääkeaineluokasta.
+Alpelisibi on PI3K-alfa-estäjä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Alpelisib (epävirallinen käännös): ”Alpelisibi on fosfatidyyli-inositoli-3-kinaasin (PI3K) estäjä, jonka estävä vaikutus kohdistuu pääasiassa PI3Kα:han. PI3K:n katalyyttistä α-alayksikköä koodaavan geenin (PIK3CA) toiminnan lisääntymiseen johtavat mutaatiot johtavat PI3Kα:n ja Akt-signaloinnin aktivoitumiseen, solujen transformaatioon ja kasvainten syntyyn in vitro- ja in vivo -malleissa.” Englanninkielinen alkuteksti: "Alpelisib is an inhibitor of phosphatidylinositol-3-kinase (PI3K) with inhibitory activity predominantly against PI3Kα. Gain-of-function mutations in the gene encoding the catalytic α-subunit of PI3K (PIK3CA) lead to activation of PI3Kα and Akt-signaling, cellular transformation and the generation of tumors in in vitro and in vivo models." ([DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b), versio 2026-10-28; haettu 2026-11-19).
 
 PI3K/AKT/mTOR-signalointireitin tiedetään osallistuvan keuhkovaltimoiden sileän lihaksen solujen lisääntymiseen ja verisuonten uudelleenmuovautumiseen, jotka ovat keskeisiä keuhkoverenpainetaudin patologiassa. Tämä antaa uskottavan mutta toistaiseksi todentamattoman perustelun ennusteelle. Rintasyövän ja keuhkoverenpainetaudin yhteys on vain signalointireitin tasolla: sairaudet ovat kliinisesti hyvin erilaisia.
 
@@ -156,7 +156,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -164,6 +164,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”ja Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden ja nykyisen saatavuuden selvittämistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Piqray (EMEA/H/C/004804) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b) |
 
 <!-- review:end log -->
 

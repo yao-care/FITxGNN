@@ -58,7 +58,7 @@ Nitisinoni on lääke, jota on alun perin käytetty tyrosinemioiden hoitoon. TxG
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Nitisinoni estää tyrosiinin hajotuksessa toimivaa 4-hydroksifenyylipyruvaattidioksigenaasi (HPPD) -entsyymiä. Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tämän raportin aineistossa, joten mekanismianalyysi on rajallinen.
+Nitisinoni estää tyrosiinin hajotuksessa toimivaa 4-hydroksifenyylipyruvaattidioksigenaasi (HPPD) -entsyymiä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Nitisinone (epävirallinen käännös): ”Nitisinoni on 4-hydroksifenyylipyruvaattidioksigenaasin kilpaileva estäjä; 4-hydroksifenyylipyruvaattidioksigenaasi on entsyymi, joka sijaitsee tyrosiinin kataboliareitillä fumaryyliasetoasetaattihydrolaasin (FAH) yläpuolella. Estämällä tyrosiinin normaalia kataboliaa HT-1-potilailla nitisinoni estää katabolisten välituotteiden maleyyliasetoasetaatin ja fumaryyliasetoasetaatin kertymisen.” Englanninkielinen alkuteksti: "Nitisinone is a competitive inhibitor of 4-hydroxyphenyl-pyruvate dioxygenase, an enzyme upstream of fumarylacetoacetate hydrolase (FAH) in the tyrosine catabolic pathway. By inhibiting the normal catabolism of tyrosine in patients with HT-1, nitisinone prevents the accumulation of the catabolic intermediates maleylacetoacetate and fumarylacetoacetate." ([DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526), versio 2026-10-21; haettu 2026-11-19).
 
 Munuaisten tubulusten toimintahäiriö (Fanconin tyyppinen) esiintyy perinnöllisessä tyrosinemia tyypin 1 taudissa, jota nitisinoni hoitaa. TxGNN-signaali voi heijastaa tätä päällekkäisyyttä. Tämä ei yksinään tue käyttöä primaarisessa munuaisten tubulusasidoosissa, eikä suoraa mekanistista yhteyttä ole osoitettu.
 
@@ -148,13 +148,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa pakkausselostees
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Nityr (EMEA/H/C/004582), Orfadin (EMEA/H/C/000555)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
 
 <!-- review:end log -->
 

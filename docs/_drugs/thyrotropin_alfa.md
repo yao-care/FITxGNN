@@ -58,7 +58,7 @@ Tyrotropiini alfa on yhdistelmä-DNA-tekniikalla valmistettu kilpirauhasta stimu
 
 ## Miksi ennuste voi vaikuttaa uskottavalta?
 
-Tyrotropiini alfa on yhdistelmä-TSH, joka sitoutuu kilpirauhasen TSH-reseptoriin. Tarkkaa vaikutusmekanismia koskevaa tietoa ei ole tässä aineistossa saatavilla.
+Tyrotropiini alfa on yhdistelmä-TSH, joka sitoutuu kilpirauhasen TSH-reseptoriin. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Thyrotropin Alfa (epävirallinen käännös): ”Tyreotropiini (TSH) on aivolisäkkeen hormoni, joka stimuloi kilpirauhasta tuottamaan kilpirauhashormonia. Tyreotropiini alfan sitoutuminen normaalien kilpirauhasen epiteelisolujen tai hyvin erilaistuneen kilpirauhassyöpäkudoksen TSH-reseptoreihin stimuloi jodin soluunottoa ja organifikaatiota sekä tyreoglobuliinin (Tg), trijodityroniinin (T3) ja tyroksiinin (T4) synteesiä ja eritystä.” Englanninkielinen alkuteksti: "Thyrotropin (TSH) is a pituitary hormone that stimulates the thyroid gland to produce thyroid hormone. Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification, and synthesis and secretion of thyroglobulin (Tg), triiodothyronine (T3) and thyroxine (T4)." ([DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b), versio 2023-02-24; haettu 2026-11-19).
 
 Kilpirauhasen kasvainten ja migreenin välillä ei ole tunnettua mekanistista yhteyttä. Hyvin korkea pistemäärä (0,9998) vaikuttaa olevan graafipohjaisen mallin tulos, jota mikään kliininen tai kirjallisuusnäyttö ei tue. Mahdollinen yhteys olisi spekulatiivinen, esimerkiksi epäsuora vaikutus kilpirauhashormonien tai neuroendokriinisten reittien kautta.
 
@@ -134,12 +134,13 @@ Näiden lääkkeiden käyttäjillä verensokeritason seuranta on tärkeää.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Thyrogen (EMEA/H/C/000220) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
 
 <!-- review:end log -->
 

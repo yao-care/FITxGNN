@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **Ambras-tyypin synnynnäiseen yleistynee
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Silodosiinin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon mukaan silodosiini on selektiivinen alfa-1A-adrenergisen reseptorin salpaaja, jonka teho eturauhasen liikakasvussa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Silodosin (epävirallinen käännös): ”Silodosiini on postsynaptisten alfa-1-adrenoreseptorien selektiivinen antagonisti. Näitä reseptoreita on ihmisen eturauhasessa, virtsarakon pohjassa, virtsarakon kaulassa, eturauhasen kapselissa ja eturauhasen virtsaputkessa. Näiden alfa-1-adrenoreseptorien salpaus voi saada näiden kudosten sileän lihaksen relaksoitumaan, mikä parantaa virtsan virtausta ja vähentää BPH:n oireita.” Englanninkielinen alkuteksti: "Silodosin is a selective antagonist of post-synaptic alpha-1 adrenoreceptors, which are located in the human prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra. Blockade of these alpha-1 adrenoreceptors can cause smooth muscle in these tissues to relax, resulting in an improvement in urine flow and a reduction in BPH symptoms." ([DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7), versio 2026-10-30; haettu 2026-11-19). Tunnetun tiedon mukaan silodosiini on selektiivinen alfa-1A-adrenergisen reseptorin salpaaja, jonka teho eturauhasen liikakasvussa on osoitettu.
 
 Ambras-oireyhtymä on harvinainen synnynnäinen sairaus, jonka taustalla on genomin uudelleenjärjestymiä, jotka vaikuttavat TRPS1-geenin säätelyyn. Alfa-1A-adrenergiseen signalointiin ei tunneta yhteyttä. Mekanistista yhteyttä alkuperäisen ja ennustetun käyttöaiheen välillä ei siis ole osoitettu.
 
@@ -137,13 +137,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole saatavilla; ne tulee 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa (haltija Recordati Ireland Ltd) on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7) |
 
 <!-- review:end log -->
 

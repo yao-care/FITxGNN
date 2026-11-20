@@ -54,7 +54,7 @@ Levodopa on dopamiinin esiaste, jota on alun perin käytetty Parkinsonin taudin 
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Levodopan vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tiedetään, että levodopa on dopamiinin esiaste, joka vaikuttaa dopaminergiseen hermovälitykseen Parkinsonin taudissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Levodopa (epävirallinen käännös): ”Levodopa, dopamiinin metabolinen esiaste, läpäisee veri-aivoesteen ja muuttuu oletettavasti aivoissa dopamiiniksi. Tämän ajatellaan olevan mekanismi, jolla levodopa lievittää Parkinsonin taudin oireita.” Englanninkielinen alkuteksti: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), versio 2026-07-20; haettu 2026-11-19). Tiedetään, että levodopa on dopamiinin esiaste, joka vaikuttaa dopaminergiseen hermovälitykseen Parkinsonin taudissa.
 
 Rasmussenin enkefaliitti on harvinainen, toispuoleinen ja krooninen tulehduksellinen aivosairaus. Sen taustalla on T-soluvälitteinen ja mahdollisesti myös autovasta-ainevälitteinen patologia. Tyypillisiä piirteitä ovat vaikeahoitoiset paikallisalkuiset kohtaukset ja etenevä aivopuoliskon surkastuminen.
 
@@ -106,12 +106,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tällä hetkellä aine
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->
 

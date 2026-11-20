@@ -60,7 +60,7 @@ Kumpaankaan indikaatioon ei ole **yhtään kliinistä tutkimusta**, ja diabeetti
 
 ## Miksi ennuste on perusteltu?
 
-Denosumabin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun lääkeluokan perusteella denosumabi on RANKL-estäjä, joka vähentää luun resorptiota. Sen teho luustoindikaatioissa on osoitettu, ja mekanistisesti se voisi mahdollisesti liittyä diabeettiseen retinopatiaan RANKL/RANK/OPG-signaloinnin kautta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Denosumab (epävirallinen käännös): ”Denosumabivalmisteet sitoutuvat RANKL:ään, joka on transmembraaninen tai liukoinen proteiini ja välttämätön osteoklastien eli luun resorptiosta vastaavien solujen muodostumiselle, toiminnalle ja eloonjäämiselle. Denosumabivalmisteet estävät RANKL:ää aktivoimasta reseptoriaan, RANK:ta, osteoklastien ja niiden esiasteiden pinnalla.” Englanninkielinen alkuteksti: "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd), versio 2026-11-04; haettu 2026-11-19). Tunnetun lääkeluokan perusteella denosumabi on RANKL-estäjä, joka vähentää luun resorptiota. Sen teho luustoindikaatioissa on osoitettu, ja mekanistisesti se voisi mahdollisesti liittyä diabeettiseen retinopatiaan RANKL/RANK/OPG-signaloinnin kautta.
 
 Alkuperäiset käyttöaiheet (luun jättisolukasvain, osteoporoosi) ja ennustettu silmänpohjan mikroverisuonisairaus ovat kliinisesti kaukana toisistaan. Mahdollinen yhteys kulkisi tulehduksen, verisuonivaurion ja verisuonten kalkkiutumisen kautta, mutta tämä on toistaiseksi spekulatiivista. Mikään koottu aineisto ei yhdistä denosumabia suoraan verkkokalvon mikroverisuonisairauteen, eikä mekanismia voida tarkistaa puuttuvan MOA-tiedon vuoksi.
 
@@ -156,12 +156,13 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, katso valmisteyhte
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 20 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa kaikki denosumabin myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
 
 <!-- review:end log -->
 

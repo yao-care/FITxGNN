@@ -56,7 +56,7 @@ Ennustetta ei tue yksikään kliininen tutkimus eikä julkaisu, joten näyttö o
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Pembrolitsumabin vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla. Farmakologiatietojen mukaan se on vasta-aine, joka kohdistuu PD-1-reseptoriin (PDCD1, CD279). PD-1:n estäminen vapauttaa T-solujen aktiivisuuden, jota kasvaimet muuten jarruttavat.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pembrolizumab (epävirallinen käännös): ”PD-1-ligandien PD-L1 ja PD-L2 sitoutuminen T-soluissa esiintyvään PD-1-reseptoriin estää T-solujen proliferaatiota ja sytokiinien tuotantoa. Joissakin kasvaimissa PD-1-ligandien ilmentyminen lisääntyy, ja tämän reitin kautta tapahtuva signalointi voi osaltaan estää kasvainten aktiivista T-soluvälitteistä immuunivalvontaa. […] Pembrolitsumabi on monoklonaalinen vasta-aine, joka sitoutuu PD-1-reseptoriin ja estää sen vuorovaikutuksen PD-L1:n ja PD-L2:n kanssa, mikä vapauttaa PD-1-reitin välittämän immuunivasteen eston, mukaan lukien kasvaimen vastainen immuunivaste.” Englanninkielinen alkuteksti: "Binding of the PD-1 ligands, PD-L1 and PD-L2, to the PD-1 receptor found on T cells, inhibits T cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), versio 2026-10-16; haettu 2026-11-19). Farmakologiatietojen mukaan se on vasta-aine, joka kohdistuu PD-1-reseptoriin (PDCD1, CD279). PD-1:n estäminen vapauttaa T-solujen aktiivisuuden, jota kasvaimet muuten jarruttavat.
 
 Alkuperäiset käyttöaiheet ovat pahanlaatuisia syöpiä, joissa immuunijärjestelmän ohittaminen on keskeinen mekanismi. Ientenfibromatoosi on sen sijaan hyvänlaatuinen, usein perinnöllinen ienkasvun häiriö. Sen ja PD-1-reitin välille ei ole osoitettu uskottavaa yhteyttä. Korkea pistemäärä perustuu todennäköisesti tietämysgraafin rakenteeseen, ei biologiseen perusteeseen.
 
@@ -122,12 +122,13 @@ Muuten turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Keytruda (EMEA/H/C/003820) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) |
 
 <!-- review:end log -->
 

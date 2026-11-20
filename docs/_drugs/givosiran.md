@@ -54,7 +54,7 @@ Givosiraani on maksaan kohdennettu siRNA-lääke, jota käytetään maksaporfyri
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Givosiraanin yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla kootussa aineistossa. Tiedossa on, että givosiraani on GalNAc-konjugoitu siRNA, joka vaimentaa maksasolujen ALAS1-entsyymiä ja siten vähentää hemin biosynteesin ensimmäisen vaiheen aktiivisuutta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Givosiran (epävirallinen käännös): ”Givosiraani on kaksijuosteinen pieni häiritsevä RNA, joka aiheuttaa aminolevulinaattisyntaasi 1:n ( ALAS1 ) mRNA:n hajoamisen maksasoluissa RNA-interferenssin kautta, mikä vähentää maksan ALAS1-mRNA:n kohonneita pitoisuuksia. Tämä johtaa neurotoksisten välituotteiden aminolevuliinihapon (ALA) ja porfobilinogeenin (PBG) pienentyneisiin pitoisuuksiin verenkierrossa; nämä tekijät liittyvät AHP:n kohtauksiin ja muihin taudin ilmentymiin.” Englanninkielinen alkuteksti: "Givosiran is a double-stranded small interfering RNA that causes degradation of aminolevulinate synthase 1 ( ALAS1 ) mRNA in hepatocytes through RNA interference, reducing the elevated levels of liver ALAS1 mRNA. This leads to reduced circulating levels of neurotoxic intermediates aminolevulinic acid (ALA) and porphobilinogen (PBG), factors associated with attacks and other disease manifestations of AHP." ([DailyMed: Givlaari (givosiran sodium) prescribing information, Alnylam Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=167e663c-11e1-497b-a3fc-951d65d58eaa), versio 2025-09-10; haettu 2026-11-19). Tiedossa on, että givosiraani on GalNAc-konjugoitu siRNA, joka vaimentaa maksasolujen ALAS1-entsyymiä ja siten vähentää hemin biosynteesin ensimmäisen vaiheen aktiivisuutta.
 
 Hepatoportaaliskleroosi eli obliteroiva portaalivenopatia on maksan verisuonisairaus, jossa muutokset kohdistuvat portaalisuoniin. Hemisynteesin vaimentamisen ja portaalisuonten patologian välillä ei ole osoitettua mekanistista yhteyttä. Erittäin korkea pistemäärä johtuu todennäköisesti verkostopohjaisesta läheisyydestä, joka on yhteinen monille maksasairauksille, eikä spesifisestä biologisesta signaalista.
 
@@ -97,6 +97,19 @@ Lisäksi ennustetun käyttöaiheen näkökulmasta huomionarvoista on, että tran
 - Vaikutusmekanismitietojen täydentäminen
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen ja arviointi (turvallisuusseulonnan edellytys)
 - Maksatoksisuusriskin arviointi potilaspopulaatiossa, jolla on jo maksan vaurio
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Givlaari (givosiran sodium) prescribing information, Alnylam Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=167e663c-11e1-497b-a3fc-951d65d58eaa) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

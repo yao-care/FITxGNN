@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **ekstrakutaaniseen mastosytoomaan**, mut
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tarkkaa vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Siltuksimabi on kuitenkin tunnetusti IL-6:ta estävä vasta-aine, ja sen teho Castlemanin taudissa, jossa IL-6 on keskeinen taudin ajuri, on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Siltuximab (epävirallinen käännös): ”Siltuksimabi sitoutuu ihmisen IL-6:een ja estää IL-6:n sitoutumisen sekä liukoisiin että kalvoon sitoutuneisiin IL-6-reseptoreihin. IL-6:n on osoitettu osallistuvan moniin normaaleihin fysiologisiin prosesseihin, kuten immunoglobuliinien erityksen indusointiin.” Englanninkielinen alkuteksti: "Siltuximab binds human IL-6 and prevents the binding of IL-6 to both soluble and membrane-bound IL-6 receptors. IL-6 has been shown to be involved in diverse normal physiologic processes such as induction of immunoglobulin secretion." ([DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b), versio 2024-08-27; haettu 2026-11-19). Siltuksimabi on kuitenkin tunnetusti IL-6:ta estävä vasta-aine, ja sen teho Castlemanin taudissa, jossa IL-6 on keskeinen taudin ajuri, on osoitettu.
 
 IL-6:lla voi olla rooli syöttösolubiologiassa, mutta tämä on spekulatiivista, eikä toimitettu aineisto tue sitä. Alkuperäisen ja ennustetun käyttöaiheen välistä yhteyttä ei ole vahvistettu.
 
@@ -144,13 +144,14 @@ Huomionarvoista on, että IL-6:n esto voi palauttaa tiettyjen CYP450-entsyymien 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska voimassa olevaa myyntilupaa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b) |
 
 <!-- review:end log -->
 

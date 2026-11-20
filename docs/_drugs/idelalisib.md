@@ -68,7 +68,7 @@ Huomio: tietojen mukainen pisteytys luokittelee manttelisolulymfooman tutkimusky
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietojen joukossa ei ole yksityiskohtaista vaikutusmekanismitietoa. Tiedossa kuitenkin on, että idelalisibi estää selektiivisesti PI3K-delta-entsyymiä, joka toimii B-solureseptorin signaalinsiirron alavirrassa ja on aktiivinen manttelisolulymfoomassa. Alkuperäisissä käyttöaiheissa (krooninen lymfaattinen leukemia, non-Hodgkin-lymfooma) lääkkeen teho perustuu samaan B-solusignalointiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Idelalisib (epävirallinen käännös): ”Idelalisibi on fosfatidyyli-inositoli-3-kinaasin PI3Kδ:n estäjä; PI3Kδ:aa ilmentyy normaaleissa ja maligneissa B-soluissa. Idelalisibi indusoi apoptoosia ja esti proliferaatiota maligneista B-soluista peräisin olevissa solulinjoissa ja primaarisissa kasvainsoluissa.” Englanninkielinen alkuteksti: "Idelalisib is an inhibitor of phosphatidylinositol 3-kinase, PI3Kδ, which is expressed in normal and malignant B-cells. Idelalisib induced apoptosis and inhibited proliferation in cell lines derived from malignant B-cells and in primary tumor cells." ([DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50), versio 2026-09-10; haettu 2026-11-19). Tiedossa kuitenkin on, että idelalisibi estää selektiivisesti PI3K-delta-entsyymiä, joka toimii B-solureseptorin signaalinsiirron alavirrassa ja on aktiivinen manttelisolulymfoomassa. Alkuperäisissä käyttöaiheissa (krooninen lymfaattinen leukemia, non-Hodgkin-lymfooma) lääkkeen teho perustuu samaan B-solusignalointiin.
 
 Prekliiniset tutkimukset tukevat ajatusta: idelalisibi vähentää translaation säätelyyn liittyvää signalointia ja solujen kasvua manttelisolulymfoomasoluissa. Yhdistelmät P300/CBP-estäjän ja CDK4/6-estäjän (palbosiklibi) kanssa ovat synergistisiä. Toisaalta CBX5-geenin menetys on yhdistetty resistenssiin, ja idelalisibin on todettu osoittaneen luontaista resistenssiä manttelisolulymfoomassa.
 
@@ -177,7 +177,7 @@ Muilta osin turvallisuustiedot: ks. valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -185,6 +185,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Valmisteen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu, tunnetut vakavat haitat (maksatoksisuus, koliitti, infektiot) ovat merkittäviä, ja uudemmat BTK- ja BCL2-estäjät o” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Zydelig (EMEA/H/C/003843) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50) |
 
 <!-- review:end log -->
 

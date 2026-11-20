@@ -54,7 +54,7 @@ Duloksetiini on serotoniinin ja noradrenaliinin takaisinoton estäjä (SNRI), jo
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Duloksetiinin yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tiedetään, että duloksetiini kuuluu SNRI-lääkkeisiin, jotka estävät serotoniinin ja noradrenaliinin takaisinottoa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Duloxetine (epävirallinen käännös): ”Vaikka duloksetiinin masennuslääkevaikutuksen, keskushermostollisen kipua estävän vaikutuksen ja anksiolyyttisen vaikutuksen tarkkoja mekanismeja ihmisillä ei tunneta, näiden vaikutusten uskotaan liittyvän siihen, että se voimistaa serotonergistä ja noradrenergistä aktiivisuutta keskushermostossa.” Englanninkielinen alkuteksti: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), versio 2026-08-20; haettu 2026-11-19). Tiedetään, että duloksetiini kuuluu SNRI-lääkkeisiin, jotka estävät serotoniinin ja noradrenaliinin takaisinottoa.
 
 Ennuste näyttää perustuvan verkostolähellisyyteen migreenin kaltaisten sairauksien ja ionikanavasairauksien kanssa. Duloksetiinin käytölle imeväisillä ei ole suoraa perustetta. Lisäksi lapsipotilaiden turvallisuus on erillinen huolenaihe. Korkea pistemäärä ei siis yksinään osoita hyötyä, ja ennuste on tulkittava varovasti.
 
@@ -97,6 +97,19 @@ Tähän raporttiin koottu aineisto ei sisällä valmisteyhteenvedon varoituksia 
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä
 - Prekliinistä tai mekanistista perustetta hyvänlaatuiselle imeväisiän paroksysmaaliselle kallistuskaulalle
 - Lapsipotilaiden turvallisuusarviota ennen mitään kliinistä harkintaa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan olla hyödyllinen **hypervitaminoosin** hoidossa
 
 ## Miksi ennuste on perusteltu?
 
-Tähän raporttiin koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan orlistaatti estää mahalaukun ja haiman lipaasia ja vähentää ravinnon rasvan imeytymistä noin 30 %. Se on siis rasvanimeytymistä estävä lääke, jonka teho lihavuuden hoidossa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Orlistat (epävirallinen käännös): ”Orlistaatti on maha-suolikanavan lipaasien palautuva estäjä. Se saa aikaan terapeuttisen vaikutuksensa mahalaukun ja ohutsuolen luumenissa muodostamalla kovalenttisen sidoksen mahalaukun ja haiman lipaasien aktiivisen seriinitähteen kohtaan.” Englanninkielinen alkuteksti: "Orlistat is a reversible inhibitor of gastrointestinal lipases. It exerts its therapeutic activity in the lumen of the stomach and small intestine by forming a covalent bond with the active serine residue site of gastric and pancreatic lipases." ([DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e), versio 2026-09-30; haettu 2026-11-19). Tunnetun tiedon mukaan orlistaatti estää mahalaukun ja haiman lipaasia ja vähentää ravinnon rasvan imeytymistä noin 30 %. Se on siis rasvanimeytymistä estävä lääke, jonka teho lihavuuden hoidossa on osoitettu.
 
 Rasvaliukoiset vitamiinit (A, D, E ja K) imeytyvät ravinnon rasvan mukana. Orlistaatti vähentää siksi myös niiden imeytymistä. Teoriassa tämä voisi vähentää vitamiinien kertymistä rasvaliukoisessa hypervitaminoosissa, esimerkiksi A- tai D-vitamiinin liikasaannissa.
 
@@ -115,12 +115,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten ne 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Alli (EMEA/H/C/000854), Xenical (EMEA/H/C/000154)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e) |
 
 <!-- review:end log -->
 

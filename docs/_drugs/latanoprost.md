@@ -60,7 +60,7 @@ Tälle suunnalle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä
 
 ## Miksi ennuste on perusteltu?
 
-Latanoprosti on prostaglandiini F2-alfa -analogi, joka alentaa silmänpainetta lisäämällä uveoskleraalista nesteenpoistoa. Se on hyväksytty avokulmaglaukooman ja silmänpainetaudin hoitoon. Tarkkaa vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla kootussa aineistossa, joten mekanismikuvaus perustuu yleiseen farmakologiseen tietoon.
+Latanoprosti on prostaglandiini F2-alfa -analogi, joka alentaa silmänpainetta lisäämällä uveoskleraalista nesteenpoistoa. Se on hyväksytty avokulmaglaukooman ja silmänpainetaudin hoitoon. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Latanoprost (epävirallinen käännös): ”Latanoprosti on prostaglandiini F 2α -analogi, jonka uskotaan alentavan silmänpainetta (IOP) lisäämällä kammionesteen ulosvirtausta. Eläimillä ja ihmisillä tehdyt tutkimukset viittaavat siihen, että pääasiallinen vaikutusmekanismi on uveoskleraalisen ulosvirtauksen lisääntyminen.” Englanninkielinen alkuteksti: "Latanoprost is a prostaglandin F 2α analogue that is believed to reduce the intraocular pressure (IOP) by increasing the outflow of aqueous humor. Studies in animals and man suggest that the main mechanism of action is increased uveoscleral outflow." ([DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded), versio 2025-12-18; haettu 2026-11-19).
 
 Primaarisessa perinnöllisessä (synnynnäisessä tai nuoruusiän) glaukoomassa silmänpaine on koholla, joten silmänpainetta alentava mekanismi voi olla periaatteessa relevantti.
 
@@ -143,12 +143,13 @@ Muilta osin tarkemmat turvallisuustiedot, varoitukset ja vasta-aiheet löytyvät
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa kaikki tunnetut myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Catiolanze (EMEA/H/C/005933), Roclanda (EMEA/H/C/005107)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
 
 <!-- review:end log -->
 

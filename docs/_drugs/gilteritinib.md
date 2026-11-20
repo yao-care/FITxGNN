@@ -60,7 +60,7 @@ Ennusteen tueksi ei ole tässä raportissa käytettyjen tietojen mukaan **yhtä�
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Gilteritinibin vaikutusmekanismitiedot eivät ole saatavilla kootuissa tiedoissa. Farmakologiatietojen mukaan lääke estää FLT3-kinaasia (villityypin FLT3:n IC50 noin 5 nM, FLT3-ITD-mutaatioilla alle 2 nM) sekä useita muita reseptorityrosiinikinaaseja, kuten AXL, MERTK, NTRK1, ALK, ROS1, LTK ja RET.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Gilteritinib (epävirallinen käännös): ”Gilteritinibi on pienimolekyylinen lääkeaine, joka estää useita reseptorityrosiinikinaaseja, mukaan lukien FMS:n kaltainen tyrosiinikinaasi 3 (FLT3). Gilteritinibin osoitettiin estävän FLT3-reseptorin signalointia ja proliferaatiota soluissa, jotka ilmentävät eksogeenisesti FLT3:a, mukaan lukien FLT3-ITD sekä tyrosiinikinaasidomeenin mutaatiot (TKD) FLT3-D835Y ja FLT3-ITD-D835Y, ja se indusoi apoptoosia FLT3-ITD:tä ilmentävissä leukemiasoluissa.” Englanninkielinen alkuteksti: "Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD." ([DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383), versio 2026-10-01; haettu 2026-11-19). Farmakologiatietojen mukaan lääke estää FLT3-kinaasia (villityypin FLT3:n IC50 noin 5 nM, FLT3-ITD-mutaatioilla alle 2 nM) sekä useita muita reseptorityrosiinikinaaseja, kuten AXL, MERTK, NTRK1, ALK, ROS1, LTK ja RET.
 
 Bulbaarinen polio on poliovirusinfektio, joka vaurioittaa aivorungon motorisia hermosoluja. Tunnettua biologista reittiä FLT3- tai AXL-eston ja poliovirusreplikaation tai bulbaaristen motoneuronien suojan välillä ei ole osoitettu. AXL:n on esitetty osallistuvan joidenkin muiden virusten soluunmenoon tai immuunipakoon, mutta poliovirukselle tätä ei ole osoitettu, joten yhteys olisi spekulatiivinen.
 
@@ -120,6 +120,19 @@ Lisäksi mallin perustelujen mukaan gilteritinibi on luuydintä lamaava ja immuu
 - Prekliiniset tutkimukset (esim. poliovirusreplikaatio solumalleissa AXL/FLT3-eston yhteydessä)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
 - Turvallisuusarvio hermostoinfektioiden potilasryhmälle
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

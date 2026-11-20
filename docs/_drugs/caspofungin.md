@@ -58,7 +58,7 @@ Kaspofungiini on ekinokandiiniryhmän sienilääke, jota on alun perin käytetty
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla kootussa aineistossa. Yleisen farmakologisen tiedon mukaan kaspofungiini on ekinokandiini, joka estää beeta-(1,3)-D-glukaanisyntaasia ja häiritsee sienen soluseinän synteesiä. Sen teho kandidiaasissa ja aspergilloosissa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Caspofungin (epävirallinen käännös): ”Kaspofungiini on ekinokandiineihin kuuluva sienilääke. […] Kaspofungiini, joka on ekinokandiini, estää beeta(1,3)-D-glukaanin synteesiä; beeta(1,3)-D-glukaani on herkkien Aspergillus- ja Candida-lajien soluseinän välttämätön ainesosa. Beeta(1,3)-D-glukaania ei esiinny nisäkässoluissa.” Englanninkielinen alkuteksti: "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells." ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c), versio 2024-10-11; haettu 2026-11-19). Yleisen farmakologisen tiedon mukaan kaspofungiini on ekinokandiini, joka estää beeta-(1,3)-D-glukaanisyntaasia ja häiritsee sienen soluseinän synteesiä. Sen teho kandidiaasissa ja aspergilloosissa on osoitettu.
 
 Tunnettua mekanistista yhteyttä tämän vaikutuksen ja gastriinin säätelyn välillä ei ole. Mikään tunnettu reitti ei yhdistä lääkettä G-soluihin, gastriinia erittäviin kasvaimiin (gastrinooma) tai mahahapon erityksen fysiologiaan. Hyvin korkea pistemäärä (0,9944) on tietämysgraafiin perustuva ennuste. Se voi johtua verkostotason yhteyksistä, kuten jaetuista geeni- tai reittinaapureista, eikä välttämättä todellisesta farmakologisesta vaikutuksesta. Ennustetta on siksi tulkittava varovasti.
 
@@ -127,12 +127,13 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
 
 <!-- review:end log -->
 

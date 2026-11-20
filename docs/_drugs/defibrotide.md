@@ -54,7 +54,7 @@ Defibrotidi on endoteelia suojaava, antitromboottinen ja profibrinolyyttinen oli
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tähän raporttiin koottujen tietojen mukaan defibrotidin yksityiskohtaista vaikutusmekanismia ei ole saatavilla. Yleisesti defibrotidi tunnetaan endoteelia suojaavana lääkeaineena, jolla on antitromboottisia ja profibrinolyyttisiä vaikutuksia.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Defibrotide (epävirallinen käännös): ”Defibrotidinatriumin vaikutusmekanismia ei ole täysin selvitetty. In vitro defibrotidinatrium tehostaa plasmiinin entsymaattista aktiivisuutta fibriinihyytymien hydrolysoimisessa. Tutkimukset, joissa arvioitiin defibrotidinatriumin farmakologisia vaikutuksia endoteelisoluihin (EC), tehtiin pääasiassa ihmisen mikroverisuonten endoteelisolulinjassa.” Englanninkielinen alkuteksti: "The mechanism of action of defibrotide sodium has not been fully elucidated. In vitro, defibrotide sodium enhances the enzymatic activity of plasmin to hydrolyze fibrin clots. Studies evaluating the pharmacological effects of defibrotide sodium on endothelial cells (ECs) were conducted primarily in the human microvascular endothelial cell line." ([DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec), versio 2025-07-01; haettu 2026-11-19). Yleisesti defibrotidi tunnetaan endoteelia suojaavana lääkeaineena, jolla on antitromboottisia ja profibrinolyyttisiä vaikutuksia.
 
 Pseudo-von Willebrandin tauti on trombosyyttityyppinen verenvuotohäiriö, jonka aiheuttaa GPIb-alfa-reseptorin toimintaa lisäävä (gain-of-function) poikkeama. Defibrotidin tunnetuilla vaikutuksilla ei ole selvää mekanistista yhteyttä tämän verihiutalereseptorin vian korjaamiseen. Lisäksi lääkkeen antitromboottinen ja profibrinolyyttinen vaikutus voisi pahentaa vuotoriskiä. Ennuste on siis biologisesti heikosti perusteltu, ja korkea pistemäärä kertoo vain mallin tuottamasta assosiaatiosta.
 
@@ -101,6 +101,19 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - prekliinistä näyttöä, joka tukee vaikutusta tässä taudissa
 - valmisteyhteenvedon vasta-aiheiden ja varoitusten läpikäyntiä sekä vuotoriskin arviointia
 - arviota tämän erittäin harvinaisen sairauden potilaspopulaatiosta ja tutkimuksen toteutettavuudesta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -58,7 +58,7 @@ Insuliiniglulisiini on ppikavaikutteinen insuliinianalogi, jota on alun perin k�
 
 ## Miksi ennuste on perusteltu?
 
-Insuliiniglulisiini on pikavaikutteinen ihmisinsuliinin analogi, joka sitoutuu insuliinireseptoriin ja laskee veren glukoosipitoisuutta. Tarkkaa vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin koottu aineistoon sisällytetty, joten mekanismin tarkempi analyysi on rajallinen.
+Insuliiniglulisiini on pikavaikutteinen ihmisinsuliinin analogi, joka sitoutuu insuliinireseptoriin ja laskee veren glukoosipitoisuutta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Insulin Glulisine (epävirallinen käännös): ”Glukoosiaineenvaihdunnan säätely on insuliinien ja insuliinianalogien, myös insuliiniglulisiinin, ensisijainen vaikutus. Insuliinit alentavat veren glukoosipitoisuutta lisäämällä luurankolihasten ja rasvakudoksen perifeeristä glukoosinottoa sekä estämällä glukoosin tuotantoa maksassa.” Englanninkielinen alkuteksti: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), versio 2025-11-25; haettu 2026-11-19).
 
 Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten aterioiden yhteydessä annettava pikavaikutteinen insuliini on vakiintunut hoitomuoto. Ennuste on siis mekanistisesti uskottava ja kliinisesti jo vahvistettu.
 
@@ -170,7 +170,7 @@ Muut ennustetut käyttöaiheet (mm. tiamiinivasteinen toimintahäiriöoireyhtym�
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -178,6 +178,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupa Suomessa on peruutettu, mikä on kaupallinen ja saatavuuteen liittyvä rajoite eikä näytön puute” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja myyntiluvan peruutuksen syystä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
 
 <!-- review:end log -->
 

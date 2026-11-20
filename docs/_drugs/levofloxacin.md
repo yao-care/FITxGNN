@@ -58,7 +58,7 @@ Levofloksasiini on laajakirjoinen fluorokinoloniryhmän antibakteerinen lääke.
 
 ## Miksi ennuste on perusteltu?
 
-Levofloksasiinin vaikutusmekanismia koskevia yksityiskohtaisia tietoja ei ole tämän raportin aineistossa. Se kuuluu fluorokinolonien ryhmään, ja sen antibakteerinen teho on tunnettu. Mekanistisesti se voisi olla käyttökelpoinen silmän pinnan bakteeriperäisissä tulehduksissa, ja paikallisesti annosteltuja fluorokinoloneja käytetään silmätulehduksiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Levofloxacin (epävirallinen käännös): ”Levofloksasiini kuuluu fluorokinolonien antibakteeristen lääkeaineiden ryhmään. […] Levofloksasiini on raseemisen ofloksasiinin, kinolonirakenteisen mikrobilääkkeen, L-isomeeri. Ofloksasiinin antibakteerinen vaikutus on pääasiassa L-isomeerissä. Levofloksasiinin ja muiden fluorokinolonimikrobilääkkeiden vaikutusmekanismiin kuuluu bakteerin topoisomeraasi IV:n ja DNA-gyraasin (jotka molemmat ovat tyypin II topoisomeraaseja) esto; nämä entsyymit ovat välttämättömiä DNA:n replikaatiolle, transkriptiolle, korjaukselle ja rekombinaatiolle.” Englanninkielinen alkuteksti: "Levofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] Levofloxacin is the L-isomer of the racemate, ofloxacin, a quinolone antimicrobial agent. The antibacterial activity of ofloxacin resides primarily in the L-isomer. The mechanism of action of levofloxacin and other fluoroquinolone antimicrobials involves inhibition of bacterial topoisomerase IV and DNA gyrase (both of which are type II topoisomerases), enzymes required for DNA replication, transcription, repair and recombination." ([DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5), versio 2026-11-05; haettu 2026-11-19). Se kuuluu fluorokinolonien ryhmään, ja sen antibakteerinen teho on tunnettu. Mekanistisesti se voisi olla käyttökelpoinen silmän pinnan bakteeriperäisissä tulehduksissa, ja paikallisesti annosteltuja fluorokinoloneja käytetään silmätulehduksiin.
 
 Ennustetun taudin ja lääkkeen antibakteerisen vaikutuksen välinen yhteys on kuitenkin heikko. Ainoa löytynyt julkaisu kuvaa mikrosporidien aiheuttamaa, siis ei-bakteeriperäistä, keratokonjunktiviittiepidemiaa. Fluorokinoloneilla ei tiedetä olevan vakiintunutta tehoa mikrosporidiin. Korkea pistemäärä on siksi vain laskennallinen löydös, jota kliininen näyttö ei tue. Yhteyden vahvistaminen vaatisi lisätutkimuksia.
 
@@ -147,11 +147,12 @@ Pakkausselosteen varoituksia ja vasta-aiheita ei ole saatavilla. Tarkista ne Fim
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Quinsair (EMEA/H/C/002789) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
 
 <!-- review:end log -->
 

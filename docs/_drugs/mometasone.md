@@ -62,7 +62,7 @@ Ennustetta tukee tällä hetkellä vain **2 tapausselostusta** eikä yhtään kl
 
 ## Miksi ennuste on järkevä?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella mometasoni on voimakas kortikosteroidi, joka vaikuttaa glukokortikoidireseptorin (NR3C1) agonistina. Tämä tuottaa tulehdusta vähentäviä ja immuunivastetta heikentäviä vaikutuksia ja voi indusoida lymfoidisolujen apoptoosia.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Mometasone (epävirallinen käännös): ”Mometasonifuroaatti on kortikosteroidi, jolla on voimakas tulehdusta estävä vaikutus. Kortikosteroidien tarkkaa vaikutusmekanismia astmaan ei tunneta. Tulehdus on tärkeä tekijä astman patogeneesissä.” Englanninkielinen alkuteksti: "Mometasone furoate is a corticosteroid demonstrating potent anti-inflammatory activity. The precise mechanism of corticosteroid action on asthma is not known. Inflammation is an important component in the pathogenesis of asthma." ([DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac), versio 2026-07-07; haettu 2026-11-19). Tunnetun tiedon perusteella mometasoni on voimakas kortikosteroidi, joka vaikuttaa glukokortikoidireseptorin (NR3C1) agonistina. Tämä tuottaa tulehdusta vähentäviä ja immuunivastetta heikentäviä vaikutuksia ja voi indusoida lymfoidisolujen apoptoosia.
 
 Astma ja ihon T-solulymfooma ovat sairautena hyvin erilaisia, mutta yhteinen tekijä on kortikosteroidien immuunisolujen toimintaa muuntava vaikutus. Paikalliset kortikosteroidit ovat vakiintunut ihoon kohdistuva hoito varhaisvaiheen ihon T-solulymfoomassa (esim. laikku- ja plakkivaiheen mycosis fungoides). Mekanismi on siten uskottava.
 
@@ -117,13 +117,14 @@ Farmakologinen tieto: mometasoni sitoutuu glukokortikoidireseptoriin (NR3C1). Mu
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Poistettu: ”nykyisin peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Enerzair Breezhaler (EMEA/H/C/005061) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
 
 <!-- review:end log -->
 

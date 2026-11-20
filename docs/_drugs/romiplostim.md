@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen mahdollisesti tehoavan **ensisijaiseen verihiutaleiden 
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Romiplostiimi on trombopoietiinireseptorin (MPL) agonisti, joka lisää verihiutaleiden tuotantoa megakaryopoieesin kautta. Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla, mutta lääkkeen teho ITP:ssä tunnetaan ja sen kohde (MPL) on tiedossa.
+Romiplostiimi on trombopoietiinireseptorin (MPL) agonisti, joka lisää verihiutaleiden tuotantoa megakaryopoieesin kautta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Romiplostim (epävirallinen käännös): ”Nplate lisää verihiutaleiden tuotantoa sitoutumalla TPO-reseptoriin ja aktivoimalla sen, mikä on endogeenisen TPO:n kaltainen mekanismi.” Englanninkielinen alkuteksti: "Nplate increases platelet production through binding and activation of the TPO receptor, a mechanism analogous to endogenous TPO." ([DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037), versio 2026-06-23; haettu 2026-11-19).
 
 Verihiutaleiden vapautumishäiriö on laadullinen (toiminnallinen) vika rakeiden eritykseen. Verihiutaleiden määrän lisääminen ei todennäköisesti korjaa taustalla olevaa toimintahäiriötä. Ainoa löydetty julkaisu (PMID 25682608) koskee immuunitrombosytopeniaa, jossa autovasta-aineet estävät proplatelettien muodostumista, ei tätä häiriötä.
 
@@ -137,13 +137,14 @@ Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ole saatavilla; ne tule
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittämistä Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Nplate (EMEA/H/C/000942) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037) |
 
 <!-- review:end log -->
 

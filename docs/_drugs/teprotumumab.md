@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen mahdolliseksi hoidoksi **monosomia X:ään** (Turnerin 
 
 ## Miksi ennuste voi vaikuttaa uskottavalta – ja miksi ei?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Tunnetun tiedon mukaan teprotumumabi on IGF-1R:n (insuliinin kaltaisen kasvutekijä 1:n reseptorin) estäjä, ja sen teho Gravesin oftalmopatiassa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Teprotumumab (epävirallinen käännös): ”Teprotumumabi-trbw:n vaikutusmekanismia kilpirauhasperäistä silmäsairautta sairastavilla potilailla ei ole täysin selvitetty. Teprotumumabi-trbw sitoutuu IGF-1R:ään ja estää sen aktivaation ja signaloinnin.” Englanninkielinen alkuteksti: "Teprotumumab-trbw's mechanism of action in patients with Thyroid Eye Disease has not been fully characterized. Teprotumumab-trbw binds to IGF-1R and blocks its activation and signaling." ([DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce), versio 2026-09-28; haettu 2026-11-19). Tunnetun tiedon mukaan teprotumumabi on IGF-1R:n (insuliinin kaltaisen kasvutekijä 1:n reseptorin) estäjä, ja sen teho Gravesin oftalmopatiassa on osoitettu.
 
 Monosomia X:n (Turnerin oireyhtymä) ja Gravesin oftalmopatian välillä ei ole tunnistettavissa uskottavaa mekanistista yhteyttä. Turnerin oireyhtymä on kromosomipoikkeavuus, jonka hoito perustuu kasvuhormoniin ja estrogeenikorvaukseen. IGF-1R:n esto vaikuttaisi teoriassa kasvuhormoni–IGF-1-akselin hoitoa vastaan eikä sen tueksi. Erittäin korkea pistemäärä (0,9979) on todennäköisesti seurausta tietämysgraafin rakenteesta, ei riippumattomasta näytöstä.
 
@@ -132,12 +132,13 @@ Muilta osin turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Tepezza (EMEA/H/C/006396) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce) |
 
 <!-- review:end log -->
 

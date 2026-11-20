@@ -58,7 +58,7 @@ Rivaroksabaani on suun kautta otettava Xa-tekijän estäjä, jota on alun perin 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Rivaroksabaanin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa. Tunnetun luokkatiedon perusteella rivaroksabaani on suora Xa-tekijän estäjä, jonka teho veritulppien hoidossa ja ehkäisyssä on osoitettu, ja mekanistisesti se voisi liittyä nivelreumaan epäsuorasti.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Rivaroxaban (epävirallinen käännös): ”XARELTO on FXa:n selektiivinen estäjä. Se ei tarvitse vaikuttaakseen kofaktoria (kuten antitrombiini III:a). Rivaroksabaani estää vapaata FXa:ta ja protrombinaasin aktiivisuutta. Rivaroksabaanilla ei ole suoraa vaikutusta verihiutaleiden aggregaatioon, mutta se estää epäsuorasti trombiinin indusoimaa verihiutaleiden aggregaatiota.” Englanninkielinen alkuteksti: "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), versio 2026-09-10; haettu 2026-11-19). Tunnetun luokkatiedon perusteella rivaroksabaani on suora Xa-tekijän estäjä, jonka teho veritulppien hoidossa ja ehkäisyssä on osoitettu, ja mekanistisesti se voisi liittyä nivelreumaan epäsuorasti.
 
 Autoimmuunitulehdus on tromboosille altistava tila: nivelreumaan liittyy lisääntynyttä trombiinin muodostusta ja suurentunutta laskimotromboembolian riskiä. Xa-tekijän esto voisi teoriassa vähentää näitä tromboottisia komplikaatioita. Tämä **ei kuitenkaan olisi nivelreuman taudinkulkua muuttavaa hoitoa**, vaan korkeintaan liitännäishoitoa tromboosiriskiin.
 
@@ -151,13 +151,14 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Markkinatilanteen selvittäminen, koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->
 

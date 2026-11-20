@@ -58,7 +58,7 @@ Trastutsumabideruksekaani on HER2-kohdennettu vasta-aine–lääkekonjugaatti, j
 
 ## Miksi ennustetta voidaan pitää perusteltuna?
 
-Tämän lääkkeen alkuperäisestä vaikutusmekanismista ei ole tällä hetkellä saatavilla yksityiskohtaista tietoa. Tunnetun tiedon perusteella trastutsumabideruksekaani on HER2-kohdennettu vasta-aine–lääkekonjugaatti, jonka kuormana on topoisomeraasi I:n estäjä (deruksekaani). Sen teho HER2-positiivisessa rintasyövässä on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Trastuzumab Deruxtecan (epävirallinen käännös): ”Fam-trastutsumabiderukstekaani-nxki on HER2:een kohdistuva vasta-aine-lääkekonjugaatti. Vasta-aine on humanisoitu anti-HER2 IgG1. Pienimolekyylinen DXd on topoisomeraasi I:n estäjä, joka on kiinnitetty vasta-aineeseen pilkkoutuvalla linkkerillä.” Englanninkielinen alkuteksti: "Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1. The small molecule, DXd, is a topoisomerase I inhibitor attached to the antibody by a cleavable linker." ([DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6), versio 2026-05-15; haettu 2026-11-19). Tunnetun tiedon perusteella trastutsumabideruksekaani on HER2-kohdennettu vasta-aine–lääkekonjugaatti, jonka kuormana on topoisomeraasi I:n estäjä (deruksekaani). Sen teho HER2-positiivisessa rintasyövässä on osoitettu.
 
 Tämän raportin käytettävissä olevan datan perusteella HER2-kohdentamisen tai topoisomeraasi I:n eston ja lääkkeen aiheuttaman osteoporoosin ehkäisyn tai hoidon välillä ei ole tunnettua biologista yhteyttä. Korkea TxGNN-pistemäärä (0,9931) on pelkkä TxGNN-mallin (syväoppiminen) tuottama ennuste, jota mikään kliininen tai kirjallisuusnäyttö ei tue.
 
@@ -139,13 +139,14 @@ Muista turvallisuustiedoista (varoitukset, vasta-aiheet) tarkista tiedot valmist
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Enhertu (EMEA/H/C/005124) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) |
 
 <!-- review:end log -->
 

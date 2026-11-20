@@ -54,7 +54,7 @@ Ikosapenttietyyli on puhdistettu EPA-etyyliesteri, jota käytetään lipidihäir
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tähän raporttiin koottu aineisto ei sisällä lääkkeen tarkkaa vaikutusmekanismia. Tiedossa on, että ikosapenttietyyli on puhdistettu EPA-etyyliesteri (omega-3-rasvahappo), jolla tunnetaan triglyseridejä alentava vaikutus sekä tulehdusta ja oksidatiivista stressiä vähentäviä ja solukalvoja vakauttavia ominaisuuksia.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Icosapent Ethyl (epävirallinen käännös): ”Tutkimusten perusteella EPA vähentää maksan erittäin pienitiheyksisten lipoproteiinien triglyseridien (VLDL-TG) synteesiä ja/tai eritystä ja tehostaa TG:n poistumista verenkierron VLDL-partikkeleista. Mahdollisia vaikutusmekanismeja ovat lisääntynyt β-oksidaatio; asyyli-CoA:1,2-diasyyliglyserolin asyylitransferaasin (DGAT) esto; vähentynyt lipogeneesi maksassa; ja lisääntynyt plasman lipoproteiinilipaasin aktiivisuus.” Englanninkielinen alkuteksti: "Studies suggest that EPA reduces hepatic very low-density lipoprotein triglycerides (VLDL-TG) synthesis and/or secretion and enhances TG clearance from circulating VLDL particles. Potential mechanisms of action include increased β-oxidation; inhibition of acyl-CoA:1,2-diacylglycerol acyltransferase (DGAT); decreased lipogenesis in the liver; and increased plasma lipoprotein lipase activity." ([DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924), versio 2026-08-10; haettu 2026-11-19). Tiedossa on, että ikosapenttietyyli on puhdistettu EPA-etyyliesteri (omega-3-rasvahappo), jolla tunnetaan triglyseridejä alentava vaikutus sekä tulehdusta ja oksidatiivista stressiä vähentäviä ja solukalvoja vakauttavia ominaisuuksia.
 
 Hemoglobinopatioihin, kuten sirppisoluanemiaan ja talassemiaan, liittyy krooninen tulehdus, oksidatiivinen stressi ja endoteelin toimintahäiriö. Teoriassa EPA:n vaikutukset voisivat siis kohdistua näihin mekanismeihin. Tämä päättely perustuu yleiseen omega-3-rasvahappojen farmakologiaan, ei tämän raportin aineistoon, ja se on vain hypoteesi.
 
@@ -90,6 +90,19 @@ Ennuste perustuu vain korkeaan TxGNN-pistemäärään (0,9909), eikä hemoglobin
 - Lääkkeen vaikutusmekanismin tiedot
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
 - Arvio antoreittien yhteensopivuudesta ja valmisteen käytännön saatavuudesta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

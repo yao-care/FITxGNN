@@ -60,7 +60,7 @@ Ennuste perustuu pelkästään verkostopohjaiseen laskennalliseen päättelyyn.
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Ivabradiini estää HCN-kanavia (sydämen sinussolmun If-virta eli ns. "funny current"), mikä hidastaa sydämen sykettä. Tarkempaa vaikutusmekanismitietoa ei tällä hetkellä ole saatavilla tähän raporttiin koottua aineistoa varten.
+Ivabradiini estää HCN-kanavia (sydämen sinussolmun If-virta eli ns. "funny current"), mikä hidastaa sydämen sykettä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ivabradine (epävirallinen käännös): ”Corlanor salpaa hyperpolarisaation aktivoimaa, syklisten nukleotidien säätelemää (HCN) kanavaa, joka vastaa sydämen tahdistinvirrasta I f, joka säätelee sydämen lyöntitiheyttä. Kliinisissä elektrofysiologisissa tutkimuksissa sydänvaikutukset olivat voimakkaimpia sinoatriaalisolmukkeessa (SA-solmuke), mutta AH-välin pidentymistä on esiintynyt, samoin kuin PR-välin pidentymistä.” Englanninkielinen alkuteksti: "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation." ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d), versio 2026-11-09; haettu 2026-11-19).
 
 Teoreettisesti HCN-kanavia, mukaan lukien HCN4, esiintyy myös karvatupen soluissa, ja ne voisivat vaikuttaa follikkelin ärtyvyyteen ja kasvusykliin. Tämä yhteys on kuitenkin vain hypoteesi. Korkea TxGNN-pistemäärä (0,9979) on verkostopohjainen ennuste, jolle ei löydy tukea tutkimuksista tai kirjallisuudesta.
 
@@ -137,12 +137,13 @@ Muista turvallisuustiedoista (varoitukset, vasta-aiheet) tarkemmat tiedot löyty
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
 
 <!-- review:end log -->
 

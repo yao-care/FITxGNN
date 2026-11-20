@@ -54,7 +54,7 @@ Darolutamidi on ei-steroidinen androgeenireseptorin salpaaja, jota käytetään 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin varten koottujen tietojen perusteella darolutamidin yksityiskohtaista vaikutusmekanismia ei ole saatavilla. Tiedetään, että darolutamidi on ei-steroidinen androgeenireseptorin antagonisti, jonka teho eturauhassyövässä on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Darolutamide (epävirallinen käännös): ”Darolutamidi on androgeenireseptorin (AR) estäjä. Darolutamidi estää kilpailevasti androgeenien sitoutumista, AR:n siirtymistä tumaan ja AR-välitteistä transkriptiota. Päämetaboliitilla, ketodarolutamidilla, todettiin in vitro samankaltainen aktiivisuus kuin darolutamidilla.” Englanninkielinen alkuteksti: "Darolutamide is an androgen receptor (AR) inhibitor. Darolutamide competitively inhibits androgen binding, AR nuclear translocation, and AR-mediated transcription. A major metabolite, ketodarolutamide, exhibited similar in vitro activity to darolutamide." ([DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e), versio 2026-09-28; haettu 2026-11-19). Tiedetään, että darolutamidi on ei-steroidinen androgeenireseptorin antagonisti, jonka teho eturauhassyövässä on osoitettu.
 
 Aineistossa ei ole mitään, joka yhdistäisi androgeenireseptorin salpauksen LDL-reseptorin toiminnanhäiriöön tai rasva-aineenvaihduntaan homotsygoottisessa familiaalisessa hyperkolesterolemiassa. Mekanistista yhteyttä ei siis voida arvioida. Korkea ennustepiste (0,9911) on laskennallinen tulos, jota mikään kliininen tieto ei tue.
 
@@ -107,6 +107,19 @@ Ennuste perustuu pelkästään TxGNN-mallin pisteeseen (0,9911), eikä sitä tue
 - Kirjallisuushaku ja tutkimusrekisterien läpikäynti tälle käyttöaiheelle
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
 - Yhteisvaikutusten arviointi, erityisesti statiinien kanssa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

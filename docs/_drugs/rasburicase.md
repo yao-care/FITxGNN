@@ -54,7 +54,7 @@ Rasburikaasi on rekombinantti urikaasientsyymi, jota on alun perin käytetty **h
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Rasburikaasi on rekombinantti urikaasi, joka muuntaa virtsahapon allantoiiniksi ja laskee siten seerumin virtsahappopitoisuutta. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnetun entsyymitoiminnan perusteella lääkkeen vaikutus on kuitenkin selvä.
+Rasburikaasi on rekombinantti urikaasi, joka muuntaa virtsahapon allantoiiniksi ja laskee siten seerumin virtsahappopitoisuutta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Rasburicase (epävirallinen käännös): ”Ihmisellä virtsahappo on puriinien katabolisen reitin viimeinen vaihe. Rasburikaasi katalysoi huonosti liukenevan virtsahapon entsymaattista hapettumista inaktiiviseksi ja paremmin liukenevaksi metaboliitiksi (allantoiiniksi).” Englanninkielinen alkuteksti: "In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)." ([DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922), versio 2026-07-30; haettu 2026-11-19). Tunnetun entsyymitoiminnan perusteella lääkkeen vaikutus on kuitenkin selvä.
 
 Munuaisperäisessä hypourikemiassa seerumin virtsahappo on jo matala URAT1- tai GLUT9-kuljettajan toimintaa heikentävien mutaatioiden vuoksi. Virtsahapon lisälasku olisi mekanistisesti epätarkoituksenmukaista ja voisi lisätä liikunnan aiheuttaman akuutin munuaisvaurion riskiä. Korkea TxGNN-pistemäärä johtuu todennäköisesti tietämysverkon yhteydestä virtsahappoaineenvaihduntaan, ei järkevästä hoidollisesta yhteydestä.
 
@@ -115,12 +115,13 @@ Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Fasturtec (EMEA/H/C/000331) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
 
 <!-- review:end log -->
 

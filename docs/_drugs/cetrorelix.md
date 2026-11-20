@@ -56,7 +56,7 @@ Setroreliksi on GnRH-reseptorin antagonisti, jota käytetään hedelmöityshoido
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tunnetun tiedon mukaan setroreliksi sitoutuu ihmisen GnRH1-reseptoriin (GNRHR) ja estää sen toimintaa. Tämä vähentää LH:n ja FSH:n eritystä sekä sitä kautta sukupuolirauhasten androgeenintuotantoa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Cetrorelix (epävirallinen käännös): ”GnRH saa aikaan luteinisoivan hormonin (LH) ja follikkelia stimuloivan hormonin (FSH) tuotannon ja vapautumisen aivolisäkkeen etulohkon gonadotrooppisista soluista. Kierron puolivälissä esiintyvän positiivisen estradiolipalautteen (E2) vuoksi GnRH:n vapautuminen tehostuu, mikä johtaa LH-piikkiin.” Englanninkielinen alkuteksti: "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge." ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), versio 2025-09-22; haettu 2026-11-19). Tunnetun tiedon mukaan setroreliksi sitoutuu ihmisen GnRH1-reseptoriin (GNRHR) ja estää sen toimintaa. Tämä vähentää LH:n ja FSH:n eritystä sekä sitä kautta sukupuolirauhasten androgeenintuotantoa.
 
 Teoreettinen yhteys hypertrikoosiin olisi androgeenisignaloinnin väheneminen. Hypertrikoosi on kuitenkin usein androgeeneista riippumaton (esim. synnynnäiset ja lääkeaineiden aiheuttamat muodot), joten yhteys on heikko. Korkea pistemäärä on pelkkä graafipohjainen ennuste.
 
@@ -111,12 +111,13 @@ Muuten turvallisuustiedot on luettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilassa "peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja valmisteen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
 
 <!-- review:end log -->
 

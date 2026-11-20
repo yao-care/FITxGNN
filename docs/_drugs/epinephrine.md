@@ -62,7 +62,7 @@ ja tätä suuntaa tukee tällä hetkellä **15 kliinistä tutkimusta** ja **20 j
 
 Epinefriini on epäselektiivinen adrenerginen agonisti. Beta-2-reseptorien aktivoituminen rentouttaa keuhkoputkien sileää lihaksistoa ja laajentaa keuhkoputkia. Alfa-1-reseptorien aktivoituminen supistaa verisuonia ja vähentää limakalvojen turvotusta. Tämä sopii suoraan palautuvaan hengitysteiden ahtautumiseen (astma) ja pienten hengitysteiden tulehdukselliseen ahtautumiseen (bronkioliitti).
 
-Alkuperäinen käyttöaihe, anafylaksia, ja ennustettu käyttöaihe jakavat saman farmakologisen perustan: molemmissa hoidon tavoitteena on keuhkoputkien laajentaminen ja hengitysteiden turvotuksen vähentäminen. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu tietokannasta, mutta edellä kuvattu mekanismi on yleisesti tunnettu.
+Alkuperäinen käyttöaihe, anafylaksia, ja ennustettu käyttöaihe jakavat saman farmakologisen perustan: molemmissa hoidon tavoitteena on keuhkoputkien laajentaminen ja hengitysteiden turvotuksen vähentäminen. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Epinephrine (epävirallinen käännös): ”Adrenaliini vaikuttaa sekä alfa- että beeta-adrenergisiin reseptoreihin. Vaikuttamalla alfa-adrenergisiin reseptoreihin adrenaliini vähentää anafylaksian aikana ilmenevää vasodilataatiota ja verisuonten lisääntynyttä läpäisevyyttä, jotka voivat johtaa suonensisäisen nestetilavuuden menetykseen ja hypotensioon.” Englanninkielinen alkuteksti: "Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension." ([DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf), versio 2026-09-18; haettu 2026-11-19).
 
 Systeemisen adrenergisen vaikutuksen sydän- ja verisuonihaittoja (takykardia, verenpaineen nousu) on seurattava, erityisesti potilailla, joilla on keuhkoahtaumatauti ja sydänsairauksia.
 
@@ -152,12 +152,13 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten ne on 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei tällä hetkellä ole markkinoilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Eurneffy (EMEA/H/C/006139) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->
 

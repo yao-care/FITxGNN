@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **hypertrikoosiin** erittäin korkealla p
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Ganireliksi salpaa GnRH₁-reseptoria (GNRHR) ja vähentää siten LH:n ja FSH:n eritystä sekä sukupuolirauhasten androgeenituotantoa. Yksityiskohtaista vaikutusmekanismitietoa ei tähän raporttiin koottu aineistossa ollut, mutta farmakologiatiedot vahvistavat kohteeksi GnRH-reseptorin.
+Ganireliksi salpaa GnRH₁-reseptoria (GNRHR) ja vähentää siten LH:n ja FSH:n eritystä sekä sukupuolirauhasten androgeenituotantoa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Ganirelix (epävirallinen käännös): ”GnRH:n pulssimainen vapautuminen stimuloi luteinisoivan hormonin (LH) ja follikkelia stimuloivan hormonin (FSH) synteesiä ja eritystä. LH-pulssien tiheys follikkelivaiheen keski- ja loppuvaiheessa on noin 1 pulssi tunnissa. […] Ganireliksiasetaatti vaikuttaa salpaamalla kilpailevasti aivolisäkkeen gonadotrooppisolujen GnRH-reseptoreita ja niitä seuraavaa signaalinvälitysreittiä.” Englanninkielinen alkuteksti: "The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway." ([DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1), versio 2026-10-16; haettu 2026-11-19).
 
 Hypertrikoosia ei yleensä ohjaa sukupuolirauhasten hormonaalinen akseli (toisin kuin hirsutismia), joten mekanistinen yhteys on heikko. Korkea TxGNN-pistemäärä on vain laskennallinen ennuste.
 
@@ -123,12 +123,13 @@ Varoituksista ja vasta-aiheista tarkemmat tiedot löytyvät valmisteyhteenvedost
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Orgalutran (EMEA/H/C/000274), Ganirelix Gedeon Richter (EMEA/H/C/005641)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
 
 <!-- review:end log -->
 

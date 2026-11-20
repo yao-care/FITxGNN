@@ -54,7 +54,7 @@ Formoteroli on pitkävaikutteinen beeta2-agonisti, joka laajentaa keuhkoputkia. 
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla. Tiedetään, että formoteroli on pitkävaikutteinen beeta2-adrenergisten reseptorien agonisti, joka rentouttaa hengitysteiden sileää lihasta ja parantaa ilmavirtausta ahtauttavissa hengitystiesairauksissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Formoterol (epävirallinen käännös): ”Formoterolifumaraatti on pitkävaikutteinen beeta2-adrenergisen reseptorin agonisti (beeta2-agonisti). Inhaloitu formoterolifumaraatti vaikuttaa paikallisesti keuhkoissa bronkodilataattorina. In vitro -tutkimukset ovat osoittaneet, että formoterolin agonistivaikutus beeta2-reseptoreissa on yli 200-kertainen beeta1-reseptoreihin verrattuna.” Englanninkielinen alkuteksti: "Formoterol fumarate is a long-acting, beta 2 -adrenergic receptor agonist (beta 2 -agonist). Inhaled formoterol fumarate acts locally in the lung as a bronchodilator. In vitro studies have shown that formoterol has more than 200-fold greater agonist activity at beta 2 -receptors than at beta 1 -receptors." ([DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79), versio 2025-12-10; haettu 2026-11-19). Tiedetään, että formoteroli on pitkävaikutteinen beeta2-adrenergisten reseptorien agonisti, joka rentouttaa hengitysteiden sileää lihasta ja parantaa ilmavirtausta ahtauttavissa hengitystiesairauksissa.
 
 Rakenteellisen synnynnäisen epämuodostuman korjaamiselle ei kuitenkaan ole uskottavaa farmakologista mekanismia. Bronkodilaatio lievittää oireita mutta ei muuta kehityshäiriön rakenteellista syytä. Korkea pistemäärä heijastaa todennäköisesti mallin verkostossa olevaa läheisyyttä hengitystiesairauksiin eikä todellista hoitosignaalia.
 
@@ -95,6 +95,19 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen kokoaminen
 - Vaikutusmekanismitietojen täydentäminen
 - Biologisesti perusteltu hypoteesi sille, miten formoteroli voisi vaikuttaa hengitystieepämuodostumaan, sekä systemaattinen kirjallisuushaku ennen jatkotoimia
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

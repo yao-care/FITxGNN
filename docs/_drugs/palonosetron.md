@@ -58,7 +58,7 @@ Palonosetroni on 5-HT3-reseptorin salpaaja, jota on alun perin käytetty syöpä
 
 ## Miksi ennuste voi olla perusteltu?
 
-Palonosetroni on 5-HT3-reseptorin salpaaja. Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Tunnetun lääkeluokan perusteella serotoniinisignalointi liittyy migreenin patofysiologiaan, mikä antaa uskottavan mutta heikon mekanistisen perustelun korkealle pistemäärälle.
+Palonosetroni on 5-HT3-reseptorin salpaaja. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Palonosetron (epävirallinen käännös): ”Palonosetroni on 5-HT3-reseptorin antagonisti, jolla on voimakas sitoutumisaffiniteetti tähän reseptoriin ja vähäinen tai olematon affiniteetti muihin reseptoreihin. Syövän solunsalpaajahoitoon voi liittyä pahoinvoinnin ja oksentelun suuri esiintyvyys, etenkin kun käytetään tiettyjä aineita, kuten sisplatiinia.” Englanninkielinen alkuteksti: "Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used." ([DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7), versio 2025-04-29; haettu 2026-11-19). Tunnetun lääkeluokan perusteella serotoniinisignalointi liittyy migreenin patofysiologiaan, mikä antaa uskottavan mutta heikon mekanistisen perustelun korkealle pistemäärälle.
 
 Alkuperäinen käyttöaihe (pahoinvointi ja oksentelu) ja migreeni ovat kuitenkin kliinisesti kaukana toisistaan, vaikka pahoinvointi on migreenin yleinen oireyhtymän osa. Pistemäärä tulee TxGNN-mallista (syväoppiminen), ja se voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä.
 
@@ -137,13 +137,14 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja lääkkeellä ei ole voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
 
 <!-- review:end log -->
 

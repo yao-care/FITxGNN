@@ -54,7 +54,7 @@ Benralitsumabi on IL-5-reseptorin alfa-alayksikköön (IL5RA) kohdistuva monoklo
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että benralitsumabi sitoutuu IL-5-reseptorin alfa-alayksikköön ja heikentää eosinofiilien ja basofiilien määrää vasta-aineriippuvaisen soluvälitteisen sytotoksisuuden (ADCC) kautta. Tämä on osoitettu hyödylliseksi eosinofiilisessä astmassa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Benralizumab (epävirallinen käännös): ”Benralitsumabi on humanisoitu, afukosyloitu monoklonaalinen vasta-aine (IgG1, kappa), joka sitoutuu suoraan ihmisen interleukiini-5-reseptorin alfa-alayksikköön (IL-5Rα) dissosiaatiovakion ollessa 11 pM. IL-5-reseptoria ilmentyy eosinofiilien ja basofiilien pinnalla.” Englanninkielinen alkuteksti: "Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM. The IL-5 receptor is expressed on the surface of eosinophils and basophils." ([DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784), versio 2026-05-13; haettu 2026-11-19). Tiedossa on, että benralitsumabi sitoutuu IL-5-reseptorin alfa-alayksikköön ja heikentää eosinofiilien ja basofiilien määrää vasta-aineriippuvaisen soluvälitteisen sytotoksisuuden (ADCC) kautta. Tämä on osoitettu hyödylliseksi eosinofiilisessä astmassa.
 
 Immuunivälitteisessä trombosytopeniassa verihiutaleet tuhoutuvat autovasta-aineiden välityksellä. Selvää mekanistista yhteyttä eosinofiilien tai IL-5-reitin ja tämän taudin välillä ei ole osoitettu. Korkea pistemäärä on laskennallinen ennuste, jota eivät tue tutkimukset eikä kirjallisuus.
 
@@ -89,6 +89,19 @@ Ennuste perustuu pelkästään laskennalliseen malliin. Kliinisiä tutkimuksia j
 - Yksityiskohtaiset vaikutusmekanismitiedot ja mekanistinen arvio IL-5RA-salpauksen merkityksestä trombosytopeniassa
 - Prekliiniset tai tapaustason tiedot, jotka tukevat hypoteesia
 - Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviota varten
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

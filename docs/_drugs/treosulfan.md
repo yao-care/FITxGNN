@@ -58,7 +58,7 @@ Treosulfaani on alkyloiva solunsalpaaja, jota käytetään kantasolasiirtoa (hem
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tähän raporttiin koottu aineisto ei sisällä tarkkaa vaikutusmekanismia. Yleisen farmakologisen tiedon mukaan treosulfaani on bifunktionaalinen alkyloiva aine: se muuttuu elimistössä reaktiivisiksi epoksidivälituotteiksi, jotka muodostavat DNA:han ristisidoksia. Tämän vuoksi sitä käytetään luuytimen tuhoavassa valmistelevassa hoidossa ennen kantasolasiirtoa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Treosulfan (epävirallinen käännös): ”Treosulfaani on alkyloiva aine. DNA:n alkylaation arvellaan olevan treosulfaanin sytotoksisten vaikutusten syy. Treosulfaanilla todettiin hematopoieettisia kantasoluja vähentävää vaikutusta sekä immunosuppressiivista ja kasvaimia estävää vaikutusta leukemian hiirimalleissa.” Englanninkielinen alkuteksti: "Treosulfan is an alkylating agent. DNA alkylation is thought to be responsible for the cytotoxic activities of treosulfan. Treosulfan showed hematopoietic stem cell depleting activity as well as immunosuppressive and antitumor activity in mouse models of leukemia." ([DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f), versio 2025-01-31; haettu 2026-11-19). Yleisen farmakologisen tiedon mukaan treosulfaani on bifunktionaalinen alkyloiva aine: se muuttuu elimistössä reaktiivisiksi epoksidivälituotteiksi, jotka muodostavat DNA:han ristisidoksia. Tämän vuoksi sitä käytetään luuytimen tuhoavassa valmistelevassa hoidossa ennen kantasolasiirtoa.
 
 Diabeettisen kaihin taustalla ovat pääasiassa polyolireitin aktivoituminen (aldoosireduktaasi), linssikuitujen osmoottinen ja oksidatiivinen stressi sekä glykaatio. DNA:n alkylointi ei liity näihin prosesseihin, eikä uskottavaa mekanistista yhteyttä alkuperäisen ja ennustetun käyttöaiheen välillä ole havaittavissa. Lisäksi sytotoksinen ja luuydintä lamaava vaikutus olisi merkittävä turvallisuusriski kroonisessa, ei-pahanlaatuisessa ja paikallisessa silmäsairaudessa. Korkea pistemäärä on siis vain mallin tuottama ennuste.
 
@@ -131,12 +131,13 @@ Turvallisuustietoja varten katso valmisteyhteenveto. Tähän raporttiin koottu a
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi ainoa Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Trecondi (EMEA/H/C/004751) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f) |
 
 <!-- review:end log -->
 

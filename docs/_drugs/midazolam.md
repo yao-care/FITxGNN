@@ -58,7 +58,7 @@ Midatsolaami on lyhytvaikutteinen bentsodiatsepiini, jonka Suomessa rekisteröit
 
 ## Miksi ennuste on perusteltu?
 
-Tähän raporttiin koottu aineisto ei sisällä tarkkaa vaikutusmekanismitietoa. Tunnetun farmakologian perusteella midatsolaami on bentsodiatsepiini, joka voimistaa GABA-A-reseptorin signalointia (positiivinen allosteerinen modulaatio) ja saa aikaan rauhoittavan ja unta edistävän vaikutuksen. Sama mekanismi on vakiintuneilla bentsodiatsepiiniunilääkkeillä, kuten fluratsepaamilla.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Midazolam (epävirallinen käännös): ”Midatsolaami on lyhytvaikutteinen bentsodiatsepiini, joka lamaa keskushermostoa (CNS).” Englanninkielinen alkuteksti: "Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant." ([DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e), versio 2025-07-31; haettu 2026-11-19). Tunnetun farmakologian perusteella midatsolaami on bentsodiatsepiini, joka voimistaa GABA-A-reseptorin signalointia (positiivinen allosteerinen modulaatio) ja saa aikaan rauhoittavan ja unta edistävän vaikutuksen. Sama mekanismi on vakiintuneilla bentsodiatsepiiniunilääkkeillä, kuten fluratsepaamilla.
 
 Epilepsian hoidossa hyödynnetään GABA-järjestelmän estovaikutusta, joka vähentää hermosolujen yliaktiivisuutta. Unettomuudessa taustalla on usein ylivireystila, jota samainen estovaikutus lievittää. Mekanismi on siis uskottava myös uudessa käyttöaiheessa.
 
@@ -135,12 +135,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten ne 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei ole saatavilla, ja turvallisuustietojen keskeinen aukko estää etenemisen turva” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Buccolam (EMEA/H/C/002267) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->
 

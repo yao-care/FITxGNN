@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **pseudo-von Willebrandin tautiin** (pist
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Lonoctokogi alfa korvaa hemofilia A:ssa puuttuvan tekijä VIII:n aktiivisuuden. Tarkempaa vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä. Tunnetun tiedon perusteella lääke on rekombinantti FVIII-korvaushoito, jonka teho hemofilia A:ssa on osoitettu.
+Lonoctokogi alfa korvaa hemofilia A:ssa puuttuvan tekijä VIII:n aktiivisuuden. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Lonoctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini” Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon perusteella lääke on rekombinantti FVIII-korvaushoito, jonka teho hemofilia A:ssa on osoitettu.
 
 Pseudo-von Willebrandin taudissa vika on verihiutaleiden GPIbα-reseptorin toiminnan lisääntymisessä (gain-of-function). Tämä lisää reseptorin sitoutumista von Willebrand -tekijään (VWF), jolloin suurimolekyylisiä VWF-multimeerejä häviää ja verihiutaleita poistuu verenkierrosta. Teoreettinen yhteys on, että FVIII kiertää verenkierrossa VWF:hen sitoutuneena, joten FVIII-pitoisuus voi laskea VWF:n vähentyessä.
 
@@ -130,12 +130,13 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisva
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603) |
 
 <!-- review:end log -->
 

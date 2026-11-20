@@ -60,7 +60,7 @@ Toinen ennustettu käyttöaihe, neurotrofinen keratopatia, sai pistemäärän 0,
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Eflornitiini on peruuttamaton ornitiinidekarboksylaasin estäjä. Entsyymi on polyamiinien biosynteesin nopeutta rajoittava vaihe. Aineen vaikutusmekanismin tietoja ei ole koottuun aineistoon kirjattu, joten tässä esitetty kuvaus perustuu yleiseen farmakologiseen tietoon. Paikallisesti ainetta käytetään kasvojen hirsutismiin ja injektiona afrikkalaiseen unitautiin. Joulukuussa 2023 FDA hyväksyi sen suun kautta otettavaksi ylläpitohoidoksi suuren riskin neuroblastoomassa.
+Eflornitiini on peruuttamaton ornitiinidekarboksylaasin estäjä. Entsyymi on polyamiinien biosynteesin nopeutta rajoittava vaihe. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Eflornithine (epävirallinen käännös): ”Eflornitiini on ornitiinidekarboksylaasientsyymin (ODC) irreversiibeli estäjä; ODC on polyamiinien biosynteesin ensimmäinen ja nopeutta rajoittava entsyymi sekä MYCN:n transkriptionaalinen kohde. Polyamiinit osallistuvat nisäkässolujen erilaistumiseen ja proliferaatioon, ja ne ovat tärkeitä neoplastisessa transformaatiossa.” Englanninkielinen alkuteksti: "Eflornithine is an irreversible inhibitor of the enzyme ornithine decarboxylase (ODC), the first and rate-limiting enzyme in the biosynthesis of polyamines and a transcriptional target of MYCN. Polyamines are involved in differentiation and proliferation of mammalian cells and are important for neoplastic transformation." ([DailyMed: Iwilfin (eflornithine hydrochloride) prescribing information, USWM, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6716d8cc-66e6-4cee-935c-ccb85ed984f5), versio 2026-03-26; haettu 2026-11-19). Paikallisesti ainetta käytetään kasvojen hirsutismiin ja injektiona afrikkalaiseen unitautiin. Joulukuussa 2023 FDA hyväksyi sen suun kautta otettavaksi ylläpitohoidoksi suuren riskin neuroblastoomassa.
 
 Hirsutismin ja esotropian välillä ei ole tunnistettavaa mekanistista yhteyttä. Esotropiassa on kyse silmälihasten tasapainosta, taittovirheistä tai akkommodaatiosta sekä silmien asennon hermostollisesta ohjauksesta. Kerätty aineisto ei tue ODC:n eston yhteyttä näihin mekanismeihin. Hyvin korkea pistemäärä tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia sairauksien välillä, ei biologista näyttöä, joten sitä tulee tulkita varoen.
 
@@ -127,12 +127,13 @@ Muita turvallisuustietoja saa valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Iwilfin (eflornithine hydrochloride) prescribing information, USWM, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6716d8cc-66e6-4cee-935c-ccb85ed984f5) |
 
 <!-- review:end log -->
 

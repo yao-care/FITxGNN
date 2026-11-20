@@ -60,7 +60,7 @@ mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Catumaxomabin vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla kattavasti. Farmakologiatietojen perusteella lääkkeen ensisijainen kohde on CD3E (T-solujen CD3-ε-ketju). Lääke sitoo toisella haaralla EpCAM-proteiinia ilmentäviä kasvainsoluja ja kolmannella (Fc-osa) rekrytoi apusoluja, jolloin T-solut ja muut immuunisolut tuhoavat kasvainsoluja.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Catumaxomab vaikutusmekanismiksi (epävirallinen käännös): ”T-solujen pinnan glykoproteiini CD3:n ristisitova aine; epiteelisolujen adheesiomolekyylin ristisitova aine” Englanninkielinen alkuteksti: "T cell surface glycoprotein CD3 cross-linking agent; Epithelial cell adhesion molecule cross-linking agent" ([ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581), CC BY-SA 3.0; haettu 2026-11-19). Farmakologiatietojen perusteella lääkkeen ensisijainen kohde on CD3E (T-solujen CD3-ε-ketju). Lääke sitoo toisella haaralla EpCAM-proteiinia ilmentäviä kasvainsoluja ja kolmannella (Fc-osa) rekrytoi apusoluja, jolloin T-solut ja muut immuunisolut tuhoavat kasvainsoluja.
 
 Alkuperäinen käyttöaihe, syöpään liittyvä askites, perustuu EpCAM-positiivisten syöpäsolujen tuhoamiseen. Diabeettinen retinopatia sen sijaan johtuu pääasiassa VEGF-välitteisestä verisuonten vuotavuudesta, tulehduksesta ja mikroverisuonivauriosta, eikä se ole EpCAM-ohjautuva sairaus. Uskottavaa mekanistista yhteyttä ei ole havaittavissa. Immuunijärjestelmän aktivaatio ja sytokiinien vapautuminen voisivat lisäksi olla haitallisia verkkokalvolla. Ennuste on todennäköisesti tietämysgraafin yhteyksistä johtuva artefakti.
 
@@ -154,13 +154,14 @@ Samalla ennustelistalla olivat myös seuraavat, joilla on sama heikko näyttöta
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Fimean tietojen mukaan myyntilupa on kuitenkin tällä hetkellä merkitty vain peruutetuksi, mikä rajoittaa kehityksen käytännön toteutettavuut” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Korjuny (EMEA/H/C/005697) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581) |
 
 <!-- review:end log -->
 

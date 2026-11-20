@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeett
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tässä raportissa käytettävissä olevassa aineistossa ei ole yksityiskohtaista vaikutusmekanismitietoa. Tiedetään, että pegfilgrastiimi on pitkävaikutteinen G-CSF, joka lisää neutrofiilien tuotantoa ja mobilisoi hematopoieettisia kantasoluja. Sen teho neutropeniassa on osoitettu, mutta mekanistista yhteyttä diabeettiseen retinopatiaan ei ole osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pegfilgrastim (epävirallinen käännös): ”Pegfilgrastiimivalmisteet ovat pesäkkeitä stimuloivia tekijöitä, jotka vaikuttavat hematopoieettisiin soluihin sitoutumalla spesifisiin solun pinnan reseptoreihin ja stimuloivat siten solujen proliferaatiota, erilaistumista, sitoutumista solulinjaan ja kypsien solujen toiminnallista aktivoitumista.” Englanninkielinen alkuteksti: "Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation." ([DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83), versio 2026-10-29; haettu 2026-11-19). Tiedetään, että pegfilgrastiimi on pitkävaikutteinen G-CSF, joka lisää neutrofiilien tuotantoa ja mobilisoi hematopoieettisia kantasoluja. Sen teho neutropeniassa on osoitettu, mutta mekanistista yhteyttä diabeettiseen retinopatiaan ei ole osoitettu.
 
 Spekulatiivinen yhteys voisi olla endoteelin progenitorisolujen mobilisaatio verisuonten korjaamiseksi. Toisaalta diabeettisessa retinopatiassa on kyse mikroverisuonivauriosta ja tulehduksesta, ja G-CSF:n aiheuttama neutrofiilien aktivaatio voisi päinvastoin pahentaa verkkokalvon tulehdusta. Korkea pistemäärä (0,9989) on pelkkä mallin ennuste, jota ei tue mikään tutkimus. Toinen ennuste, diabeettinen retinopatia (pistemäärä 0,9973), on todennäköisesti sama signaali kuin vaikea ei-proliferatiivinen muoto.
 
@@ -147,13 +147,14 @@ Useat näistä ovat solunsalpaajia tai sädelääkkeitä, joiden kanssa myelosup
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 11 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska nykyiset myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
 
 <!-- review:end log -->
 

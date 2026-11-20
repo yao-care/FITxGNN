@@ -56,7 +56,7 @@ Vahvempaa tukea saavat muut ennustetut kohteet, kuten liposarkooma (3 vaiheen 1/
 
 ## Miksi ennuste on järkevä?
 
-Tähän raporttiin koottujen tietojen mukaan yksityiskohtaista vaikutusmekanismia (MOA) ei ole saatavilla. Tunnetun tiedon perusteella imatinibi estää PDGFR-, KIT- ja ABL-kinaaseja. Sen teho on osoitettu alkuperäisissä käyttöaiheissa, ja mekanistisesti se voi soveltua myös fibrosarkoomatyyppisiin kasvaimiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Imatinib (epävirallinen käännös): ”Imatinibimesylaatti on proteiinityrosiinikinaasin estäjä, joka estää BCR-ABL-tyrosiinikinaasia, Philadelphia-kromosomipoikkeavuuden aiheuttamaa konstitutiivista poikkeavaa tyrosiinikinaasia KML:ssä. Imatinibi estää proliferaatiota ja indusoi apoptoosia BCR-ABL-positiivisissa solulinjoissa sekä tuoreissa leukemiasoluissa, jotka ovat peräisin Philadelphia-kromosomipositiivisesta kroonisesta myelooisesta leukemiasta.” Englanninkielinen alkuteksti: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), versio 2026-07-13; haettu 2026-11-19). Tunnetun tiedon perusteella imatinibi estää PDGFR-, KIT- ja ABL-kinaaseja. Sen teho on osoitettu alkuperäisissä käyttöaiheissa, ja mekanistisesti se voi soveltua myös fibrosarkoomatyyppisiin kasvaimiin.
 
 Fibrosarkoomatyyppiset kasvaimet, erityisesti COL1A1-PDGFB-fuusion ajamat kasvaimet (kuten dermatofibrosarcoma protuberans, DFSP), voivat olla PDGFB/PDGFR-riippuvaisia. DFSP kuuluu jo imatinibin alkuperäisiin käyttöaiheisiin, joten mekanistinen perustelu on uskottava.
 
@@ -145,13 +145,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta. Tarkista 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntiluvat on kaikki peruutettu ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Arvio myyntiluvan peruutusten vaikutuksesta saatavuuteen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

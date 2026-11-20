@@ -54,7 +54,7 @@ Omalitsumabi on IgE:hen sitoutuva monoklonaalinen vasta-aine, jota käytetään 
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon mukaan omalitsumabi sitoutuu vapaaseen IgE:hen ja vähentää IgE:n ja sen reseptorin (FcεRI) kautta välittyvää allergista hengitystietulehdusta. Hyöty allergisessa astmassa on vakiintunut.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Omalizumab (epävirallinen käännös): ”Astma, krooninen nenän ja sivuonteloiden tulehdus, johon liittyy nenäpolyyppeja, ja IgE-välitteinen ruoka-allergia Omalitsumabivalmisteet estävät IgE:n sitoutumisen syöttösolujen, basofiilien ja dendriittisolujen pinnalla olevaan korkean affiniteetin IgE-reseptoriin (FcεRI), mikä johtaa FcεRI:n vähentyneeseen ilmentymiseen näissä soluissa. Allergista astmaa sairastavilla omalitsumabivalmisteilla annettu hoito estää IgE-välitteistä tulehdusta, minkä osoittavat veren ja kudosten eosinofiilien väheneminen sekä tulehduksen välittäjäaineiden, kuten IL-4:n, IL-5:n ja IL-13:n, väheneminen.” Englanninkielinen alkuteksti: "Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13." ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), versio 2026-10-06; haettu 2026-11-19). Tunnetun tiedon mukaan omalitsumabi sitoutuu vapaaseen IgE:hen ja vähentää IgE:n ja sen reseptorin (FcεRI) kautta välittyvää allergista hengitystietulehdusta. Hyöty allergisessa astmassa on vakiintunut.
 
 Teoriassa vaikutus voisi ulottua hengitystiesairauksiin, joissa on päällekkäisyyttä kroonisen bronkiitin kanssa, kuten astman ja keuhkoahtaumataudin päällekkäisoireyhtymään. Tämä on kuitenkin vain mekanistinen oletus. Kerätty näyttö koskee astmaa ja päällekkäisfenotyyppejä, ei bronkiittia sinänsä, eikä yksikään arvioiduista tutkimuksista osoita omalitsumabin hyödystä bronkiitissa.
 
@@ -116,11 +116,12 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Xolair (EMEA/H/C/000606), Omlyclo (EMEA/H/C/005958)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
 
 <!-- review:end log -->
 

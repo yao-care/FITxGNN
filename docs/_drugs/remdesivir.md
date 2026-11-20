@@ -60,7 +60,7 @@ Ennuste perustuu pelkästään tietoverkkoon pohjautuvaan mallinnukseen.
 
 ## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia tietoja vaikutusmekanismista ei ole saatavilla. Tunnetun tiedon mukaan remdesiviiri on nukleotidianalogin esilääke, joka estää viruksen RNA-riippuvaista RNA-polymeraasia. Sen teho COVID-19:ssä on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Remdesivir (epävirallinen käännös): ”Remdesiviiri on viruslääke, joka vaikuttaa vakavaa akuuttia hengitystieoireyhtymää aiheuttavaan koronavirus 2:een (SARS-CoV-2). […] Remdesiviiri estää SARS-CoV-2:n RNA-riippuvaista RNA-polymeraasia (RdRp), joka on välttämätön viruksen replikaatiolle. Remdesiviiri on adenosiininukleotidiaihiolääke, joka jakautuu soluihin, joissa karboksiesteraasi 1 ja/tai katepsiini A metaboloi sen solutyypistä riippuen nukleosidimonofosfaattivälituotteeksi.” Englanninkielinen alkuteksti: "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca), versio 2026-07-29; haettu 2026-11-19). Tunnetun tiedon mukaan remdesiviiri on nukleotidianalogin esilääke, joka estää viruksen RNA-riippuvaista RNA-polymeraasia. Sen teho COVID-19:ssä on osoitettu.
 
 Multippeli endokriininen neoplasia on perinnöllinen kasvainoireyhtymä (esim. MEN1- ja RET-mutaatiot), jolla ei ole virusten RNA-polymeraasiin liittyvää kohdetta. Tunnistettavaa mekanistista yhteyttä alkuperäisen ja ennustetun käyttöaiheen välillä ei siis ole. Korkea pistemäärä (0,995) on vain verkkopohjainen ennuste, jolta puuttuu biologinen tuki.
 
@@ -156,12 +156,13 @@ Muista varoituksista ja vasta-aiheista katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa (valmistaja Gilead Sciences Ireland UC) on tilassa peruutettu. Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
 
 <!-- review:end log -->
 

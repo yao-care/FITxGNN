@@ -58,7 +58,7 @@ Buprenorfiini on osittainen mu-opioidireseptorin agonisti, jota on alun perin k�
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismia. Tiedetään, että buprenorfiini on osittainen mu-opioidireseptorin agonisti ja kappa-reseptorin antagonisti, ja sen teho opioidiriippuvuuden hoidossa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Buprenorphine (epävirallinen käännös): ”SUBLOCADE-injektioneste sisältää buprenorfiinia. Buprenorfiini on mu-opioidireseptorin osittainen agonisti ja kappa-opioidireseptorin antagonisti.” Englanninkielinen alkuteksti: "SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor." ([DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95), versio 2026-07-27; haettu 2026-11-19). Tiedetään, että buprenorfiini on osittainen mu-opioidireseptorin agonisti ja kappa-reseptorin antagonisti, ja sen teho opioidiriippuvuuden hoidossa on osoitettu.
 
 Akuutissa ajoittaisessa porfyriassa taustalla on hemin biosynteesin häiriö ja ALA-syntaasin ylisäätely. Buprenorfiinin ja tämän patologian välillä ei ole tunnistettavaa uskottavaa mekanistista yhteyttä. Korkea TxGNN-pistemäärä (0,9941) ei saa tukea kliinisestä tai mekanistisesta näytöstä.
 
@@ -135,12 +135,13 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (Buvidal (EMEA/H/C/004651), Buprenorphine Neuraxpharm (EMEA/H/C/006188), Zubsolv (EMEA/H/C/004407)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
 
 <!-- review:end log -->
 

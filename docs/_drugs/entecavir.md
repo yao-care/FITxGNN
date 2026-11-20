@@ -54,7 +54,7 @@ Entekaviiri on guanosiinianalogi, joka estää hepatiitti B -viruksen (HBV) poly
 
 ## Miksi ennuste voi olla perusteltu?
 
-Entekaviiri estää HBV-polymeraasia. HCV on RNA-virus, joka monistuu NS5B-RNA-riippuvaisella RNA-polymeraasilla, joten suoraa antiviraalista mekanismia ei ole. Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla.
+Entekaviiri estää HBV-polymeraasia. HCV on RNA-virus, joka monistuu NS5B-RNA-riippuvaisella RNA-polymeraasilla, joten suoraa antiviraalista mekanismia ei ole. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Entecavir (epävirallinen käännös): ”Entekaviiri on hepatiitti B ‑virukseen vaikuttava viruslääke. […] Entekaviiri, deoksiguanosiininukleosidianalogi, joka vaikuttaa HBV:n käänteiskopioijaentsyymiin (rt), fosforyloituu tehokkaasti aktiiviseksi trifosfaattimuodoksi, jonka solunsisäinen puoliintumisaika on 15 tuntia. Kilpailemalla luonnollisen substraatin deoksiguanosiinitrifosfaatin kanssa entekaviiritrifosfaatti estää toiminnallisesti kaikkia HBV:n käänteiskopioijaentsyymin kolmea aktiivisuutta: emäsaloitusta (priming), negatiivisen juosteen käänteiskopiointia pregenomisesta lähetti-RNA:sta sekä HBV-DNA:n positiivisen juosteen synteesiä.” Englanninkielinen alkuteksti: "Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA." ([DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20), versio 2019-11-06; haettu 2026-11-19).
 
 Ainoa kliinisesti merkityksellinen yhteys on HCV/HBV-samanaikainen infektio. Siinä entekaviiri estää HBV:n replikaatiota ja ehkäisee HBV:n uudelleenaktivoitumista HCV:n suoravaikutteisten viruslääkkeiden (DAA) aikana tai jälkeen. Tämä on HBV-kohdennettu vaikutus, ei HCV-vaikutus. Korkea pistemäärä heijastaa todennäköisesti hepatiittibiologian yhteistä verkostoläheisyyttä, ei todellista HCV-tehoa.
 
@@ -114,6 +114,19 @@ Muut turvallisuustiedot: katso valmisteyhteenveto.
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistus
 - Mahdollinen jatkotarkastelu rajattuna HCV/HBV-samanaikaisen infektion HBV-profylaksiin erillisenä kysymyksenä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

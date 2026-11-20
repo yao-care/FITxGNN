@@ -64,7 +64,7 @@ Tolvaptaani on selektiivinen vasopressiini V2 -reseptorin salpaaja. Polykystises
 
 PKD3 (GANAB-liitännäinen muoto) jakaa saman kystogeenisen mekanismin ADPKD:n kanssa, ja ADPKD on jo hyväksytty alkuperäinen käyttöaihe. Siksi mekanistinen yhteys on uskottava. On kuitenkin huomattava, että tälle alatyypille ei ole rekisteröityjä tutkimuksia. L1-taso perustuu ADPKD:n keskeisiin satunnaistettuihin tutkimuksiin (TEMPO 3:4 ja REPRISE) ja päätelmään samasta fenotyypistä.
 
-Tämän raportin yhteydessä koottu aineisto ei sisältänyt yksityiskohtaista vaikutusmekanismitietoa (MOA) lääketietokannasta. Edellä kuvattu mekanismi perustuu tunnettuun lääkeluokan farmakologiaan ja kirjallisuuteen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tolvaptan (epävirallinen käännös): ”Tolvaptaani on selektiivinen vasopressiinin V 2 -reseptorin antagonisti, jonka affiniteetti V 2 -reseptoriin on 1,8-kertainen natiiviin arginiinivasopressiiniin (AVP) verrattuna. Tolvaptaanin affiniteetti V 2 -reseptoriin on 29-kertainen V 1a -reseptoriin verrattuna.” Englanninkielinen alkuteksti: "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), versio 2026-09-30; haettu 2026-11-19). Edellä kuvattu mekanismi perustuu tunnettuun lääkeluokan farmakologiaan ja kirjallisuuteen.
 
 ---
 
@@ -165,13 +165,14 @@ Näistä vain Joubertin oireyhtymä munuaisoireineen (ciliopatia, jossa cAMP-sig
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (Tolvaptan Accord (EMEA/H/C/005961), Samsca (EMEA/H/C/000980), Jinarc (EMEA/H/C/002788)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
 
 <!-- review:end log -->
 

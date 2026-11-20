@@ -60,7 +60,7 @@ Ennuste perustuu pelkästään laskennalliseen mallinnukseen.
 
 ## Miksi ennuste on perusteltu?
 
-Maraviroki on CCR5-kemokiinireseptorin antagonisti. Tälle raportille koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa, joten mekanismianalyysi jää rajalliseksi.
+Maraviroki on CCR5-kemokiinireseptorin antagonisti. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Maraviroc (epävirallinen käännös): ”Maraviroki on HIV-1:n vastainen viruslääke. […] Maraviroki kuuluu CCR5-koreseptorin antagonisteiksi kutsuttuun terapeuttiseen ryhmään. Maraviroki sitoutuu selektiivisesti solukalvolla olevaan ihmisen kemokiinireseptoriin CCR5 ja estää HIV-1:n gp120:n ja CCR5:n välisen vuorovaikutuksen, joka on välttämätön CCR5-trooppisen HIV-1:n pääsylle soluihin.” Englanninkielinen alkuteksti: "Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells." ([DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5), versio 2023-11-10; haettu 2026-11-19).
 
 Annettujen tietojen perusteella ei löydy tuettua mekanistista yhteyttä HIV-infektion ja monirauhasneoplasian välille. Korkea TxGNN-mallin (syväoppiminen) pistemäärä (0,9982) on ainoastaan laskennallinen ennuste, joka voi heijastaa mallin oppimia samankaltaisuuksia sairauksien välillä, ei biologista näyttöä.
 
@@ -155,13 +155,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla. Tutustu 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Celsentrin myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Celsentri (EMEA/H/C/000811) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5) |
 
 <!-- review:end log -->
 

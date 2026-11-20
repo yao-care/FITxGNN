@@ -58,7 +58,7 @@ Erdafitinibi on FGFR-tyrosiinikinaasin estäjä, jota on käytetty urologisten k
 
 ## Miksi ennuste on perusteltu?
 
-Erdafitinibi on pan-FGFR-estäjä (FGFR1–4), joka estää fibroblastikasvutekijän reseptorien signalointia. Tarkempaa vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla, joten arvio perustuu yleiseen tietoon lääkeaineluokasta.
+Erdafitinibi on pan-FGFR-estäjä (FGFR1–4), joka estää fibroblastikasvutekijän reseptorien signalointia. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Erdafitinib (epävirallinen käännös): ”Erdafitinibi on kinaasin estäjä, joka in vitro -tietojen perusteella sitoutuu FGFR1:een, FGFR2:een, FGFR3:een ja FGFR4:ään ja estää niiden entsymaattista aktiivisuutta. Erdafitinibi esti FGFR:n fosforylaatiota ja signalointia sekä heikensi solujen elinkykyä solulinjoissa, jotka ilmentävät FGFR-geenimuutoksia, mukaan lukien pistemutaatiot, amplifikaatiot ja fuusiot.” Englanninkielinen alkuteksti: "Erdafitinib is a kinase inhibitor that binds to and inhibits enzymatic activity of FGFR1, FGFR2, FGFR3 and FGFR4 based on in vitro data. Erdafitinib inhibited FGFR phosphorylation and signaling and decreased cell viability in cell lines expressing FGFR genetic alterations, including point mutations, amplifications, and fusions." ([DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee), versio 2025-10-24; haettu 2026-11-19).
 
 FGF/FGFR-signaloinnin on esitetty osallistuvan keuhkovaltimoiden uudelleenmuovautumiseen sekä sileälihas- ja endoteelisolujen lisääntymiseen keuhkovaltimoverenpainetaudissa. Siksi biologinen peruste on olemassa. Alkuperäinen käyttöaihe (urologiset kasvaimet) ja ennustettu käyttöaihe ovat kuitenkin kliinisesti hyvin kaukana toisistaan, eikä yhteyttä ole osoitettu tutkimuksin.
 
@@ -157,12 +157,13 @@ Muista turvallisuustiedoista katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Ainoa tieto Suomen myyntiluvasta on peruutettu, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Balversa (EMEA/H/C/006050) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee) |
 
 <!-- review:end log -->
 

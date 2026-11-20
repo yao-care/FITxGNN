@@ -59,7 +59,7 @@ Huomio: raportti keskittyy sijalla 2 olevaan status epilepticukseen, koska sille
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin yhteydessä koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella brivarasetaami on SV2A-ligandi, jonka teho fokaalisissa kohtauksissa on osoitettu, ja mekanistisesti se voi soveltua myös status epilepticuksen hoitoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Brivaracetam (epävirallinen käännös): ”Tarkkaa mekanismia, jolla BRIVIACT saa aikaan antikonvulsiivisen vaikutuksensa, ei tunneta. Brivarasetaamilla on suuri ja selektiivinen affiniteetti aivojen synaptisten vesikkelien proteiiniin 2A (SV2A), mikä saattaa osaltaan vaikuttaa antikonvulsiiviseen vaikutukseen.” Englanninkielinen alkuteksti: "The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect." ([DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c), versio 2026-11-05; haettu 2026-11-19). Tunnetun tiedon perusteella brivarasetaami on SV2A-ligandi, jonka teho fokaalisissa kohtauksissa on osoitettu, ja mekanistisesti se voi soveltua myös status epilepticuksen hoitoon.
 
 Kirjallisuuden mukaan brivarasetaami sitoutuu SV2A:han 15–30 kertaa levetirasetaamia voimakkaammin ja pääsee aivoihin nopeasti. SV2A-modulaatio vähentää synaptisten vesikkelien vapautumista ja hermosolujen yliärtyvyyttä. Nopea vaikutuksen alkaminen ja suotuisa siedettävyys tekevät suonensisäisestä brivarasetaamista uskottavan vaihtoehdon levetirasetaamille akuutissa tilanteessa.
 
@@ -149,13 +149,14 @@ Muilta osin turvallisuustiedot (varoitukset, vasta-aiheet) tulee tarkistaa valmi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi brivarasetaamin myyntilupa Suomessa on peruutettu, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittäminen (peruutuksen syy ja mahdollinen uusi lupa)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Briviact (EMEA/H/C/003898) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c) |
 
 <!-- review:end log -->
 

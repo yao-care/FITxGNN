@@ -58,7 +58,7 @@ Risperidoni on antipsykootti, jota on alun perin käytetty skitsofrenian hoitoon
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raportin tietojen mukaan risperidonin yksityiskohtaista vaikutusmekanismia ei ole saatavilla. Yleisesti risperidoni tunnetaan dopamiini D2- ja serotoniini 5-HT2A -reseptorien salpaajana, ja tähän perustuu sen teho skitsofreniassa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Risperidone (epävirallinen käännös): ”Risperidonin vaikutusmekanismi skitsofreniassa on epäselvä. Lääkkeen terapeuttinen vaikutus skitsofreniassa voi välittyä dopamiinityypin 2 (D 2 ) ja serotoniinityypin 2 (5HT 2 ) reseptorien antagonismin yhdistelmän kautta.” Englanninkielinen alkuteksti: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), versio 2026-10-23; haettu 2026-11-19). Yleisesti risperidoni tunnetaan dopamiini D2- ja serotoniini 5-HT2A -reseptorien salpaajana, ja tähän perustuu sen teho skitsofreniassa.
 
 Ennustettu sairaus johtuu ROBO3-geenin mutaatioista, jotka häiritsevät aksonien ohjautumista kehityksen aikana. Dopamiini- ja serotoniinisalpauksella ei ole tunnettua vaikutusta tähän perimmäiseen patologiaan. Mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ei voida osoittaa. Korkea pistemäärä on graafipohjainen ennuste, jota mikään aineisto ei tue, joten sitä tulee pitää tilastollisena sivutuotteena eikä lääketieteellisenä johtolankana.
 
@@ -139,12 +139,13 @@ Samalle lääkkeelle on tehty muitakin ennusteita, joista osa on huomattavasti p
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia yhden tai useamman vaikuttavan aineen valmisteiden myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi risperidonilla ei ole Suomessa voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
 
 <!-- review:end log -->
 

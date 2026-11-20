@@ -58,7 +58,7 @@ Turoktokogialfa on rekombinantti, B-domeenista typistetty ihmisen tekijä VIII, 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän lääkkeen vaikutusmekanismia koskevia yksityiskohtaisia tietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon mukaan turoktokogialfa korvaa hemofilia A:ssa puuttuvan tekijä VIII:n, ja sen teho hemofilia A:ssa on osoitettu. Mekanistisesti se ei kuitenkaan selvästi sovellu ennustettuun käyttöaiheeseen.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Turoctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini” Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon mukaan turoktokogialfa korvaa hemofilia A:ssa puuttuvan tekijä VIII:n, ja sen teho hemofilia A:ssa on osoitettu. Mekanistisesti se ei kuitenkaan selvästi sovellu ennustettuun käyttöaiheeseen.
 
 Ensisijainen verihiutaleiden vapautumishäiriö on verihiutaleiden toimintahäiriö, jossa tekijä VIII:n pitoisuus on normaali. Tekijä VIII:n korvaushoidolle ei siksi ole selvää mekanistista perustetta. Korkea pistemäärä johtuu todennäköisesti siitä, että sairaudet jakavat tietämysgraafissa veren hyytymiseen ja vuotoihin liittyviä naapurisolmuja. Se ei ole kliininen löydös.
 
@@ -124,12 +124,13 @@ Yksi ennustetuista käyttöaiheista, tromboottinen trombosytopeeninen purppura (
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa (valmistaja Novo Nordisk A/S) on tilassa peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
 
 <!-- review:end log -->
 

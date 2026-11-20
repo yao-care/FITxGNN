@@ -59,7 +59,7 @@ Huomautus: ensimmäinen TxGNN-ennuste (sija 1) on "visuaalinen epilepsia" (näk�
 
 ## Miksi ennuste on perusteltu?
 
-Levetirasetaami sitoutuu synaptisen vesikkelin proteiiniin SV2A ja moduloi välittäjäaineiden vapautumista. Tämä vähentää hermosolujen yli-ärtyvyyttä ja kohtauksen leviämistä. Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa erikseen saatavilla, mutta SV2A-mekanismi on kuvattu aineiston kirjallisuudessa.
+Levetirasetaami sitoutuu synaptisen vesikkelin proteiiniin SV2A ja moduloi välittäjäaineiden vapautumista. Tämä vähentää hermosolujen yli-ärtyvyyttä ja kohtauksen leviämistä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Levetiracetam (epävirallinen käännös): ”Levetirasetaamin epilepsialääkevaikutuksen tarkkaa mekanismia (tarkkoja mekanismeja) ei tunneta. Levetirasetaamille on kuvattu rotan aivokudoksessa saturoituva ja stereoselektiivinen neuronaalinen sitoutumiskohta. Kokeellisten tietojen mukaan tämä sitoutumiskohta on synaptisen vesikkelin proteiini SV2A, jonka arvellaan osallistuvan vesikkelien eksosytoosin säätelyyn.” Englanninkielinen alkuteksti: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), versio 2026-11-11; haettu 2026-11-19).
 
 Epilepsia ja status epilepticus ovat saman sairausryhmän ilmenemismuotoja: status epilepticus on pitkittynyt tai toistuva kohtaus, jota ei saada katkaistua. Bentsodiatsepiinien jälkeen annettavana toisen linjan lääkkeenä levetirasetaamin mekanismi sopii hyvin tähän tilanteeseen. Suuret vaiheen 3 tutkimukset vertaavat sitä suoraan fosfenytoiiniin ja valproaattiin.
 
@@ -169,13 +169,14 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki yhdeksän myyntilupaa on merkitty peruutetuiksi, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, mikä on selvitettävä ennen käyttöönottoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
 
 <!-- review:end log -->
 

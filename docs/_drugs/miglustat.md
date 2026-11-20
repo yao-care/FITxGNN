@@ -62,7 +62,7 @@ Tätä suuntaa tukee tällä hetkellä **4 kliinistä tutkimusta** ja **11 julka
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin käyttöön koottu aineisto ei sisällä virallista vaikutusmekanismin kuvausta. Tunnetun tiedon perusteella miglustaatti estää glukosyyliseramidisyntaasia (UGCG), joka on entsyymi glykosfingolipidien synteesin alkuvaiheessa. Lääke läpäisee veri-aivoesteen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Miglustat (epävirallinen käännös): ”Tyypin 1 Gaucher'n tauti johtuu glukoserebrosidaasin toiminnallisesta puutoksesta; glukoserebrosidaasi on entsyymi, joka välittää glykosfingolipidi glukosyyliseramidin hajoamista. Miglustaatti toimii glukosyyliseramidisyntaasientsyymin kilpailevana ja palautuvana estäjänä; glukosyyliseramidisyntaasi on ensimmäinen entsyymi reaktiosarjassa, jonka tuloksena syntetisoituu useimmat glykosfingolipidit.” Englanninkielinen alkuteksti: "Type 1 Gaucher disease is caused by a functional deficiency of glucocerebrosidase, the enzyme that mediates the degradation of the glycosphingolipid glucosylceramide. Miglustat functions as a competitive and reversible inhibitor of the enzyme glucosylceramide synthase, the initial enzyme in a series of reactions which results in the synthesis of most glycosphingolipids." ([DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87), versio 2025-12-17; haettu 2026-11-19). Tunnetun tiedon perusteella miglustaatti estää glukosyyliseramidisyntaasia (UGCG), joka on entsyymi glykosfingolipidien synteesin alkuvaiheessa. Lääke läpäisee veri-aivoesteen.
 
 Tay-Sachsin taudissa heksosaminidaasi A:n puutos johtaa GM2-gangliosidin kertymiseen hermosoluihin. Koska GM2-gangliosidi muodostuu glukosyyliseramidista, synteesin vähentäminen (substraatin vähennyshoito) voi teoriassa hidastaa kertymistä. Sama periaate on osoitettu toimivaksi Gaucherin taudissa, jossa glukosyyliseramidi kertyy.
 
@@ -152,12 +152,13 @@ Tay-Sachsin taudille on olemassa mekanistisesti uskottava perustelu ja useita tu
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on peruutettu, joten voimassa olevaa valmistetta ei tällä hetkellä ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuusarviointia (S1) voida aloittaa ilman valmisteyhteenvetoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87) |
 
 <!-- review:end log -->
 

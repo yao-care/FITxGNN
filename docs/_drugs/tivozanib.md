@@ -54,7 +54,7 @@ Tivozanibi on VEGF-reseptorin tyrosiinikinaasin estäjä, jota on alun perin kä
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin aineistossa lääkkeen vaikutusmekanismitietoa ei ole saatavilla. Yleisen farmakologisen tiedon perusteella tivozanibi estää kaikkia kolmea VEGF-reseptoria (VEGFR-1, -2 ja -3; geenit FLT1, KDR ja FLT4) samalla teholla. Estämällä VEGF-signalointia se heikentää kasvaimen verisuonten muodostumista (angiogeneesiä).
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tivozanib (epävirallinen käännös): ”Tivotsanibi on tyrosiinikinaasin estäjä. In vitro -solukinaasimääritykset osoittivat, että tivotsanibi estää verisuonten endoteelikasvutekijäreseptorin (VEGFR)-1:n, VEGFR-2:n ja VEGFR-3:n fosforylaatiota ja estää muita kinaaseja, kuten c-kitiä ja PDGFR β:aa, kliinisesti merkityksellisinä pitoisuuksina.” Englanninkielinen alkuteksti: "Tivozanib is a tyrosine kinase inhibitor. In vitro cellular kinase assays demonstrated that tivozanib inhibits phosphorylation of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2 and VEGFR-3 and inhibits other kinases including c-kit and PDGFR β at clinically relevant concentrations." ([DailyMed: Fotivda (tivozanib) prescribing information, AVEO Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83), versio 2026-11-11; haettu 2026-11-19). Yleisen farmakologisen tiedon perusteella tivozanibi estää kaikkia kolmea VEGF-reseptoria (VEGFR-1, -2 ja -3; geenit FLT1, KDR ja FLT4) samalla teholla. Estämällä VEGF-signalointia se heikentää kasvaimen verisuonten muodostumista (angiogeneesiä).
 
 Angiogeneesillä on merkitystä myös kohdunkaulansyövässä, ja VEGF:ää estävällä bevasitsumabilla on vakiintunut asema pitkälle edenneen taudin hoidossa. Siksi biologinen perustelu on uskottava. Munuaissolusyöpä ja kohdunkaulan syöpä ovat kuitenkin hyvin erilaisia kasvaimia, eikä aineistossa ole tutkimustietoa, joka osoittaisi tivozanibin tehoavan kohdunkaulan syöpään.
 
@@ -130,13 +130,14 @@ Muiden turvallisuustietojen osalta, kuten varoitukset ja vasta-aiheet, katso val
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu ja k” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys valmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Fotivda (EMEA/H/C/004131) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fotivda (tivozanib) prescribing information, AVEO Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83) |
 
 <!-- review:end log -->
 

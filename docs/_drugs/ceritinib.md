@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen mahdolliseksi lääkkeeksi **ikenen fibromatoosiin**, m
 
 ## Miksi ennuste on perusteltu?
 
-Seritinibin tarkkaa vaikutusmekanismia ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun tiedon mukaan seritinibi estää ALK-, ROS1- ja IGF-1R-kinaaseja, ja sen teho ALK-positiivisessa ei-pienisoluisessa keuhkosyövässä on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ceritinib (epävirallinen käännös): ”Seritinibi on kinaasin estäjä. Seritinibin estovaikutuksen kohteita, jotka on tunnistettu joko biokemiallisissa määrityksissä tai solumäärityksissä kliinisesti merkityksellisinä pitoisuuksina, ovat ALK, insuliinin kaltaisen kasvutekijä 1:n reseptori (IGF-1R), insuliinireseptori (InsR) ja ROS1.” Englanninkielinen alkuteksti: "Ceritinib is a kinase inhibitor. Targets of ceritinib inhibition identified in either biochemical or cellular assays at clinically relevant concentrations include ALK, insulin-like growth factor 1 receptor (IGF-1R), insulin receptor (InsR), and ROS1." ([DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e), versio 2026-10-28; haettu 2026-11-19). Tunnetun tiedon mukaan seritinibi estää ALK-, ROS1- ja IGF-1R-kinaaseja, ja sen teho ALK-positiivisessa ei-pienisoluisessa keuhkosyövässä on osoitettu.
 
 Ikenen fibromatoosin ja näiden kohteiden välille ei kuitenkaan ole tunnistettu mekanistista yhteyttä. Korkea TxGNN-pistemäärä on pelkkä graafipohjainen ennuste, eikä sitä tue mikään kliininen tai kirjallisuusnäyttö. Ennustetta on siksi pidettävä hypoteesina, ei perusteltuna hoitovaihtoehtona.
 
@@ -140,12 +140,13 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi seritinibin myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Zykadia (EMEA/H/C/003819) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e) |
 
 <!-- review:end log -->
 

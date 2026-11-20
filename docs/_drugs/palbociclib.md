@@ -58,7 +58,7 @@ Muut ennusteet: nivelreuma (0.9936, L4, tutkimuskysymys), tromboottinen sairaus 
 
 ## Miksi ennuste on perusteltu?
 
-Palbosiklibin yksityiskohtaisia vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla. Tunnetun tiedon mukaan palbosiklibi on CDK4/6-estäjä, jonka teho rintasyövässä on osoitettu ja joka estää solusyklin etenemistä G1-vaiheessa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Palbociclib (epävirallinen käännös): ”Palbosiklibi on syklliiniriippuvaisten kinaasien (CDK) 4 ja 6 estäjä. Sykliini D1 ja CDK4/6 ovat solujen proliferaatioon johtavien signalointireittien alavirrassa. In vitro palbosiklibi vähensi estrogeenireseptoripositiivisten (ER-positiivisten) rintasyöpäsolulinjojen solujen proliferaatiota estämällä solun etenemisen solusyklin G1-vaiheesta S-vaiheeseen.” Englanninkielinen alkuteksti: "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792), versio 2026-07-06; haettu 2026-11-19). Tunnetun tiedon mukaan palbosiklibi on CDK4/6-estäjä, jonka teho rintasyövässä on osoitettu ja joka estää solusyklin etenemistä G1-vaiheessa.
 
 **Kilpirauhasen liikatoiminta ja kilpirauhashormoniresistenssi:** Kummallekaan ei löydy mekanistista yhteyttä, kliinisiä tutkimuksia eikä kirjallisuutta. Ennuste perustuu pelkästään verkkomallin laskennalliseen assosiaatioon. CDK4/6-riippuvainen jakautuminen voisi teoriassa liittyä kilpirauhassolujen kasvuun, mutta tästä ei ole näyttöä.
 
@@ -143,13 +143,14 @@ Lisäksi valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa pakkaus
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys peruutetun myyntiluvan syystä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Ibrance (EMEA/H/C/003853) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->
 

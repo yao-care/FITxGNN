@@ -60,7 +60,7 @@ Tegafuuri on 5-fluorourasiilin (5-FU) esiaste, jota on alun perin käytetty **ma
 
 Tegafuuri on 5-FU:n esiaste, joka muuntuu elimistössä pääasiassa maksan CYP2A6-entsyymin vaikutuksesta. 5-FU estää tymidylaattisyntaasia ja liittyy RNA:han ja DNA:han, mikä on vakiintunut sytotoksinen vaikutusmekanismi ruoansulatuskanavan adenokarsinoomissa. Uratsiilin kanssa yhdistettynä (UFT) uratsiili estää kilpailevasti DPD-entsyymin aiheuttamaa 5-FU:n hajoamista ja nostaa 5-FU:n pitoisuutta kasvaimessa.
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla tämän raportin tietoaineistossa. Perustelu nojaa tegafuurin tunnettuun farmakologiaan, ei toimitettuun tietueeseen.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tegafur vaikutusmekanismiksi (epävirallinen käännös): ”RNA:n estäjä; tymidylaattisyntaasin estäjä; DNA:n estäjä” Englanninkielinen alkuteksti: "RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; haettu 2026-11-19). Perustelu nojaa tegafuurin tunnettuun farmakologiaan, ei toimitettuun tietueeseen.
 
 Maha- ja paksusuolisyövällä on yhteistä ruoansulatuskanavan adenokarsinoomabiologiaa, minkä vuoksi käyttöaiheen laajentaminen on mekanistisesti uskottavaa. Tegafuuria sisältäviä yhdistelmiä (UFT, S-1) on tutkittu laajasti paksusuolisyövän liitännäishoidossa.
 
@@ -166,13 +166,14 @@ Kirjallisuudessa on raportoitu yksittäinen tapaus UFT:hen liittyvästä hemolyy
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tegafuurin ainoa Suomen myyntilupa on kuitenkin peruutettu, eikä turvallisuustietoja ole saatavilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska voimassa olevaa myyntilupaa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Teysuno (EMEA/H/C/001242) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
 
 <!-- review:end log -->
 

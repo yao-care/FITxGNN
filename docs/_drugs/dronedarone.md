@@ -54,7 +54,7 @@ Dronedaroni on monikanavasalpaaja, joka kuuluu sydämen rytmihäiriölääkkeisi
 
 ## Miksi ennuste on perusteltu?
 
-Tälle raporttia varten koottuun aineistoon ei sisälly tarkkaa vaikutusmekanismikuvausta. Tunnetusti dronedaroni on monikanavasalpaaja, joka vaikuttaa sydämen rytmiin ja sykkeeseen. Rytmihäiriöistä johtuvat veritulpat ovat merkittävä aivohalvauksen syy. Rytmin ja sykkeen hallinta voisi siksi epäsuorasti vähentää aivohalvauksen riskiä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Dronedarone (epävirallinen käännös): ”Dronedaronin vaikutusmekanismia ei tunneta. Dronedaronilla on rytmihäiriöitä estäviä ominaisuuksia, jotka kuuluvat kaikkiin neljään Vaughan-Williamsin luokkaan, mutta kunkin näiden vaikutusten osuutta kliiniseen vaikutukseen ei tunneta.” Englanninkielinen alkuteksti: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), versio 2026-01-27; haettu 2026-11-19). Tunnetusti dronedaroni on monikanavasalpaaja, joka vaikuttaa sydämen rytmiin ja sykkeeseen. Rytmihäiriöistä johtuvat veritulpat ovat merkittävä aivohalvauksen syy. Rytmin ja sykkeen hallinta voisi siksi epäsuorasti vähentää aivohalvauksen riskiä.
 
 Hyöty näyttää liittyvän rytmihäiriön hoitoon eikä erilliseen aivohalvausmekanismiin. Prekliininen tutkimus (PMID 28992468) osoitti dronedaronilla veren hyytymistä ja verihiutaleiden toimintaa estäviä vaikutuksia, jotka eivät selity pelkällä rytmivaikutuksella. Tämä on vasta mekanistinen vihje, ei kliininen näyttö.
 
@@ -123,11 +123,12 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Multaq (EMEA/H/C/001043) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
 
 <!-- review:end log -->
 

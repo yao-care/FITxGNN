@@ -58,7 +58,7 @@ Ketorolaakki on tulehduskipulääke (NSAID), jonka hyväksytty käyttöaihe on s
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytettyyn aineistoon ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Ketorolaakki on kuitenkin tunnetusti epäselektiivinen COX-1/COX-2-estäjä. Se estää prostaglandiinien synteesiä, mikä vähentää perifeeristä ja keskushermostollista herkistymistä sekä neurogeenistä tulehdusta. Nämä mekanismit liittyvät migreenin ja jännityspäänsäryn kipuun. Tämä kuvaus perustuu vakiintuneeseen farmakologiseen tietoon, ei raportin lähdeaineistoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Ketorolac (epävirallinen käännös): ”Ketorolaakkitrometamoli on tulehduskipulääke (NSAID), jolla on analgeettista vaikutusta eläinmalleissa. Ketorolaakin, kuten muidenkin tulehduskipulääkkeiden, vaikutusmekanismia ei tunneta täysin, mutta se voi liittyä prostaglandiinisyntetaasin estoon.” Englanninkielinen alkuteksti: "Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug (NSAID) that exhibits analgesic activity in animal models. The mechanism of action of ketorolac, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition." ([DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f), versio 2026-11-13; haettu 2026-11-19). Ketorolaakki on kuitenkin tunnetusti epäselektiivinen COX-1/COX-2-estäjä. Se estää prostaglandiinien synteesiä, mikä vähentää perifeeristä ja keskushermostollista herkistymistä sekä neurogeenistä tulehdusta. Nämä mekanismit liittyvät migreenin ja jännityspäänsäryn kipuun. Tämä kuvaus perustuu vakiintuneeseen farmakologiseen tietoon, ei raportin lähdeaineistoon.
 
 Alkuperäinen käyttöaihe eli leikkauksen jälkeinen kipu ja uusi käyttöaihe eli akuutti päänsärky ovat molemmat tilanteita, joissa tarvitaan nopeaa kivunlievitystä. Ketorolaakin parenteraaliset ja nenänsisäiset valmisteet vaikuttavat nopeasti, mikä sopii päivystyspoliklinikan akuuttihoitoon.
 
@@ -156,12 +156,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä raportista, jo
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa (Omidria) on kuitenkin peruutettu, eikä kyseinen valmiste ole päänsäryn hoitoon tarkoitettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Omidria (EMEA/H/C/003702) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
 
 <!-- review:end log -->
 

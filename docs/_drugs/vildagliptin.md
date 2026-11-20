@@ -58,7 +58,7 @@ Vildagliptiini on suun kautta otettava DPP-4:n estäjä, jota on käytetty tyypi
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tiedot vildagliptiinin vaikutusmekanismista eivät ole tässä aineistossa saatavilla. Farmakologiset tiedot osoittavat, että lääke sitoutuu DPP-4-entsyymiin sekä DPP-8:aan, DPP-9:ään ja TRPV4:ään. Diabeteksessa DPP-4:n esto nostaa aktiivisen GLP-1:n ja GIP:n pitoisuuksia ja parantaa sokeritasapainoa.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Vildagliptin vaikutusmekanismiksi (epävirallinen käännös): ”Dipeptidyylipeptidaasi IV:n estäjä” Englanninkielinen alkuteksti: "Dipeptidyl peptidase IV inhibitor" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; haettu 2026-11-19). Farmakologiset tiedot osoittavat, että lääke sitoutuu DPP-4-entsyymiin sekä DPP-8:aan, DPP-9:ään ja TRPV4:ään. Diabeteksessa DPP-4:n esto nostaa aktiivisen GLP-1:n ja GIP:n pitoisuuksia ja parantaa sokeritasapainoa.
 
 Jäykän ihmisen oireyhtymä on autoimmuuninen neurologinen sairaus, joka liittyy usein GAD65-vasta-aineisiin. DPP-4:n eston ei tiedetä vaikuttavan sen taudinkulkuun. Aineiston perusteella ei löydy tukea mekanistiselle yhteydelle. Korkea pistemäärä (0,9988) on graafipohjaisen mallin tulos, ja se heijastaa todennäköisesti verkoston läheisyyttä muihin sairauksiin, ei biologista perustetta. Ennustetta on siksi pidettävä hypoteesina, ei näyttönä.
 
@@ -163,13 +163,14 @@ Muut ennusteet, kuten jäykän ihmisen oireyhtymä, lipodystrofiat ja haiman age
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu. Voimassa olevia vildagliptiinivalmisteita ei siis ole tässä aineistossa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Icandra ja Vildagliptin / Metformin hydrochloride Accord: voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

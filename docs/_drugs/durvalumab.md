@@ -54,7 +54,7 @@ Durvalumabi on PD-L1-vasta-aine (immuunisäätelypistetä estävä lääke). Tä
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen yksityiskohtaisia vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla. Tunnetun luokituksen perusteella durvalumabi estää PD-L1-proteiinia ja voi palauttaa T-solujen kasvainvastaista toimintaa. Tämä mekanismi on periaatteessa sovellettavissa myös gynekologisten elinten adenokarsinoomiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Durvalumab (epävirallinen käännös): ”Ohjelmoidun solukuoleman ligandi-1:n (PD-L1) ilmentymistä voivat indusoida tulehdussignaalit (esim. IFN-gamma), ja sitä voi ilmentyä sekä kasvainsoluissa että kasvaimeen liittyvissä immuunisoluissa kasvaimen mikroympäristössä. PD-L1 estää T-solujen toimintaa ja aktivaatiota vuorovaikuttamalla PD-1:n ja CD80:n (B7.1) kanssa. […] Durvalumabi on ihmisen immunoglobuliini G1 kappa (IgG1κ) ‑monoklonaalinen vasta-aine, joka sitoutuu PD-L1:een ja estää PD-L1:n vuorovaikutuksen PD-1:n ja CD80:n (B7.1) kanssa.” Englanninkielinen alkuteksti: "Expression of programmed cell death ligand-1 (PD-L1) can be induced by inflammatory signals (e.g., IFN-gamma) and can be expressed on both tumor cells and tumor-associated immune cells in the tumor microenvironment. PD-L1 blocks T-cell function and activation through interaction with PD-1 and CD80 (B7.1). […] Durvalumab is a human immunoglobulin G1 kappa (IgG1κ) monoclonal antibody that binds to PD-L1 and blocks the interaction of PD-L1 with PD-1 and CD80 (B7.1)." ([DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3), versio 2026-08-31; haettu 2026-11-19). Tunnetun luokituksen perusteella durvalumabi estää PD-L1-proteiinia ja voi palauttaa T-solujen kasvainvastaista toimintaa. Tämä mekanismi on periaatteessa sovellettavissa myös gynekologisten elinten adenokarsinoomiin.
 
 Tämä perustelu on kuitenkin vain mahdollinen päätelmä. Kyseisen harvinaisen kasvainsijainnin osalta suoraa näyttöä ei ole: kliinisiä tutkimuksia tai julkaisuja ei löytynyt. Ennuste on siis tutkimushypoteesi, ei vahvistettu hoitomahdollisuus.
 
@@ -93,6 +93,19 @@ Varoituksia ja vasta-aiheita koskevat tiedot on tarkistettava valmisteyhteenvedo
 - Vaikutusmekanismitietojen täydentämistä
 - Kirjallisuushaun ja tutkimusrekisterihaun laajentamista tähän harvinaiseen kasvaintyyppiin, esimerkiksi läheisiin gynekologisiin adenokarsinoomiin liittyvät tutkimukset
 - Arviota siitä, onko tutkimuksia ylipäätään toteutettavissa näin harvinaisessa kasvaimessa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

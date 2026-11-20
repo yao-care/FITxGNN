@@ -62,7 +62,7 @@ Huomio: aineiston kaksi muuta ennustetta ovat heikommin perusteltuja. Kissan imm
 
 ## Miksi ennuste on järkevä?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella tenofoviirialafenamidi on tenofoviirin esilääke, joka toimittaa tehokkaasti vaikuttavaa tenofoviiridifosfaattia lymfaattisiin soluihin. Se estää lentivirusten käänteiskopioijaentsyymiä, ja sen teho HIV-infektiossa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Tenofovir Alafenamide (epävirallinen käännös): ”Tenofoviirialafenamidi on hepatiitti B -virukseen vaikuttava viruslääke. […] Tenofoviirialafenamidi on tenofoviirin (2'-deoksiadenosiinimonofosfaattianalogin) fosfonamidaattiaihiolääke. Tenofoviirialafenamidi on lipofiilinen, solukalvon läpäisevä yhdiste, joka kulkeutuu primaarisiin hepatosyytteihin passiivisen diffuusion avulla sekä maksan soluunottokuljettajien OATP1B1 ja OATP1B3 välityksellä.” Englanninkielinen alkuteksti: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), versio 2025-07-14; haettu 2026-11-19). Tunnetun tiedon perusteella tenofoviirialafenamidi on tenofoviirin esilääke, joka toimittaa tehokkaasti vaikuttavaa tenofoviiridifosfaattia lymfaattisiin soluihin. Se estää lentivirusten käänteiskopioijaentsyymiä, ja sen teho HIV-infektiossa on osoitettu.
 
 SIV ja SHIV (simiaani/ihmis-yhdistelmävirus) ovat makakeilla käytettyjä vakiintuneita HIV:n prekliinisiä malleja. Koska virukset ovat läheistä sukua HIV:lle ja niiden käänteiskopioijaentsyymi on samankaltainen, lääkkeen teho on biologisesti uskottava.
 
@@ -145,12 +145,13 @@ Yhteisvaikutuksista aineistossa oli vain yksi farmakologinen merkintä: tenofovi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 8 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitetään, miksi kaikki Suomen myyntiluvat on merkitty peruutetuiksi, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->
 

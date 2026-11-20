@@ -54,7 +54,7 @@ Anagrelidi on verihiutaleiden määrää alentava lääke, jota käytetään alu
 
 ## Miksi ennuste voi olla perusteltu?
 
-Tarkkaa vaikutusmekanismia ei ole tällä hetkellä saatavilla kootussa aineistossa. Tunnetun tiedon mukaan anagrelidi alentaa verihiutaleiden määrää estämällä megakaryosyyttien kypsymistä ja erilaistumista, mikä on sen hyväksytyn käytön (essentiaalinen trombosytemia) perusta. Lääkkeen tiedetään myös olevan PDE3-estäjä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Anagrelide (epävirallinen käännös): ”Tarkkaa mekanismia, jolla anagrelidi pienentää verihiutaleiden määrää, ei tunneta. Soluviljelytutkimuksissa anagrelidi esti megakaryosytopoeesiin tarvittavien transkriptiotekijöiden, kuten GATA-1:n ja FOG-1:n, ilmentymistä, mikä lopulta johti verihiutaleiden tuotannon vähenemiseen.” Englanninkielinen alkuteksti: "The precise mechanism by which anagrelide reduces blood platelet count is unknown. In cell culture studies, anagrelide suppressed expression of transcription factors including GATA-1 and FOG-1 required for megakaryocytopoiesis, ultimately leading to reduced platelet production." ([DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219), versio 2026-04-08; haettu 2026-11-19). Tunnetun tiedon mukaan anagrelidi alentaa verihiutaleiden määrää estämällä megakaryosyyttien kypsymistä ja erilaistumista, mikä on sen hyväksytyn käytön (essentiaalinen trombosytemia) perusta. Lääkkeen tiedetään myös olevan PDE3-estäjä.
 
 Reaktiivinen (sekundaarinen) trombosytoosi johtuu taustalla olevasta tilasta, kuten tulehduksesta, raudanpuutteesta, infektiosta tai pernanpoistosta, eikä kloonaalisesta megakaryosyyttien lisääntymisestä. Verihiutaleita alentava vaikutus on siksi teoriassa uskottava, mutta vakiohoito on taustasyyn hoito. Verihiutaleiden alentamista ei yleensä tarvita, koska reaktiiviseen trombosytoosiin liittyvä tromboosiriski on pieni. TxGNN-pistemäärä on todennäköisesti seurausta tilan läheisestä samankaltaisuudesta hyväksytyn käyttöaiheen kanssa, ei itsenäisestä näytöstä.
 
@@ -136,13 +136,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Poistettu: ”peruutettujen myyntilupien syistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Xagrid (EMEA/H/C/000480), Anagrelide Viatris, aiemmin Anagrelide Mylan (EMEA/H/C/004585)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
 
 <!-- review:end log -->
 

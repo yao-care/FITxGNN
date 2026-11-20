@@ -64,7 +64,7 @@ Scheien oireyhtymä (lievä MPS I) johtuu alfa-L-iduronidaasin puutteesta, joka 
 
 Mekanistinen yhteys on kuitenkin heikko. Lääke ei korvaa puuttuvaa IDUA-entsyymiä, ja substraatin on ensin käsiteltävä iduronidaasin toimesta. Korkea TxGNN-pistemäärä on vain laskennallinen ennuste. Lisäksi tälle sairaudelle on jo olemassa hyväksytty IDUA-entsyymikorvaushoito (laronidaasi).
 
-Lääkkeen yksityiskohtaisia vaikutusmekanismitietoja ei ole tämän raportin tiedoissa saatavilla.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Vestronidase Alfa (epävirallinen käännös): ”Mukopolysakkaridoosi VII (MPS VII tai Slyn oireyhtymä) on lysosomaalinen sairaus, jolle on ominaista GUS-entsyymin puutos, joka johtaa GAG-yhdisteiden kertymiseen soluihin kaikkialla elimistössä ja siten useiden elinjärjestelmien kudos- ja elinvaurioihin. Vestronidaasi alfa-vjbk on ihmisen GUS-entsyymin rekombinanttimuoto, ja sen tarkoituksena on tuoda elimistöön eksogeenista GUS-entsyymiä soluihin lysosomeihin otettavaksi.” Englanninkielinen alkuteksti: "Mucopolysaccharidosis VII (MPS VII or Sly syndrome) is a lysosomal disorder characterized by the deficiency of GUS that results in GAG accumulation in cells throughout the body leading to multisystem tissue and organ damage. Vestronidase alfa-vjbk is a recombinant form of human GUS and is intended to provide exogenous GUS enzyme for uptake into cellular lysosomes." ([DailyMed: Mepsevii (vestronidase alfa) prescribing information, Ultragenyx Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=925d4e21-fd98-474d-a34d-a0b3558ed750), versio 2026-10-26; haettu 2026-11-19).
 
 ---
 
@@ -119,11 +119,12 @@ Ennuste perustuu pelkkään malliin: kliinisiä tutkimuksia tai julkaisuja Schei
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Mepsevii (EMEA/H/C/004438) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Mepsevii (vestronidase alfa) prescribing information, Ultragenyx Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=925d4e21-fd98-474d-a34d-a0b3558ed750) |
 
 <!-- review:end log -->
 

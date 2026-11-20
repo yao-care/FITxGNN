@@ -54,7 +54,7 @@ Bexaroteeni on selektiivinen retinoidi X -reseptorin (RXR) agonisti, jota käyte
 
 ## Miksi ennuste on perusteltu?
 
-Bexaroteeni aktivoi retinoidi X -reseptoreita (RXR), jotka toimivat ligandin aktivoimina transkriptiotekijöinä. Aktivaatio vaikuttaa solujen kasvuun, apoptoosiin ja erilaistumiseen. Tarkempaa vaikutusmekanismia koskevaa tietoa ei ole tämän raportin aineistossa saatavilla.
+Bexaroteeni aktivoi retinoidi X -reseptoreita (RXR), jotka toimivat ligandin aktivoimina transkriptiotekijöinä. Aktivaatio vaikuttaa solujen kasvuun, apoptoosiin ja erilaistumiseen. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Bexarotene (epävirallinen käännös): ”Beksaroteeni sitoutuu selektiivisesti retinoidi X -reseptorin alatyyppeihin (RXRα, RXRß, RXRγ) ja aktivoi niitä. RXR-reseptorit voivat muodostaa heterodimeerejä erilaisten reseptorikumppanien, kuten retinoiinihapporeseptorien (RAR), D-vitamiinireseptorin, kilpirauhasreseptorin ja peroksisomiproliferaattorin aktivoimien reseptorien (PPAR), kanssa.” Englanninkielinen alkuteksti: "Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs)." ([DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc), versio 2020-04-30; haettu 2026-11-19).
 
 Lääkkeen tunnettu käyttö liittyy ihon T-solulymfoomaan, jossa RXR-aktivaation katsotaan ohjaavan pahanlaatuisten T-solujen apoptoosia ja erilaistumista. Ihon lymfoomat muodostavat kuitenkin heterogeenisen ryhmän, johon kuuluvat sekä T- että B-solulymfoomat. Mallin korkea pisteytys heijastaa todennäköisesti ihon lymfoomien välistä läheisyyttä tietoverkossa eikä B-solukohtaista biologiaa.
 
@@ -113,6 +113,18 @@ Muilta osin tutustu valmisteyhteenvetoon.
 - Lääkkeen vaikutusmekanismin tarkempi dokumentaatio
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
 - Selvitys siitä, onko ihon B-solulymfoomapotilailla riittävästi tarvetta ja tutkimuspohjaa pilottitutkimukselle
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

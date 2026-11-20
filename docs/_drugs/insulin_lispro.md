@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **autoimmuuniseen munasarjatulehdukseen**
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Lääkkeen vaikutusmekanismia koskevaa tietoa ei ole tällä hetkellä saatavilla. Insuliinilispro on pikavaikutteinen insuliinianalogi, jonka teho diabeteksessa on osoitettu. Mekanistisesti yhteys autoimmuuniseen munasarjatulehdukseen on epävarma.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Insulin Lispro (epävirallinen käännös): ”Glukoosiaineenvaihdunnan säätely on insuliinien ja insuliinianalogien, mukaan lukien lisproinsuliinivalmisteet, ensisijainen vaikutus. Insuliinit alentavat veren glukoosipitoisuutta stimuloimalla glukoosin perifeeristä soluunottoa luustolihaksiin ja rasvakudokseen sekä estämällä maksan glukoosintuotantoa.” Englanninkielinen alkuteksti: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0), versio 2026-09-03; haettu 2026-11-19). Insuliinilispro on pikavaikutteinen insuliinianalogi, jonka teho diabeteksessa on osoitettu. Mekanistisesti yhteys autoimmuuniseen munasarjatulehdukseen on epävarma.
 
 Mahdollinen mutta varmistamaton selitys on, että insuliinisignalointi vaikuttaa munasarjan granuloosasolujen toimintaan. Lisäksi autoimmuunit monirauhasoireyhtymät ja diabetes menevät osittain päällekkäin, mikä voi selittää ennusteen. Insuliinilisprolle ei ole osoitettu suoraa vaikutusmekanismia tässä sairaudessa. Vakiohoitoa ovat edelleen immunosuppressio ja hormonikorvaushoito.
 
@@ -156,13 +156,14 @@ Varoitus- ja vasta-aiheita koskevat tiedot ovat puutteelliset, joten niiden osal
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->
 

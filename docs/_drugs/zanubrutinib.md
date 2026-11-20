@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **myeloidiseen leukemiaan**, mutta ennust
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella zanubrutinibi on seuraavan sukupolven BTK:n estäjä, jonka teho Waldenströmin makroglobulinemiassa ja muissa B-solusyövissä (esim. CLL/SLL) on osoitettu. Mekanistisesti se voisi olla sovellettavissa myeloidiseen leukemiaan, koska BTK-signalointia esiintyy myös myeloidisoluissa ja sitä on tutkittu akuutissa myeloidisessa leukemiassa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Zanubrutinib (epävirallinen käännös): ”Tsanubrutinibi on Brutonin tyrosiinikinaasin (BTK) pienimolekyylinen estäjä. Tsanubrutinibi muodostaa kovalenttisen sidoksen BTK:n aktiivisen kohdan kysteiinitähteen kanssa, mikä johtaa BTK:n aktiivisuuden estymiseen. BTK on B-solujen antigeenireseptorin (BCR) ja sytokiinireseptorien signaalireittien signaalimolekyyli.” Englanninkielinen alkuteksti: "Zanubrutinib is a small-molecule inhibitor of Bruton's tyrosine kinase (BTK). Zanubrutinib forms a covalent bond with a cysteine residue in the BTK active site, leading to inhibition of BTK activity. BTK is a signaling molecule of the B-cell antigen receptor (BCR) and cytokine receptor pathways." ([DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902), versio 2026-09-04; haettu 2026-11-19). Tunnetun tiedon perusteella zanubrutinibi on seuraavan sukupolven BTK:n estäjä, jonka teho Waldenströmin makroglobulinemiassa ja muissa B-solusyövissä (esim. CLL/SLL) on osoitettu. Mekanistisesti se voisi olla sovellettavissa myeloidiseen leukemiaan, koska BTK-signalointia esiintyy myös myeloidisoluissa ja sitä on tutkittu akuutissa myeloidisessa leukemiassa.
 
 Yhteys on kuitenkin vain epäsuora. Alkuperäinen käyttöaihe ja CLL/SLL ovat lymfaattisia, B-soluperäisiä sairauksia, kun taas ennustettu käyttöaihe on myeloidinen. Nykyinen näyttö ei ylitä tätä eroa, eikä zanubrutinibin käytöstä myeloidisessa leukemiassa ole suoria tietoja.
 
@@ -169,13 +169,14 @@ Kirjallisuudessa on lisäksi nostettu esiin BTK-estäjiin liittyvä hepatiitti B
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole Suomessa voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys Brukinsan myyntiluvan peruutuksen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Brukinsa (EMEA/H/C/004978) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota ensisijaisesti kohteeseen **ientiehytkasv
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tästä lääkkeestä ei tällä hetkellä ole saatavilla yksityiskohtaisia vaikutusmekanismitietoja tähän raporttiin koottuun aineistoon. Tunnetun tiedon perusteella lorlatinibi on kolmannen sukupolven aivoihin läpäisevä ALK/ROS1-tyrosiinikinaasin estäjä, jonka teho ALK-positiivisessa NSCLC:ssä on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lorlatinib (epävirallinen käännös): ”Loratinibi on kinaasin estäjä, jolla on in vitro -aktiivisuutta ALK:ta ja ROS1:tä sekä TYK1:tä, FER:ää, FPS:ää, TRKA:ta, TRKB:tä, TRKC:tä, FAK:ta, FAK2:ta ja ACK:ta vastaan. Loratinibilla osoitettiin in vitro -aktiivisuutta useita ALK-entsyymin mutanttimuotoja vastaan, mukaan lukien joitakin mutaatioita, joita on havaittu kasvaimissa taudin edetessä kritsotinibihoidon ja muiden ALK:n estäjien käytön aikana.” Englanninkielinen alkuteksti: "Lorlatinib is a kinase inhibitor with in vitro activity against ALK and ROS1 as well as TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2, and ACK. Lorlatinib demonstrated in vitro activity against multiple mutant forms of the ALK enzyme, including some mutations detected in tumors at the time of disease progression on crizotinib and other ALK inhibitors." ([DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d), versio 2026-06-26; haettu 2026-11-19). Tunnetun tiedon perusteella lorlatinibi on kolmannen sukupolven aivoihin läpäisevä ALK/ROS1-tyrosiinikinaasin estäjä, jonka teho ALK-positiivisessa NSCLC:ssä on osoitettu.
 
 Ientenfibromatoosi on hyvänlaatuinen sidekudoksen liikakasvu, eikä aineiston perusteella ole tunnistettu mitään ALK-ohjautuvaa patologiaa, joka yhdistäisi sen lorlatinibin vaikutuskohteeseen. Mekanistista yhteyttä ei ole havaittu. Korkea pistemäärä (0,9981) tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä.
 
@@ -150,12 +150,13 @@ Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa Suomessa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Lorviqua (EMEA/H/C/004646) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Letermoviiri on sytomegalovirusinfektioiden (CMV) hoitoon kehitetty viruslääke
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Letermoviirin yksityiskohtaista vaikutusmekanismia ei ole saatavilla tämän raportin aineistossa. Tunnetun farmakologian mukaan letermoviiri on CMV-spesifinen antiviraali, joka estää viruksen terminaasikompleksia (pUL56/UL89/UL51).
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Letermovir (epävirallinen käännös): ”PREVYMIS on CMV:hen vaikuttava viruslääke. […] Letermoviiri estää CMV:n DNA-terminaasikompleksia (pUL51, pUL56 ja pUL89), jota tarvitaan viruksen DNA:n prosessointiin ja pakkaamiseen. Biokemiallinen karakterisointi ja elektronimikroskopia osoittivat, että letermoviiri vaikuttaa oikean yksikköpituuden genomien tuotantoon ja häiritsee virionien kypsymistä.” Englanninkielinen alkuteksti: "PREVYMIS is an antiviral drug against CMV. […] Letermovir inhibits the CMV DNA terminase complex (pUL51, pUL56, and pUL89) which is required for viral DNA processing and packaging. Biochemical characterization and electron microscopy demonstrated that letermovir affects the production of proper unit length genomes and interferes with virion maturation." ([DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b), versio 2026-01-14; haettu 2026-11-19). Tunnetun farmakologian mukaan letermoviiri on CMV-spesifinen antiviraali, joka estää viruksen terminaasikompleksia (pUL56/UL89/UL51).
 
 Ennusteen biologinen perustelu on heikko. Vulvovaginaalisen kandidiaasin aiheuttavat Candida-hiivasienet, joilla ei ole vastaavaa terminaasikompleksia. Letermoviirin kohdetta ei siis esiinny sienissä, eikä mekanistista yhteyttä alkuperäisen ja ennustetun käyttöaiheen välillä voida osoittaa.
 
@@ -113,12 +113,13 @@ Ennuste perustuu vain tietämysgraafimalliin (L5), eikä sille ole kliinistä ta
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Prevymis (EMEA/H/C/004536) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b) |
 
 <!-- review:end log -->
 

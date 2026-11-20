@@ -58,7 +58,7 @@ Lakosamidi on epilepsialääke, jota on käytetty osittaisalkuisten epilepsiakoh
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistossa saatavilla. Kirjallisuuden perusteella lakosamidi tehostaa jännitteestä riippuvien natriumkanavien hidasta inaktivaatiota ja vaikuttaa CRMP2-proteiiniin (collapsin response mediator protein 2).
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lacosamide (epävirallinen käännös): ”Tarkkaa mekanismia, jolla lakosamidioraaliliuos saa aikaan antiepileptiset vaikutuksensa ihmisillä, ei ole vielä täysin selvitetty. In vitro -elektrofysiologiset tutkimukset ovat osoittaneet, että lakosamidi tehostaa selektiivisesti jänniteohjattujen natriumkanavien hidasta inaktivaatiota, mikä johtaa yliherkkien hermosolukalvojen stabiloitumiseen ja hermosolujen toistuvan purkautumisen estymiseen.” Englanninkielinen alkuteksti: "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738), versio 2026-09-09; haettu 2026-11-19). Kirjallisuuden perusteella lakosamidi tehostaa jännitteestä riippuvien natriumkanavien hidasta inaktivaatiota ja vaikuttaa CRMP2-proteiiniin (collapsin response mediator protein 2).
 
 Epilepsia ja migreeni liittyvät molemmat hermosolujen yliärtyvyyteen. Hiirillä tehty tutkimus osoitti lakosamidin vaikuttavan kortikaaliseen leviävään depolarisaatioon, joka on migreenin aurankin taustamekanismi. Lisäksi CRMP2:n eston on esitetty vähentävän CGRP-peptidin (kalsitoniinigeeniin liittyvä peptidi) vapautumista kolmoishermojärjestelmässä, mikä on migreenin keskeinen mekanismi.
 
@@ -161,12 +161,13 @@ Seuraavat ennusteet perustuvat enimmäkseen pelkkään malliin:
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 4 myyntilupaa (Vimpat (EMEA/H/C/000863), Lacosamide UCB (EMEA/H/C/005243), Lacosamide Accord (EMEA/H/C/004443), Lacosamide Adroiq (EMEA/H/C/006047)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->
 

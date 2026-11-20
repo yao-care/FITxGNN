@@ -54,7 +54,7 @@ Degareliksi on GnRH-reseptorin salpaaja, joka vähentää LH- ja FSH-eritystä j
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytetyissä tiedoissa ei ole yksityiskohtaista vaikutusmekanismitietoa. Tiedetään, että degareliksi on GnRH-reseptorin antagonisti: se estää aivolisäkkeen gonadotropiinien eritystä ja laskee näin testosteronia ja muita androgeeneja.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Degarelix (epävirallinen käännös): ”Degareliksi on GnRH-reseptorin antagonisti. Se sitoutuu reversiibelisti aivolisäkkeen GnRH-reseptoreihin ja vähentää siten gonadotropiinien ja tämän seurauksena testosteronin vapautumista.” Englanninkielinen alkuteksti: "Degarelix is a GnRH receptor antagonist. It binds reversibly to the pituitary GnRH receptors, thereby reducing the release of gonadotropins and consequently testosterone." ([DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b), versio 2024-01-30; haettu 2026-11-19). Tiedetään, että degareliksi on GnRH-reseptorin antagonisti: se estää aivolisäkkeen gonadotropiinien eritystä ja laskee näin testosteronia ja muita androgeeneja.
 
 Hypertrikoosi ei yleensä ole androgeenivetoista (toisin kuin hirsutismi). Mekaaninen yhteys on siksi heikko ja spekulatiivinen. Lääkkeen aiheuttama hypertrikoosi liittyy tyypillisesti muihin mekanismeihin, eikä androgeenien estämisen odoteta hoitavan sitä. Hyvin korkea pistemäärä on pelkkä mallin tuottama ennuste, jota ei tue kliininen tai julkaistu näyttö.
 
@@ -99,6 +99,19 @@ Toistaiseksi ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen ja arviointi
 - Prekliininen tai kirjallisuuteen perustuva selvitys degareliksin ja hypertrikoosin välisestä yhteydestä ennen jatkotoimia
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -58,7 +58,7 @@ Olopatadiini on lääkeaine, jota on käytetty allergisen sidekalvotulehduksen h
 
 ## Miksi ennuste on perusteltu?
 
-Olopatadiini on histamiini H1 -reseptorin salpaaja, jolla on myös syöttösoluja vakauttava vaikutus. Tämä kuvaus perustuu yleiseen farmakologiseen tietoon, sillä tarkkaa vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla raportin aineistossa. Lääke on hyväksytty allergisen sidekalvotulehduksen hoitoon.
+Olopatadiini on histamiini H1 -reseptorin salpaaja, jolla on myös syöttösoluja vakauttava vaikutus. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Olopatadine (epävirallinen käännös): ”Olopatadiini on histamiini H 1 -reseptorin antagonisti. Olopatadiinin antihistamiinivaikutus on dokumentoitu eristetyissä kudoksissa, eläinmalleissa ja ihmisillä.” Englanninkielinen alkuteksti: "Olopatadine is a histamine H 1 receptor antagonist. The antihistaminic activity of olopatadine has been documented in isolated tissues, animal models, and humans." ([DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85), versio 2026-09-15; haettu 2026-11-19). Lääke on hyväksytty allergisen sidekalvotulehduksen hoitoon.
 
 Silmän ruusufinni on pääosin meibomin rauhasten toimintahäiriön, kyynelfilmin epävakauden ja synnynnäiseen immuunijärjestelmään liittyvän tulehduksen ajama tila. Myös Demodex-punkit ja mikrobitekijät voivat vaikuttaa. Syöttösolujen ja histamiinin osuus on mahdollista, mutta sitä ei ole osoitettu pääasialliseksi tekijäksi.
 
@@ -130,13 +130,14 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvitys, sillä ainoa tunnettu myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Opatanol (EMEA/H/C/000407) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
 
 <!-- review:end log -->
 

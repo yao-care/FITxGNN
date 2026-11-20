@@ -59,7 +59,7 @@ Typpioksidia (inhaloitava) on käytetty keuhkoverenpainetaudin ja hengitysvajauk
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän lääkkeen vaikutusmekanismitietoja ei ole tämän raportin aineistossa. Tunnetun farmakologian mukaan inhaloitava typpioksidi on valikoiva keuhkoverisuonia laajentava aine. Sen teho keuhkoverenpainetaudissa perustuu tähän, ja se selittää alkuperäisen käyttöaiheen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Nitric Oxide (epävirallinen käännös): ”Typpioksidi relaksoi verisuonten sileää lihasta sitoutumalla sytosolisen guanylaattisyklaasin hemiosaan, jolloin guanylaattisyklaasi aktivoituu ja solunsisäinen syklisen guanosiini-3',5'-monofosfaatin pitoisuus suurenee, mikä puolestaan johtaa vasodilataatioon. Inhaloituna typpioksidi laajentaa selektiivisesti keuhkoverisuonistoa, ja koska hemoglobiini sitoo sitä tehokkaasti, sillä on vain vähäinen vaikutus systeemiseen verisuonistoon.” Englanninkielinen alkuteksti: "Nitric oxide relaxes vascular smooth muscle by binding to the heme moiety of cytosolic guanylate cyclase, activating guanylate cyclase and increasing intracellular levels of cyclic guanosine 3',5'-monophosphate, which then leads to vasodilation. When inhaled, nitric oxide selectively dilates the pulmonary vasculature, and because of efficient scavenging by hemoglobin, has minimal effect on the systemic vasculature." ([DailyMed: Inomax (nitric oxide) prescribing information, INO Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=762b51be-1893-4cd1-9511-e645fc420d3a), versio 2025-12-12; haettu 2026-11-19). Tunnetun farmakologian mukaan inhaloitava typpioksidi on valikoiva keuhkoverisuonia laajentava aine. Sen teho keuhkoverenpainetaudissa perustuu tähän, ja se selittää alkuperäisen käyttöaiheen.
 
 Alkuperäinen käyttöaihe (keuhkoverisuonten supistuminen ja hapetusvaje) ja ennustettu käyttöaihe (hampaiston ja igenkudoksen kehityshäiriö) ovat patofysiologisesti kaukana toisistaan. Löytynyt kirjallisuus käsittelee parodontiittia, igenfibroblasteja ja kasviperäisiä tulehdusta vaimentavia yhdisteitä. Typpioksidi esiintyy niissä lähinnä yleisenä tulehdus- ja oksidatiivisen stressin välittäjäaineena, ei hoitona. Suoraa yhteyttä epämuodostumaoireyhtymään ei ole osoitettu.
 
@@ -152,12 +152,13 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tätä rapo
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja myyntilupakin on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Inomax (nitric oxide) prescribing information, INO Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=762b51be-1893-4cd1-9511-e645fc420d3a) |
 
 <!-- review:end log -->
 

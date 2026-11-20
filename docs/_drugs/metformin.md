@@ -60,7 +60,7 @@ Ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella metformiini on tyypin 2 diabeteksen hoidossa todettu lääke, jonka tiedetään aktivoivan AMPK-entsyymiä ja vähentävän maksan glukoosintuotantoa. Mekanistista yhteyttä fokaaliseen jäykän raajan oireyhtymään ei kuitenkaan ole osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Metformin (epävirallinen käännös): ”Metformiini on antihyperglykeeminen aine, joka parantaa glukoosinsietoa tyypin 2 diabetesta sairastavilla potilailla ja alentaa sekä perustason että aterianjälkeistä plasman glukoosipitoisuutta. Metformiini vähentää maksan glukoosintuotantoa, vähentää glukoosin imeytymistä suolistosta ja parantaa insuliiniherkkyyttä lisäämällä glukoosin perifeeristä soluunottoa ja käyttöä.” Englanninkielinen alkuteksti: "Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes mellitus, lowering both basal and postprandial plasma glucose. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization." ([DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574), versio 2026-09-21; haettu 2026-11-19). Tunnetun tiedon perusteella metformiini on tyypin 2 diabeteksen hoidossa todettu lääke, jonka tiedetään aktivoivan AMPK-entsyymiä ja vähentävän maksan glukoosintuotantoa. Mekanistista yhteyttä fokaaliseen jäykän raajan oireyhtymään ei kuitenkaan ole osoitettu.
 
 Fokaalinen jäykän raajan oireyhtymä kuuluu jäykän ihmisen oireyhtymän (stiff-person) kirjoon. Sen taustalla on autoimmuuni-, GABAergisen tai glysinergisen järjestelmän häiriö. Selvää yhteyttä metformiinin vaikutukseen ei ole, joten mekanistinen perustelu on spekulatiivinen.
 
@@ -159,13 +159,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia metformiinia sisältäviä myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(nykyisessä aineistossa kaikki 19 myyntilupaa on peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
 
 <!-- review:end log -->
 

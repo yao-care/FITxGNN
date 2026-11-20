@@ -58,7 +58,7 @@ Decitabiini on hypometyloiva nukleosidianalogi, jota käytetään myeloisten kas
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytettyjen tietojen mukaan vaikutusmekanismin kuvausta ei ole saatavilla. Yleisen farmakologisen tiedon perusteella decitabiini estää DNA-metyylitransferaasia ja vähentää DNA:n metylaatiota. Sitä käytetään myeloisissa kasvaimissa, kuten myelodysplastisissa oireyhtymissä (MDS).
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Decitabine (epävirallinen käännös): ”Desitabiinin uskotaan saavan aikaan antineoplastiset vaikutuksensa fosforyloitumisen ja suoraan DNA:han liittymisen jälkeen sekä estämällä DNA-metyylitransferaasia, mikä aiheuttaa DNA:n hypometylaatiota ja solujen erilaistumista tai apoptoosia. Desitabiini estää DNA:n metylaatiota in vitro, ja tämä saavutetaan pitoisuuksilla, jotka eivät aiheuta DNA-synteesin merkittävää estymistä.” Englanninkielinen alkuteksti: "Decitabine is believed to exert its antineoplastic effects after phosphorylation and direct incorporation into DNA and inhibition of DNA methyltransferase, causing hypomethylation of DNA and cellular differentiation or apoptosis. Decitabine inhibits DNA methylation in vitro, which is achieved at concentrations that do not cause major suppression of DNA synthesis." ([DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5), versio 2026-11-03; haettu 2026-11-19). Yleisen farmakologisen tiedon perusteella decitabiini estää DNA-metyylitransferaasia ja vähentää DNA:n metylaatiota. Sitä käytetään myeloisissa kasvaimissa, kuten myelodysplastisissa oireyhtymissä (MDS).
 
 Lapsuusiän refraktaarinen sytopenia on lasten MDS:n pääasiallinen väliaikainen alatyyppi. Myeloinen klonaalinen ja epigeneettisesti säätelyhäiriöinen biologia on näissä tiloissa yhteistä, joten yhteys on uskottava. Tämä päättely perustuu yleiseen farmakologiaan, ei toimitettuun mekanismidataan.
 
@@ -123,6 +123,19 @@ Ennuste perustuu pääosin laskennalliseen malliin. Tähän tautiin liittyvää 
 - Lapsipotilaiden turvallisuutta ja annostusta koskevat tiedot
 - Prospektiivinen kliininen tutkimusnäyttö lapsuusiän refraktaarisesta sytopeniasta
 - Täydellisemmän kirjallisuuskatsauksen laatiminen ja tutkimusten relevanssin arviointi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

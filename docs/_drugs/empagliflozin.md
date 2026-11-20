@@ -58,7 +58,7 @@ Empagliflotsiini on natrium-glukoosi-kuljettajaproteiini 2:n (SGLT2) estäjä, j
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Empagliflotsiinin tarkkaa vaikutusmekanismia ei ole tällä hetkellä saatavilla tässä raportissa käytetyssä aineistossa. Tiedetään, että empagliflotsiini kuuluu SGLT2-estäjiin, jotka vähentävät glukoosin takaisinimeytymistä munuaistiehyissä. Tämä mekanismi liittyy aineenvaihdunta- sekä sydän- ja munuaissairauksiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Empagliflozin (epävirallinen käännös): ”Empagliflotsiini on SGLT2:n estäjä; SGLT2 on pääasiallinen kuljettajaproteiini, joka vastaa glukoosin takaisinimeytymisestä glomerulussuodoksesta takaisin verenkiertoon. Estämällä SGLT2:ta empagliflotsiini vähentää suodattuneen glukoosin takaisinimeytymistä munuaisissa ja alentaa glukoosin munuaiskynnystä ja lisää siten glukoosin erittymistä virtsaan.” Englanninkielinen alkuteksti: "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565), versio 2026-11-10; haettu 2026-11-19). Tiedetään, että empagliflotsiini kuuluu SGLT2-estäjiin, jotka vähentävät glukoosin takaisinimeytymistä munuaistiehyissä. Tämä mekanismi liittyy aineenvaihdunta- sekä sydän- ja munuaissairauksiin.
 
 Fokaalinen jäykän raajan oireyhtymä kuuluu jäykän ihmisen oireyhtymän (stiff-person) kirjoon. Siihen liittyy tyypillisesti heikentynyt GABA-välitteinen estovaikutus keskushermostossa, esimerkiksi anti-GAD65-vasta-aineiden vuoksi. SGLT2:n estolle ei tunneta yhteyttä tähän signaalireittiin.
 
@@ -113,6 +113,19 @@ Ennusteelle ei ole kliinistä eikä kirjallista tukea, eikä uskottavaa mekanist
 - Systemaattinen kirjallisuushaku ja prekliiniset tutkimukset
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviota varten
 - Reitti- ja lääkemuotoyhteensopivuuden arviointi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

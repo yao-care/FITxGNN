@@ -54,7 +54,7 @@ Eltrombopagi on suun kautta otettava trombopoietiinireseptorin (TPO-R) agonisti,
 
 ## Miksi ennuste on perusteltu?
 
-Eltrombopagi sitoutuu trombopoietiinireseptoriin ja stimuloi megakaryopoieesia eli verihiutaleiden muodostumista luuytimessä. Lääkkeen alkuperäistä vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin kerätyssä aineistossa. Tässä arviossa mekanismi perustuu TPO-reseptoriagonistien tunnettuun lääkeryhmävaikutukseen.
+Eltrombopagi sitoutuu trombopoietiinireseptoriin ja stimuloi megakaryopoieesia eli verihiutaleiden muodostumista luuytimessä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Eltrombopag (epävirallinen käännös): ”Eltrombopagi on TPO-reseptorin agonisti, joka vuorovaikuttaa ihmisen TPO-reseptorin (tunnetaan myös nimellä cMpl) transmembraanidomeenin kanssa ja käynnistää signaalikaskadeja, jotka indusoivat megakaryosyyttien proliferaatiota ja erilaistumista, mikä johtaa verihiutaleiden tuotannon lisääntymiseen.” Englanninkielinen alkuteksti: "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production." ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), versio 2026-05-20; haettu 2026-11-19). Tässä arviossa mekanismi perustuu TPO-reseptoriagonistien tunnettuun lääkeryhmävaikutukseen.
 
 Yhteys HIV-infektioon on todennäköisimmin tukihoidollinen, ei viruslääkemäinen. HIV-infektioon liittyy usein veriarvojen häiriöitä, kuten HIV-liitännäinen immuunitrombosytopenia, immuunijärjestelmän palautumiseen liittyvä trombosytopenia ja HIV:hen liittyvä aplastinen anemia. Korkea ennustepiste on sopusoinnussa tämän yhteisen trombosytopenian biologian kanssa. Se ei yksinään osoita antiviraalista vaikutusta.
 
@@ -109,6 +109,19 @@ Eltrombopagin markkinatilanne Suomessa on tietojen mukaan "markkinoilla". Lupati
 - Tutkimuksen NCT00678587 potilasjoukon ja ennenaikaisen päättymisen syyn tarkistus ClinicalTrials.gov-sivustolta.
 - Hypoteesin täsmentäminen: tavoitteena on joko HIV-liitännäisen trombosytopenian ja luuydinvajauksen tukihoito tai mahdollinen suora vaikutus virukseen.
 - Kontrolloitu tai prospektiivinen tutkimusnäyttö HIV-potilailla sekä soluviljelyhavainnon toistaminen ja vahvistaminen.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

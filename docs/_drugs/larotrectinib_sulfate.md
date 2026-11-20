@@ -55,7 +55,7 @@ Larotrektinibisulfaatti on selektiivinen TRK-estäjä (TRKA/B/C), jota käytetä
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tiedetään, että larotrektinibi on erittäin selektiivinen pan-TRK-estäjä, joka on hyväksytty NTRK-fuusiopositiivisten kiinteiden kasvainten hoitoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Larotrectinib Sulfate (epävirallinen käännös): ”Larotrektinibi on tropomyosiinireseptorikinaasien (TRK) TRKA, TRKB ja TRKC estäjä. Laajassa puhdistettujen entsyymien määrityspaneelissa larotrektinibi esti TRKA:ta, TRKB:tä ja TRKC:tä IC 50 -arvoin 5-11 nM. Yksi muu kinaasi, TNK2, estyi noin 100-kertaisesti suuremmalla pitoisuudella.” Englanninkielinen alkuteksti: "Larotrectinib is an inhibitor of the tropomyosin receptor kinases (TRK), TRKA, TRKB, and TRKC. In a broad panel of purified enzyme assays, larotrectinib inhibited TRKA, TRKB, and TRKC with IC 50 values between 5-11 nM. One other kinase TNK2 was inhibited at approximately 100-fold higher concentration." ([DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd), versio 2026-05-22; haettu 2026-11-19). Tiedetään, että larotrektinibi on erittäin selektiivinen pan-TRK-estäjä, joka on hyväksytty NTRK-fuusiopositiivisten kiinteiden kasvainten hoitoon.
 
 Multippeli endokriininen neoplasia (erityisesti MEN2) johtuu pääosin aktivoivista RET-mutaatioista, joita larotrektinibi ei ensisijaisesti estä. Yhteys on siis epäsuora: sekä TRK että RET ovat reseptorityrosiinikinaaseja, jotka välittävät signaalia MAPK- ja PI3K-reittien kautta. Korkea TxGNN-pistemäärä kuvastaa verkostotason läheisyyttä, ei kliinistä validointia. Mekanistisesti sopivampia lääkkeitä RET-ohjatuissa kasvaimissa ovat selektiiviset RET-estäjät (selpercatinibi, pralsetinibi). Larotrektinibi voisi olla relevantti lähinnä harvinaisessa NTRK-fuusiopositiivisessa kasvaimessa tässä ympäristössä tai ohitusresistenssin pohdinnassa RET-eston jälkeen.
 
@@ -94,6 +94,19 @@ Mikään esitetty tutkimus ei tutki larotrektinibia suoraan multippelissa endokr
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Tapaukset tai tutkimukset NTRK-fuusiopositiivisista kasvaimista MEN-potilailla
 - Vertailu RET-estäjiin (selpercatinibi, pralsetinibi) tässä käyttöaiheessa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

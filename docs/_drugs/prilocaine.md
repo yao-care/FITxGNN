@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen parhaiten pistemäärällä sopivan indikaatioksi **pap
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytettävissä olevassa aineistossa ei ole yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella prilokaiini on amidityyppinen paikallispuudute, joka salpaa jänniteherkkiä natriumkanavia. Sen teho paikallispuudutteena on osoitettu, ja mekanistisesti se voi soveltua tiloihin, joissa hermopäätteiden ylikiihtyvyys on osa oireita.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Prilocaine (epävirallinen käännös): ”Prilokaiini stabiloi hermosolukalvon estämällä impulssien syntymiseen ja johtumiseen tarvittavia ionivirtoja, mikä saa aikaan paikallispuudutusvaikutuksen.” Englanninkielinen alkuteksti: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), versio 2021-11-10; haettu 2026-11-19). Tunnetun tiedon perusteella prilokaiini on amidityyppinen paikallispuudute, joka salpaa jänniteherkkiä natriumkanavia. Sen teho paikallispuudutteena on osoitettu, ja mekanistisesti se voi soveltua tiloihin, joissa hermopäätteiden ylikiihtyvyys on osa oireita.
 
 **Papillaarinen konjunktiviitti (ensisijainen ennuste):** Mahdollinen yhteys olisi silmän kutinan tai epämukavuuden oireenmukainen lievitys. Tälle ei ole tukea aineistossa, eikä puudutus vaikuta allergiseen tai mekaaniseen syyhyn. Prilokaiini ei myöskään ole silmälääke.
 
@@ -152,12 +152,13 @@ Lisätietoja turvallisuudesta on lääkevalmisteen valmisteyhteenvedossa.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Fortacin (EMEA/H/C/002693) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
 
 <!-- review:end log -->
 

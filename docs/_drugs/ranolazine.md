@@ -60,7 +60,7 @@ mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta
 
 ## Miksi ennuste voi olla perusteltu?
 
-Ranolatsiinin alkuperäistä vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Yleisesti ranolatsiinin kuvataan estävän sydänlihassolun myöhäistä natriumvirtaa (late INa), ja sillä on vaikutuksia myös muihin ionikanaviin ja kuljettajaproteiineihin. Angina pectoriksessa tämä vähentää sydänlihassolun kalsiumkuormitusta ja iskemian haittoja.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ranolazine (epävirallinen käännös): ”Ranolatsiinin angiinaa estävien vaikutusten mekanismia ei ole selvitetty. Ranolatsiinilla on iskemiaa ja angiinaa estäviä vaikutuksia, jotka eivät ole riippuvaisia sydämen syketiheyden tai verenpaineen alenemisesta. Se ei vaikuta maksimaalisessa rasituksessa syke-painetuloon, joka on sydänlihaksen työn mittari.” Englanninkielinen alkuteksti: "The mechanism of action of ranolazine's antianginal effects has not been determined. Ranolazine has anti-ischemic and antianginal effects that do not depend upon reductions in heart rate or blood pressure. It does not affect the rate-pressure product, a measure of myocardial work, at maximal exercise." ([DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e), versio 2025-01-29; haettu 2026-11-19). Yleisesti ranolatsiinin kuvataan estävän sydänlihassolun myöhäistä natriumvirtaa (late INa), ja sillä on vaikutuksia myös muihin ionikanaviin ja kuljettajaproteiineihin. Angina pectoriksessa tämä vähentää sydänlihassolun kalsiumkuormitusta ja iskemian haittoja.
 
 NSIAD johtuu vasopressiinin V2-reseptorin (AVPR2) toiminnan lisääntymiseen johtavista mutaatioista. Reseptori on jatkuvasti aktiivinen, jolloin elimistö pidättää vettä vasopressiinista riippumatta. Käyttöaiheet ovat siis patofysiologisesti kaukana toisistaan: suoraa mekanistista yhteyttä myöhäisen natriumvirran eston ja V2-reseptori-/akvaporiini-2-reitin välillä ei ole osoitettu käytettävissä olevissa tiedoissa.
 
@@ -134,13 +134,14 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilaltaan peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Kliinisiä tutkimuksia ja kirjallisuutta ei ole, mekanistinen yhteys on osoittamatta, eikä lääkkeellä ole voimassa olevaa myyntilupaa Suomess” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e) |
 
 <!-- review:end log -->
 

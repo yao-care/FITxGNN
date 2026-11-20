@@ -60,7 +60,7 @@ Kyseessä on eläinlääketieteellinen käyttöaihe, jolla ei ole suoraa merkity
 
 ## Miksi ennuste on perusteltu?
 
-Nevirapiini estää HIV-1:n käänteiskopioijaentsyymiä sitoutumalla ei-kilpailevasti entsyymin sitoutumistaskuun. Tarkempia tietoja alkuperäisen käyttöaiheen vaikutusmekanismista ei ole tämän raportin aineistossa saatavilla.
+Nevirapiini estää HIV-1:n käänteiskopioijaentsyymiä sitoutumalla ei-kilpailevasti entsyymin sitoutumistaskuun. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Nevirapine (epävirallinen käännös): ”Nevirapiini on antiretroviraalinen lääke. […] Nevirapiini on HIV-1:n ei-nukleosidirakenteinen käänteiskopioijaentsyymin estäjä (NNRTI). Nevirapiini sitoutuu suoraan käänteiskopioijaentsyymiin (RT) ja estää RNA-riippuvaisen ja DNA-riippuvaisen DNA-polymeraasiaktiivisuuden aiheuttamalla häiriön entsyymin katalyyttisessä kohdassa.” Englanninkielinen alkuteksti: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), versio 2026-10-08; haettu 2026-11-19).
 
 FIV on HIV:n tavoin lentivirus, jolla on samankaltainen käänteiskopioijaentsyymi, joten mekanistinen perustelu on olemassa. NNRTI-lääkkeillä on kuitenkin yleensä rajallinen teho muihin kuin HIV-1-lentiviruksiin, koska sitoutumistaskun rakenne eroaa. Korkea TxGNN-pistemäärä heijastaa todennäköisesti verkostoläheisyyttä HIV-käyttöaiheeseen eikä osoitettua tehoa.
 
@@ -154,12 +154,13 @@ Täydelliset turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi valmiste on Suomessa peruutettu ja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Viramune (EMEA/H/C/000183) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
 
 <!-- review:end log -->
 

@@ -62,7 +62,7 @@ Huomio: tietoaineiston toisella ennusteella, määrittämättömällä munuaisso
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun tiedon mukaan everolimuusi estää mTORC1-kompleksia, ja sen teho on osoitettu alkuperäisissä käyttöaiheissa. Mekanistisesti se voi soveltua myös liposarkoomaan.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Everolimus (epävirallinen käännös): ”Everolimuusi estää antigeenien ja interleukiinien (IL-2 ja IL-15) stimuloimaa T- ja B-lymfosyyttien aktivaatiota ja proliferaatiota. Soluissa everolimuusi sitoutuu sytoplasmiseen proteiiniin, FK506:ta sitovaan proteiini-12:een (FKBP-12), muodostaen immunosuppressiivisen kompleksin (everolimuusi: FKBP-12), joka sitoutuu nisäkkäiden rapamysiinin kohdeproteiiniin (mTOR), keskeiseen säätelykinaasiin, ja estää sitä.” Englanninkielinen alkuteksti: "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase." ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), versio 2026-09-16; haettu 2026-11-19). Tunnetun tiedon mukaan everolimuusi estää mTORC1-kompleksia, ja sen teho on osoitettu alkuperäisissä käyttöaiheissa. Mekanistisesti se voi soveltua myös liposarkoomaan.
 
 Dedifferentioituneessa liposarkoomassa kasvua ajaa CDK4/MDM2-monistuma. CDK4/6-Rb-reitin ja PI3K/AKT/mTOR-reitin samanaikainen estäminen on uskottava tapa ohittaa kompensoivia signalointireittejä. Siksi everolimuusia on tutkittu yhdessä CDK4/6-estäjä ribosiklibin kanssa.
 
@@ -160,13 +160,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niih
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruutuksen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
 
 <!-- review:end log -->
 

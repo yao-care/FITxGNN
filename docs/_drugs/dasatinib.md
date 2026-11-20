@@ -60,7 +60,7 @@ mutta ennusteen tukena on vain **2 kliinistä tutkimusta** ja **useita enimmäks
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin varten koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella dasatinibi estää BCR-ABL:ia sekä SRC-perheen kinaaseja, KIT:iä ja PDGFR:ää. Sen teho BCR-ABL-ohjatuissa leukemioissa on osoitettu, ja mekanistisesti SRC-estoa voidaan pitää relevanttina myös Ewingin sarkoomassa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Dasatinib (epävirallinen käännös): ”Dasatinibi estää nanomolaarisina pitoisuuksina seuraavia kinaaseja: BCR-ABL, SRC-perhe (SRC, LCK, YES, FYN), c-KIT, EPHA2 ja PDGFRβ. Mallinnustutkimusten perusteella dasatinibin ennustetaan sitoutuvan ABL-kinaasin useisiin konformaatioihin.” Englanninkielinen alkuteksti: "Dasatinib, at nanomolar concentrations, inhibits the following kinases: BCR-ABL, SRC family (SRC, LCK, YES, FYN), c-KIT, EPHA2, and PDGFRβ. Based on modeling studies, dasatinib is predicted to bind to multiple conformations of the ABL kinase." ([DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df), versio 2026-10-16; haettu 2026-11-19). Tunnetun tiedon perusteella dasatinibi estää BCR-ABL:ia sekä SRC-perheen kinaaseja, KIT:iä ja PDGFR:ää. Sen teho BCR-ABL-ohjatuissa leukemioissa on osoitettu, ja mekanistisesti SRC-estoa voidaan pitää relevanttina myös Ewingin sarkoomassa.
 
 Prekliiniset tutkimukset osoittavat, että SRC- ja FAK-SRC-signalointi edistää Ewingin sarkoomasolujen invadopodioiden muodostumista, migraatiota ja invaasiota. Dasatinibi esti solulinjoissa sarkoomasolujen proliferaatiota ja migraatiota.
 
@@ -158,13 +158,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten tar
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Sprycel (EMEA/H/C/000709), Dasatinib Accord Healthcare (EMEA/H/C/006251)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->
 

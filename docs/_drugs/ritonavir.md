@@ -62,7 +62,7 @@ Huomio: ennustettu kohde on eläintauti, joten kyseessä ei ole ihmisen uusi kä
 
 ## Miksi ennuste on perusteltu?
 
-Tarkkaa vaikutusmekanismia ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella ritonaviiri estää HIV-1-proteaasia ja CYP3A4-entsyymiä, minkä vuoksi sitä käytetään myös farmakokineettisenä tehostajana yhdistelmähoidoissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Ritonavir (epävirallinen käännös): ”Ritonaviiri on antiretroviraalinen lääke. […] Ritonaviiri on HIV-1-proteaasin peptidomimeettinen estäjä. HIV-proteaasin estyminen tekee entsyymistä kyvyttömän käsittelemään Gag-Pol-polyproteiiniesiastetta, mikä johtaa ei-infektiivisten, kypsymättömien HIV-partikkelien muodostumiseen.” Englanninkielinen alkuteksti: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), versio 2026-07-23; haettu 2026-11-19). Tunnetun tiedon perusteella ritonaviiri estää HIV-1-proteaasia ja CYP3A4-entsyymiä, minkä vuoksi sitä käytetään myös farmakokineettisenä tehostajana yhdistelmähoidoissa.
 
 **FIV (kissan immuunikato):** FIV on HIV:n sukulainen lentivirus, ja sen proteaasilla on joitakin rakenteellisia yhtäläisyyksiä HIV-1-proteaasin kanssa, joten mekanistinen perustelu on uskottava. FIV-proteaasin substraattispesifisyys ja estäjäherkkyys kuitenkin eroavat HIV-1:stä, eikä tehoa voi olettaa. Korkea pistemäärä on pelkkä laskennallinen ennuste. Eläinlääkinnällisiä teho- tai turvallisuustietoja ei ole.
 
@@ -164,13 +164,14 @@ Keskivaikeita (Moderate) ovat mm. asarboosi, hydrokortisoni, metformiini, deksam
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Ritonaviirilla ei ole tällä hetkellä voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 5 myyntilupaa (Norvir (EMEA/H/C/000127), Ritonavir Viatris (EMEA/H/C/004549), Kaletra (EMEA/H/C/000368), Lopinavir/Ritonavir Viatris (EMEA/H/C/004025), Paxlovid (EMEA/H/C/005973)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
 
 <!-- review:end log -->
 

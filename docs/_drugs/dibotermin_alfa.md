@@ -58,7 +58,7 @@ Dibotermiini alfa on yhdistelmä-DNA-tekniikalla valmistettu ihmisen luun morfog
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Dibotermiini alfa on rekombinantti BMP-2, joka edistää luun muodostusta ohjaamalla osteogeenistä erilaistumista. Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla.
+Dibotermiini alfa on rekombinantti BMP-2, joka edistää luun muodostusta ohjaamalla osteogeenistä erilaistumista. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Dibotermin Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Luun morfogeneettisen proteiinin tyypin 1A reseptorin agonisti; Aktiviinin tyypin 2B reseptorin agonisti; Luun morfogeneettisen proteiinin tyypin 2 reseptorin agonisti; Luun morfogeneettisen proteiinin tyypin 1B reseptorin agonisti” Englanninkielinen alkuteksti: "Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0; haettu 2026-11-19).
 
 Alkuperäinen käyttöaihe (luun paraneminen ja fuusio) ja ennustettu käyttöaihe (silmän asennon poikkeama) ovat biologisesti kaukana toisistaan. Aineiston perusteella ei ole osoitettavissa uskottavaa mekanismia, jolla BMP-2 vaikuttaisi silmän ulkoisiin lihaksiin tai silmien asennon hermostolliseen säätelyyn. Korkea TxGNN-pistemäärä on siis vain laskennallinen ennuste, jota mikään kliininen tai kokeellinen näyttö ei tue.
 
@@ -132,12 +132,13 @@ Aineiston perusteella huomioitava: rintasyöpäennusteiden osalta ulkoinen BMP-2
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntiluvat on peruutettu ja r” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171) |
 
 <!-- review:end log -->
 

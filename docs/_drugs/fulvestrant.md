@@ -54,7 +54,7 @@ Fulvestrantti on estrogeenireseptorin antagonisti ja hajottaja, jota on alun per
 
 ## Miksi ennuste on perusteltu?
 
-Fulvestrantin yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnetun tiedon mukaan fulvestrantti on estrogeenireseptori α:n (ERα) antagonisti ja hajottaja. Sen teho rintasyövässä on osoitettu, ja mekanistisesti se voisi soveltua myös tilanteisiin, joissa ERα-signalointi vaikuttaa sairauteen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Fulvestrant (epävirallinen käännös): ”Monissa rintasyövissä on estrogeenireseptoreita (ER), ja estrogeeni voi stimuloida näiden kasvainten kasvua. Fulvestrantti on estrogeenireseptorin antagonisti, joka sitoutuu estrogeenireseptoriin kilpailevasti estradiolin affiniteettiin verrattavalla affiniteetilla ja vähentää ER-proteiinin määrää ihmisen rintasyöpäsoluissa.” Englanninkielinen alkuteksti: "Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells." ([DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a), versio 2026-10-16; haettu 2026-11-19). Tunnetun tiedon mukaan fulvestrantti on estrogeenireseptori α:n (ERα) antagonisti ja hajottaja. Sen teho rintasyövässä on osoitettu, ja mekanistisesti se voisi soveltua myös tilanteisiin, joissa ERα-signalointi vaikuttaa sairauteen.
 
 Vuonna 2026 julkaistussa esikliinisessä tutkimuksessa tarkasteltiin, miten estrogeenireseptorin ligandit ja HIV:n latenssia purkavat aineet vaikuttavat ERα:han CD4+ T-soluissa. Tutkimus antaa uskottavan mutta epäsuoran mekanistisen yhteyden: ER voi vaikuttaa HIV:n transkriptioon ja latenssiin. Tutkimuksessa fulvestranttia käytettiin ER:n estäjänä.
 
@@ -128,13 +128,14 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa kaikki fulvestrantin myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja valmisteen saatavuudesta Suomessa myyntilupien peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Fulvestrant Mylan (EMEA/H/C/004649), Faslodex (EMEA/H/C/000540)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 
 <!-- review:end log -->
 

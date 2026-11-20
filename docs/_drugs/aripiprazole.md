@@ -60,7 +60,7 @@ ja tätä suuntaa tukee tällä hetkellä **34 kliinistä tutkimusta** ja **20 j
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin laatimiseen kerätyissä tiedoissa ei ole yksityiskohtaista vaikutusmekanismitietoa. Yleisen farmakologisen tiedon perusteella aripipratsoli on dopamiinin D2/D3-reseptorien osittainen agonisti ja serotoniinin 5-HT1A-reseptorin osittainen agonisti, ja se salpaa 5-HT2A-reseptoria. Tämä profiili tukee sen käyttöä masennuslääkityksen liitännäishoitona vakavassa masennuksessa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Aripiprazole (epävirallinen käännös): ”Aripipratsolin vaikutusmekanismia skitsofrenian ja kaksisuuntaisen mielialahäiriön tyypin I hoidossa ei tunneta. Aripipratsolin teho voisi välittyä osittaisen agonistisen aktiivisuuden dopamiini D 2 - ja serotoniini 5-HT 1A -reseptoreissa ja antagonistisen aktiivisuuden 5-HT 2A -reseptoreissa yhdistelmän kautta.” Englanninkielinen alkuteksti: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), versio 2025-04-04; haettu 2026-11-19). Yleisen farmakologisen tiedon perusteella aripipratsoli on dopamiinin D2/D3-reseptorien osittainen agonisti ja serotoniinin 5-HT1A-reseptorin osittainen agonisti, ja se salpaa 5-HT2A-reseptoria. Tämä profiili tukee sen käyttöä masennuslääkityksen liitännäishoitona vakavassa masennuksessa.
 
 Alkuperäiset käyttöaiheet, skitsofrenia ja kaksisuuntainen mielialahäiriö, kuuluvat samaan laajaan mielenterveyden häiriöiden ryhmään kuin ennustettu käyttöaihe. Kaksisuuntainen mielialahäiriö kuuluu myös laajempaan vakavien mielialahäiriöiden kategoriaan, joten mekanistinen yhteys on uskottava.
 
@@ -180,13 +180,14 @@ Muille kahdeksalle ennusteelle (mm. Phelan-McDermidin oireyhtymä, Aspergerin oi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Aripipratsolin myyntiluvat ovat kaikki peruutettuja. Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi yksi peruutettu lupa: Aripiprazole Accord (EMEA/H/C/004021)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(kaikki luvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
 
 <!-- review:end log -->
 

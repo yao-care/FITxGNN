@@ -60,7 +60,7 @@ Tämä on tutkimuskysymys, ei ihmisille tarkoitettu uusi käyttöaihe.
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella lamivudiini on NRTI-lääke, jonka teho HIV:n ja hepatiitti B -viruksen hoidossa on osoitettu. Mekanistisesti se voi soveltua myös FIV-infektioon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Lamivudine (epävirallinen käännös): ”Lamivudiini on antiretroviraalinen lääkeaine. […] Lamivudiini on synteettinen nukleosidianalogi. Solun sisällä lamivudiini fosforyloituu aktiiviseksi 5′-trifosfaattimetaboliitikseen, lamivudiinitrifosfaatiksi (3TC-TP). 3TC-TP:n pääasiallinen vaikutustapa on HIV-1:n käänteiskopioijaentsyymin (RT) esto DNA-ketjun katkeamisen kautta sen jälkeen, kun nukleotidianalogi on liittynyt ketjuun.” Englanninkielinen alkuteksti: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), versio 2024-08-15; haettu 2026-11-19). Tunnetun tiedon perusteella lamivudiini on NRTI-lääke, jonka teho HIV:n ja hepatiitti B -viruksen hoidossa on osoitettu. Mekanistisesti se voi soveltua myös FIV-infektioon.
 
 FIV on lentivirus, joka aiheuttaa kissoilla AIDS:n kaltaisen taudin. Sen käänteiskopioijaentsyymi on rakenteeltaan HIV:n entsyymin kaltainen, joten useat HIV:n hoitoon käytetyt käänteiskopioijaentsyymin estäjät tehoavat myös FIV:hen. Kirjallisuudessa on kuvattu yhdistelmähoitoprotokollia (sidovudiini, lamivudiini, abakaviiri) luonnollisesti ja kokeellisesti infektoiduilla kissoilla.
 
@@ -140,12 +140,13 @@ Aineistossa oli myös muita ennusteita, joista mikään ei ole vahva: apinoiden 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki lamivudiinia sisältävät keskitetyt myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lääkkeellä ei myöskään ole voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->
 

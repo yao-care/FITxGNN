@@ -60,7 +60,7 @@ Muut ennusteet (sijat 2–10) ovat pääosin joko sydäninfarktin alatyyppejä (
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella tenekteplaasi on fibriinispesifinen plasminogeeniaktivaattori: se muuttaa plasminogeenin plasmiiniksi ja liuottaa verihyytymän fibriiniverkkoa. Teho sydäninfarktissa perustuu sepelvaltimon tukkivan hyytymän liuottamiseen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tenecteplase (epävirallinen käännös): ”Tenekteplaasi on ihmisen kudosplasminogeenin aktivaattorin (tPA) muunneltu muoto, joka sitoutuu fibriiniin ja muuttaa plasminogeenin plasmiiniksi. In vitro -tutkimukset osoittavat, että fibriinin läsnä ollessa tenekteplaasin välittämä plasminogeenin muuttuminen plasmiiniksi on lisääntynyt verrattuna muuttumiseen ilman fibriiniä.” Englanninkielinen alkuteksti: "Tenecteplase is a modified form of human tissue plasminogen activator (tPA) that binds to fibrin and converts plasminogen to plasmin. In the presence of fibrin, in vitro studies demonstrate that tenecteplase-mediated conversion of plasminogen to plasmin is increased relative to its conversion in the absence of fibrin." ([DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84), versio 2025-12-15; haettu 2026-11-19). Tunnetun tiedon perusteella tenekteplaasi on fibriinispesifinen plasminogeeniaktivaattori: se muuttaa plasminogeenin plasmiiniksi ja liuottaa verihyytymän fibriiniverkkoa. Teho sydäninfarktissa perustuu sepelvaltimon tukkivan hyytymän liuottamiseen.
 
 Sijoilla 1–3 olevat ennusteet (takaseinän alaosan, takasivuseinän ja väliseinän sydäninfarkti) ovat hyväksytyn käyttöaiheen anatomisia alatyyppejä. Korkea pistemäärä kuvastaa siis lähinnä jo olemassa olevaa käyttöaihetta, ei uutta lääkkeen uudelleenkäyttösignaalia.
 
@@ -149,13 +149,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi ainoa Suomen myyntilupa on peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Tarkennus myyntiluvan tilasta Suomessa (peruutuksen syy ja mahdolliset muut tenekteplaasivalmisteet)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Metalyse (EMEA/H/C/000306) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84) |
 
 <!-- review:end log -->
 

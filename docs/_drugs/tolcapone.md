@@ -58,7 +58,7 @@ Tolkaponi on COMT-estäjä, jota on alun perin käytetty Parkinsonin taudin hoit
 
 ## Miksi ennuste on perusteltu?
 
-Tolkaponin vaikutusmekanismitietoja ei ole tässä raportissa käytettävissä. Tiedetään kuitenkin, että tolkaponi on COMT-entsyymin (katekoli-O-metyylitransferaasi) estäjä, joka pidentää levodopan vaikutusta Parkinsonin taudissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tolcapone (epävirallinen käännös): ”Tolkaponi on katekoli-O-metyylitransferaasin (COMT) selektiivinen ja palautuva estäjä. Nisäkkäillä COMT:tä on eri elimissä. Suurin aktiivisuus on maksassa ja munuaisissa. COMT:tä esiintyy myös sydämessä, keuhkoissa, sileissä lihaksissa ja luustolihaksissa, suolistossa, lisääntymiselimissä, eri rauhasissa, rasvakudoksessa, ihossa, verisoluissa ja hermokudoksissa, erityisesti gliasoluissa.” Englanninkielinen alkuteksti: "Tolcapone is a selective and reversible inhibitor of catechol- O -methyltransferase (COMT). In mammals, COMT is distributed throughout various organs. The highest activities are in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells and neuronal tissues, especially in glial cells." ([DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736), versio 2020-10-02; haettu 2026-11-19). Tiedetään kuitenkin, että tolkaponi on COMT-entsyymin (katekoli-O-metyylitransferaasi) estäjä, joka pidentää levodopan vaikutusta Parkinsonin taudissa.
 
 Rasmussenin enkefaliitti on autoimmuuni- ja tulehdusperäinen aivosairaus. Koottujen tietojen perusteella COMT:n eston tai katekoliamiiniaineenvaihdunnan ja tämän taudin patologian välille ei ole osoitettu uskottavaa yhteyttä. Korkea pistemäärä (0,999) on siis mallin ennuste, jota ei tue mekanistinen tai kliininen näyttö.
 
@@ -122,11 +122,12 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetiedot puuttuvat, joten ne on tarkist
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja tolkaponin maksaturvallisuushuoli sekä myyntilupien peruuntuminen Suomessa heikentävät asemaa entisestään” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Atosibaani on oksitosiini- ja vasopressiinireseptorien salpaaja, jota on käytet
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Atosibaani on peptidi, joka salpaa oksitosiinireseptoria (OXTR) sekä vasopressiinin V1A-, V1B- ja V2-reseptoreita. Lääkkeen tarkka vaikutusmekanismi ei ole tämän raportin aineistossa kuvattuna, mutta reseptorikohteet tunnetaan. Alkuperäisessä käyttöaiheessa se rentouttaa kohdun supistuksia estämällä oksitosiinin vaikutusta.
+Atosibaani on peptidi, joka salpaa oksitosiinireseptoria (OXTR) sekä vasopressiinin V1A-, V1B- ja V2-reseptoreita. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Atosiban vaikutusmekanismiksi (epävirallinen käännös): ”Oksitosiinireseptorin antagonisti” Englanninkielinen alkuteksti: "Oxytocin receptor antagonist" ([ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301), CC BY-SA 3.0; haettu 2026-11-19). Alkuperäisessä käyttöaiheessa se rentouttaa kohdun supistuksia estämällä oksitosiinin vaikutusta.
 
 Yhteyttä ennustettuun glaukoomaan ei pysty perustelemaan kerätyn aineiston pohjalta. Perinnöllisen glaukooman taustalla ovat tyypillisesti kammiovesin ulosvirtauksen häiriöt ja geenimuutokset (esim. CYP1B1, MYOC), eikä oksitosiini- tai vasopressiinireseptorien salpauksen yhteyttä näihin ole osoitettu. Korkea pistemäärä on todennäköisesti seurausta tietämysgraafin rakenteesta, ei biologisesta tai kliinisestä näytöstä.
 
@@ -140,7 +140,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tätä rapo
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -148,6 +148,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen kaikki Suomen myyntiluvat on peruutettu, ja p” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Atosiban SUN (EMEA/H/C/002329), Tractocile (EMEA/H/C/000253)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
 
 <!-- review:end log -->
 

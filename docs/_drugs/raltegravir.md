@@ -60,7 +60,7 @@ Huomio: ennusteista sijalla 1 on kissan immuunikatooireyhtymä (FIV, eläinlää
 
 ## Miksi ennuste on perusteltu?
 
-Raltegraviiri estää HIV-1:n integraasientsyymin katalysoiman DNA:n liittymisvaiheen (integraasin siirtovaiheen estäjä). Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnetun lääkeluokan perusteella raltegraviirin teho HIV-infektiossa on osoitettu, ja mekanistisesti sen voidaan olettaa soveltuvan läheisesti sukua oleviin lentiviruksiin.
+Raltegraviiri estää HIV-1:n integraasientsyymin katalysoiman DNA:n liittymisvaiheen (integraasin siirtovaiheen estäjä). Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Raltegravir (epävirallinen käännös): ”Raltegraviiri on HIV-1-viruslääke. […] Raltegraviiri estää HIV-1-integraasin katalyyttistä aktiivisuutta. HIV-1-integraasi on HIV-1:n koodaama entsyymi, jota viruksen replikaatio edellyttää. Integraasin estyminen estää integroitumattoman lineaarisen HIV-1-DNA:n kovalenttisen liittymisen eli integraation isäntäsolun genomiin, mikä estää HIV-1-proviruksen muodostumisen.” Englanninkielinen alkuteksti: "Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus." ([DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2), versio 2026-09-16; haettu 2026-11-19). Tunnetun lääkeluokan perusteella raltegraviirin teho HIV-infektiossa on osoitettu, ja mekanistisesti sen voidaan olettaa soveltuvan läheisesti sukua oleviin lentiviruksiin.
 
 SIV on HIV:n läheinen primaattilentivirus, ja sen integraasi on sama lääkekohde. Makakeilla tehdyt tutkimukset osoittavat, että raltegraviiria sisältävä hoito vaikuttaa SIVmac251-virukseen (PMID 20233398) ja että lääke muuttaa viruksen 2-LTR-renkaiden dynamiikkaa (PMID 29643246). SIV on kuitenkin ennen kaikkea HIV-tutkimuksen eläinmalli, eikä se ole erillinen ihmisen hoitoa vaativa käyttöaihe. Uudelleenkäytön lisäarvo alkuperäiseen HIV-käyttöaiheeseen verrattuna on siksi vähäinen.
 
@@ -147,13 +147,14 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lääkkeen myyntilupa Suomessa on peruutettu, ja kaksi muuta ennustetta (FIV ja neurokehityshäiriö) perustuvat pelkkään mallipohjaiseen ennust” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syyn selvittäminen ja saatavuuden arviointi Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Isentress (EMEA/H/C/000860) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
 
 <!-- review:end log -->
 

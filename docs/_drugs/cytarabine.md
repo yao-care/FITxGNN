@@ -54,7 +54,7 @@ Sytarabiini on pyrimidiinin kaltainen antimetaboliitti, joka estää DNA:n synte
 
 ## Miksi ennuste on perusteltu?
 
-Tiedot vaikutusmekanismista eivät ole tällä hetkellä saatavilla. Sytarabiini on pyrimidiininukleosidin kaltainen antimetaboliitti, joka muuntuu solussa aktiiviseksi ara-CTP:ksi ja estää DNA-synteesiä. Teho akuutissa myeloisessa leukemiassa on vakiintunut.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Cytarabine (epävirallinen käännös): ”Vaikka vaikutusmekanismia ei täysin tunneta, sytarabiini näyttää vaikuttavan estämällä DNA-polymeraasia. Sytarabiinin on myös raportoitu liittyvän rajallisesti mutta merkitsevästi sekä DNA:han että RNA:han.” Englanninkielinen alkuteksti: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), versio 2026-10-19; haettu 2026-11-19). Sytarabiini on pyrimidiininukleosidin kaltainen antimetaboliitti, joka muuntuu solussa aktiiviseksi ara-CTP:ksi ja estää DNA-synteesiä. Teho akuutissa myeloisessa leukemiassa on vakiintunut.
 
 Mekanismi voi periaatteessa vaikuttaa myös nopeasti jakautuviin kasvaimiin, kuten pienisoluiseen keuhkosyöpään. Haettu kirjallisuus koskee kuitenkin pääosin ei-pienisoluista keuhkosyöpää, eli eri tautia. Mekanistinen yhteys on siis uskottava mutta epäsuora.
 
@@ -109,6 +109,18 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Pienisoluiseen keuhkosyöpään kohdistuvia nykyaikaisia kliinisiä tutkimuksia
 - Vaikutusmekanismitietojen täydentämistä
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista sekä turvallisuusarviota
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

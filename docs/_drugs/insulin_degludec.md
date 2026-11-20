@@ -58,7 +58,7 @@ Insulindegludek on pitkävaikutteinen perusinsuliinianalogi, jota on alun perin 
 
 ## Miksi ennuste on perusteltu?
 
-Insulindegludek on pitkävaikutteinen perusinsuliinianalogi, joka aktivoi insuliinireseptorin ja korvaa elimistön puutteellisen oman insuliinin. Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla, mutta tämä yleinen vaikutustapa on lääkeryhmän tunnettu ominaisuus.
+Insulindegludek on pitkävaikutteinen perusinsuliinianalogi, joka aktivoi insuliinireseptorin ja korvaa elimistön puutteellisen oman insuliinin. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Insulin Degludec (epävirallinen käännös): ”Insuliinin, mukaan lukien TRESIBA, ensisijainen vaikutus on glukoosiaineenvaihdunnan säätely. Insuliini ja sen analogit alentavat veren glukoosipitoisuutta stimuloimalla glukoosin perifeeristä soluunottoa erityisesti luustolihaksiin ja rasvakudokseen sekä estämällä maksan glukoosintuotantoa.” Englanninkielinen alkuteksti: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), versio 2024-02-22; haettu 2026-11-19).
 
 Tyypin 1 diabetes on alkuperäisen käyttöaiheen (diabetes mellitus) alatyyppi, jossa elimistö ei tuota insuliinia riittävästi. Insuliinikorvaushoito on siksi suoraan perusteltua, ja korkea ennustepistemäärä on tämän mukainen. Käyttö on merkinnän mukaista tai hyvin lähellä sitä.
 
@@ -163,7 +163,7 @@ Varoituksia ja vasta-aiheita koskevia valmisteyhteenvetotietoja ei ollut käytet
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -171,6 +171,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on peruutettu, mikä rajoittaa saatavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys valmisteen nykyisestä saatavuudesta ja myyntiluvan tilasta Suomessa (peruutettujen lupien syy ja mahdolliset korvaavat valmisteet)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (Tresiba (EMEA/H/C/002498), Ryzodeg (EMEA/H/C/002499), Xultophy (EMEA/H/C/002647)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
 
 <!-- review:end log -->
 

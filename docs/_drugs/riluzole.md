@@ -54,7 +54,7 @@ Riluzoli on lääke, jota on käytetty amyotrofisen lateraaliskleroosin hoidossa
 
 ## Miksi ennuste on perusteltu?
 
-Riluzolin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tässä aineistossa saatavilla. Tunnetun tiedon mukaan riluzoli vähentää glutamaatin vapautumista, ja tämän vuoksi sen on ajateltu suojaavan hermosoluja liiallisen glutamaattiaktiivisuuden vaikutuksilta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Riluzole (epävirallinen käännös): ”Mekanismia, jolla riltsoli saa aikaan terapeuttiset vaikutuksensa ALS-potilailla, ei tunneta.” Englanninkielinen alkuteksti: "The mechanism by which riluzole exerts its therapeutic effects in patients with ALS is unknown." ([DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857), versio 2026-07-27; haettu 2026-11-19). Tunnetun tiedon mukaan riluzoli vähentää glutamaatin vapautumista, ja tämän vuoksi sen on ajateltu suojaavan hermosoluja liiallisen glutamaattiaktiivisuuden vaikutuksilta.
 
 Polymikrogyria on aivokuoren rakenteellinen kehityshäiriö, johon voi liittyä epilepsiaa ja hermoverkkojen yliärtyvyyttä. Glutamaattisignaloinnin muokkaaminen voisi teoriassa lievittää yliärtyvyyttä. Tämä päättely on spekulatiivinen, eikä aineisto tue sitä. Koska kyseessä on rakenteellinen epämuodostuma, oireenmukainen lääke tuskin muuttaa sairauden kulkua. Korkea pistemäärä on graafipohjainen ennuste, ei osoitus tehosta.
 
@@ -104,11 +104,12 @@ Ennusteelle ei ole kliinistä eikä kirjallista tukea, ja mekanistinen yhteys on
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Rilutek (EMEA/H/C/000109), Riluzole Zentiva (EMEA/H/C/002622)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
 
 <!-- review:end log -->
 

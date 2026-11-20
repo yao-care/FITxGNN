@@ -58,7 +58,7 @@ Lumakaftori on CFTR-korjaaja, jota on käytetty kystisen fibroosin hoitoon. TxGN
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Lääkkeen alkuperäisestä vaikutusmekanismista ei ole tässä raportissa käytettävissä tietoa. Yleisen tiedon mukaan lumakaftori on CFTR-korjaaja, joka parantaa F508del-CFTR-proteiinin laskostumista ja kulkeutumista solun pinnalle. Tämä mekanismi liittyy spesifisesti kystiseen fibroosiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta lumacaftor and ivacaftor (yhdistelmävalmiste, joka sisältää aineen Lumacaftor) (epävirallinen käännös): ”Lumakaftori parantaa F508del-CFTR:n konformaatiostabiiliutta, mikä lisää kypsän proteiinin prosessointia ja kulkeutumista solun pinnalle. In vitro -tutkimukset ovat osoittaneet, että sekä lumakaftori että ivakaftori vaikuttavat suoraan CFTR-proteiiniin ihmisen primaarisissa keuhkoputkiepiteelin viljelmissä ja muissa F508del-CFTR-mutaatiota kantavissa solulinjoissa lisäten F508del-CFTR:n määrää, stabiiliutta ja toimintaa solun pinnalla, mikä lisää kloridi-ionien kuljetusta.” Englanninkielinen alkuteksti: "Lumacaftor improves the conformational stability of F508del-CFTR, resulting in increased processing and trafficking of mature protein to the cell surface. In vitro studies have demonstrated that both lumacaftor and ivacaftor act directly on the CFTR protein in primary human bronchial epithelial cultures and other cell lines harboring the F508del-CFTR mutation to increase the quantity, stability, and function of F508del-CFTR at the cell surface, resulting in increased chloride ion transport." ([DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600), versio 2026-03-24; haettu 2026-11-19). Yleisen tiedon mukaan lumakaftori on CFTR-korjaaja, joka parantaa F508del-CFTR-proteiinin laskostumista ja kulkeutumista solun pinnalle. Tämä mekanismi liittyy spesifisesti kystiseen fibroosiin.
 
 Tunnettua reittiä, joka yhdistäisi CFTR-korjauksen *Mycobacterium leprae* -infektioon tai lepran isäntäpuolustukseen ja hermovaurioon, ei ole osoitettu. Korkea pistemäärä (0,9944) on tiedonlouhintaan perustuva laskennallinen ennuste, jota mikään kliininen tai julkaistu näyttö ei vahvista. Mahdollinen yhteys, esimerkiksi isäntä–patogeeni-vuorovaikutusten tai proteiinien kuljetusreittien kautta, on tässä vaiheessa spekulatiivinen ja vaatisi prekliinistä validointia.
 
@@ -132,12 +132,13 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu", joten voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600) |
 
 <!-- review:end log -->
 

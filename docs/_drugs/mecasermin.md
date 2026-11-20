@@ -58,7 +58,7 @@ Mekaseermiini on yhdistelmä-DNA-tekniikalla valmistettu IGF-1 (insuliinin kalta
 
 ## Miksi ennuste on järkevä?
 
-Tästä lääkkeestä ei tällä hetkellä ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Mekaseermiini on kuitenkin IGF-1:n yhdistelmä-DNA-muoto, ja sen teho Laronin oireyhtymässä (vaikea primaarinen IGF-1-puutos, kasvuhormonin epäherkkyys) on osoitettu. Mekaseermiini korvaa puuttuvan IGF-1:n suoraan ja toimii kasvuhormonin vaikutusketjun loppupäässä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Mecasermin (epävirallinen käännös): ”Insuliininkaltainen kasvutekijä 1 (IGF-1) on keskeinen pituuskasvun hormonaalinen välittäjä. Normaalioloissa kasvuhormoni (GH) sitoutuu reseptoriinsa maksassa ja muissa kudoksissa ja stimuloi IGF-1:n synteesiä/eritystä.” Englanninkielinen alkuteksti: "Insulin-like growth factor-1 (IGF-1) is a key hormonal mediator on statural growth. Under normal circumstances, growth hormone (GH) binds to its receptor in the liver, and other tissues, and stimulates the synthesis/secretion of IGF-1." ([DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce), versio 2026-05-18; haettu 2026-11-19). Mekaseermiini on kuitenkin IGF-1:n yhdistelmä-DNA-muoto, ja sen teho Laronin oireyhtymässä (vaikea primaarinen IGF-1-puutos, kasvuhormonin epäherkkyys) on osoitettu. Mekaseermiini korvaa puuttuvan IGF-1:n suoraan ja toimii kasvuhormonin vaikutusketjun loppupäässä.
 
 Turnerin oireyhtymälle on tyypillistä lyhytkasvuisuus, ja kasvuhormoni on vakiintunut hoito. Mekanistinen peruste on siis uskottava mutta heikko: Turnerin oireyhtymää sairastavilla IGF-1-vaste on yleensä normaali tai koholla, eikä taustalla ole ensisijaisesti IGF-1-puutosta. Korkea TxGNN-pistemäärä (0,9959) on pelkkä laskennallinen ennuste, eikä sitä tue mikään kliininen tai kirjallisuusnäyttö.
 
@@ -132,13 +132,14 @@ Muuta turvallisuustietoa (varoitukset ja vasta-aiheet) ei ole saatavilla. Katso 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa valmisteen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Increlex (EMEA/H/C/000704) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce) |
 
 <!-- review:end log -->
 

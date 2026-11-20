@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **maksaporfyriaan**, mutta ennusteen tuek
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen alkuperäisestä vaikutusmekanismista ei ole tällä hetkellä saatavilla yksityiskohtaista tietoa. Tiedetään, että idebenoni on koentsyymi Q10:n lyhytketjuinen synteettinen bentsokinonianalogi, jolla on antioksidanttisia ominaisuuksia ja joka tukee elektroninsiirtoketjun toimintaa. Sen teho Leberin perinnöllisessä näköhermon surkastumassa liittyy mitokondrioiden toimintahäiriöön.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Idebenone vaikutusmekanismiksi (epävirallinen käännös): ”Antioksidantti ja mitokondrioiden elektroninsiirtäjä” Englanninkielinen alkuteksti: "Antioxidant and mitochondrial electron carrier" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; haettu 2026-11-19). Tiedetään, että idebenoni on koentsyymi Q10:n lyhytketjuinen synteettinen bentsokinonianalogi, jolla on antioksidanttisia ominaisuuksia ja joka tukee elektroninsiirtoketjun toimintaa. Sen teho Leberin perinnöllisessä näköhermon surkastumassa liittyy mitokondrioiden toimintahäiriöön.
 
 Oksidatiivinen stressi ja mitokondrioiden toimintahäiriö voivat olla yksi porfyriaan liittyvän maksavaurion taustatekijä, mutta tätä ei ole todennettu.
 
@@ -129,13 +129,14 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutuk
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ä siitä, miksi myyntilupa on peruutettu, sek” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Raxone (EMEA/H/C/003834) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556) |
 
 <!-- review:end log -->
 

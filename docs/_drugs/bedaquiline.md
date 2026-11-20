@@ -54,7 +54,7 @@ Bedakiliini on tuberkuloosilääke, joka estää mykobakteerien ATP-syntaasia. T
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Bedakiliinin tiedetään kohdistuvan mykobakteerien ATP-syntaasiin, eikä sillä ole osoitettua sienilääkevaikutusta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Bedaquiline (epävirallinen käännös): ”Bedakiliini on diaryylikinoliiniryhmän antimykobakteerinen lääke. […] SIRTURO on diaryylikinoliiniryhmän antimykobakteerinen lääke, joka estää mykobakteerien ATP (adenosiini-5'-trifosfaatti) -syntaasia sitoutumalla entsyymin c-alayksikköön, joka on välttämätön energian tuottamiselle M. tuberculosis -bakteerissa.” Englanninkielinen alkuteksti: "Bedaquiline is a diarylquinoline antimycobacterial drug. […] SIRTURO is a diarylquinoline antimycobacterial drug that inhibits mycobacterial ATP (adenosine 5'- triphosphate) synthase, by binding to subunit c of the enzyme that is essential for the generation of energy in M. tuberculosis." ([DailyMed: Sirturo (bedaquiline fumarate) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1534c9ae-4948-4cf4-9f66-222a99db6d0e), versio 2025-10-17; haettu 2026-11-19). Bedakiliinin tiedetään kohdistuvan mykobakteerien ATP-syntaasiin, eikä sillä ole osoitettua sienilääkevaikutusta.
 
 Ennusteelle ei löydy mekanistista tukea. Candida-hiivat ovat sieniä, joiden energia-aineenvaihdunta ja lääkekohteet poikkeavat mykobakteereista. Korkea pistemäärä heijastaa todennäköisesti mallin tuottamaa artefaktia, eikä ennustetta voida pitää uskottavana lääkkeen uudelleenkäyttöehdokkaana nykytiedon valossa.
 
@@ -99,6 +99,19 @@ Ennusteelle ei ole kliinistä eikä kirjallisuusnäyttöä, eikä bedakiliinilla
 - In vitro -tutkimuksia bedakiliinin vaikutuksesta Candida-lajeihin
 - Vaikutusmekanismia koskevien tietojen täydentämistä
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista turvallisuusarviointia varten
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sirturo (bedaquiline fumarate) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1534c9ae-4948-4cf4-9f66-222a99db6d0e) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

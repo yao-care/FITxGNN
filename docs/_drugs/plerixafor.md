@@ -62,7 +62,7 @@ Vahvin tutkimusnäyttö koskee toista ennustettua käyttöaihetta, **myeloidileu
 
 ## Miksi ennuste on järkevä?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella pleriksafori salpaa CXCR4-reseptorin (ja sitoutuu myös ACKR3-reseptoriin) ja häiritsee siten CXCL12–CXCR4-akselia, joka pitää kantasolut luuytimessä. Tämän vuoksi lääkettä käytetään kantasolujen mobilisointiin myeloomapotilailla G-CSF:n rinnalla.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Plerixafor (epävirallinen käännös): ”Pleriksafori on CXCR4-kemokiinireseptorin estäjä ja estää sen spesifisen ligandin, stroomasoluperäisen tekijä-1α:n (SDF-1α), sitoutumisen. SDF-1α:lla ja CXCR4:llä tiedetään olevan merkitystä ihmisen hematopoieettisten kantasolujen (HSC) kulkeutumisessa ja hakeutumisessa luuydintilaan.” Englanninkielinen alkuteksti: "Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment." ([DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003), versio 2025-09-22; haettu 2026-11-19). Tunnetun tiedon perusteella pleriksafori salpaa CXCR4-reseptorin (ja sitoutuu myös ACKR3-reseptoriin) ja häiritsee siten CXCL12–CXCR4-akselia, joka pitää kantasolut luuytimessä. Tämän vuoksi lääkettä käytetään kantasolujen mobilisointiin myeloomapotilailla G-CSF:n rinnalla.
 
 Ennusteen korkea pistemäärä kuvastaa läheisyyttä jo hyväksyttyyn myeloomakäyttöön. CXCR4/CXCL12-akseli voi olla merkityksellinen myös plasmasolubiologiassa. On kuitenkin tärkeää huomata, että nykyinen käyttö on tukihoitoa (kantasolujen keräys), kun taas indolentin sairauden hoito edellyttäisi sairautta muokkaavaa vaikutusta. Näyttöä tästä ei ole.
 
@@ -197,13 +197,14 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia valmisteita ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruutuksen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003) |
 
 <!-- review:end log -->
 

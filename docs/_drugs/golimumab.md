@@ -54,7 +54,7 @@ Golimumabi on kasvainnekroositekijä-alfaa (TNF-α) estävä lääke, jota käyt
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia tietoja golimumabin vaikutusmekanismista ei tällä hetkellä ole saatavilla. Tunnetun tiedon perusteella golimumabi kuuluu TNF-α-estäjien lääkeryhmään, ja sen teho tulehduksellisissa tuki- ja liikuntaelinsairauksissa sekä suolistosairauksissa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Golimumab (epävirallinen käännös): ”Golimumabi on ihmisen monoklonaalinen vasta-aine, joka sitoutuu ihmisen TNFα:n sekä liukoiseen että transmembraaniseen bioaktiiviseen muotoon. Tämä yhteisvaikutus estää TNFα:n sitoutumisen reseptoreihinsa ja estää siten TNFα:n (sytokiiniproteiinin) biologista aktiivisuutta.” Englanninkielinen alkuteksti: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), versio 2026-11-02; haettu 2026-11-19). Tunnetun tiedon perusteella golimumabi kuuluu TNF-α-estäjien lääkeryhmään, ja sen teho tulehduksellisissa tuki- ja liikuntaelinsairauksissa sekä suolistosairauksissa on osoitettu.
 
 Ennuste ei kuitenkaan nojaa vahvaan mekanistiseen perusteluun. Häntäluun hypermobiliteetti on pääosin mekaaninen tai vammaperäinen tila, eikä siihen liity vakiintunutta TNF-välitteistä tulehdusmekanismia, joka puoltaisi golimumabin käyttöä. Mallin ennuste on siten tulkittava varoen.
 
@@ -97,6 +97,19 @@ Ennuste perustuu pelkkään mallilaskentaan (näytön taso L5), eikä siitä ole
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet
 - Prekliininen tai kliininen näyttö siitä, että TNF-välitteinen tulehdus osallistuu häntäluun hypermobiliteetin patologiaan
 - Arvio antoreittien soveltuvuudesta kyseiseen käyttöaiheeseen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

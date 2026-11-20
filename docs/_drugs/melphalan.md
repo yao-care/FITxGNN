@@ -60,7 +60,7 @@ Tätä suuntaa tukee tällä hetkellä **7 kliinistä tutkimusta** ja **1 julkai
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tietokannasta. Tunnetun tiedon perusteella melfalaani on DNA:ta alkyloiva aine, joka muodostaa DNA-juosteiden välisiä ristisidoksia ja on myrkyllinen nopeasti jakautuville soluille. Sen teho on osoitettu alkuperäisissä käyttöaiheissa, ja mekanistisesti se voi soveltua myös itusolukasvaimiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Melphalan (epävirallinen käännös): ”Melfalaani on bis-kloorietyyliamiinityyppinen alkyloiva aine. Tämän vuoksi sen sytotoksisuus näyttää liittyvän siihen, missä määrin se muodostaa DNA:n juosteiden välisiä ristisidoksia, todennäköisesti sitoutumalla guaniinin N 7 -asemaan.” Englanninkielinen alkuteksti: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), versio 2026-09-15; haettu 2026-11-19). Tunnetun tiedon perusteella melfalaani on DNA:ta alkyloiva aine, joka muodostaa DNA-juosteiden välisiä ristisidoksia ja on myrkyllinen nopeasti jakautuville soluille. Sen teho on osoitettu alkuperäisissä käyttöaiheissa, ja mekanistisesti se voi soveltua myös itusolukasvaimiin.
 
 Itusolukasvaimet ovat tunnetusti herkkiä DNA:ta vaurioittaville solunsalpaajille, mikä tekee ennusteesta uskottavan. Toisaalta kerätyissä tutkimuksissa melfalaani on annettu pääosin osana suuriannoksista solunsalpaajahoitoa ja autologista kantasolutukea uusiutuneessa tai huonoennusteisessa taudissa, ei yksittäisenä lääkkeenä. Melfalaanin osuutta hoitovasteeseen ei siksi voida erottaa muista lääkkeistä.
 
@@ -165,13 +165,14 @@ Tarkemmat tiedot: ks. valmisteyhteenvedon varoitukset ja varotoimet.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitystä melfalaanivalmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Phelinun (EMEA/H/C/005173 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->
 

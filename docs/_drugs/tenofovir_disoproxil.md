@@ -58,7 +58,7 @@ Tenofoviiridisoproksiili on nukleotidirakenteinen käänteiskopioijaentsyymin es
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella tenofoviiri on nukleotidirakenteinen käänteiskopioijaentsyymin estäjä, jonka teho HIV-infektiossa on osoitettu. Mekanistisesti se voi soveltua myös SIV-infektioon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Tenofovir Disoproxil (epävirallinen käännös): ”Tenofoviiridisoproksiilifumaraatti on viruslääke. […] Tenofoviiridisoproksiilifumaraatti on adenosiinimonofosfaatin asyklinen nukleosidifosfonaattidiesterianalogi. Tenofoviiridisoproksiilifumaraatti edellyttää ensin diesterihydrolyysiä muuttuakseen tenofoviiriksi ja sen jälkeen solun entsyymien suorittamia fosforylaatioita muodostaakseen tenofoviiridifosfaattia (TFV-DP), joka on obligatorinen ketjun katkaisija.” Englanninkielinen alkuteksti: "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418), versio 2025-02-18; haettu 2026-11-19). Tunnetun tiedon perusteella tenofoviiri on nukleotidirakenteinen käänteiskopioijaentsyymin estäjä, jonka teho HIV-infektiossa on osoitettu. Mekanistisesti se voi soveltua myös SIV-infektioon.
 
 SIV ja SHIV ovat HIV:n kanssa läheistä sukua olevia lentivirusyksiä, ja niillä on sama käänteiskopioijaentsyymi, johon lääke kohdistuu. Mekanismi on siksi suoraan sovellettavissa. Makakeilla tehdyissä ehkäisykokeissa tenofoviiridisoproksiilifumaraatti, yksin tai emtrisitabiinin kanssa, antoi osittaisen tai täydellisen suojan SIV/SHIV-altistukselta.
 
@@ -165,13 +165,14 @@ Nämä ovat vain tietämyskaavion signaaleja, ja ne on vahvistettava viralliseen
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 14 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki lääkkeen myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(kaikki 14 lupaa peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->
 

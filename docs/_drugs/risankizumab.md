@@ -60,7 +60,7 @@ Tätä tukee **2 kliinistä tutkimusta** (joista yksi valmistunut vaiheen 2 satu
 
 ## Miksi ennuste on perusteltu?
 
-Risankitsumabi estää IL-23:n p19-alayksikköä. IL-23/Th17-signalointi vaikuttaa psoriaasin ja joidenkin tulehduksellisten ihofenotyyppien taustalla, mikä antaa uskottavan yhteyden ihottumaan. Yksityiskohtaiset vaikutusmekanismitiedot eivät ole tällä hetkellä saatavilla tähän raporttiin koottuna aineistona, mutta lääkeaineluokan tunnettu vaikutustapa on yllä kuvatun mukainen.
+Risankitsumabi estää IL-23:n p19-alayksikköä. IL-23/Th17-signalointi vaikuttaa psoriaasin ja joidenkin tulehduksellisten ihofenotyyppien taustalla, mikä antaa uskottavan yhteyden ihottumaan. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Risankizumab (epävirallinen käännös): ”Risankitsumabi-rzaa on humanisoitu IgG1-monoklonaalinen vasta-aine, joka sitoutuu selektiivisesti ihmisen IL-23-sytokiinin p19-alayksikköön ja estää sen vuorovaikutuksen IL-23-reseptorin kanssa. IL-23 on luonnollisesti esiintyvä sytokiini, joka osallistuu tulehdus- ja immuunivasteisiin.” Englanninkielinen alkuteksti: "Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858), versio 2026-10-23; haettu 2026-11-19).
 
 Atooppisessa ihottumassa hallitseva reitti on kuitenkin Th2 (IL-4/IL-13). Vaiheen 2 tutkimuksessa IL-23-salpauksesta ei havaittu selvää tehoa tässä tilassa, joten mekanistinen sopivuus on heikko atooppiselle ihottumalle ja vahvempi psoriaasinkaltaisille tai sekafenotyypeille.
 
@@ -152,13 +152,14 @@ Moderate-tason yhteisvaikutuksia ovat mm. takrolimuusi, siklosporiini, atsatiopr
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(nykyinen lupa peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Skyrizi (EMEA/H/C/004759) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
 
 <!-- review:end log -->
 

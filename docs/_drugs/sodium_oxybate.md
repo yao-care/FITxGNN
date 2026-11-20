@@ -60,7 +60,7 @@ Tätä suuntaa tukee tällä hetkellä **3 kliinistä tutkimusta** (joista yksi 
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietojen mukaan yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla. Tunnetun tiedon perusteella natriumoksibaatti (GHB) vaikuttaa GABA-B- ja GHB-reseptoreihin, lisää hidasaaltounta (N3) ja yhdistää yöunta. Tämä on uskottava mekanismi unessa pysymisen ongelmiin liittyvässä unettomuudessa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Sodium Oxybate (epävirallinen käännös): ”Xyrem on keskushermostoa lamaava lääke. Xyremin vaikutusmekanismia narkolepsian hoidossa ei tunneta. Natriumoksibaatti on gammahydroksivoihapon (GHB) natriumsuola; GHB on endogeeninen yhdiste ja välittäjäaine GABA:n metaboliitti.” Englanninkielinen alkuteksti: "Xyrem is a CNS depressant. The mechanism of action of Xyrem in the treatment of narcolepsy is unknown. Sodium oxybate is the sodium salt of gamma-hydroxybutyrate (GHB), an endogenous compound and metabolite of the neurotransmitter GABA." ([DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca), versio 2025-07-01; haettu 2026-11-19). Tunnetun tiedon perusteella natriumoksibaatti (GHB) vaikuttaa GABA-B- ja GHB-reseptoreihin, lisää hidasaaltounta (N3) ja yhdistää yöunta. Tämä on uskottava mekanismi unessa pysymisen ongelmiin liittyvässä unettomuudessa.
 
 Alkuperäinen käyttöaihe, narkolepsia, liittyy yöunen pirstaloitumiseen, ja lääkkeen unirakennetta parantava vaikutus on osoitettu narkolepsiassa (pilottitutkimus, PMID 15586785). Siksi sen vaikutus voi olla sovellettavissa myös kroonisessa unettomuudessa. Parkinsonin taudissa tehty avoin polysomnografiatutkimus (PMID 18852348) tukee unirakenteeseen kohdistuvaa hyötyä.
 
@@ -152,12 +152,13 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu, eikä Suomessa ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteen väärinkäyttöriski, hengityslama ja runsaat keskushermostoa lamaavat yhtei” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca) |
 
 <!-- review:end log -->
 

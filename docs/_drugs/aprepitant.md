@@ -54,7 +54,7 @@ Aprepitantti on NK1-reseptorin salpaaja, jota käytetään pahoinvoinnin ja okse
 
 ## Miksi ennuste on perusteltu?
 
-Aprepitantin vaikutusmekanismia koskevia yksityiskohtaisia tietoja ei ole tämän raportin aineistossa saatavilla. Tiedetään, että aprepitantti on NK1-reseptorin salpaaja. Substanssi P:n ja NK1-signaloinnin on esitetty liittyvän vasopressiiniin ja nestetasapainon säätelyyn, mikä antaa heikon biologisen perustelun ennusteelle.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Aprepitant (epävirallinen käännös): ”Aprepitantti on ihmisen P-aine/neurokiniini 1 (NK 1 ) -reseptorien selektiivinen, suuren affiniteetin antagonisti. Aprepitantilla on vähäinen tai ei lainkaan affiniteettia serotoniini- (5-HT 3 ), dopamiini- ja kortikosteroidireseptoreihin. Eläinmalleissa aprepitantin on osoitettu estävän solunsalpaajien, kuten sisplatiinin, aiheuttamaa oksentelua keskushermostovaikutusten kautta.” Englanninkielinen alkuteksti: "Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK 1 ) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors. Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions." ([DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4), versio 2026-04-01; haettu 2026-11-19). Tiedetään, että aprepitantti on NK1-reseptorin salpaaja. Substanssi P:n ja NK1-signaloinnin on esitetty liittyvän vasopressiiniin ja nestetasapainon säätelyyn, mikä antaa heikon biologisen perustelun ennusteelle.
 
 Nefrogeeninen antidiureesin epäasianmukaisen erityksen oireyhtymä johtuu kuitenkin V2-reseptorin (AVPR2) toimintaa lisäävistä muutoksista. Suoraa mekanistista tai kliinistä näyttöä NK1-salpauksen ja tämän sairauden välillä ei ole. Erittäin korkea ennustepiste (0,9997) on pelkkä mallin tuottama ennuste, eikä se osoita hoidon tehoa.
 
@@ -92,6 +92,19 @@ Ennuste perustuu pelkästään mallin laskemaan pisteeseen. Kliinisiä tutkimuks
 - Prekliiniset tutkimukset (esim. solu- tai eläinmallit) ennusteen validoimiseksi
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen turvallisuusarviota varten
 - Harvinaisen sairauden vuoksi arvio soveltuvasta potilasryhmästä ja tutkimusasetelmasta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -58,7 +58,7 @@ Elafibranori on PPARα:n (PPARA) ja PPARβ/δ:n (PPARD) agonisti. Näiden ydinre
 
 Mahdollinen, mutta varmentamaton selitys on, että PPAR-signalointi voisi vaikuttaa aineenvaihdunnan kautta munasarjojen tai hypotalamus–aivolisäke–sukurauhasakselin toimintaan, esimerkiksi PCOS:ään liittyvässä amenorreassa. Tälle reitille ei ole kokoamissamme tiedoissa tukea, joten se on spekulatiivinen. Amenorrea on lisäksi heterogeeninen oire (hypotalaaminen, aivolisäkeperäinen, munasarja-, kohtu- tai raskauteen liittyvä syy), eikä ennuste määritä alatyyppiä.
 
-Yksityiskohtaista vaikutusmekanismitietoa ei tähän raporttiin koottu tietoihin sisältynyt kokonaisena kuvauksena, joten mekanistinen arvio jää alustavaksi.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Elafibranor (epävirallinen käännös): ”Elafibranori ja sen tärkein aktiivinen metaboliitti GFT1007 ovat peroksisomiproliferaattorin aktivoiman reseptorin (PPAR) agonisteja, ja molemmat aktivoivat PPAR-alfaa, PPAR-gammaa ja PPAR-deltaa in vitro. Mekanismia, jolla elafibranori saa aikaan terapeuttiset vaikutuksensa PBC-potilailla, ei kuitenkaan tunneta hyvin.” Englanninkielinen alkuteksti: "Elafibranor and its main active metabolite GFT1007 are peroxisome proliferator-activated receptor (PPAR) agonists, both of which activate PPAR-alpha, PPAR-gamma, and PPAR-delta in vitro. However, the mechanism by which elafibranor exerts its therapeutic effects in patients with PBC is not well understood." ([DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25), versio 2026-08-11; haettu 2026-11-19).
 
 ## Kliininen näyttö
 
@@ -93,6 +93,19 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviota varten
 - Esikliininen tai mekanistinen selvitys PPAR-reittien yhteydestä lisääntymishormonien akseliin
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

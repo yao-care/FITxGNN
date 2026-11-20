@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **hyperamylasemian**, mu
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän ennusteen perusteita ei voida tukea käytettävissä olevalla aineistolla. Tarkkaa vaikutusmekanismia koskevia tietoja ei ole saatavilla. Tunnetun tiedon mukaan relebaktaami on diatsabisyklooktaanityyppinen beetalaktamaasin estäjä, joka estää bakteerien A- ja C-luokan beetalaktamaaseja ja suojaa yhdistelmässä käytettävää beetalaktaamiantibioottia hajoamiselta. Sillä ei tunneta vaikutusta amylaasin säätelyyn eikä haiman tai sylkirauhasten entsyymieritykseen.
+Tämän ennusteen perusteita ei voida tukea käytettävissä olevalla aineistolla. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Relebactam vaikutusmekanismiksi (epävirallinen käännös): ”Beetalaktamaasi SHV-1:n estäjä; Bakteerin beetalaktamaasi TEM:n estäjä; Beetalaktamaasin estäjä; Karbapeneemiä hydrolysoivan beetalaktamaasi KPC:n estäjä” Englanninkielinen alkuteksti: "Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon mukaan relebaktaami on diatsabisyklooktaanityyppinen beetalaktamaasin estäjä, joka estää bakteerien A- ja C-luokan beetalaktamaaseja ja suojaa yhdistelmässä käytettävää beetalaktaamiantibioottia hajoamiselta. Sillä ei tunneta vaikutusta amylaasin säätelyyn eikä haiman tai sylkirauhasten entsyymieritykseen.
 
 Hyperamylasemia on yleensä laboratoriolöydös tai taustalla olevan sairauden (esim. haimatulehdus, munuaisten vajaatoiminta) oire, eikä varsinainen hoidettava kohdesairaus. Erittäin korkea pistemäärä on mallin ennuste, joka johtuu todennäköisesti verkkopohjaisista assosiaatioista.
 
@@ -122,12 +122,13 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutuk
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605) |
 
 <!-- review:end log -->
 

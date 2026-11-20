@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota ensisijaisesti kohteeseen **hyperamylasem
 
 ## Miksi ennuste on perusteltu (tai ei)?
 
-Atstreonaamin vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla kootussa aineistossa. Tunnetun farmakologian mukaan atstreonaami on monobaktaamiantibiootti, joka sitoutuu gramnegatiivisten bakteerien penisilliiniä sitovaan proteiiniin 3 (PBP3) ja estää soluseinän synteesiä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Aztreonam (epävirallinen käännös): ”Atsreonaami on bakterisidinen lääkeaine, joka vaikuttaa estämällä bakteerien soluseinän synteesiä. Atsreonaami on aktiivinen joidenkin gramnegatiivisten ja grampositiivisten bakteerien beetalaktamaasien, sekä penisillinaasien että kefalosporinaasien, läsnä ollessa.” Englanninkielinen alkuteksti: "Aztreonam is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Aztreonam has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6), versio 2024-06-03; haettu 2026-11-19). Tunnetun farmakologian mukaan atstreonaami on monobaktaamiantibiootti, joka sitoutuu gramnegatiivisten bakteerien penisilliiniä sitovaan proteiiniin 3 (PBP3) ja estää soluseinän synteesiä.
 
 **Ykkösennuste (hyperamylasemia):** Mekanistista yhteyttä amylaasiaineenvaihduntaan ei ole. Korkea pistemäärä on pelkkä mallin ennuste ilman tukevia tutkimuksia tai kirjallisuutta. Samoin ennusteet polyklonaalinen hyperviskositeettioireyhtymä, synnynnäinen analbuminemia ja esiasteinen hematologinen sairaus eivät ole mekanistisesti perusteltuja; ne ovat todennäköisesti tietämysgraafin artefakteja.
 
@@ -155,13 +155,14 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Arvio myyntiluvan tilanteesta ja saatavuudesta Suomessa (Emblaveo peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Emblaveo (EMEA/H/C/006113 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6) |
 
 <!-- review:end log -->
 

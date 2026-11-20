@@ -54,7 +54,7 @@ Esomepratsoli on protonipumpun estäjä, joka vähentää mahahapon eritystä. T
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin tietojen perusteella esomepratsolin yksityiskohtaista vaikutusmekanismia ei ole saatavilla. Esomepratsoli kuuluu protonipumpun estäjien lääkeryhmään, ja sen teho happoperäisissä vaivoissa tunnetaan.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Esomeprazole (epävirallinen käännös): ”Esomepratsoli kuuluu antisekretoristen yhdisteiden ryhmään, substituoituihin bentsimidatsoleihin, jotka vähentävät mahahapon eritystä estämällä spesifisesti H+/K+-ATPaasientsyymijärjestelmää mahalaukun parietaalisolun erityspinnalla. Esomepratsoli protonoituu ja muuntuu parietaalisolun happamassa osastossa, jolloin muodostuu aktiivinen estäjä, akiraalinen sulfenamidi.” Englanninkielinen alkuteksti: "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96), versio 2025-12-19; haettu 2026-11-19). Esomepratsoli kuuluu protonipumpun estäjien lääkeryhmään, ja sen teho happoperäisissä vaivoissa tunnetaan.
 
 Mekanistista yhteyttä ennustettuun käyttöaiheeseen ei ole tunnistettu. Duodenaalinen tukos on mekaaninen tai rakenteellinen tila. Hapon eritystä vähentävä lääke voisi lievittää korkeintaan toissijaisia oireita, kuten refluksia tai haavaumia, mutta se ei hoitaisi itse tukosta. Korkea pistemäärä 0,9945 on pelkkä mallin tuottama ennuste.
 
@@ -94,6 +94,19 @@ Lisäksi useita kohtalaisia yhteisvaikutuksia, esimerkiksi hydroklooritiatsidi, 
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä
 - Tutkimusnäyttöä, joka koskee suoraan duodenaalista tukosta
 - Arviota siitä, onko ennuste kliinisesti mielekäs, kun huomioidaan tilan rakenteellinen luonne
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **Ambras-tyypin yleistyneeseen synnynnäi
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tadalafiilin yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon mukaan tadalafiili on PDE5:n estäjä, joka nostaa solunsisäistä cGMP-pitoisuutta ja aiheuttaa verisuonten laajenemista. Sen teho erektiohäiriössä ja keuhkovaltimoverenpaineessa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tadalafil (epävirallinen käännös): ”Siittimen erektio seksuaalisen stimulaation aikana johtuu siittimen verenvirtauksen lisääntymisestä, joka on seurausta siittimen valtimoiden ja paisuvaiskudoksen sileän lihaksen relaksaatiosta. Tämä vaste välittyy hermopäätteistä ja endoteelisoluista vapautuvan typpioksidin (NO) kautta, joka stimuloi cGMP:n synteesiä sileälihassoluissa. […] Tadalafiili estää PDE5:tä.” Englanninkielinen alkuteksti: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), versio 2026-06-03; haettu 2026-11-19). Tunnetun tiedon mukaan tadalafiili on PDE5:n estäjä, joka nostaa solunsisäistä cGMP-pitoisuutta ja aiheuttaa verisuonten laajenemista. Sen teho erektiohäiriössä ja keuhkovaltimoverenpaineessa on osoitettu.
 
 Ambras-oireyhtymä on harvinainen perinnöllinen karvankasvun häiriö, jossa kromosomipoikkeamat vaikuttavat TRPS1-geenin säätelyyn. Selkeää mekanistista yhteyttä PDE5:n estoon ei ole. Korkea pistemäärä näyttää olevan tietämysgraafin sivuvaikutus, joka johtuu yhteisistä karvoitukseen liittyvistä fenotyyppisolmuista, eikä biologisesti uskottavasta kohdesuhteesta.
 
@@ -140,13 +140,14 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut käytettävissä, joten
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi yksi peruutettu myyntilupa (Yuvanci, EMEA/H/C/005001, keuhkovaltimoverenpaine)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki tadalafiilin myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 5 myyntilupaa (Tadalafil Lilly (EMEA/H/C/004666), Talmanco (EMEA/H/C/004297), Adcirca (EMEA/H/C/001021), Tadalafil Mylan (EMEA/H/C/003787), Cialis (EMEA/H/C/000436)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
 
 <!-- review:end log -->
 

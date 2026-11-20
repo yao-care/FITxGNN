@@ -54,7 +54,7 @@ Kapesitabiini on suun kautta otettava 5-fluorourasiilin (5-FU) esiaste, jota kä
 
 ## Miksi ennuste on perusteltu?
 
-Kapesitabiini on suun kautta otettava 5-fluorourasiilin esiaste. Se muuttuu vaikuttavaksi muodokseen ensisijaisesti kasvainkudoksessa tymidiinifosforylaasientsyymin vaikutuksesta. Vaikuttava muoto estää tymidylaattisyntaasia ja häiritsee DNA:n ja RNA:n synteesiä nopeasti jakautuvissa soluissa. Yksityiskohtaista vaikutusmekanismitietoa ei tähän raporttiin koottu aineistoon sisältynyt, joten mekanismikuvaus perustuu yleiseen farmakologiseen tietoon.
+Kapesitabiini on suun kautta otettava 5-fluorourasiilin esiaste. Se muuttuu vaikuttavaksi muodokseen ensisijaisesti kasvainkudoksessa tymidiinifosforylaasientsyymin vaikutuksesta. Vaikuttava muoto estää tymidylaattisyntaasia ja häiritsee DNA:n ja RNA:n synteesiä nopeasti jakautuvissa soluissa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Capecitabine (epävirallinen käännös): ”Kapesitabiini metaboloituu in vivo fluorourasiiliksi. Sekä normaalit solut että kasvainsolut metaboloivat fluorourasiilin 5-fluori-2'-deoksiuridiinimonofosfaatiksi (FdUMP) ja 5-fluoriuridiinitrifosfaatiksi (FUTP). Nämä metaboliitit aiheuttavat soluvaurion kahdella eri mekanismilla.” Englanninkielinen alkuteksti: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), versio 2026-02-05; haettu 2026-11-19).
 
 Lääkkeen teho mahalaukun syövässä tekee sen vaikutuksesta mahalaukun adenokarsinoomaan uskottavan. Kyseessä on kuitenkin harvinainen perinnöllinen oireyhtymä, jonka taustalla on APC-geenin promoottori 1B:n mutaatio. Aineistossa ei ole oireyhtymäkohtaista mekanistista tietoa, joka yhdistäisi kapesitabiinin juuri tähän tautiin.
 
@@ -114,6 +114,19 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Kirjallisuushakua ja tutkimusrekisterihakua GAPPS-oireyhtymästä
 - Arviota siitä, hyödyttäisikö hoito adenokarsinoomaa vai polypoosia
 - Reittien ja lääkemuotojen yhteensopivuuden selvittämistä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

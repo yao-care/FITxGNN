@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **Hurlerin oireyhtymään** (MPS I), mutt
 
 ## Miksi ennuste voi vaikuttaa uskottavalta?
 
-Imiglusidaasi on rekombinantti glukoserebrosidaasi (beetaglukosidaasi), joka hydrolysoi glukosyyliseramidia ja korvaa puuttuvaa entsyymiä Gaucherin taudissa. Tästä lääkkeestä ei ole tässä aineistossa erillistä, yksityiskohtaista vaikutusmekanismitietoa, joten mekanistinen arvio perustuu entsyymin tunnettuun toimintaan.
+Imiglusidaasi on rekombinantti glukoserebrosidaasi (beetaglukosidaasi), joka hydrolysoi glukosyyliseramidia ja korvaa puuttuvaa entsyymiä Gaucherin taudissa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Imiglucerase (epävirallinen käännös): ”Gaucherin taudille on tunnusomaista β-glukoserebrosidaasiaktiivisuuden puutos, joka johtaa glukoserebrosidin kertymiseen eri kudoksiin, kuten maksaan, pernaan ja luuytimeen. Imigluseraasin mannoosisokerit välittävät sen sitoutumista soluihin, kuten makrofageihin, ja sen internalisaatiota niihin.” Englanninkielinen alkuteksti: "Gaucher disease is characterized by a deficiency of β-glucocerebrosidase activity, which results in accumulation of glucocerebroside in various tissues including liver, spleen, and bone marrow. The mannose sugars on imiglucerase mediate binding to and internalization by cells including macrophages." ([DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38), versio 2026-08-27; haettu 2026-11-19).
 
 Hurlerin oireyhtymä (MPS I) johtuu alfa-L-iduronidaasin puutteesta, mikä johtaa glykosaminoglykaanien (dermataani- ja heparaanisulfaatti) kertymiseen. Sekä Gaucherin tauti että MPS I ovat lysosomaalisia kertymäsairauksia, joita hoidetaan entsyymikorvauksella. Yhteys on kuitenkin vain tasolla "entsyymikorvaushoidon periaate".
 
@@ -123,12 +123,13 @@ Muuten turvallisuustiedot on luettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myös Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38) |
 
 <!-- review:end log -->
 

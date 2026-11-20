@@ -60,7 +60,7 @@ Huomio: korkein pistemäärä ei vastaa parasta näyttöä. Seuraavissa osioissa
 
 ## Miksi ennuste on perusteltu?
 
-Tasimelteonin vaikutusmekanismitietoja ei ole tämän raportin aineistossa saatavilla. Kirjallisuuden perusteella tasimelteoni on kaksoisagonisti melatoniinireseptoreille MT1 ja MT2. Reseptoreita on runsaasti vuorokausirytmin tahdistimessa (suprakiasmaattinen tumake), ja agonismi synkronoi vuorokausirytmiä sekä edistää nukahtamista ja unessa pysymistä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tasimelteon (epävirallinen käännös): ”Mekanismi, jolla tasimelteoni saa aikaan terapeuttisen vaikutuksensa potilailla, joilla on Non-24-häiriö tai SMS:ään liittyviä yöllisiä unihäiriöitä, on epäselvä. Tasimelteoni on kuitenkin melatoniinin MT 1- ja MT 2-reseptorien agonisti, ja näiden reseptorien arvellaan osallistuvan vuorokausirytmien säätelyyn.” Englanninkielinen alkuteksti: "The mechanism by which tasimelteon exerts its therapeutic effect in patients with Non-24 or nighttime sleep disturbances in SMS is unclear. However, tasimelteon is an agonist at melatonin MT 1 and MT 2 receptors which are thought to be involved in the control of circadian rhythms." ([DailyMed: Hetlioz (tasimelteon) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90), versio 2026-08-04; haettu 2026-11-19). Kirjallisuuden perusteella tasimelteoni on kaksoisagonisti melatoniinireseptoreille MT1 ja MT2. Reseptoreita on runsaasti vuorokausirytmin tahdistimessa (suprakiasmaattinen tumake), ja agonismi synkronoi vuorokausirytmiä sekä edistää nukahtamista ja unessa pysymistä.
 
 **Sijan 1 ennuste (polymikrogyria):** Kyseessä on harvinainen synnynnäinen aivokuoren kehityshäiriö (hermosolujen migraatiohäiriö). Uskottavaa mekanistista yhteyttä melatoniinireseptorien aktivaatioon ei ole tunnistettu. Korkea pistemäärä on pelkkä graafipohjainen ennuste.
 
@@ -155,13 +155,14 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tämän raportin aineist
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa tasimelteonin ainoa myyntilupa on peruutettu, mikä rajoittaa käytännön saatavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Peruutetun myyntiluvan syyn selvittämistä sekä lääkemuoto- ja antoreittitietojen täydentämistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Hetlioz (EMEA/H/C/003870) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Hetlioz (tasimelteon) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90) |
 
 <!-- review:end log -->
 

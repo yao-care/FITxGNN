@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **Scheien oireyhtymään**, mutta ennuste
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän lääkkeen yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella serliponaasialfa on yhdistelmä-DNA-tekniikalla valmistettu tripeptidyylipeptidaasi 1 (TPP1) -entsyymi. Sitä annetaan aivokammioihin (intraventrikulaarisesti) CLN2-taudin hoitoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Cerliponase Alfa (epävirallinen käännös): ”CLN2-tauti on hermostoa rappeuttava sairaus, jonka aiheuttaa lysosomaalisen entsyymin tripeptidyylipeptidaasi-1:n (TPP1) puutos; TPP1 pilkkoo polypeptidejä keskushermostossa. TPP1:llä ei ole tunnettua substraattispesifisyyttä. […] Serliponaasi alfa (rhTTP1), joka on proentsyymi, otetaan keskushermoston kohdesoluihin, ja se siirtyy lysosomeihin kationiriippumattoman mannoosi-6-fosfaattireseptorin (CI-MPR, tunnetaan myös nimellä M6P/IGF2-reseptori) välityksellä.” Englanninkielinen alkuteksti: "CLN2 disease is a neurodegenerative disease caused by deficiency of the lysosomal enzyme tripeptidyl peptidase-1 (TPP1), which catabolizes polypeptides in the CNS. TPP1 has no known substrate specificity. […] Cerliponase alfa (rhTTP1), a proenzyme, is taken up by target cells in the CNS and is translocated to the lysosomes through the Cation Independent Mannose-6-Phosphate Receptor (CI-MPR, also known as M6P/IGF2 receptor)." ([DailyMed: Brineura (cerliponase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=485ab3c5-0359-4878-872f-2fe1e7df4047), versio 2024-08-05; haettu 2026-11-19). Tunnetun tiedon perusteella serliponaasialfa on yhdistelmä-DNA-tekniikalla valmistettu tripeptidyylipeptidaasi 1 (TPP1) -entsyymi. Sitä annetaan aivokammioihin (intraventrikulaarisesti) CLN2-taudin hoitoon.
 
 Scheien oireyhtymä (lievä MPS I -muoto) johtuu alfa-L-iduronidaasin puutteesta, joka on eri lysosomaalinen entsyymi kuin TPP1. Yhteys rajoittuu yleiseen lysosomaalisten kertymätautien ja entsyymikorvaushoidon käsitteeseen. TPP1 ei voi korvata iduronidaasia, joten suoraa mekanistista perustetta ei ole. Korkea TxGNN-pistemäärä on vain graafipohjainen ennuste.
 
@@ -130,12 +130,13 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain yksi peruutettu myyntilupa, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Brineura (EMEA/H/C/004065) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Brineura (cerliponase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=485ab3c5-0359-4878-872f-2fe1e7df4047) |
 
 <!-- review:end log -->
 

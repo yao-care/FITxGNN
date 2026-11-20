@@ -54,7 +54,7 @@ Abatasepti on immuunivälitteisten sairauksien hoitoon tarkoitettu biologinen l�
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Kirjallisuuden perusteella abatasepti on CD80/CD86-vasta-aineita sitova fuusioproteiini, joka estää T-solujen aktivaation kostimulaatiosignaalin. Koska T-soluvälitteinen tulehdus osallistuu myös spondyloartriitin patogeneesiin, mekanismi on teoriassa uskottava.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Abatacept (epävirallinen käännös): ”Abatasepti, selektiivinen kostimulaation modulaattori, estää T-solujen (T-lymfosyyttien) aktivaatiota sitoutumalla CD80:een ja CD86:een ja estää siten niiden vuorovaikutuksen CD28:n kanssa. Tämä vuorovaikutus antaa kostimulatorisen signaalin, joka on välttämätön T-lymfosyyttien täydelliselle aktivaatiolle.” Englanninkielinen alkuteksti: "Abatacept, a selective costimulation modulator, inhibits T-cell (T lymphocyte) activation by binding to CD80 and CD86, thereby blocking interaction with CD28. This interaction provides a costimulatory signal necessary for full activation of T lymphocytes." ([DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb), versio 2025-11-13; haettu 2026-11-19). Kirjallisuuden perusteella abatasepti on CD80/CD86-vasta-aineita sitova fuusioproteiini, joka estää T-solujen aktivaation kostimulaatiosignaalin. Koska T-soluvälitteinen tulehdus osallistuu myös spondyloartriitin patogeneesiin, mekanismi on teoriassa uskottava.
 
 Käytännön näyttö on kuitenkin heikko. Yksi katsaus (Sieper 2016) toteaa, että T-soluihin kohdistuvat biologiset lääkkeet, abatasepti mukaan lukien, eivät ole tehokkaita aksiaalisessa spondyloartriitissa. Vakiintuneet vaihtoehdot, TNF- ja IL-17-estäjät, ovat selvästi paremmin tuettuja. Ennuste on siten tutkimuskysymys, ei vahva hoitosuositus.
 
@@ -111,6 +111,19 @@ Varoituksia ja vasta-aiheita koskevat tiedot löytyvät valmisteyhteenvedosta.
 - tarvittaessa satunnaistettua, kontrolloitua tutkimusta
 - yksityiskohtaisten vaikutusmekanismitietojen täydentämistä
 - valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistamista
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

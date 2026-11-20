@@ -54,7 +54,7 @@ Duvelisibi on suun kautta otettava kaksoisestäjä, joka kohdistuu PI3K-δ- ja P
 
 ## Miksi ennuste on perusteltu?
 
-Duvelisibi estää PI3K-δ:aa ja PI3K-γ:aa. Nämä entsyymit tukevat B-solureseptorin signalointia ja kasvainympäristöä lymfaattisissa pahanlaatuisuuksissa. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla, joten perustelu nojaa lääkeryhmän tunnettuun vaikutukseen.
+Duvelisibi estää PI3K-δ:aa ja PI3K-γ:aa. Nämä entsyymit tukevat B-solureseptorin signalointia ja kasvainympäristöä lymfaattisissa pahanlaatuisuuksissa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Duvelisib (epävirallinen käännös): ”Duvelisibi on PI3K:n estäjä, jonka estävä vaikutus kohdistuu pääasiassa normaaleissa ja maligneissa B-soluissa ilmentyviin PI3K-δ- ja PI3K-γ-isoformeihin. Duvelisibi aiheutti kasvun estymistä ja heikensi elinkykyä maligneista B-soluista peräisin olevissa solulinjoissa sekä primaarisissa KLL-kasvainsoluissa.” Englanninkielinen alkuteksti: "Duvelisib is an inhibitor of PI3K with inhibitory activity predominantly against PI3K-δ and PI3K-γ isoforms expressed in normal and malignant B-cells. Duvelisib induced growth inhibition and reduced viability in cell lines derived from malignant B-cells and in primary CLL tumor cells." ([DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780), versio 2025-12-18; haettu 2026-11-19).
 
 Kootut kliiniset tiedot koskevat indolenttia non-Hodgkin-lymfoomaa, T-solulymfoomaa ja kroonista lymfaattista leukemiaa, eivät klassista Hodgkinin lymfoomaa. Tuki on siis ekstrapolaatiota muista lymfoomista samaan lääkeryhmään perustuen. Koska yksikään esitetyistä tutkimuksista ei käsittele suoraan Hodgkinin lymfoomaa, näytön taso on L5.
 
@@ -124,6 +124,19 @@ Hodgkinin lymfoomaa koskevaa suoraa kliinistä tutkimusta tai julkaisua ei ole, 
 - Vaikutusmekanismin tarkempaa kuvausta klassisessa Hodgkinin lymfoomassa
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäyntiä turvallisuusarviointia varten
 - Yhteisvaikutusten (erityisesti vahvat CYP3A-estäjät) hallintasuunnitelmaa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

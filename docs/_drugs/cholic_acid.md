@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennusteen tuken
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Kolihappo on ihmisen elimistön oma ensisijainen sappihappo. Se toimii farnesoidi X -reseptorin (FXR) ja sappihapporeseptori GPBA:n (GPBAR1) ligandina. Tutkimuksissa on kuvattu sen käyttöä sappihappojen synteesihäiriöiden hoidossa, joissa se korvaa puuttuvaa sappihappoa ja vähentää myrkyllisten välituotteiden muodostumista. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla.
+Kolihappo on ihmisen elimistön oma ensisijainen sappihappo. Se toimii farnesoidi X -reseptorin (FXR) ja sappihapporeseptori GPBA:n (GPBAR1) ligandina. Tutkimuksissa on kuvattu sen käyttöä sappihappojen synteesihäiriöiden hoidossa, joissa se korvaa puuttuvaa sappihappoa ja vähentää myrkyllisten välituotteiden muodostumista. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Cholic Acid (epävirallinen käännös): ”Koolihappo on primaarinen sappihappo, jota syntetisoidaan maksassa kolesterolista. Biosynteesireitin SED:istä johtuvissa sappihappojen synteesihäiriöissä sekä PD:issä, mukaan lukien Zellwegerin oireyhtymän kirjoon kuuluvat häiriöt, primaaristen sappihappojen puutos johtaa välivaiheen sappihappojen säätelemättömään kertymiseen ja kolestaasiin.” Englanninkielinen alkuteksti: "Cholic acid is a primary bile acid synthesized from cholesterol in the liver. In bile acid synthesis disorders due to SEDs in the biosynthetic pathway, and in PDs including Zellweger spectrum disorders, deficiency of primary bile acids leads to unregulated accumulation of intermediate bile acids and cholestasis." ([DailyMed: Cholbam (cholic acid) prescribing information, Mirum Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5c6e4c9d-b85e-493f-9420-ab2fd0ff3723), versio 2026-01-26; haettu 2026-11-19).
 
 Yhteys HIV-infektioon on heikko. Varhaiset laboratoriotutkimukset (1993) osoittivat natriumkolaatin spermisidisen ja in vitro -antiviraalisen vaikutuksen osana emättimeen asetettavaa ehkäisysientä, mutta kyse oli paikallisesta, prekliinisestä vaikutuksesta. Toisaalta kolihappojohdannaisten raportoitiin vuonna 2006 lisäävän HIV-1:n replikaatiota ja synsytioiden muodostusta T-soluissa, mikä viittaa vastakkaiseen suuntaan. Proteaasinestäjähoitoa saavien HIV-potilaiden sappihappopitoisuuksia käsittelevä tutkimus on havaintotutkimus eikä osoita hoitohyötyä.
 
@@ -131,12 +131,13 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Orphacol (EMEA/H/C/001250) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cholbam (cholic acid) prescribing information, Mirum Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5c6e4c9d-b85e-493f-9420-ab2fd0ff3723) |
 
 <!-- review:end log -->
 

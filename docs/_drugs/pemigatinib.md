@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **monirauhasten neoplasiaan (MEN)**, mutt
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tälle raportille koottu aineisto ei sisällä yksityiskohtaista tietoa vaikutusmekanismista. Tiedossa on, että pemigatinibi on selektiivinen FGFR1–3-estäjä, ja sen teho kolangiokarsinoomassa liittyy FGFR2-fuusioihin tai -uudelleenjärjestymiin. Mekanistinen yhteys monirauhasten neoplasiaan (esim. RET- ja meniinireitit, FGF-signalointi endokriinisissä kasvaimissa) on kuitenkin spekulatiivinen, eikä käytettävissä oleva aineisto tue sitä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pemigatinib (epävirallinen käännös): ”Pemigatinibi on pienimolekyylinen kinaasin estäjä, joka kohdistuu FGFR1:een, 2:een ja 3:een IC 50 -arvoilla, jotka ovat alle 2 nM. Pemigatinibi esti in vitro myös FGFR4:ää pitoisuutena, joka oli noin 100 kertaa suurempi kuin FGFR1:tä, 2:ta ja 3:a estävät pitoisuudet.” Englanninkielinen alkuteksti: "Pemigatinib is a small molecule kinase inhibitor that targets FGFR1, 2 and 3 with IC 50 values of less than 2 nM. Pemigatinib also inhibited FGFR4 in vitro at a concentration approximately 100 times higher than those that inhibit FGFR1, 2, and 3." ([DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4), versio 2026-06-09; haettu 2026-11-19). Tiedossa on, että pemigatinibi on selektiivinen FGFR1–3-estäjä, ja sen teho kolangiokarsinoomassa liittyy FGFR2-fuusioihin tai -uudelleenjärjestymiin. Mekanistinen yhteys monirauhasten neoplasiaan (esim. RET- ja meniinireitit, FGF-signalointi endokriinisissä kasvaimissa) on kuitenkin spekulatiivinen, eikä käytettävissä oleva aineisto tue sitä.
 
 Alkuperäinen käyttöaihe (sappitiesyöpä) ja ennustettu käyttöaihe (perinnöllinen endokriinisten kasvainten oireyhtymä) ovat biologialtaan ja hoitotavoitteiltaan eri tyyppisiä. Korkea pistemäärä ei yksin riitä perusteeksi etenemiselle.
 
@@ -151,13 +151,14 @@ Varoituksia ja vasta-aiheita koskevia tietoja ei ole saatavilla; katso turvallis
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittäminen (peruutuksen syy ja saatavuus Suomessa)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Pemazyre (EMEA/H/C/005266) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4) |
 
 <!-- review:end log -->
 

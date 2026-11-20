@@ -58,7 +58,7 @@ Eptifibatidi estää verihiutaleiden GP IIb/IIIa -reseptoria ja siten verihiutal
 
 Korkea ennustepistemäärä on pelkkä laskennallinen ennuste. Sen tueksi ei ole kliinisiä tutkimuksia, kirjallisuutta eikä mekanistista tutkimusnäyttöä, joten ennustetta on pidettävä hypoteesina.
 
-Tälle raportille koottujen tietojen mukaan yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla muutoin kuin yllä kuvatun reseptorisalpauksen osalta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Eptifibatide (epävirallinen käännös): ”Eptifibatidi estää reversiibelisti verihiutaleiden aggregaatiota estämällä fibrinogeenin, von Willebrandin tekijän ja muiden adheesioligandien sitoutumisen GP IIb/IIIa:han. Laskimoon annettuna eptifibatidi estää verihiutaleiden aggregaatiota ex vivo annoksesta ja pitoisuudesta riippuvaisesti.” Englanninkielinen alkuteksti: "Eptifibatide reversibly inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive ligands to GP IIb/IIIa. When administered intravenously, eptifibatide inhibits ex vivo platelet aggregation in a dose- and concentration-dependent manner." ([DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764), versio 2026-10-02; haettu 2026-11-19).
 
 ## Kliiniset tutkimukset
 
@@ -92,6 +92,19 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Prekliininen tai mekanistinen näyttö verihiutaleiden GP IIb/IIIa -reseptorin roolista nivelreumassa
 - Kirjallisuushaku ja tutkimusrekisterien tarkistus nivelreuman osalta
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen sekä turvallisuusarvio pitkäaikaiskäytön näkökulmasta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

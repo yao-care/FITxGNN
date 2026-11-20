@@ -54,7 +54,7 @@ Aksitinibi on tyrosiinikinaasin estäjä, jonka tiedetään vaikuttavan kasvaint
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tarpeisiin koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Aksitinibin tiedetään kuuluvan VEGFR- ja PDGFR-reittejä estäviin kinaasinestäjiin, ja sen teho on osoitettu munuaissolukarsinoomassa. Mekanistisesti sen angiogeneesia estävä vaikutus voi olla sovellettavissa myös liposarkoomaan.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Axitinib (epävirallinen käännös): ”Aksitinibin on osoitettu estävän reseptorityrosiinikinaaseja, kuten verisuonten endoteelikasvutekijän reseptoreita (VEGFR)-1, VEGFR-2 ja VEGFR-3, terapeuttisina plasmapitoisuuksina. Näillä reseptoreilla on osuutta patologiseen angiogeneesiin, kasvaimen kasvuun ja syövän etenemiseen.” Englanninkielinen alkuteksti: "Axitinib has been shown to inhibit receptor tyrosine kinases including vascular endothelial growth factor receptors (VEGFR)-1, VEGFR-2, and VEGFR-3 at therapeutic plasma concentrations. These receptors are implicated in pathologic angiogenesis, tumor growth, and cancer progression." ([DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338), versio 2026-03-12; haettu 2026-11-19). Aksitinibin tiedetään kuuluvan VEGFR- ja PDGFR-reittejä estäviin kinaasinestäjiin, ja sen teho on osoitettu munuaissolukarsinoomassa. Mekanistisesti sen angiogeneesia estävä vaikutus voi olla sovellettavissa myös liposarkoomaan.
 
 Esiklininen työ tukee tätä ajatusta: tutkimuksessa aksitinibilla todettiin angiogeneesia ja kasvaimen kasvua estävä vaikutus myksoidin liposarkooman solulinjoissa. Tulokset ovat kuitenkin laboratorioasteen löydöksiä, eikä niiden siirtyminen potilaisiin ole osoitettu.
 
@@ -107,6 +107,19 @@ Ennusteen tukena on vain yksi prekliininen tutkimus myksoidista liposarkoomasta 
 - Kliiniset tutkimukset (vähintään vaiheen 2 tutkimus) liposarkoomassa
 - Prekliinisten tulosten vahvistaminen muissa liposarkoomatyypeissä
 - Yhteisvaikutusten arviointi, erityisesti vahvojen CYP3A4-estäjien ja -indusoijien osalta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -54,7 +54,7 @@ Regorafenibi on suun kautta otettava monikinaasi-estäjä. TxGNN-malli ennustaa 
 
 ## Miksi ennuste on perusteltu?
 
-Regorafenibi on monikinaasi-estäjä, joka kohdistuu verisuonten uudismuodostusta säätelevään VEGFR1–3- ja TIE2-reseptoriin, strooman PDGFR- ja FGFR-reseptoreihin sekä onkogeenisiin kinaaseihin KIT, RET ja RAF. Nämä reitit ovat tärkeitä pehmytkudossarkoomien, myös liposarkooman, kasvussa ja verisuonituksessa. Yksityiskohtaista, tähän raporttiin koottua vaikutusmekanismitietoa ei ole saatavilla, joten mekanismikuvaus perustuu julkaisuihin.
+Regorafenibi on monikinaasi-estäjä, joka kohdistuu verisuonten uudismuodostusta säätelevään VEGFR1–3- ja TIE2-reseptoriin, strooman PDGFR- ja FGFR-reseptoreihin sekä onkogeenisiin kinaaseihin KIT, RET ja RAF. Nämä reitit ovat tärkeitä pehmytkudossarkoomien, myös liposarkooman, kasvussa ja verisuonituksessa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Regorafenib (epävirallinen käännös): ”Regorafenibi on pienimolekyylinen estäjä, joka estää useita solukalvoon sitoutuneita ja solunsisäisiä kinaaseja, jotka osallistuvat normaaleihin solutoimintoihin ja patologisiin prosesseihin, kuten onkogeneesiin, kasvaimen angiogeneesiin, etäpesäkkeiden muodostumiseen ja kasvainimmuniteettiin. In vitro -biokemiallisissa tai solumäärityksissä regorafenibi tai sen tärkeimmät ihmisessä muodostuvat aktiiviset metaboliitit M-2 ja M-5 estivät RET:n, VEGFR1:n, VEGFR2:n, VEGFR3:n, KIT:n, PDGFR-alfan, PDGFR-beetan, FGFR1:n, FGFR2:n, TIE2:n, DDR2:n, TrkA:n, Eph2A:n, RAF-1:n, BRAF:n, BRAF V600E:n, SAPK2:n, PTK5:n, Abl:n ja CSF1R:n aktiivisuutta regorafenibipitoisuuksilla, jotka on saavutettu kliinisesti.” Englanninkielinen alkuteksti: "Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically." ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), versio 2026-02-09; haettu 2026-11-19).
 
 Ennuste liittyy pehmytkudossarkoomiin, joissa regorafenibista on satunnaistettua näyttöä. REGOSARC-tutkimus osoitti hyötyä ei-adiposyyttisissä sarkoomissa, mutta ei liposarkoomassa. Alatyyppikohtainen hyöty on siis rajallinen ja vaatii varmennusta.
 
@@ -131,11 +131,12 @@ Näytön taso on L2: satunnaistettuja lumekontrolloituja faasin 2 tutkimuksia on
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Stivarga (EMEA/H/C/002573) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7) |
 
 <!-- review:end log -->
 

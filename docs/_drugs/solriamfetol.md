@@ -58,7 +58,7 @@ Solriamfetoli on valveillaoloa edistävä lääkeaine, joka estää dopamiinin j
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin yhteydessä koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Yleisen farmakologisen tiedon mukaan solriamfetoli on dopamiinin ja noradrenaliinin takaisinoton estäjä. Tämä mekanismi on tunnistettu myös farmakologisten kohdetietojen perusteella (noradrenaliinin kuljettaja NET ja dopamiinin kuljettaja DAT).
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Solriamfetol (epävirallinen käännös): ”Solriamfetolin vaikutusmekanismi valveillaolon parantamisessa potilailla, joilla on narkolepsiaan tai obstruktiiviseen uniapneaan liittyvää liiallista päiväaikaista uneliaisuutta, on epäselvä. Sen teho voi kuitenkin välittyä sen dopamiinin ja noradrenaliinin takaisinoton estäjänä (DNRI) ilmenevän vaikutuksen kautta.” Englanninkielinen alkuteksti: "The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI)." ([DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab), versio 2026-05-05; haettu 2026-11-19). Yleisen farmakologisen tiedon mukaan solriamfetoli on dopamiinin ja noradrenaliinin takaisinoton estäjä. Tämä mekanismi on tunnistettu myös farmakologisten kohdetietojen perusteella (noradrenaliinin kuljettaja NET ja dopamiinin kuljettaja DAT).
 
 Katekoliamiinivälitteisen signaloinnin vahvistaminen otsalohkon piireissä on ADHD:n lääkehoidon vakiintunut vaikutustapa, kuten metyylifenidaatilla ja atomoksetiinilla. Siksi solriamfetolin mekanismi on suoraan merkityksellinen tarkkaamattomuuden ja ylivilkkauden oireille. Lääkkeen on myös tutkittu olevan vaihtoehto stimulanttilääkkeille ADHD:n hoidossa.
 
@@ -130,11 +130,12 @@ Farmakologisen kyselyn mukaan solriamfetoli vaikuttaa noradrenaliinin kuljettaja
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Sunosi (EMEA/H/C/004893) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab) |
 
 <!-- review:end log -->
 

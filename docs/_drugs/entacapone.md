@@ -58,7 +58,7 @@ Entakaponi on COMT-estäjä, jota on alun perin käytetty **Parkinsonin taudin**
 
 ## Miksi ennuste on perusteltu?
 
-Tälle raportille kootuissa tiedoissa entakaponin vaikutusmekanismitietoa ei ole saatavilla. Tiedossa on, että entakaponi on COMT-estäjä (katekoli-O-metyylitransferaasin estäjä), joka pidentää levodopan vaikutusta, ja sen teho Parkinsonin taudissa on osoitettu. Mekanistisesti se voisi soveltua tilaan, jossa esiintyy dopaminergistä vajetta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Entacapone (epävirallinen käännös): ”Entakaponi on COMT:n selektiivinen ja palautuva estäjä. Nisäkkäillä COMT:ta esiintyy eri elimissä, ja sen aktiivisuus on suurin maksassa ja munuaisissa. COMT:ta esiintyy myös sydämessä, keuhkoissa, sileissä lihaksissa ja luustolihaksissa, suolistossa, lisääntymiselimissä, erilaisissa rauhasissa, rasvakudoksessa, ihossa, verisoluissa ja hermokudoksissa, erityisesti gliasoluissa.” Englanninkielinen alkuteksti: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), versio 2026-02-16; haettu 2026-11-19). Tiedossa on, että entakaponi on COMT-estäjä (katekoli-O-metyylitransferaasin estäjä), joka pidentää levodopan vaikutusta, ja sen teho Parkinsonin taudissa on osoitettu. Mekanistisesti se voisi soveltua tilaan, jossa esiintyy dopaminergistä vajetta.
 
 PLA2G6-assosioituneeseen neurodegeneraatioon kuuluvat infantiili neuroaksonaalinen dystrofia sekä PLA2G6:een liittyvä dystonia-parkinsonismi. Parkinsonismin piirteiden vuoksi dopaminerginen yhteys on uskottava. Entakaponi voisi kuitenkin lievittää vain oireita. Se ei vaikuttaisi taustalla olevaan lipidiaineenvaihdunnan ja mitokondrioiden patologiaan.
 
@@ -142,13 +142,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niih
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
 
 <!-- review:end log -->
 

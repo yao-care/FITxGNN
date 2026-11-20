@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **opsismodysplasiaan** (harvinainen luust
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tiedot pioglitatsonin tarkasta vaikutusmekanismista eivät ole tässä aineistossa saatavilla. Tunnetun lääkeluokan perusteella pioglitatsoni on PPAR-gamma-agonisti, joka parantaa insuliiniherkkyyttä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pioglitazone (epävirallinen käännös): ”ACTOS on tiatsolidiinidioni, jonka vaikutusmekanismi edellyttää insuliinin läsnäoloa. ACTOS vähentää insuliiniresistenssiä ääreiskudoksissa ja maksassa, mikä lisää insuliinista riippuvaista glukoosin hyödyntämistä ja vähentää maksan glukoosintuotantoa. […] Pioglitatsoni ei ole insuliinin eritystä lisäävä aine.” Englanninkielinen alkuteksti: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c), versio 2025-03-28; haettu 2026-11-19). Tunnetun lääkeluokan perusteella pioglitatsoni on PPAR-gamma-agonisti, joka parantaa insuliiniherkkyyttä.
 
 Opsismodysplasia on harvinainen luuston kehityshäiriö, jonka aiheuttaa INPPL1-geenin (SHIP2) toiminnan menetys. Tämä vaikuttaa PI3K- ja insuliinisignalointiin. Tästä voidaan päätellä löyhä yhteys pioglitatsonin insuliinisignalointiin vaikuttavaan toimintaan, mutta varsinaista mekanistista tai kliinistä näyttöä yhteydestä ei ole.
 
@@ -172,7 +172,7 @@ Lääkevalmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla täss�
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -181,6 +181,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”koska kaikki luvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Incresync (EMEA/H/C/002178): voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 5 myyntilupaa (Actos (EMEA/H/C/000285), Pioglitazone Accord (EMEA/H/C/002277), Pioglitazone Actavis (EMEA/H/C/002324), Tandemact (EMEA/H/C/000680), Competact (EMEA/H/C/000655)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->
 

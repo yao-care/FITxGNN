@@ -59,7 +59,7 @@ Ennusteen tueksi ei kuitenkaan ole tällä hetkellä yhtään kliinistä tutkimu
 
 ## Miksi ennuste on perusteltu?
 
-Spironolaktoni on mineralokortikoidireseptorin salpaaja, jolla on lisäksi antiandrogeenisia vaikutuksia: se salpaa androgeenireseptoria ja vähentää androgeenien synteesiä. Tätä ominaisuutta hyödynnetään off-label-käytössä androgeeniriippuvaisessa hiustenlähdössä, kuten naisten kuviollisessa hiustenlähdössä. Yksityiskohtaisia vaikutusmekanismitietoja ei ole tähän raporttiin koottu aineistossa saatavilla, joten mekanismia ei voitu verrata lääkkeen ensisijaisiin kohteisiin.
+Spironolaktoni on mineralokortikoidireseptorin salpaaja, jolla on lisäksi antiandrogeenisia vaikutuksia: se salpaa androgeenireseptoria ja vähentää androgeenien synteesiä. Tätä ominaisuutta hyödynnetään off-label-käytössä androgeeniriippuvaisessa hiustenlähdössä, kuten naisten kuviollisessa hiustenlähdössä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Spironolactone (epävirallinen käännös): ”Spironolaktoni ja sen aktiiviset metaboliitit ovat aldosteronin spesifisiä farmakologisia antagonisteja, jotka vaikuttavat pääasiassa sitoutumalla kilpailevasti reseptoreihin munuaisten distaalisen kiemuratiehyen aldosteroniriippuvaisessa natrium-kaliumvaihtokohdassa. Spironolaktoni lisää natriumin ja veden erittymistä, kun taas kalium jää elimistöön.” Englanninkielinen alkuteksti: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), versio 2025-11-28; haettu 2026-11-19).
 
 Hiuspohjan hypotrichosis simplex on harvinainen perinnöllinen hiustenlähtösairaus, jonka aiheuttavat geenivariantit (esim. CDSN, APCDD1, RPL21). Se ei ole ensisijaisesti androgeenivälitteinen. Yhteys spironolaktonin alkuperäisiin käyttöaiheisiin (nestetasapaino, sydän- ja verisuonisairaudet, aldosteronin liikatuotanto) on siten heikko, ja mekanistinen perustelu on spekulatiivinen.
 
@@ -133,13 +133,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi ainoa suomalainen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Qaialdo (EMEA/H/C/005535) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eik�
 
 ## Miksi ennuste on perusteltu?
 
-Käytettävissä olevassa aineistossa vaikutusmekanismitietoa ei ole. Tunnetun tiedon perusteella diroksimeelifumaraatti on MMF:n esilääke, ja MMF aktivoi Nrf2-antioksidanttireitin. Tämä reitti vaikuttaa oksidatiivista stressiä ja tulehdusta vastaan, mikä on keskeistä MS-taudissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Diroximel Fumarate (epävirallinen käännös): ”Mekanismia, jolla diroksimeelifumaraatti saa aikaan terapeuttisen vaikutuksensa multippeliskleroosissa, ei tunneta. Diroksimeelifumaraatin aktiivisen metaboliitin, MMF:n, on osoitettu aktivoivan tuman tekijä (erytroidiperäinen 2) -kaltainen 2 (Nrf2) -reittiä in vitro sekä in vivo eläimillä ja ihmisillä.” Englanninkielinen alkuteksti: "The mechanism by which diroximel fumarate exerts its therapeutic effect in multiple sclerosis is unknown. MMF, the active metabolite of diroximel fumarate, has been shown to activate the nuclear factor (erythroid-derived 2)-like 2 (Nrf2) pathway in vitro and in vivo in animals and humans." ([DailyMed: Vumerity (diroximel fumarate) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d74414f-6b83-4ea2-9a95-3cecabbce774), versio 2025-05-29; haettu 2026-11-19). Tunnetun tiedon perusteella diroksimeelifumaraatti on MMF:n esilääke, ja MMF aktivoi Nrf2-antioksidanttireitin. Tämä reitti vaikuttaa oksidatiivista stressiä ja tulehdusta vastaan, mikä on keskeistä MS-taudissa.
 
 Oksidatiivinen stressi ja polyolireitin aiheuttama vaurio edistävät diabeettista linssin samentumaa ja verkkokalvon vaurioita. Nrf2:n aktivointi on siksi teoriassa uskottava, mutta testaamaton yhteys. Diabeettisen retinopatian osalta fumaraateilla on laajemmassa kirjallisuudessa prekliinistä työtä verkkokalvomalleissa, mutta sitä ei toimitettu tähän raporttiin, joten sitä ei voi arvioida.
 
@@ -119,12 +119,13 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, ei ole tässä rap
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja valmisteen ainoa Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Vumerity (EMEA/H/C/005437) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Vumerity (diroximel fumarate) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d74414f-6b83-4ea2-9a95-3cecabbce774) |
 
 <!-- review:end log -->
 

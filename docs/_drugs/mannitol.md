@@ -58,7 +58,7 @@ Mannitoli on osmoottinen aine, jota on alun perin käytetty kystisen fibroosin h
 
 ## Miksi ennuste voi vaikuttaa uskottavalta?
 
-Tässä raportissa käytettävissä ei ole yksityiskohtaisia tietoja mannitolin vaikutusmekanismista. Tunnetun perusteella mannitoli on osmoottinen diureetti, joka lisää nesteen erittymistä munuaisten kautta. Kystisen fibroosin hoidossa inhalaationa annettuna se vaikuttaa osmoottisesti hengitysteiden eritteisiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Mannitol (epävirallinen käännös): ”Laskimoon annettuna mannitoli saa aikaan osmoottisen diureettisen vaikutuksensa molekyylikooltaan suhteellisen pienenä liuenneena aineena, joka rajoittuu suurelta osin solunulkoiseen tilaan. Mannitoli estää veden takaisinimeytymistä tubuluksissa ja tehostaa natriumin ja kloridin erittymistä nostamalla glomerulussuodoksen osmolaarisuutta.” Englanninkielinen alkuteksti: "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc), versio 2025-08-26; haettu 2026-11-19). Tunnetun perusteella mannitoli on osmoottinen diureetti, joka lisää nesteen erittymistä munuaisten kautta. Kystisen fibroosin hoidossa inhalaationa annettuna se vaikuttaa osmoottisesti hengitysteiden eritteisiin.
 
 Teoriassa osmoottinen diureesi voisi edistää vapaan veden erittymistä. NSIAD:n taustalla on kuitenkin vasopressiinireseptorin (AVPR2) toiminnan lisääntymiseen johtava mutaatio, ja tavanomaista hoitoa ovat nesterajoitus, urea tai liuenneiden aineiden lisääminen. Mekanistinen yhteys alkuperäiseen käyttöaiheeseen on heikko, eikä mannitolista ole NSIAD:ssa omaa näyttöä. Lisäksi mannitoli voi aiheuttaa translokaatiohyponatremiaa, joten käyttöön liittyy haittojen riski.
 
@@ -127,12 +127,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava Fimean valmiste
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Ainoa Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Bronchitol (EMEA/H/C/001252) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
 
 <!-- review:end log -->
 

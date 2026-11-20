@@ -62,7 +62,7 @@ Tietoaineiston ykkösennuste (KLL/SLL:n alatyyppi) on käytännössä jo hyväks
 
 ## Miksi ennuste on järkevä?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu. Tunnetun tiedon perusteella venetoklaksi on selektiivinen BCL-2-estäjä, joka palauttaa syöpäsolujen apoptoosin. Sen teho KLL:ssä on osoitettu, ja mekanistisesti se voi soveltua myös myeloiseen leukemiaan.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Venetoclax (epävirallinen käännös): ”Venetoklaksi on selektiivinen ja suun kautta biologisesti hyötyosuuksinen pienimolekyylinen BCL-2:n estäjä; BCL-2 on antiapoptoottinen proteiini. BCL-2:n yli-ilmentymistä on osoitettu KLL- ja AML-soluissa, joissa se välittää kasvainsolujen eloonjäämistä, ja siihen on liittynyt resistenssi solunsalpaajille.” Englanninkielinen alkuteksti: "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), versio 2026-05-20; haettu 2026-11-19). Tunnetun tiedon perusteella venetoklaksi on selektiivinen BCL-2-estäjä, joka palauttaa syöpäsolujen apoptoosin. Sen teho KLL:ssä on osoitettu, ja mekanistisesti se voi soveltua myös myeloiseen leukemiaan.
 
 Akuutin myeloisen leukemian (AML) solut ovat usein riippuvaisia BCL-2:sta. Venetoklaksin ja hypometyloivien lääkkeiden yhdistelmä on vakiintunutta kliinistä käytäntöä, ja siitä on runsaasti vaiheen 2/3 tutkimusnäyttöä. Tietoaineisto ei sisällä ratkaisevien tutkimusten tuloksia suoraan, ja venetoklaksi on jo hyväksytty AML:ään monissa maissa, joten kyse on pitkälti vakiintuneesta käytöstä eikä uudesta uudelleenkäytöstä.
 
@@ -162,11 +162,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenv
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomen myyntiluvan tilan selvitys: nykyinen myyntilupa on peruutettu, joten saatavuus ja hyväksytyt käyttöaiheet on varmistettava” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
 
 <!-- review:end log -->
 

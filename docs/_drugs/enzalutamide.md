@@ -54,7 +54,7 @@ Enzalutamidi on androgeenireseptorin signalointia estävä lääkeaine. Paikalli
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Aineiston perusteella enzalutamidin yksityiskohtaista vaikutusmekanismia ei ole saatavilla. Tiedossa on, että lääke on lupatietojen mukaan käytössä eturauhasen kasvaimiin, ja sen tiedetään kirjallisuudessa vaikuttavan androgeenireseptorin signalointireittiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Enzalutamide (epävirallinen käännös): ”Entsalutamidi on androgeenireseptorin estäjä, joka vaikuttaa androgeenireseptorin signalointireitin eri vaiheisiin. Entsalutamidin on osoitettu estävän kilpailevasti androgeenien sitoutumista androgeenireseptoreihin, ja näin ollen se estää androgeenireseptorien siirtymistä tumaan ja niiden vuorovaikutusta DNA:n kanssa.” Englanninkielinen alkuteksti: "Enzalutamide is an androgen receptor inhibitor that acts on different steps in the androgen receptor signaling pathway. Enzalutamide has been shown to competitively inhibit androgen binding to androgen receptors; and consequently, inhibits nuclear translocation of androgen receptors and their interaction with DNA." ([DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf), versio 2026-07-28; haettu 2026-11-19). Tiedossa on, että lääke on lupatietojen mukaan käytössä eturauhasen kasvaimiin, ja sen tiedetään kirjallisuudessa vaikuttavan androgeenireseptorin signalointireittiin.
 
 Eturauhasen leiomyooma on harvinainen hyvänlaatuinen eturauhasen mesenkymaalinen kasvain. Ennuste perustuu todennäköisesti kasvaimen anatomiseen ja ontologiseen läheisyyteen eturauhassyöpään, ei tunnettuun mekanismiin. Ei ole näyttöä siitä, että androgeenireseptorisignalointi ajaisi tätä kasvainta. Mekanistinen yhteys on siksi heikko ja spekulatiivinen.
 
@@ -105,6 +105,19 @@ Muiden turvallisuustietojen osalta tarkista valmisteyhteenveto.
 - Yksityiskohtaista vaikutusmekanismitietoa
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäyntiä
 - Arviota siitä, onko kyseisen harvinaisen hyvänlaatuisen kasvaimen hoidolle kliinistä tarvetta ja tutkimuksen toteutettavuutta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

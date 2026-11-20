@@ -56,7 +56,7 @@ Ennuste perustuu yksinomaan mallin tuottamaan tietoon, joten näyttö on heikkoa
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Fentanyylin tarkka vaikutusmekanismi ei ole tässä aineistossa saatavilla. Yleistiedon mukaan fentanyyli on mu-opioidireseptorin agonisti, ja sen teho kivun hoidossa on osoitettu. Alkuperäinen käyttöaihe (kipu ja syöpäkipu) ei kuitenkaan liity läheisesti ennustettuun uuteen käyttöaiheeseen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Fentanyl (epävirallinen käännös): ”Fentanyylisitraatti-injektioneste on opioidiagonisti, jonka hoidollisesti merkittävimmät päävaikutukset ovat analgesia ja sedaatio.” Englanninkielinen alkuteksti: "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), versio 2026-10-23; haettu 2026-11-19). Yleistiedon mukaan fentanyyli on mu-opioidireseptorin agonisti, ja sen teho kivun hoidossa on osoitettu. Alkuperäinen käyttöaihe (kipu ja syöpäkipu) ei kuitenkaan liity läheisesti ennustettuun uuteen käyttöaiheeseen.
 
 Nefrogeeninen antidiureesioireyhtymä johtuu vasopressiini V2 -reseptorin (AVPR2) tai harvemmin GNAS-geenin toimintaa lisäävistä muutoksista. Opioidit voivat vaikuttaa vasopressiinin eritykseen keskushermoston kautta ja aiheuttaa SIADH:n kaltaisia vaikutuksia. Tämä vaikutus kohdistuu kuitenkin reseptorin yläpuolelle, eikä sen odottaisi korjaavan jatkuvasti aktiivista munuaisen V2-reseptoria. Opioidien aiheuttama antidiureesi olisi pikemminkin haittavaikutus kuin hyöty. Aineiston perusteella uskottavaa hoidollista perustetta ei voida esittää.
 
@@ -138,13 +138,14 @@ Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Valmisteilla ei ole voimassa olevia myyntilupia Suomessa, ja y” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (PecFent (EMEA/H/C/001164), Effentora (EMEA/H/C/000833), Instanyl (EMEA/H/C/000959)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->
 

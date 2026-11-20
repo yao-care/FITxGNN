@@ -54,7 +54,7 @@ Desloratadiini on H1-reseptoreihin vaikuttava antihistamiini. TxGNN-malli ennust
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella desloratadiini kuuluu H1-antihistamiineihin. Sen teho histamiinivälitteisissä nenäoireissa on todettu, ja mekanistisesti se voisi soveltua myös laajempaan nenäontelon sairauksien ryhmään.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Desloratadine (epävirallinen käännös): ”Desloratadiini on pitkävaikutteinen trisyklinen histamiiniantagonisti, jolla on selektiivinen histamiinin H1-reseptorin antagonistivaikutus. Reseptorisitoutumistiedot osoittavat, että pitoisuudella 2-3 ng/mL (7 nanomolaarista) desloratadiinilla on merkittävä vuorovaikutus ihmisen histamiinin H1-reseptorin kanssa.” Englanninkielinen alkuteksti: "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor." ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), versio 2025-10-23; haettu 2026-11-19). Tunnetun tiedon perusteella desloratadiini kuuluu H1-antihistamiineihin. Sen teho histamiinivälitteisissä nenäoireissa on todettu, ja mekanistisesti se voisi soveltua myös laajempaan nenäontelon sairauksien ryhmään.
 
 Ennustettu kohde on kuitenkin hyvin yleinen ja epätarkka termi. Olennainen mekanismi, H1-antagonismi allergisessa nuhassa, kuuluu jo lääkkeen nykyiseen käyttöaiheeseen. Ennuste on siis suurelta osin päällekkäinen nykyisen käytön kanssa eikä edusta aitoa uudelleenkäyttöä.
 
@@ -90,6 +90,19 @@ Lääkkeen varoitus- ja vasta-aihetietoja ei ole tällä hetkellä saatavilla t�
 - Desloratadiinia suoraan tutkivat kliiniset tai prekliiniset tutkimukset kyseisessä sairaudessa
 - Vaikutusmekanismitietojen täydentäminen
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen ja turvallisuusarvio
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -60,7 +60,7 @@ Tämän ennusteen näyttö on pelkkää mallin ennustetta (taso L5).
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raportin laatimiseen kootuissa tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on kuitenkin, että tekovirimaatti estää ortopoksivirusten VP37-vaippaproteiinin (F13L-tyyppinen proteiini), jolloin solun ulkopuolisten vaipallisten virushiukkasten muodostuminen estyy.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tecovirimat vaikutusmekanismiksi (epävirallinen käännös): ”Vaipan fosfolipaasi OPG057:n estäjä” Englanninkielinen alkuteksti: "Envelope phospholipase OPG057 inhibitor" ([ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073), CC BY-SA 3.0; haettu 2026-11-19). Tiedossa on kuitenkin, että tekovirimaatti estää ortopoksivirusten VP37-vaippaproteiinin (F13L-tyyppinen proteiini), jolloin solun ulkopuolisten vaipallisten virushiukkasten muodostuminen estyy.
 
 Ohrainen on tyypillisesti silmäluomen rauhasten paikallinen bakteeri-infektio, jonka aiheuttaja on useimmiten *Staphylococcus aureus*. Bakteereilla ei tiedetä olevan VP37:n vastinetta, joten uskottavaa vaikutusmekanismia ei löydy. Korkea pistemäärä heijastaa todennäköisesti verkostoläheisyyttä muihin infektiolääkkeisiin eikä todellista biologiaa.
 
@@ -146,13 +146,14 @@ Turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon. Kootuissa tiedoi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys Suomen myyntiluvan peruuttamisen syystä ja nykyisestä saatavuudesta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Tecovirimat SIGA (EMEA/H/C/005248 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL1257073 (tecovirimat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1257073) |
 
 <!-- review:end log -->
 

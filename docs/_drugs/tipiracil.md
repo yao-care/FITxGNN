@@ -54,7 +54,7 @@ Tipiracil on tymidiinifosforylaasin estäjä, jota käytetään yhdessä triflur
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tipiracil estää tymidiinifosforylaasi-entsyymiä. Lääkettä käytetään yhdessä trifluridiinin kanssa metastasoituneen paksusuolen ja peräsuolen syövän hoidossa: tipiracil hidastaa trifluridiinin hajoamista ja pidentää sen vaikutusta. Tarkempaa vaikutusmekanismia koskevia tietoja ei tähän raporttiin koottu aineistoon sisälly.
+Tipiracil estää tymidiinifosforylaasi-entsyymiä. Lääkettä käytetään yhdessä trifluridiinin kanssa metastasoituneen paksusuolen ja peräsuolen syövän hoidossa: tipiracil hidastaa trifluridiinin hajoamista ja pidentää sen vaikutusta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta trifluridine and tipiracil (yhdistelmävalmiste, joka sisältää aineen Tipiracil) (epävirallinen käännös): ”LONSURF koostuu tymidiinipohjaisesta nukleosidianalogista, trifluridiinista, ja tymidiinifosforylaasin estäjästä, tipirasiilista, moolisuhteessa 1:0,5 (painosuhde 1:0,471). Tipirasiilin lisääminen suurentaa trifluridiinialtistusta estämällä sen tymidiinifosforylaasin välityksellä tapahtuvaa metaboliaa.” Englanninkielinen alkuteksti: "LONSURF consists of a thymidine-based nucleoside analog, trifluridine, and the thymidine phosphorylase inhibitor, tipiracil, at a molar ratio 1:0.5 (weight ratio, 1:0.471). Inclusion of tipiracil increases trifluridine exposure by inhibiting its metabolism by thymidine phosphorylase." ([DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85), versio 2025-11-05; haettu 2026-11-19).
 
 Villoosi adenooma on paksusuolen esiasteleesio, jota hoidetaan tyypillisesti tähystyksessä tai leikkauksella. Korkea ennustepistemäärä heijastaa todennäköisesti anatomista ja tautiluokituksellista läheisyyttä paksusuolen kasvaimiin, ei osoitettua farmakologista hyötyä. Solunsalpaajahoidon tarpeesta tässä esiasteessa ei ole näyttöä.
 
@@ -103,11 +103,12 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Lonsurf (EMEA/H/C/003897) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85) |
 
 <!-- review:end log -->
 

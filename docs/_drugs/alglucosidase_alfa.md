@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **aikuisten polyglukosaanikappaletautiin*
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Yksityiskohtaisia tietoja vaikutusmekanismista ei ole tällä hetkellä saatavilla. Tiedossa on, että alglukosidaasi alfa korvaa puuttuvaa lysosomaalista happaman alfa-glukosidaasin aktiivisuutta ja hajottaa lysosomissa varastoitunutta glykogeenia, mikä on osoitettu tehokkaaksi Pompen taudissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Alglucosidase Alfa (epävirallinen käännös): ”Pompen tauti (happaman maltaasin puutos, glykogeenikertymätauti tyyppi II, GSD II, glykogenoosi tyyppi II) on perinnöllinen glykogeeniaineenvaihdunnan häiriö, jonka aiheuttaa lysosomaalisen GAA-entsyymin puuttuminen tai huomattava puutos. Alglukosidaasi alfa toimii eksogeenisena GAA:n lähteenä.” Englanninkielinen alkuteksti: "Pompe disease (acid maltase deficiency, glycogen storage disease type II, GSD II, glycogenosis type II) is an inherited disorder of glycogen metabolism caused by the absence or marked deficiency of the lysosomal enzyme GAA. Alglucosidase alfa provides an exogenous source of GAA." ([DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df), versio 2025-01-10; haettu 2026-11-19). Tiedossa on, että alglukosidaasi alfa korvaa puuttuvaa lysosomaalista happaman alfa-glukosidaasin aktiivisuutta ja hajottaa lysosomissa varastoitunutta glykogeenia, mikä on osoitettu tehokkaaksi Pompen taudissa.
 
 Aikuisten polyglukosaanikappaletauti johtuu glykogeenia haaroittavan entsyymin (GBE1) puutoksesta. Sen seurauksena huonosti haaroittunutta, liukenematonta polyglukosaania kertyy hermosoluihin ja aksoneihin. Ennusteen taustalla on uskottava mutta todistamaton käsitteellinen yhteys, eli yhteinen glykogeeniaineenvaihdunta.
 
@@ -130,12 +130,13 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisva
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Myozyme (EMEA/H/C/000636) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df) |
 
 <!-- review:end log -->
 

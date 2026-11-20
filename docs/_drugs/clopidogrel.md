@@ -54,7 +54,7 @@ Klopidogreeli on verihiutaleiden P2Y12-reseptoria estävä lääke. TxGNN-malli 
 
 ## Miksi ennuste on perusteltu?
 
-Klopidogreeli on tienopyridi, joka estää ADP:n välittämää verihiutaleiden aggregaatiota P2Y12-reseptorin kautta. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnettujen tietojen perusteella lääke on verihiutaleiden estäjä, jonka teho valtimotukoksissa on osoitettu, ja mekanistisesti se voi olla sovellettavissa migreeniin.
+Klopidogreeli on tienopyridi, joka estää ADP:n välittämää verihiutaleiden aggregaatiota P2Y12-reseptorin kautta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Clopidogrel (epävirallinen käännös): ”Klopidogreeli estää verihiutaleiden aktivaatiota ja aggregaatiota, koska sen aktiivinen metaboliitti sitoutuu irreversiibelisti verihiutaleiden P2Y 12 -luokan ADP-reseptoreihin.” Englanninkielinen alkuteksti: "Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227), versio 2025-05-30; haettu 2026-11-19). Tunnettujen tietojen perusteella lääke on verihiutaleiden estäjä, jonka teho valtimotukoksissa on osoitettu, ja mekanistisesti se voi olla sovellettavissa migreeniin.
 
 Auralliseen migreeniin, erityisesti PFO:n yhteydessä, on esitetty yhteys mikroembolioiden tai verihiutaleperäisten vasoaktiivisten aineiden (esim. serotoniini) kautta, jotka voivat laukaista aivokuoren leviävän depression. Klopidogreelin on raportoitu vähentävän migreenikohtauksia PFO:n tai ASD:n sulkemisen jälkeen.
 
@@ -105,6 +105,19 @@ Ennustepisteet ovat korkeat, mutta mikään kerätyistä tutkimuksista ei tutki 
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen täydentäminen
 - Vaikutusmekanismin tarkempi kuvaus
 - Hyöty–riski-arvio verenvuotoriskin ja protonipumpun estäjien yhteisvaikutusten osalta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

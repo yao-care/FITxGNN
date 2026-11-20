@@ -60,7 +60,7 @@ Parhaiten tuettu uusi suunta on **aivoverenvuodon (ICH) uusiutumisen ehkäisy**,
 
 ## Miksi ennuste on uskottava?
 
-Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella telmisartaani salpaa AT1-reseptoreita ja aktivoi osittain PPARγ-reseptoria. Sen teho kohonneen verenpaineen hoidossa on osoitettu, ja mekanistisesti se voisi soveltua verisuoniperäisiin sairauksiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Telmisartan (epävirallinen käännös): ”Angiotensiini II muodostuu angiotensiini I:stä angiotensiinikonvertaasin (ACE, kininaasi II) katalysoimassa reaktiossa. Angiotensiini II on reniini-angiotensiinijärjestelmän pääasiallinen verenpainetta kohottava aine, ja sen vaikutuksia ovat muun muassa verisuonten supistuminen, aldosteronin synteesin ja vapautumisen stimulointi, sydämen stimulointi sekä natriumin takaisinimeytyminen munuaisissa. […] Telmisartaani salpaa angiotensiini II:n verisuonia supistavat ja aldosteronin eritystä lisäävät vaikutukset estämällä selektiivisesti angiotensiini II:n sitoutumisen AT 1 -reseptoriin monissa kudoksissa, kuten verisuonten sileässä lihaksessa ja lisämunuaisessa.” Englanninkielinen alkuteksti: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the reninangiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Telmisartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10), versio 2026-11-02; haettu 2026-11-19). Tunnetun tiedon perusteella telmisartaani salpaa AT1-reseptoreita ja aktivoi osittain PPARγ-reseptoria. Sen teho kohonneen verenpaineen hoidossa on osoitettu, ja mekanistisesti se voisi soveltua verisuoniperäisiin sairauksiin.
 
 Prinzmetalin angiinassa kyse on sepelvaltimoiden kouristuksesta (vasospasmi). Mahdollinen yhteys perustuu AT1-salpauksen ja PPARγ-välitteisten endoteelivaikutusten kykyyn vaikuttaa verisuonten supistumiseen. Tämä on **spekulatiivista**, eikä sitä tue mikään kerätty tutkimus.
 
@@ -158,13 +158,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava erikseen.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 12 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki myyntiluvat Suomessa on peruutettu ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Lonafarnibi on farnesyylitransferaasin estäjä, jota on alun perin käytetty pr
 
 ## Miksi ennuste on perusteltu?
 
-Lonafarnibi estää farnesyylitransferaasi-entsyymiä ja siten proteiinien farnesylaatiota (esim. progeriini, Ras-perheen proteiinit ja lamiinien prosessointi). Tarkkaa vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla, joten tarkastelu perustuu yleiseen farmakologiaan.
+Lonafarnibi estää farnesyylitransferaasi-entsyymiä ja siten proteiinien farnesylaatiota (esim. progeriini, Ras-perheen proteiinit ja lamiinien prosessointi). Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lonafarnib (epävirallinen käännös): ”Lonafarnibi estää farnesyylitransferaasia ja estää näin progeriinin ja progeriinin kaltaisten proteiinien farnesylaation ja sitä seuraavan kertymisen tumakalvon sisäkalvoon.” Englanninkielinen alkuteksti: "Lonafarnib inhibits farnesyltransferase to prevent farnesylation and subsequent accumulation of progerin and progerin-like proteins in the inner nuclear membrane." ([DailyMed: Zokinvy (lonafarnib) prescribing information, Sentynl Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97391d0c-943e-4c5a-8423-68e163aa7f50), versio 2025-07-02; haettu 2026-11-19).
 
 Yhteys lepraan on toistaiseksi spekulatiivinen. *Mycobacterium leprae* -infektio liittyy isäntäsolun lipidiaineenvaihduntaan, Schwannin solujen signalointiin ja makrofagien vasteisiin. Prenylaatiosta riippuvaiset pienet GTPaasit (Ras/Rho/Rab) osallistuvat fagosomien kypsymiseen ja tulehdussignalointiin, joten farnesylaation esto voisi teoriassa vaikuttaa näihin prosesseihin. Tästä ei kuitenkaan ole suoraa näyttöä.
 
@@ -136,12 +136,13 @@ Muiden turvallisuustietojen (varoitukset, vasta-aiheet) osalta katso valmisteyht
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilassa "peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu ja y” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Zokinvy (lonafarnib) prescribing information, Sentynl Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97391d0c-943e-4c5a-8423-68e163aa7f50) |
 
 <!-- review:end log -->
 

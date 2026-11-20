@@ -58,7 +58,7 @@ Tezakaftori on CFTR-proteiinin korjaaja (korjaaja eli korrektori), jota on alun 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin laatimiseen koottuun aineistoon ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että tezakaftori on CFTR-korjaaja, joka parantaa CFTR-proteiinin laskostumista ja kulkeutumista solun pinnalle. Sitä käytetään kystisen fibroosin hoidossa kiinteänä yhdistelmänä muiden CFTR-modulaattorien kanssa (Symdeko, Trikafta ja Alyftrek).
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta vanzacaftor, tezacaftor, and deutivacaftor (yhdistelmävalmiste, joka sisältää aineen Tezacaftor) (epävirallinen käännös): ”Vantsakaftori ja tetsakaftori sitoutuvat CFTR-proteiinin eri kohtiin, ja niillä on additiivinen vaikutus tiettyjen CFTR:n mutanttimuotojen (mukaan lukien F508del- CFTR) solunsisäisen käsittelyn ja kuljetuksen edistämisessä, mikä lisää solun pinnalle kulkeutuvan CFTR-proteiinin määrää kumpaankin molekyyliin yksinään verrattuna. Vantsakaftorin, tetsakaftorin ja deutivakaftorin yhteisvaikutuksena CFTR:n määrä ja toiminta solun pinnalla lisääntyvät, mikä johtaa CFTR-aktiivisuuden lisääntymiseen mitattuna sekä CFTR-välitteisenä kloridin kuljetuksena in vitro että hikikloridina CF-potilailla.” Englanninkielinen alkuteksti: "Vanzacaftor and tezacaftor bind to different sites on the CFTR protein and have an additive effect in facilitating the cellular processing and trafficking of select mutant forms of CFTR (including F508del- CFTR) to increase the amount of CFTR protein delivered to the cell surface compared to either molecule alone. The combined effect of vanzacaftor, tezacaftor and deutivacaftor is increased quantity and function of CFTR at the cell surface, resulting in increased CFTR activity as measured both by CFTR-mediated chloride transport in vitro and by sweat chloride in patients with CF." ([DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20), versio 2026-08-26; haettu 2026-11-19). Tiedossa on, että tezakaftori on CFTR-korjaaja, joka parantaa CFTR-proteiinin laskostumista ja kulkeutumista solun pinnalle. Sitä käytetään kystisen fibroosin hoidossa kiinteänä yhdistelmänä muiden CFTR-modulaattorien kanssa (Symdeko, Trikafta ja Alyftrek).
 
 Aineistossa ei ole mitään, mikä yhdistäisi CFTR-korjauksen HIV:n patofysiologiaan. Korkea TxGNN-pistemäärä (0,9924) on pelkkä laskennallinen ennuste, eikä sen tueksi ole kliinistä näyttöä tai kirjallisuutta. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu.
 
@@ -131,13 +131,14 @@ Muilta osin turvallisuustiedot (varoitukset ja vasta-aiheet) tulee tarkistaa val
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa (valmistaja Vertex Pharmaceuticals (Ireland) Limited) on merkitty peruutetuiksi” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Poistettu: ”sekä peruutettujen myyntilupien tilanteesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20) |
 
 <!-- review:end log -->
 

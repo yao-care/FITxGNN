@@ -54,7 +54,7 @@ Ferrimaltoli on suun kautta otettava rautavalmiste, jonka paikallisissa lupatied
 
 ## Miksi ennuste on perusteltu?
 
-Tämän selvityksen yhteydessä koottu aineisto ei sisällä yksityiskohtaista tietoa ferrimaltolin vaikutusmekanismista. Ferrimaltoli on suun kautta otettava rautakorvaushoito, jonka teho raudanpuuteanemiassa on tunnettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Ferric Maltol (epävirallinen käännös): ”ACCRUFER toimittaa rautaa, joka imeytyy suolen seinämän läpi ja siirtyy transferriiniin ja ferritiiniin.” Englanninkielinen alkuteksti: "ACCRUFER delivers iron for uptake across the intestinal wall and transfer to transferrin and ferritin." ([DailyMed: Accrufer (ferric maltol) prescribing information, Shield TX (UK) Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=367ac157-2d25-4f34-99ce-b126e0f03851), versio 2026-01-02; haettu 2026-11-19). Ferrimaltoli on suun kautta otettava rautakorvaushoito, jonka teho raudanpuuteanemiassa on tunnettu.
 
 Plummer-Vinsonin oireyhtymälle (jota kutsutaan myös Paterson-Brown-Kelly-oireyhtymäksi) ovat tyypillisiä raudanpuuteanemia, nielemisvaikeus ruokatorven kalvomuodostumien vuoksi sekä kielitulehdus. Taustalla olevan raudanpuutteen korjaaminen on mekanistisesti uskottavaa ja kuuluu tämän tilan hoidon perusperiaatteisiin.
 
@@ -101,11 +101,12 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lupa on tilassa "peruutettu", mikä rajoittaa käytännön saatavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Accrufer (ferric maltol) prescribing information, Shield TX (UK) Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=367ac157-2d25-4f34-99ce-b126e0f03851) |
 
 <!-- review:end log -->
 

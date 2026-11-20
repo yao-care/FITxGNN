@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **primaariseen verihiutaleiden vapautumis
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Lääkkeen alkuperäistä vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella pentosaanipolysulfaatti on rikkipitoinen polysakkaridi, jolla on heikko hepariinin kaltainen antikoagulanttivaikutus. Se vaikuttaa myös fibrinolyysiin ja verihiutaleisiin liittyviin reitteihin. Tämä voisi teoriassa vaikuttaa verihiutaleiden toimintaan, mutta vaikutuksen suunta on epäselvä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Pentosan Polysulfate (epävirallinen käännös): ”Pentosaanipolysulfaattinatriumin vaikutusmekanismia interstitiaalisessa kystiitissä ei tunneta.” Englanninkielinen alkuteksti: "The mechanism of action of pentosan polysulfate sodium in interstitial cystitis is not known." ([DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593), versio 2024-09-18; haettu 2026-11-19). Tunnetun tiedon perusteella pentosaanipolysulfaatti on rikkipitoinen polysakkaridi, jolla on heikko hepariinin kaltainen antikoagulanttivaikutus. Se vaikuttaa myös fibrinolyysiin ja verihiutaleisiin liittyviin reitteihin. Tämä voisi teoriassa vaikuttaa verihiutaleiden toimintaan, mutta vaikutuksen suunta on epäselvä.
 
 Interstitiaalinen kystiitti ja verihiutaleiden vapautumishäiriö ovat lääketieteellisesti hyvin kaukana toisistaan. Verihiutaleiden vapautumishäiriö on verenvuotohäiriö, joten antikoagulanttivaikutusta omaava lääke voi pahentaa verenvuototaipumusta sen sijaan, että se auttaisi.
 
@@ -138,12 +138,13 @@ Koska lääkkeellä on antikoagulanttivaikutus ja tietämysgraafi liittää sen 
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Elmiron (EMEA/H/C/004246) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593) |
 
 <!-- review:end log -->
 

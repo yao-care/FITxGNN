@@ -54,7 +54,7 @@ Avapritinibi on KIT- ja PDGFRA-kinaasien estäjä, jota käytetään maha-suolik
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tähän raporttiin koottujen tietojen perusteella lääkkeen tarkkaa vaikutusmekanismia ei ole saatavilla. Avapritinibin tiedetään kuitenkin estävän KIT- ja PDGFRA-kinaaseja.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Avapritinib (epävirallinen käännös): ”Avapritinibi on tyrosiinikinaasin estäjä, joka kohdistuu KIT D816V-, PDGFRA- ja PDGFRA D842 -mutantteihin sekä useisiin KIT:n eksonin 11, 11/17 ja 17 mutantteihin; sen puolimaksimaaliset estävät pitoisuudet (IC 50 ) ovat biokemiallisissa määrityksissä alle 25 nM. Tietyt PDGFRA:n ja KIT:n mutaatiot voivat johtaa näiden reseptorien autofosforylaatioon ja konstitutiiviseen aktivaatioon, mikä voi osaltaan edistää kasvainsolujen ja syöttösolujen proliferaatiota.” Englanninkielinen alkuteksti: "Avapritinib is a tyrosine kinase inhibitor that targets KIT D816V, PDGFRA and PDGFRA D842 mutants as well as multiple KIT exon 11, 11/17 and 17 mutants with half maximal inhibitory concentrations (IC 50s ) less than 25 nM in biochemical assays. Certain mutations in PDGFRA and KIT can result in the autophosphorylation and constitutive activation of these receptors which can contribute to tumor and mast cell proliferation." ([DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9), versio 2026-10-20; haettu 2026-11-19). Avapritinibin tiedetään kuitenkin estävän KIT- ja PDGFRA-kinaaseja.
 
 Aksiaalinen spondylometafyysinen dysplasia on luuston kehityshäiriö, jonka on yhdistetty CFAP410 (C21orf2) -geenin muutoksiin. Nämä vaikuttavat värekarvojen ja luuston kehitykseen. KIT/PDGFRA-signalointiin ei ole osoitettu uskottavaa yhteyttä tähän tautiin.
 
@@ -95,6 +95,19 @@ Ennuste perustuu yksinomaan mallin laskemaan pistemäärään. Kliinisiä tutkim
 - Prekliinistä näyttöä taudin solu- tai eläinmalleista
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista ja arviointia
 - Turvallisuusarviota, sillä lääkkeellä tiedetään olevan keskushermosto- ja verenvuotohaittoja
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

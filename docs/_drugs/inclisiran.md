@@ -58,7 +58,7 @@ Inklisirani on PCSK9:ää kohdistava siRNA-lääke, jota käytetään alun perin
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Inklisirani on siRNA-lääke, joka ssitoutuu maksasolujen PCSK9-lähetti-RNA:han ja vaimentaa sitä. Tämä lisää LDL-reseptorien määrää maksassa ja alentaa LDL-kolesterolia. Yksityiskohtaista vaikutusmekanismitietoa ei tähän raporttiin koottu aineistosta saatu, mutta yllä kuvattu mekanismi on lääkkeen tunnettu vaikutustapa.
+Inklisirani on siRNA-lääke, joka ssitoutuu maksasolujen PCSK9-lähetti-RNA:han ja vaimentaa sitä. Tämä lisää LDL-reseptorien määrää maksassa ja alentaa LDL-kolesterolia. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Inclisiran (epävirallinen käännös): ”Inklisiraani on kaksijuosteinen pieni häiritsevä ribonukleiinihappo (siRNA), jonka sense-juosteeseen on konjugoitu triantennaarinen N-asetyyligalaktosamiini (GalNAc) hepatosyyttien soluunoton helpottamiseksi. Hepatosyyteissä inklisiraani hyödyntää RNA-interferenssimekanismia ja ohjaa PCSK9:n mRNA:n katalyyttistä hajoamista.” Englanninkielinen alkuteksti: "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9." ([DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44), versio 2026-08-19; haettu 2026-11-19).
 
 Alkuperäisen käyttöaiheen (lipidihäiriöt) ja ennustetun käyttöaiheen (kaliumin puutostila) välillä ei ole tunnistettavaa mekanistista yhteyttä. Inklisiranilla ei tunneta roolia kaliumin tasapainon säätelyssä. Korkea TxGNN-pistemäärä on todennäköisesti mallin verkkorakenteesta johtuva artefakti, eikä sitä tue kliininen tai kirjallisuusnäyttö.
 
@@ -122,11 +122,12 @@ Tämän raportin tietojen perusteella ei ole saatavilla vahvistettuja varoituksi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Huomaa: tämä myyntilupa on tilaltaan peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44) |
 
 <!-- review:end log -->
 

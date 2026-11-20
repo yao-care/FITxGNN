@@ -55,7 +55,7 @@ Lenvatinibi on useiden reseptorityrosiinikinaasien estäjä, jota käytetään S
 
 ## Miksi ennuste on perusteltu?
 
-Lenvatinibi estää VEGFR1–3-, FGFR1–4-, PDGFRα-, RET- ja KIT-reseptoreita. Näiden estäminen voi vähentää kasvaimen verisuonten muodostusta ja kasvusignalointia pehmytkudossarkoomissa. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu, joten mekanismikuvaus perustuu tunnettuihin kohdereseptoreihin.
+Lenvatinibi estää VEGFR1–3-, FGFR1–4-, PDGFRα-, RET- ja KIT-reseptoreita. Näiden estäminen voi vähentää kasvaimen verisuonten muodostusta ja kasvusignalointia pehmytkudossarkoomissa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lenvatinib (epävirallinen käännös): ”Lenvatinibi on kinaasin estäjä, joka estää verisuonten endoteelikasvutekijän (VEGF) reseptorien VEGFR1 (FLT1), VEGFR2 (KDR) ja VEGFR3 (FLT4) kinaasiaktiivisuutta. Lenvatinibi estää muita kinaaseja, joiden on normaalien solutoimintojensa lisäksi todettu liittyvän patogeeniseen angiogeneesiin, kasvaimen kasvuun ja syövän etenemiseen, mukaan lukien fibroblastikasvutekijän (FGF) reseptorit FGFR1, 2, 3 ja 4, verihiutalekasvutekijän reseptori alfa (PDGFRA), KIT ja RET.” Englanninkielinen alkuteksti: "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), versio 2026-10-14; haettu 2026-11-19).
 
 Eribuliini on mikrotubulusten estäjä, ja prekliinisissä tutkimuksissa sillä on todettu yhteisvaikutusta kohdennettujen lääkkeiden kanssa. Yhdistelmä on siksi mekanistisesti uskottava. Lisäksi CDK4-biomarkkeritutkimus viittaa siihen, että liposarkoomassa (erityisesti dedifferentioituneessa ja hyvin erilaistuneessa muodossa) on lisäksi muita merkityksellisiä signalointireittejä.
 
@@ -124,11 +124,12 @@ Ennusteen tueksi on yksi yhden haaran vaiheen Ib/II tutkimus (30 potilasta) ilma
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Lenvima (EMEA/H/C/003727), Kisplyx (EMEA/H/C/004224)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
 
 <!-- review:end log -->
 

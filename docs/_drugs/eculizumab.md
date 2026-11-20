@@ -58,7 +58,7 @@ Ekulitsumabi on komplementin C5-proteiinia estävä vasta-aine, jota on käytett
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tiedossa on, että ekulitsumabi on monoklonaalinen vasta-aine, joka estää komplementin C5:n ja siten terminaalisen komplementtireitin. Sen teho paroksysmaalisessa yöllisessä hemoglobinuriassa perustuu kontrolloimattoman komplementtiaktivaation estoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Eculizumab (epävirallinen käännös): ”Ekulitsumabi, SOLIRIS-valmisteen vaikuttava aine, on monoklonaalinen vasta-aine, joka sitoutuu spesifisesti ja suurella affiniteetilla komplementtiproteiini C5:een ja estää siten sen pilkkoutumisen C5a:ksi ja C5b:ksi ja estää terminaalisen komplementtikompleksin C5b-9 muodostumisen. SOLIRIS estää terminaalisen komplementin välittämää suonensisäistä hemolyysiä PNH-potilailla ja komplementin välittämää tromboottista mikroangiopatiaa (TMA) aHUS-potilailla.” Englanninkielinen alkuteksti: "Eculizumab, the active ingredient in SOLIRIS, is a monoclonal antibody that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9. SOLIRIS inhibits terminal complement-mediated intravascular hemolysis in PNH patients and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722), versio 2026-07-08; haettu 2026-11-19). Tiedossa on, että ekulitsumabi on monoklonaalinen vasta-aine, joka estää komplementin C5:n ja siten terminaalisen komplementtireitin. Sen teho paroksysmaalisessa yöllisessä hemoglobinuriassa perustuu kontrolloimattoman komplementtiaktivaation estoon.
 
 Syklinen hematopoieesi (syklinen neutropenia) johtuu pääasiassa ELANE-geenin mutaatioista ja neutrofiilien kypsymishäiriöstä. Aineiston perusteella sille ei tunneta komplementtivälitteistä mekanismia, joten mekanistinen yhteys alkuperäiseen käyttöaiheeseen jää heikoksi. Korkea pistemäärä kuvaa graafipohjaista samankaltaisuutta, ei todennettua biologista perustetta.
 
@@ -128,12 +128,13 @@ Varoitusten ja vasta-aiheiden osalta tarkista turvallisuustiedot valmisteyhteenv
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Huomioitava, että kaikki Suomen myyntiluvat ovat peruutettuja, mikä vaikuttaa saatavuuteen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (Soliris (EMEA/H/C/000791), Bekemv (EMEA/H/C/005652), Epysqli (EMEA/H/C/006036)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Fostamatinibi on Suomessa (EU-keskitetyn myyntiluvan kautta) trombosytopenian ho
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Fostamatinibi on R406:n esilääke, ja R406 on pernan tyrosiinikinaasin (SYK) estäjä. Sen tunnettu käyttö immuunitrombosytopeniassa perustuu siihen, että SYK:n esto vähentää makrofagien Fc-reseptorivälitteistä verihiutaleiden tuhoamista. Tämän raportin tietoihin ei kuitenkaan sisälly vahvistettua vaikutusmekanismitietoa, joten mekanistista yhteyttä ei voida varmentaa.
+Fostamatinibi on R406:n esilääke, ja R406 on pernan tyrosiinikinaasin (SYK) estäjä. Sen tunnettu käyttö immuunitrombosytopeniassa perustuu siihen, että SYK:n esto vähentää makrofagien Fc-reseptorivälitteistä verihiutaleiden tuhoamista. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Fostamatinib (epävirallinen käännös): ”Fostamatinibi on tyrosiinikinaasin estäjä, jolla on osoitettu olevan vaikutusta pernan tyrosiinikinaasiin (SYK). Fostamatinibin päämetaboliitti, R406, estää Fc-aktivoivien reseptorien ja B-solureseptorin signaalinvälitystä.” Englanninkielinen alkuteksti: "Fostamatinib is a tyrosine kinase inhibitor with demonstrated activity against spleen tyrosine kinase (SYK). The major metabolite of fostamatinib, R406, inhibits signal transduction of Fc-activating receptors and B-cell receptor." ([DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c), versio 2025-11-05; haettu 2026-11-19).
 
 TxGNN-pistemäärä on erittäin korkea, mutta se näyttää johtuvan verkostollisesta läheisyydestä alkuperäiseen trombosytopenia-käyttöaiheeseen. Ennustettu sairaus viittaa perinnölliseen (autosomaaliseen) verihiutaleiden määrän häiriöön, joka todennäköisesti ei ole immuunivälitteinen. Tällöin vasta-ainevälitteistä verihiutaleiden poistumaa ei ole, eikä SYK:n estolle ole selvää mekanistista perustetta. Ennustetta tulee siksi pitää vain laskennallisena signaalina.
 
@@ -118,13 +118,14 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilassa "peruutettu", joten voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittäminen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c) |
 
 <!-- review:end log -->
 

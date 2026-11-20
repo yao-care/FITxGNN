@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **esotropiaan** (silmien sisäänpäin k�
 
 ## Miksi ennustetta voidaan pitää järkevänä – vai voidaanko?
 
-Aflibersepti toimii VEGF-A:n, VEGF-B:n ja istukkakasvutekijän (PlGF) loustoimijana ("trap"), ja sitä annetaan silmänsisäisesti verkkokalvon verisuoni- ja uudissuonisairauksiin. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistossa saatavilla, mikä rajoittaa mekanistista arviointia.
+Aflibersepti toimii VEGF-A:n, VEGF-B:n ja istukkakasvutekijän (PlGF) loustoimijana ("trap"), ja sitä annetaan silmänsisäisesti verkkokalvon verisuoni- ja uudissuonisairauksiin. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Aflibercept (epävirallinen käännös): ”Verisuonten endoteelikasvutekijä A (VEGF-A) ja istukan kasvutekijä (PlGF) kuuluvat angiogeenisten tekijöiden VEGF-perheeseen, ja ne voivat toimia endoteelisolujen mitogeenisina, kemotaktisina ja verisuonten läpäisevyyttä lisäävinä tekijöinä. VEGF vaikuttaa kahden endoteelisolujen pinnalla olevan reseptorityrosiinikinaasin, VEGFR-1:n ja VEGFR-2:n, välityksellä. […] Afliberseptivalmisteet toimivat liukoisena houkutinreseptorina, joka sitoo VEGF-A:ta ja PlGF:ää ja voi siten estää niiden sitoutumisen näihin vastaaviin VEGF-reseptoreihin ja näiden reseptorien aktivoitumisen.” Englanninkielinen alkuteksti: "Vascular endothelial growth factor-A (VEGF-A) and placental growth factor (PlGF) are members of the VEGF family of angiogenic factors that can act as mitogenic, chemotactic, and vascular permeability factors for endothelial cells. VEGF acts via two receptor tyrosine kinases, VEGFR-1 and VEGFR-2, present on the surface of endothelial cells. […] Aflibercept products act as a soluble decoy receptor that binds VEGF - A and PlGF, and thereby can inhibit the binding and activation of these cognate VEGF receptors." ([DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06), versio 2026-10-29; haettu 2026-11-19).
 
 Esotropia on silmien asentovirhe, jonka taustalla ovat tyypillisesti hermo-lihasperäiset, taittovirheisiin liittyvät tai kahden silmän yhteisnäön tekijät. Kerätyn aineiston perusteella aflibersepitin ja esotropian välille ei löydy suoraa mekanistista yhteyttä. Korkea pistemäärä (0,9938) tulee TxGNN-mallista (syväoppiminen) ja heijastaa todennäköisesti malliin oppimia yhtäläisyyksiä toisiinsa liittyvien sairauksien välillä, ei biologista perustetta.
 
@@ -146,13 +146,14 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Valmisteyhteen
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 14 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
 
 <!-- review:end log -->
 

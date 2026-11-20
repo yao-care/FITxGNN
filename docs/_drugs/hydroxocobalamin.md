@@ -54,7 +54,7 @@ Hydroksokobalamiini on kobalamiini (B12-vitamiinin muoto), jota käytetään sya
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tarpeisiin koottu aineisto ei sisällä tarkkaa vaikutusmekanismia, joten ennustetta ei voi verrata lääkkeen tunnettuun farmakologiaan. Tunnetut vaikutukset ovat syanidin sitominen (myrkytyskäyttö) ja B12-vitamiinin täydentäminen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Hydroxocobalamin (epävirallinen käännös): ”Syanidi on äärimmäisen toksinen myrkky. Ilman nopeaa ja asianmukaista hoitoa altistuminen suurelle syanidiannokselle voi johtaa kuolemaan minuuteissa sytokromioksidaasin estymisen vuoksi, mikä johtaa soluhengityksen pysähtymiseen. […] Kukin hydroksokobalamiinimolekyyli voi sitoa yhden syanidi-ionin korvaamalla sillä kolmenarvoiseen koboltti-ioniin liittyneen hydroksoligandin, jolloin muodostuu syanokobalamiinia, joka erittyy sitten virtsaan.” Englanninkielinen alkuteksti: "Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine." ([DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b), versio 2023-04-27; haettu 2026-11-19). Tunnetut vaikutukset ovat syanidin sitominen (myrkytyskäyttö) ja B12-vitamiinin täydentäminen.
 
 Kumpikaan ei kohdistu porttilaskimopaineeseen, suonikohjujen seinämän jännitykseen tai hemostaasiin, jotka ovat ruokatorven suonikohjujen keskeisiä mekanismeja. Uskottavaa mekanistista yhteyttä ei siis ole löydetty. Korkea pistemäärä (0,9923) voi heijastaa mallin tunnistamia tilastollisia yhteyksiä, esimerkiksi maksasairauteen tai ravitsemukselliseen puutokseen liittyviä, eikä syy-yhteyttä.
 
@@ -93,6 +93,19 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat koostetusta aineistost
 - Esikliinistä tai kliinistä näyttöä, joka tutkii suoraan tätä sairautta
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistamista (erityisesti kohonnut verenpaine)
 - Yhteisvaikutusten vakavuusluokkien täydentämistä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -54,7 +54,7 @@ Reslitsumabi on anti-IL-5-monoklonaalinen vasta-aine, jota on alun perin käytet
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Reslitsumabi on anti-IL-5-vasta-aine, joka vähentää eosinofiilien signalointia. Tarkempaa vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa saatavilla.
+Reslitsumabi on anti-IL-5-vasta-aine, joka vähentää eosinofiilien signalointia. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Reslizumab (epävirallinen käännös): ”Reslitsumabi on interleukiini-5:n antagonisti (IgG4, kappa). IL-5 on tärkein sytokiini, joka vastaa eosinofiilien kasvusta ja erilaistumisesta, rekrytoinnista, aktivaatiosta ja eloonjäämisestä. Reslitsumabi sitoutuu IL-5:een dissosiaatiovakiolla 81 pM ja estää IL-5:n biologista aktiivisuutta salpaamalla sen sitoutumisen eosinofiilien pinnalla ilmentyvän IL-5-reseptorikompleksin alfaketjuun.” Englanninkielinen alkuteksti: "Reslizumab is an interleukin-5 antagonist (IgG4, kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Reslizumab binds to IL-5 with a dissociation constant of 81 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil surface." ([DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33), versio 2020-02-29; haettu 2026-11-19).
 
 Immuunivälitteisen trombosytopenian (esim. ITP) taustalla ovat pääasiassa autovasta-aineiden aiheuttama verihiutaleiden tuho ja heikentynyt megakaryopoieesi. Tunnettua mekanistista yhteyttä IL-5-reittiin ei ole. Mahdollinen yhteys olisi spekulatiivinen, esimerkiksi eosinofiilien tai Th2-aktiivisuuden osuus joissakin potilasryhmissä. Erittäin korkea TxGNN-pistemäärä (0,9953) on vain laskennallinen ennuste.
 
@@ -119,13 +119,14 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisva
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi ainoa Suomessa ollut myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Cinqaero (EMEA/H/C/003912) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33) |
 
 <!-- review:end log -->
 

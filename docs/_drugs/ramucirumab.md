@@ -58,7 +58,7 @@ Ramusirumabi on VEGFR2-reseptoria estävä vasta-aine, jota on alun perin käyte
 
 ## Miksi ennuste on perusteltu?
 
-Ramusirumabi on VEGFR2:ta (verisuonten endoteelikasvutekijän reseptori 2) kohdentava vasta-aine. VEGF/VEGFR2-reitin ohjaama verisuonten uudismuodostus on biologisesti uskottava tekijä myös gynekologisissa adenokarsinoomissa. Tarkkaa vaikutusmekanismia koskevaa tietoa ei ole kuitenkaan tämän raportin aineistossa saatavilla.
+Ramusirumabi on VEGFR2:ta (verisuonten endoteelikasvutekijän reseptori 2) kohdentava vasta-aine. VEGF/VEGFR2-reitin ohjaama verisuonten uudismuodostus on biologisesti uskottava tekijä myös gynekologisissa adenokarsinoomissa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ramucirumab (epävirallinen käännös): ”Ramusirumabi on VEGFR2-antagonisti, joka sitoutuu spesifisesti VEGFR2:een ja estää VEGFR-ligandien VEGF-A:n, VEGF-C:n ja VEGF-D:n sitoutumisen. Tämän seurauksena ramusirumabi estää VEGFR2:n ligandin stimuloimaa aktivaatiota ja siten ihmisen endoteelisolujen ligandin indusoimaa proliferaatiota ja migraatiota. Ramusirumabi esti angiogeneesiä in vivo -eläinmallissa.” Englanninkielinen alkuteksti: "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D. As a result, ramucirumab inhibits ligand-stimulated activation of VEGFR2, thereby inhibiting ligand-induced proliferation, and migration of human endothelial cells. Ramucirumab inhibited angiogenesis in an in vivo animal model." ([DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4), versio 2026-06-09; haettu 2026-11-19).
 
 Mahasyöpä ja ennustettu kohdun ligamentin adenokarsinooma ovat molemmat adenokarsinoomia, joiden kasvu voi olla riippuvaista angiogeneesistä. Yhteys on kuitenkin löyhä: ennuste nojaa yksinomaan TxGNN-mallin pisteisiin, eikä sitä tue mikään kliininen näyttö tälle käyttöaiheelle.
 
@@ -142,12 +142,13 @@ Keskivaikeita (Moderate) yhteisvaikutuksia on mm. deksfenfluramiinin, fenflurami
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Cyramza (EMEA/H/C/002829) on voimassa, ei mitätöity | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Poistettu: ”ramusirumabin myyntilupa Suomessa on mitätöity” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Simvastatiini on statiini, jota on alun perin käytetty dyslipidemioiden hoitoon
 
 ## Miksi ennuste on perusteltu?
 
-Simvastatiini estää HMG-CoA-reduktaasia, mikä vähentää kolesterolin synteesiä maksassa ja lisää LDL-reseptorien määrää. Tämä nopeuttaa LDL-kolesterolin poistumista verestä. Tarkempaa vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistossa saatavilla, joten kuvaus perustuu tunnettuun statiiniluokan mekanismiin.
+Simvastatiini estää HMG-CoA-reduktaasia, mikä vähentää kolesterolin synteesiä maksassa ja lisää LDL-reseptorien määrää. Tämä nopeuttaa LDL-kolesterolin poistumista verestä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Simvastatin (epävirallinen käännös): ”Simvastatiini on aihiolääke, joka hydrolysoituu antamisen jälkeen aktiiviseen β-hydroksihappomuotoonsa, simvastatiinihapoksi. Simvastatiinihappo ja sen metaboliitit ovat HMG-CoA-reduktaasin estäjiä. HMG-CoA-reduktaasi on nopeutta rajoittava entsyymi, joka muuntaa HMG-CoA:n mevalonaatiksi, joka on kolesterolin esiaste.” Englanninkielinen alkuteksti: "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), versio 2025-03-28; haettu 2026-11-19).
 
 Familiaalinen hyperkolesterolemia on perinnöllinen sairaus, jossa LDL-kolesteroli on pysyvästi koholla. Mekanismi on sama kuin alkuperäisessä dyslipidemia-käyttöaiheessa, joten kyse on käytännössä käyttöaiheen sisäisestä tai sitä lähellä olevasta käytöstä. Simvastatiini on ohjeistuksissa vakiintunut perushoito, mutta vaikeassa tai homotsygoottisessa taudissa se ei yleensä riitä yksin. Silloin siihen yhdistetään ezetimibi tai PCSK9:ää kohdentavia lääkkeitä.
 
@@ -157,13 +157,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Valmisteella on vain yksi, peruutettu myyntilupa. Voimassa olevia simvastatiinivalmisteita ei tässä aineistossa ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Cholib (EMEA/H/C/002559) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9) |
 
 <!-- review:end log -->
 

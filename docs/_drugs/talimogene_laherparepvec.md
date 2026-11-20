@@ -54,7 +54,7 @@ Talimogeenilaherparepvek on onkolyyttinen herpesvirusvalmiste, jota käytetään
 
 ## Miksi ennuste on perusteltu?
 
-Valmisteen yksityiskohtaista vaikutusmekanismia ei ole tässä aineistossa saatavilla. Tiedossa on, että talimogeenilaherparepvek on onkolyyttinen virusvalmiste, joka annetaan suoraan kasvaimeen. Mekanistisesti voidaan olettaa, että onkolyyttinen vaikutus ja immuunivasteen aktivointi voisivat soveltua myös muihin levyepiteelikasvaimiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Talimogene Laherparepvec (epävirallinen käännös): ”IMLYGIC on muunnettu geneettisesti replikoitumaan kasvaimissa ja tuottamaan immuunijärjestelmää stimuloivaa GM-CSF-proteiinia. IMLYGIC aiheuttaa kasvainten lyysin, minkä jälkeen kasvaimesta peräisin olevia antigeenejä vapautuu, ja ne voivat yhdessä viruksen tuottaman GM-CSF:n kanssa edistää kasvaimen vastaista immuunivastetta.” Englanninkielinen alkuteksti: "IMLYGIC has been genetically modified to replicate within tumors and to produce the immune stimulatory protein GM-CSF. IMLYGIC causes lysis of tumors, followed by release of tumor-derived antigens, which together with virally derived GM-CSF may promote an antitumor immune response." ([DailyMed: Imlygic (talimogene laherparepvec) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=64ffb680-ea8c-42fc-9649-9e8c0eb77ddb), versio 2024-11-29; haettu 2026-11-19). Tiedossa on, että talimogeenilaherparepvek on onkolyyttinen virusvalmiste, joka annetaan suoraan kasvaimeen. Mekanistisesti voidaan olettaa, että onkolyyttinen vaikutus ja immuunivasteen aktivointi voisivat soveltua myös muihin levyepiteelikasvaimiin.
 
 Glottinen levyepiteelisyöpä on pään ja kaulan alueen levyepiteelisyöpä, joka voi olla ulottuvilla kasvaimensisäistä injektiota varten. Tämä tekee antoreitin näkökulmasta ennusteen ajateltavissa. Yhteys on kuitenkin spekulatiivinen ja perustuu vain mallin ennusteeseen. Aiempaa onkolyyttisillä herpesviruksilla tehtyä pään ja kaulan syövän tutkimusta ei sisältynyt tähän aineistoon, joten sitä ei voida käyttää näytön tason arvioinnissa. Antoreittien yhteensopivuutta ei ole vielä arvioitu.
 
@@ -99,6 +99,18 @@ Ennuste perustuu ainoastaan mallin pistemäärään, eikä glottisen levyepiteel
 - Vaikutusmekanismitiedot (MOA) mekanistisen yhteyden arvioimiseksi
 - Arvio kasvaimensisäisen annon toteutettavuudesta glottisessa kasvaimessa
 - Prekliiniset tai varhaisen vaiheen kliiniset tiedot tästä käyttöaiheesta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Imlygic (talimogene laherparepvec) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=64ffb680-ea8c-42fc-9649-9e8c0eb77ddb) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

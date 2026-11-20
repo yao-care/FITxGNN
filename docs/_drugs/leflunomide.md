@@ -58,7 +58,7 @@ Leflunomidi on immuunivastetta muokkaava lääke, jota on käytetty nivelreuman 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä. Yleisen tiedon mukaan leflunomidi estää dihydroorotaattidehydrogenaasi-entsyymiä (DHODH), mikä rajoittaa pyrimidiinisynteesiä ja vaikuttaa nopeasti jakautuviin soluihin, kuten aktivoituneisiin lymfosyytteihin. Tämä päätelmä perustuu yleistietoon, ei raportin aineistoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Leflunomide (epävirallinen käännös): ”Leflunomidi on isoksatsolirakenteinen immunomoduloiva aine, joka estää dihydro-orotaattidehydrogenaasia (mitokondriaalinen entsyymi, joka osallistuu pyrimidiinin de novo -synteesiin) ja jolla on antiproliferatiivista aktiivisuutta. Useat in vivo- ja in vitro -koemallit ovat osoittaneet tulehdusta estävän vaikutuksen.” Englanninkielinen alkuteksti: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), versio 2025-06-04; haettu 2026-11-19). Yleisen tiedon mukaan leflunomidi estää dihydroorotaattidehydrogenaasi-entsyymiä (DHODH), mikä rajoittaa pyrimidiinisynteesiä ja vaikuttaa nopeasti jakautuviin soluihin, kuten aktivoituneisiin lymfosyytteihin. Tämä päätelmä perustuu yleistietoon, ei raportin aineistoon.
 
 DHODH liittyy myös raajojen kehitykseen: DHODH-geenin mutaatiot aiheuttavat Millerin oireyhtymän, johon kuuluu raajojen epämuodostumia. Graafin läheisyys voi siis heijastaa yhteisiä raajojen kehitykseen liittyviä reittejä. Tämä on kuitenkin vain mahdollinen, todentamaton selitys.
 
@@ -136,13 +136,14 @@ Lisäksi leflunomidin aktiivinen metaboliitti on teratogeeninen, mikä on merkit
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Poistettu: ”peruutettujen myyntilupien syistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->
 

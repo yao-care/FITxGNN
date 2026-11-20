@@ -60,7 +60,7 @@ Trastutsumabi on HER2-reseptoriin kohdistuva monoklonaalinen vasta-aine, jota on
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytettävissä olevassa aineistossa ei ole yksityiskohtaista vaikutusmekanismitietoa. Tunnetun farmakologian perusteella trastutsumabi sitoutuu HER2-reseptorin solunulkoiseen osaan, estää HER2-signalointia ja välittää vasta-aineriippuvaista soluvälitteistä sytotoksisuutta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Trastuzumab (epävirallinen käännös): ”HER2 (tai c-erbB2) -proto-onkogeeni koodaa 185 kDa:n kokoista transmembraanista reseptoriproteiinia, joka on rakenteeltaan sukua epidermaalisen kasvutekijän reseptorille. Trastutsumabivalmisteiden on osoitettu sekä in vitro -määrityksissä että eläimillä estävän HER2:ta yli-ilmentävien ihmisen kasvainsolujen proliferaatiota.” Englanninkielinen alkuteksti: "The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2." ([DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c), versio 2026-06-26; haettu 2026-11-19). Tunnetun farmakologian perusteella trastutsumabi sitoutuu HER2-reseptorin solunulkoiseen osaan, estää HER2-signalointia ja välittää vasta-aineriippuvaista soluvälitteistä sytotoksisuutta.
 
 Trastutsumabin teho riippuu kasvaimen HER2-statuksesta, ei progesteronireseptorin (PR) statuksesta. HER2-positiiviset mutta PR-negatiiviset kasvaimet (mm. HR-/HER2+ ja HER2-rikastettu alatyyppi) kuuluvat hoidolle herkimpiin. Siksi TxGNN-ennuste on biologisesti uskottava, ja kyse on vakiintuneesta käytöstä alkuperäisen rintasyöpäkäyttöaiheen sisällä.
 
@@ -179,12 +179,13 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 11 myyntilupaa on peruutettu, eikä voimassa olevia valmisteita ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, joten saatavuus on selvitettävä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
 
 <!-- review:end log -->
 

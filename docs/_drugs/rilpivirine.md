@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **kissan hankinnaiseen immuunikatoon (FIV
 
 ## Miksi ennuste on perusteltu?
 
-Rilpiviriini estää HIV-1:n käänteiskopioijaentsyymiä (NNRTI). Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnetun tiedon perusteella FIV:n käänteiskopioijaentsyymi on sukua HIV:n entsyymille, joten vaikutus on mekanistisesti mahdollinen.
+Rilpiviriini estää HIV-1:n käänteiskopioijaentsyymiä (NNRTI). Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Rilpivirine (epävirallinen käännös): ”Rilpiviriini on viruslääke. […] Rilpiviriini on ihmisen immuunikatoviruksen tyyppi 1:n (HIV-1) diaryylipyrimidiinirakenteinen ei-nukleosidirakenteinen käänteiskopioijaentsyymin estäjä (NNRTI), joka estää HIV-1:n replikaatiota estämällä ei-kilpailevasti HIV-1:n käänteiskopioijaentsyymiä (RT). Rilpiviriini ei estä ihmisen solujen DNA-polymeraaseja α, β ja γ.” Englanninkielinen alkuteksti: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), versio 2025-08-28; haettu 2026-11-19). Tunnetun tiedon perusteella FIV:n käänteiskopioijaentsyymi on sukua HIV:n entsyymille, joten vaikutus on mekanistisesti mahdollinen.
 
 NNRTI-yhdisteiden sitoutumistaskut kuitenkin eroavat lentivirusten välillä, joten tehoa ei voi olettaa. Ainoa löydetty julkaisu (2023) vertaa NNRTI-lääkkeitä biokemiallisesti ja rakenteellisesti FIV:n ja HIV:n entsyymeihin. Se on epäsuoraa, in vitro -tasoista näyttöä. Korkea TxGNN-pistemäärä heijastaa todennäköisesti samankaltaisuutta HIV-mekanismin kanssa eikä riippumatonta validointia.
 
@@ -152,13 +152,14 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tämän raportin ainei
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Yhteensä myyntilupia on 6, ja kaikki on peruutettu. Kuudes lupa (Eviplera, EMEA/H/C/002312) on myös peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 5 myyntilupaa (Edurant (EMEA/H/C/002264), Rekambys (EMEA/H/C/005060), Juluca (EMEA/H/C/004427), Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris (EMEA/H/C/006491), Odefsey (EMEA/H/C/004156)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
 
 <!-- review:end log -->
 

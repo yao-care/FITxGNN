@@ -60,7 +60,7 @@ Raportissa arvioidaan kolme ennustettua käyttöaihetta; agorafobia ja dystymia 
 
 ## Miksi ennuste on perusteltu?
 
-Tarkempaa vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella olantsapiini salpaa dopamiini D2-, serotoniini 5-HT2A/2C- ja histamiini H1 -reseptoreita. Sen teho skitsofreniassa ja kaksisuuntaisessa mielialahäiriössä on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Olanzapine (epävirallinen käännös): ”Olantsapiinin vaikutusmekanismi mainituissa käyttöaiheissa on epäselvä. Olantsapiinin teho skitsofreniassa voi kuitenkin välittyä dopamiini- ja serotoniinityypin 2 (5HT 2 ) -reseptorien salpauksen yhdistelmän kautta.” Englanninkielinen alkuteksti: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), versio 2026-10-26; haettu 2026-11-19). Tunnetun tiedon perusteella olantsapiini salpaa dopamiini D2-, serotoniini 5-HT2A/2C- ja histamiini H1 -reseptoreita. Sen teho skitsofreniassa ja kaksisuuntaisessa mielialahäiriössä on osoitettu.
 
 **Agorafobia.** Agorafobia liittyy läheisesti paniikkihäiriöön. Serotoniini- ja dopamiinireseptorien salpaus sekä ahdistusta lievittävä ja rauhoittava H1-vaikutus tarjoavat uskottavan mekanismin hoitoresistentin paniikkihäiriön lisälääkitykselle. Näyttö on kuitenkin vähäistä: 12 viikon avoin kiinteäannoksinen lisälääkitystutkimus (31 potilasta, 5 mg/vrk SSRI-lääkityksen lisänä) sekä kaksi tapausselostusta. Systemaattiset katsaukset hoitoresistentistä paniikista ja ahdistuneisuushäiriöistä sijoittavat antipsykootit myöhäisen vaiheen vaihtoehdoksi.
 
@@ -164,12 +164,13 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki yhdeksän myyntilupaa ovat tilassa "peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Olantsapiinin myyntiluvat Suomessa on kaikki peruutettu, mikä vaikuttaa käytännön saatavuuteen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->
 

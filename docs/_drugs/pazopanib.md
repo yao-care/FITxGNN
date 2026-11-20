@@ -60,7 +60,7 @@ Patsopanibi on VEGFR-, PDGFR- ja c-KIT-reseptoreita estävä tyrosiinikinaasi-in
 
 ## Miksi ennuste on perusteltu?
 
-Pitkälle edenneen munuaissolusyövän hoitoon käytettävän patsopanibin vaikutusmekanismia koskevaa tarkkaa tietoa ei tässä raportissa käytetyssä aineistossa ole saatavilla. Tunnetun tiedon perusteella patsopanibi estää useita reseptorityrosiinikinaaseja (VEGFR, PDGFR ja c-KIT), jotka ohjaavat kasvaimen verisuonten muodostusta ja kasvua.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pazopanib (epävirallinen käännös): ”Patsopanibi on usean tyrosiinikinaasin estäjä, joka kohdistuu verisuonten endoteelikasvutekijäreseptoreihin (VEGFR)-1, VEGFR-2 ja VEGFR-3, verihiutalekasvutekijäreseptoreihin (PDGFR)-α ja -β, fibroblastikasvutekijäreseptoreihin (FGFR)-1 ja -3, sytokiinireseptoriin (Kit), interleukiini-2-reseptorin indusoitavaan T-solukinaasiin (Itk), lymfosyyttispesifiseen proteiinityrosiinikinaasiin (Lck) ja transmembraaniseen glykoproteiinireseptorityrosiinikinaasiin (c-Fms). In vitro patsopanibi esti VEGFR-2-, Kit- ja PDGFR-β-reseptoreiden ligandin indusoimaa autofosforylaatiota.” Englanninkielinen alkuteksti: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), versio 2025-12-16; haettu 2026-11-19). Tunnetun tiedon perusteella patsopanibi estää useita reseptorityrosiinikinaaseja (VEGFR, PDGFR ja c-KIT), jotka ohjaavat kasvaimen verisuonten muodostusta ja kasvua.
 
 Alkuperäinen käyttöaihe on munuaissolusyöpä, ja uusi ennustettu käyttöaihe on sen histologinen alaryhmä. Ei-kirkassoluiset ja luokittelemattomat munuaissolusyövät käyttävät angiogeneesin signalointireittejä vaihtelevassa määrin, joten mekanistinen yhteys on uskottava. Tämä on kuitenkin ekstrapolaatio kirkassoluisesta tautimuodosta, eikä satunnaistettua näyttöä ole.
 
@@ -169,13 +169,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla; ne tulee
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Pazopanibin myyntilupa Suomessa on lisäksi peruutettu, ja k” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Votrient (EMEA/H/C/001141) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
 
 <!-- review:end log -->
 

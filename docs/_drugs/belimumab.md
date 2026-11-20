@@ -58,7 +58,7 @@ Belimumabi on BLyS (BAFF) -proteiinia neutraloiva monoklonaalinen vasta-aine, jo
 
 ## Miksi ennuste on perusteltu – tai ei?
 
-Belimumabi sitoutuu liukoiseen BLyS-proteiiniin (BAFF) ja vähentää B-solujen elinaikaa sekä autovasta-aineiden tuotantoa. Tarkkaa lääkeaineen vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistoon saatavilla, joten mekanismia ei voitu tarkistaa tietueesta.
+Belimumabi sitoutuu liukoiseen BLyS-proteiiniin (BAFF) ja vähentää B-solujen elinaikaa sekä autovasta-aineiden tuotantoa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Belimumab (epävirallinen käännös): ”BENLYSTA on BLyS-spesifinen estäjä, joka salpaa liukoisen BLyS:n, B-solujen eloonjäämistekijän, sitoutumisen B-solujen reseptoreihin. BENLYSTA ei sitoudu suoraan B-soluihin, mutta sitoutumalla BLyS:ään BENLYSTA estää B-solujen, myös autoreaktiivisten B-solujen, eloonjäämistä ja vähentää B-solujen erilaistumista immunoglobuliineja tuottaviksi plasmasoluiksi.” Englanninkielinen alkuteksti: "BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells. BENLYSTA does not bind B cells directly, but by binding BLyS, BENLYSTA inhibits the survival of B cells, including autoreactive B cells, and reduces the differentiation of B cells into immunoglobulin-producing plasma cells." ([DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3), versio 2026-10-30; haettu 2026-11-19).
 
 Primaariset verihiutaleiden vapautumishäiriöt ovat yleensä perinnöllisiä verihiutaleiden toiminnan häiriöitä (varastorakkula- tai eritysvika). Ne eivät ole B-solu- tai autovasta-ainevälitteisiä. Uskottavaa mekanistista yhteyttä lupukseen tai BLyS:n estoon ei ole havaittavissa, joten korkea TxGNN-pistemäärä (0,9996) on pelkkä mallin ennuste.
 
@@ -145,13 +145,14 @@ Yleisesti ottaen yhteisvaikutukset liittyvät pääosin muihin immuunivastetta h
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys peruutetun myyntiluvan syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Benlysta (EMEA/H/C/002015) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
 
 <!-- review:end log -->
 

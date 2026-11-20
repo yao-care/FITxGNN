@@ -54,7 +54,7 @@ Mikafungiini on kandidiaasin hoitoon tarkoitettu ekinokandiiniryhmän sienilää
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa, joten seuraava perustuu lääkeryhmän yleiseen tietoon. Mikafungiini on ekinokandiini, joka estää 1,3-beeta-D-glukaanisyntaasia ja häiritsee siten sienen soluseinän synteesiä Candida-lajeilla.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Micafungin (epävirallinen käännös): ”Mikafungiini kuuluu sienilääkkeiden ekinokandiiniryhmään. […] Mikafungiini estää 1,3-beeta-D-glukaanin synteesiä; 1,3-beeta-D-glukaani on sienten soluseinien välttämätön ainesosa, jota ei esiinny nisäkässoluissa. Aktiivisuus kandidiaasin eläinmalleissa Mikafungiinin aktiivisuus on osoitettu sekä limakalvojen että disseminoituneen kandidiaasin hiiri- ja kanimalleissa.” Englanninkielinen alkuteksti: "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis." ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), versio 2025-11-08; haettu 2026-11-19). Mikafungiini on ekinokandiini, joka estää 1,3-beeta-D-glukaanisyntaasia ja häiritsee siten sienen soluseinän synteesiä Candida-lajeilla.
 
 Candida-virtsatieinfektio (kandiduria) on saman lääkkeen hyväksytyn Candida-kirjon sisällä. Kyse on siis infektiokohdan laajentamisesta, ei uudesta mekanismista. Korkea TxGNN-pistemäärä (0,9903) sopii tähän mekanistiseen yhteyteen.
 
@@ -135,13 +135,14 @@ Näyttö koostuu pääosin kohorttitutkimuksista, tapaussarjoista ja tapauskuvau
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska voimassa olevaa myyntilupaa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Mycamine (EMEA/H/C/000734 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
 
 <!-- review:end log -->
 

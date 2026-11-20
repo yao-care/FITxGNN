@@ -62,7 +62,7 @@ Näyttö on epäsuoraa: tutkimukset koskevat pehmytkudossarkoomia yleisesti, eik
 
 Sunitinibi on monikohteinen tyrosiinikinaasin estäjä, joka kohdistuu mm. VEGFR-, PDGFR-, KIT-, RET- ja FLT3-reseptoreihin. Estämällä verisuonten uudismuodostusta ja PDGFR-välitteistä signalointia se voi hidastaa kasvainten kasvua. Tämä mekanismi on merkityksellinen myös osassa pehmytkudossarkoomia.
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu lääketietokannasta. Edellä kuvattu mekanismi perustuu ennustetta tukevaan tausta-analyysiin. Alkuperäisissä käyttöaiheissa (GIST, munuaissolusyöpä) tehon on osoitettu liittyvän samoihin reseptoriteihin, ja GIST on itsekin sarkooma. Siksi mekanistinen yhteys liposarkoomaan on uskottava.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Sunitinib (epävirallinen käännös): ”Sunitinibi on pienimolekyylinen lääkeaine, joka estää useita reseptorityrosiinikinaaseja (RTK), joista osan tiedetään osallistuvan kasvaimen kasvuun, patologiseen angiogeneesiin ja syövän etäpesäkkeiseen etenemiseen.” Englanninkielinen alkuteksti: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), versio 2026-02-20; haettu 2026-11-19). Edellä kuvattu mekanismi perustuu ennustetta tukevaan tausta-analyysiin. Alkuperäisissä käyttöaiheissa (GIST, munuaissolusyöpä) tehon on osoitettu liittyvän samoihin reseptoriteihin, ja GIST on itsekin sarkooma. Siksi mekanistinen yhteys liposarkoomaan on uskottava.
 
 Teho liposarkoomassa vaikuttaa kuitenkin rajalliselta ja riippuvaiselta histologiasta. Sarkoomat ovat hyvin heterogeeninen ryhmä, ja vaiheen 3 näyttöä ei ole.
 
@@ -162,13 +162,14 @@ Raporttiin koottujen tietojen perusteella muista ennusteista vahvin on **munuais
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa kaikki sunitinibin myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Sunitinib Accord (EMEA/H/C/005419), Sutent (EMEA/H/C/000687)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
 
 <!-- review:end log -->
 

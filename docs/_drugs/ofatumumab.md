@@ -55,7 +55,7 @@ Ofatumumabi on anti-CD20-vasta-aine, jota käytetään Suomessa relapsoivan-remi
 
 ## Miksi ennuste on perusteltu?
 
-Tähän raporttiin koottu aineisto ei sisällä tarkkaa vaikutusmekanismitietoa. Ofatumumabi on kuitenkin anti-CD20-monoklonaalinen vasta-aine. Sen teho MS-taudissa on osoitettu, ja mekanistisesti se voi soveltua myös follikulaariseen lymfoomaan.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ofatumumab (epävirallinen käännös): ”Ofatumumabin terapeuttisten vaikutusten tarkkaa mekanismia MS-taudissa ei tunneta, mutta sen oletetaan perustuvan sitoutumiseen CD20:een, joka on esi-B-lymfosyyttien ja kypsien B-lymfosyyttien pinnalla esiintyvä solun pinta-antigeeni. Sitouduttuaan B-lymfosyyttien solupintaan ofatumumabi saa aikaan vasta-aineesta riippuvaisen soluvälitteisen sytolyysin ja komplementtivälitteisen lyysin.” Englanninkielinen alkuteksti: "The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), versio 2026-04-01; haettu 2026-11-19). Ofatumumabi on kuitenkin anti-CD20-monoklonaalinen vasta-aine. Sen teho MS-taudissa on osoitettu, ja mekanistisesti se voi soveltua myös follikulaariseen lymfoomaan.
 
 Ofatumumabi sitoutuu CD20-molekyylin erityiseen epitooppiin ja tuhoaa B-soluja komplementtivälitteisesti (CDC) sekä vasta-aineriippuvaisen solutoksisuuden (ADCC) kautta. Follikulaarinen lymfooma on CD20-positiivinen B-solusyöpä, joten vaikutustapa sopii taudin biologiaan suoraan. MS-taudin hoidossa hyödynnetään samaa B-solujen tuhoamista. Korkea ennustepistemäärä (0,997) on linjassa tämän perustelun kanssa.
 
@@ -130,6 +130,19 @@ Kohtalaisia (Moderate) yhteisvaikutuksia on mm. atsatiopriinin, alemtutsumabin, 
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet sekä tarkempi vaikutusmekanismitieto.
 - Turvallisuuden seurantasuunnitelma, erityisesti infektioiden ja immunosuppressiivisten lääkkeiden yhteisvaikutusten osalta.
 - Selvitys myyntiluvan laajentamisesta tai käytöstä myyntiluvan ulkopuolella (off-label).
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -60,7 +60,7 @@ Toissijainen ennuste, **liposarkooma**, perustuu yhteen prekliiniseen tutkimukse
 
 ## Miksi ennuste on perusteltu?
 
-Lääkkeen alkuperäistä vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella ponatinibi on monikohteinen tyrosiinikinaasin estäjä (BCR-ABL, FGFR, PDGFR, VEGFR, SRC, KIT). Sen teho leukemiassa on osoitettu, ja mekanistisesti se voisi olla sovellettavissa myös muihin tiloihin, joissa nämä signaalitiet ovat aktiivisia.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ponatinib (epävirallinen käännös): ”Ponatinibi on kinaasin estäjä. Ponatinibi esti in vitro ABL:n ja T315I-mutantin ABL:n tyrosiinikinaasiaktiivisuutta IC 50 -pitoisuuksilla 0,4 nM ja 2,0 nM. Ponatinibi esti in vitro muiden kinaasien aktiivisuutta IC 50 -pitoisuuksilla 0,1 nM–20 nM, mukaan lukien VEGFR-, PDGFR-, FGFR-, EPH-reseptori- ja SRC-kinaasiperheiden jäsenet sekä KIT, RET, TIE2 ja FLT3.” Englanninkielinen alkuteksti: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac), versio 2026-08-14; haettu 2026-11-19). Tunnetun tiedon perusteella ponatinibi on monikohteinen tyrosiinikinaasin estäjä (BCR-ABL, FGFR, PDGFR, VEGFR, SRC, KIT). Sen teho leukemiassa on osoitettu, ja mekanistisesti se voisi olla sovellettavissa myös muihin tiloihin, joissa nämä signaalitiet ovat aktiivisia.
 
 Fibroottisiin ja proliferatiivisiin sairauksiin voi liittyä PDGFR- ja FGFR-signalointia, joten yhteys on teoriassa mahdollinen. Yhteys on kuitenkin spekulatiivinen, eikä mikään käytettävissä oleva aineisto tue sitä. Ienkasvun fibromatoosi on harvinainen ja enimmäkseen hyvänlaatuinen tila, joten ponatinibin sydän- ja verisuoni- sekä tromboosiriskit painaisivat todennäköisesti enemmän kuin mahdollinen hyöty.
 
@@ -150,12 +150,13 @@ Sydän- ja verisuoni- sekä tromboosiriskeistä on huomattava, että ne ovat tä
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääke ei ole tällä hetkellä markkinoilla Suomessa (ainoa myyntilupa peruutettu), ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Iclusig (EMEA/H/C/002695) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
 
 <!-- review:end log -->
 

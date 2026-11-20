@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **atooppiseen ihottumaan**, mutta tälle 
 
 ## Miksi ennuste on perusteltu?
 
-Flutikasonifuroaatti on voimakas glukokortikoidireseptorin agonisti, jolla on tulehdusta vaimentava vaikutus. Tälle raportille koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa, joten arvio perustuu lääkeryhmän tunnettuihin ominaisuuksiin.
+Flutikasonifuroaatti on voimakas glukokortikoidireseptorin agonisti, jolla on tulehdusta vaimentava vaikutus. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Fluticasone Furoate (epävirallinen käännös): ”Flutikasonifuroaatti on synteettinen, kolme fluoriatomia sisältävä kortikosteroidi, jolla on tulehdusta estävä vaikutus. Flutikasonifuroaatin on in vitro osoitettu sitoutuvan ihmisen glukokortikoidireseptoriin affiniteetilla, joka on noin 29,9-kertainen deksametasoniin ja 1,7-kertainen flutikasonipropionaattiin verrattuna.” Englanninkielinen alkuteksti: "Fluticasone furoate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone furoate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is approximately 29.9 times that of dexamethasone and 1.7 times that of fluticasone propionate." ([DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440), versio 2025-03-06; haettu 2026-11-19).
 
 Atooppisen ihottuman taustalla on Th2-välitteistä tulehdusta, jota kortikosteroidit voivat teoriassa vaimentaa. Alkuperäiset käyttöaiheet (allerginen nuha, astma) ovat samaa atooppista sairausryhmää, ja ne esiintyvät usein yhdessä atooppisen ihottuman kanssa.
 
@@ -138,12 +138,13 @@ Lisäksi kirjallisuudessa nostetaan esiin lisämunuaisen suppression mahdollisuu
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 5 myyntilupaa (Avamys (EMEA/H/C/000770), Relvar Ellipta (EMEA/H/C/002673), Revinty Ellipta (EMEA/H/C/002745), Trelegy Ellipta (EMEA/H/C/004363), Elebrato Ellipta (EMEA/H/C/004781)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440) |
 
 <!-- review:end log -->
 

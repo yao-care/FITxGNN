@@ -58,7 +58,7 @@ Amlodipiini on kalsiumkanavan salpaaja, jota on käytetty verenpainetaudin hoito
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella amlodipiini on dihydropyridiinityyppinen kalsiumkanavan salpaaja. Sen teho verenpainetaudissa on osoitettu, ja mekanistisesti se voi soveltua aivoinfarktin uusiutumisen ehkäisyyn.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Amlodipine (epävirallinen käännös): ”Amlodipiini on dihydropyridiiniryhmän kalsiumantagonisti (kalsiumioniantagonisti tai hitaiden kanavien salpaaja), joka estää kalsiumionien transmembraanista sisäänvirtausta verisuonten sileään lihakseen ja sydänlihakseen. Kokeelliset tiedot viittaavat siihen, että amlodipiini sitoutuu sekä dihydropyridiini- että ei-dihydropyridiinisitoutumiskohtiin.” Englanninkielinen alkuteksti: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), versio 2026-09-28; haettu 2026-11-19). Tunnetun tiedon perusteella amlodipiini on dihydropyridiinityyppinen kalsiumkanavan salpaaja. Sen teho verenpainetaudissa on osoitettu, ja mekanistisesti se voi soveltua aivoinfarktin uusiutumisen ehkäisyyn.
 
 Verenpaineen lasku voi pienentää uusien aivoverenkiertohäiriöiden riskiä, ja tämä on ennusteen looginen yhteys alkuperäiseen indikaatioon. Tälle nimenomaiselle sairaudelle ei kuitenkaan löytynyt tutkimuksia tai kirjallisuutta. Ennuste on siksi hypoteesi eikä todennettu havainto. Sairauksien samankaltaisuutta alkuperäiseen indikaatioon ei ole vielä arvioitu.
 
@@ -140,11 +140,12 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tähän raporttiin koo
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->
 

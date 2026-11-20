@@ -54,7 +54,7 @@ Avelumabi on PD-L1-vasta-aine, joka on immuunijärjestelmän tarkistuspisteen es
 
 ## Miksi ennuste on perusteltu?
 
-Avelumabi on anti-PD-L1-vasta-aine. Sen tarkempi vaikutusmekanismi ei ole tämän raportin aineistossa saatavilla, joten mekanistinen perustelu nojaa lääkeryhmän yleiseen tietoon.
+Avelumabi on anti-PD-L1-vasta-aine. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Avelumab (epävirallinen käännös): ”PD-L1:tä voi ilmentyä kasvainsoluissa ja kasvaimeen infiltroituneissa immuunisoluissa, ja se voi osaltaan estää kasvaimen vastaista immuunivastetta kasvaimen mikroympäristössä. PD-L1:n sitoutuminen T-soluissa ja antigeenia esittelevissä soluissa oleviin PD-1- ja B7.1-reseptoreihin heikentää sytotoksisten T-solujen toimintaa, T-solujen proliferaatiota ja sytokiinien tuotantoa. […] Avelumabi sitoutuu PD-L1:een ja estää PD-L1:n ja sen reseptorien PD-1:n ja B7.1:n välisen vuorovaikutuksen.” Englanninkielinen alkuteksti: "PD-L1 may be expressed on tumor cells and tumor-infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD-L1 to the PD-1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation, and cytokine production. […] Avelumab binds PD-L1 and blocks the interaction between PD-L1 and its receptors PD-1 and B7.1." ([DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118), versio 2026-09-22; haettu 2026-11-19).
 
 HHV-8:aan liittyvät kasvaimet, kuten Kaposin sarkooma ja primaarinen effuusiolymfooma, voivat hyödyntää PD-1/PD-L1-reittiä immuunivasteen väistämiseen. Tämän vuoksi tarkistuspisteen estäminen on biologisesti uskottavaa. Muiden PD-1/PD-L1-reitin lääkkeiden on raportoitu tuottaneen vastetta Kaposin sarkoomassa.
 
@@ -92,6 +92,19 @@ Muilta osin tutustu valmisteyhteenvetoon turvallisuustietojen osalta.
 - Tarkempi vaikutusmekanismia koskeva tieto
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
 - Prekliiniset tai varhaisen vaiheen kliiniset tutkimukset kohdeindikaatiossa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

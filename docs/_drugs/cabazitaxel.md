@@ -56,7 +56,7 @@ Kabatsitakseli on mikrotubuluksia vakauttava taksaanisytostaatti. Sen sijaan TxG
 
 Kabatsitakseli on puolisynteettinen taksaani, joka vakauttaa mikrotubuluksia ja estää solun jakautumista (mitoosia). Taksaanit ovat vakiintunutta hoitoa rintasyövässä, joten vaikutusmekanismi on teoriassa sovellettavissa. Lisäksi lääkkeellä on pieni affiniteetti P-glykoproteiiniin, mikä voi auttaa ylittämään paklitakselin ja dosetakselin resistenssiä. Esikliinisessä työssä on myös havaittu, että se muokkaa makrofageja ja tehostaa CD47-kohdennettua immunoterapiaa kolmoisnegatiivisessa rintasyövässä.
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla, joten mekanistinen perustelu nojaa kirjallisuuteen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Cabazitaxel (epävirallinen käännös): ”Kabatsitakseli on mikrotubulusten estäjä. Kabatsitakseli sitoutuu tubuliiniin ja edistää sen kokoutumista mikrotubuluksiksi estäen samanaikaisesti niiden hajoamista. Tämä johtaa mikrotubulusten stabiloitumiseen, mikä estää solujen mitoottisia ja interfaasin toimintoja.” Englanninkielinen alkuteksti: "Cabazitaxel is a microtubule inhibitor. Cabazitaxel binds to tubulin and promotes its assembly into microtubules while simultaneously inhibiting disassembly. This leads to the stabilization of microtubules, which results in the inhibition of mitotic and interphase cellular functions." ([DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa), versio 2025-10-07; haettu 2026-11-19).
 
 Näyttö jää rajalliseksi: mukana on vaiheen I annoshakututkimus edenneissä kiinteissä kasvaimissa, esikliinisiä formulaatiotutkimuksia sekä katsauksia. Tutkimukset, jotka koskevat suoraan rintasyöpää (esim. vaiheen II GENEVIEVE-tutkimus neoadjuvanttihoidosta ja vaiheen I/II tutkimus yhdessä kapesitabiinin kanssa), ovat julkaisuja, mutta rekisteröityjä tutkimuksia ei ole listattu. Aineistossa mainitut julkaisut sisältävät siis rintasyöpää suoraan tutkivia töitä, mutta tulokset eivät riitä osoittamaan tehoa satunnaistetuissa vaiheen III tutkimuksissa.
 
@@ -116,6 +116,19 @@ Rintasyövässä on mekanistisesti perusteltu taksaanirationaali ja rintasyöpä
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (puuttuvat)
 - Rintasyöpäpotilaiden turvallisuusseurantasuunnitelma, erityisesti luuydinsuppression osalta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -60,7 +60,7 @@ Selumetinibi on MEK1/2-estäjä, jota on alun perin käytetty neurofibromatoosi 
 
 ## Miksi ennuste on perusteltu?
 
-Selumetinibin yksityiskohtaiset vaikutusmekanismitiedot eivät ole tämän raportin aineistossa saatavilla. Tiedossa kuitenkin on, että lääke estää MEK1/2-entsyymejä (kohdegeeni MAP2K1) ja siten RAS/MAPK-signalointireittiä. Sitä on käytetty NF1:een liittyvien pleksiformisten neurofibroomien hoitoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Selumetinib (epävirallinen käännös): ”Selumetinibi on mitogeeniaktivoituvan proteiinikinaasin kinaasien 1 ja 2 (MEK1/2) estäjä. MEK1/2-proteiinit ovat solunulkoisen signaalin säätelemän kinaasin (ERK) signaalireitin ylävirran säätelijöitä. Sekä MEK että ERK ovat RAS:n säätelemän RAF-MEK-ERK-signaalireitin keskeisiä osia, ja tämä reitti on usein aktivoitunut erityyppisissä syövissä.” Englanninkielinen alkuteksti: "Selumetinib is an inhibitor of mitogen-activated protein kinase kinases 1 and 2 (MEK1/2). MEK1/2 proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway. Both MEK and ERK are critical components of the RAS-regulated RAF-MEK-ERK pathway, which is often activated in different types of cancers." ([DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff), versio 2026-05-26; haettu 2026-11-19). Tiedossa kuitenkin on, että lääke estää MEK1/2-entsyymejä (kohdegeeni MAP2K1) ja siten RAS/MAPK-signalointireittiä. Sitä on käytetty NF1:een liittyvien pleksiformisten neurofibroomien hoitoon.
 
 NF1:een ja NF2:een liittyvät hermoverhokasvaimet johtuvat pitkälti RAS/MAPK-signaloinnin häiriöistä. Siksi MEK-estäjän käyttö schwannoomissa on biologisesti uskottavaa. Esimerkiksi NF2:een liittyvästä ependymoomasta on raportoitu osittainen vaste selumetinibille (tapausselostus). Tämä on kuitenkin vasta heikkoa näyttöä, eikä se korvaa kontrolloituja tutkimuksia.
 
@@ -153,13 +153,14 @@ Aineiston lääkeinteraktiotiedoissa on vain lääkkeen farmakologinen kohde (ME
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(peruutetun luvan syy)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Koselugo (EMEA/H/C/005244) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff) |
 
 <!-- review:end log -->
 

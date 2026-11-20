@@ -59,7 +59,7 @@ Huomio: tulos on valittu ennusteista, joissa status epilepticuksella on vahvin n
 
 ## Miksi ennuste on perusteltu?
 
-Tälle raporttia varten koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan perampaneeli on selektiivinen, ei-kilpaileva AMPA-reseptorin antagonisti, jonka teho osittaisepilepsiassa on osoitettu. Mekanistisesti se voi soveltua myös kohtaustilan hoitoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Perampanel (epävirallinen käännös): ”Perampaneeli on postsynaptisten hermosolujen ionotrooppisen α-amino-3-hydroksi-5-metyyli-4-isoksatsolipropionihappo (AMPA) -glutamaattireseptorin ei-kilpaileva antagonisti. Glutamaatti on keskushermoston tärkein eksitatorinen välittäjäaine, ja sillä on osuutta useisiin hermosolujen liiallisen eksitaation aiheuttamiin neurologisiin sairauksiin.” Englanninkielinen alkuteksti: "Perampanel is a non-competitive antagonist of the ionotropic α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) glutamate receptor on post-synaptic neurons. Glutamate is the primary excitatory neurotransmitter in the central nervous system and is implicated in a number of neurological disorders caused by neuronal over excitation." ([DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122), versio 2022-12-28; haettu 2026-11-19). Tunnetun tiedon mukaan perampaneeli on selektiivinen, ei-kilpaileva AMPA-reseptorin antagonisti, jonka teho osittaisepilepsiassa on osoitettu. Mekanistisesti se voi soveltua myös kohtaustilan hoitoon.
 
 Pitkittyneessä kohtaustilassa GABA-reseptoreita siirtyy solun sisään (bentsodiatsepiiniresistenssi) ja synaptisten AMPA-reseptorien ilmentyminen lisääntyy. Tämän vuoksi ei-kilpaileva AMPA-salpaus on perusteltu erityisesti refraktaarisissa tapauksissa. Prekliininen tutkimus tukee perampaneelin käyttöä midatsolaamin lisälääkkeenä.
 
@@ -142,12 +142,13 @@ Mekanistinen peruste on vahva ja useat systemaattiset katsaukset sekä kohorttit
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lupa on peruutettu, joten voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska Fycompa-lupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122) |
 
 <!-- review:end log -->
 

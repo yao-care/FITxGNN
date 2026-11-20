@@ -56,7 +56,7 @@ Aineistossa on tähän suuntaan **yli 30 kliinistä tutkimusta** ja **20 julkais
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin kerätyssä aineistossa. Tunnetun tiedon mukaan paklitakseli stabiloi mikrotubuluksia, estää mitoottisen karan purkautumisen ja aiheuttaa G2/M-vaiheen pysähtymisen ja apoptoosin nopeasti jakautuvissa syöpäsoluissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Paclitaxel (epävirallinen käännös): ”Paklitakselin proteiiniin sitoutuneet partikkelit injektionestesuspensiota varten (albumiiniin sitoutunut) on mikrotubulusten estäjä, joka edistää mikrotubulusten muodostumista tubuliinidimeereistä ja stabiloi mikrotubuluksia estämällä depolymerisaatiota. Tämä stabiilius johtaa mikrotubulusverkoston normaalin dynaamisen uudelleenjärjestäytymisen estymiseen, mikä on välttämätöntä solun elintärkeille interfaasi- ja mitoositoiminnoille.” Englanninkielinen alkuteksti: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), versio 2025-09-17; haettu 2026-11-19). Tunnetun tiedon mukaan paklitakseli stabiloi mikrotubuluksia, estää mitoottisen karan purkautumisen ja aiheuttaa G2/M-vaiheen pysähtymisen ja apoptoosin nopeasti jakautuvissa syöpäsoluissa.
 
 Rintasyöpä on jo paklitakselin alkuperäinen käyttöaihe, joten ennuste on mekanistisesti johdonmukainen. Vaikutus ei riipu hormonireseptoritilanteesta, minkä vuoksi lääkettä käytetään myös estrogeenireseptorinegatiivisessa (mm. kolmoisnegatiivisessa) ja hormonihoidolle resistentissä taudissa.
 
@@ -174,7 +174,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niih
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -182,6 +182,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”ja Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki aineiston myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 4 myyntilupaa (Abraxane (EMEA/H/C/000778), Apexelsin (EMEA/H/C/005997), Naveruclif (EMEA/H/C/006173), Pazenir (EMEA/H/C/004441)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
 
 <!-- review:end log -->
 

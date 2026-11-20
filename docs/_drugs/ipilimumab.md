@@ -54,7 +54,7 @@ Ipilimumabi on CTLA-4:ää estävä vasta-aine, jota on käytetty melanooman ja 
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Ipilimumabi on CTLA-4:ää estävä vasta-aine. Se vapauttaa T-solujen estoa ja laajentaa kasvainvastaisia T-solivasteita. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin saatavilla, mutta tämä yleisesti tunnettu vaikutustapa selittää, miksi lääke tehoaa melanoomaan ja muihin syöpiin.
+Ipilimumabi on CTLA-4:ää estävä vasta-aine. Se vapauttaa T-solujen estoa ja laajentaa kasvainvastaisia T-solivasteita. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ipilimumab (epävirallinen käännös): ”CTLA-4 on T-solujen aktiivisuuden negatiivinen säätelijä. Ipilimumabi on monoklonaalinen vasta-aine, joka sitoutuu CTLA-4:ään ja estää CTLA-4:n ja sen ligandien CD80/CD86 välisen vuorovaikutuksen. CTLA-4:n salpauksen on osoitettu tehostavan T-solujen aktivaatiota ja proliferaatiota, mukaan lukien kasvaimeen infiltroituneiden efektori-T-solujen aktivaatio ja proliferaatio.” Englanninkielinen alkuteksti: "CTLA-4 is a negative regulator of T-cell activity. Ipilimumab is a monoclonal antibody that binds to CTLA-4 and blocks the interaction of CTLA-4 with its ligands, CD80/CD86. Blockade of CTLA-4 has been shown to augment T-cell activation and proliferation, including the activation and proliferation of tumor infiltrating T-effector cells." ([DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66), versio 2026-08-20; haettu 2026-11-19).
 
 Koroideremia on X-kromosomaalinen perinnöllinen verkkokalvon rappeuma. Sen aiheuttaa CHM-geenin (REP1) toiminnan menetys. Kyseessä on yhden geenin sairaus, jossa Rab-proteiinien prenylaatio häiriintyy verkkokalvon pigmenttiepiteelissä, valoreseptoreissa ja suonikalvolla. Tauti ei ole immuunivälitteinen eikä syöpä, joten CTLA-4:n esto ei ole mekanistisesti uskottava hoito. Alkuperäisellä ja ennustetulla käyttöaiheella ei siis ole biologista yhteyttä.
 
@@ -120,11 +120,12 @@ Mukana on esimerkiksi vaiheen 2 tutkimus NCT02626962, jossa nivolumabia ja ipili
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Yervoy (EMEA/H/C/002213 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

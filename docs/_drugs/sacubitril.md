@@ -54,7 +54,7 @@ Sakubitriili on neprilysiinin estäjä, jota on alun perin käytetty sydämen va
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkeaineen vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla raporttia varten kootuissa tiedoissa. Tunnetun tiedon perusteella sakubitriili on neprilysiiniä estävä aihiolääke, jota käytetään yhdessä angiotensiinireseptorin salpaajan valsartaanin kanssa. Sen teho sydämen vajaatoiminnassa on osoitettu, ja mekanistisesti se voi soveltua myös diabeettiseen nefropatiaan.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta sacubitril and valsartan (yhdistelmävalmiste, joka sisältää aineen Sacubitril) (epävirallinen käännös): ”Sakubitriili/valsartaani sisältää neprilysiinin estäjää, sakubitriilia, ja angiotensiinireseptorin salpaajaa, valsartaania. Sakubitriili/valsartaani estää neprilysiiniä (neutraali endopeptidaasi; NEP) aihiolääke sakubitriilin aktiivisen metaboliitin LBQ657:n välityksellä ja salpaa angiotensiini II:n tyypin 1 (AT 1 ) reseptorin valsartaanin välityksellä.” Englanninkielinen alkuteksti: "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), versio 2026-10-30; haettu 2026-11-19). Tunnetun tiedon perusteella sakubitriili on neprilysiiniä estävä aihiolääke, jota käytetään yhdessä angiotensiinireseptorin salpaajan valsartaanin kanssa. Sen teho sydämen vajaatoiminnassa on osoitettu, ja mekanistisesti se voi soveltua myös diabeettiseen nefropatiaan.
 
 Diabeettisessa nefropatiassa renin-angiotensiinijärjestelmän salpaus on hoidon kulmakivi. Neprilysiinin esto lisää natriureettisia peptidejä, mikä voi vähentää oksidatiivista stressiä, NF-κB-välitteistä tulehdusta ja fibroosia. Useat rotta- ja hiirimallit (db/db, KKAy, Zucker-rotta) ovat raportoineet munuaistulosten paranemista, myös suolistomikrobiston muutoksia.
 
@@ -137,13 +137,14 @@ Muiden turvallisuustietojen (varoitukset, vasta-aiheet) osalta katso valmisteyht
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(kaikki myyntiluvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Neparvis (EMEA/H/C/004343), Entresto (EMEA/H/C/004062)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
 
 <!-- review:end log -->
 

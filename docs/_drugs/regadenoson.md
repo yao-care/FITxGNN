@@ -60,7 +60,7 @@ Muut ennustetut käyttöaiheet (pistemäärä): ruoka-aineriippuvainen rasitukse
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Tunnetun tiedon mukaan regadenosoni on selektiivinen A2A-adenosiinireseptorin agonisti, ja sen teho sydänlihaksen perfuusiokuvantamisessa diagnostisena aineena on osoitettu. Farmakologiatiedot osoittavat sen sitoutuvan myös A1-, A2B- ja A3-reseptoreihin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Regadenoson (epävirallinen käännös): ”Regadenosoni on matala-affiniteettinen agonisti (K i ≈ 1,3 µM) A 2A -adenosiinireseptorille, ja sen affiniteetti A 1 -adenosiinireseptoriin on vähintään 10 kertaa pienempi (K i > 16,5 µM) ja affiniteetti A 2B - ja A 3 -adenosiinireseptoreihin heikko, jos sitä on lainkaan. Regadenosonin aiheuttama A 2A -adenosiinireseptorin aktivaatio saa aikaan sepelvaltimoiden vasodilataation ja lisää sepelvaltimoverenvirtausta (CBF).” Englanninkielinen alkuteksti: "Regadenoson is a low affinity agonist (K i ≈ 1.3 µM) for the A 2A adenosine receptor, with at least 10-fold lower affinity for the A 1 adenosine receptor (K i > 16.5 µM), and weak, if any, affinity for the A 2B and A 3 adenosine receptors. Activation of the A 2A adenosine receptor by regadenoson produces coronary vasodilation and increases coronary blood flow (CBF)." ([DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16), versio 2018-12-21; haettu 2026-11-19). Tunnetun tiedon mukaan regadenosoni on selektiivinen A2A-adenosiinireseptorin agonisti, ja sen teho sydänlihaksen perfuusiokuvantamisessa diagnostisena aineena on osoitettu. Farmakologiatiedot osoittavat sen sitoutuvan myös A1-, A2B- ja A3-reseptoreihin.
 
 Teoreettinen perustelu on, että A2A-reseptorin aktivaatio yleensä vaimentaa syöttösolujen ja tulehdussolujen aktivaatiota, mikä voisi selittää anti-inflammatorisen vaikutuksen allergisissa reaktioissa. Vaikutuksen suunta on kuitenkin epävarma: adenosiinisignalointi voi A2B- ja A3-reseptorien kautta myös edistää syöttösolujen degranulaatiota. Lisäksi regadenosonin omassa valmisteyhteenvedossa on yliherkkyys- ja anafylaksiavaroituksia.
 
@@ -132,12 +132,13 @@ Tarkemmat turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16) |
 
 <!-- review:end log -->
 

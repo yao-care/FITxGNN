@@ -54,7 +54,7 @@ Ikatibantti on bradykiniini B2 -reseptorin antagonisti, jota käytetään perinn
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin laatimiseksi koottu aineisto ei sisällä yksityiskohtaista tietoa vaikutusmekanismista. Farmakologiatietojen mukaan ikatibantti on peptidirakenteinen lääke, joka sitoutuu bradykiniinin B1- ja B2-reseptoreihin (geenit BDKRB1 ja BDKRB2) ja estää bradykiniinin signalointia.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Icatibant (epävirallinen käännös): ”Ikatibantti on bradykiniini B2 -reseptoriin selektiivinen kilpaileva antagonisti, jonka affiniteetti on samankaltainen kuin bradykiniinin. Perinnöllinen angioedeema johtuu C1-esteraasin estäjän puuttumisesta tai toimintahäiriöstä; C1-esteraasin estäjä on keskeinen säätelijä tekijä XII/kallikreiini-proteolyyttisessä kaskadissa, joka johtaa bradykiniinin muodostumiseen.” Englanninkielinen alkuteksti: "Icatibant is a competitive antagonist selective for the bradykinin B2 receptor, with an affinity similar to bradykinin. Hereditary angioedema is caused by an absence or dysfunction of C1-esterase-inhibitor, a key regulator of the Factor XII/kallikrein proteolytic cascade that leads to bradykinin production." ([DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540), versio 2025-07-07; haettu 2026-11-19). Farmakologiatietojen mukaan ikatibantti on peptidirakenteinen lääke, joka sitoutuu bradykiniinin B1- ja B2-reseptoreihin (geenit BDKRB1 ja BDKRB2) ja estää bradykiniinin signalointia.
 
 Mallin ennusteen oletetaan kulkevan C1-estäjää koodaavan SERPING1-geenin kautta, joka kuuluu serpiiniperheeseen. Toksinen serpiinin polymerisaatio on kuitenkin eri mekanismi kuin bradykiniinivälitteinen patologia, jota ikatibantti estää. Mekanistinen yhteys on siis heikko ja perustuu toistaiseksi vain mallin laskennalliseen päätelmään.
 
@@ -93,6 +93,18 @@ Ennuste perustuu pelkästään mallin korkeaan pistemäärään. Kliinisiä tutk
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen
 - Tarkempi vaikutusmekanismin kuvaus
 - Arvio antoreitin soveltuvuudesta tähän käyttöaiheeseen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

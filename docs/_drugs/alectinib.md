@@ -58,7 +58,7 @@ Alektinibi on ALK-tyrosiinikinaasin estäjä, jota käytetään ALK-positiivisen
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raportin laatimiseen koottu aineisto ei sisällä lääkkeen vaikutusmekanismia. Tiedossa on, että alektinibi estää ALK-reseptoritymmosiinikinaasia ja tutkimustietokannan mukaan myös MET-kinaasia. Sen teho ALK-positiivisessa keuhkosyövässä on osoitettu, myös krisotinibille resistenteissä soluissa ja ksenografttimalleissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Alectinib (epävirallinen käännös): ”Alektinibi on tyrosiinikinaasin estäjä, jonka kohteina ovat ALK ja RET. Ei-kliinisissä tutkimuksissa alektinibi esti ALK:n fosforylaatiota ja alavirran signalointiproteiinien STAT3:n ja AKT:n ALK-välitteistä aktivaatiota sekä vähensi kasvainsolujen elinkykyisyyttä useissa solulinjoissa, joissa oli ALK-fuusioita, -amplifikaatioita tai aktivoivia mutaatioita.” Englanninkielinen alkuteksti: "Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations." ([DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb), versio 2026-08-21; haettu 2026-11-19). Tiedossa on, että alektinibi estää ALK-reseptoritymmosiinikinaasia ja tutkimustietokannan mukaan myös MET-kinaasia. Sen teho ALK-positiivisessa keuhkosyövässä on osoitettu, myös krisotinibille resistenteissä soluissa ja ksenografttimalleissa.
 
 Gingivaaliselle fibromatoosille ei tunneta ALK-riippuvaista mekanismia. Korkea pistemäärä (0,9997) on graafipohjainen ennuste, eikä sitä tue mikään tutkimus tai julkaisu. Biologista perustetta on siis toistaiseksi vähän, ja ennustetta tulee pitää hypoteesina, ei hoitosuosituksena.
 
@@ -135,12 +135,13 @@ Kirjallisuudessa on raportoitu alektinibiin liittyviä haittatapahtumia, kuten h
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Alecensa (EMEA/H/C/004164) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Sofosbuviiri on C-hepatiittiviruksen (HCV) RNA-polymeraasia estävä nukleotidia
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin saatavilla. Tunnetun tiedon perusteella sofosbuviiri on HCV:n NS5B-RNA-riippuvaisen RNA-polymeraasin (RdRp) nukleotidianalogi-inhibiittori. Sen teho kroonisessa C-hepatiitissa on osoitettu, ja mekanistisesti se voi soveltua myös hepatiitti E:hen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Sofosbuvir (epävirallinen käännös): ”Sofosbuviiri on suoraan hepatiitti C -virukseen vaikuttava viruslääke. […] Sofosbuviiri on HCV:n NS5B RNA-riippuvaisen RNA-polymeraasin estäjä; tämä entsyymi on välttämätön viruksen replikaatiolle. Sofosbuviiri on nukleotidiaihiolääke, joka metaboloituu solunsisäisesti farmakologisesti aktiiviseksi uridiinianalogitrifosfaatiksi (GS-461203), jonka NS5B-polymeraasi voi liittää HCV:n RNA:han ja joka toimii ketjun katkaisijana.” Englanninkielinen alkuteksti: "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), versio 2024-12-26; haettu 2026-11-19). Tunnetun tiedon perusteella sofosbuviiri on HCV:n NS5B-RNA-riippuvaisen RNA-polymeraasin (RdRp) nukleotidianalogi-inhibiittori. Sen teho kroonisessa C-hepatiitissa on osoitettu, ja mekanistisesti se voi soveltua myös hepatiitti E:hen.
 
 HEV on positiivisäikeinen RNA-virus, jonka replikaatio on riippuvainen RdRp-entsyymistä. Kohdeluokka on siis samankaltainen kuin HCV:llä. Laboratoriotutkimukset osoittavat, että sofosbuviiri estää HEV:n replikaatiota soluviljelmässä ja että sen vaikutus on additiivinen ribaviriinin kanssa (PMID 26408347). Kaniinimallissa suuriannoksinen sofosbuviiri ja sofosbuviiri-ribaviriiniyhdistelmä esti HEV:n replikaatiota (PMID 35247472).
 
@@ -162,12 +162,13 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 4 myyntilupaa (Sovaldi (EMEA/H/C/002798), Harvoni (EMEA/H/C/003850), Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **lepran**, mutta ennust
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan enfortumabivedotiini on Nectin-4-kohdennettu vasta-aine-lääkekonjugaatti, jonka MMAE-osa tuhoaa Nectin-4:ää ilmentäviä kasvainsoluja häiritsemällä mikrotubuluksia. Teho urotelisyövässä on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Enfortumab Vedotin (epävirallinen käännös): ”Enfortumabivedotiini-ejfv on ADC. Vasta-aine on ihmisen IgG1-kappa-vasta-aine, joka kohdistuu Nectin-4:ään, solujen pinnalla sijaitsevaan adheesioproteiiniin. Pienimolekyylinen MMAE on mikrotubuluksia hajottava aine, joka on liitetty vasta-aineeseen proteaasilla pilkottavan linkkerin välityksellä.” Englanninkielinen alkuteksti: "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker." ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), versio 2026-08-04; haettu 2026-11-19). Tunnetun tiedon mukaan enfortumabivedotiini on Nectin-4-kohdennettu vasta-aine-lääkekonjugaatti, jonka MMAE-osa tuhoaa Nectin-4:ää ilmentäviä kasvainsoluja häiritsemällä mikrotubuluksia. Teho urotelisyövässä on osoitettu.
 
 Mikään käytettävissä oleva tieto ei yhdistä Nectin-4-kohdennusta tai mikrotubulusten häirintää *Mycobacterium leprae* -infektioon. Korkea TxGNN-pistemäärä (0.9953) on laskennallinen ennuste, ja se tulee TxGNN-mallista (syväoppiminen). Se voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien tautien välillä, ei biologista näyttöä.
 
@@ -154,12 +154,13 @@ Varoituksista ja vasta-aiheista tietoa ei ole saatavilla; ne on tarkistettava va
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Padcev (EMEA/H/C/005392) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
 
 <!-- review:end log -->
 

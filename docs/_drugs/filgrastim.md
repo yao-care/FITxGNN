@@ -60,7 +60,7 @@ Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja. Ainoa muuhun en
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Lääkkeen tarkkaa vaikutusmekanismia ei ole tässä aineistossa saatavilla. Yleisesti tiedetään, että filgrastiimi on G-CSF, joka lisää neutrofiilien tuotantoa, erilaistumista ja vapautumista luuytimestä. Siksi sitä käytetään neutropeniassa sekä kantasolujen mobilisaatiossa ja kantasolusiirron jälkeisessä toipumisessa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Filgrastim (epävirallinen käännös): ”Kasvutekijät (colony-stimulating factors) ovat glykoproteiineja, jotka vaikuttavat hematopoieettisiin soluihin sitoutumalla spesifisiin solun pinnan reseptoreihin ja stimuloimalla proliferaatiota, erilaistumiseen sitoutumista ja joitakin pääte­solujen toiminnallisia aktivaatioita. Endogeeninen G-CSF on linjaspesifinen kasvutekijä, jota tuottavat monosyytit, fibroblastit ja endoteelisolut.” Englanninkielinen alkuteksti: "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7), versio 2026-11-10; haettu 2026-11-19). Yleisesti tiedetään, että filgrastiimi on G-CSF, joka lisää neutrofiilien tuotantoa, erilaistumista ja vapautumista luuytimestä. Siksi sitä käytetään neutropeniassa sekä kantasolujen mobilisaatiossa ja kantasolusiirron jälkeisessä toipumisessa.
 
 Alkuperäinen käyttöaihe (neutrofiililinjan palautuminen) ja ennustettu käyttöaihe (verihiutaleiden toimintahäiriö) ovat mekanistisesti kaukana toisistaan. Filgrastiimilla ei ole tunnettua vaikutusta verihiutaleiden granulaatioiden vapautumiseen eikä verihiutaleiden toimintaan. Korkea pistemäärä on laskennallinen ennuste, eikä sille ole biologista tai kliinistä vahvistusta.
 
@@ -148,13 +148,14 @@ Suuri osa näistä liittyy syöpähoitoihin, joissa filgrastiimia yleensä käyt
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten valmisteen saatavuus on epävarma” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
 
 <!-- review:end log -->
 

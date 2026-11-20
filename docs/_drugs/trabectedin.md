@@ -54,7 +54,7 @@ Trabektediini on solunsalpaaja, jota on käytetty pehmytkudossarkooman ja munasa
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Alla oleva mekanistinen perustelu on johdettu kirjallisuudesta ja yleistiedosta, ei toimitetuista lähtötiedoista.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Trabectedin (epävirallinen käännös): ”Trabektediini on alkyloiva lääkeaine, joka sitoutuu DNA:n pienen uurteen guaniinitähteisiin muodostaen addukteja, mikä johtaa DNA-kierteen taipumiseen kohti suurta uurretta. Adduktien muodostuminen käynnistää tapahtumaketjun, joka voi vaikuttaa DNA:ta sitovien proteiinien, mukaan lukien joidenkin transkriptiotekijöiden, myöhempään aktiivisuuteen sekä DNA:n korjausreitteihin, mikä johtaa solusyklin häiriintymiseen ja lopulta solukuolemaan.” Englanninkielinen alkuteksti: "Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea), versio 2026-06-29; haettu 2026-11-19). Alla oleva mekanistinen perustelu on johdettu kirjallisuudesta ja yleistiedosta, ei toimitetuista lähtötiedoista.
 
 Trabektediini sitoutuu DNA:n pieneen uraan ja aiheuttaa DNA-vaurioita. Se on erityisen tehokas soluissa, joiden homologinen rekombinaatiokorjaus on puutteellinen (esim. BRCA1/2-puutos). Lisäksi se muokkaa kasvaimen mikroympäristöä vähentämällä kasvaimeen liittyviä makrofageja ja vaikuttaa transkriptiotekijöiden toimintaan.
 
@@ -147,13 +147,14 @@ Muista turvallisuustiedoista (varoitukset, vasta-aiheet) katso valmisteyhteenvet
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu, eikä valmisteyhteenvedon turvallisuustietoja ole saatavilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Trabectedin Accord (EMEA/H/C/006433), Yondelis (EMEA/H/C/000773)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Suoraa näyttöä on vähän: ainoa aiheeseen liittyvä kliininen tutkimus **per
 
 ## Miksi ennuste on järkevä?
 
-Lurasidoni on atyyppinen psykoosilääke, jonka tiedetään salpaavan D2- ja 5-HT2A-reseptoreita ja toimivan 5-HT1A-reseptorin osittaisena agonistina. Tämä profiili on yhteinen muiden kaksisuuntaisen mielialahäiriön hoidossa käytettyjen psykoosilääkkeiden kanssa. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytetyssä aineistossa, joten yhteys perustuu yleisesti tunnettuun farmakologiaan.
+Lurasidoni on atyyppinen psykoosilääke, jonka tiedetään salpaavan D2- ja 5-HT2A-reseptoreita ja toimivan 5-HT1A-reseptorin osittaisena agonistina. Tämä profiili on yhteinen muiden kaksisuuntaisen mielialahäiriön hoidossa käytettyjen psykoosilääkkeiden kanssa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lurasidone (epävirallinen käännös): ”Lurasidonin vaikutusmekanismi skitsofrenian ja kaksisuuntaisen mielialahäiriön masennusvaiheen hoidossa on epäselvä. Sen teho skitsofreniassa ja kaksisuuntaisen mielialahäiriön masennusvaiheessa voi kuitenkin välittyä keskushermoston dopamiini D 2 -reseptorien ja serotoniinityypin 2 (5HT 2A ) -reseptorien salpauksen yhdistelmän kautta.” Englanninkielinen alkuteksti: "The mechanism of action of lurasidone in the treatment of schizophrenia and bipolar depression is unclear. However, its efficacy in schizophrenia and bipolar depression could be mediated through a combination of central dopamine D 2 and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8), versio 2025-01-31; haettu 2026-11-19).
 
 Skitsofrenia ja kaksisuuntainen mielialahäiriö ovat psykiatrisia sairauksia, joissa dopamiini- ja serotoniinivälitteisen signaloinnin häiriöillä arvellaan olevan merkitystä, ja monet psykoosilääkkeet tehoavat molempiin.
 
@@ -128,12 +128,13 @@ Näyttötaso on L5 ja suositus Hold.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Latuda (EMEA/H/C/002713) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
 
 <!-- review:end log -->
 

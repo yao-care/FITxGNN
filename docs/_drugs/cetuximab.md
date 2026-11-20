@@ -56,7 +56,7 @@ Ennusteen tueksi ei ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua
 
 ## Miksi ennuste voi olla perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytetyssä aineistossa. Tiedetään, että setuksimabi on vasta-aine, joka sitoutuu EGFR-reseptoriin ja estää sen kautta kulkevaa kasvusignalointia.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Cetuximab (epävirallinen käännös): ”Epidermaalisen kasvutekijän reseptori (EGFR, HER1, c-ErbB-1) on transmembraaninen glykoproteiini, joka kuuluu tyypin I reseptorityrosiinikinaasien alaryhmään, johon kuuluvat EGFR, HER2, HER3 ja HER4. EGFR:ää ilmentyy konstitutiivisesti monissa normaaleissa epiteelikudoksissa, kuten ihossa ja karvatupessa. […] Setuksimabi sitoutuu spesifisesti EGFR:ään sekä normaaleissa soluissa että kasvainsoluissa ja estää kilpailevasti epidermaalisen kasvutekijän (EGF) ja muiden ligandien, kuten transformoivan kasvutekijä alfan, sitoutumisen.” Englanninkielinen alkuteksti: "The epidermal growth factor receptor (EGFR, HER1, c-ErbB-1) is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. The EGFR is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle. […] Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha." ([DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9), versio 2026-04-16; haettu 2026-11-19). Tiedetään, että setuksimabi on vasta-aine, joka sitoutuu EGFR-reseptoriin ja estää sen kautta kulkevaa kasvusignalointia.
 
 Ennuste perustuu mallin tunnistamaan samankaltaisuuteen lääkkeen ja kohdesairauden välillä. EGFR-salpauksen ja lapsuusiän keuhkoputken karsinoidien välillä ei ole kuitenkaan osoitettu mekanistista yhteyttä. Sitä, että nämä kasvaimet olisivat riippuvaisia EGFR-signaloinnista, ei ole todistettu.
 
@@ -109,6 +109,19 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 - Yksityiskohtaiset vaikutusmekanismitiedot.
 - Valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet), erityisesti lapsipotilaita koskien.
 - Hyöty–haitta-arvio, jossa huomioidaan EGFR-vasta-aineiden tyypilliset haittavaikutukset, kuten infuusioreaktiot ja ihotoksisuus.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

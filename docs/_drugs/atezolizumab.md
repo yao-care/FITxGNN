@@ -54,7 +54,7 @@ Atetsolitsumabi on PD-L1-vasta-aine, jolla on myyntilupa Suomessa. TxGNN-malli e
 
 ## Miksi ennuste voi olla perusteltu?
 
-Atetsolitsumabin vaikutusmekanismia koskevia yksityiskohtaisia tietoja ei ole tässä raportissa käytettävissä. Tunnetun lääkeluokan perusteella atetsolitsumabi on PD-L1:tä estävä vasta-aine, joka voi palauttaa T-solujen kasvainvastaista aktiivisuutta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Atezolizumab (epävirallinen käännös): ”PD L1:tä voi ilmentyä kasvainsoluissa ja/tai kasvaimeen infiltroituneissa immuunisoluissa, ja se voi osaltaan estää kasvaimen vastaista immuunivastetta kasvaimen mikroympäristössä. PD L1:n sitoutuminen T-soluissa ja antigeenia esittelevissä soluissa esiintyviin PD 1- ja B7.1-reseptoreihin heikentää sytotoksisten T-solujen aktiivisuutta, T-solujen proliferaatiota ja sytokiinien tuotantoa. […] Atetsolitsumabi on monoklonaalinen vasta-aine, joka sitoutuu PD L1:een ja salpaa sen yhteisvaikutukset sekä PD 1- että B7.1-reseptorien kanssa.” Englanninkielinen alkuteksti: "PD L1 may be expressed on tumor cells and/or tumor infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD L1 to the PD 1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation and cytokine production. […] Atezolizumab is a monoclonal antibody that binds to PD L1 and blocks its interactions with both PD 1 and B7.1 receptors." ([DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee), versio 2026-10-13; haettu 2026-11-19). Tunnetun lääkeluokan perusteella atetsolitsumabi on PD-L1:tä estävä vasta-aine, joka voi palauttaa T-solujen kasvainvastaista aktiivisuutta.
 
 Mahdollinen perustelu olisi PD-L1:n esto gynekologisessa adenokarsinoomassa, jossa kasvain ilmentää PD-L1:tä. Tätä oletusta ei kuitenkaan tue mikään tämän raportin tiedoista. Ennuste on siis hypoteesi, ei osoitettu yhteys.
 
@@ -95,6 +95,19 @@ Ennusteen pistemäärä on korkea (0,9993), mutta tälle sairaudelle ei ole klii
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkastelu (turvallisuusseulonta ei ole mahdollinen ilman niitä)
 - Tapaussarjat tai selvitys siitä, onko sairaudelle potilaspopulaatiota ja tutkimusmahdollisuuksia
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

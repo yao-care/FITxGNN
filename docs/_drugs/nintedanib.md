@@ -58,7 +58,7 @@ Nintedanibi on tyrosiinikinaasin estäjä, jota on käytetty idiopaattisen keuhk
 
 ## Miksi ennuste on perusteltu?
 
-Nintedanibi on usean kohteen tyrosiinikinaasin estäjä, joka salpaa PDGFR-α/β-, FGFR 1–3- ja VEGFR 1–3 -reseptoreita. Tämän reseptorikohtaisen vaikutuksen tiedot perustuvat ennusteen mekanistiseen perusteluun; erillistä vaikutusmekanismitietoa ei ollut tämän raportin aineistossa saatavilla.
+Nintedanibi on usean kohteen tyrosiinikinaasin estäjä, joka salpaa PDGFR-α/β-, FGFR 1–3- ja VEGFR 1–3 -reseptoreita. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Nintedanib (epävirallinen käännös): ”Nintedanibi on pienimolekyylinen aine, joka estää useita reseptorityrosiinikinaaseja (RTK) ja ei-reseptorityrosiinikinaaseja (nRTK). Nintedanibi estää seuraavia RTK:ita: verihiutalekasvutekijäreseptori (PDGFR) α ja β, fibroblastikasvutekijäreseptori (FGFR) 1-3, verisuonten endoteelikasvutekijäreseptori (VEGFR) 1-3, pesäkkeitä stimuloivan tekijä 1:n reseptori (CSF1R) ja Fms:n kaltainen tyrosiinikinaasi 3 (FLT-3).” Englanninkielinen alkuteksti: "Nintedanib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs) and non-receptor tyrosine kinases (nRTKs). Nintedanib inhibits the following RTKs: platelet-derived growth factor receptor (PDGFR) α and β, fibroblast growth factor receptor (FGFR) 1-3, vascular endothelial growth factor receptor (VEGFR) 1-3, colony stimulating factor 1 receptor (CSF1R), and Fms-like tyrosine kinase-3 (FLT-3)." ([DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa), versio 2026-04-21; haettu 2026-11-19).
 
 DFSP:n taustalla on tyypillisesti COL1A1-PDGFB-fuusio, joka aiheuttaa PDGFR-beetan jatkuvan autokriinisen aktivaation. Koska nintedanibi estää PDGFR-signalointia, mekanistinen yhteys on uskottava. Keuhkofibroosin ja DFSP:n yhteinen nimittäjä on PDGF-, FGF- ja VEGF-reittien rooli fibroblastien kasvussa.
 
@@ -160,13 +160,14 @@ Kummallekaan ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, ja ennust
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 4 myyntilupaa (Nintedanib Viatris (EMEA/H/C/006486), Ofev (EMEA/H/C/003821), Nintedanib Accord (EMEA/H/C/006179), Vargatef (EMEA/H/C/002569)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
 
 <!-- review:end log -->
 

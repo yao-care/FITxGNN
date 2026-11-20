@@ -58,7 +58,7 @@ Etanersepti on liukoinen TNF-α:n estäjä, rekombinantti TNF-reseptorin fuusiop
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin varten kootuissa tiedoissa ei ole yksityiskohtaista tietoa vaikutusmekanismista. Tiedetään kuitenkin, että etanersepti sitoo TNF-α:a ja estää sen tulehdusta ylläpitävää vaikutusta. Teoriassa lääke voisi siis olla hyödyllinen tiloissa, joissa TNF-välitteinen tulehdus on keskeinen sairausmekanismi.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Etanercept (epävirallinen käännös): ”TNF on luonnossa esiintyvä sytokiini, joka osallistuu normaaleihin tulehdus- ja immuunivasteisiin. Sillä on tärkeä rooli RA:n, polyartikulaarisen JIA:n, PsA:n ja AS:n tulehdusprosesseissa ja niistä aiheutuvassa nivelpatologiassa. […] Etanersepti on p75-TNF-reseptorin dimeerinen liukoinen muoto, joka voi sitoa TNF-molekyylejä.” Englanninkielinen alkuteksti: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), versio 2026-05-11; haettu 2026-11-19). Tiedetään kuitenkin, että etanersepti sitoo TNF-α:a ja estää sen tulehdusta ylläpitävää vaikutusta. Teoriassa lääke voisi siis olla hyödyllinen tiloissa, joissa TNF-välitteinen tulehdus on keskeinen sairausmekanismi.
 
 Häntäluun hypermobiliteetti on kuitenkin pääasiassa mekaaninen ja rakenteellinen tila. Siinä ei ole ilmeistä TNF-välitteistä tulehdusmekanismia, jonka kautta TNF:n esto toimisi. Korkea pistemäärä (0,9963) on laskennallinen tulos, jota ei tue mikään kliininen tai kirjallisuuteen perustuva havainto. Mekanistinen yhteys alkuperäiseen käyttöaiheeseen on toistaiseksi selvittämättä.
 
@@ -102,6 +102,19 @@ Varoituksista ja vasta-aiheista ei ole tässä aineistossa tietoa. Tarkista ne v
 - Mekanistinen arvio siitä, onko tilaan liittyvää tulehduskomponenttia, johon TNF-esto voisi vaikuttaa
 - Vaikutusmekanismia koskevien tietojen täydentäminen
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen turvallisuusarviota varten
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -62,7 +62,7 @@ Ennuste perustuu pelkästään mallilaskentaan, ja sitä on pidettävä todennä
 
 Natalitsumabi salpaa alfa4-integriinin välittämää valkosolujen kulkeutumista tulehduskohtiin. MS-taudissa tämä estää tulehdussolujen pääsyn keskushermostoon. Teoriassa sama mekanismi voisi vaikuttaa myös hengitysteiden tulehdukseen.
 
-Yksityiskohtaista vaikutusmekanismitietoa ei kuitenkaan ole tämän raportin aineistossa saatavilla. Keuhkoputkentulehdus on useimmiten infektioperäinen tai itsestään paraneva, ja systeeminen immuunivaste-estävä hoito lisäisi infektioriskiä. Ennuste on siksi todennäköisesti verkkopohjainen artefakti eikä aidosti hoidollinen löydös.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Natalizumab (epävirallinen käännös): ”Natalitsumabi sitoutuu α4β1- ja α4β7-integriinien α4-alayksikköön, jota ilmentyy kaikkien leukosyyttien paitsi neutrofiilien pinnalla, ja estää leukosyyttien α4-välitteisen adheesion niiden vastareseptoriin (vastareseptoreihin). α4-integriiniperheen reseptoreihin kuuluvat verisuonten soluadheesiomolekyyli 1 (VCAM-1), jota ilmentyy aktivoituneessa verisuonten endoteelissa, sekä limakalvojen addressiinisoluadheesiomolekyyli 1 (MAdCAM-1), jota esiintyy ruoansulatuskanavan verisuonten endoteelisoluissa.” Englanninkielinen alkuteksti: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962), versio 2026-10-09; haettu 2026-11-19). Keuhkoputkentulehdus on useimmiten infektioperäinen tai itsestään paraneva, ja systeeminen immuunivaste-estävä hoito lisäisi infektioriskiä. Ennuste on siksi todennäköisesti verkkopohjainen artefakti eikä aidosti hoidollinen löydös.
 
 ---
 
@@ -130,12 +130,13 @@ Muiden ennustettujen käyttöaiheiden kirjallisuus (psoriaasi, parapsoriaasi, ak
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Tyruko (EMEA/H/C/005752), Tysabri (EMEA/H/C/000603)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
 
 <!-- review:end log -->
 

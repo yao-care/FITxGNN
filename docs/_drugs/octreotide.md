@@ -54,7 +54,7 @@ Oktreotidi on somatostatiinianalogi, jota on alun perin käytetty akromegalian h
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Oktreotidi on somatostatiinianalogi, joka sitoutuu pääasiassa somatostatiinireseptoreihin SSTR2 ja SSTR5 (aineiston mukaan myös SSTR3). Sen teho akromegaliassa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Octreotide (epävirallinen käännös): ”Sandostatin-injektioneste vaikuttaa farmakologisesti samalla tavoin kuin luonnollinen hormoni somatostatiini. Se estää GH:ta, glukagonia ja insuliinia vielä voimakkaammin kuin somatostatiini. […] Näiden farmakologisten vaikutustensa vuoksi oktreotidia on käytetty metastasoituneisiin karsinoidikasvaimiin liittyvien oireiden (punastuminen ja ripuli) ja VIP:tä erittävien adenoomien (vetinen ripuli) hoitoon.” Englanninkielinen alkuteksti: "Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)." ([DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39), versio 2026-07-22; haettu 2026-11-19). Oktreotidi on somatostatiinianalogi, joka sitoutuu pääasiassa somatostatiinireseptoreihin SSTR2 ja SSTR5 (aineiston mukaan myös SSTR3). Sen teho akromegaliassa on osoitettu.
 
 Yhteyttä hyvänlaatuiseen follikulaariseen keratinosyyttileesioon ei voida johtaa käytettävissä olevasta aineistosta, ja mikä tahansa selitys olisi spekulatiivinen. Mallin korkea pistemäärä ei yksinään ole näyttöä tehosta. Käänteinen follikulaarinen keratoosi on hyvänlaatuinen ihomuutos, jota hoidetaan yleensä poistamalla se kirurgisesti. Systeemisen peptidilääkkeen tarve on siksi epäselvä.
 
@@ -121,12 +121,13 @@ Tietämyskuvaajaan (TxGNN/PrimeKG) perustuvat vasta-aihesuhteet eivät ole valmi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Oczyesa (EMEA/H/C/006322) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ ja tätä suuntaa tukee tällä hetkellä **7 kliinistä tutkimusta** ja **20 ju
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa lääkeaineen perustiedoista. Tunnetun tiedon perusteella pemetreksedi estää useita folaattiriippuvaisia entsyymejä (tymidylaattisyntaasi, DHFR ja GARFT), jolloin nopeasti jakautuvien kasvainsolujen puriini- ja pyrimidiinisynteesi häiriintyy.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pemetrexed (epävirallinen käännös): ”Pemetreksedi on folaattianalogi ja metabolinen estäjä, joka häiritsee solujen replikaatiolle välttämättömiä folaatista riippuvaisia metabolisia prosesseja. In vitro -tutkimukset osoittavat, että pemetreksedi estää tymidylaattisyntaasia (TS), dihydrofolaattireduktaasia (DHFR) ja glysiiniamidiribonukleotidiformyylitransferaasia (GARFT), jotka ovat tymidiini- ja puriininukleotidien de novo -biosynteesiin osallistuvia folaatista riippuvaisia entsyymejä.” Englanninkielinen alkuteksti: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), versio 2026-06-18; haettu 2026-11-19). Tunnetun tiedon perusteella pemetreksedi estää useita folaattiriippuvaisia entsyymejä (tymidylaattisyntaasi, DHFR ja GARFT), jolloin nopeasti jakautuvien kasvainsolujen puriini- ja pyrimidiinisynteesi häiriintyy.
 
 Vatsakalvon ja keuhkopussin mesotelioma ovat histologialtaan ja solunsalpaajaherkkyydeltään samankaltaisia. Siksi pleuraalisen taudin hoidon ulottaminen vatsakalvoon on biologisesti uskottavaa. Pemetreksedin ja platinan yhdistelmää käytetään käytännössä vatsakalvon mesoteliooman systeemisenä vakiohoitona.
 
@@ -172,12 +172,13 @@ Samoista tiedoista nousi esiin myös muita ennusteita:
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (Alimta (EMEA/H/C/000564), Pemetrexed Fresenius Kabi (EMEA/H/C/003895), Pemetrexed Pfizer (EMEA/H/C/003970)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->
 

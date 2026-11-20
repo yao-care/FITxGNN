@@ -60,7 +60,7 @@ Vahva näyttö koskee vain alkuperäistä TTP-käyttöaihetta (7 kliinistä tutk
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon mukaan kaplasitsumabi on anti-vWF A1 -domeenin nanovasta-aine, joka estää von Willebrand -tekijän ja verihiutaleiden GPIb-reseptorin välisen sitoutumisen. TTP:ssä ADAMTS13-entsyymin puute jättää verenkiertoon ylisuuria vWF-multimeerejä, jotka aiheuttavat verihiutaleiden tarttumista ja mikrotromboosia. Kaplasitsumabi estää tämän suoraan.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Caplacizumab (epävirallinen käännös): ”Kaplasitsumabi-yhdp kohdistuu vWF:n A1-domeeniin ja estää vWF:n ja verihiutaleiden välisen vuorovaikutuksen, mikä vähentää sekä vWF-välitteistä verihiutaleiden adheesiota että verihiutaleiden kulutusta.” Englanninkielinen alkuteksti: "Caplacizumab-yhdp targets the A1-domain of vWF, and inhibits the interaction between vWF and platelets, thereby reducing both vWF-mediated platelet adhesion and platelet consumption." ([DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905), versio 2026-04-24; haettu 2026-11-19). Tunnetun tiedon mukaan kaplasitsumabi on anti-vWF A1 -domeenin nanovasta-aine, joka estää von Willebrand -tekijän ja verihiutaleiden GPIb-reseptorin välisen sitoutumisen. TTP:ssä ADAMTS13-entsyymin puute jättää verenkiertoon ylisuuria vWF-multimeerejä, jotka aiheuttavat verihiutaleiden tarttumista ja mikrotromboosia. Kaplasitsumabi estää tämän suoraan.
 
 Ennustettu indikaatio, verihiutaleiden vapautumishäiriö, on verihiutaleiden sisäinen eritysvika, joka ei ole vWF-välitteinen. vWF–verihiutaleet-sidoksen estäminen voisi pahentaa vuotoa. Korkea TxGNN-pistemäärä perustuu todennäköisesti vain tietoverkon läheisyyteen TTP:hen (trombosytopenia), eikä sille ole mekanistista tai kliinistä tukea.
 
@@ -156,12 +156,13 @@ Muuten turvallisuustiedot ovat valmisteyhteenvedosta: tämän raportin aineistos
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntiluvan tilan selvitys: Suomessa on vain peruutettu lupa, mikä tulee täsmentää alueellisen sääntelytilanteen kanssa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Cablivi (EMEA/H/C/004426) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905) |
 
 <!-- review:end log -->
 

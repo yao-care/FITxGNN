@@ -54,7 +54,7 @@ Baricitinibi on JAK1- ja JAK2-kinaasien estäjä, jota käytetään tulehduksell
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tätä raporttia varten koottu aineisto ei sisällä yksityiskohtaista tietoa vaikutusmekanismista. Baricitinibi tunnetaan JAK1/JAK2-estäjänä, mutta sen yhteyttä tähän harvinaiseen synnynnäiseen kehityshäiriöön ei ole osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Baricitinib (epävirallinen käännös): ”Barisitinibi on Janus-kinaasin (JAK) estäjä. JAKit ovat solunsisäisiä entsyymejä, jotka välittävät solukalvolla tapahtuvista sytokiinien tai kasvutekijöiden ja reseptorien vuorovaikutuksista syntyviä signaaleja ja vaikuttavat siten hematopoieesin ja immuunisolujen toiminnan soluprosesseihin.” Englanninkielinen alkuteksti: "Baricitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf), versio 2026-10-09; haettu 2026-11-19). Baricitinibi tunnetaan JAK1/JAK2-estäjänä, mutta sen yhteyttä tähän harvinaiseen synnynnäiseen kehityshäiriöön ei ole osoitettu.
 
 Aineistossa ei ole biologista reittiä, joka yhdistäisi JAK-signalointia silmän ja raajojen kehityshäiriöön. Ennusteen ainoa tuki on korkea mallipistemäärä (0,9994), joka on laskennallinen ennuste eikä kliinistä näyttöä. Mahdollinen yhteys olisi spekulatiivinen, ja se vaatisi riippumattoman geneettisen ja signaalireittitason validoinnin.
 
@@ -95,6 +95,19 @@ Kohtalaisia (Moderate) ovat muun muassa morfiini (myös liposomaalinen), asetyyl
 - Riippumaton geneettinen ja signaalireittitason validointi sekä prekliiniset tutkimukset
 - Valmisteyhteenvedon turvallisuustietojen (varoitukset, vasta-aiheet) kokoaminen ja arviointi
 - Arvio siitä, soveltuuko lääkkeen antoreitti ja kohdepotilasryhmä (synnynnäinen kehityshäiriö) tähän käyttöön
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

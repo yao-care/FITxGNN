@@ -60,7 +60,7 @@ mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Asfotaasi alfa on rekombinantti kudosepäspesifinen alkalisen fosfataasin (TNSALP) fuusioproteiini. Se hydrolysoi epäorgaanista pyrofosfaattia ja muita fosfaattisubstraatteja ja tukee siten luun mineralisaatiota. Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottuna aineistona.
+Asfotaasi alfa on rekombinantti kudosepäspesifinen alkalisen fosfataasin (TNSALP) fuusioproteiini. Se hydrolysoi epäorgaanista pyrofosfaattia ja muita fosfaattisubstraatteja ja tukee siten luun mineralisaatiota. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Asfotase Alfa (epävirallinen käännös): ”HPP:n aiheuttaa TNSALP-entsyymiaktiivisuuden puutos, joka johtaa useiden TNSALP:n substraattien, kuten epäorgaanisen pyrofosfaatin (PPi), pitoisuuksien suurenemiseen. TNSALP on metalloentsyymi, joka katalysoi fosfomonoesterien hydrolyysiä, jolloin vapautuu epäorgaanista fosfaattia ja alkoholia.” Englanninkielinen alkuteksti: "HPP is caused by a deficiency in TNSALP enzyme activity, which leads to elevations in several TNSALP substrates, including inorganic pyrophosphate (PPi). TNSALP is a metallo-enzyme that catalyzes the hydrolysis of phosphomonoesters with release of inorganic phosphate and alcohol." ([DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031), versio 2025-12-12; haettu 2026-11-19).
 
 Mitokondrion oksidatiivisen fosforylaation häiriöt johtuvat ydin-DNA:n koodaamien hengitysketjun komponenttien viasta. Solunulkoinen alkalisen fosfataasin korvaushoito ei ilmeisesti vaikuta tähän reittiin. Selkeää mekanistista yhteyttä alkuperäisen ja uuden käyttöaiheen välillä ei siis ole tunnistettu.
 
@@ -132,13 +132,14 @@ Turvallisuustietoja ei ole tämän raportin aineistossa saatavilla. Lääkeyhtei
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja ainoa Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syyn ja valmisteen saatavuuden selvitys Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Strensiq (EMEA/H/C/003794) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031) |
 
 <!-- review:end log -->
 

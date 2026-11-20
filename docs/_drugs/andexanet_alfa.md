@@ -54,7 +54,7 @@ Andeksanetti alfa on rekombinantti, katalyyttisesti inaktiivinen tekijä Xa:n "h
 
 ## Miksi ennustetta on pidettävä (ei) perusteltuna?
 
-Andeksanetti alfa sitoo ja sitoutuu tekijä Xa:n estäjiin (sekä TFPI:hin) ja kumoaa siten niiden antikoagulaatiovaikutuksen. Lääkkeen yksityiskohtaista vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin koottu aineistossa.
+Andeksanetti alfa sitoo ja sitoutuu tekijä Xa:n estäjiin (sekä TFPI:hin) ja kumoaa siten niiden antikoagulaatiovaikutuksen. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Andexanet Alfa (epävirallinen käännös): ”Hyytymistekijä Xa (rekombinantti), inaktivoitu-zhzo saa aikaan prokoagulanttivaikutuksensa sitoutumalla FXa:n estäjiin rivaroksabaaniin ja apiksabaaniin ja sitomalla ne. Toinen havaittu ANDEXXA-proteiinin prokoagulanttivaikutus on sen kyky sitoutua kudostekijäreitin estäjään (TFPI) ja estää sen aktiivisuutta.” Englanninkielinen alkuteksti: "Coagulation factor Xa (recombinant), inactivated-zhzo exerts its procoagulant effect by binding and sequestering the FXa inhibitors, rivaroxaban and apixaban. Another observed procoagulant effect of the ANDEXXA protein is its ability to bind to, and inhibit the activity of, Tissue Factor Pathway Inhibitor (TFPI)." ([DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c), versio 2025-05-23; haettu 2026-11-19).
 
 Glanzmannin trombasteenia on perinnöllinen verihiutaleiden sairaus, jonka aiheuttaa GPIIb/IIIa-reseptorin (integriini alfa-IIb beta-3) vika. Tekijä Xa:n estäjien vaikutuksen kumoaminen ei korjaa verihiutaleiden aggregaatiohäiriötä, joten uskottavaa mekanistista yhteyttä ei ole havaittavissa.
 
@@ -92,6 +92,19 @@ Lisäksi muita ennusteita koskevassa arvioinnissa on todettu, että andeksanetti
 - Lääkkeen vaikutusmekanismia koskevat yksityiskohtaiset tiedot
 - Prekliiniset tai mekanistiset tutkimukset, jotka osoittavat mahdollisen yhteyden verihiutaleiden toimintahäiriöön
 - Arvio siitä, onko tromboembolinen riski hyväksyttävä tässä potilasryhmässä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

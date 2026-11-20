@@ -60,7 +60,7 @@ Suuntaa tukee tällä hetkellä **6 kliinistä tutkimusta** ja **20 julkaisua**,
 
 ## Miksi ennuste on perusteltu?
 
-Brentuksimabivedotiini on CD30-vasta-aineeseen sidottu MMAE-sytotoksiini (monometyyliauristatiini E). Vasta-aine sitoutuu CD30:a ilmentäviin syöpäsoluihin ja tuo toksiinin solun sisään. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistossa saatavilla, mutta tämä yleiskuvaus on lääkkeen tunnettu toimintaperiaate.
+Brentuksimabivedotiini on CD30-vasta-aineeseen sidottu MMAE-sytotoksiini (monometyyliauristatiini E). Vasta-aine sitoutuu CD30:a ilmentäviin syöpäsoluihin ja tuo toksiinin solun sisään. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Brentuximab Vedotin (epävirallinen käännös): ”CD30 kuuluu tuumorinekroositekijäreseptorien perheeseen, ja sitä ilmentyy sALCL-solujen pinnalla sekä cHL:n Hodgkinin ja Reed–Sternbergin (HRS) soluissa. CD30:n ilmentyminen vaihtelee muissa T-solulymfoomissa. […] Brentuksimabivedotiini on vasta-aine-lääkekonjugaatti (ADC).” Englanninkielinen alkuteksti: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f), versio 2025-11-11; haettu 2026-11-19).
 
 Hodgkinin lymfooma ja follikulaarinen lymfooma ovat molemmat B-solulymfoomia, mutta mekanistinen yhteys on rajallinen. Follikulaarinen lymfooma ilmentää CD30:a yleensä vähän tai ei lainkaan, joten mekanismi soveltuisi vain CD30-positiiviseen alaryhmään. Vaihtoehtoisesti vaikutus voisi syntyä ns. sivuvaikutusmekanismilla (bystander-tappo) kasvainmikroympäristössä.
 
@@ -166,12 +166,13 @@ Muuten turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi suomalainen myyntilupa on peruutettu ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Adcetris (EMEA/H/C/002455) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
 
 <!-- review:end log -->
 

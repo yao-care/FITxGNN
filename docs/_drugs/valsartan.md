@@ -60,7 +60,7 @@ Ennusteelle ei ole kliinisiä tutkimuksia, ja **1 julkaisu** on vain epäsuora, 
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietoihin ei sisälly valsartaanin yksityiskohtaista vaikutusmekanismia. Tunnetun tiedon perusteella valsartaani salpaa AT1-reseptorin, ja sen teho verenpainetaudissa ja sydämen vajaatoiminnassa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Valsartan (epävirallinen käännös): ”Angiotensiini II muodostuu angiotensiini I:stä angiotensiinikonvertaasin (ACE, kininaasi II) katalysoimassa reaktiossa. Angiotensiini II on reniini-angiotensiinijärjestelmän tärkein verenpainetta kohottava aine, jonka vaikutuksia ovat muun muassa vasokonstriktio, aldosteronin synteesin ja vapautumisen stimulaatio, sydämen stimulaatio ja natriumin takaisinimeytyminen munuaisissa. […] Diovan (valsartaani) estää angiotensiini II:n vasokonstriktiivisia ja aldosteronin eritystä lisääviä vaikutuksia salpaamalla selektiivisesti angiotensiini II:n sitoutumisen AT 1 -reseptoriin monissa kudoksissa, kuten verisuonten sileässä lihaksessa ja lisämunuaisessa.” Englanninkielinen alkuteksti: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Diovan (valsartan) blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213), versio 2026-08-11; haettu 2026-11-19). Tunnetun tiedon perusteella valsartaani salpaa AT1-reseptorin, ja sen teho verenpainetaudissa ja sydämen vajaatoiminnassa on osoitettu.
 
 Angiotensiini II -välitteinen verisuonten supistuminen ja munuaisvaurio ovat keskeisiä pahanlaatuisessa verenpainetaudissa ja hypertensiivisessä nefropatiassa. AT1-salpauksella on siksi mekanistinen yhteys näihin tiloihin.
 
@@ -163,12 +163,13 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla; ne on tarkis
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki yhdeksän myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
 
 <!-- review:end log -->
 

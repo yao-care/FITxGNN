@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **apinoiden immuunikatovirusinfektioon (S
 
 ## Miksi ennuste on perusteltu?
 
-Efavirentsi estää HIV-1:n käänteiskopioijaentsyymiä (RT) ja siten viruksen lisääntymistä. Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla. Tunnetun lääkeluokan perusteella mekanismi liittyy kuitenkin HIV-1:n RT:n estoon.
+Efavirentsi estää HIV-1:n käänteiskopioijaentsyymiä (RT) ja siten viruksen lisääntymistä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Efavirenz (epävirallinen käännös): ”Efavirentsi on viruslääke. […] Efavirentsi on HIV-1:n NNRTI. Efavirentsin vaikutus välittyy pääasiassa HIV-1:n käänteiskopioijaentsyymin nonkompetitiivisen eston kautta. Efavirentsi ei estä HIV-2:n käänteiskopioijaentsyymiä eikä ihmisen solujen DNA-polymeraaseja α, β, γ ja δ.” Englanninkielinen alkuteksti: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), versio 2024-06-28; haettu 2026-11-19). Tunnetun lääkeluokan perusteella mekanismi liittyy kuitenkin HIV-1:n RT:n estoon.
 
 Ennuste on mekanistisesti hauras. Apinoiden luontainen SIV:n käänteiskopioijaentsyymi on luonnostaan resistentti NNRTI-lääkkeille. Efavirentsi toimii makakimalleissa vain, kun käytetään kimeeristä RT-SHIV-virusta, jossa on HIV-1:n RT. Kyseessä on siis eläinkoemalli, ei ihmisen hoitoindikaatio. Korkea pistemäärä heijastaa pääosin ennusteen samankaltaisuutta HIV-infektioon, joka on jo hyväksytty käyttöaihe.
 
@@ -143,12 +143,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niiden tarkistu
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
 
 <!-- review:end log -->
 

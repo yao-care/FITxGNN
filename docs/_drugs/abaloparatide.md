@@ -55,7 +55,7 @@ Abaloparatidi on PTH1-reseptoria (PTH1R) aktivoiva PTHrP-analogi. TxGNN-malli en
 
 ## Miksi ennuste on perusteltu?
 
-Abaloparatidi on PTHrP-analogi, joka aktivoi PTH1-reseptorin (PTH1R). Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä, joten mekanistinen arvio perustuu yleiseen farmakologiaan.
+Abaloparatidi on PTHrP-analogi, joka aktivoi PTH1-reseptorin (PTH1R). Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Abaloparatide (epävirallinen käännös): ”Abaloparatidi on PTHrP(1-34)-analogi, joka toimii PTH1-reseptorin (PTH1R) agonistina. Tämä johtaa cAMP-signalointireitin aktivoitumiseen kohdesoluissa. Kerran vuorokaudessa annettava abaloparatidi stimuloi uuden luun muodostumista trabekulaarisen ja kortikaalisen luun pinnoilla stimuloimalla osteoblastien toimintaa.” Englanninkielinen alkuteksti: "Abaloparatide is a PTHrP(1-34) analog which acts as an agonist at the PTH1 receptor (PTH1R). This results in activation of the cAMP signaling pathway in target cells. Once-daily administration of abaloparatide stimulates new bone formation on trabecular and cortical bone surfaces by stimulation of osteoblastic activity." ([DailyMed: Tymlos (abaloparatide) prescribing information, Radius Health, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8), versio 2026-08-11; haettu 2026-11-19).
 
 PTHrP-signalointi osallistuu epiteelin ja mesenkyymin väliseen vuorovaikutukseen etusuolen kehityksen aikana, joten spekulatiivinen kehityksellinen yhteys on mahdollinen. Käyttöaihe on kuitenkin synnynnäinen rakenteellinen epämuodostuma, jota syntymän jälkeen annettava peptidianabolinen lääke tuskin korjaa.
 
@@ -97,6 +97,19 @@ Ennuste perustuu pelkästään laskennalliseen malliin. Kliinisiä tutkimuksia t
 - Prekliiniset tutkimukset PTHrP/PTH1R-signaloinnista ruokatorven kehityksessä
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen ja turvallisuusarvio
 - Arvio siitä, onko lääkkeen antoreitti ja käyttö synnynnäisessä epämuodostumassa ylipäätään mahdollista
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tymlos (abaloparatide) prescribing information, Radius Health, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=712143d9-e21e-4013-bb3b-3426a21060a8) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

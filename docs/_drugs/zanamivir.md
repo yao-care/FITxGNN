@@ -56,7 +56,7 @@ Toinen ennustettu käyttöaihe, tyrosiinin aineenvaihdunnan häiriö (pisteet 0.
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaisia tietoja tsanamiviirin vaikutusmekanismista ei tätä raporttia varten ollut saatavilla. Tiedetään, että tsanamiviiri on viruksen neuraminidaasia estävä lääke, jonka teho influenzassa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Zanamivir (epävirallinen käännös): ”Tsanamiviiri on viruslääke, joka vaikuttaa influenssavirukseen. […] Tsanamiviiri on influenssaviruksen neuraminidaasin (NA) estäjä; neuraminidaasi on entsyymi, joka vapauttaa viruspartikkeleita infektoituneiden solujen plasmakalvolta ja edistää viruksen leviämistä hengitysteissä. Neuraminidaasin estomäärityksissä tsanamiviiri vaikuttaa kaikkiin NA-entsyymin alatyyppeihin N1–N9.” Englanninkielinen alkuteksti: "Zanamivir is an antiviral drug with activity against influenza virus. […] Zanamivir is an inhibitor of influenza virus neuraminidase (NA), an enzyme that releases viral particles from the plasma membrane of infected cells and promotes virus spread in the respiratory tract. In neuraminidase inhibition assays, zanamivir is active against all NA enzyme subtypes N1 to N9." ([DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d), versio 2026-07-23; haettu 2026-11-19). Tiedetään, että tsanamiviiri on viruksen neuraminidaasia estävä lääke, jonka teho influenzassa on osoitettu.
 
 Pyelonefriitti on useimmiten bakteeri-infektio (tavallisimmin *E. coli*), ja mekanistinen yhteys tsanamiviiriin on heikko. Bakteereilla on kyllä neuraminidaasin kaltaisia entsyymejä (sialidaaseja), mutta tsanamiviirilla ei ole osoitettua antibakteerista tehoa eikä tehoa munuaisinfektioon. Korkea pistemäärä on siksi vain hypoteesia tuottava signaali, ei näyttö tehosta.
 
@@ -124,13 +124,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Arviota siitä, onko valmiste ylipäätään saatavilla Suomessa myyntiluvan peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Dectova (EMEA/H/C/004102) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d) |
 
 <!-- review:end log -->
 

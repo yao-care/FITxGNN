@@ -54,7 +54,7 @@ Ambrisentaani on endoteliini A -reseptorin salpaaja. TxGNN-malli ennustaa sen vo
 
 ## Miksi ennuste voi olla perusteltu?
 
-Ambrisentaani salpaa endoteliini A -reseptoria, jonka kautta endoteliini aiheuttaa verisuonten supistumista ja verisuoniston uudelleenmuovautumista. Tarkempaa vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla.
+Ambrisentaani salpaa endoteliini A -reseptoria, jonka kautta endoteliini aiheuttaa verisuonten supistumista ja verisuoniston uudelleenmuovautumista. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ambrisentan (epävirallinen käännös): ”Endoteliini-1 (ET-1) on voimakas autokriininen ja parakriininen peptidi. ET-1:n vaikutuksia verisuonten sileässä lihaksessa ja endoteelissa välittää kaksi reseptorin alatyyppiä, ET A ja ET B. […] Ambrisentaani on suuren affiniteetin (K i =0,011 nM) ET A -reseptorin antagonisti, jolla on suuri selektiivisyys ET A -reseptoriin verrattuna ET B -reseptoriin (>4000-kertainen).” Englanninkielinen alkuteksti: "Endothelin-1 (ET-1) is a potent autocrine and paracrine peptide. Two receptor subtypes, ET A and ET B, mediate the effects of ET-1 in the vascular smooth muscle and endothelium. […] Ambrisentan is a high-affinity (K i =0.011 nM) ET A receptor antagonist with a high selectivity for the ET A versus ET B receptor (>4000-fold)." ([DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844), versio 2026-06-22; haettu 2026-11-19).
 
 Ainoa löydetty julkaisu on tapausselostus potilaasta, jolla on perinnöllinen verenvuototaipumus (HHT) ja siihen liittyvä keuhkovaltimoverenpainetauti. HHT liittyy usein keuhkojen valtimolaskimomuodostumiin. Endoteliinireitti ja verisuonten uudelleenmuovautuminen voivat siis olla yhteydessä tähän tautiryhmään, mutta yhteys on epäsuora. Julkaisu ei osoita, että ambrisentaani hoitaisi itse valtimolaskimomuodostumia.
 
@@ -96,6 +96,19 @@ Ei ole kliinisiä tutkimuksia, eikä ainoa julkaisu (tapausselostus keuhkovaltim
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (tällä hetkellä puuttuvat)
 - Prekliiniset tai kliiniset tutkimukset, jotka tutkivat suoraan keuhkojen valtimolaskimomuodostumia, sekä shuntin ja hapetuksen turvallisuusarviointi
 - Raskauden ehkäisyä ja alkio-sikiötoksisuutta koskeva riskienhallintasuunnitelma
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

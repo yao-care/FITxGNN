@@ -54,7 +54,7 @@ Aliskireeni on suora reniininestäjä, joka vähentää angiotensiini II:n muodo
 
 ## Miksi ennuste on perusteltu?
 
-Aliskireeni estää reniiniä, joka on reniini-angiotensiinijärjestelmän (RAS) nopeutta rajoittava vaihe, ja vähentää siten angiotensiini II:n tuotantoa. Yksityiskohtaisia vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla.
+Aliskireeni estää reniiniä, joka on reniini-angiotensiinijärjestelmän (RAS) nopeutta rajoittava vaihe, ja vähentää siten angiotensiini II:n tuotantoa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Aliskiren (epävirallinen käännös): ”Munuainen erittää reniiniä veritilavuuden ja munuaisperfuusion pienenemisen seurauksena. Reniini pilkkoo angiotensinogeenia, jolloin muodostuu inaktiivista dekapeptidiä angiotensiini I:tä (Ang I). Ang I muuttuu aktiiviseksi oktapeptidiksi angiotensiini II:ksi (Ang II) ACE-välitteisten ja muiden kuin ACE-välitteisten reittien kautta.” Englanninkielinen alkuteksti: "Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways." ([DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb), versio 2022-12-30; haettu 2026-11-19).
 
 Rottien kroonista ajoittaista hypoksiaa koskevissa kokeissa RAS:n aktivaatio on yhdistetty sympaattiseen yliaktiivisuuteen ja eteisten uudelleenmuovautumiseen, ja aliskireeni lievensi eteisten uudelleenmuovautumista tässä mallissa. Tämä antaa uskottavan RAS-pohjaisen mekanismin hypoksiaan liittyville kudosvaikutuksille.
 
@@ -101,6 +101,19 @@ Turvallisuustietoja on syytä tarkastella pakkausselosteesta ja valmisteyhteenve
 - Vaikutusmekanismia koskevat tiedot
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
 - Turvallisuusarvio, jossa huomioidaan RAS-salpaajayhdistelmiin liittyvät huolenaiheet ja hypotension riski
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

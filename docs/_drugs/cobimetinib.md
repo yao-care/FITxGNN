@@ -58,7 +58,7 @@ Kobimetinibi on MEK1/2-estäjä, jota on alun perin käytetty melanooman hoitoon
 
 ## Miksi ennuste on perusteltu?
 
-Kobimetinibi on MEK1/2-estäjä, joka vaikuttaa MAPK/ERK-signaalireitillä. Tarkempaa vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tiedossa olevan perusteella kobimetinibin teho melanoomassa liittyy tämän signaalireitin estoon.
+Kobimetinibi on MEK1/2-estäjä, joka vaikuttaa MAPK/ERK-signaalireitillä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Cobimetinib (epävirallinen käännös): ”Kobimetinibi on mitogeeniaktivoidun proteiinikinaasin (MAPK)/solunulkoisen signaalin säätelemän kinaasi 1:n (MEK1) ja MEK2:n reversiibeli estäjä. MEK-proteiinit ovat solunulkoisen signaalin säätelemän kinaasin (ERK) signaalireitin ylävirran säätelijöitä; tämä reitti edistää solujen proliferaatiota.” Englanninkielinen alkuteksti: "Cobimetinib is a reversible inhibitor of mitogen-activated protein kinase (MAPK)/extracellular signal regulated kinase 1 (MEK1) and MEK2. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6), versio 2026-07-29; haettu 2026-11-19). Tiedossa olevan perusteella kobimetinibin teho melanoomassa liittyy tämän signaalireitin estoon.
 
 ERK-signaloinnin häiriöiden ja neuroinflammaation on esitetty liittyvän ALS:n biologiaan, joten reittitason perustelu on uskottava. Yhteys on kuitenkin toistaiseksi spekulatiivinen. Melanooma on syöpä ja ALS hermorappeumasairaus, joten alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu.
 
@@ -155,13 +155,14 @@ Kohtalaisiksi (Moderate) luokiteltuja ovat muun muassa simetidiini, klotrimatsol
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu ja a” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Cotellic (EMEA/H/C/003960) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6) |
 
 <!-- review:end log -->
 

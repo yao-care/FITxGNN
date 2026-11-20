@@ -58,7 +58,7 @@ Deferasiroksi on rautaa sitova kelaattori, jota on alun perin käytetty raudan y
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella deferasiroksi on rautakelaattori, jonka teho raudan ylikuormituksessa on osoitettu. Mekanistisesti raudan saatavuuden muokkaaminen voisi olla merkityksellistä myös HIV-infektiossa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Deferasirox (epävirallinen käännös): ”Exjade (deferasiroksi) on suun kautta vaikuttava kelaattori, joka on selektiivinen raudalle (Fe 3+ -muodossa). Se on kolmihampainen ligandi, joka sitoo rautaa suurella affiniteetilla suhteessa 2:1. Vaikka deferasiroksin affiniteetti sinkkiin ja kupariin on hyvin pieni, näiden hivenmetallien seerumipitoisuudet pienenevät vaihtelevasti deferasiroksin annon jälkeen.” Englanninkielinen alkuteksti: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), versio 2026-01-28; haettu 2026-11-19). Tunnetun tiedon perusteella deferasiroksi on rautakelaattori, jonka teho raudan ylikuormituksessa on osoitettu. Mekanistisesti raudan saatavuuden muokkaaminen voisi olla merkityksellistä myös HIV-infektiossa.
 
 Julkaistun prekliinisen tutkimuksen (PMID 34550543) mukaan endolysosomien rauta vaikuttaa HIV-1 Tat -proteiinin välittämään LTR-transaktivaatioon. Tämä antaa uskottavan prekliinisen yhteyden raudan säätelyn ja HIV-1:n transkription välille. Yhteys on kuitenkin vasta soluvaiheen havainto, eikä se osoita deferasiroksin kliinistä tehoa potilailla.
 
@@ -141,13 +141,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla tätä ra
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja kaikki suomalaiset myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 3 myyntilupaa (Deferasirox Mylan (EMEA/H/C/005014), Deferasirox Accord (EMEA/H/C/005156), Exjade (EMEA/H/C/000670)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
 
 <!-- review:end log -->
 

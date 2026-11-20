@@ -54,7 +54,7 @@ Enoksapariini on pienimolekyylinen hepariini, jota käytetään laskimotromboemb
 
 ## Miksi ennuste on perusteltu?
 
-Enoksapariini on pienimolekyylinen hepariini, joka vahvistaa antitrombiinin vaikutusta ja estää erityisesti tekijä Xa:ta sekä vähäisemmässä määrin trombiinia. Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa, joten mekanismikuvaus perustuu yleiseen farmakologiseen tietoon.
+Enoksapariini on pienimolekyylinen hepariini, joka vahvistaa antitrombiinin vaikutusta ja estää erityisesti tekijä Xa:ta sekä vähäisemmässä määrin trombiinia. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Enoxaparin (epävirallinen käännös): ”Enoksapariini on pienimolekyylinen hepariini, jolla on antitromboottisia ominaisuuksia.” Englanninkielinen alkuteksti: "Enoxaparin is a low molecular weight heparin which has antithrombotic properties." ([DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59), versio 2026-05-28; haettu 2026-11-19).
 
 Proteiini C:n puutos heikentää elimistön omaa antikoagulaatioreittiä, jossa aktivoitu proteiini C inaktivoi tekijät Va ja VIIIa. Seurauksena on suurentunut taipumus veritulppiin. Koska enoksapariini vaikuttaa veren hyytymiskaskadiin ja sitä käytetään laskimotromboembolian hoidossa, sen käyttö tulpan ehkäisyssä tai hoidossa on mekanistisesti uskottavaa.
 
@@ -93,6 +93,19 @@ Ennuste perustuu ainoastaan TxGNN-mallin pistemäärään (0,9958), eikä tukevi
 - Systemaattinen kirjallisuushaku proteiini C:n puutoksen antikoagulaatiohoidosta (tapausraportit, rekisteritutkimukset, hoitosuositukset)
 - Arvio enoksapariinin asemasta suhteessa proteiini C -konsentraattiin ja varfariiniin
 - Reittien ja annostelun yhteensopivuuden arviointi
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

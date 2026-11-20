@@ -54,7 +54,7 @@ Fidaksomisiini on makrosyklinen, kapeakirjoinen antibiootti, jota on alun perin 
 
 ## Miksi ennuste on järkevä – tai ei?
 
-Fidaksomisiini estää bakteerin RNA-polymeraasia, ja sen vaikutus kohdistuu pääosin gram-positiivisiin bakteereihin, kuten *Clostridioides difficile* -bakteeriin. Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun lääkeluokan perusteella mekanistinen yhteys on kuitenkin mahdollinen: laboratoriokokeissa on raportoitu jonkin verran *Staphylococcus aureus* -tehoa, ja tämä bakteeri tuottaa SSSS:n aiheuttavia eksfoliatiivisia toksiineja.
+Fidaksomisiini estää bakteerin RNA-polymeraasia, ja sen vaikutus kohdistuu pääosin gram-positiivisiin bakteereihin, kuten *Clostridioides difficile* -bakteeriin. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Fidaxomicin (epävirallinen käännös): ”Fidaksomisiini on antibakteerinen lääke. […] Fidaksomisiini on fermentaatiotuote, joka saadaan aktinomykeetistä Dactylosporangium aurantiacum. Fidaksomisiini on makrolidiryhmän antibakteerinen lääke, joka estää RNA-synteesiä sitoutumalla RNA-polymeraaseihin. Fidaksomisiini on bakterisidinen C. difficileä vastaan in vitro, ja sillä on C. difficileä vastaan 6–10 tunnin antibioottinen jälkivaikutus.” Englanninkielinen alkuteksti: "Fidaxomicin is an antibacterial drug. […] Fidaxomicin is a fermentation product obtained from the Actinomycete Dactylosporangium aurantiacum. Fidaxomicin is a macrolide antibacterial drug that inhibits RNA synthesis by binding to RNA polymerases. Fidaxomicin is bactericidal against C. difficile in vitro, and demonstrates a post-antibiotic effect vs. C. difficile of 6-10 hrs." ([DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb), versio 2024-10-16; haettu 2026-11-19). Tunnetun lääkeluokan perusteella mekanistinen yhteys on kuitenkin mahdollinen: laboratoriokokeissa on raportoitu jonkin verran *Staphylococcus aureus* -tehoa, ja tämä bakteeri tuottaa SSSS:n aiheuttavia eksfoliatiivisia toksiineja.
 
 Ennusteessa on kuitenkin vakavia heikkouksia. Suun kautta annettu fidaksomisiini imeytyy hyvin vähän, joten systeeminen altistus on mitätön. Tämä tekee lääkkeestä epätodennäköisen valinnan systeemiseen, toksiinivälitteiseen sairauteen. Korkea pistemäärä on siis laskennallinen ennuste, jota mikään kliininen tieto ei tue.
 
@@ -133,12 +133,13 @@ Muuta turvallisuustietoa (varoitukset, vasta-aiheet) ei ole saatavilla; tarkista
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Dificlir (EMEA/H/C/002087) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **autoimmuuniseen munasarjatulehdukseen**
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin käyttöön koottu aineisto ei sisällä yksityiskohtaista tietoa vaikutusmekanismista. Tiedossa on, että insuliiniglargiini on pitkävaikutteinen insuliinianalogi ja sen teho diabeteksen hoidossa on osoitettu. Mekanistista perustetta autoimmuuniselle munasarjatulehdukselle ei kuitenkaan ole.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Insulin Glargine (epävirallinen käännös): ”Insuliinin, myös insuliiniglargiinivalmisteiden, ensisijainen vaikutus on glukoosiaineenvaihdunnan säätely. Insuliini ja sen analogit alentavat veren glukoosipitoisuutta lisäämällä perifeeristä glukoosinottoa, erityisesti luurankolihaksiin ja rasvakudokseen, sekä estämällä glukoosin tuotantoa maksassa.” Englanninkielinen alkuteksti: "The primary activity of insulin, including insulin glargine products, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810), versio 2026-10-15; haettu 2026-11-19). Tiedossa on, että insuliiniglargiini on pitkävaikutteinen insuliinianalogi ja sen teho diabeteksen hoidossa on osoitettu. Mekanistista perustetta autoimmuuniselle munasarjatulehdukselle ei kuitenkaan ole.
 
 Mahdollinen yhteys voisi olla yhteinen autoimmuuni- ja umpierityspohja, esimerkiksi autoimmuuniset polyendokriiniset oireyhtymät, joissa esiintyy myös diabetes. Insuliiniglargiinilla ei kuitenkaan tunneta mekanismia, jolla se hoitaisi munasarjojen autoimmuniteettia. Ennuste on todennäköisesti tietämysgraafin läheisyydestä johtuva artefakti.
 
@@ -152,13 +152,14 @@ Monet näistä vaikuttavat verensokeritasoon, joten verensokeria on seurattava t
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuustietoja ole saatavilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Markkinatilanteen selvitys (kaikki myyntiluvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
 
 <!-- review:end log -->
 

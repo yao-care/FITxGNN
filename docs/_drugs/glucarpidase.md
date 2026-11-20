@@ -54,7 +54,7 @@ Glukarpidaasi on rekombinanttientsyymi, joka hajottaa solunulkoista metotreksaat
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Yksityiskohtaisia tietoja vaikutusmekanismista ei ole saatavilla. Tiedetään, että glukarpidaasi on rekombinantti bakteeriperäinen karboksipeptidaasi G2, joka hydrolysoi solunulkoista metotreksaattia ja foolihappoyhdisteitä inaktiivisiksi metaboliiteiksi.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Glucarpidase (epävirallinen käännös): ”Glukarpidaasi on rekombinantti bakteeriperäinen entsyymi, joka hydrolysoi karboksyyliterminaalisen glutamaattitähteen foolihaposta ja klassisista antifolaateista, kuten metotreksaatista. Glukarpidaasi muuttaa metotreksaatin sen inaktiivisiksi metaboliiteiksi 4-deoksi-4-amino-N 10 -metyylipteroiinihapoksi (DAMPA) ja glutamaatiksi.” Englanninkielinen alkuteksti: "Glucarpidase is a recombinant bacterial enzyme that hydrolyzes the carboxyl- terminal glutamate residue from folic acid and classical antifolates such as methotrexate. Glucarpidase converts methotrexate to its inactive metabolites 4-deoxy-4-amino-N 10 - methylpteroic acid (DAMPA) and glutamate." ([DailyMed: Voraxaze (glucarpidase) prescribing information, BTG International Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acaef5a6-b740-40e3-8ffe-74a75c74745c), versio 2024-11-27; haettu 2026-11-19). Tiedetään, että glukarpidaasi on rekombinantti bakteeriperäinen karboksipeptidaasi G2, joka hydrolysoi solunulkoista metotreksaattia ja foolihappoyhdisteitä inaktiivisiksi metaboliiteiksi.
 
 Tälle vaikutukselle ei löydy uskottavaa yhteyttä diabeettisen kaihin syntymekanismeihin, kuten mykiön polyolireittiin, glykaatioon tai oksidatiiviseen stressiin. Lisäksi lääke on suuri entsyymi, jota annetaan laskimoon, eikä silmään kohdentamiselle ole perustetta.
 
@@ -101,6 +101,19 @@ Ennusteelle ei ole kliinistä eikä kirjallisuusnäyttöä, eikä lääkkeen vai
 - Prekliinistä näyttöä mykiömallista
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen täydentäminen
 - Arvio antoreitin soveltuvuudesta silmäkäyttöön
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Voraxaze (glucarpidase) prescribing information, BTG International Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acaef5a6-b740-40e3-8ffe-74a75c74745c) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

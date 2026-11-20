@@ -56,7 +56,7 @@ Kabotsantinibi on monikinaasi-inhibiittori, jota on käytetty munuaissolusyövä
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tarpeisiin koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan kabotsantinibi estää VEGFR2-, MET- ja AXL-kinaaseja. Näiden reittien tiedetään liittyvän verisuonten uudismuodostukseen ja kasvaimen etenemiseen myös sarkoomissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Cabozantinib (epävirallinen käännös): ”In vitro -biokemiallisissa määrityksissä ja/tai solumäärityksissä kabotsantinibin on osoitettu estävän MET:n, VEGFR-1:n, -2:n ja -3:n, AXL:n, RET:n, ROS1:n, TYRO3:n, MER:n, KIT:n, TRKB:n, FLT-3:n ja TIE-2:n tyrosiinikinaasiaktiivisuutta. Nämä reseptorityrosiinikinaasit osallistuvat sekä normaaliin solutoimintaan että patologisiin prosesseihin, kuten onkogeneesiin, etäpesäkkeiden muodostumiseen, kasvaimen angiogeneesiin, lääkeresistenssiin ja kasvaimen mikroympäristön ylläpitoon.” Englanninkielinen alkuteksti: "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment." ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5), versio 2025-10-19; haettu 2026-11-19). Tunnetun tiedon mukaan kabotsantinibi estää VEGFR2-, MET- ja AXL-kinaaseja. Näiden reittien tiedetään liittyvän verisuonten uudismuodostukseen ja kasvaimen etenemiseen myös sarkoomissa.
 
 Alkuperäiset käyttöaiheet, kuten munuaissolusyöpä, ovat kasvaimia, joissa samat signalointireitit ovat keskeisiä. Tämä tekee mekanistisesti uskottavaksi, että lääke voisi tehota myös pehmytkudossarkoomiin ja liposarkoomaan. Liposarkoomaspesifistä näyttöä ei kuitenkaan vielä ole. Tutkimus koskee sekalaista pehmytkudossarkoomapotilasryhmää, jossa liposarkooma on korkeintaan osaryhmä.
 
@@ -176,13 +176,14 @@ Munuaiskarsinooman L1-näyttö perustuu vaiheen 3 tutkimuksiin (METEOR, CheckMat
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia valmisteita ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomen myyntilupien peruutuksen syy ja n” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Cabometyx (EMEA/H/C/004163), Cometriq (EMEA/H/C/002640)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
 
 <!-- review:end log -->
 

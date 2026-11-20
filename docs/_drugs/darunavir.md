@@ -60,7 +60,7 @@ Ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **4 julkaisua*
 
 ## Miksi ennuste on perusteltu?
 
-Darunaviirin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Tunnetun tiedon mukaan darunaviiri on HIV-1-proteaasin estäjä, sen teho HIV-infektiossa on osoitettu, ja mekanistisesti se voi soveltua myös lähisukuisen SIV-viruksen aiheuttamaan infektioon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Darunavir (epävirallinen käännös): ”Darunaviiri on HIV-1:n viruslääke. […] Darunaviiri on HIV-1-proteaasin estäjä. Se estää selektiivisesti HIV-1:n koodaamien Gag-Pol-polyproteiinien pilkkoutumisen infektoituneissa soluissa ja estää siten kypsien viruspartikkelien muodostumisen.” Englanninkielinen alkuteksti: "Darunavir is an HIV-1 antiviral drug. […] Darunavir is an inhibitor of the HIV-1 protease. It selectively inhibits the cleavage of HIV-1 encoded Gag-Pol polyproteins in infected cells, thereby preventing the formation of mature virus particles." ([DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f), versio 2025-08-29; haettu 2026-11-19). Tunnetun tiedon mukaan darunaviiri on HIV-1-proteaasin estäjä, sen teho HIV-infektiossa on osoitettu, ja mekanistisesti se voi soveltua myös lähisukuisen SIV-viruksen aiheuttamaan infektioon.
 
 SIV on HIV:n kanssa läheistä sukua oleva lentivirus. Proteaasin estäminen on todennäköisesti säilynyt toimintatapa eri lentivirusten välillä, joten mekanistinen perustelu on vahva. Korkea ennustepistemäärä tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia sukulaissairauksien välillä, ei biologista näyttöä.
 
@@ -141,12 +141,13 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
 
 <!-- review:end log -->
 

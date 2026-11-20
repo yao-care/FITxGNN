@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **familiaaliseen yleistyneeseen lentigino
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän lääkkeen yksityiskohtaista vaikutusmekanismia koskevia tietoja ei tällä hetkellä ole saatavilla. Tunnetun tiedon perusteella metreleptiini on rekombinantti leptiinianalogi, joka vaikuttaa leptiinireseptoreihin ja säätelee energiatasapainoa ja aineenvaihduntaa. Sen teho lipodystrofiassa perustuu leptiinin puutteen korjaamiseen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Metreleptin (epävirallinen käännös): ”Rasvasolut varastoivat lipidejä vastatakseen muiden kuin rasvakudosten energiantarpeeseen paaston aikana. Yleistynyttä lipodystrofiaa sairastavilla potilailla rasvakudoksen puutos johtaa hypertriglyseridemiaan ja rasvan ektooppiseen kertymiseen muihin kuin rasvakudoksiin, kuten maksaan ja lihaksiin, mikä osaltaan aiheuttaa aineenvaihdunnan poikkeavuuksia, mukaan lukien insuliiniresistenssiä. […] MYALEPT (metreleptiini) injektiokuiva-aine vaikuttaa sitoutumalla ihmisen leptiinireseptoriin (ObR) ja aktivoimalla sen; reseptori kuuluu luokan I sytokiinireseptoriperheeseen, joka välittää signaalinsa JAK/STAT-signaalinvälitysreitin kautta.” Englanninkielinen alkuteksti: "Adipocytes store lipids to meet the fuel requirements of non-adipose tissues during fasting. In patients with generalized lipodystrophy, the deficiency of adipose tissue leads to hypertriglyceridemia and ectopic deposition of fat in non-adipose tissues such as liver and muscle, contributing to metabolic abnormalities including insulin resistance. […] MYALEPT (metreleptin) for injection exerts its function by binding to and activating the human leptin receptor (ObR), which belongs to the Class I cytokine family of receptors that signals through the JAK/STAT transduction pathway." ([DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc), versio 2024-03-25; haettu 2026-11-19). Tunnetun tiedon perusteella metreleptiini on rekombinantti leptiinianalogi, joka vaikuttaa leptiinireseptoreihin ja säätelee energiatasapainoa ja aineenvaihduntaa. Sen teho lipodystrofiassa perustuu leptiinin puutteen korjaamiseen.
 
 Familiaalinen yleistynyt lentiginoosi on pigmenttihäiriö, eikä sen yhteydessä tunneta leptiiniin liittyvää signalointireittiä. Selkeää mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ei siis ole. Korkea TxGNN-pistemäärä (0,997) on graafipohjainen ennuste, jota ei tue kliininen tai kirjallisuusnäyttö. Se heijastelee todennäköisesti verkoston läheisyyttä harvinaisten tautien tai fenotyyppien solmujen kautta, ei biologista perustetta.
 
@@ -130,13 +130,14 @@ Muista turvallisuustiedoista (varoitukset ja vasta-aiheet) katso valmisteyhteenv
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys peruutetun myyntiluvan syistä ja lääkkeen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Myalepta (EMEA/H/C/004218) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc) |
 
 <!-- review:end log -->
 

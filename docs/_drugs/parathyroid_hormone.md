@@ -58,7 +58,7 @@ Parathormoni (PTH) on kalsiumaineenvaihduntaa säätelevä hormoni, jota on käy
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella parathormoni korvaa puuttuvaa lisäkilpirauhashormonia hypoparatyreoosissa ja säätelee kalsium- ja fosfaattitasapainoa.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Parathyroid Hormone vaikutusmekanismiksi (epävirallinen käännös): ”Lisäkilpirauhashormonireseptorin agonisti” Englanninkielinen alkuteksti: "Parathyroid hormone receptor agonist" ([ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon perusteella parathormoni korvaa puuttuvaa lisäkilpirauhashormonia hypoparatyreoosissa ja säätelee kalsium- ja fosfaattitasapainoa.
 
 Uusi vuoden 2025 geneettinen tutkimus (PMID 40297711) yhdistää PTH:n sukuisen peptidin (PTHrP) reseptorit migreenialttiuteen. Tämä antaa uskottavan mutta epäsuoran yhteyden PTH-signalointiin. Muu kirjallisuus on havainnoivaa ja koskee kalsiumin, D-vitamiinin ja magnesiumin tasoja migreenipotilailla.
 
@@ -131,11 +131,12 @@ Muuta turvallisuustietoa ei ole saatavilla. Tarkista varoitukset ja vasta-aiheet
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-10-31 | Poistettu: ”Suom sa ainoa ute , jote v m mar k n ll” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078) |
 
 <!-- review:end log -->
 

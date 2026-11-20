@@ -60,7 +60,7 @@ Ennusteen tukena on tällä hetkellä **6 kliinistä tutkimusta** (joista 2 suor
 
 ## Miksi ennuste on perusteltu?
 
-Ustekinumabi sitoutuu IL-12:n ja IL-23:n yhteiseen p40-alayksikköön ja estää siten Th1- ja Th17-solujen signalointia. Tarkkaa vaikutusmekanismitietoa (MOA) ei ole tässä aineistossa saatavilla, mutta tämä mekanismi on lääkkeen tunnettu vaikutustapa.
+Ustekinumabi sitoutuu IL-12:n ja IL-23:n yhteiseen p40-alayksikköön ja estää siten Th1- ja Th17-solujen signalointia. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ustekinumab (epävirallinen käännös): ”Ustekinumabivalmisteet ovat ihmisen IgG1κ-monoklonaalisia vasta-aineita, jotka sitoutuvat spesifisesti p40-proteiinialayksikköön, jota sekä IL-12- että IL-23-sytokiinit käyttävät. IL-12 ja IL-23 ovat luonnollisesti esiintyviä sytokiineja, jotka osallistuvat tulehdus- ja immuunivasteisiin, kuten luonnollisten tappajasolujen aktivaatioon sekä CD4+ T-solujen erilaistumiseen ja aktivaatioon.” Englanninkielinen alkuteksti: "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7), versio 2026-11-11; haettu 2026-11-19).
 
 Th1/Th17-reitit myötävaikuttavat tulehdukseen joissakin dermatiitin alatyypeissä, kuten atooppisen ihottuman krooniseen vaiheeseen ja allergiseen kosketusihottumaan. Ustekinumabin teho on osoitettu psoriasiksessa, joka on sukua oleva tulehduksellinen ihosairaus.
 
@@ -155,12 +155,13 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 13 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on lisäksi peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
 
 <!-- review:end log -->
 

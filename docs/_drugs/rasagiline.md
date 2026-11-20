@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **PLA2G6-liitännäiseen neurodegeneraati
 
 ## Miksi ennuste on perusteltu?
 
-Rasagiliini on peruuttamaton MAO-B:n estäjä. Se lisää dopamiinin saatavuutta synapseissa ja lievittää Parkinsonin taudin oireita. Sen on myös esitetty voivan suojata hermosoluja, mutta tämä on epävarmaa. Yksityiskohtaiset vaikutusmekanismitiedot eivät ole tässä aineistossa saatavilla.
+Rasagiliini on peruuttamaton MAO-B:n estäjä. Se lisää dopamiinin saatavuutta synapseissa ja lievittää Parkinsonin taudin oireita. Sen on myös esitetty voivan suojata hermosoluja, mutta tämä on epävarmaa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Rasagiline (epävirallinen käännös): ”AZILECT on selektiivinen, irreversiibeli MAO-B:n estäjä, joka on tarkoitettu idiopaattisen Parkinsonin taudin hoitoon. Kliinisen tutkimuksen, jossa tutkittiin AZILECTin vaikutuksia verenpaineeseen annettaessa sitä suurenevien tyramiiniannosten kanssa, tulokset osoittavat, että toiminnallinen selektiivisyys voi olla epätäydellinen, kun terveet tutkittavat nauttivat suuria määriä tyramiinia saadessaan AZILECTia suositusannoksina. […] Aivo-, maksa- ja suolistokudoksella tehdyissä ex vivo -eläintutkimuksissa rasagiliinin osoitettiin olevan voimakas, irreversiibeli ja selektiivinen monoamiinioksidaasi B:n (MAO-B) estäjä.” Englanninkielinen alkuteksti: "AZILECT is a selective, irreversible MAO-B inhibitor indicated for the treatment of idiopathic Parkinson’s disease. The results of a clinical trial designed to examine the effects of AZILECT on blood pressure when it is administered with increasing doses of tyramine indicates the functional selectivity can be incomplete when healthy subjects ingest large amounts of tyramine while receiving recommended doses of AZILECT. […] In ex vivo animal studies in brain, liver, and intestinal tissues, rasagiline was shown to be a potent, irreversible monoamine oxidase type B (MAO-B) selective inhibitor." ([DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60), versio 2020-06-30; haettu 2026-11-19).
 
 PLA2G6-liitännäiseen neurodegeneraatioon kuuluu muun muassa PLA2G6:een liittyvä dystonia-parkinsonismi, jossa esiintyy dopaminergisten hermosolujen menetystä ja alfa-synukleiinipatologiaa. Tämä muistuttaa Parkinsonin taudin patologiaa, joten parkinsonismin osalta yhteys on uskottava.
 
@@ -122,13 +122,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla tätä ra
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntiluvat on peruutettu ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60) |
 
 <!-- review:end log -->
 

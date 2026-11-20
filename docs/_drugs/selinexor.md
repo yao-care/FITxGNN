@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **lääkkeen aiheuttamaan osteoporoosiin*
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tässä raportissa käytetystä aineistosta puuttuu yksityiskohtainen vaikutusmekanismitieto. Tunnetun tiedon mukaan selinexor on selektiivinen ydinvientiä (XPO1/CRM1) estävä lääke, jonka teho multippelissa myeloomassa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Selinexor (epävirallinen käännös): ”Ei-kliinisissä tutkimuksissa seliineksori estää reversiibelisti tuumorisuppressoriproteiinien (TSP), kasvunsäätelijöiden ja onkogeenisten proteiinien mRNA:iden tumasta ulos kuljetusta salpaamalla eksportiini 1:tä (XPO1). Seliineksorin aiheuttama XPO1:n esto johtaa TSP:iden kertymiseen tumaan ja useiden onkoproteiinien, kuten c-myc:n ja sykliini D1:n, vähenemiseen, solusyklin pysähtymiseen ja syöpäsolujen apoptoosiin.” Englanninkielinen alkuteksti: "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells." ([DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8), versio 2026-05-12; haettu 2026-11-19). Tunnetun tiedon mukaan selinexor on selektiivinen ydinvientiä (XPO1/CRM1) estävä lääke, jonka teho multippelissa myeloomassa on osoitettu.
 
 Mahdollinen mutta varmistamaton yhteys on, että XPO1:n esto muuttaa kasvunestäjien ja signalointisäätelijöiden (esim. NF-kB/IkB, p53) pysymistä solun ytimessä. Tämä voisi vaikuttaa osteoklastien tai osteoblastien signalointiin. Hypoteesia ei tue mikään tähän raporttiin koottu aineisto.
 
@@ -133,12 +133,13 @@ Muuta turvallisuustietoa: ks. valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Nexpovio (EMEA/H/C/005127) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8) |
 
 <!-- review:end log -->
 

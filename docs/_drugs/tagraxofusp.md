@@ -58,7 +58,7 @@ Tagraxofuspi on CD123-kohdennettu sytotoksinen fuusioproteiini (kurkkumätätoks
 
 ## Miksi ennuste on perusteltu?
 
-Ennuste ei ole mekanistisesti perusteltu. Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raporttia varten koottuna aineistona saatavilla. Tunnetun tiedon mukaan tagraxofuspi on CD123:a (IL-3-reseptorin alfa-ketju) kantaviin pahanlaatuisiin soluihin kohdistuva sytotoksiini, jonka teho perustuu solujen tuhoamiseen toksiinin avulla.
+Ennuste ei ole mekanistisesti perusteltu. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tagraxofusp (epävirallinen käännös): ”Tagraksofuspi-erzs on CD123:een kohdentuva sytotoksiini, joka koostuu rekombinantin ihmisen interleukiini-3:n (IL-3) ja katkaistun difteriatoksiinin (DT) fuusioproteiinista ja joka estää proteiinisynteesiä ja aiheuttaa solukuoleman CD123:a ilmentävissä soluissa.” Englanninkielinen alkuteksti: "Tagraxofusp-erzs is a CD123-directed cytotoxin composed of recombinant human interleukin-3 (IL-3) and truncated diphtheria toxin (DT) fusion protein that inhibits protein synthesis and causes cell death in CD123-expressing cells." ([DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8), versio 2024-12-09; haettu 2026-11-19). Tunnetun tiedon mukaan tagraxofuspi on CD123:a (IL-3-reseptorin alfa-ketju) kantaviin pahanlaatuisiin soluihin kohdistuva sytotoksiini, jonka teho perustuu solujen tuhoamiseen toksiinin avulla.
 
 Esotropia on silmien asennon hallinnan häiriö, eikä siihen tunneta CD123-riippuvaista patologiaa. Korkea TxGNN-pistemäärä (0,9973) tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä. Ennusteella ei ole kliinistä eikä kirjallisuuteen perustuvaa tukea. Alkuperäisen käyttöaiheen (lymfooma) ja ennustetun käyttöaiheen samankaltaisuutta ei ole arvioitu.
 
@@ -143,12 +143,13 @@ Kattavat varoitukset ja vasta-aiheet puuttuvat, joten niiden osalta on tarkistet
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen myyntilupa uomessa on peruutettu ja s” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Elzonris (EMEA/H/C/005031) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8) |
 
 <!-- review:end log -->
 

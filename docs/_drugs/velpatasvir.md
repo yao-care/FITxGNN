@@ -58,7 +58,7 @@ Velpatasviiri on HCV:n NS5A-estäjä, jota on alun perin käytetty kroonisen hep
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Velpatasviirin tarkkaa vaikutusmekanismia ei ole saatavilla tämän raportin aineistossa. Tiedetään, että velpatasviiri on HCV:n NS5A-estäjä, ja sen teho kroonisessa hepatiitti C:ssä on osoitettu, tyypillisesti yhdistelmänä sofosbuviirin kanssa.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Velpatasvir vaikutusmekanismiksi (epävirallinen käännös): ”Ei-rakenteellisen proteiinin 5A estäjä” Englanninkielinen alkuteksti: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; haettu 2026-11-19). Tiedetään, että velpatasviiri on HCV:n NS5A-estäjä, ja sen teho kroonisessa hepatiitti C:ssä on osoitettu, tyypillisesti yhdistelmänä sofosbuviirin kanssa.
 
 HBV:llä ei ole NS5A-homologia, joten suoraa viruslääkevaikutusta HBV:tä vastaan ei voida perustella mekanistisesti. TxGNN-pistemäärä heijastaa todennäköisesti maksaa infektoivien virusten yhteisiä verkkoominaisuuksia, ei todellista farmakologista yhteyttä.
 
@@ -155,13 +155,14 @@ Lisätietoja varoituksista ja vasta-aiheista on valmisteyhteenvedossa.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa kummankin valmisteen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Kolekalsiferoli (D3-vitamiini) on luonnollinen D-vitamiinin muoto, jota käytet�
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla. Kolekalsiferoli on D-vitamiinin esiaste, joka muuntuu elimistössä aktiiviseen muotoon ja osallistuu kalsiumin ja fosfaatin imeytymiseen sekä luun mineralisaatioon.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Cholecalciferol vaikutusmekanismiksi (epävirallinen käännös): ”D-vitamiinireseptorin agonisti” Englanninkielinen alkuteksti: "Vitamin D receptor agonist" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; haettu 2026-11-19). Kolekalsiferoli on D-vitamiinin esiaste, joka muuntuu elimistössä aktiiviseen muotoon ja osallistuu kalsiumin ja fosfaatin imeytymiseen sekä luun mineralisaatioon.
 
 Ennustettu sairaus on harvinainen perinnöllinen luuston kehityshäiriö. Saatavilla olevien tietojen perusteella D-vitamiinin yhteys tähän sairauteen on vain yleinen ja epäspesifinen: D-vitamiinilla on rooli luuston mineraaliaineenvaihdunnassa, mutta sairauden taustalla oleva geneettinen mekanismi ei ole sellainen, jonka D-vitamiinin tiedetään korjaavan. Korkea pistemäärä on laskennallinen ennuste, eikä se osoita todellista tehoa.
 
@@ -93,6 +93,19 @@ Lääkeaineyhteisvaikutuksista on kirjattu yksi farmakologinen merkintä: koleka
 - Tarkempi vaikutusmekanismitieto ja arvio siitä, voisiko D-vitamiini vaikuttaa tämän sairauden patofysiologiaan
 - Prekliiniset tai kirjallisuuteen perustuvat selvitykset sairauden ja D-vitamiinin yhteydestä
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviota varten
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

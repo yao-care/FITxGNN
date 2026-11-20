@@ -54,7 +54,7 @@ Doksorubisiini on antrasykliinisytostaatti, jota käytetään syöpälääkkeen�
 
 ## Miksi ennuste on perusteltu?
 
-Doksorubisiini on topoisomeraasi II:n estäjä ja DNA:han kiinnittyvä antrasykliini. Sen sytotoksinen vaikutus kohdistuu nopeasti jakautuviin soluihin, mikä sopii pieniä pyöreitä soluja sisältäviin kasvaimiin, kuten Ewingin sarkoomaan. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa kattavasti saatavilla, mutta farmakologiatiedot tukevat kohteena olevaa TOP2A-entsyymiä.
+Doksorubisiini on topoisomeraasi II:n estäjä ja DNA:han kiinnittyvä antrasykliini. Sen sytotoksinen vaikutus kohdistuu nopeasti jakautuviin soluihin, mikä sopii pieniä pyöreitä soluja sisältäviin kasvaimiin, kuten Ewingin sarkoomaan. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Doxorubicin (epävirallinen käännös): ”Doksorubisiinihydrokloridin sytotoksisen vaikutuksen pahanlaatuisiin soluihin ja sen eri elimiin kohdistuvien toksisten vaikutusten arvellaan liittyvän doksorubisiinin kykyyn interkaloitua nukleotidiemästen väliin ja sitoutua solukalvon lipideihin. Interkalaatio estää nukleotidien replikaatiota sekä DNA- ja RNA-polymeraasien toimintaa.” Englanninkielinen alkuteksti: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), versio 2026-11-12; haettu 2026-11-19).
 
 Doksorubisiini kuuluu jo nyt Ewingin sarkooman monilääkehoito-ohjelmien perustaan (VDC/IE, VAC, VAI). Tuoreet satunnaistetut tutkimukset, kuten EE2012, Euro Ewing 2012 ja ganitumabin vaiheen 3 tutkimus, ovat tutkineet näitä hoito-ohjelmia, mutta doksorubisiini ei niissä ole erillisenä tutkittavana muuttujana. Näyttö tukee siis doksorubisiinia sisältäviä yhdistelmiä, ei doksorubisiinille ominaista vaikutusta.
 
@@ -128,6 +128,19 @@ Aineistossa on lisäksi huomioitavia riskejä:
 - Yksityiskohtaisten vaikutusmekanismitietojen täydentäminen
 - Sydänturvallisuuden seurantasuunnitelma (kumulatiivinen annos, deksratsoksaanin käyttö) lapsille ja nuorille aikuisille
 - Doksorubisiinin oman osuuden arviointi yhdistelmähoidoissa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

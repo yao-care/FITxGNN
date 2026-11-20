@@ -60,7 +60,7 @@ Merkaptopuriini on puriiniantimetaboliitti, jota on alun perin käytetty lymfaat
 
 ## Miksi ennuste on perusteltu?
 
-Merkaptopuriini on puriiniantimetaboliitti. Sen tioguaniininukleotidimetaboliitit liittyvät DNA:han ja RNA:han ja estävät puriinien de novo -synteesiä, mikä on uskottavaa nopeasti jakautuvia myeloidisia blastisoluja vastaan. Lääkkeen yksityiskohtaisia vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla, joten mekanistinen kuvaus perustuu yleiseen farmakologiseen tietoon.
+Merkaptopuriini on puriiniantimetaboliitti. Sen tioguaniininukleotidimetaboliitit liittyvät DNA:han ja RNA:han ja estävät puriinien de novo -synteesiä, mikä on uskottavaa nopeasti jakautuvia myeloidisia blastisoluja vastaan. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Mercaptopurine (epävirallinen käännös): ”Merkaptopuriini on puriinianalogi, joka kulkeutuu soluun ja aktivoituu solunsisäisesti muodostaen metaboliitteja, mukaan lukien tioguaniininukleotideja (TGN). TGN:ien liittyminen DNA:han tai RNA:han johtaa solusyklin pysähtymiseen ja solukuolemaan.” Englanninkielinen alkuteksti: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), versio 2026-07-22; haettu 2026-11-19).
 
 AML:ssa merkaptopuriinin dokumentoitu rooli rajoittuu suun kautta annettavaan ylläpitohoitoon (merkaptopuriini + metotreksaatti) ja osaan monilääkeprotokollista. Se ei ole yksittäishoito. Lymfaattinen ja myeloidinen leukemia ovat molemmat veren pahanlaatuisia sairauksia, mutta niiden hoitostandardit eroavat selvästi, ja ennuste heijastaa todennäköisesti osin tautiluokituksen läheisyyttä.
 
@@ -184,13 +184,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole saatavilla; katso tuo
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(myyntilupa peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Xaluprine (EMEA/H/C/002022) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
 
 <!-- review:end log -->
 

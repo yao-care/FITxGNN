@@ -58,7 +58,7 @@ Elbasviiri on HCV:n NS5A-proteiinin estäjä, jota käytetään yhdessä grazopr
 
 ## Miksi ennuste on perusteltu?
 
-Elbasviiri on HCV:n NS5A-proteiinin estäjä, ja se on tarkoitettu käytettäväksi grazopreviirin (NS3/4A-proteaasin estäjä) kanssa. Tähän raporttiin koottu data ei sisällä yksityiskohtaista vaikutusmekanismitietoa, joten mekanistinen arvio perustuu kirjallisuudessa kuvattuun lääkeaineluokkaan.
+Elbasviiri on HCV:n NS5A-proteiinin estäjä, ja se on tarkoitettu käytettäväksi grazopreviirin (NS3/4A-proteaasin estäjä) kanssa. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Elbasvir vaikutusmekanismiksi (epävirallinen käännös): ”Ei-rakenteellisen proteiinin 5A estäjä” Englanninkielinen alkuteksti: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514), CC BY-SA 3.0; haettu 2026-11-19).
 
 HBV:llä ei ole NS5A-homologia, joten suoraa kohdepohjaista perustetta hepatiitti B:n hoidolle ei ole. Korkea ennustepistemäärä heijastaa todennäköisesti verkkoetäisyyttä muihin hepatiittiviruksiin tietämysgraafissa. Ennustetta voidaan pitää hypoteesina, ei perusteltuna uudelleenkäyttösignaalina.
 
@@ -144,12 +144,13 @@ HIV-lääkkeiden kanssa on lisäksi kirjallisuuden mukaan huomioitava yhteisvaik
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Valmisteella ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Zepatier (EMEA/H/C/004126) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Busulfaani on alkyloiva solunsalpaaja, jota käytetään hematopoieettisten kant
 
 ## Miksi ennuste on perusteltu?
 
-Tämän selvityksen tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tunnetun farmakologian perusteella busulfaani on bifunktionaalinen alkyloiva aine, joka muodostaa DNA:han ristisidoksia ja aiheuttaa luuytimen tuhoutumisen ja solumäärän vähenemisen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Busulfan (epävirallinen käännös): ”Busulfaani on bifunktionaalinen alkyloiva aine, jossa kaksi labiilia metaanisulfonaattiryhmää on kiinnittynyt neljän hiiliatomin alkyyliketjun vastakkaisiin päihin. Vesiliuoksessa busulfaani hydrolysoituu, jolloin metaanisulfonaattiryhmät vapautuvat.” Englanninkielinen alkuteksti: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), versio 2026-07-29; haettu 2026-11-19). Tunnetun farmakologian perusteella busulfaani on bifunktionaalinen alkyloiva aine, joka muodostaa DNA:han ristisidoksia ja aiheuttaa luuytimen tuhoutumisen ja solumäärän vähenemisen.
 
 Myelodysplastisessa oireyhtymässä allogeeninen kantasolusiirto on ainoa mahdollisesti parantava hoito. Busulfaania käytetään sen esihoidon (valmisteluhoidon) perustana yhdessä esimerkiksi fludarabiinin, klofarabiinin tai syklofosfamidin kanssa. Esihoito tuhoaa pahanlaatuisen solukloonin ja tekee luuytimeen tilaa luovuttajan kantasoluille. Kyse on siis olemassa olevan käyttötarkoituksen laajennuksesta, ei uudesta farmakologiasta.
 
@@ -127,6 +127,19 @@ Busulfaanipohjaisista esihoidoista myelodysplastisessa oireyhtymässä on useita
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Yhteenveto busulfaanin ja vaihtoehtoisten esihoitojen (esim. treosulfaani) vertailusta MDS-potilailla
 - Seurantasuunnitelma verenkuvan, maksatoksisuuden ja toisen syövän riskin osalta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

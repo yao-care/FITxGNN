@@ -54,7 +54,7 @@ Iloprosti on prostasykliinin (prostaglandiini I2) kaltainen verisuonia laajentav
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismia. Iloprosti kuuluu prostasykliinianalogeihin, joiden tiedetään laajentavan verisuonia ja estävän verihiutaleiden aggregaatiota.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Iloprost (epävirallinen käännös): ”Iloprosti on prostasykliini PGI2:n synteettinen analogi. Iloprosti on vasodilataattori ja estää verihiutaleiden aggregaatiota.” Englanninkielinen alkuteksti: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4), versio 2026-08-13; haettu 2026-11-19). Iloprosti kuuluu prostasykliinianalogeihin, joiden tiedetään laajentavan verisuonia ja estävän verihiutaleiden aggregaatiota.
 
 Teoreettisesti verisuonia laajentava vaikutus voisi lisätä päänahan verenkiertoa ja hiusjuurten hapen- ja ravinteidensaantia. Tämä yhteys on kuitenkin todistamaton.
 
@@ -98,6 +98,19 @@ Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 - prekliinisiä tai mekanistisia tutkimuksia, jotka osoittavat iloprostin vaikutuksen hiusfollikkeleihin
 - yksityiskohtaisen vaikutusmekanismin tietojen täydentämistä
 - valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäyntiä sekä turvallisuusarviota paikalliseen tai muuhun uuteen antoreittiin liittyen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

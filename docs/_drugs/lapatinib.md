@@ -54,7 +54,7 @@ Lapatinibi on kaksoisvaikutteinen EGFR/HER2-tyrosiinikinaasin estäjä, jota on 
 
 ## Miksi ennuste voi olla perusteltu?
 
-Lapatinibi estää sekä EGFR- (ErbB1) että HER2-reseptoria (ErbB2), ja sitä käytetään HER2-positiivisessa rintasyövässä. Tämän raportin tarpeisiin koottu aineisto ei sisällä tarkempaa vaikutusmekanismikuvausta, joten mekanistista perustetta ei voida varmentaa toimitetusta datasta.
+Lapatinibi estää sekä EGFR- (ErbB1) että HER2-reseptoria (ErbB2), ja sitä käytetään HER2-positiivisessa rintasyövässä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lapatinib (epävirallinen käännös): ”Lapatinibi on 4-anilinokinatsoliinirakenteinen kinaasin estäjä, joka estää sekä epidermaalisen kasvutekijäreseptorin (EGFR [ErbB1]) että ihmisen epidermaalisen reseptorin tyyppi 2 (HER2 [ErbB2]) -reseptorien solunsisäisiä tyrosiinikinaasidomeeneja (arvioidut K i app -arvot 3nM ja 13nM, vastaavasti), ja sen dissosiaation puoliintumisaika on vähintään 300 minuuttia. Lapatinibi estää ErbB-välitteistä kasvainsolujen kasvua in vitro ja useissa eläinmalleissa.” Englanninkielinen alkuteksti: "Lapatinib is a 4-anilinoquinazoline kinase inhibitor of the intracellular tyrosine kinase domains of both Epidermal Growth Factor Receptor (EGFR [ErbB1]) and of Human Epidermal Receptor Type 2 (HER2 [ErbB2]) receptors (estimated K i app values of 3nM and 13nM, respectively) with a dissociation half-life of greater than or equal to 300 minutes. Lapatinib inhibits ErbB-driven tumor cell growth in vitro and in various animal models." ([DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c), versio 2026-01-27; haettu 2026-11-19).
 
 DFSP on pehmytkudossarkooma, jota ajaa pääasiassa COL1A1-PDGFB-fuusiogeeni, joka aiheuttaa PDGFRB-reseptorin jatkuvan aktivaation. Sitä hoidetaan leikkauksella ja PDGFR-estäjä imatinibilla. Mahdollinen yhteys voisi olla jaettu reseptorityrosiinikinaasien signalointi (EGFR/ERBB:n jatkosignalointireitit, kuten PI3K/AKT ja MAPK) tai läheisyys tietämysgraafissa.
 
@@ -129,13 +129,14 @@ Muuta turvallisuustietoa varten katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu (valmistaja Novartis Europharm Limited), eikä Suomessa ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”kun valmiste ei ole markkinoilla Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c) |
 
 <!-- review:end log -->
 

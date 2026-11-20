@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **posteroinferioriseen sydäninfarktiin**
 
 ## Miksi ennuste on perusteltu?
 
-Reteplaasi on yhdistelmä-DNA-tekniikalla tuotettu kudosplasminogeeniaktivaattorin muunnos. Se muuttaa plasminogeenin plasmiiniksi, joka liuottaa sepelvaltimoa tukkivan trombin. Tämä kuvaus perustuu yleiseen farmakologiseen tietoon, sillä tähän raporttiin koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa.
+Reteplaasi on yhdistelmä-DNA-tekniikalla tuotettu kudosplasminogeeniaktivaattorin muunnos. Se muuttaa plasminogeenin plasmiiniksi, joka liuottaa sepelvaltimoa tukkivan trombin. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Reteplase vaikutusmekanismiksi (epävirallinen käännös): ”Kudostyypin plasminogeenin aktivaattori, eksogeeninen proteiini” Englanninkielinen alkuteksti: "Tissue-type plasminogen activator exogenous protein" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; haettu 2026-11-19).
 
 Posteroinferiorinen sydäninfarkti on hyväksytyn käyttöaiheen (sydäninfarkti) anatominen alatyyppi. Mekanistinen yhteys on siksi uskottava: molemmissa tilanteissa taustalla on sepelvaltimon trombiin liittyvä tukos. Samasta syystä kyse ei ole aidosta lääkkeen uudelleenkäytöstä. Korkea pistemäärä kuvastaa pikemminkin sitä, että kohde on lähellä alkuperäistä käyttöaihetta.
 
@@ -113,6 +113,19 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 - Arvio siitä, onko alatyypin erillinen arviointi lainkaan tarpeen, koska se kuuluu jo hyväksyttyyn sydäninfarktin käyttöaiheeseen
 - Sepelvaltimostenoosin tarkastelu mahdollisena jatkotutkimuskysymyksenä (reteplaasia on tutkittu PCI:n apuna), mutta nykyinen näyttö on vain epäsuoraa
 - Vuotoriskin arviointi yhteisvaikutusten osalta, erityisesti antikoagulanttien ja verihiutaleiden estäjien kanssa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

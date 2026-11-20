@@ -59,7 +59,7 @@ Ennusteen tueksi on **0 kliinistä tutkimusta** ja **4 julkaisua** (katsauksia, 
 
 ## Miksi ennuste on perusteltu?
 
-Tietoa laronidaasin vaikutusmekanismista ei ole tähän raporttiin koottu. Tunnetun tiedon perusteella laronidaasi on rekombinantti alfa-L-iduronidaasi, joka hajottaa glykosaminoglykaaneja, dermataanisulfaattia ja heparaanisulfaattia. Sen teho MPS I:n hoidossa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Laronidase (epävirallinen käännös): ”Mukopolysakkaridien kertymäsairaudet johtuvat glykosaminoglykaanien (GAG) katabolismiin tarvittavien spesifisten lysosomaalisten entsyymien puutoksesta. Mukopolysakkaridoosi I:lle (MPS I) on tunnusomaista α-L-iduronidaasin puutos; α-L-iduronidaasi on lysosomaalinen hydrolaasi, joka katalysoi dermataanisulfaatin ja heparaanisulfaatin terminaalisten α-L-iduronihappotähteiden hydrolyysiä. […] ALDURAZYME-valmisteen ottoa soluihin lysosomeihin välittää todennäköisimmin laronidaasin mannoosi-6-fosfaattipäätteisten oligosakkaridiketjujen sitoutuminen spesifisiin mannoosi-6-fosfaattireseptoreihin.” Englanninkielinen alkuteksti: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), versio 2026-09-11; haettu 2026-11-19). Tunnetun tiedon perusteella laronidaasi on rekombinantti alfa-L-iduronidaasi, joka hajottaa glykosaminoglykaaneja, dermataanisulfaattia ja heparaanisulfaattia. Sen teho MPS I:n hoidossa on osoitettu.
 
 MPS I on itsessään lysosomaalinen kertymäsairaus, johon liittyy merkittävä luustomuutos (dysostosis multiplex). Ennustettu indikaatio on siten pitkälti sama kuin hyväksytty käyttöaihe eikä varsinainen uudelleenkäyttökohde. Korkea pistemäärä heijastaa todennäköisesti lääkkeen yhteyttä MPS I:een, ei uutta signaalia.
 
@@ -137,12 +137,13 @@ Sanfilippon oireyhtymä johtuu muiden heparaanisulfaattia hajottavien entsyymien
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Valmisteen myyntilupa Suomessa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Aldurazyme (EMEA/H/C/000477) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
 
 <!-- review:end log -->
 

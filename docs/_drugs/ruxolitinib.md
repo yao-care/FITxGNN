@@ -58,7 +58,7 @@ Huomio: ennusteet on listattu TxGNN-pisteiden mukaan. Kymmenestä ennustetusta k
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin yhteenvetoon koottu tieto ei sisällä yksityiskohtaista vaikutusmekanismia. Tunnetusti ruksolitinibi estää Janus-kinaaseja JAK1, JAK2, JAK3 ja TYK2, ja sen kliininen käyttö kohdistuu myelofibroosiin, polycythemia veraan ja steroidiresistenttiin akuuttiin GvHD:hen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ruxolitinib (epävirallinen käännös): ”Ruksolitinibi, kinaasin estäjä, estää Janus-kinaaseja (JAK), JAK1:tä ja JAK2:ta, jotka välittävät useiden hematopoieesin ja immuunitoiminnan kannalta tärkeiden sytokiinien ja kasvutekijöiden signalointia. JAK-signalointiin kuuluu STAT-proteiinien (signal transducers and activators of transcription, signaalinvälittäjät ja transkription aktivaattorit) rekrytoituminen sytokiinireseptoreihin, aktivaatio ja STAT-proteiinien myöhempi siirtyminen tumaan, mikä johtaa geenien ilmentymisen muuntumiseen.” Englanninkielinen alkuteksti: "Ruxolitinib, a kinase inhibitor, inhibits Janus Associated Kinases (JAKs), JAK1 and JAK2, which mediate the signaling of a number of cytokines and growth factors that are important for hematopoiesis and immune function. JAK signaling involves recruitment of STATs (signal transducers and activators of transcription) to cytokine receptors, activation, and subsequent localization of STATs to the nucleus leading to modulation of gene expression." ([DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b), versio 2026-07-20; haettu 2026-11-19). Tunnetusti ruksolitinibi estää Janus-kinaaseja JAK1, JAK2, JAK3 ja TYK2, ja sen kliininen käyttö kohdistuu myelofibroosiin, polycythemia veraan ja steroidiresistenttiin akuuttiin GvHD:hen.
 
 **Ensimmäinen ennuste (kohdunrungon PEComa):** PEComat johtuvat tyypillisesti mTOR-reitin säätelyhäiriöstä (TSC1/TSC2), eikä JAK/STAT-reitin osuudesta ole näyttöä. Korkea pistemäärä on ennuste, ei validoitu mekanismi. Sama koskee muita PEComa-perheen ennusteita (hyvänlaatuinen PEComa, keuhkojen PEComa, lymfangiomyooma, lymfangioleiomyomatoosi), joissa vakiintunut hoito on mTOR-estäjä sirolimuusi.
 
@@ -140,12 +140,13 @@ HLH-ehdokkaan suojatoimet: käyttö erikoissairaanhoidon keskuksissa, sytopenioi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”koska kaikki luvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Opzelura (EMEA/H/C/005843), Jakavi (EMEA/H/C/002464)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
 
 <!-- review:end log -->
 

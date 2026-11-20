@@ -58,7 +58,7 @@ Taulukossa on esitetty sekä mallin ensimmäinen ennuste että parhaiten tuettu 
 
 ## Miksi ennuste on perusteltu?
 
-Prasugreeli on P2Y12-reseptorin salpaaja, joka estää verihiutaleiden aggregaatiota. Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismikuvausta, joten tulkinta perustuu lääkeryhmän tunnettuihin ominaisuuksiin.
+Prasugreeli on P2Y12-reseptorin salpaaja, joka estää verihiutaleiden aggregaatiota. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Prasugrel (epävirallinen käännös): ”Prasugreeli on verihiutaleiden aktivaation ja aggregaation estäjä, jonka vaikutus perustuu sen aktiivisen metaboliitin irreversiibeliin sitoutumiseen verihiutaleiden P2Y 12 -luokan ADP-reseptoreihin.” Englanninkielinen alkuteksti: "Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e), versio 2022-09-07; haettu 2026-11-19).
 
 **Keuhkoverenpainetauti:** Verihiutaleiden aktivaatio ja paikallinen trombioituminen voivat osallistua keuhkoverisuonten uudelleenmuovautumiseen, joten yhteys on uskottava mutta todistamaton. Kerätyt kaksi julkaisua käsittelevät klopidogreelin käytön pysyvyyttä ja COVID-19-potilaiden taustalääkitystä, eikä kumpikaan arvioi prasugreelia keuhkoverenpainetaudissa.
 
@@ -145,7 +145,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tämän rapor
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
@@ -153,6 +153,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Efient (EMEA/H/C/000984 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
 
 <!-- review:end log -->
 

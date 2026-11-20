@@ -54,7 +54,7 @@ Adalimumabi on TNF-alfa-estäjänä toimiva monoklonaalinen vasta-aine. TxGNN-ma
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tässä käytettävissä olevassa aineistossa ei ole yksityiskohtaista tietoa vaikutusmekanismista. Adalimumabi tunnetaan TNF-alfa-sytokiinin estäjänä, ja sen teho TNF-välitteisissä tulehdussairauksissa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Adalimumab (epävirallinen käännös): ”Adalimumabivalmisteet sitoutuvat spesifisesti TNF-alfaan ja estävät sen vuorovaikutuksen solun pinnan p55- ja p75-TNF-reseptorien kanssa. Adalimumabivalmisteet myös hajottavat pinnallaan TNF:ää ilmentäviä soluja in vitro komplementin läsnä ollessa.” Englanninkielinen alkuteksti: "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc), versio 2026-11-11; haettu 2026-11-19). Adalimumabi tunnetaan TNF-alfa-sytokiinin estäjänä, ja sen teho TNF-välitteisissä tulehdussairauksissa on osoitettu.
 
 Häntäluun hypermobiliteetti on kuitenkin pääasiassa mekaaninen ja rakenteellinen tila. Sen taustalla ei ole tunnistettu TNF-välitteistä tulehdusmekanismia. Mekanistinen yhteys alkuperäiseen käyttöaiheeseen on siksi heikko eikä ole vahvistettu. Korkea ennustepistemäärä (0,9977) on laskennallinen tulos, eikä se yksinään osoita kliinistä hyötyä.
 
@@ -95,6 +95,19 @@ Ennuste perustuu vain laskennalliseen malliin, eikä tukena ole kliinisiä tutki
 - Systemaattinen kirjallisuushaku, jolla selvitetään, onko tilan ja TNF-estäjähoidon yhteydestä mitään prekliinistä tai kliinistä näyttöä.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen ennen turvallisuusarviointia.
 - Hoidon antoreittiä ja kohdekudoksen saavutettavuutta koskevan arvion tekeminen.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

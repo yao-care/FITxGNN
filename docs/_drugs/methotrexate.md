@@ -63,7 +63,7 @@ Hodgkinin lymfoomasta on koottu **44 kliinistä tutkimusta** ja **20 julkaisua**
 
 ## Miksi tämä ennuste on järkevä?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon mukaan metotreksaatti on antifolaatti, joka estää DHFR-entsyymiä (dihydrofolaattireduktaasi) ja tymidylaattisynteesiä. Tämä hidastaa nopeasti jakautuvien solujen DNA:n tuotantoa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Methotrexate (epävirallinen käännös): ”Metotreksaatti estää dihydrofoolihapporeduktaasia. Tämän entsyymin on pelkistettävä dihydrofolaatit tetrahydrofolaateiksi, ennen kuin niitä voidaan käyttää yhden hiilen ryhmien kantajina puriininukleotidien ja tymidylaatin synteesissä.” Englanninkielinen alkuteksti: "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e), versio 2026-11-05; haettu 2026-11-19). Tunnetun tiedon mukaan metotreksaatti on antifolaatti, joka estää DHFR-entsyymiä (dihydrofolaattireduktaasi) ja tymidylaattisynteesiä. Tämä hidastaa nopeasti jakautuvien solujen DNA:n tuotantoa.
 
 Alkuperäiset käyttöaiheet, kuten leukemia ja lymfooma sekä tulehdukselliset sairaudet, liittyvät joko nopeasti jakautuviin lymfoidisoluihin tai immuunijärjestelmän aktiivisuuteen. Siksi on mekanistisesti uskottavaa, että lääke voisi vaikuttaa myös muihin lymfaattisiin kasvaimiin.
 
@@ -199,13 +199,14 @@ maksan vajaatoiminta ja maksasairaus, munuaissairaus, ohutsuolen ja mahahaavasai
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, joten voimassa olevia yksittäisvalmisteen myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Jylamvo (EMEA/H/C/003756), Nordimet (EMEA/H/C/003983)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
 
 <!-- review:end log -->
 

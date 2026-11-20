@@ -56,7 +56,7 @@ Huomio: tiedoissa ensimmäisenä listattu ennuste on keuhkoverenpainetauti (pist
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin käyttöön koottu aineisto ei sisällä memantiinin tarkkaa vaikutusmekanismia. Tunnetun tiedon perusteella memantiini on NMDA-reseptorin salpaaja, jonka teho Alzheimerin taudissa on osoitettu, ja mekanistisesti se voi soveltua myös migreeniin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Memantine (epävirallinen käännös): ”Keskushermoston N-metyyli-D-aspartaatti (NMDA) -reseptorien jatkuvan aktivoitumisen eksitatorisen aminohapon glutamaatin vaikutuksesta on oletettu osaltaan aiheuttavan Alzheimerin taudin oireita. Memantiinin oletetaan saavan aikaan terapeuttisen vaikutuksensa toimimalla matalan tai kohtalaisen affiniteetin epäkilpailevana (avoimen kanavan) NMDA-reseptorin antagonistina, joka sitoutuu ensisijaisesti NMDA-reseptorin säätelemiin kationikanaviin.” Englanninkielinen alkuteksti: "Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels." ([DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e), versio 2026-11-11; haettu 2026-11-19). Tunnetun tiedon perusteella memantiini on NMDA-reseptorin salpaaja, jonka teho Alzheimerin taudissa on osoitettu, ja mekanistisesti se voi soveltua myös migreeniin.
 
 Glutamaattivälitteisen hermosolujen yliärtyvyyden ja aivokuoren leviävän lamaantumisen (cortical spreading depression) uskotaan liittyvän migreeniin. NMDA-reseptorin salpaus voi tasoittaa tätä yliärtyvyyttä. Alzheimerin taudissa taas glutamaatin aiheuttama eksitotoksisuus on hoidon kohteena, joten molemmissa sairauksissa yhteinen tekijä on glutamaattisignaloinnin häiriö. Katsaukset tukevat tätä yhteyttä, ja yksi julkaisu toteaa päänsäryn ja kognitiivisen heikentymisen jakavan yhteisiä patofysiologisia mekanismeja.
 
@@ -142,13 +142,14 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki 8 myyntilupaa on peruutettu, joten markkinoilla ei tällä hetkellä ole voimassa olevia memantiinivalmisteita näiden tietojen mukaan” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(nykyiset luvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
 
 <!-- review:end log -->
 

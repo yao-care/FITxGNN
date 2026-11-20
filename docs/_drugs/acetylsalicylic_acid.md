@@ -54,7 +54,7 @@ Asetyylisalisyylihappo on verihiutaleiden toimintaa estävä lääkeaine, jota k
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tähän raporttiin koottu aineisto ei sisällä tarkkaa vaikutusmekanismia. Asetyylisalisyylihapon tiedetään yleisesti estävän verihiutaleiden tromboksaani A2:n tuotantoa syklo-oksigenaasin kautta. Tämä selittää sen antitromboottisen vaikutuksen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta aspirin and extended - release dipyridamole (yhdistelmävalmiste, joka sisältää aineen Acetylsalicylic Acid) (epävirallinen käännös): ”Asetyylisalisyylihappo Asetyylisalisyylihappo estää verihiutaleiden aggregaatiota estämällä irreversiibelisti verihiutaleiden syklo-oksigenaasia ja estää siten tromboksaani A 2:n muodostumista; tromboksaani A 2 on voimakas verihiutaleiden aggregaation ja vasokonstriktion indusoija.” Englanninkielinen alkuteksti: "Aspirin Aspirin inhibits platelet aggregation by irreversible inhibition of platelet cyclooxygenase and thus inhibits the generation of thromboxane A 2, a powerful inducer of platelet aggregation and vasoconstriction." ([DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1), versio 2026-08-19; haettu 2026-11-19). Asetyylisalisyylihapon tiedetään yleisesti estävän verihiutaleiden tromboksaani A2:n tuotantoa syklo-oksigenaasin kautta. Tämä selittää sen antitromboottisen vaikutuksen.
 
 Matomainen ihoatrofia on karvatuppien alueen ihon surkastumishäiriö, jossa ei tunneta verihiutaleiden toimintaan liittyvää sairausmekanismia. Mekanistista yhteyttä lääkeaineen ja sairauden välillä ei siis ole pystytty tunnistamaan. Korkea pistemäärä kuvaa ennustemallin laskennallista läheisyyttä, ei kliinistä näyttöä. Läheisyys voi johtua verkostotason yhteyksistä muihin ihon surkastumishäiriöihin.
 
@@ -108,6 +108,18 @@ Ennuste perustuu pelkästään malliin. Siihen ei liity kliinisiä tutkimuksia e
 - Systemaattinen kirjallisuushaku sairauden tunnetuista hoidoista ja patogeneesistä sekä prekliiniset tai tapaussarjatason havainnot.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistus sekä turvallisuusarvio kohdepotilasryhmälle.
 - Selvitys antoreitistä ja annostelusta, sillä reittien soveltuvuutta ei ole arvioitu.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

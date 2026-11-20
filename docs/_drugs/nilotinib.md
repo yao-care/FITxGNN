@@ -60,7 +60,7 @@ Tukena on tällä hetkellä **0 kliinistä tutkimusta** ja **1 julkaisu** (katsa
 
 ## Miksi ennuste on perusteltu?
 
-Tälle raporttia varten kootussa aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Alla oleva mekanistinen perustelu perustuu yleiseen tietoon nilotinibin kinaasiprofiilista, ei toimitettuun aineistoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Nilotinib (epävirallinen käännös): ”Nilotinibi on BCR-ABL-kinaasin estäjä. Nilotinibi sitoutuu ABL-proteiinin kinaasidomeenin inaktiiviseen konformaatioon ja stabiloi sen. In vitro nilotinibi esti BCR-ABL-välitteistä proliferaatiota hiiren leukemiasolulinjoissa ja ihmisen solulinjoissa, jotka oli peräisin Ph+ CML -potilailta.” Englanninkielinen alkuteksti: "Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML." ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), versio 2026-07-20; haettu 2026-11-19). Alla oleva mekanistinen perustelu perustuu yleiseen tietoon nilotinibin kinaasiprofiilista, ei toimitettuun aineistoon.
 
 DFSP:lle on tyypillistä COL1A1-PDGFB-fuusio, joka johtaa PDGFRB-reseptorin jatkuvaan autokriiniseen aktivaatioon. Nilotinibi estää BCR-ABL:n lisäksi PDGFR:ää (alfa ja beeta), KIT:iä sekä DDR1/2:ta, joten kohdetasolla ennuste on uskottava.
 
@@ -142,12 +142,13 @@ Varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Tasigna (EMEA/H/C/000798), Nilotinib Accord (EMEA/H/C/006315)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
 
 <!-- review:end log -->
 

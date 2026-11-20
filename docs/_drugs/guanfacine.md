@@ -58,7 +58,7 @@ Guanfasiini on keskushermostoon vaikuttava α2A-adrenergisen reseptorin agonisti
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raporttia varten koottujen tietojen perusteella guanfasiinin tarkempaa vaikutusmekanismia ei ole saatavilla. Tiedossa on, että guanfasiini sitoutuu α2A-, α2B- ja α2C-adrenergisiin reseptoreihin ja vaikuttaa erityisesti aivokuoren etuosan noradrenergiseen signalointiin, joka tukee tarkkaavuutta ja toiminnanohjausta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Guanfacine (epävirallinen käännös): ”Guanfasiini on sentraalinen alfa2A-adrenergisen reseptorin agonisti. Guanfasiini ei ole keskushermostoa (CNS) stimuloiva aine. Guanfasiinin vaikutusmekanismia ADHD:ssa ei tunneta.” Englanninkielinen alkuteksti: "Guanfacine is a central alpha 2A -adrenergic receptor agonist. Guanfacine is not a central nervous system (CNS) stimulant. The mechanism of action of guanfacine in ADHD is not known." ([DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769), versio 2026-10-15; haettu 2026-11-19). Tiedossa on, että guanfasiini sitoutuu α2A-, α2B- ja α2C-adrenergisiin reseptoreihin ja vaikuttaa erityisesti aivokuoren etuosan noradrenergiseen signalointiin, joka tukee tarkkaavuutta ja toiminnanohjausta.
 
 Faciodigitogenitaalinen oireyhtymä (Aarskog-Scottin oireyhtymä) on X-kromosomaalinen kehityshäiriö, jonka aiheuttavat FGD1-geenin mutaatiot. Guanfasiinin ja tämän mekanismin välillä ei tunneta yhteyttä. Mekanistista perustetta ei siis ole osoitettu, ja hyvin korkea pistemäärä on pelkkä mallin ennuste.
 
@@ -105,6 +105,19 @@ Lääkeyhteisvaikutukset: Farmakologiatietojen mukaan guanfasiini sitoutuu α2A-
 - Vaikutusmekanismin tietojen täydentämistä
 - Valmisteyhteenvedon turvallisuustietojen tarkistamista ja jäsentämistä
 - Myyntilupien tilanteen varmistamista Suomessa ennen jatkoselvityksiä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

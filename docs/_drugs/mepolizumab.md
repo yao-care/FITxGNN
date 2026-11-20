@@ -54,7 +54,7 @@ Mepolitsumabi on anti-IL-5-vasta-aine, jota on alun perin käytetty astman hoito
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Mepolitsumabi on interleukiini-5:n (IL-5) vasta-aine, joka vähentää eosinofiilejä. Tarkkaa vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tiedossa olevan perusteella lääke tehoaa astmaan eosinofiilitulehduksen vähentämisen kautta.
+Mepolitsumabi on interleukiini-5:n (IL-5) vasta-aine, joka vähentää eosinofiilejä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Mepolizumab (epävirallinen käännös): ”Mepolitsumabi on IL-5:n antagonisti (IgG1-kappa). IL-5 on tärkein sytokiini, joka vastaa eosinofiilien kasvusta ja erilaistumisesta, rekrytoinnista, aktivaatiosta ja eloonjäämisestä. Mepolitsumabi sitoutuu IL-5:een dissosiaatiovakiolla 100 pM ja estää IL-5:n biologista aktiivisuutta salpaamalla sen sitoutumisen eosinofiilien solupinnalla ilmentyvän IL-5-reseptorikompleksin alfaketjuun.” Englanninkielinen alkuteksti: "Mepolizumab is an IL-5 antagonist (IgG1 kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface." ([DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea), versio 2025-08-06; haettu 2026-11-19). Tiedossa olevan perusteella lääke tehoaa astmaan eosinofiilitulehduksen vähentämisen kautta.
 
 Ainoa tukeva kirjallisuuslöydös on tapausselostus, jossa steroidille resistentti hypereosinofiilinen immuunihäiriö ja samanaikainen sekamuotoinen trombottinen mikroangiopatia paranivat mepolitsumabihoidolla. Tämä viittaa mahdolliseen yhteyteen eosinofiilivälitteisen immuunihäiriön ja immuunivälitteisten sytopenioiden välillä, mutta yhteys on epäsuora.
 
@@ -126,13 +126,14 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Aineistossa ei ole ti
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa Suomessa on peruutettu, mikä rajoittaa käytännön etenemismahdollisuuksia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittäminen (peruutuksen syy ja mahdollinen uusi lupa)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Nucala (EMEA/H/C/003860) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
 
 <!-- review:end log -->
 

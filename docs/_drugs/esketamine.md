@@ -54,7 +54,7 @@ Esketamiini on NMDA-reseptorin salpaaja, jota on alun perin käytetty **masennuk
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Esketamiinin yksityiskohtaista vaikutusmekanismia ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun tiedon mukaan esketamiini on NMDA-reseptorin salpaaja, joka lisää glutamaattivälitteistä signalointia ja synaptista plastisuutta. Tätä on tutkittu mieliala- ja ahdistuneisuushäiriöissä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Esketamine (epävirallinen käännös): ”Esketamiini, raseemisen ketamiinin S-enantiomeeri, on N -metyyli- D -aspartaatti (NMDA) -reseptorin, ionotrooppisen glutamaattireseptorin, epäselektiivinen, ei-kilpaileva antagonisti. Mekanismia, jolla esketamiini saa aikaan masennusta lievittävän vaikutuksensa, ei tunneta.” Englanninkielinen alkuteksti: "Esketamine, the S-enantiomer of racemic ketamine, is a non-selective, non-competitive antagonist of the N -methyl- D -aspartate (NMDA) receptor, an ionotropic glutamate receptor. The mechanism by which esketamine exerts its antidepressant effect is unknown." ([DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed), versio 2026-09-22; haettu 2026-11-19). Tunnetun tiedon mukaan esketamiini on NMDA-reseptorin salpaaja, joka lisää glutamaattivälitteistä signalointia ja synaptista plastisuutta. Tätä on tutkittu mieliala- ja ahdistuneisuushäiriöissä.
 
 Agorafobia on ahdistuneisuushäiriö, joka esiintyy usein yhdessä masennuksen ja paniikkihäiriön kanssa. Biologinen yhteys on siis mahdollinen, mutta sitä ei voi vahvistaa käytettävissä olevalla aineistolla. Lisäksi esketamiini voi aiheuttaa dissosiaatiota, ahdistuneisuutta ja verenpaineen nousua, mikä voi olla huolenaihe tässä potilasryhmässä.
 
@@ -114,12 +114,13 @@ Toinen ennuste, **imeväisikäisten hyvänlaatuinen kohtauksittainen kaularankak
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
 
 <!-- review:end log -->
 

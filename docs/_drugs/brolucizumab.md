@@ -54,7 +54,7 @@ Brolusitsumabi on VEGF-A:ta estävä yksiketjuinen vasta-ainefragmentti (scFv), 
 
 ## Miksi ennuste on perusteltu – tai ei?
 
-Yksityiskohtaisia tietoja brolusitsumabin vaikutusmekanismista ei ole tässä raportissa käytettävissä olevassa aineistossa. Tiedossa on, että lääke on VEGF-A:ta estävä vasta-ainefragmentti, joka on tarkoitettu silmänsisäiseen käyttöön.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Brolucizumab (epävirallinen käännös): ”Brolusitsumabi on ihmisen VEGF:n estäjä. Brolusitsumabi sitoutuu VEGF-A:n kolmeen pääasialliseen isoformiin (esim. VEGF 110, VEGF 121 ja VEGF 165 ) ja estää siten niiden vuorovaikutuksen VEGFR-1- ja VEGFR-2-reseptorien kanssa. Estämällä VEGF-A:ta brolusitsumabi vaimentaa endoteelisolujen proliferaatiota, uudissuonten muodostumista ja verisuonten läpäisevyyttä.” Englanninkielinen alkuteksti: "Brolucizumab is a human VEGF inhibitor. Brolucizumab binds to the three major isoforms of VEGF-A (e.g., VEGF 110, VEGF 121, and VEGF 165 ), thereby preventing interaction with receptors VEGFR-1 and VEGFR-2. By inhibiting VEGF-A, brolucizumab suppresses endothelial cell proliferation, neovascularization, and vascular permeability." ([DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d), versio 2026-10-26; haettu 2026-11-19). Tiedossa on, että lääke on VEGF-A:ta estävä vasta-ainefragmentti, joka on tarkoitettu silmänsisäiseen käyttöön.
 
 Aineistosta ei löydy selvää mekanistista yhteyttä VEGF-A:n eston ja ydin-DNA:n poikkeavuuksista johtuvien oksidatiivisen fosforylaation häiriöiden välillä. Pistemäärä voi heijastaa epäsuoria verkostoyhteyksiä, esimerkiksi hypoksiaan tai angiogeneesiin liittyviä reittejä, mutta tätä ei ole osoitettu.
 
@@ -90,6 +90,19 @@ Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja, eikä uskottava
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä
 - Prekliinistä näyttöä, joka osoittaa VEGF-A:n eston merkityksen kyseisessä sairaudessa
 - Arviota antoreitin soveltuvuudesta ja systeemisestä altistuksesta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

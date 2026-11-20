@@ -60,7 +60,7 @@ Ennuste perustuu pelkästään mallin laskemaan pisteytykseen.
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Oritavantsiini on lipoglykopeptidi, joka estää bakteerin soluseinän synteesiä (transglykosylaatio ja transpeptidaatio) ja häiritsee solukalvon eheyttä. Nämä mekanismit tehoavat pääasiassa gram-positiivisiin bakteereihin, mikä sopii yhteen alkuperäisen käyttöaiheen (ihon ja pehmytkudosten infektiot) kanssa. Tarkkaa vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla, joten mekanistinen arviointi perustuu yleiseen farmakologiseen tietoon.
+Oritavantsiini on lipoglykopeptidi, joka estää bakteerin soluseinän synteesiä (transglykosylaatio ja transpeptidaatio) ja häiritsee solukalvon eheyttä. Nämä mekanismit tehoavat pääasiassa gram-positiivisiin bakteereihin, mikä sopii yhteen alkuperäisen käyttöaiheen (ihon ja pehmytkudosten infektiot) kanssa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Oritavancin (epävirallinen käännös): ”Oritavansiini on antibakteerinen lääke. […] Oritavansiinilla on kolme vaikutusmekanismia: (i) soluseinän biosynteesin transglykosylaatiovaiheen (polymerisaation) estäminen sitoutumalla peptidoglykaanin esiasteiden runkopeptidiin; (ii) soluseinän biosynteesin transpeptidaatiovaiheen (ristisidosten muodostumisen) estäminen sitoutumalla soluseinän peptidisiltasegmentteihin; ja (iii) bakteerikalvon eheyden rikkoutuminen, mikä johtaa depolarisaatioon, läpäiseväksi muuttumiseen ja solukuolemaan. Nämä useat mekanismit edistävät oritavansiinin pitoisuudesta riippuvaista bakterisidista vaikutusta.” Englanninkielinen alkuteksti: "Oritavancin is an antibacterial drug. […] Oritavancin has three mechanisms of action: (i) inhibition of the transglycosylation (polymerization) step of cell wall biosynthesis by binding to the stem peptide of peptidoglycan precursors; (ii) inhibition of the transpeptidation (crosslinking) step of cell wall biosynthesis by binding to the peptide bridging segments of the cell wall; and (iii) disruption of bacterial membrane integrity, leading to depolarization, permeabilization, and cell death. These multiple mechanisms contribute to the concentration-dependent bactericidal activity of oritavancin." ([DailyMed: Orbactiv (oritavancin) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff09a726-9f9b-4e30-b509-396781293220), versio 2026-09-15; haettu 2026-11-19).
 
 Bacteroidaceae-heimon bakteerit (esim. *Bacteroides*-lajit) ovat gram-negatiivisia anaerobeja, joilla on ulkokalvo. Glykopeptidit eivät yleensä läpäise sitä, joten biologinen yhteys on heikko, vaikka TxGNN-pisteet ovat korkeat (0,9948). Pisteet ovat pelkkä mallin ennuste, eikä sitä tue mikään kliininen tai kirjallinen näyttö.
 
@@ -130,12 +130,13 @@ Muista turvallisuustiedoista (varoitukset, vasta-aiheet) katso valmisteyhteenvet
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Tenkasi (EMEA/H/C/003785) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Orbactiv (oritavancin) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff09a726-9f9b-4e30-b509-396781293220) |
 
 <!-- review:end log -->
 

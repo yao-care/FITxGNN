@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **melanoomaan** (ennustepisteet 0,9903), 
 
 ## Miksi ennuste on perusteltu?
 
-Karfiltsomibi on peruuttamattomasti sitoutuva proteasomi-inhibiittori. Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismin kuvausta, joten päättely perustuu yleiseen tietoon: proteasomin esto aiheuttaa proteotoksista stressiä ja apoptoosia, ja sen teho multippelissa myeloomassa on osoitettu.
+Karfiltsomibi on peruuttamattomasti sitoutuva proteasomi-inhibiittori. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Carfilzomib (epävirallinen käännös): ”Karfiltsomibi on tetrapeptidiepoksiketonirakenteinen proteasomin estäjä, joka sitoutuu irreversiibelisti 20S-proteasomin, eli 26S-proteasomin proteolyyttisen ydinpartikkelin, N-terminaalista treoniinia sisältäviin aktiivisiin kohtiin. Karfiltsomibilla oli in vitro antiproliferatiivista ja proapoptoottista aktiivisuutta kiinteiden ja hematologisten kasvainten soluissa.” Englanninkielinen alkuteksti: "Carfilzomib is a tetrapeptide epoxyketone proteasome inhibitor that irreversibly binds to the N-terminal threonine-containing active sites of the 20S proteasome, the proteolytic core particle within the 26S proteasome. Carfilzomib had antiproliferative and proapoptotic activities in vitro in solid and hematologic tumor cells." ([DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6), versio 2025-06-18; haettu 2026-11-19).
 
 Mekanistisesti sama periaate voisi päteä myös melanoomasoluihin. Hiiren B16-F1-melanoomasoluilla tehdyssä tutkimuksessa karfiltsomibin ja bortetsomibin yhdistelmä lisäsi apoptoosia ja aktivoi useita kaspaaseja (3, 8, 9 ja 12). Tämä on kuitenkin vain soluviljelmätason näyttöä, eikä siitä voi päätellä tehoa tai turvallisuutta ihmisellä.
 
@@ -154,13 +154,14 @@ Huomattava osa vakavista yhteisvaikutuksista koskee hyytymiseen vaikuttavia valm
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Kyprolis (EMEA/H/C/003790) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
 
 <!-- review:end log -->
 

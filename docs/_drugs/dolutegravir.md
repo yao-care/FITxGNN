@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **apinoiden immuunikatovirusinfektioon (S
 
 ## Miksi ennuste on järkevä?
 
-Dolutegraviiri on HIV-1:n integraasin siirtoreaktion estäjä (INSTI). Tämän raportin aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella dolutegraviiri estää viruksen DNA:n liittymisen isäntäsolun genomiin.
+Dolutegraviiri on HIV-1:n integraasin siirtoreaktion estäjä (INSTI). Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Dolutegravir (epävirallinen käännös): ”Dolutegraviiri on HIV-1:n antiretroviraalinen lääkeaine. […] Dolutegraviiri estää HIV-integraasia sitoutumalla integraasin aktiiviseen kohtaan ja salpaamalla retroviraalisen DNA:n integraation juosteensiirtovaiheen, joka on välttämätön HIV:n replikaatiosyklille. Puhdistettua HIV-1-integraasia ja esikäsiteltyä substraatti-DNA:ta käyttäneissä biokemiallisissa juosteensiirtomäärityksissä saatiin IC 50 -arvoiksi 2.7 nM ja 12.6 nM.” Englanninkielinen alkuteksti: "Dolutegravir is an HIV-1 antiretroviral agent. […] Dolutegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral DNA integration which is essential for the HIV replication cycle. Strand transfer biochemical assays using purified HIV-1 integrase and pre-processed substrate DNA resulted in IC 50 values of 2.7 nM and 12.6 nM." ([DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922), versio 2026-08-25; haettu 2026-11-19). Tunnetun tiedon perusteella dolutegraviiri estää viruksen DNA:n liittymisen isäntäsolun genomiin.
 
 SIV:n integraasi muistuttaa rakenteellisesti HIV-1:n integraasia, ja intasomirakennetutkimukset osoittavat yhteisen estäjän sitoutumistavan. Makakeilla tehdyt tutkimukset osoittavat viruslääkevaikutuksen sekä resistenssimutaatioiden kehittymisen, esimerkiksi dolutegraviirimonoterapian yhteydessä.
 
@@ -141,13 +141,14 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa kaikki dolutegraviirin myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys dolutegraviirin myyntilupien peruuntumisen syistä Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
 
 <!-- review:end log -->
 

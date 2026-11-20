@@ -54,7 +54,7 @@ Brodalumabi on IL-17-reseptori A:n salpaaja, jota on käytetty psoriaasin hoitoo
 
 ## Miksi ennuste on perusteltu?
 
-Brodalumabi salpaa IL-17-reseptori A:n, jolloin useiden IL-17-perheen sytokiinien signalointi estyy. Tätä mekanismia hyödynnetään tulehduksellisissa ihosairauksissa. Tämän raportin käytettävissä olevissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismikuvausta, joten arvio perustuu yleiseen tietoon lääkeaineluokasta.
+Brodalumabi salpaa IL-17-reseptori A:n, jolloin useiden IL-17-perheen sytokiinien signalointi estyy. Tätä mekanismia hyödynnetään tulehduksellisissa ihosairauksissa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Brodalumab (epävirallinen käännös): ”Brodalumabi on ihmisen monoklonaalinen IgG2-vasta-aine, joka sitoutuu selektiivisesti ihmisen IL-17RA:han ja estää sen vuorovaikutukset sytokiinien IL-17A, IL-17F, IL-17C, IL-17A/F-heterodimeerin ja IL-25:n kanssa. IL-17RA on solun pinnalla ilmentyvä proteiini, ja se on välttämätön osa reseptorikomplekseja, joita useat IL-17-perheen sytokiinit käyttävät.” Englanninkielinen alkuteksti: "Brodalumab is a human monoclonal IgG2 antibody that selectively binds to human IL-17RA and inhibits its interactions with cytokines IL-17A, IL-17F, IL-17C, IL-17A/F heterodimer, and IL-25. IL-17RA is a protein expressed on the cell surface and is a required component of receptor complexes utilized by multiple IL-17 family cytokines." ([DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688), versio 2026-05-28; haettu 2026-11-19).
 
 Strongyloidiaasin ja IL-17-salpauksen välillä ei ole osoitettua suoraa mekanistista yhteyttä. IL-17-signalointi osallistuu jossain määrin limakalvojen immuunipuolustukseen ja loisinfektioiden torjuntaan, mutta Strongyloides-infektion hallinta perustuu pääosin Th2-vasteeseen. IL-17-salpauksen ei odoteta auttavan, ja se voisi teoriassa heikentää isännän puolustusta. Korkea pistemäärä on siis laskennallinen ennuste, jota mikään kliininen tai kirjallisuusnäyttö ei tue.
 
@@ -90,6 +90,19 @@ Ennusteelle ei ole kliinisiä tutkimuksia eikä julkaisuja, ja mekanistinen yhte
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden jäsentäminen (Fimea)
 - Yksityiskohtainen vaikutusmekanismitieto
 - Prekliininen näyttö IL-17-reseptorisalpauksen vaikutuksesta Strongyloides-infektioon ja riskiarvio infektioherkkyyden kannalta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

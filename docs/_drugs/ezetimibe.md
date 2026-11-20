@@ -54,7 +54,7 @@ Ezetimibi on kolesterolin imeytymistä suolistossa estävä lääkeaine, jota k�
 
 ## Miksi ennuste on perusteltu?
 
-Ezetimibi estää NPC1L1-proteiinin välittämää kolesterolin imeytymistä suolistosta ja alentaa siten LDL-kolesterolia. Yksityiskohtaiset vaikutusmekanismitiedot eivät ole tässä aineistossa saatavilla.
+Ezetimibi estää NPC1L1-proteiinin välittämää kolesterolin imeytymistä suolistosta ja alentaa siten LDL-kolesterolia. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ezetimibe (epävirallinen käännös): ”Etsetimibi vähentää veren kolesterolia estämällä kolesterolin imeytymistä ohutsuolesta. Etsetimibin molekyylitason kohteeksi on osoitettu sterolinkuljettaja Niemann-Pick C1-Like 1 (NPC1L1), joka osallistuu kolesterolin ja kasvisterolien imeytymiseen suolistosta.” Englanninkielinen alkuteksti: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), versio 2026-10-08; haettu 2026-11-19).
 
 Kolesterolin esterinsiirtoproteiinin (CETP) puutos on perinnöllinen tila, jolle on tyypillistä korkea HDL-kolesteroli ja muuttunut lipoproteiinien aineenvaihdunta. Se ei yleensä ole tila, joka vaatisi lääkehoitoa. Yhteys ezetimibiin on vain yleinen rasva-aineenvaihduntaan liittyvä yhteys.
 
@@ -101,6 +101,19 @@ Ennuste perustuu pelkästään mallin laskemaan pistemäärään. Kliinisiä tut
 - Suoraa mekanistista tai kliinistä näyttöä ezetimibin hyödystä tässä tilassa
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen Fimean lähteistä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

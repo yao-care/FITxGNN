@@ -60,7 +60,7 @@ Lomitapidi estää maksasoluissa ja suolen epiteelisoluissa MTP-proteiinia. Täm
 
 Hyperkolesterolemia ja hyperlipoproteinemia ovat läheisiä rasva-aineenvaihdunnan häiriöitä, ja HoFH on itsekin hyperlipoproteinemian muoto. Ennuste on siksi biologisesti uskottava, ja kyse on pikemminkin nykyisen käyttöaiheen lähialueesta kuin uudesta käyttötarkoituksesta.
 
-Aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa lääketietokannasta, mutta yllä kuvattu mekanismi on kirjallisuudessa hyvin tunnettu (esim. PMID 31741187).
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lomitapide (epävirallinen käännös): ”JUXTAPID sitoutuu suoraan endoplasmakalvoston luumenissa sijaitsevaan mikrosomaaliseen triglyseridien siirtäjäproteiiniin (MTP) ja estää sitä, mikä estää apo B:tä sisältävien lipoproteiinien kokoamisen enterosyyteissä ja hepatosyyteissä. Tämä estää kylomikronien ja VLDL:n synteesiä.” Englanninkielinen alkuteksti: "JUXTAPID directly binds and inhibits microsomal triglyceride transfer protein (MTP), which resides in the lumen of the endoplasmic reticulum, thereby preventing the assembly of apo B-containing lipoproteins in enterocytes and hepatocytes. This inhibits the synthesis of chylomicrons and VLDL." ([DailyMed: Juxtapid (lomitapide mesylate) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61a0be9d-ee58-43e0-b5cb-141011835081), versio 2026-03-30; haettu 2026-11-19). PMID 31741187).
 
 ## Kliininen tutkimusnäyttö
 
@@ -140,13 +140,14 @@ Kaikki tutkimukset ovat yhden haaran tai avoimia, eikä satunnaistettuja vertail
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Ainoa myyntilupa on peruutettu, joten valmisteen saatavuus Suomessa tulee varmistaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Lojuxta (EMEA/H/C/002578) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Juxtapid (lomitapide mesylate) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61a0be9d-ee58-43e0-b5cb-141011835081) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Näytön taso on L5: yksikään lähde ei tutki glekapreviirin tehoa HIV-infekti
 
 ## Miksi ennuste on perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Glecaprevir vaikutusmekanismiksi (epävirallinen käännös): ”Hepatiitti C -viruksen seriiniproteaasin, NS3/NS4A:n, estäjä” Englanninkielinen alkuteksti: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0; haettu 2026-11-19). Tunnettua on, että glekapreviiri kohdistuu HCV:n NS3/4A-proteaasiin, eikä sillä ole osoitettua suoraa HIV-vastaista vaikutusta.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Glecaprevir vaikutusmekanismiksi (epävirallinen käännös): ”Hepatiitti C -viruksen seriiniproteaasin, NS3/NS4A:n, estäjä”. Englanninkielinen alkuteksti: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0; haettu 2026-11-19). Tunnettua on, että glekapreviiri kohdistuu HCV:n NS3/4A-proteaasiin, eikä sillä ole osoitettua suoraa HIV-vastaista vaikutusta.
 
 Ennusteen taustalla näyttää olevan HIV:n ja HCV:n päällekkäinen potilasjoukko. Noin 25–30 % HIV-infektoiduista Euroopassa ja Yhdysvalloissa on myös HCV-infektoituneita, ja glekapreviiri/pibrentasviiri hoitaa yhteisinfektiossa HCV-osuuden. Korkea pistemäärä heijastaa todennäköisesti tautien läheisyyttä verkostossa, ei todellista antiretroviraalista mekanismia. Kyse on potilaspopulaatioiden limittymisestä, ei näytöstä lääkkeen uudelleenkäytöstä HIV:n hoidossa.
 
@@ -125,7 +125,7 @@ Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoj
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Ennuste on siten puhtaasti laskennallinen.
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Palivizumab vaikutusmekanismiksi (epävirallinen käännös): ”Fuusioglykoproteiini F0:n estäjä” Englanninkielinen alkuteksti: "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon mukaan palivitsumabi on RSV:n F-proteiinia vastaan suunnattu humanisoitu monoklonaalinen vasta-aine, joka neutraloi viruksen. Sen teho RSV-infektioiden ehkäisyssä on osoitettu.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Palivizumab vaikutusmekanismiksi (epävirallinen käännös): ”Fuusioglykoproteiini F0:n estäjä”. Englanninkielinen alkuteksti: "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon mukaan palivitsumabi on RSV:n F-proteiinia vastaan suunnattu humanisoitu monoklonaalinen vasta-aine, joka neutraloi viruksen. Sen teho RSV-infektioiden ehkäisyssä on osoitettu.
 
 Kielen kasvaimissa ei tunneta RSV:hen liittyvää kohdetta, eikä palivitsumabilla ole tunnettua kasvainvaikutusta. Korkea ennustepiste näyttää heijastavan tietämysgraafin rakenteellista samankaltaisuutta pään ja kaulan alueen kasvainsolmujen välillä, ei todellista farmakologista yhteyttä.
 
@@ -132,7 +132,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Synagis (EMEA/H/C/000257) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
 
 <!-- review:end log -->
 

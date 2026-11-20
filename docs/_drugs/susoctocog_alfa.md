@@ -54,7 +54,7 @@ Susoktokogialfa on B-domeenista vapaa rekombinantti sian sekvenssin tekijä VIII
 
 ## Miksi ennuste on perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Susoctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini” Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; haettu 2026-11-19). Tiedossa on, että susoktokogialfa on B-domeenista vapaa rekombinantti sian sekvenssin tekijä VIII, jonka teho hemofilia A:ssa (tekijä VIII:n puutos) on osoitettu.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Susoctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini”. Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; haettu 2026-11-19). Tiedossa on, että susoktokogialfa on B-domeenista vapaa rekombinantti sian sekvenssin tekijä VIII, jonka teho hemofilia A:ssa (tekijä VIII:n puutos) on osoitettu.
 
 Verihiutaleiden vapautumishäiriö on kuitenkin verihiutaleiden toiminnan laadullinen häiriö, ei tekijä VIII:n puutos. Siksi tekijä VIII:n korvaamiselle ei ole selvää mekanistista perustetta tässä sairaudessa. Korkea ennustepistemäärä heijastaa todennäköisesti sairauksien läheisyyttä verenvuotohäiriöiden verkostossa eikä todellista hoidollista yhteyttä.
 
@@ -99,7 +99,7 @@ Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoj
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075) |
 
 <!-- review:end log -->
 

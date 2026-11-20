@@ -60,7 +60,7 @@ mutta tätä suuntaa tukevia **kliinisiä tutkimuksia ei ole lainkaan** eikä **
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Simoktokogi alfa on rekombinantti ihmisen hyytymistekijä VIII (FVIII), jonka B-domeeni on poistettu ja joka tuotetaan ihmisen solulinjassa. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Simoctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini” Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun perusteella valmiste korvaa puuttuvaa FVIII:a hemofilia A:ssa.
+Simoktokogi alfa on rekombinantti ihmisen hyytymistekijä VIII (FVIII), jonka B-domeeni on poistettu ja joka tuotetaan ihmisen solulinjassa. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Simoctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini”. Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun perusteella valmiste korvaa puuttuvaa FVIII:a hemofilia A:ssa.
 
 Pseudo-von Willebrandin tauti (verihiutaletyyppinen VWD) johtuu verihiutaleiden GPIb-alfa-reseptorin toiminnan lisääntymisestä, mikä voimistaa von Willebrand -tekijän (VWF) sitoutumista. FVIII kiertää verenkierrossa VWF:oon sitoutuneena, joten VWF:n ja FVIII:n stabiilisuuden kautta on teoreettinen yhteys. Perusvika on kuitenkin verihiutalelähtöinen, eikä FVIII-korvaushoito ole vakiintunut hoito tähän tautiin.
 
@@ -164,7 +164,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden ja valmisteen saatavuuden selvittäminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Vihuma (EMEA/H/C/004459), Nuwiq (EMEA/H/C/002813)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
 
 <!-- review:end log -->
 

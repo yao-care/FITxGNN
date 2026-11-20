@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **pseudo-von Willebrandin tautiin**, mutt
 
 ## Miksi ennuste voisi olla perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Eftrenonacog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä IX, eksogeeninen proteiini” Englanninkielinen alkuteksti: "Coagulation factor IX exogenous protein" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0; haettu 2026-11-19). Eftrenonogi alfa on rekombinantti tekijä IX:n Fc-fuusioproteiini (rFIXFc), joka korvaa puuttuvaa tekijä IX:ää hemofilia B:ssä. Sen teho alkuperäisessä käyttöaiheessa perustuu veren hyytymiskaskadin sisäisen reitin korjaamiseen.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Eftrenonacog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä IX, eksogeeninen proteiini”. Englanninkielinen alkuteksti: "Coagulation factor IX exogenous protein" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0; haettu 2026-11-19). Eftrenonogi alfa on rekombinantti tekijä IX:n Fc-fuusioproteiini (rFIXFc), joka korvaa puuttuvaa tekijä IX:ää hemofilia B:ssä. Sen teho alkuperäisessä käyttöaiheessa perustuu veren hyytymiskaskadin sisäisen reitin korjaamiseen.
 
 Pseudo-von Willebrandin tauti johtuu verihiutaleiden GPIbα-reseptorin toimintaa lisäävistä mutaatioista. Ne aiheuttavat von Willebrand -tekijän liiallisen sitoutumisen sekä suurten VWF-multimeerien ja verihiutaleiden liiallisen poistuman. Vika on siis verihiutale–VWF-akselilla, ei tekijä IX:n puutoksessa. Tekijä IX:n korvaushoidolle ei näin ollen ole selvää mekanistista perustetta.
 
@@ -137,7 +137,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu, eikä Suomessa ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
 
 <!-- review:end log -->
 

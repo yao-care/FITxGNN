@@ -58,7 +58,7 @@ Voksilapreviiri on HCV:n NS3/4A-proteaasin estäjä, jota on käytetty kroonisen
 
 ## Miksi ennuste on perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Voxilaprevir vaikutusmekanismiksi (epävirallinen käännös): ”Hepatiitti C -viruksen seriiniproteaasin, NS3/NS4A:n, estäjä” Englanninkielinen alkuteksti: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon mukaan se on HCV:n NS3/4A-seriiniproteaasin estäjä, ja sen teho kroonisessa C-hepatiitissa on osoitettu osana sofosbuviiri–velpatasviiri–voksilapreviiri-yhdistelmää.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Voxilaprevir vaikutusmekanismiksi (epävirallinen käännös): ”Hepatiitti C -viruksen seriiniproteaasin, NS3/NS4A:n, estäjä”. Englanninkielinen alkuteksti: "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon mukaan se on HCV:n NS3/4A-seriiniproteaasin estäjä, ja sen teho kroonisessa C-hepatiitissa on osoitettu osana sofosbuviiri–velpatasviiri–voksilapreviiri-yhdistelmää.
 
 Mekanistista yhteyttä B-hepatiittiin ei kuitenkaan ole. HBV:llä ei ole NS3/4A:n kaltaista proteaasikohdetta, vaan sen replikaatio perustuu käänteiskopioijaentsyymiin/polymeraasiin ja kapsidiin. Korkea ennustepiste (0,998) heijastaa todennäköisesti hepatiittiin liittyvien solmujen läheisyyttä tietämysgraafissa eikä todellista vaikutusmekanismia.
 
@@ -150,7 +150,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilassa "peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys valmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
 
 <!-- review:end log -->
 

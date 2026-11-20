@@ -58,7 +58,7 @@ Tipranaviiri on HIV-1-proteaasin estäjä, jota on käytetty HIV-infektion hoito
 
 ## Miksi ennuste on perusteltu?
 
-Tipranaviiri estää HIV-1-viruksen proteaasientsyymiä, joka tarvitaan viruksen kypsymiseen. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tipranavir vaikutusmekanismiksi (epävirallinen käännös): ”Ihmisen immuunikatoviruksen tyypin 1 proteaasin estäjä” Englanninkielinen alkuteksti: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; haettu 2026-11-19).
+Tipranaviiri estää HIV-1-viruksen proteaasientsyymiä, joka tarvitaan viruksen kypsymiseen. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tipranavir vaikutusmekanismiksi (epävirallinen käännös): ”Ihmisen immuunikatoviruksen tyypin 1 proteaasin estäjä”. Englanninkielinen alkuteksti: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; haettu 2026-11-19).
 
 Kissan immuunipuutosvirus (FIV) on lentivirus, jonka proteaasi on rakenteellisesti sukua HIV-1-proteaasille. Siksi ristiin vaikuttaminen on mahdollista. Tipranaviirin ei-peptidimäisen rakenteen on raportoitu estävän joitakin sukulaisretrovirusten proteaaseja in vitro, mutta tästä ei ole tässä aineistossa dataa. Korkea pistemäärä heijastaa todennäköisesti lääkkeen tunnettua HIV-lääkeluokkaa ja verkostoetäisyyttä, ei itsenäistä näyttöä.
 
@@ -143,7 +143,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Lisäksi valmiste on peruutettu, eikä aineistossa ole dokumentoitua eläinlääkinnällistä käyttöä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupa (valmistaja Boehringer Ingelheim International GmbH) on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi valmiste on peruutettu uomessa ja s” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
 
 <!-- review:end log -->
 

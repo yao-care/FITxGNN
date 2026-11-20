@@ -56,7 +56,7 @@ Huomio: seuraavaksi sijoittuvalla ennusteella (SIV-infektio) näytön taso on L4
 
 ## Miksi ennuste on perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Bictegravir vaikutusmekanismiksi (epävirallinen käännös): ”Ihmisen immuunikatoviruksen tyypin 1 integraasin estäjä” Englanninkielinen alkuteksti: "Human immunodeficiency virus type 1 integrase inhibitor" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon perusteella bictegraviiri kuuluu integraasin siirtovaiheen estäjien (INSTI) lääkeaineryhmään, sen teho HIV-infektiossa on osoitettu, ja mekanistisesti se voi soveltua muihin lentiviruksiin.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Bictegravir vaikutusmekanismiksi (epävirallinen käännös): ”Ihmisen immuunikatoviruksen tyypin 1 integraasin estäjä”. Englanninkielinen alkuteksti: "Human immunodeficiency virus type 1 integrase inhibitor" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon perusteella bictegraviiri kuuluu integraasin siirtovaiheen estäjien (INSTI) lääkeaineryhmään, sen teho HIV-infektiossa on osoitettu, ja mekanistisesti se voi soveltua muihin lentiviruksiin.
 
 **Kissan immuunikatovirus (FIV).** FIV on lentivirus, jolla on myös oma integraasinsa, joten luokkatason mekanistinen perustelu on olemassa. FIV:stä ei kuitenkaan ole bictegraviiria koskevaa tietoa. FIV:n ja HIV-1:n integraasien rakenne- ja sekvenssierot voivat vaikuttaa sitoutumiseen ja herkkyyteen. Kyseessä on eläinlääkinnällinen käyttöaihe, jolla ei ole merkitystä ihmisten hoidossa.
 
@@ -135,7 +135,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Poistettu: ”Peruutettujen myyntilupien tilanteen selvittäminen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Biktarvy (EMEA/H/C/004449) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866) |
 
 <!-- review:end log -->
 

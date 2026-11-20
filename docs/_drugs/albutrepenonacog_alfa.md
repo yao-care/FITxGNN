@@ -54,7 +54,7 @@ Albutrepenonakogi alfa on albumiiniin fuusioitu rekombinantti hyytymistekijä IX
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Albutrepenonakogi alfa on rekombinantti tekijä IX -valmiste (rIX-FP), jossa tekijä IX on yhdistetty albumiiniin vaikutusajan pidentämiseksi. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Albutrepenonacog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä IX, eksogeeninen proteiini” Englanninkielinen alkuteksti: "Coagulation factor IX exogenous protein" ([ChEMBL CHEMBL5315076 (albutrepenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315076), CC BY-SA 3.0; haettu 2026-11-19).
+Albutrepenonakogi alfa on rekombinantti tekijä IX -valmiste (rIX-FP), jossa tekijä IX on yhdistetty albumiiniin vaikutusajan pidentämiseksi. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Albutrepenonacog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä IX, eksogeeninen proteiini”. Englanninkielinen alkuteksti: "Coagulation factor IX exogenous protein" ([ChEMBL CHEMBL5315076 (albutrepenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315076), CC BY-SA 3.0; haettu 2026-11-19).
 
 Pseudo-von Willebrandin tauti (verihiutaletyyppinen von Willebrandin tauti) johtuu verihiutaleiden GPIbα-reseptorin toiminnanlisäysmuutoksesta. Se lisää sitoutumista von Willebrand -tekijään, mikä johtaa verihiutaleiden poistumaan verenkierrosta ja vuotoalttiuteen. Tekijä IX:n korvaushoito ei korjaa tätä GPIbα–VWF-poikkeamaa, joten biologinen yhteys on heikko.
 
@@ -98,7 +98,7 @@ Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoj
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL5315076 (albutrepenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315076) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL5315076 (albutrepenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315076) |
 
 <!-- review:end log -->
 

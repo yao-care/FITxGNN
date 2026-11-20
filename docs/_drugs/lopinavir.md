@@ -58,7 +58,7 @@ Lopinaviiri on HIV-proteaasin estäjä, jota on alun perin käytetty HIV-infekti
 
 ## Miksi ennuste on perusteltu?
 
-Lopinaviiri on HIV-1-proteaasin estäjä. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Lopinavir vaikutusmekanismiksi (epävirallinen käännös): ”Ihmisen immuunikatoviruksen tyypin 1 proteaasin estäjä” Englanninkielinen alkuteksti: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; haettu 2026-11-19). SIV on HIV:n kanssa läheistä sukua oleva lentivirus, jonka proteaasi muistuttaa rakenteellisesti HIV-1-proteaasia. Siksi lääkkeen vaikutus on biologisesti uskottava.
+Lopinaviiri on HIV-1-proteaasin estäjä. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Lopinavir vaikutusmekanismiksi (epävirallinen käännös): ”Ihmisen immuunikatoviruksen tyypin 1 proteaasin estäjä”. Englanninkielinen alkuteksti: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; haettu 2026-11-19). SIV on HIV:n kanssa läheistä sukua oleva lentivirus, jonka proteaasi muistuttaa rakenteellisesti HIV-1-proteaasia. Siksi lääkkeen vaikutus on biologisesti uskottava.
 
 Käytettävissä oleva näyttö perustuu ei-ihmisapinoilla (makakeilla) tehtyihin SIV- ja SHIV-malleihin, ja se on epäsuoraa ihmiskäytön kannalta. SIV-infektio on HIV:n tutkimus- ja eläinlääketieteellinen malli, ei erillinen ihmisen käyttöaihe. Ennuste ei siis tuo uutta kliinistä hoitomahdollisuutta.
 
@@ -138,7 +138,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja lääkkeen myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Lopinavir/Ritonavir Viatris (EMEA/H/C/004025), Kaletra (EMEA/H/C/000368)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

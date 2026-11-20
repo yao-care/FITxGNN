@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **gastroduodeniitin**, m
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Korifollitropiini alfa on pitkävaikutteinen FSH-agonisti: FSH:n beeta-alayksikkö on yhdistetty hCG:n C-terminaaliseen peptidiin (CTP). Se vaikuttaa sukurauhasten FSH-reseptoreihin. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Corifollitropin Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Follikkelia stimuloivan hormonin reseptorin agonisti” Englanninkielinen alkuteksti: "Follicle stimulating hormone receptor agonist" ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0; haettu 2026-11-19).
+Korifollitropiini alfa on pitkävaikutteinen FSH-agonisti: FSH:n beeta-alayksikkö on yhdistetty hCG:n C-terminaaliseen peptidiin (CTP). Se vaikuttaa sukurauhasten FSH-reseptoreihin. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Corifollitropin Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Follikkelia stimuloivan hormonin reseptorin agonisti”. Englanninkielinen alkuteksti: "Follicle stimulating hormone receptor agonist" ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0; haettu 2026-11-19).
 
 Uskottavaa mekanistista yhteyttä FSH-reseptorisignaloinnin ja mahalaukun tai pohjukaissuolen limakalvon tulehduksen välillä ei ole osoitettu. Korkea pistemäärä (0,9965) perustuu todennäköisesti tietämysgraafin verkostolähyyteen, ei biologiseen näyttöön. Alkuperäinen käyttöaihe (hedelmällisyyshoito) ja ennustettu käyttöaihe (ruoansulatuskanavan tulehdus) ovat lääketieteellisesti hyvin kaukana toisistaan.
 
@@ -127,7 +127,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa valmisteen ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Elonva (EMEA/H/C/001106) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
 
 <!-- review:end log -->
 

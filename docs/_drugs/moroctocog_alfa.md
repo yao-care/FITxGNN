@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan tehota **primaariin verihiutaleiden vapautumish�
 
 ## Miksi ennuste voisi olla perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Moroctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini” Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137), CC BY-SA 3.0; haettu 2026-11-19). Tiedetyn perusteella moroktokogi alfa korvaa puuttuvan hyytymistekijä VIII:n hemofilia A:ssa, ja sen teho tässä käyttöaiheessa on osoitettu. Mekanistisesti sen soveltuvuus uuteen käyttöaiheeseen on kuitenkin epäselvää.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Moroctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini”. Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137), CC BY-SA 3.0; haettu 2026-11-19). Tiedetyn perusteella moroktokogi alfa korvaa puuttuvan hyytymistekijä VIII:n hemofilia A:ssa, ja sen teho tässä käyttöaiheessa on osoitettu. Mekanistisesti sen soveltuvuus uuteen käyttöaiheeseen on kuitenkin epäselvää.
 
 Verihiutaleiden vapautumishäiriö johtuu verihiutaleiden omasta eritysvauriosta, ei tekijä VIII:n puutteesta. Tekijä VIII:n korvaamiselle ei siksi ole selvää biologista perustetta. Korkea ennustepiste (0,9997) heijastaa todennäköisesti verenvuotosairauksien läheisyyttä tietämysgraafissa, ei todellista biologista yhteyttä.
 
@@ -127,7 +127,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu, joten valmiste ei ole tällä hetkellä myynnissä Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja ainoa Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
 
 <!-- review:end log -->
 

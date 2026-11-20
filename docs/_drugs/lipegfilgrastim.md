@@ -58,7 +58,7 @@ Lipegfilgrastiimi on pegyloitu G-CSF-kasvutekijän analogi, jota käytetään ne
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Lipegfilgrastim vaikutusmekanismiksi (epävirallinen käännös): ”Granulosyyttiryhmiä stimuloivan tekijän reseptorin agonisti” Englanninkielinen alkuteksti: "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun luokituksen perusteella lipegfilgrastiimi on pegyloitu G-CSF-analogi, joka stimuloi neutrofiilien kehitysliinan jakautumista ja erilaistumista myeloisten solujen G-CSF-reseptorin kautta.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Lipegfilgrastim vaikutusmekanismiksi (epävirallinen käännös): ”Granulosyyttiryhmiä stimuloivan tekijän reseptorin agonisti”. Englanninkielinen alkuteksti: "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun luokituksen perusteella lipegfilgrastiimi on pegyloitu G-CSF-analogi, joka stimuloi neutrofiilien kehitysliinan jakautumista ja erilaistumista myeloisten solujen G-CSF-reseptorin kautta.
 
 Primaariset verihiutaleiden vapautumishäiriöt ovat verihiutaleiden omia toimintahäiriöitä (rakeiden eritys). Selvää mekanistista yhteyttä neutrofiilikohtaisen vaikutuksen ja näiden häiriöiden välillä ei ole tunnistettu. Korkea pistemäärä on todennäköisesti verkostopohjaisen ennusteen tulos, ei biologisen perustelun.
 
@@ -135,7 +135,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntilupa Suomessa on peruutettu, mikä heikentää käytännön toteutettavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Lonquex (EMEA/H/C/002556) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
 
 <!-- review:end log -->
 

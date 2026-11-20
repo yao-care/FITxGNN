@@ -58,7 +58,7 @@ Atsatiopriini on immunosuppressiivinen puriiniantimetaboliitti. TxGNN-malli ennu
 
 ## Miksi ennuste voisi olla perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Azathioprine vaikutusmekanismiksi (epävirallinen käännös): ”Amidofosforibosyylitransferaasin estäjä; DNA:n estäjä” Englanninkielinen alkuteksti: "Amidophosphoribosyltransferase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; haettu 2026-11-19). Atsatiopriini kuuluu puriiniantimetaboliitteihin, jotka estävät lymfosyyttien lisääntymistä ja siten vaimentavat immuunivastetta.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Azathioprine vaikutusmekanismiksi (epävirallinen käännös): ”Amidofosforibosyylitransferaasin estäjä; DNA:n estäjä”. Englanninkielinen alkuteksti: "Amidophosphoribosyltransferase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; haettu 2026-11-19). Atsatiopriini kuuluu puriiniantimetaboliitteihin, jotka estävät lymfosyyttien lisääntymistä ja siten vaimentavat immuunivastetta.
 
 Ennustettu sairaus on harvinainen kehityksellinen geneettinen häiriö. Sen patofysiologiassa ei ole tunnistettavaa tulehdus- tai immuunivälitteistä osatekijää, johon atsatiopriinin immunosuppressio voisi vaikuttaa. Mekanistista yhteyttä ei siis voida tunnistaa.
 
@@ -123,7 +123,7 @@ Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoj
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
 
 <!-- review:end log -->
 

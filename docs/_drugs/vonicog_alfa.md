@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **primaarisen verihiutal
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Vonicog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”von Willebrandin tekijä, eksogeeninen proteiini” Englanninkielinen alkuteksti: "von Willebrand factor exogenous protein" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon perusteella vonicog alfa on rekombinantti von Willebrand -tekijä, joka välittää verihiutaleiden tarttumista ja kasautumista verisuonivauriokohdassa ja toimii tekijä VIII:n kantajana.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Vonicog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”von Willebrandin tekijä, eksogeeninen proteiini”. Englanninkielinen alkuteksti: "von Willebrand factor exogenous protein" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0; haettu 2026-11-19). Tunnetun tiedon perusteella vonicog alfa on rekombinantti von Willebrand -tekijä, joka välittää verihiutaleiden tarttumista ja kasautumista verisuonivauriokohdassa ja toimii tekijä VIII:n kantajana.
 
 Verihiutaleiden vapautumishäiriössä verihiutaleiden omien rakeiden sisällön vapautuminen on sisäisesti häiriintynyt. Ulkoisesti annettu VWF ei oletettavasti korjaa tätä vikaa, joten mekanistinen yhteys on heikko. Ennuste perustuu vain mallin laskemaan pisteeseen, eikä sitä tue yksikään tutkimus.
 
@@ -116,7 +116,7 @@ Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoj
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873) |
 
 <!-- review:end log -->
 

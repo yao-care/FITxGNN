@@ -60,7 +60,7 @@ Ennustus perustuu käytännössä vain malliin, eikä sitä tue mekanistinen per
 
 ## Miksi ennustus on (tai ei ole) perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Pibrentasvir vaikutusmekanismiksi (epävirallinen käännös): ”Ei-rakenteellisen proteiinin 5A estäjä” Englanninkielinen alkuteksti: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; haettu 2026-11-19). Yleisen tiedon mukaan pibrentasviiri on HCV:n NS5A-proteiinin estäjä, ja sitä käytetään kiinteänä yhdistelmänä glekapreviirin (NS3/4A-proteaasin estäjä) kanssa. Teho kroonisessa hepatiitti C:ssä on osoitettu.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Pibrentasvir vaikutusmekanismiksi (epävirallinen käännös): ”Ei-rakenteellisen proteiinin 5A estäjä”. Englanninkielinen alkuteksti: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; haettu 2026-11-19). Yleisen tiedon mukaan pibrentasviiri on HCV:n NS5A-proteiinin estäjä, ja sitä käytetään kiinteänä yhdistelmänä glekapreviirin (NS3/4A-proteaasin estäjä) kanssa. Teho kroonisessa hepatiitti C:ssä on osoitettu.
 
 Hepatiitti B -virus ei sisällä NS5A:n homologia, joten pibrentasviirin kohdetason mekanismi ei sovellu HBV:hen. Haetussa kirjallisuudessa käsitellään lähes yksinomaan HCV:tä, eikä anti-HBV-aktiivisuudesta ole löytynyt näyttöä. Yhteys on korkeintaan epäsuora: molemmat ovat maksaa infektoivia viruksia, ja potilasryhmät limittyvät.
 
@@ -149,7 +149,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa (vain peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Maviret (EMEA/H/C/004430) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
 
 <!-- review:end log -->
 

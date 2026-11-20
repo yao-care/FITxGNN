@@ -54,7 +54,7 @@ Efmoroktokogialfa on rekombinantti Fc-fuusioitu veren hyytymistekijä VIII -valm
 
 ## Miksi ennuste on perusteltu?
 
-Efmoroktokogialfa on rekombinantti tekijä VIII:n ja immunoglobuliini G1:n Fc-osan fuusioproteiini. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Efmoroctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini” Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; haettu 2026-11-19).
+Efmoroktokogialfa on rekombinantti tekijä VIII:n ja immunoglobuliini G1:n Fc-osan fuusioproteiini. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Efmoroctocog Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini”. Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; haettu 2026-11-19).
 
 Pseudo-von Willebrandin tauti on verihiutaleperäinen vuotohäiriö. Sen aiheuttaa GPIbα-reseptorin toiminnanlisäysmuutos, joka lisää von Willebrand -tekijän (VWF) sitoutumista ja poistaa suurimolekyylisiä VWF-multimeerejä verenkierrosta. Tekijä VIII:n korvaushoito ei korjaa tätä verihiutaleiden reseptorivikaa.
 
@@ -99,7 +99,7 @@ Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoj
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
 
 <!-- review:end log -->
 

@@ -61,7 +61,7 @@ Toinen ennustettu käyttöaihe on **akne** (pisteet 0.9903, näytön taso L5, su
 
 ## Miksi ennuste voisi olla perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tocofersolan vaikutusmekanismiksi (epävirallinen käännös): ”Ravitsemuksellinen tuki” Englanninkielinen alkuteksti: "Nutritional support" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; haettu 2026-11-19). Tokofersolaani on vesiliukoinen E-vitamiinin muoto (TPGS), jonka teho E-vitamiinin puutoksessa kolestaasipotilailla on osoitettu ja jonka vaikutus voi mekanistisesti liittyä ravitsemuksellisen puutoksen korjaamiseen sekä antioksidatiiviseen toimintaan.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tocofersolan vaikutusmekanismiksi (epävirallinen käännös): ”Ravitsemuksellinen tuki”. Englanninkielinen alkuteksti: "Nutritional support" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; haettu 2026-11-19). Tokofersolaani on vesiliukoinen E-vitamiinin muoto (TPGS), jonka teho E-vitamiinin puutoksessa kolestaasipotilailla on osoitettu ja jonka vaikutus voi mekanistisesti liittyä ravitsemuksellisen puutoksen korjaamiseen sekä antioksidatiiviseen toimintaan.
 
 Amenorrean osalta yhteys on spekulatiivinen: antioksidanttivaikutus tai ravitsemuspuutoksen korjaaminen voisi vaikuttaa lisääntymishormonien toimintaan. Aineisto ei kuitenkaan tue tätä oletusta. Pisteet kuvastavat vain tietämysgraafiin perustuvaa ennustetta.
 
@@ -138,7 +138,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilaltaan peruutettu, joten valmiste ei ole tällä hetkellä markkinoilla Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska nykyinen lupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
 
 <!-- review:end log -->
 

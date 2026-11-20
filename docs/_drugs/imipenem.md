@@ -54,7 +54,7 @@ Imipenem on karbapeneemiryhmän beetalaktaamiantibiootti, jota käytetään bakt
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin tietojen perusteella ennuste ei ole mekanistisesti perusteltu. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Imipenem vaikutusmekanismiksi (epävirallinen käännös): ”Bakteerien penisilliiniä sitovan proteiinin estäjä” Englanninkielinen alkuteksti: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; haettu 2026-11-19). Imipenemin tiedetään estävän bakteerin soluseinän synteesiä sitoutumalla penisilliiniä sitoviin proteiineihin. Tämä vaikutus kohdistuu bakteereihin.
+Tämän raportin tietojen perusteella ennuste ei ole mekanistisesti perusteltu. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Imipenem vaikutusmekanismiksi (epävirallinen käännös): ”Bakteerien penisilliiniä sitovan proteiinin estäjä”. Englanninkielinen alkuteksti: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; haettu 2026-11-19). Imipenemin tiedetään estävän bakteerin soluseinän synteesiä sitoutumalla penisilliiniä sitoviin proteiineihin. Tämä vaikutus kohdistuu bakteereihin.
 
 Diffuusi skleroderma eli systeeminen skleroosi on autoimmuuni- ja fibroottinen sairaus. Sen taustalla ovat immuunijärjestelmän poikkeava aktivaatio, verisuonivauriot ja sidekudoksen liiallinen kertyminen. Antibakteerisen karbapeneemin ja tämän sairauden patologian välillä ei ole tunnistettavaa uskottavaa yhteyttä. Korkea ennustepistemäärä vaikuttaa mallin laskennalliselta sivutulokselta, ei biologisesti perustellulta signaalilta.
 
@@ -109,7 +109,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Recarbrio (EMEA/H/C/004808) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
 
 <!-- review:end log -->
 

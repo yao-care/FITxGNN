@@ -58,7 +58,7 @@ Avatrombopaagi on trombopoietiinireseptorin (TPO-R) agonisti, jota on alun perin
 
 ## Miksi ennuste on perusteltu?
 
-Avatrombopaagi on suun kautta otettava TPO-R:n (MPL-geeni) agonisti. Se edistää megakaryosyyttien lisääntymistä ja siten verihiutaleiden tuotantoa. Solukokeissa sen EC50-arvo reseptorin aktivaatiolle oli 3,3 nM, ja suurin vaikutus vastasi rekombinantin ihmisen trombopoietiinin vaikutusta. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Avatrombopag vaikutusmekanismiksi (epävirallinen käännös): ”Trombopoietiinireseptorin agonisti” Englanninkielinen alkuteksti: "Thrombopoietin receptor agonist" ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883), CC BY-SA 3.0; haettu 2026-11-19).
+Avatrombopaagi on suun kautta otettava TPO-R:n (MPL-geeni) agonisti. Se edistää megakaryosyyttien lisääntymistä ja siten verihiutaleiden tuotantoa. Solukokeissa sen EC50-arvo reseptorin aktivaatiolle oli 3,3 nM, ja suurin vaikutus vastasi rekombinantin ihmisen trombopoietiinin vaikutusta. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Avatrombopag vaikutusmekanismiksi (epävirallinen käännös): ”Trombopoietiinireseptorin agonisti”. Englanninkielinen alkuteksti: "Thrombopoietin receptor agonist" ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883), CC BY-SA 3.0; haettu 2026-11-19).
 
 Alkuperäinen käyttöaihe, trombosytopenia, ja ennustettu käyttöaihe ovat molemmat sairauksia, joissa verihiutaleita on liian vähän. Mekanistinen yhteys on uskottava vain, jos verihiutalepuutos johtuu vähentyneestä tuotannosta ja megakaryosyyttilinja vastaa edelleen TPO-R-signalointiin. Mitraaliläpän vuotoa lääke ei todennäköisesti korjaa.
 
@@ -121,7 +121,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syyn selvittämistä sekä sen vaikutusta lääkkeen saatavuuteen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883) |
 
 <!-- review:end log -->
 

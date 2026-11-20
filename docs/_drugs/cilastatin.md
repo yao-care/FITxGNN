@@ -54,7 +54,7 @@ Kilastatiini on dehydropeptidaasi-I:n estäjä, jota käytetään yhdessä imipe
 
 ## Miksi ennuste on perusteltu?
 
-Kilastatiinilla ei ole omaa antibakteerista vaikutusta Staphylococcus aureusta vastaan. Sen tehtävä on estää munuaisten dehydropeptidaasi-I-entsyymiä, jolloin imipeneemin hajoaminen estyy ja sen pitoisuus säilyy. Mahdollinen hoitovaikutus tulisi siis imipeneemistä. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Cilastatin vaikutusmekanismiksi (epävirallinen käännös): ”Munuaisten dipeptidaasin estäjä” Englanninkielinen alkuteksti: "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; haettu 2026-11-19).
+Kilastatiinilla ei ole omaa antibakteerista vaikutusta Staphylococcus aureusta vastaan. Sen tehtävä on estää munuaisten dehydropeptidaasi-I-entsyymiä, jolloin imipeneemin hajoaminen estyy ja sen pitoisuus säilyy. Mahdollinen hoitovaikutus tulisi siis imipeneemistä. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Cilastatin vaikutusmekanismiksi (epävirallinen käännös): ”Munuaisten dipeptidaasin estäjä”. Englanninkielinen alkuteksti: "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; haettu 2026-11-19).
 
 Imipeneemi tehoaa yleensä metisilliiniherkkiin S. aureus -kantoihin, mutta yleensä ei metisilliiniresistentteihin (MRSA). Raportit imipeneemi-kilastatiinin käytöstä yhdessä fosfomysiinin, linetsolidin, arbekasiinin tai vankomysiinin kanssa viittaavat synergiaan soluseinään kohdistuvan vaikutuksen kautta. Kilastatiinin osuus on vain farmakokineettinen.
 
@@ -114,7 +114,7 @@ Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoj
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
 
 <!-- review:end log -->
 

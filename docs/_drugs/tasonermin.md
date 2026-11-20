@@ -58,7 +58,7 @@ Tasonermiini on yhdistelmä-DNA-tekniikalla valmistettu TNF-alfa, jota on käyte
 
 ## Miksi ennuste on perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tasonermin vaikutusmekanismiksi (epävirallinen käännös): ”Tuntematon” Englanninkielinen alkuteksti: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; haettu 2026-11-19). Tiedossa on, että tasonermiini on yhdistelmä-DNA-tekniikalla tuotettu TNF-alfa, jota on käytetty raajaperfuusiossa pehmytkudossarkoomien hoidossa. Sen teho sarkoomassa on osoitettu, mutta mekanistista yhteyttä urotelikarsinoomaan ei aineiston perusteella voida tukea.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tasonermin vaikutusmekanismiksi (epävirallinen käännös): ”Tuntematon”. Englanninkielinen alkuteksti: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; haettu 2026-11-19). Tiedossa on, että tasonermiini on yhdistelmä-DNA-tekniikalla tuotettu TNF-alfa, jota on käytetty raajaperfuusiossa pehmytkudossarkoomien hoidossa. Sen teho sarkoomassa on osoitettu, mutta mekanistista yhteyttä urotelikarsinoomaan ei aineiston perusteella voida tukea.
 
 Ennuste perustuu tietämysgraafiin, ei kliiniseen tai prekliiniseen näyttöön. Muissa korkeasti pisteytetyissä ennusteissa (esim. munuaisaltaan sarkomatoidi siirtymäsolusyöpä ja virtsarakon sarkomatoidivariantti) sarkoomankaltainen histologia voi osittain selittää korkeita pisteitä, mutta tämä on spekulatiivista. Lisäksi TNF-alfan systeeminen toksisuus rajoittaisi käyttöä muualla kuin alueellisessa (paikallisessa) annostelussa, eikä virtsateiden kasvaimille ole vakiintunutta perfuusiomenetelmää.
 
@@ -161,7 +161,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu (valmistaja: Belpharma s.a.). Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntilupa Suomessa on peruutettu eikä turvallisuustietoja ole saatavilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
 
 <!-- review:end log -->
 

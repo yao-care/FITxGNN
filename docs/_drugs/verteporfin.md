@@ -58,7 +58,7 @@ Verteporfiini on valoherkistäjä, jota on alun perin käytetty rappeuttavan lik
 
 ## Miksi ennuste voi olla perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Verteporfin vaikutusmekanismiksi (epävirallinen käännös): ”DNA:n estäjä” Englanninkielinen alkuteksti: "DNA inhibitor" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; haettu 2026-11-19). Tiedossa on, että verteporfiini on valoherkistäjä, jota käytetään fotodynaamisessa hoidossa (PDT) kasvaimenkaltaisten uudisverisuonten aiheuttamassa silmänpohjan rappeumassa. Prekliinisissä tutkimuksissa sen on raportoitu myös estävän YAP-TEAD-vuorovaikutusta.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Verteporfin vaikutusmekanismiksi (epävirallinen käännös): ”DNA:n estäjä”. Englanninkielinen alkuteksti: "DNA inhibitor" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; haettu 2026-11-19). Tiedossa on, että verteporfiini on valoherkistäjä, jota käytetään fotodynaamisessa hoidossa (PDT) kasvaimenkaltaisten uudisverisuonten aiheuttamassa silmänpohjan rappeumassa. Prekliinisissä tutkimuksissa sen on raportoitu myös estävän YAP-TEAD-vuorovaikutusta.
 
 Mahdollinen yhteys mitokondriotautiin voisi liittyä mitokondrioihin ja oksidatiiviseen stressiin: valoaktivoitu verteporfiini tuottaa reaktiivisia happilajeja ja voi kertyä mitokondrioihin. Tämä on vain hypoteesitasoinen ajatus. Valoherkistäjän tuottamat happiradikaalit voisivat myös **pahentaa** oksidatiivisen fosforylaation toimintahäiriötä, joten vaikutuksen suunta on epäselvä ja se voi olla haitallinen.
 
@@ -137,7 +137,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa ja y” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Visudyne (EMEA/H/C/000305) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
 
 <!-- review:end log -->
 

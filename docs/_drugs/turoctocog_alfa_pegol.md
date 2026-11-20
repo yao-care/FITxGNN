@@ -60,7 +60,7 @@ Ennuste perustuu vain mallin laskemaan graafietäisyyteen, eikä mekanistista pe
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Turoctocog Alfa Pegol vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini” Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071), CC BY-SA 3.0; haettu 2026-11-19). Tiedetään, että turoktokogialfa pegoli on PEGyloitu rekombinantti tekijä VIII (FVIII), joka korvaa puuttuvan FVIII:n kuolioitumisen sisäisessä reitissä. Sen teho hemofilia A:ssa on osoitettu.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Turoctocog Alfa Pegol vaikutusmekanismiksi (epävirallinen käännös): ”Hyytymistekijä VIII:n eksogeeninen proteiini”. Englanninkielinen alkuteksti: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071), CC BY-SA 3.0; haettu 2026-11-19). Tiedetään, että turoktokogialfa pegoli on PEGyloitu rekombinantti tekijä VIII (FVIII), joka korvaa puuttuvan FVIII:n kuolioitumisen sisäisessä reitissä. Sen teho hemofilia A:ssa on osoitettu.
 
 Ensisijaiset verihiutaleiden vapautumishäiriöt ovat kuitenkin verihiutaleiden toiminnan häiriöitä (rakeiden eritys ja signalointi on heikentynyt), eivät FVIII:n puutosta. FVIII-korvaushoidon ei siksi odoteta korjaavan vikaa. Korkea TxGNN-pistemäärä näyttää kuvastavan verenvuotosairauksien läheisyyttä tietämysgraafissa, ei lääketieteellistä perustetta.
 
@@ -153,7 +153,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteella ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Esperoct (EMEA/H/C/004883) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071) |
+| 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071) |
 
 <!-- review:end log -->
 

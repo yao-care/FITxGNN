@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Daunorubicin: ennustettu uusi käyttöaihe Hodgkinin lymfooma (Hodgkins lymphoma) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Myeloid, Acute"
 ---
 
@@ -58,7 +58,7 @@ Daunorubisiini on antrasykliiniryhmän solunsalpaaja, jota käytetään pääasi
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytettävissä olevissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismia. Tunnetun luokkatiedon perusteella daunorubisiini on antrasykliini, joka lisääntyy DNA:han (interkalaatio) ja estää topoisomeraasi II -entsyymiä. Sama mekanismi on doksorubisiinilla, joka on Hodgkinin lymfooman vakiohoidon ABVD-yhdistelmän ydinosa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Daunorubicin (epävirallinen käännös): ”Daunorubisiinilla on antimitoottista ja sytotoksista vaikutusta useiden ehdotettujen vaikutusmekanismien kautta. Daunorubisiini muodostaa komplekseja DNA:n kanssa interkaloitumalla emäsparien väliin. Se estää topoisomeraasi II:n aktiivisuutta stabiloimalla DNA–topoisomeraasi II -kompleksin, mikä estää topoisomeraasi II:n katalysoiman ligaatio-religaatioreaktion religaatiovaiheen.” Englanninkielinen alkuteksti: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), versio 2025-05-21; haettu 2026-11-20). Tunnetun luokkatiedon perusteella daunorubisiini on antrasykliini, joka lisääntyy DNA:han (interkalaatio) ja estää topoisomeraasi II -entsyymiä. Sama mekanismi on doksorubisiinilla, joka on Hodgkinin lymfooman vakiohoidon ABVD-yhdistelmän ydinosa.
 
 Mekanistinen uskottavuus on siten korkea luokkatasolla. Linkitetyt tutkimukset eivät kuitenkaan testaa daunorubisiinia Hodgkinin lymfoomassa. Kirjallisuus koostuu pääosin katsauksista, sydäntoksisuutta käsittelevistä artikkeleista sekä liposomaalisen daunorubisiinin tutkimuksista non-Hodgkin-lymfoomissa. Ennuste on siis lähinnä malliperusteinen ja luokkatason päättelyyn nojaava.
 
@@ -131,6 +131,19 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla tämän rap
 - Suoraa kliinistä tai prekliinistä näyttöä daunorubisiinista Hodgkinin lymfoomassa ja vertailu nykyiseen vakiohoitoon (ABVD)
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot sekä sydänturvallisuuden arviointi (kumulatiivinen antrasykliiniannos)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

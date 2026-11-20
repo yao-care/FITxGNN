@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ARSENIC TRIOXIDE"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Arsenic Trioxide: ennustettu uusi käyttöaihe Myelodysplastinen oireyhtymä, luokittelematon (unclassified myelodysplastic syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Promyelocytic, …"
 ---
 
@@ -54,7 +54,7 @@ Arsenikkitrioksidi on syöpälääke, jota käytetään leukemian hoitoon. TxGNN
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla kokoamissamme tiedoissa. Tunnetun tiedon perusteella arsenikkitrioksidi on solukuolemaa (apoptoosia) ja solujen erilaistumista edistävä syöpälääke, jonka teho verenkiertoelimistön syöpätaudissa on osoitettu, ja mekanistisesti se voisi soveltua myös myelodysplastisiin oireyhtymiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Arsenic Trioxide (epävirallinen käännös): ”TRISENOXin vaikutusmekanismia ei täysin tunneta. Arseenitrioksidi aiheuttaa NB4-ihmisen promyelosyyttileukemiasoluissa in vitro apoptoosille tyypillisiä morfologisia muutoksia ja DNA:n fragmentoitumista. Arseenitrioksidi aiheuttaa myös fuusioproteiinin promyelosyyttileukemia (PML)-retinoiinihapporeseptori (RAR)-alfa vaurioitumista tai hajoamista.” Englanninkielinen alkuteksti: "The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha." ([DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741), versio 2022-06-30; haettu 2026-11-20). Tunnetun tiedon perusteella arsenikkitrioksidi on solukuolemaa (apoptoosia) ja solujen erilaistumista edistävä syöpälääke, jonka teho verenkiertoelimistön syöpätaudissa on osoitettu, ja mekanistisesti se voisi soveltua myös myelodysplastisiin oireyhtymiin.
 
 Epäsuoraa tukea antaa arsenikkitrioksidin vaikutus laajemmassa myelodysplastisten oireyhtymien ryhmässä: apoptoosin induktio sekä NF-kB- ja FLIP-signaloinnin muuntelu. Tätä ei ole kuitenkaan osoitettu juuri tälle alatyypille.
 
@@ -119,6 +119,19 @@ Ennusteen pistemäärä on erittäin korkea, mutta juuri tälle luokittelemattom
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
 - Turvallisuusseurantasuunnitelma (QT-aika, elektrolyytit, erilaistumisoireyhtymä)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

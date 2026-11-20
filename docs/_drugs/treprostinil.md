@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
 description: "Treprostinil: ennustettu uusi käyttöaihe Pulmonary arteriovenous malformation (disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
@@ -60,7 +60,7 @@ Tätä tukee tällä hetkellä **19 julkaisua** (mm. satunnaistettu lumekontroll
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin yhteydessä kootuissa tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia. Tunnetun tiedon perusteella treprostiniili on prostasykliinianalogi (IP-reseptorin agonisti), jonka teho keuhkoverenpainetaudissa on osoitettu. Farmakologiatietojen mukaan se sitoutuu myös EP1–EP4- ja DP1-reseptoreihin. Vaikutuksina ovat keuhkovaltimoiden laajeneminen, verihiutaleiden aggregaation esto ja keuhkoverisuonten sileälihassolujen proliferaation hillintä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Treprostinil (epävirallinen käännös): ”Treprostiniili on prostasykliinianalogi. Treprostiniilin tärkeimmät farmakologiset vaikutukset ovat keuhkoverenkierron ja systeemisen valtimoverenkierron suonipohjien suora laajentaminen sekä verihiutaleiden aggregaation estäminen.” Englanninkielinen alkuteksti: "Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation." ([DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609), versio 2026-04-14; haettu 2026-11-20). Tunnetun tiedon perusteella treprostiniili on prostasykliinianalogi (IP-reseptorin agonisti), jonka teho keuhkoverenpainetaudissa on osoitettu. Farmakologiatietojen mukaan se sitoutuu myös EP1–EP4- ja DP1-reseptoreihin. Vaikutuksina ovat keuhkovaltimoiden laajeneminen, verihiutaleiden aggregaation esto ja keuhkoverisuonten sileälihassolujen proliferaation hillintä.
 
 Sidekudossairauteen liittyvä PAH (esim. systeeminen skleroosi, lupus) on Ryhmän 1 PAH:n alaryhmä. Sen patologia, eli keuhkovaltimoiden uudelleenmuovautuminen ja verisuonten ahtautuminen, on sama kuin hyväksytyssä käyttöaiheessa. Mekanismi on siksi suoraan sovellettavissa, ja kyse on pikemminkin hyväksytyn väestön alaryhmästä kuin täysin uudesta sairaudesta.
 
@@ -151,13 +151,14 @@ Muuten turvallisuustiedoista on tutustuttava valmisteyhteenvetoon.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Valmisteella on tällä hetkellä vain peruutettu myyntilupa, joten voimassa olevaa valmistetta ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska ainoa lupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Trepulmix (EMEA/H/C/005207) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
 
 <!-- review:end log -->
 

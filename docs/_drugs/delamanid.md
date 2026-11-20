@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "DELAMANID"
 predicted_indications: ["allergic urticaria"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Delamanid: ennustettu uusi käyttöaihe Allerginen nokkosihottuma (allergic urticaria) (näytön taso L5). Alkuperäinen käyttöaihe: Tuberculosis, Multidrug-Resistant"
 ---
 
@@ -54,7 +54,7 @@ Delamanidi on monilääkeresistentin tuberkuloosin hoitoon tarkoitettu mykobakte
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Delamanidin tarkkaa vaikutusmekanismia ei ole tämän raportin tiedoissa saatavilla. Tiedetään, että delamanidi on mykobakteerien vastainen lääke, jota käytetään monilääkeresistentin tuberkuloosin hoidossa.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Delamanid vaikutusmekanismiksi (epävirallinen käännös): ”Mycobacterium tuberculosis H37Rv:n estäjä”. Englanninkielinen alkuteksti: "Mycobacterium tuberculosis H37Rv inhibitor" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; haettu 2026-11-20). Tiedetään, että delamanidi on mykobakteerien vastainen lääke, jota käytetään monilääkeresistentin tuberkuloosin hoidossa.
 
 Tiedoista ei löydy uskottavaa mekanistista yhteyttä allergiseen nokkosihottumaan. Delamanidilla ei tunneta roolia IgE-välitteisissä tai syöttösolujen reiteissä. Alkuperäinen käyttöaihe (infektio) ja ennustettu käyttöaihe (allerginen ihoreaktio) ovat patofysiologisesti kaukana toisistaan. Korkea pistemäärä kuvaa mallin sisäistä ennustetta, ei kliinistä näyttöä.
 
@@ -89,6 +89,19 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisva
 - Delamanidin vaikutusmekanismin tiedot
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet
 - Suoraan delamanidia ja nokkosihottumaa koskevaa prekliinistä tai kliinistä näyttöä. Ilman sitä jatkotutkimusta ei suositella.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

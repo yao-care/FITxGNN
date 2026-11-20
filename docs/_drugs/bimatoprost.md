@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Bimatoprost: ennustettu uusi käyttöaihe Hampaiden ja/tai ientenkudosten osatekijän sisältävä epämuodostumaoireyhtymä (malformation syndrome with odontal and/or… (näytön taso L5). Alkuperäinen käyttöa…"
 ---
 
@@ -54,7 +54,7 @@ Bimatoprosti on prostamidi/prostaglandiini F2α -analogi, jota käytetään silm
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tähän raporttiin kootuissa tiedoissa ei ole kuvausta bimatoprostin yksityiskohtaisesta vaikutusmekanismista. Yleisesti bimatoprosti tunnetaan prostaglandiini F2α -analogina, joka vaikuttaa prostanoidi-FP- ja prostamidireseptoreihin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Bimatoprost (epävirallinen käännös): ”Bimatoprosti, prostaglandiinianalogi, on prostaglandiinin synteettinen rakenneanalogi, jolla on silmänpainetta alentavaa vaikutusta. Bimatoprostin uskotaan alentavan silmänpainetta ihmisillä lisäämällä kammionesteen ulosvirtausta sekä trabekkeliverkoston (tavanomainen) että uveoskleraalisen reitin (ei-tavanomainen) kautta.” Englanninkielinen alkuteksti: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), versio 2024-10-16; haettu 2026-11-20). Yleisesti bimatoprosti tunnetaan prostaglandiini F2α -analogina, joka vaikuttaa prostanoidi-FP- ja prostamidireseptoreihin.
 
 Tälle ennusteelle ei ole tunnistettu uskottavaa mekanistista yhteyttä. Hampaiden ja ientenkudosten osatekijän sisältävä epämuodostumaoireyhtymä on kehityshäiriö, eikä prostaglandiinianalogin tiedetä vaikuttavan tällaisen oireyhtymän syntymekanismiin. Korkea ennustepiste ei yksin riitä perusteeksi, kun tutkimus- ja kirjallisuusnäyttö puuttuu kokonaan.
 
@@ -86,6 +86,19 @@ Lääkeyhteisvaikutuksia on kirjattu yhteensä 66. Esimerkkeinä mainittakoon ka
 - Systemaattista kirjallisuushakua ja prekliinisiä tutkimuksia
 - Valmisteyhteenvedon turvallisuustietojen kokoamista
 - Vaikutusmekanismitietojen täydentämistä
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

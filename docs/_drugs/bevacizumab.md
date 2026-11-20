@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Bevacizumab: ennustettu uusi käyttöaihe Epiglottiksen kasvain (epiglottis neoplasm) (näytön taso L5). Alkuperäinen käyttöaihe: Colorectal Neoplasms"
 ---
 
@@ -54,7 +54,7 @@ Bevasitsumabi on monoklonaalinen vasta-aine, joka sitoo verisuonten endoteelikas
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismia ei ole tämän raportin tiedoissa saatavilla. Tunnetun tiedon mukaan bevasitsumabi neutraloi VEGF-A:n ja estää kasvaimen angiogeneesiä. Tämä mekanismi on uskottava myös pään ja kaulan alueen kasvaimissa, joihin epiglottiksen kasvain kuuluu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Bevacizumab (epävirallinen käännös): ”Bevasitsumabivalmisteet sitoutuvat VEGF:ään ja estävät VEGF:n vuorovaikutuksen sen reseptorien (Flt-1 ja KDR) kanssa endoteelisolujen pinnalla. VEGF:n vuorovaikutus reseptoriensa kanssa johtaa endoteelisolujen proliferaatioon ja uusien verisuonten muodostumiseen angiogeneesin in vitro -malleissa.” Englanninkielinen alkuteksti: "Bevacizumab products bind VEGF and prevent the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. The interaction of VEGF with its receptors leads to endothelial cell proliferation and new blood vessel formation in in vitro models of angiogenesis." ([DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe), versio 2026-08-21; haettu 2026-11-20). Tunnetun tiedon mukaan bevasitsumabi neutraloi VEGF-A:n ja estää kasvaimen angiogeneesiä. Tämä mekanismi on uskottava myös pään ja kaulan alueen kasvaimissa, joihin epiglottiksen kasvain kuuluu.
 
 Ennuste on kuitenkin pelkkä mallin tuottama päätelmä. Taudille ei ole toimitettu kliinisiä tutkimuksia eikä kirjallisuutta, joten mekanistinen perustelu on toistaiseksi teoreettinen eikä sitä voida vahvistaa taudin omalla aineistolla.
 
@@ -111,6 +111,19 @@ Varoituksista ja vasta-aiheista katso valmisteyhteenveto.
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarvioinnin pohjaksi
 - Arvio hoitoreitin ja annostelun soveltuvuudesta pään ja kaulan alueen kasvaimiin
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

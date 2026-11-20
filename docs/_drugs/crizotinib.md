@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "CRIZOTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Crizotinib: ennustettu uusi käyttöaihe Ientten fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Non-Small-Cell Lung"
@@ -60,7 +60,7 @@ Tämän raportin tiedoissa vahvimmat ennusteet liittyvät muihin kohteisiin (esi
 
 ## Miksi ennuste on perusteltu?
 
-Tarkkaa vaikutusmekanismia ei ole tämän raportin tiedoissa saatavilla. Tunnetun tiedon mukaan crizotinibi on ATP-kilpaileva pienmolekyylinen tyrosiinikinaasin estäjä, joka kohdistuu ALK-, ROS1- ja MET-reseptoreihin. Sen teho on osoitettu ALK- tai ROS1-uudelleenjärjestäytyneessä ei-pienisoluisessa keuhkosyövässä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Crizotinib (epävirallinen käännös): ”Kritsotinibi on reseptorityrosiinikinaasien estäjä; näihin kuuluvat ALK, hepatosyyttien kasvutekijän reseptori (HGFR, c-Met), ROS1 (c-ros) ja Recepteur d'Origine Nantais (RON). Translokaatiot voivat vaikuttaa ALK-geeniin, mikä johtaa onkogeenisten fuusioproteiinien ilmentymiseen.” Englanninkielinen alkuteksti: "Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins." ([DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7), versio 2026-10-29; haettu 2026-11-20). Tunnetun tiedon mukaan crizotinibi on ATP-kilpaileva pienmolekyylinen tyrosiinikinaasin estäjä, joka kohdistuu ALK-, ROS1- ja MET-reseptoreihin. Sen teho on osoitettu ALK- tai ROS1-uudelleenjärjestäytyneessä ei-pienisoluisessa keuhkosyövässä.
 
 Ientten perinnöllisen fibromatoosin ja ALK/ROS1/MET-signaloinnin välillä ei ole aineiston perusteella nähtävissä uskottavaa yhteyttä. Ennuste perustuu pelkästään mallin laskemaan pistemäärään (sijoitus 2504), eikä sille ole kliinistä eikä kirjallisuuteen perustuvaa tukea. Korkea pistemäärä ei siis yksinään riitä perusteeksi.
 
@@ -168,12 +168,13 @@ Varoituksista ja vasta-aiheista katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Xalkori (EMEA/H/C/002489) on voimassa, ei mitätöity | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Poistettu: ”Suomen myyntilupa on mitätöity” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7) |
 
 <!-- review:end log -->
 

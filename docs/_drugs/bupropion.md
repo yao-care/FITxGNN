@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Bupropion: ennustettu uusi käyttöaihe Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) (näytön taso L1). Alkuperäinen käyttöaihe: Obesity"
 ---
 
@@ -54,7 +54,7 @@ Bupropioni on noradrenaliinin ja dopamiinin takaisinoton estäjä. TxGNN-malli e
 
 ## Miksi ennuste on perusteltu?
 
-Bupropioni estää noradrenaliinin ja dopamiinin takaisinottoa (kohdeproteiinit NET ja DAT). Samoja katekoliamiinireittejä hyödyntävät myös vakiintuneet ADHD-lääkkeet. Siksi mekanismi voi parantaa tarkkaavaisuutta ja vähentää ylivilkkautta. Yksityiskohtaiset mekanismitiedot eivät ole tällä hetkellä saatavilla kootusta aineistosta, joten perustelu nojaa tunnettuun farmakologiaan.
+Bupropioni estää noradrenaliinin ja dopamiinin takaisinottoa (kohdeproteiinit NET ja DAT). Samoja katekoliamiinireittejä hyödyntävät myös vakiintuneet ADHD-lääkkeet. Siksi mekanismi voi parantaa tarkkaavaisuutta ja vähentää ylivilkkautta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Bupropion (epävirallinen käännös): ”Tarkkaa mekanismia, jolla bupropionihydrokloridia sisältävät depottabletit (SR) parantavat potilaiden kykyä pidättäytyä tupakoinnista, ei tunneta, mutta sen oletetaan liittyvän noradrenergisiin ja/tai dopaminergisiin mekanismeihin. Bupropioni on noradrenaliinin ja dopamiinin hermosolujen takaisinoton suhteellisen heikko estäjä, eikä se estä serotoniinin takaisinottoa.” Englanninkielinen alkuteksti: "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin." ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119), versio 2026-11-11; haettu 2026-11-20).
 
 Kliiniset tutkimukset ja järjestelmälliset katsaukset tukevat tätä suuntaa. Erityisesti 3. vaiheen lumekontrolloitu satunnaistettu tutkimus aikuisilla ja Cochrane-katsaus tarkastelevat suoraan bupropionia ADHD:ssa. Näyttö on kuitenkin osin peräisin potilasryhmistä, joilla on samanaikainen päihdehäiriö, joten yleistettävyys on rajallinen.
 
@@ -110,6 +110,19 @@ Tarkemmat turvallisuustiedot ovat valmisteyhteenvedossa.
 - Mekanismitietojen täydentäminen
 - Toisen riippumattoman 3. vaiheen tutkimuksen tulosten arviointi
 - Kouristusriskin, verenpaineen ja CYP2D6-yhteisvaikutusten seurantasuunnitelma sekä rajaus potilaisiin, joilla on päihde- tai syömishäiriö
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

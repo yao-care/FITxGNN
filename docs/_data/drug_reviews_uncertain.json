@@ -260,6 +260,45 @@
     "ChEMBL drug mechanism"
    ],
    "reason": "no single-ingredient US prescription label for 'vernakalant' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL2111112 has no mechanism entry"
+  },
+  {
+   "file": "chenodeoxycholic_acid.md",
+   "drug": "chenodeoxycholic_acid",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'chenodeoxycholic acid' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'chenodeoxycholic acid'"
+  },
+  {
+   "file": "lefamulin.md",
+   "drug": "lefamulin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'lefamulin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL3291398 has no mechanism entry"
+  },
+  {
+   "file": "tryptophan.md",
+   "drug": "tryptophan",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tryptophan' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL54976 has no mechanism entry"
   }
  ]
 }

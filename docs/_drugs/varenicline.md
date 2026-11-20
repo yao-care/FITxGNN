@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "VARENICLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
 description: "Varenicline: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Tobacco Use Cessation"
@@ -58,7 +58,7 @@ Vareniklinii on nikotiinireseptorien osittaisagonisti, jota on alun perin käyte
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Mekanismitietoa (MOA) ei ole tällä hetkellä saatavilla kootussa aineistossa. Tunnetun tiedon mukaan vareniklinii on α4β2-nikotiiniasetyylikoliinireseptorien osittaisagonisti, ja sen teho tupakoinnin lopettamisessa perustuu himon ja vieroitusoireiden vähentämiseen.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Varenicline (epävirallinen käännös): ”Vareniikliini sitoutuu suurella affiniteetilla ja selektiivisesti hermosolujen α4β2-nikotiiniasetyylikoliinireseptoreihin. CHANTIX-valmisteen tehon tupakoinnin lopettamisessa uskotaan johtuvan vareniikliinin vaikutuksesta nikotiinireseptorin α4β2-alatyyppiin, jossa sen sitoutuminen saa aikaan agonistivaikutuksen ja samanaikaisesti estää nikotiinin sitoutumisen näihin reseptoreihin.” Englanninkielinen alkuteksti: "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors." ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), versio 2026-01-23; haettu 2026-11-20). Tunnetun tiedon mukaan vareniklinii on α4β2-nikotiiniasetyylikoliinireseptorien osittaisagonisti, ja sen teho tupakoinnin lopettamisessa perustuu himon ja vieroitusoireiden vähentämiseen.
 
 Nikotiini- ja kolinerginen signalointi on spekulatiivisesti yhdistetty aivokuoren leviävään depressioon ja trigeminovaskulaarisiin reitteihin, jotka liittyvät migreenin patofysiologiaan. Tämä on kuitenkin vain hypoteesi. Suoraa mekanistista tai kliinistä näyttöä ei ole.
 
@@ -131,12 +131,13 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Valmisteen myyntilupa Suomessa on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Champix (EMEA/H/C/000699) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
 
 <!-- review:end log -->
 

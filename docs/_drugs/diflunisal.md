@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DIFLUNISAL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Diflunisal: ennustettu uusi käyttöaihe Akromesomeelinen dysplasia, Hunter-Thompsonin tyyppi (acromesomelic dysplasia, Hunter-Thompson type) (näytön taso L5). Alkuperäinen käyttöaihe: Amyloid Neuropat…"
 ---
 
@@ -54,7 +54,7 @@ Diflunisaali on tulehduskipulääke (NSAID), joka stabiloi myös transtyretiini�
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raportin varten kootuissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismia. Diflunisaali on tunnetusti syklo-oksigenaasia (COX) estävä tulehduskipulääke, ja se stabiloi transtyretiinitetrameeriä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Diflunisal (epävirallinen käännös): ”Diflunisaalin analgeettisen ja tulehdusta estävän vaikutuksen tarkkaa mekanismia ei tunneta. Diflunisaali on prostaglandiinisyntetaasin estäjä. Eläimillä prostaglandiinit herkistävät afferentteja hermoja ja voimistavat bradykiniinin kipua aiheuttavaa vaikutusta.” Englanninkielinen alkuteksti: "The precise mechanism of the analgesic and anti-inflammatory actions of diflunisal is not known. Diflunisal is a prostaglandin synthetase inhibitor. In animals, prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain." ([DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b), versio 2025-10-06; haettu 2026-11-20). Diflunisaali on tunnetusti syklo-oksigenaasia (COX) estävä tulehduskipulääke, ja se stabiloi transtyretiinitetrameeriä.
 
 Ennustettu sairaus on perinnöllinen luustodysplasia, joka johtuu CDMP1/GDF5-geenin toimintakyvyn menetyksestä. Kumpikaan diflunisaalin vaikutuksista ei kohdistu GDF5-signalointihäiriöön, joten uskottavaa mekanistista yhteyttä ei ole tunnistettu. Erittäin korkea pistemäärä on todennäköisesti mallin artefakti, eikä se kuvaa kliinistä todennäköisyyttä.
 
@@ -95,6 +95,19 @@ Tunnettuja yhteisvaikutuksia on kirjattu yhteensä 100. Näytteenä kirjatut koh
 - Perustelu mekanistiselle yhteydelle GDF5-signalointiin tai muu biologinen tuki
 - Prekliiniset tutkimukset, ennen kuin kliinisiä tutkimuksia harkitaan
 - Valmisteyhteenvedon turvallisuustiedot ja vaikutusmekanismin tiedot
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

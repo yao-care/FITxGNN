@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 185
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Febuxostat: ennustettu uusi käyttöaihe Munuaisperäinen hypourikemia (hypouricemia, renal) (näytön taso L4). Alkuperäinen käyttöaihe: Hyperurikemia, kihti"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan olla hyödyllinen **munuaisperäisessä hypourik
 
 ## Miksi ennuste on perusteltu – ja miksi ei?
 
-Tässä raportissa käytetyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismikuvausta. Febuksostaatti on tunnetusti ei-puriininen selektiivinen ksantiinioksidaasin estäjä, joka vähentää virtsahapon tuotantoa. Sen teho kihdissä ja hyperurikemiassa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Febuxostat (epävirallinen käännös): ”ULORIC on ksantiinioksidaasin estäjä, joka saa aikaan hoitovaikutuksensa pienentämällä seerumin virtsahappopitoisuutta. ULORICin ei odoteta estävän muita puriinien ja pyrimidiinien synteesiin ja metaboliaan osallistuvia entsyymejä hoitopitoisuuksina.” Englanninkielinen alkuteksti: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), versio 2025-12-24; haettu 2026-11-20). Febuksostaatti on tunnetusti ei-puriininen selektiivinen ksantiinioksidaasin estäjä, joka vähentää virtsahapon tuotantoa. Sen teho kihdissä ja hyperurikemiassa on osoitettu.
 
 Munuaisperäisessä hypourikemiassa tilanne on kuitenkin päinvastainen: seerumin virtsahappo on jo valmiiksi matala, koska virtsahapon takaisinimeytyminen munuaisissa on heikentynyt (esim. URAT1- tai GLUT9-varianttien vuoksi). Virtsahappoa laskevalla lääkkeellä ei ole tälle tilalle selkeää hoidollista perustetta, ja virtsahapon edelleen laskeminen voi olla jopa haitallista. Ainoa uskottava yhteys on kirjallisuus ksantiinioksidoreduktaasin estäjien käytöstä rasituksen aiheuttaman akuutin munuaisvaurion (EIAKI) ehkäisyssä munuaisperäistä hypourikemiaa sairastavilla. Tämä on toistaiseksi hypoteesitasoinen ajatus.
 
@@ -142,12 +142,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tämän raportin aine
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
 
 <!-- review:end log -->
 

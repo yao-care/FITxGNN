@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Ertapenem: ennustettu uusi käyttöaihe Bakteeriperäinen niveltulehdus (bacterial arthritis) (näytön taso L5). Alkuperäinen käyttöaihe: Bacterial Infections"
 ---
 
@@ -54,7 +54,7 @@ Ertapenemi on laajakirjoinen karbapeneemiryhmän antibiootti, jota käytetään 
 
 ## Miksi ennuste on perusteltu?
 
-Ertapenemi estää bakteerin soluseinän synteesiä sitoutumalla penisilliiniä sitoviin proteiineihin. Lääkeaineen mekanismitietoja ei ole tähän raporttiin koottu aineistossa kirjattuna, joten perustelu nojaa lääkeryhmän tunnettuun vaikutustapaan.
+Ertapenemi estää bakteerin soluseinän synteesiä sitoutumalla penisilliiniä sitoviin proteiineihin. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Ertapenem (epävirallinen käännös): ”Ertapeneeminatrium on karbapeneemiantibiootti. […] Ertapeneemilla on in vitro -aktiivisuutta grampositiivisia ja gramnegatiivisia aerobisia ja anaerobisia bakteereja vastaan. Ertapeneemin bakterisidinen vaikutus johtuu soluseinän synteesin estymisestä, ja sitä välittää ertapeneemin sitoutuminen penisilliiniä sitoviin proteiineihin (PBP).” Englanninkielinen alkuteksti: "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)." ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), versio 2026-02-04; haettu 2026-11-20).
 
 Mekanismi on uskottava bakteeriperäisessä niveltulehduksessa sekä luu- ja nivelinfektioissa, joita aiheuttavat herkät gramnegatiiviset bakteerit, anaerobit ja osa grampositiivisista bakteereista. Ertapenemia käytetään jo kirjallisuuden mukaan luu- ja nivelinfektioissa, erityisesti ESBL:ää tuottavien enterobakteerien aiheuttamissa tapauksissa. Kerran vuorokaudessa annosteltavuus sopii avohoidon suonensisäiseen antibioottihoitoon.
 
@@ -109,6 +109,19 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen kokoaminen
 - Mekanismitietojen täydentäminen
 - Turvallisuusarvio erityisesti munuaissairauksien, epilepsian ja Clostridioides difficile -riskin osalta sekä yhteisvaikutusten (mm. bupropioni) hallinta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Docetaxel: ennustettu uusi käyttöaihe Ewingin sarkooma (Ewing sarcoma) (näytön taso L2). Alkuperäinen käyttöaihe: Head and Neck Neoplasms"
 ---
 
@@ -54,7 +54,7 @@ Dosetakseli on taksaaniryhmän solunsalpaaja, jonka hyväksytty käyttöaihe on 
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytetyissä tiedoissa ei ole tarkkaa vaikutusmekanismikuvausta. Dosetakseli kuuluu taksaaneihin. Taksaanit stabiloivat mikrotubuluksia ja estävät solunjakautumisen, joten ne vaikuttavat nopeasti jakautuviin kasvainsoluihin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Docetaxel (epävirallinen käännös): ”Dosetakseli on antineoplastinen aine, joka vaikuttaa hajottamalla solujen mikrotubulusverkoston, joka on välttämätön mitoosin ja interfaasin solutoiminnoille. Dosetakseli sitoutuu vapaaseen tubuliiniin ja edistää tubuliinin kokoontumista stabiileiksi mikrotubuluksiksi samalla estäen niiden purkautumista.” Englanninkielinen alkuteksti: "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), versio 2025-12-17; haettu 2026-11-20). Dosetakseli kuuluu taksaaneihin. Taksaanit stabiloivat mikrotubuluksia ja estävät solunjakautumisen, joten ne vaikuttavat nopeasti jakautuviin kasvainsoluihin.
 
 Ewingin sarkooma on nopeasti kasvava luu- ja pehmytkudoskasvain, jota tavallisesti hoidetaan monilääkehoidoilla. Antimitoottinen vaikutus voisi siksi periaatteessa sopia siihen.
 
@@ -131,6 +131,19 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista.
 - Dosetakselin oman osuuden arviointia, esimerkiksi vertailevalla tutkimuksella tai meta-analyysillä.
 - Turvallisuusseurantasuunnitelmaa, joka kattaa neutropenian ja yhteisvaikutukset (erityisesti CYP3A4-estäjät, kuten klaritromysiini).
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

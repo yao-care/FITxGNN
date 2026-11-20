@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Roxadustat: ennustettu uusi käyttöaihe Kuivasilmäisyys (dry eye syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Anemia"
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan olla tehokas **kuivasilmäisyyden** hoidossa, mu
 
 ## Miksi ennuste on perusteltu?
 
-Roksadustaatti estää HIF-prolyylihydroksylaasientsyymejä (mm. EGLN2) ja vakauttaa siten HIF-1/2-alfa-tekijöitä. Tarkempaa mekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella, joten mekanistinen arvio on rajallinen.
+Roksadustaatti estää HIF-prolyylihydroksylaasientsyymejä (mm. EGLN2) ja vakauttaa siten HIF-1/2-alfa-tekijöitä. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Roxadustat vaikutusmekanismiksi (epävirallinen käännös): ”Hypoksiaindusoituvan tekijän prolyylihydroksylaasin estäjä”. Englanninkielinen alkuteksti: "Hypoxia-inducible factor prolyl hydroxylase inhibitor" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0; haettu 2026-11-20).
 
 HIF-signalointi vaikuttaa tulehdukseen, hypoksiavasteisiin sekä epiteelin ja sarveiskalvon korjautumiseen. Siksi teoreettinen yhteys silmän pinnan sairauksiin on olemassa. Alkuperäinen käyttöaihe (anemia) ja kuivasilmäisyys ovat kuitenkin kliinisesti hyvin kaukana toisistaan, eikä yhtäläisyyttä alkuperäiseen käyttöaiheeseen ole arvioitu.
 
@@ -120,12 +120,13 @@ Muilta osin tarkemmat turvallisuustiedot, varoitukset ja vasta-aiheet löytyvät
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa valmisteen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Evrenzo (EMEA/H/C/004871) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329) |
 
 <!-- review:end log -->
 

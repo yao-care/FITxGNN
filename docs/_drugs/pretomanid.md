@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PRETOMANID"
 predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
 description: "Pretomanid: ennustettu uusi käyttöaihe Candidiasis (näytön taso L5). Alkuperäinen käyttöaihe: Tuberculosis, Multidrug-Resistant"
@@ -60,7 +60,7 @@ Ennuste perustuu pelkästään tietämysgraafiin, ja tässä raportissa se arvio
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raportin laatimiseen kerätyissä tiedoissa ei ole yksityiskohtaista vaikutusmekanismia. Tunnetun farmakologian mukaan pretomanidi on esilääke, jonka *Mycobacterium tuberculosis* aktivoi deatsaflaviiniriippuvaisella nitroreduktaasilla (Ddn). Aktivoituessaan se vapauttaa typpioksidia ja reaktiivisia typpiyhdisteitä ja estää mykolihappojen synteesiä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Pretomanid (epävirallinen käännös): ”Pretomanidi on nitroimidatso-oksatsiiniryhmän antimykobakteerinen lääke. […] Pretomanid-tabletti on nitroimidatso-oksatsiiniryhmän antimykobakteerinen lääke. Pretomanidi tappaa aktiivisesti lisääntyviä M. tuberculosis -bakteereja estämällä mykolihapon biosynteesiä ja estää siten soluseinän tuotannon. Anaerobisissa olosuhteissa pretomanidi vaikuttaa ei-lisääntyviin bakteereihin hengitysmyrkkynä typpioksidin vapautumisen jälkeen.” Englanninkielinen alkuteksti: "Pretomanid is a nitroimidazooxazine antimycobacterial drug. […] Pretomanid Tablet is a nitroimidazooxazine antimycobacterial drug. Pretomanid kills actively replicating M. tuberculosis by inhibiting mycolic acid biosynthesis, thereby blocking cell wall production. Under anaerobic conditions, against non-replicating bacteria, pretomanid acts as a respiratory poison following nitric oxide release." ([DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3), versio 2024-11-15; haettu 2026-11-20). Tunnetun farmakologian mukaan pretomanidi on esilääke, jonka *Mycobacterium tuberculosis* aktivoi deatsaflaviiniriippuvaisella nitroreduktaasilla (Ddn). Aktivoituessaan se vapauttaa typpioksidia ja reaktiivisia typpiyhdisteitä ja estää mykolihappojen synteesiä.
 
 Candida-sienillä ei ole tätä aktivaatioreittiä eikä mykobakteerien soluseinän kohdetta, joten sienilääkevaikutusta ei ole syytä odottaa. Alkuperäisen käyttöaiheen (bakteerin aiheuttama tuberkuloosi) ja ennustetun käyttöaiheen (sieni-infektio) välillä ei ole osoitettua mekanistista yhteyttä. Hyvin korkea TxGNN-pistemäärä on pelkkä tietämysgraafin ennuste.
 
@@ -142,12 +142,13 @@ Varoituksia ja vasta-aiheita koskevat tiedot tulee tarkistaa valmisteyhteenvedos
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilaltaan peruutettu, eikä Suomessa ole voimassa olevia pretomanidivalmisteiden myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lääkkeellä ei myöskään ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3) |
 
 <!-- review:end log -->
 

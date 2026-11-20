@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
 description: "Loxapine: ennustettu uusi käyttöaihe Retinal dystrophy with or without extraocular anomalies (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
@@ -60,7 +60,7 @@ Tätä tukee **20 julkaisua** (pääosin katsauksia), mutta **ei yhtään rekist
 
 ## Miksi ennuste on perusteltu?
 
-Loksapiini on dibentsoksatsepiiniluokan antipsykootti, jonka vaikutus perustuu dopamiini D2- ja serotoniini 5-HT2A -reseptorien salpaukseen. Tämä mekanismi sopii yhteen maniaa ja agitaatiota lievittävän vaikutuksen kanssa. Aineistossa ei ole erillistä mekanismikuvausta, joten tämä perustuu lääkeluokan tunnettuun farmakologiaan.
+Loksapiini on dibentsoksatsepiiniluokan antipsykootti, jonka vaikutus perustuu dopamiini D2- ja serotoniini 5-HT2A -reseptorien salpaukseen. Tämä mekanismi sopii yhteen maniaa ja agitaatiota lievittävän vaikutuksen kanssa. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Loxapine (epävirallinen käännös): ”Farmakologisesti loksapiini on psykoosilääke, jonka tarkkaa vaikutustapaa ei ole selvitetty. Useilla eläinlajeilla on kuitenkin havaittu muutoksia subkortikaalisten inhibitoristen alueiden ärtyvyystasossa rauhoittumisen ilmenemismuotojen, kuten rauhoittavien vaikutusten ja aggressiivisen käyttäytymisen vaimenemisen, yhteydessä.” Englanninkielinen alkuteksti: "Pharmacologically, loxapine is an antipsychotic for which the exact mode of action has not been established. However, changes in the level of excitability of subcortical inhibitory areas have been observed in several animal species in association with such manifestations of tranquilization as calming effects and suppression of aggressive behavior." ([DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e), versio 2026-11-03; haettu 2026-11-20).
 
 Alkuperäinen käyttöaihe sisältää jo kaksisuuntaisen mielialahäiriön, joten kyse on pikemminkin käyttöaiheen läheisestä laajentamisesta kuin aidosta uudelleenkäytöstä. Kirjallisuus käsittelee pääosin inhaloitavaa loksapiinia (Adasuve) skitsofrenian ja kaksisuuntaisen mielialahäiriön yhteydessä esiintyvän **akuutin agitaation** hoidossa. Se ei ole sama asia kuin itse maanisen oireyhtymän hoito.
 
@@ -151,13 +151,14 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut käytettävissä. Lue t
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Ainoa myyntilupa on peruutettu, joten valmisteen saatavuus on epävarma” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(peruutettu myyntilupa, mahdolliset muut valmisteet tai erityislupamenettely)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "DORAVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Doravirine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -58,7 +58,7 @@ Doravirini on HIV-1-infektion hoitoon tarkoitettu ei-nukleosidinen käänteiskop
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tässä raportissa käytetyissä tiedoissa doravirinin tarkkaa vaikutusmekanismia ei ole saatavilla. Tunnetun luokituksen mukaan doravirini on HIV-1:n NNRTI-lääke, joka estää viruksen käänteiskopioijaentsyymiä. Sen teho HIV-infektiossa on osoitettu, ja kissan immuunipuutosvirus (FIV) on HIV:n kanssa sukua oleva lentivirus, joten käsitteellinen yhteys käänteiskopioijaentsyymin kautta on olemassa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Doravirine (epävirallinen käännös): ”Doraviriini on antiretroviraalinen lääke. […] Doraviriini on pyridinonirakenteinen HIV-1:n ei-nukleosidirakenteinen käänteiskopioijaentsyymin estäjä, ja se estää HIV-1:n replikaatiota estämällä ei-kilpailevasti HIV-1:n käänteiskopioijaentsyymiä (RT). Doraviriinin 50 %:n estopitoisuus (IC 50 ) rekombinantin villityypin HIV-1 RT:n RNA-riippuvaiselle DNA-polymeraatiolle biokemiallisessa määrityksessä oli 12,2±2,0 nM (n=3).” Englanninkielinen alkuteksti: "Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3)." ([DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25), versio 2026-07-09; haettu 2026-11-20). Tunnetun luokituksen mukaan doravirini on HIV-1:n NNRTI-lääke, joka estää viruksen käänteiskopioijaentsyymiä. Sen teho HIV-infektiossa on osoitettu, ja kissan immuunipuutosvirus (FIV) on HIV:n kanssa sukua oleva lentivirus, joten käsitteellinen yhteys käänteiskopioijaentsyymin kautta on olemassa.
 
 Yhteys on kuitenkin heikko. NNRTI-lääkkeet tehoavat yleensä huonosti FIV:hen, koska FIV:n käänteiskopioijaentsyymi eroaa rakenteellisesti HIV-1:n entsyymistä eikä NNRTI-sitoutumistasku ole säilynyt. Korkea TxGNN-pistemäärä näyttää kuvastavan tietoverkon läheisyyttä HIV:hen, ei osoitettua tehoa.
 
@@ -140,13 +140,14 @@ Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ollut saatavilla; niide
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Pifeltro (EMEA/H/C/004747), Delstrigo (EMEA/H/C/004746)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25) |
 
 <!-- review:end log -->
 

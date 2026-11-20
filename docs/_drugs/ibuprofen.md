@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Ibuprofen: ennustettu uusi käyttöaihe Akromesomelinen dysplasia, Hunter-Thompsonin tyyppi (acromesomelic dysplasia, Hunter-Thompson type) (näytön taso L5). Alkuperäinen käyttöaihe: Ductus Arteriosus,…"
 ---
 
@@ -54,7 +54,7 @@ Ibuprofeeni on tulehduskipulääke, joka estää syklo-oksigenaasientsyymejä. T
 
 ## Miksi ennuste on perusteltu?
 
-Ibuprofeeni on epäselektiivinen COX-entsyymien estäjä, joka vähentää prostaglandiinien tuotantoa ja siten tulehdusta, kipua ja kuumetta. Tarkempia mekanismitietoja ei ole tämän raportin aineistossa saatavilla.
+Ibuprofeeni on epäselektiivinen COX-entsyymien estäjä, joka vähentää prostaglandiinien tuotantoa ja siten tulehdusta, kipua ja kuumetta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ibuprofen (epävirallinen käännös): ”Ibuprofeenilla on analgeettisia, tulehdusta lievittäviä ja kuumetta alentavia ominaisuuksia. CALDOLORin vaikutusmekanismia, kuten muidenkaan tulehduskipulääkkeiden (NSAID) vaikutusmekanismia, ei täysin tunneta, mutta siihen liittyy syklo-oksigenaasin (COX-1 ja COX-2) estäminen.” Englanninkielinen alkuteksti: "Ibuprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of CALDOLOR, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684), versio 2026-01-29; haettu 2026-11-20).
 
 Akromesomelinen dysplasia, Hunter-Thompsonin tyyppi, on perinnöllinen luustodysplasia. Sen taustalla ovat CDMP1/GDF5-geenin toiminnan menetyksen variantit, jotka häiritsevät BMP-signalointia. COX-estäjä ei korjaa tätä BMP-reitin vikaa, joten uskottavaa mekanistista yhteyttä ei ole tunnistettu.
 
@@ -94,6 +94,19 @@ Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja, eikä uskottava
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen
 - Prekliiniset tai kliiniset tiedot ibuprofeenin käytöstä tässä sairaudessa, esimerkiksi oireenmukaisessa kivunhoidossa
 - Lapsipotilaiden pitkäaikaiskäytön turvallisuusarvio (maha-suoli, munuaiset, sydän ja verisuonet)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

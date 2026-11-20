@@ -9,7 +9,7 @@
   "with_current": 30,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 28,
+  "with_reviews": 30,
   "rows": [
    {
     "t": "Bupropion",
@@ -18,8 +18,8 @@
     "i": "Tarkkaavaisuus- ja ylivilkkaushäiriö",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -84,7 +84,7 @@
     "i": "hepatitis E virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Poistettu: ”Valmisteen myyntilupa on kuitenkin Suomessa peruutettu, joten saatavuus on rajoite”",
     "x": 0
    },
@@ -128,8 +128,8 @@
     "i": "Ewingin sarkooma",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -183,7 +183,7 @@
     "i": "hepatitis B virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Taulukko: Harvoni (EMEA/H/C/003850) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -227,7 +227,7 @@
     "i": "HIV-infektio",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruttu”",
     "x": 0
    },
@@ -361,7 +361,7 @@
   "with_current": 33,
   "none_current": 1,
   "without_data": 0,
-  "with_reviews": 33,
+  "with_reviews": 34,
   "rows": [
    {
     "t": "Abatacept",
@@ -480,8 +480,8 @@
     "i": "Simiaaninen immuunikatovirusinfektio",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -601,7 +601,7 @@
     "i": "Munuaisperäinen hypourikemia",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Poistettu: ”Suomessa kaikki myyntiluvat on lisäksi peruutettu”",
     "x": 0
    },
@@ -667,7 +667,7 @@
     "i": "nasal cavity disease",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Taulukko: Omidria (EMEA/H/C/003702) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -761,7 +761,7 @@
   "with_current": 366,
   "none_current": 4,
   "without_data": 1,
-  "with_reviews": 343,
+  "with_reviews": 363,
   "rows": [
    {
     "t": "Denosumab",
@@ -858,8 +858,8 @@
     "i": "Epiglottiksen kasvain",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -880,7 +880,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 10,
     "lv": 10,
-    "r": 2,
+    "r": 3,
     "rs": "Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu ja v”",
     "x": 0
    },
@@ -1232,8 +1232,8 @@
     "i": "cauda equina neoplasm",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1353,8 +1353,8 @@
     "i": "luokittelematon",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1386,8 +1386,8 @@
     "i": "Sklerosoiva kolangiitti",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1496,7 +1496,7 @@
     "i": "duodenal obstruction",
     "lt": 3,
     "lv": 3,
-    "r": 3,
+    "r": 4,
     "rs": "Poistettu: ”koska voimassa olevia lupia ei ole”",
     "x": 0
    },
@@ -1529,7 +1529,7 @@
     "i": "pneumocystosis",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Poistettu: ”almisteiden myyntiluvat Suomessa on peruutettu, ja v”",
     "x": 0
    },
@@ -1617,7 +1617,7 @@
     "i": "glaucoma",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Poistettu: ”Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole”",
     "x": 0
    },
@@ -1628,8 +1628,8 @@
     "i": "Migreeni",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1672,8 +1672,8 @@
     "i": "malformation syndrome with odontal and/or periodontal component",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1727,8 +1727,8 @@
     "i": "nenäontelon sairaus",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1749,7 +1749,7 @@
     "i": "osteoarthritis",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Taulukko: 2 myyntilupaa (Cubicin (EMEA/H/C/000637), Daptomycin Hospira (EMEA/H/C/004310)) ovat voimassa, ei…",
     "x": 0
    },
@@ -1804,7 +1804,7 @@
     "i": "Kissan hankinnainen immuunipuutosoireyhtymä",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Taulukko: 2 myyntilupaa (Pifeltro (EMEA/H/C/004747), Delstrigo (EMEA/H/C/004746)) ovat voimassa, ei…",
     "x": 0
    },
@@ -1815,8 +1815,8 @@
     "i": "Kissan hankinnainen immuunikatooireyhtymä",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1826,8 +1826,8 @@
     "i": "Bakteeriperäinen niveltulehdus",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1881,8 +1881,8 @@
     "i": "Hunter-Thompsonin tyyppi",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2013,7 +2013,7 @@
     "i": "insomnia (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Taulukko: 2 myyntilupaa (Ozawade (EMEA/H/C/005117), Wakix (EMEA/H/C/002616)) ovat voimassa, ei peruutettuja",
     "x": 0
    },
@@ -2112,7 +2112,7 @@
     "i": "hyperlucent lung",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Taulukko: 2 myyntilupaa (Relvar Ellipta (EMEA/H/C/002673), Laventair Ellipta (EMEA/H/C/003754)) ovat…",
     "x": 0
    },
@@ -2233,8 +2233,8 @@
     "i": "Paratyfoidikuume",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2497,7 +2497,7 @@
     "i": "Krooninen atrofinen akrodermatiitti",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
@@ -2585,8 +2585,8 @@
     "i": "Sappirakon adenoskvamoosi karsinooma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2618,8 +2618,8 @@
     "i": "Häntäluun liikahypermobiliteetti",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2684,7 +2684,7 @@
     "i": "Ientten fibromatoosi",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Poistettu: ”Suomen myyntilupa on mitätöity”",
     "x": 0
    },
@@ -2695,8 +2695,8 @@
     "i": "Infektion jälkeinen vaskuliitti",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2728,8 +2728,8 @@
     "i": "Hodgkinin lymfooma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2750,8 +2750,8 @@
     "i": "Allerginen nokkosihottuma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2772,8 +2772,8 @@
     "i": "Hunter-Thompsonin tyyppi",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2794,7 +2794,7 @@
     "i": "Bronkiitti",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Taulukko: Dupixent (EMEA/H/C/004390) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -2861,7 +2861,7 @@
     "lt": 1,
     "lv": 1,
     "r": 1,
-    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+    "rs": "\"Lääkkeen alkuperäistä vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin kerätyssä aineistossa.…",
     "x": 0
    },
    {
@@ -2970,7 +2970,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Taulukko: Intelence (EMEA/H/C/000900) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -3036,8 +3036,8 @@
     "i": "Nefrogeeninen sopimattoman antidiureesin oireyhtymä",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -3080,7 +3080,7 @@
     "i": "Ientenfibromatoosi",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Taulukko: Iressa (EMEA/H/C/001016) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -3421,8 +3421,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -3498,7 +3498,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Poistettu: ”(peruutettu myyntilupa, mahdolliset muut valmisteet tai erityislupamenettely)”",
     "x": 0
    },
@@ -3608,7 +3608,7 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Poistettu: ”Markkinatilanteen selvittämistä, koska voimassa olevaa myyntilupaa ei ole”",
     "x": 0
    },
@@ -3817,7 +3817,7 @@
     "i": "drug-induced osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Taulukko: Vectibix (EMEA/H/C/000741) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -3839,7 +3839,7 @@
     "i": "diabetic retinopathy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Poistettu: ”Selvitys myyntiluvan peruuntumisen syistä”",
     "x": 0
    },
@@ -3949,7 +3949,7 @@
     "i": "candidiasis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Poistettu: ”Lääkkeellä ei myöskään ole voimassa olevaa myyntilupaa Suomessa”",
     "x": 0
    },
@@ -4114,7 +4114,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Taulukko: Vydura (EMEA/H/C/005725) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -4125,7 +4125,7 @@
     "i": "acne (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Taulukko: Evrysdi (EMEA/H/C/005145) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -4169,7 +4169,7 @@
     "i": "Tarkkaavaisuus- ja ylivilkkaushäiriö",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Taulukko: Neupro (EMEA/H/C/000626) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -4180,7 +4180,7 @@
     "i": "Kuivasilmäisyys",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Taulukko: Evrenzo (EMEA/H/C/004871) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -4235,8 +4235,8 @@
     "i": "Scheien oireyhtymä",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -4565,7 +4565,7 @@
     "i": "HIV-infektio",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Taulukko: Fareston (EMEA/H/C/000091) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -4576,7 +4576,7 @@
     "i": "choroideremia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Taulukko: Mekinist (EMEA/H/C/002643) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -4609,7 +4609,7 @@
     "i": "pulmonary arteriovenous malformation (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Taulukko: Trepulmix (EMEA/H/C/005207) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -4664,7 +4664,7 @@
     "i": "Migreeni",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Taulukko: Champix (EMEA/H/C/000699) on voimassa, ei peruutettu",
     "x": 0
    },
@@ -4719,7 +4719,7 @@
     "i": "medulloblastoma with extensive nodularity",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Taulukko: Erivedge (EMEA/H/C/002602) on voimassa, ei peruutettu",
     "x": 0
    },

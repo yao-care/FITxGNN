@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
 description: "Pitolisant: ennustettu uusi käyttöaihe Insomnia (disease) (näytön taso L5). Alkuperäinen käyttöaihe: Sleep Apnea, Obstructive"
@@ -61,7 +61,7 @@ Huomio: toimitetuissa tiedoissa näytön tasoksi on annettu L4, mutta unettomuud
 
 ## Miksi ennuste on (tai ei ole) uskottava?
 
-Pitolisantti on selektiivinen histamiini H3 -reseptorin antagonisti/käänteisagonisti. Se lisää aivojen histaminergistä välitystä ja edistää valppautta. DrugBankista ei saatu yksityiskohtaista vaikutusmekanismia, mutta kirjallisuus tukee tätä kuvausta.
+Pitolisantti on selektiivinen histamiini H3 -reseptorin antagonisti/käänteisagonisti. Se lisää aivojen histaminergistä välitystä ja edistää valppautta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pitolisant (epävirallinen käännös): ”Pitolisantin vaikutusmekanismi päiväaikaisessa liiallisessa uneliaisuudessa (EDS) tai katapleksiassa 6-vuotiailla ja sitä vanhemmilla narkolepsiapotilailla on epäselvä. Sen teho voisi kuitenkin välittyä sen histamiini-3 (H3) -reseptoreihin kohdistuvan antagonisti-/käänteisagonistivaikutuksen kautta.” Englanninkielinen alkuteksti: "The mechanism of action of pitolisant in excessive daytime sleepiness (EDS) or cataplexy in patients 6 years and older with narcolepsy is unclear. However, its efficacy could be mediated through its activity as an antagonist/inverse agonist at histamine-3 (H3) receptors." ([DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e), versio 2026-02-13; haettu 2026-11-20).
 
 Unettomuuden hoidossa pyritään yleensä vähentämään vireystilaa. Pitolisantin vaikutus on siis mekanistisesti päinvastainen, ja unettomuus on lääkkeen tunnettu haittavaikutus. Korkea TxGNN-pistemäärä johtuu todennäköisesti tietämysgraafin läheisyysartefaktasta: uni–valve-biologia on yhteistä, mutta se ei tarkoita hoitohyötyä. Käyttö tähän käyttöaiheeseen on mekanistisesti epäuskottavaa ja mahdollisesti haitallista.
 
@@ -147,13 +147,14 @@ Pakkausselosteen varoituksia ja vasta-aiheita ei ollut saatavilla, joten ne on t
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupien peruutuksen syiden selvittäminen ja lääkemuotojen tiedot” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Ozawade (EMEA/H/C/005117), Wakix (EMEA/H/C/002616)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e) |
 
 <!-- review:end log -->
 

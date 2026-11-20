@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "TOREMIFENE"
 predicted_indications: ["HIV infectious disease"]
 description: "Toremifene: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennuste perustu
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Toimintamekanismia koskevaa tarkkaa tietoa ei ole tällä hetkellä saatavilla. Tiedossa olevan perusteella toremifeeni kuuluu selektiivisten estrogeenireseptorimodulaattorien (SERM) ja estrogeenireseptorin antagonistien ryhmään, ja sen teho rintasyövän hoidossa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Toremifene (epävirallinen käännös): ”Toremifeeni on ei-steroidinen trifenyylietyleenijohdos. Toremifeeni sitoutuu estrogeenireseptoreihin ja voi vaikuttaa estrogeenisesti, antiestrogeenisesti tai molemmilla tavoilla riippuen hoidon kestosta, eläinlajista, sukupuolesta, kohde-elimestä tai valitusta päätetapahtumasta.” Englanninkielinen alkuteksti: "Toremifene is a nonsteroidal triphenylethylene derivative. Toremifene binds to estrogen receptors and may exert estrogenic, antiestrogenic, or both activities, depending upon the duration of treatment, animal species, gender, target organ, or endpoint selected." ([DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5), versio 2024-11-13; haettu 2026-11-20). Tiedossa olevan perusteella toremifeeni kuuluu selektiivisten estrogeenireseptorimodulaattorien (SERM) ja estrogeenireseptorin antagonistien ryhmään, ja sen teho rintasyövän hoidossa on osoitettu.
 
 Ainoa tukeva julkaisu (PMID 24520056, 2014) osoittaa, että tamoksifeeniin ja toremifeeniin liittyvät estrogeenireseptorin antagonistit tappavat *Cryptococcus*-sientä ja tehostavat flukonatsolin vaikutusta. Ne sitoutuvat EF-käsi-proteiineihin, kuten kalmoduliiniin. Tämä on merkityksellistä kryptokokkimeningiitille, joka on yleinen opportunistinen infektio pitkälle edenneessä HIV-taudissa.
 
@@ -137,12 +137,13 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla tämän rap
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa ja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Fareston (EMEA/H/C/000091) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5) |
 
 <!-- review:end log -->
 

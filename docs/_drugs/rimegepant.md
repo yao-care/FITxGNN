@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Rimegepant: ennustettu uusi käyttöaihe Atrophoderma vermiculata (näytön taso L5). Alkuperäinen käyttöaihe: Migraine Disorders"
@@ -58,7 +58,7 @@ Rimegepantti on CGRP-reseptorin salpaaja, jota on alun perin käytetty migreenin
 
 ## Miksi ennuste on perusteltu?
 
-Rimegepantti on CGRP-reseptorin salpaaja (gepantti), joka on hyväksytty aikuisten migreenikohtausten akuuttihoitoon (aurallinen ja auraton migreeni) sekä episodisen migreenin ehkäisyyn. Tarkempia mekanismitietoja ei tässä aineistossa ole saatavilla. Tunnetun lääkeluokan perusteella CGRP-reitin salpaus on kuitenkin keskeinen migreenin hoitomekanismi.
+Rimegepantti on CGRP-reseptorin salpaaja (gepantti), joka on hyväksytty aikuisten migreenikohtausten akuuttihoitoon (aurallinen ja auraton migreeni) sekä episodisen migreenin ehkäisyyn. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Rimegepant (epävirallinen käännös): ”Rimegepantti on kalsitoniinigeeniin liittyvän peptidin reseptorin antagonisti.” Englanninkielinen alkuteksti: "Rimegepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d), versio 2026-06-04; haettu 2026-11-20). Tunnetun lääkeluokan perusteella CGRP-reitin salpaus on kuitenkin keskeinen migreenin hoitomekanismi.
 
 Aivorunkoauraan liittyvä migreeni on aurallisen migreenin alatyyppi. Siksi CGRP-reitin salpaus voi olla myös siihen soveltuva. Korkea ennustepistemäärä vastaa tätä läheistä tautiluokitukseen perustuvaa sukulaisuutta. Kyse ei ole varsinaisesta lääkkeen uudelleenkäytöstä, koska ennustettu tauti kuuluu lääkkeen alkuperäiseen migreenin käyttöaiheiden perheeseen.
 
@@ -140,13 +140,14 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, varten tulee tutus
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruuttamisen syyn ja nykyisen markkinatilanteen selvittämistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Vydura (EMEA/H/C/005725) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d) |
 
 <!-- review:end log -->
 

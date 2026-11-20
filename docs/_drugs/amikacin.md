@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Amikacin: ennustettu uusi käyttöaihe Paratyfoidikuume (paratyphoid fever) (näytön taso L5). Alkuperäinen käyttöaihe: Respiratory Tract Infections"
 ---
 
@@ -54,7 +54,7 @@ Amikasiini on aminoglykosidiantibiootti, jota käytetään gramnegatiivisten bak
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella amikasiini kuuluu aminoglykosideihin, joilla on aktiivisuutta gramnegatiivisia bakteereja vastaan. *Salmonella paratyphi* on gramnegatiivinen bakteeri, joten biologinen uskottavuus on olemassa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Amikacin (epävirallinen käännös): ”Amikasiini on aminoglykosidi, joka sitoutuu prokaryoottiseen ribosomiin ja estää proteiinisynteesiä herkissä bakteereissa. Se on bakterisidinen in vitro grampositiivisia ja gramnegatiivisia bakteereja vastaan.” Englanninkielinen alkuteksti: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), versio 2026-07-27; haettu 2026-11-20). Tunnetun tiedon perusteella amikasiini kuuluu aminoglykosideihin, joilla on aktiivisuutta gramnegatiivisia bakteereja vastaan. *Salmonella paratyphi* on gramnegatiivinen bakteeri, joten biologinen uskottavuus on olemassa.
 
 Mekanistista yhteyttä heikentää kuitenkin se, että aminoglykosidit läpäisevät solun sisään heikosti, ja salmonella on fakultatiivinen solunsisäinen taudinaiheuttaja. Siksi aminoglykosideja ei suositella lavantautityyppisen (enteerisen) kuumeen hoitoon, ja vaihtoehtoisia, vakiintuneita hoitoja on olemassa. Ennuste jää siis lähinnä mallipohjaiseksi signaaliksi.
 
@@ -108,6 +108,19 @@ Kyseistä tautia suoraan tutkivaa kliinistä tutkimusta tai kirjallisuutta, joka
 - Kontrolloitua kliinistä tai vähintään prekliinistä näyttöä amikasiinin tehosta *Salmonella paratyphi* -infektiossa, mukaan lukien solunsisäinen teho
 - Vertailua nykyisiin standardihoitoihin (atsitromysiini, keftriaksoni, fluorokinolonit)
 - Arviota annostelureitistä ja munuais- ja kuulotoksisuusriskin hallinnasta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

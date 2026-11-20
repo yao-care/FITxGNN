@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 296
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 description: "Mycophenolate Mofetil: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L2). Alkuperäinen käyttöaihe: Graft Rejection"
@@ -58,7 +58,7 @@ Mykofenolaattimofetiili on immunosuppressiivinen lääke, jota on alun perin kä
 
 ## Miksi ennuste on perusteltu?
 
-Mykofenolihappo, mykofenolaattimofetiilin aktiivinen muoto, estää inosiinimonofosfaattidehydrogenaasia (IMPDH). Entsyymin esto vähentää guanosiininukleotidien määrää aktivoituneissa lymfosyyteissä ja hillitsee T-solujen jakautumista. Aineistossa mekanismitietoa ei ole kirjattu lääketietokannan MOA-kenttään, mutta ennusteen perustelutiedoissa tämä mekanismi on kuvattu.
+Mykofenolihappo, mykofenolaattimofetiilin aktiivinen muoto, estää inosiinimonofosfaattidehydrogenaasia (IMPDH). Entsyymin esto vähentää guanosiininukleotidien määrää aktivoituneissa lymfosyyteissä ja hillitsee T-solujen jakautumista. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Mycophenolate Mofetil (epävirallinen käännös): ”Mykofenolaattimofetiili (MMF) imeytyy suun kautta annon jälkeen ja hydrolysoituu mykofenolihapoksi (MPA), joka on aktiivinen metaboliitti. MPA on inosiinimonofosfaattidehydrogenaasin (IMPDH) kahden isoformin (tyyppi I ja tyyppi II) selektiivinen epäkompetitiivinen estäjä, mikä johtaa guanosiininukleotidisynteesin de novo -reitin estymiseen ja estää DNA-synteesiä.” Englanninkielinen alkuteksti: "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis." ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), versio 2026-07-31; haettu 2026-11-20).
 
 HIV:n kannalta mekanismi on kaksiosainen. Ensinnäkin T-solujen jakautumisen estäminen vähentää viruksen replikaatioalustaa. Toiseksi dGTP-pitoisuuden lasku voi voimistaa nukleosidianalogien, kuten abakaviirin ja didanosiinin, tehoa. Tämä antaa uskottavan viruksia hillitsevän ja immuunivastetta muokkaavan perustelun.
 
@@ -138,11 +138,12 @@ Huomattavaa on, että vasta-aihelistalla ovat useat infektiot ja neutropenia, mi
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->
 

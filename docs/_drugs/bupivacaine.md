@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 88
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "BUPIVACAINE"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 description: "Bupivacaine: ennustettu uusi käyttöaihe Krooninen atrofinen akrodermatiitti (acrodermatitis chronica atrophicans) (näytön taso L5). Alkuperäinen käyttöaihe: Acute Pain"
@@ -60,7 +60,7 @@ mutta tälle suunnalle ei ole toistaiseksi **yhtään kliinistä tutkimusta eik�
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Yksityiskohtaista vaikutusmekanismia ei ole tässä raportissa käytettävissä. Tiedossa on, että bupivakaiini on pitkävaikutteinen amidityyppinen paikallispuudute, joka salpaa jänniteherkkiä natriumkanavia. Sen teho akuutin kivun hoidossa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Bupivacaine (epävirallinen käännös): ”Paikallispuudutteet estävät hermoimpulssien syntymisen ja johtumisen oletettavasti nostamalla hermon sähköisen ärsytyksen kynnystä, hidastamalla hermoimpulssin etenemistä ja vähentämällä aktiopotentiaalin nousunopeutta. Yleisesti puudutuksen eteneminen riippuu vaikutuksen kohteena olevien hermosäikeiden läpimitasta, myelinisaatiosta ja johtumisnopeudesta.” Englanninkielinen alkuteksti: "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), versio 2026-11-09; haettu 2026-11-20). Tiedossa on, että bupivakaiini on pitkävaikutteinen amidityyppinen paikallispuudute, joka salpaa jänniteherkkiä natriumkanavia. Sen teho akuutin kivun hoidossa on osoitettu.
 
 Krooninen atrofinen akrodermatiitti on Borrelia-infektion myöhäisvaiheen ihomuutos, jota hoidetaan antibiooteilla. Natriumkanavasalpauksen ja taudin välillä ei ole selvää mekanistista yhteyttä. Ainoa mahdollinen yhteys olisi neuropaattisen kivun oireenmukainen lievitys, mikä on spekulatiivista. Korkea pistemäärä on siis todennäköisesti verkkopohjaisen ennusteen tulos, ei osoitus todellisesta vaikutuksesta.
 
@@ -142,12 +142,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten tur
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa peruutettu, joten voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

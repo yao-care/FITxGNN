@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CEMIPLIMAB"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 description: "Cemiplimab: ennustettu uusi käyttöaihe Sappirakon adenoskvamoosi karsinooma (gallbladder adenosquamous carcinoma) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Squamous Cell"
 ---
 
@@ -54,7 +54,7 @@ Cemiplimabi on PD-1-immuunipisteen estäjä (vasta-aine), jota käytetään paik
 
 ## Miksi ennuste on perusteltu?
 
-Cemiplimabi sitoutuu ihmisen PD-1-reseptoriin (PDCD1, CD279) ja estää sen vuorovaikutuksen PD-L1:n kanssa (IC50 alle 1 nM ELISA-kokeessa). Näin se vapauttaa T-solujen tuumorivastetta. Tarkempaa mekanismikuvausta ei ole tässä aineistossa saatavilla.
+Cemiplimabi sitoutuu ihmisen PD-1-reseptoriin (PDCD1, CD279) ja estää sen vuorovaikutuksen PD-L1:n kanssa (IC50 alle 1 nM ELISA-kokeessa). Näin se vapauttaa T-solujen tuumorivastetta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Cemiplimab (epävirallinen käännös): ”PD-1-ligandien PD-L1 ja PD-L2 sitoutuminen T-soluissa esiintyvään PD-1-reseptoriin estää T-solujen proliferaatiota ja sytokiinien tuotantoa. PD-1-ligandien ilmentyminen on lisääntynyt joissakin kasvaimissa, ja tämän signalointireitin kautta tapahtuva signalointi voi osaltaan estää aktiivisten T-solujen kasvaimiin kohdistuvaa immuunivalvontaa. […] Semiplimabi-rwlc on rekombinantti humaani immunoglobuliini G4 (IgG4) -monoklonaalinen vasta-aine, joka sitoutuu PD-1:een ja salpaa sen vuorovaikutuksen PD-L1:n ja PD-L2:n kanssa, jolloin PD-1-reitin välittämä immuunivasteen esto, mukaan lukien kasvaimen vastainen immuunivaste, vapautuu.” Englanninkielinen alkuteksti: "Binding of the PD-1 ligands PD-L1 and PD-L2 to the PD-1 receptor found on T cells inhibits T-cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Cemiplimab-rwlc is a recombinant human immunoglobulin G4 (IgG4) monoclonal antibody that binds to PD-1 and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a), versio 2026-08-31; haettu 2026-11-20).
 
 Alkuperäinen käyttöaihe on levyepiteelikarsinooma, ja kliinisissä tutkimuksissa noin puolet edenneestä ihon levyepiteelisyöpää sairastavista potilaista vastasi hoitoon. Sappirakon adenoskvamoosi karsinoomassa on levyepiteelikomponentti, minkä vuoksi PD-1-salpaus voisi periaatteessa olla mekanistisesti mahdollinen. Tätä ei ole kuitenkaan testattu tässä aineistossa, eikä kasvaimen samankaltaisuutta alkuperäiseen käyttöaiheeseen ole arvioitu tarkemmin. Korkea pistemäärä on laskennallinen ennuste, ei kliininen todiste.
 
@@ -100,6 +100,18 @@ Ennuste perustuu pelkkään laskennalliseen malliin (L5), eikä sappirakon adeno
 - Tarkempi mekanismi- ja kasvainbiologiatieto (esim. PD-L1-ilmentyminen, mutaatiotaakka)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
 - Alustava prekliininen tai varhaisen vaiheen kliininen selvitys
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

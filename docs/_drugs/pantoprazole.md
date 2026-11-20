@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: ennustettu uusi käyttöaihe Duodenal obstruction (näytön taso L5). Alkuperäinen käyttöaihe: Gastroesophageal Reflux"
@@ -54,7 +54,7 @@ Pantopratsoli on protonipumpun estäjä, jota on alun perin käytetty mahalaukun
 
 ## Miksi ennuste on perusteltu?
 
-Pantopratsoli estää peruuttamattomasti mahalaukun parietaalisolujen H+/K+-ATPaasia eli protonipumppua. Tämä vähentää mahahapon eritystä. Kyseessä on kirjallisuuteen perustuva kuvaus (mm. PMID 19938880 ja 8882382), sillä tämän raportin pohjana olevassa aineistossa mekanismitieto ei ollut saatavilla.
+Pantopratsoli estää peruuttamattomasti mahalaukun parietaalisolujen H+/K+-ATPaasia eli protonipumppua. Tämä vähentää mahahapon eritystä. Kyseessä on kirjallisuuteen perustuva kuvaus (mm. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pantoprazole (epävirallinen käännös): ”Pantopratsoli on PPI, joka estää mahahapon tuotannon viimeisen vaiheen sitoutumalla kovalenttisesti (H +, K + )-ATPaasientsyymijärjestelmään mahalaukun parietaalisolun eritys­pinnalla. Tämä vaikutus johtaa sekä basaalisen että stimuloidun mahahapon erityksen estymiseen ärsykkeestä riippumatta.” Englanninkielinen alkuteksti: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), versio 2026-11-06; haettu 2026-11-20).
 
 Refluksitauti ja peptinen haavatauti ovat molemmat happovälitteisiä sairauksia. Sama happoeston mekanismi, joka lievittää refluksia, edistää myös haavojen paranemista ja ehkäisee uusiutumista. Peptinen haavatauti on siksi mekanistisesti suora jatke alkuperäiselle käyttöaiheelle.
 
@@ -165,13 +165,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten ne tulee tarkis
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa (valmistaja Takeda GmbH) on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, mikä rajoittaa suoraa käyttöönottoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: ennustettu uusi käyttöaihe Bronkiitti (bronchitis) (näytön taso L5). Alkuperäinen käyttöaihe: Dermatitis, Atopic"
@@ -56,7 +56,7 @@ Dupilumabi on monoklonaalinen vasta-aine, joka salpaa IL-4Rα-reseptorin ja est�
 
 Dupilumabi salpaa IL-4Rα-reseptorin ja estää IL-4- ja IL-13-signaloinnin. Tämä reitti ohjaa eosinofiilistä hengitysteiden tulehdusta, liman liikaeritystä ja hengitysteiden uudelleenmuovautumista. Mekanismi on siten uskottava myös tilanteissa, joissa hengitysteiden tulehdus on tyypin 2 painotteinen.
 
-Kootun aineiston tutkimukset koskevat kuitenkin astmaa, tyypin 2 COPD-tautia (jossa krooninen bronkiitti on osittain päällekkäinen ilmiö), krooniseen poskiontelotulehdukseen liittyvää ylähengitystietilaa ja eosinofiilistä bronkioliittia. Nämä ovat eri sairauksia kuin bronkiitti, eikä niitä voida pitää suorana näyttönä. Tarkemmat mekanismitiedot eivät ole tämän raportin tiedoissa saatavilla.
+Kootun aineiston tutkimukset koskevat kuitenkin astmaa, tyypin 2 COPD-tautia (jossa krooninen bronkiitti on osittain päällekkäinen ilmiö), krooniseen poskiontelotulehdukseen liittyvää ylähengitystietilaa ja eosinofiilistä bronkioliittia. Nämä ovat eri sairauksia kuin bronkiitti, eikä niitä voida pitää suorana näyttönä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Dupilumab (epävirallinen käännös): ”Dupilumabi on ihmisen monoklonaalinen IgG4-vasta-aine, joka estää interleukiini-4:n (IL-4) ja interleukiini-13:n (IL-13) signaalinvälitystä sitoutumalla spesifisesti IL-4Rα-alayksikköön, joka on yhteinen IL-4- ja IL-13-reseptorikomplekseille. Dupilumabi estää IL-4-signaalinvälitystä tyypin I reseptorin kautta sekä sekä IL-4- että IL-13-signaalinvälitystä tyypin II reseptorin kautta.” Englanninkielinen alkuteksti: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), versio 2026-04-22; haettu 2026-11-20).
 
 ## Kliininen tutkimusnäyttö
 
@@ -119,11 +119,12 @@ Ennuste perustuu korkeaan mallipisteeseen ja uskottavaan IL-4Rα-mekanismiin, mu
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-12 | Taulukko: Dupixent (EMEA/H/C/004390) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
 
 <!-- review:end log -->
 

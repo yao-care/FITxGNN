@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Daptomycin: ennustettu uusi käyttöaihe Osteoarthritis (näytön taso L5). Alkuperäinen käyttöaihe: Gram-Positive Bacterial Infections"
@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan olla tehokas **nivelrikon** hoidossa, mutta ennu
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin laadinnassa käytetyissä tiedoissa daptomysiinin yksityiskohtainen vaikutusmekanismi ei ole saatavilla. Tunnetun tiedon perusteella daptomysiini on syklinen lipopeptidiantibiootti, jonka teho Gram-positiivisia bakteereja vastaan on osoitettu, mutta sen mekanistista soveltuvuutta nivelrikkoon ei ole osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Daptomycin (epävirallinen käännös): ”Daptomysiini on antibakteerinen lääke. […] Daptomysiini sitoutuu bakteerien solukalvoihin ja aiheuttaa kalvopotentiaalin nopean depolarisaation. Tämä kalvopotentiaalin menetys estää DNA:n, RNA:n ja proteiinien synteesiä, mikä johtaa bakteerisolun kuolemaan.” Englanninkielinen alkuteksti: "Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death." ([DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8), versio 2022-01-25; haettu 2026-11-20). Tunnetun tiedon perusteella daptomysiini on syklinen lipopeptidiantibiootti, jonka teho Gram-positiivisia bakteereja vastaan on osoitettu, mutta sen mekanistista soveltuvuutta nivelrikkoon ei ole osoitettu.
 
 Nivelrikon osalta ei ole havaittavissa suoraa yhteyttä daptomysiinin ja rappeumaperäisen nivelrikon välillä. Löydetty kirjallisuus käsittelee daptomysiinin käyttöä luu- ja niveli-infektioissa (mukaan lukien tekonivelinfektiot), mikä on antibakteerista käyttöä alkuperäisen käyttöaiheen piirissä, ei nivelrikon hoitoa. Korkea TxGNN-pistemäärä heijastaa todennäköisesti osteoartikulaaristen infektioiden ja nivelrikon semanttista läheisyyttä. Tulehdusta lievittävää tai rustoa suojaavaa mekanismia ei ole osoitettu.
 
@@ -169,13 +169,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi daptomysiinillä ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Markkinatilanteen selvitys, koska kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Cubicin (EMEA/H/C/000637), Daptomycin Hospira (EMEA/H/C/004310)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
 
 <!-- review:end log -->
 

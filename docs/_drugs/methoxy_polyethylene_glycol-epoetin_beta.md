@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Methoxy Polyethylene Glycol-Epoetin Beta: ennustettu uusi käyttöaihe Verihiutaleiden primaarinen vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Anemia"
 monitor_inn: "METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen mahdollisesti tehoavan **verihiutaleiden primaariseen v
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin laatimiseen kootuissa tiedoissa lääkkeen vaikutusmekanismia ei ole saatavilla. Tiedetään, että metoksipolyetyleeniglykoli-epoetiini beeta on pegyloitu EPO-reseptorin agonisti, joka ajaa pääasiassa punasolujen esiasteiden lisääntymistä. Sen teho anemiassa kroonisen munuaisten vajaatoiminnan yhteydessä on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Methoxy Polyethylene Glycol-Epoetin Beta (epävirallinen käännös): ”Mircera on erytropoietiinireseptorin aktivaattori, jolla on erytropoietiiniin verrattuna suurempi aktiivisuus in vivo sekä pidempi puoliintumisaika. Erytropoietiini on erytroidisolujen kehityksen ensisijainen kasvutekijä, jota tuotetaan munuaisissa ja vapautuu verenkiertoon hypoksian seurauksena.” Englanninkielinen alkuteksti: "Mircera is an erythropoietin receptor activator with greater activity in vivo as well as increased half-life, in contrast to erythropoietin. A primary growth factor for erythroid development, erythropoietin is produced in the kidney and released into the bloodstream in response to hypoxia." ([DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88), versio 2026-08-14; haettu 2026-11-20). Tiedetään, että metoksipolyetyleeniglykoli-epoetiini beeta on pegyloitu EPO-reseptorin agonisti, joka ajaa pääasiassa punasolujen esiasteiden lisääntymistä. Sen teho anemiassa kroonisen munuaisten vajaatoiminnan yhteydessä on osoitettu.
 
 Mekanistinen yhteys verihiutaleiden vapautumishäiriöön on heikko. EPO-reseptorin aktivaatio ei korjaa verihiutaleiden eritysvikaa. Ainoa ajateltavissa oleva yhteys olisi epäsuora, esimerkiksi hematokriittiin liittyvät virtausvaikutukset verihiutaleiden reaktiivisuuteen, mutta tätä ei tue mikään aineisto. Korkea pistemäärä on todennäköisesti verkkorakenteen tuottama ennuste, ei biologinen perustelu.
 
@@ -143,13 +143,14 @@ Lääkeyhteisvaikutuksia ei löytynyt. Muuten turvallisuustiedoista saa lisätie
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi ainoa myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Markkinatilanteen selvittämistä, koska voimassa olevaa myyntilupaa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88) |
 
 <!-- review:end log -->
 

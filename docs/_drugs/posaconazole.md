@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 352
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
 description: "Posaconazole: ennustettu uusi käyttöaihe Pneumocystosis (näytön taso L5). Alkuperäinen käyttöaihe: Candidiasis"
@@ -58,7 +58,7 @@ Posakonatsoli on triatsoliryhmän sienilääke, jota on alun perin käytetty kan
 
 ## Miksi ennuste on perusteltu – ja mitkä ovat sen rajat?
 
-Tarkkaa vaikutusmekanismia ei tällä hetkellä ole saatavilla kootuista tiedoista. Yleisen lääketieteellisen tiedon mukaan posakonatsoli on triatsoliryhmän sienilääke, joka estää sienen lanosteroli-14-alfa-demetylaasia (CYP51) ja siten ergosterolin synteesiä. Ergosteroli on useimpien sienten solukalvon keskeinen osa, mikä selittää tehon kandidiaasiin ja aspergilloosiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Posaconazole (epävirallinen käännös): ”Posakonatsoli on atsoliryhmän sienilääke. […] Posakonatsoli estää ergosterolin, sienen solukalvon keskeisen ainesosan, synteesiä estämällä sytokromi P-450 -riippuvaista lanosteroli-14α-demetylaasientsyymiä, joka vastaa lanosterolin muuttamisesta ergosteroliksi sienen solukalvossa. Tämä johtaa metyloituneiden sterolien esiasteiden kertymiseen ja ergosterolin vähenemiseen solukalvossa, mikä heikentää sienen solukalvon rakennetta ja toimintaa.” Englanninkielinen alkuteksti: "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84), versio 2026-02-13; haettu 2026-11-20). Yleisen lääketieteellisen tiedon mukaan posakonatsoli on triatsoliryhmän sienilääke, joka estää sienen lanosteroli-14-alfa-demetylaasia (CYP51) ja siten ergosterolin synteesiä. Ergosteroli on useimpien sienten solukalvon keskeinen osa, mikä selittää tehon kandidiaasiin ja aspergilloosiin.
 
 *Pneumocystis jirovecii* poikkeaa kuitenkin useimmista sienistä: sen solukalvossa on vain vähän tai ei lainkaan ergosterolia, ja se käyttää pääasiassa kolesterolia ja muita steroleja. Atsolien kohde on siis pneumokystiksessä suurelta osin poissa. Korkea TxGNN-pistemäärä heijastaa todennäköisesti lääkkeen yleistä sienilääkeprofiilia ja sen läheisyyttä muihin mykooseihin tietämysgraafissa, ei validoitua vaikutusmekanismia pneumokystista vastaan.
 
@@ -142,12 +142,13 @@ Pelkistä lääkeaineen turvallisuustiedoista (varoitukset, vasta-aiheet) ei ole
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on tilassa "peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”almisteiden myyntiluvat Suomessa on peruutettu, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: ennustettu uusi käyttöaihe Hyperlucent lung (näytön taso L5). Alkuperäinen käyttöaihe: Pulmonary Disease, Chronic Obstructive"
@@ -60,7 +60,7 @@ Aiheesta on koottu **28 kliinistä tutkimusta** ja **20 julkaisua**, ja näyttö
 
 ## Miksi ennuste on perusteltu?
 
-Vilanteroli on pitkävaikutteinen beeta2-adrenoseptoriagonisti, joka rentouttaa hengitysteiden sileää lihasta ja saa aikaan keuhkoputkien laajenemisen. Sama mekanismi on sen hyväksytyn COPD-käytön perusta. Yksityiskohtaiset mekanismitiedot eivät olleet saatavilla tähän raporttiin koottuna aineistona, mutta farmakologinen perusta on tunnettu.
+Vilanteroli on pitkävaikutteinen beeta2-adrenoseptoriagonisti, joka rentouttaa hengitysteiden sileää lihasta ja saa aikaan keuhkoputkien laajenemisen. Sama mekanismi on sen hyväksytyn COPD-käytön perusta. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta fluticasone furoate and vilanterol (yhdistelmävalmiste, joka sisältää aineen Vilanterol) (epävirallinen käännös): ”Beeta 2 -adrenergisten agonistilääkkeiden, myös vilanterolin, farmakologiset vaikutukset johtuvat ainakin osittain solunsisäisen adenyylisyklaasin stimulaatiosta. Adenyylisyklaasi on entsyymi, joka katalysoi adenosiinitrifosfaatin (ATP) muuttumista syklinen-3′,5′-adenosiinimonofosfaatiksi (syklinen AMP).” Englanninkielinen alkuteksti: "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), versio 2024-11-21; haettu 2026-11-20).
 
 Obstruktiivinen keuhkosairaus on joko sama kuin alkuperäinen käyttöaihe (COPD) tai sen läheinen luokka. Ennuste on siksi uskottava, mutta se on pikemminkin olemassa olevan käytön vahvistus kuin uusi käyttöaihe. Näyttöä tuovat useat vilanterolia sisältävien yhdistelmähoitojen (flutikasonifuroaatti/vilanteroli sekä flutikasonifuroaatti/umeklidinium/vilanteroli) kolmannen vaiheen satunnaistetut tutkimukset, kuten IMPACT ja FULFIL.
 
@@ -162,13 +162,14 @@ Varoituksista ja vasta-aiheista ei ollut saatavilla tietoa. Tarkista ne valmiste
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”miksi molemmat suomalaiset myyntiluvat on peruutettu ja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: 2 myyntilupaa (Relvar Ellipta (EMEA/H/C/002673), Laventair Ellipta (EMEA/H/C/003754)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
 
 <!-- review:end log -->
 

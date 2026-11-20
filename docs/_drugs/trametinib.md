@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Trametinib: ennustettu uusi käyttöaihe Choroideremia (sijalla 1). Käytännössä merkityksellisin vaihtoehto: e… (näytön taso L5). Alkuperäinen käyttöaihe: Melanooma"
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
@@ -54,7 +54,7 @@ Trametinibi on MEK1/2-estäjä, jota käytetään melanooman hoitoon. TxGNN-mall
 
 ## Miksi ennuste on perusteltu (tai ei)?
 
-Tämän raportin käytettävissä olevissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismikuvausta. Tunnetun tiedon perusteella trametinibi on allosteerinen MEK1/2-estäjä (kohteet MAP2K1 ja MAP2K2), ja sen teho BRAF V600 -mutaatiopositiivisessa melanoomassa on osoitettu yhdistelmänä dabrafenibin kanssa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Trametinib (epävirallinen käännös): ”Trametinibi on mitogeeniaktivoidun solunulkoisen signaalin säätelemän kinaasi 1:n (MEK1) ja MEK2:n aktivaation sekä MEK1- ja MEK2-kinaasiaktiivisuuden palautuva estäjä. MEK-proteiinit ovat solunulkoisen signaalin säätelemän kinaasin (ERK) reitin ylävirran säätelijöitä, ja tämä reitti edistää solujen proliferaatiota.” Englanninkielinen alkuteksti: "Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1), versio 2026-05-07; haettu 2026-11-20). Tunnetun tiedon perusteella trametinibi on allosteerinen MEK1/2-estäjä (kohteet MAP2K1 ja MAP2K2), ja sen teho BRAF V600 -mutaatiopositiivisessa melanoomassa on osoitettu yhdistelmänä dabrafenibin kanssa.
 
 **Choroideremia:** Tauti on X-kromosomaalinen verkkokalvon rappeumasairaus, jonka aiheuttaa CHM (REP1) -geenin toiminnan menetys. Sillä ei ole tunnettua yhteyttä MAPK/MEK-reitin riippuvuuteen. Korkea pistemäärä (0,9931) on todennäköisesti verkon etenemisen tuottama artefakti, eikä sitä tule pitää biologisena tukena.
 
@@ -149,12 +149,13 @@ Muuta turvallisuustietoa varten katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa trametinibin ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Mekinist (EMEA/H/C/002643) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1) |
 
 <!-- review:end log -->
 

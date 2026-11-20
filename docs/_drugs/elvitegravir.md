@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ELVITEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Elvitegravir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
@@ -56,7 +56,7 @@ Tätä ennustetta tukevia kliinisiä tutkimuksia tai julkaisuja ei ole: näyttö
 
 ## Miksi ennuste on perusteltu?
 
-Elvitegraviiri estää HIV-1:n integraasientsyymiä ja siten viruksen cDNA:n liittymistä isäntäsolun genomiin. Yksityiskohtaisia mekanismitietoja ei ole tässä raportissa käytetyissä tiedoissa saatavilla, mutta tunnettu lääkeluokka on selvä.
+Elvitegraviiri estää HIV-1:n integraasientsyymiä ja siten viruksen cDNA:n liittymistä isäntäsolun genomiin. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (yhdistelmävalmiste, joka sisältää aineen Elvitegravir) (epävirallinen käännös): ”STRIBILD on antiretroviraalisten lääkkeiden elvitegraviirin (jonka vaikutusta tehostaa CYP3A:n estäjä kobisistaatti), emtrisitabiinin ja TDF:n kiinteäannoksinen yhdistelmä.” Englanninkielinen alkuteksti: "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), versio 2025-02-04; haettu 2026-11-20).
 
 Kissan immuunikatovirus (FIV) on HIV:n tavoin lentivirus, ja sen integraasientsyymi on rakenteellisesti sukua HIV-1-integraasille. Teoriassa vaikutus on siksi mahdollinen. Elvitegraviirin ristireaktiivisuutta FIV-integraasin kanssa ei kuitenkaan ole osoitettu käytettävissä olevassa aineistossa.
 
@@ -100,6 +100,19 @@ Ennuste perustuu pelkästään mallin laskennalliseen pistemäärään, eikä kl
 - Tarkemmat vaikutusmekanismia koskevat tiedot
 - Arvio eläinlääkinnällisestä kehityspolusta ja sääntelystä
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

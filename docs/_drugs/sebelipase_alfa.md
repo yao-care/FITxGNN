@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "SEBELIPASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
 description: "Sebelipase Alfa: ennustettu uusi käyttöaihe Scheien oireyhtymä (Scheie syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Lipid Metabolism, Inborn Errors"
@@ -54,7 +54,7 @@ Sebelipaasi alfa on rekombinantti lysosomaalinen happolipaasientsyymi, jota käy
 
 ## Miksi ennuste on perusteltu – ja miksi ei?
 
-Tämän raportin laatimiseen kerätyissä tiedoissa ei ole yksityiskohtaista vaikutusmekanismia. Sebelipaasi alfa on kuitenkin rekombinantti lysosomaalinen happolipaasi. Se korvaa puuttuvaa entsyymiä lysosomeissa.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Sebelipase Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Kolesteroliesteriä hydrolysoiva entsyymi; triglyseridejä hydrolysoiva entsyymi”. Englanninkielinen alkuteksti: "Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0; haettu 2026-11-20). Sebelipaasi alfa on kuitenkin rekombinantti lysosomaalinen happolipaasi. Se korvaa puuttuvaa entsyymiä lysosomeissa.
 
 Scheien oireyhtymä johtuu alfa-L-iduronidaasin puutteesta. Se on eri entsyymi ja eri substraatti kuin sebelipaasi alfan kohde. Sebelipaasi alfa ei siis korvaa puuttuvaa entsyymiä tässä taudissa. Korkea pistemäärä heijastaa todennäköisesti sitä, että molemmat kuuluvat lysosomaalisiin kertymäsairauksiin, eikä substraattikohtaista yhteyttä ole osoitettu.
 
@@ -91,6 +91,18 @@ Turvallisuustietoja varten katso valmisteyhteenveto ja pakkausseloste.
 - Prekliiniset tutkimukset, jotka osoittavat mahdollisen vaikutuksen tähän tautiin.
 - Valmisteyhteenvedon turvallisuustietojen kokoaminen ja arviointi.
 - Vaikutusmekanismitietojen täydentäminen.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

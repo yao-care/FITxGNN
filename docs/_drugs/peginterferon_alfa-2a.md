@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 335
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: ennustettu uusi käyttöaihe Hepatitis E virus infection (näytön taso L1). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"
@@ -60,7 +60,7 @@ Tätä tukee tällä hetkellä **20 kliinistä tutkimusta** ja **20 julkaisua**,
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella peginterferoni alfa-2a on interferoniluokan lääke, jolla on immuunivastetta muokkaavia ja virusten lisääntymistä estäviä vaikutuksia. Se indusoi interferonin säätelemiä geenejä ja voimistaa HBV-spesifisiä T- ja NK-soluvasteita.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Peginterferon Alfa-2A (epävirallinen käännös): ”Pegyloitu yhdistelmä-DNA-tekniikalla tuotettu ihmisen alfa-2a-interferoni on synnynnäisen antiviraalisen immuunivasteen indusoija. […] PEGASYSin biologinen aktiivisuus on peräisin sen yhdistelmä-DNA-tekniikalla tuotetusta ihmisen α-2a-interferoniosasta. Peginterferoni α-2a sitoutuu ihmisen tyypin 1 interferonireseptoriin, mikä johtaa reseptorin dimerisaatioon. Reseptorin dimerisaatio aktivoi useita solunsisäisiä signaalinvälitysreittejä, joita välittää aluksi JAK/STAT-reitti.” Englanninkielinen alkuteksti: "Pegylated recombinant human interferon alfa-2a is an inducer of the innate antiviral immune response. […] The biological activity of PEGASYS is derived from its recombinant human interferon α-2a moiety. Peginterferon α-2a binds to the human type 1 interferon receptor leading to receptor dimerization. Receptor dimerization activates multiple intracellular signal transduction pathways initially mediated by the JAK/STAT pathway." ([DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916), versio 2026-10-16; haettu 2026-11-20). Tunnetun tiedon perusteella peginterferoni alfa-2a on interferoniluokan lääke, jolla on immuunivastetta muokkaavia ja virusten lisääntymistä estäviä vaikutuksia. Se indusoi interferonin säätelemiä geenejä ja voimistaa HBV-spesifisiä T- ja NK-soluvasteita.
 
 Krooninen hepatiitti B on jo lääkkeen alkuperäinen käyttöaihe. Ennuste on siis pikemminkin vahvistus olemassa olevalle käytölle kuin uusi löydös. Samaa mekanismia hyödynnetään myös hepatiitti C:n hoidossa, joten viruksen vastainen vaikutus on uskottava myös hepatiitti B:ssä.
 
@@ -181,12 +181,13 @@ Muut ennustetut käyttöaiheet ovat heikosti perusteltuja:
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Valmisteen myyntilupa on kuitenkin Suomessa peruutettu, joten saatavuus on rajoite” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916) |
 
 <!-- review:end log -->
 

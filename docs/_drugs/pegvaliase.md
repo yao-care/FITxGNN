@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PEGVALIASE"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
 description: "Pegvaliase: ennustettu uusi käyttöaihe Diabetic retinopathy (näytön taso L5). Alkuperäinen käyttöaihe: Phenylketonurias"
@@ -62,7 +62,7 @@ Muut mallin ennustamat käyttöaiheet: vaikea ei-proliferatiivinen diabeettinen 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Pegvaliaasin tarkkaa vaikutusmekanismia ei ole saatavilla tätä raporttia varten kootuissa tiedoissa. Tiedetään, että pegvaliaasi on PEGyloitu fenyylialaniiniammoniakkilyaasi (PAL), joka hajottaa fenyylialaniinia. Sen teho fenyyliketonuriassa perustuu veren fenyylialaniinipitoisuuden laskuun.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pegvaliase (epävirallinen käännös): ”Pegvaliaasi-pqpz on PEGyloitu fenyylialaniiniammoniakkilyaasientsyymi (PAL), joka muuttaa fenyylialaniinin ammoniakiksi ja trans-kanelihapoksi. Se korvaa puutteellisen fenyylialaniinihydroksylaasientsyymin (PAH) aktiivisuuden PKU-potilailla ja vähentää veren fenyylialaniinipitoisuuksia.” Englanninkielinen alkuteksti: "Pegvaliase-pqpz is a PEGylated phenylalanine ammonia lyase (PAL) enzyme that converts phenylalanine to ammonia and trans -cinnamic acid. It substitutes for the deficient phenylalanine hydroxylase (PAH) enzyme activity in patients with PKU and reduces blood phenylalanine concentrations." ([DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c), versio 2026-03-02; haettu 2026-11-20). Tiedetään, että pegvaliaasi on PEGyloitu fenyylialaniiniammoniakkilyaasi (PAL), joka hajottaa fenyylialaniinia. Sen teho fenyyliketonuriassa perustuu veren fenyylialaniinipitoisuuden laskuun.
 
 Selkeää mekanistista yhteyttä diabeettiseen retinopatiaan ei ole osoitettu. Korkea pistemäärä heijastaa todennäköisesti verkostotason samankaltaisuutta diabeteksen komplikaatioiden välillä eikä lääkekohtaista mekanismia. Spekulatiivinen yhteys voisi liittyä aminohappo- tai aineenvaihduntareitteihin diabeettisessa mikroverisuonisairaudessa, mutta tätä ei ole todennettu.
 
@@ -135,12 +135,13 @@ Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ole saatavilla. Katso t
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuntumisen syistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c) |
 
 <!-- review:end log -->
 

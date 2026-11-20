@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "LIDOCAINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Lidocaine: ennustettu uusi käyttöaihe Punctate epithelial keratoconjunctivitis (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 1 (voimassa: 1)"
 ---
 
@@ -58,7 +58,7 @@ Huom. sijalla 6 oleva "sidekalvon sairaus" -ennuste on tutkituin, mutta sen näy
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin varten kootuissa tiedoissa ei ole tällä hetkellä yksityiskohtaista vaikutusmekanismia. Tiedetään, että lidokaiini on natriumkanavan salpaaja ja paikallispuudute, jonka teho tunnetussa käyttöaiheessaan on osoitettu. Mekanistisesti se voisi lievittää silmän pinnan sairauksien oireita, kuten kipua.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lidocaine (epävirallinen käännös): ”Lidokaiinihydrokloridi saa aikaan rytmihäiriöitä estävän vaikutuksen suurentamalla kammion sähköisen ärsytyksen kynnystä diastolen aikana. Tavanomaisina hoitoannoksina lidokaiinihydrokloridi ei muuta sydänlihaksen supistuvuutta, systeemistä valtimopainetta eikä absoluuttista refraktaariaikaa.” Englanninkielinen alkuteksti: "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period." ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0), versio 2026-02-20; haettu 2026-11-20). Tiedetään, että lidokaiini on natriumkanavan salpaaja ja paikallispuudute, jonka teho tunnetussa käyttöaiheessaan on osoitettu. Mekanistisesti se voisi lievittää silmän pinnan sairauksien oireita, kuten kipua.
 
 Ennuste perustuu pääosin tietämysgraafin verkostolähellisyyteen, ei osoitettuun vaikutusmekanismiin. Lidokaiini ei hoida taustalla olevaa epiteelisairautta, ja pitkäaikaisen paikallispuudutteen käytön tiedetään vahingoittavan sarveiskalvon epiteeliä. Terapeuttinen rooli on siksi epätodennäköinen. Sama koskee muita silmäennusteita (papillaarinen konjunktiviitti, ruusufinnikonjunktiviitti, altistumiskeratiitti): niissä mahdollinen hyöty olisi korkeintaan oireenmukaista.
 
@@ -115,6 +115,19 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole tässä aineistossa sa
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivuilta
 - Prekliininen tai kliininen tutkimusnäyttö ennustetusta sairaudesta
 - Arvio silmän pinnan toksisuudesta toistuvassa käytössä ja soveltuvuudesta antoreitin kannalta (Fortacin on eri antoreittiä käyttävä valmiste)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

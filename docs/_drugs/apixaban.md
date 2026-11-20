@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Arthroplasty"
@@ -54,7 +54,7 @@ Apiksabaani on suora tekijä Xa:n estäjä, jota käytetään veritulppien ehkä
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tässä raportissa käytetyissä tiedoissa apiksabaanin yksityiskohtaista vaikutusmekanismia ei ole saatavilla. Tiedetään, että apiksabaani estää suoraan hyytymistekijä Xa:ta ja siten trombiinin muodostumista.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Apixaban (epävirallinen käännös): ”Apiksabaani on FXa:n selektiivinen estäjä. Se ei tarvitse antitrombiini III:a antitromboottiseen vaikutukseensa. Apiksabaani estää vapaata ja hyytymään sitoutunutta FXa:ta sekä protrombinaasiaktiivisuutta. Apiksabaanilla ei ole suoraa vaikutusta verihiutaleiden aggregaatioon, mutta se estää epäsuorasti trombiinin indusoimaa verihiutaleiden aggregaatiota.” Englanninkielinen alkuteksti: "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25), versio 2026-09-24; haettu 2026-11-20). Tiedetään, että apiksabaani estää suoraan hyytymistekijä Xa:ta ja siten trombiinin muodostumista.
 
 Ehdotettu yhteys migreeniin on epäsuora. Aurallisen migreenin on esitetty liittyvän avoimen foramen ovalen kautta tapahtuvaan paradoksaaliseen embolisaatioon, mikrotrombeihin tai suotuisaan hyytymistaipumukseen (esim. fosfolipidivasta-aineet). Tällöin antitromboottinen hoito voisi teoriassa vähentää auroja tai kohtauksia.
 
@@ -106,6 +106,18 @@ Kohtalaisia (Moderate) ovat mm. aprepitantti, klaritromysiini, klotrimatsoli, de
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet
 - Tutkimuksen 33402037 asetelman ja käytettyjen lääkkeiden tarkistus
 - Kontrolloidut tutkimukset, joissa migreeni on päätetapahtuma, ennen mitään kliinistä harkintaa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

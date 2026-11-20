@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Risdiplam: ennustettu uusi käyttöaihe Akne (näytön taso L5). Alkuperäinen käyttöaihe: Spinaalinen lihasatrofia"
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
@@ -54,7 +54,7 @@ Risdiplami on SMN2-silmukoinnin muuntaja, jota käytetään alun perin spinaalis
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämän raportin laatimiseen kootuissa tiedoissa risdiplamin tarkka vaikutusmekanismi ei ole saatavilla. Tiedetään, että risdiplami on SMN2-silmukoinnin muuntaja, ja sen teho spinaalisessa lihasatrofiassa on osoitettu. Mekanistista yhteyttä aknen patogeneesiin (talintuotanto, *C. acnes* -kolonisaatio, follikkelin liikasarveistuminen, tulehdus) ei kuitenkaan voida koottujen tietojen perusteella todeta.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Risdiplam (epävirallinen käännös): ”Risdiplaami on motoneuronien eloonjäämisen 2 (SMN2) silmukoinnin muokkaaja, joka on suunniteltu sellaisten selkäydinperäistä lihasatrofiaa (SMA) sairastavien potilaiden hoitoon, joiden sairaus johtuu kromosomin 5q mutaatioista, jotka johtavat SMN-proteiinin puutokseen. In vitro -määrityksissä ja SMA:n siirtogeenisillä eläinmalleilla tehdyissä tutkimuksissa risdiplaamin osoitettiin lisäävän eksonin 7 sisällyttämistä SMN2-lähetti-ribonukleiinihapon (mRNA) transkripteihin ja täyspitkän SMN-proteiinin tuotantoa aivoissa.” Englanninkielinen alkuteksti: "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), versio 2026-11-02; haettu 2026-11-20). Tiedetään, että risdiplami on SMN2-silmukoinnin muuntaja, ja sen teho spinaalisessa lihasatrofiassa on osoitettu. Mekanistista yhteyttä aknen patogeneesiin (talintuotanto, *C. acnes* -kolonisaatio, follikkelin liikasarveistuminen, tulehdus) ei kuitenkaan voida koottujen tietojen perusteella todeta.
 
 Ennusteen ainoa tuki on tietämysgraafipohjaisen mallin korkea pistemäärä (0,9945). Pelkkä graafipohjainen pistemäärä ei ole näyttöä tehosta, ja se voi heijastaa verkoston rakenteesta johtuvia artefakteja eikä todellista biologiaa. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole voitu arvioida.
 
@@ -115,13 +115,14 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Evrysdi (EMEA/H/C/005145) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
 
 <!-- review:end log -->
 

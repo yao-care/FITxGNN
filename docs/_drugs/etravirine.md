@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Etravirine: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "ETRAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
@@ -60,7 +60,7 @@ Ennuste on lähinnä HIV-käyttöaiheen laajennus eläinmallin suuntaan, ei uusi
 
 ## Miksi ennuste on järkevä?
 
-Etraviriini on NNRTI-lääke, joka estää HIV-1:n käänteiskopioijaentsyymiä. Tarkempia mekanismitietoja ei ole tässä raportissa käytettävissä olevassa aineistossa.
+Etraviriini on NNRTI-lääke, joka estää HIV-1:n käänteiskopioijaentsyymiä. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Etravirine (epävirallinen käännös): ”Etraviriini on antiretroviraalinen lääke. […] Etraviriini on HIV-1:n NNRTI. Etraviriini sitoutuu suoraan käänteiskopioijaentsyymiin (RT) ja estää RNA-riippuvaisen ja DNA-riippuvaisen DNA-polymeraasiaktiivisuuden aiheuttamalla häiriön entsyymin katalyyttisessä kohdassa. Etraviriini ei estä ihmisen DNA-polymeraaseja α, β ja γ.” Englanninkielinen alkuteksti: "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ." ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d), versio 2023-08-15; haettu 2026-11-20).
 
 SIV on HIV:n läheinen sukulainen, ja molemmat ovat lentivirusryhmään kuuluvia retroviruksia. Tämän vuoksi ennuste vaikuttaa ensi silmäyksellä uskottavalta. Mekanistisesti se on kuitenkin epävarma: HIV-2 ja SIV ovat luontaisesti vastustuskykyisiä useimmille NNRTI-lääkkeille, joten etraviriinin teho SIV:tä vastaan on kyseenalainen.
 
@@ -135,12 +135,13 @@ Muista kymmenen parhaan ennusteen joukossa olevista käyttöaiheista ei löytyny
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Intelence (EMEA/H/C/000900) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
 
 <!-- review:end log -->
 

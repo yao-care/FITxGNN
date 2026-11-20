@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 344
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Phenylephrine: ennustettu uusi käyttöaihe Nenäontelon sairaus (näytön taso L4). Alkuperäinen käyttöaihe: Silmänsisäinen linssi-implantaatio"
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -58,7 +58,7 @@ Fenyylefriini on alfa-1-adrenergisen reseptorin agonisti, jota Suomessa on käyt
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytetyistä tiedoista puuttuu tarkka vaikutusmekanismikuvaus. Tunnetun farmakologian perusteella fenyylefriini on suoravaikutteinen alfa-1-adrenerginen agonisti, joka supistaa verisuonia ja laajentaa silmässä mustuaista. Silmäleikkauksessa tätä hyödynnetään mustuaisen laajentamiseen ja pitämiseen leikkauksen aikana.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Phenylephrine (epävirallinen käännös): ”Fenyyliefriinihydrokloridi on α-1-adrenergisen reseptorin agonisti.” Englanninkielinen alkuteksti: "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist." ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), versio 2026-03-31; haettu 2026-11-20). Tunnetun farmakologian perusteella fenyylefriini on suoravaikutteinen alfa-1-adrenerginen agonisti, joka supistaa verisuonia ja laajentaa silmässä mustuaista. Silmäleikkauksessa tätä hyödynnetään mustuaisen laajentamiseen ja pitämiseen leikkauksen aikana.
 
 Nenän limakalvolla sama verisuonia supistava vaikutus vähentää turvotusta, tukkoisuutta ja verenvuotoa. Siksi fenyylefriiniä käytetään jo nenän turvotusta lievittävissä valmisteissa ja yhdistelmäsumutteissa. Mekanismi on siten uskottava, ja se sopii korkeaan mallipisteeseen.
 
@@ -136,12 +136,13 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tähän rap
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Omidria (EMEA/H/C/003702) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 
 <!-- review:end log -->
 

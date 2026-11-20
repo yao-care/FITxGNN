@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 254
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ledipasvir: ennustettu uusi käyttöaihe Hepatiitti B -virusinfektio (näytön taso L2). Alkuperäinen käyttöaihe: Krooninen hepatiitti C"
 monitor_inn: "LEDIPASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -60,7 +60,7 @@ Tätä suuntaa tukee **5 kliinistä tutkimusta** ja **20 julkaisua**, mutta suor
 
 ## Miksi ennuste on perusteltu?
 
-Ledipasviirin toimintamekanismia koskevia yksityiskohtaisia tietoja ei ole tällä hetkellä saatavilla. Tiedetään, että ledipasviiri kohdistuu HCV:n NS5A-proteiiniin ja sitä käytetään yhdessä sofosbuviirin (NS5B-polymeraasin estäjä) kanssa. Sen teho kroonisessa hepatiitti C:ssä on osoitettu.
+ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Ledipasvir vaikutusmekanismiksi (epävirallinen käännös): ”Ei-rakenteellisen proteiinin 5A estäjä”. Englanninkielinen alkuteksti: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; haettu 2026-11-20). Tiedetään, että ledipasviiri kohdistuu HCV:n NS5A-proteiiniin ja sitä käytetään yhdessä sofosbuviirin (NS5B-polymeraasin estäjä) kanssa. Sen teho kroonisessa hepatiitti C:ssä on osoitettu.
 
 HBV:llä ei ole NS5A-vastinetta, joten mahdollista anti-HBV-vaikutusta ei voida selittää lääkkeen ensisijaisella mekanismilla. Kliininen aineisto liittyy pääosin HCV/HBV-samanaikaisinfektioon, jossa HCV-infektio paranee mutta HBV:n uudelleenaktivoituminen on dokumentoitu riski. Faasin 2 avoin tutkimus HBV-monoinfektiossa raportoi HBsAg-tason vaatimattomasta laskusta, mutta se on pieni ja yksihaarainen.
 
@@ -151,12 +151,13 @@ Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Harvoni (EMEA/H/C/003850) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
 
 <!-- review:end log -->
 

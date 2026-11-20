@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 description: "Irbesartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension"
@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **pahanlaatuiseen renovaskulaariseen hype
 
 ## Miksi ennuste on perusteltu?
 
-Irbesartaani salpaa AT1-reseptoria ja estää angiotensiini II:n verisuonia supistavan ja verenpainetta nostavan vaikutuksen. Tarkempaa mekanismikuvausta ei tämän raportin aineistossa ole saatavilla. Tunnetun lääkeryhmän perusteella mekanismi on kuitenkin biologisesti uskottava tilanteessa, jossa reniini-angiotensiinijärjestelmä on aktivoitunut.
+Irbesartaani salpaa AT1-reseptoria ja estää angiotensiini II:n verisuonia supistavan ja verenpainetta nostavan vaikutuksen. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Irbesartan (epävirallinen käännös): ”Angiotensiini II on voimakas vasokonstriktori, jota muodostuu angiotensiini I:stä angiotensiinikonvertaasin (ACE, kininaasi II) katalysoimassa reaktiossa. Angiotensiini II on reniini-angiotensiinijärjestelmän tärkein vasoaktiivinen hormoni ja tärkeä tekijä hypertension patofysiologiassa. […] Irbesartaani salpaa angiotensiini II:n verisuonia supistavat ja aldosteronin eritystä lisäävät vaikutukset sitoutumalla selektiivisesti AT 1 -angiotensiini II -reseptoriin, jota esiintyy monissa kudoksissa (esim. verisuonten sileässä lihaksessa ja lisämunuaisessa).” Englanninkielinen alkuteksti: "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), versio 2026-08-24; haettu 2026-11-20). Tunnetun lääkeryhmän perusteella mekanismi on kuitenkin biologisesti uskottava tilanteessa, jossa reniini-angiotensiinijärjestelmä on aktivoitunut.
 
 Renovaskulaarisessa hypertensiossa munuaisvaltimon ahtauma aktivoi reniini-angiotensiinijärjestelmää, joten yhteys alkuperäiseen käyttöaiheeseen on ilmeinen. Kyse on pikemminkin alkuperäisen verenpainelääkityksen laajennuksesta kuin aidosta uudelleenkäytöstä. Huomionarvoista on, että AT1-salpaajiin liittyy varoitus molemminpuolisessa munuaisvaltimon ahtaumassa, jossa ne voivat johtaa akuuttiin munuaisten vajaatoimintaan.
 
@@ -159,12 +159,13 @@ Tietämysverkosta (PrimeKG) johdetut vasta-aiheisiin viittaavat yhteydet (eivät
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kymmenen myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
 
 <!-- review:end log -->
 

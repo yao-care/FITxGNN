@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Certolizumab Pegol: ennustettu uusi käyttöaihe Häntäluun liikahypermobiliteetti (hypermobility of coccyx) (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
 ---
 
@@ -56,7 +56,7 @@ Sertolitsumabipegoli on pegyloitu TNF-α:ta neutraloiva vasta-ainefragmentti, jo
 
 ## Miksi ennuste on perusteltu?
 
-Mekanismitietoja (MOA) ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella sertolitsumabipegoli on TNF-α:ta estävä biologinen lääke, jonka teho tulehduksellisissa nivelsairauksissa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Certolizumab Pegol (epävirallinen käännös): ”Certolitsumabipegoli sitoutuu ihmisen TNFα:aan KD-arvolla 90 pM. TNFα on keskeinen tulehdusta edistävä sytokiini, jolla on keskeinen rooli tulehdusprosesseissa. Certolitsumabipegoli neutraloi selektiivisesti TNFα:aa (IC 90 4 ng/ml ihmisen TNFα:n estossa in vitro L929-hiiren fibrosarkoomasolujen sytotoksisuusmäärityksessä), mutta ei neutraloi lymfotoksiini α:aa (TNFβ).” Englanninkielinen alkuteksti: "Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ)." ([DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d), versio 2026-10-29; haettu 2026-11-20). Tunnetun tiedon perusteella sertolitsumabipegoli on TNF-α:ta estävä biologinen lääke, jonka teho tulehduksellisissa nivelsairauksissa on osoitettu.
 
 Häntäluun liikahypermobiliteetti on yleensä mekaaninen tai traumaperäinen tila, ei ensisijaisesti TNF-välitteinen tulehdussairaus. Siksi ennusteelle ei tunnisteta selkeää mekanistista perustetta. Korkea pistemäärä (0,9975) on pelkkä mallin ennuste, eikä sitä tue kliininen tai kirjallisuusnäyttö.
 
@@ -96,6 +96,19 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole tämän raportin tiedoiss
 - Pakkausselosteen turvallisuustietojen kokoamista
 - Prekliinistä tai kliinistä näyttöä TNF:n roolista häntäluun hypermobiliteetissa
 - Ennusteen mekanistisen perusteen arviointia asiantuntijoiden toimesta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

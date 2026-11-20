@@ -18432,9 +18432,9 @@
    "drug": "eltrombopag",
    "file": "eltrombopag.md",
    "action": "mechanism",
-   "claim": "Lääkkeen alkuperäistä vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin kerätyssä aineistossa.",
-   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Eltrombopag (epävirallinen käännös): ”Eltrombopagi on TPO-reseptorin agonisti, joka vuorovaikuttaa ihmisen TPO-reseptorin (tunnetaan myös nimellä cMpl) transmembraanidomeenin kanssa ja käynnistää signaalikaskadeja, jotka indusoivat megakaryosyyttien proliferaatiota ja erilaistumista, mikä johtaa verihiutaleiden tuotannon lisääntymiseen.” Englanninkielinen alkuteksti: \"Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production.\" ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), versio 2026-05-20; haettu 2026-11-19).",
-   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "claim": "Lääkkeen alkuperäistä vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin kerätyssä aineistossa. Tässä arviossa mekanismi perustuu TPO-reseptoriagonistien tunnettuun lääkeryhmävaikutukseen.",
+   "replacement": "Tässä arviossa mekanismi perustuu TPO-reseptoriagonistien tunnettuun lääkeryhmävaikutukseen. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Eltrombopag (epävirallinen käännös): ”Eltrombopagi on TPO-reseptorin agonisti, joka vuorovaikuttaa ihmisen TPO-reseptorin (tunnetaan myös nimellä cMpl) transmembraanidomeenin kanssa ja käynnistää signaalikaskadeja, jotka indusoivat megakaryosyyttien proliferaatiota ja erilaistumista, mikä johtaa verihiutaleiden tuotannon lisääntymiseen.” Englanninkielinen alkuteksti: \"Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production.\" ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), versio 2026-05-20; haettu 2026-11-19).",
+   "summary": "\"Lääkkeen alkuperäistä vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin kerätyssä aineistossa. Tässä arviossa mekanismi perustuu TPO-reseptoriagonistien tunnettuun lääkeryhmävaikutukseen\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -18451,8 +18451,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "fi-moa-20261119-eltrombopag-1",
+     "drug": "eltrombopag",
+     "file": "eltrombopag.md",
+     "action": "mechanism",
+     "claim": "Lääkkeen alkuperäistä vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin kerätyssä aineistossa.",
+     "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Eltrombopag (epävirallinen käännös): ”Eltrombopagi on TPO-reseptorin agonisti, joka vuorovaikuttaa ihmisen TPO-reseptorin (tunnetaan myös nimellä cMpl) transmembraanidomeenin kanssa ja käynnistää signaalikaskadeja, jotka indusoivat megakaryosyyttien proliferaatiota ja erilaistumista, mikä johtaa verihiutaleiden tuotannon lisääntymiseen.” Englanninkielinen alkuteksti: \"Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production.\" ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), versio 2026-05-20; haettu 2026-11-19).",
+     "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46",
+       "accessed": "2026-11-19",
+       "excerpt": "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production.",
+       "label_version": "2026-05-20",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "4af8f855-f710-e96f-e063-6294a90abb46",
+       "translation": "Eltrombopagi on TPO-reseptorin agonisti, joka vuorovaikuttaa ihmisen TPO-reseptorin (tunnetaan myös nimellä cMpl) transmembraanidomeenin kanssa ja käynnistää signaalikaskadeja, jotka indusoivat megakaryosyyttien proliferaatiota ja erilaistumista, mikä johtaa verihiutaleiden tuotannon lisääntymiseen.",
+       "translation_lang": "fi",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "fi-moa-20261119-emicizumab-1",
@@ -23708,9 +23739,9 @@
    "drug": "sunitinib",
    "file": "sunitinib.md",
    "action": "mechanism",
-   "claim": "Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu lääketietokannasta.",
-   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Sunitinib (epävirallinen käännös): ”Sunitinibi on pienimolekyylinen lääkeaine, joka estää useita reseptorityrosiinikinaaseja (RTK), joista osan tiedetään osallistuvan kasvaimen kasvuun, patologiseen angiogeneesiin ja syövän etäpesäkkeiseen etenemiseen.” Englanninkielinen alkuteksti: \"Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer.\" ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), versio 2026-02-20; haettu 2026-11-19).",
-   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "claim": "Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu lääketietokannasta. Edellä kuvattu mekanismi perustuu ennustetta tukevaan tausta-analyysiin.",
+   "replacement": "Edellä kuvattu mekanismi perustuu ennustetta tukevaan tausta-analyysiin. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Sunitinib (epävirallinen käännös): ”Sunitinibi on pienimolekyylinen lääkeaine, joka estää useita reseptorityrosiinikinaaseja (RTK), joista osan tiedetään osallistuvan kasvaimen kasvuun, patologiseen angiogeneesiin ja syövän etäpesäkkeiseen etenemiseen.” Englanninkielinen alkuteksti: \"Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer.\" ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), versio 2026-02-20; haettu 2026-11-19).",
+   "summary": "\"Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu lääketietokannasta. Edellä kuvattu mekanismi perustuu ennustetta tukevaan tausta-analyysiin\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -23727,8 +23758,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "fi-moa-20261119-sunitinib-1",
+     "drug": "sunitinib",
+     "file": "sunitinib.md",
+     "action": "mechanism",
+     "claim": "Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu lääketietokannasta.",
+     "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Sunitinib (epävirallinen käännös): ”Sunitinibi on pienimolekyylinen lääkeaine, joka estää useita reseptorityrosiinikinaaseja (RTK), joista osan tiedetään osallistuvan kasvaimen kasvuun, patologiseen angiogeneesiin ja syövän etäpesäkkeiseen etenemiseen.” Englanninkielinen alkuteksti: \"Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer.\" ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), versio 2026-02-20; haettu 2026-11-19).",
+     "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c",
+       "accessed": "2026-11-19",
+       "excerpt": "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer.",
+       "label_version": "2026-02-20",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c",
+       "translation": "Sunitinibi on pienimolekyylinen lääkeaine, joka estää useita reseptorityrosiinikinaaseja (RTK), joista osan tiedetään osallistuvan kasvaimen kasvuun, patologiseen angiogeneesiin ja syövän etäpesäkkeiseen etenemiseen.",
+       "translation_lang": "fi",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "fi-moa-20261119-susoctocog_alfa-1",
@@ -23966,9 +24028,9 @@
    "drug": "tegafur",
    "file": "tegafur.md",
    "action": "mechanism",
-   "claim": "Tällä hetkellä yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla tämän raportin tietoaineistossa.",
-   "replacement": "ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tegafur vaikutusmekanismiksi (epävirallinen käännös): ”RNA:n estäjä; tymidylaattisyntaasin estäjä; DNA:n estäjä”. Englanninkielinen alkuteksti: \"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; haettu 2026-11-19).",
-   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "claim": "Tällä hetkellä yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla tämän raportin tietoaineistossa. Perustelu nojaa tegafuurin tunnettuun farmakologiaan, ei toimitettuun tietueeseen.",
+   "replacement": "Perustelu nojaa tegafuurin tunnettuun farmakologiaan, ei toimitettuun tietueeseen. ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tegafur vaikutusmekanismiksi (epävirallinen käännös): ”RNA:n estäjä; tymidylaattisyntaasin estäjä; DNA:n estäjä”. Englanninkielinen alkuteksti: \"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; haettu 2026-11-19).",
+   "summary": "\"Tällä hetkellä yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla tämän raportin tietoaineistossa. Perustelu nojaa tegafuurin tunnettuun farmakologiaan, ei toimitettuun tietueeseen\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -23983,13 +24045,40 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
    "history": [
     {
      "retired": "2026-11-20",
      "reason": "ChEMBL 譯文後補句號",
      "replacement": "ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tegafur vaikutusmekanismiksi (epävirallinen käännös): ”RNA:n estäjä; tymidylaattisyntaasin estäjä; DNA:n estäjä” Englanninkielinen alkuteksti: \"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; haettu 2026-11-19)."
+    },
+    {
+     "id": "fi-moa-20261119-tegafur-1",
+     "drug": "tegafur",
+     "file": "tegafur.md",
+     "action": "mechanism",
+     "claim": "Tällä hetkellä yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla tämän raportin tietoaineistossa.",
+     "replacement": "ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Tegafur vaikutusmekanismiksi (epävirallinen käännös): ”RNA:n estäjä; tymidylaattisyntaasin estäjä; DNA:n estäjä”. Englanninkielinen alkuteksti: \"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; haettu 2026-11-19).",
+     "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL20883 (tegafur): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883",
+       "accessed": "2026-11-19",
+       "excerpt": "RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL20883",
+       "translation": "RNA:n estäjä; tymidylaattisyntaasin estäjä; DNA:n estäjä",
+       "translation_lang": "fi",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
     }
    ]
   },
@@ -24499,9 +24588,9 @@
    "drug": "tolvaptan",
    "file": "tolvaptan.md",
    "action": "mechanism",
-   "claim": "Tämän raportin yhteydessä koottu aineisto ei sisältänyt yksityiskohtaista vaikutusmekanismitietoa (MOA) lääketietokannasta.",
-   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tolvaptan (epävirallinen käännös): ”Tolvaptaani on selektiivinen vasopressiinin V 2 -reseptorin antagonisti, jonka affiniteetti V 2 -reseptoriin on 1,8-kertainen natiiviin arginiinivasopressiiniin (AVP) verrattuna. Tolvaptaanin affiniteetti V 2 -reseptoriin on 29-kertainen V 1a -reseptoriin verrattuna.” Englanninkielinen alkuteksti: \"Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor.\" ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), versio 2026-09-30; haettu 2026-11-19).",
-   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "claim": "Tämän raportin yhteydessä koottu aineisto ei sisältänyt yksityiskohtaista vaikutusmekanismitietoa (MOA) lääketietokannasta. Edellä kuvattu mekanismi perustuu tunnettuun lääkeluokan farmakologiaan ja kirjallisuuteen.",
+   "replacement": "Edellä kuvattu mekanismi perustuu tunnettuun lääkeluokan farmakologiaan ja kirjallisuuteen. Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tolvaptan (epävirallinen käännös): ”Tolvaptaani on selektiivinen vasopressiinin V 2 -reseptorin antagonisti, jonka affiniteetti V 2 -reseptoriin on 1,8-kertainen natiiviin arginiinivasopressiiniin (AVP) verrattuna. Tolvaptaanin affiniteetti V 2 -reseptoriin on 29-kertainen V 1a -reseptoriin verrattuna.” Englanninkielinen alkuteksti: \"Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor.\" ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), versio 2026-09-30; haettu 2026-11-19).",
+   "summary": "\"Tämän raportin yhteydessä koottu aineisto ei sisältänyt yksityiskohtaista vaikutusmekanismitietoa (MOA) lääketietokannasta. Edellä kuvattu mekanismi perustuu tunnettuun lääkeluokan farmakologiaan ja kirjallisuuteen\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -24518,8 +24607,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "fi-moa-20261119-tolvaptan-1",
+     "drug": "tolvaptan",
+     "file": "tolvaptan.md",
+     "action": "mechanism",
+     "claim": "Tämän raportin yhteydessä koottu aineisto ei sisältänyt yksityiskohtaista vaikutusmekanismitietoa (MOA) lääketietokannasta.",
+     "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Tolvaptan (epävirallinen käännös): ”Tolvaptaani on selektiivinen vasopressiinin V 2 -reseptorin antagonisti, jonka affiniteetti V 2 -reseptoriin on 1,8-kertainen natiiviin arginiinivasopressiiniin (AVP) verrattuna. Tolvaptaanin affiniteetti V 2 -reseptoriin on 29-kertainen V 1a -reseptoriin verrattuna.” Englanninkielinen alkuteksti: \"Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor.\" ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), versio 2026-09-30; haettu 2026-11-19).",
+     "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4",
+       "accessed": "2026-11-19",
+       "excerpt": "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor.",
+       "label_version": "2026-09-30",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "3febc0a1-9e5a-4ce0-843d-210f21d862c4",
+       "translation": "Tolvaptaani on selektiivinen vasopressiinin V 2 -reseptorin antagonisti, jonka affiniteetti V 2 -reseptoriin on 1,8-kertainen natiiviin arginiinivasopressiiniin (AVP) verrattuna. Tolvaptaanin affiniteetti V 2 -reseptoriin on 29-kertainen V 1a -reseptoriin verrattuna.",
+       "translation_lang": "fi",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "fi-moa-20261119-topotecan-1",
@@ -25229,6 +25349,1483 @@
     }
    ],
    "checked": "2026-11-19",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-ledipasvir-1",
+   "drug": "ledipasvir",
+   "file": "ledipasvir.md",
+   "action": "mechanism",
+   "claim": "Ledipasviirin toimintamekanismia koskevia yksityiskohtaisia tietoja ei ole tällä hetkellä saatavilla.",
+   "replacement": "ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Ledipasvir vaikutusmekanismiksi (epävirallinen käännös): ”Ei-rakenteellisen proteiinin 5A estäjä”. Englanninkielinen alkuteksti: \"Nonstructural protein 5A inhibitor\" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism",
+     "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220",
+     "accessed": "2026-11-20",
+     "excerpt": "Nonstructural protein 5A inhibitor",
+     "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+     "chembl_id": "CHEMBL2374220",
+     "translation": "Ei-rakenteellisen proteiinin 5A estäjä",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-amifampridine-1",
+   "drug": "amifampridine",
+   "file": "amifampridine.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytetyistä tiedoista ei ole saatavilla yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Amifampridine (epävirallinen käännös): ”Mekanismia, jolla amifampridiini saa aikaan terapeuttisen vaikutuksensa LEMS-potilailla, ei ole täysin selvitetty. Amifampridiini on laajakirjoinen kaliumkanavan salpaaja.” Englanninkielinen alkuteksti: \"The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker.\" ([DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f), versio 2026-04-16; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker.",
+     "label_version": "2026-04-16",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f015fe60-3128-4a43-8c31-19fc6b5def3f",
+     "translation": "Mekanismia, jolla amifampridiini saa aikaan terapeuttisen vaikutuksensa LEMS-potilailla, ei ole täysin selvitetty. Amifampridiini on laajakirjoinen kaliumkanavan salpaaja.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-amikacin-1",
+   "drug": "amikacin",
+   "file": "amikacin.md",
+   "action": "mechanism",
+   "claim": "Yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Amikacin (epävirallinen käännös): ”Amikasiini on aminoglykosidi, joka sitoutuu prokaryoottiseen ribosomiin ja estää proteiinisynteesiä herkissä bakteereissa. Se on bakterisidinen in vitro grampositiivisia ja gramnegatiivisia bakteereja vastaan.” Englanninkielinen alkuteksti: \"Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria.\" ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), versio 2026-07-27; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890",
+     "accessed": "2026-11-20",
+     "excerpt": "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria.",
+     "label_version": "2026-07-27",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f260ff2a-76a0-4672-9516-91c344b67890",
+     "translation": "Amikasiini on aminoglykosidi, joka sitoutuu prokaryoottiseen ribosomiin ja estää proteiinisynteesiä herkissä bakteereissa. Se on bakterisidinen in vitro grampositiivisia ja gramnegatiivisia bakteereja vastaan.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-apixaban-1",
+   "drug": "apixaban",
+   "file": "apixaban.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytetyissä tiedoissa apiksabaanin yksityiskohtaista vaikutusmekanismia ei ole saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Apixaban (epävirallinen käännös): ”Apiksabaani on FXa:n selektiivinen estäjä. Se ei tarvitse antitrombiini III:a antitromboottiseen vaikutukseensa. Apiksabaani estää vapaata ja hyytymään sitoutunutta FXa:ta sekä protrombinaasiaktiivisuutta. Apiksabaanilla ei ole suoraa vaikutusta verihiutaleiden aggregaatioon, mutta se estää epäsuorasti trombiinin indusoimaa verihiutaleiden aggregaatiota.” Englanninkielinen alkuteksti: \"Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin.\" ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25), versio 2026-09-24; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25",
+     "accessed": "2026-11-20",
+     "excerpt": "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin.",
+     "label_version": "2026-09-24",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "41a133ef-e461-48ad-8221-b735bdd0ec25",
+     "translation": "Apiksabaani on FXa:n selektiivinen estäjä. Se ei tarvitse antitrombiini III:a antitromboottiseen vaikutukseensa. Apiksabaani estää vapaata ja hyytymään sitoutunutta FXa:ta sekä protrombinaasiaktiivisuutta. Apiksabaanilla ei ole suoraa vaikutusta verihiutaleiden aggregaatioon, mutta se estää epäsuorasti trombiinin indusoimaa verihiutaleiden aggregaatiota.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-arsenic_trioxide-1",
+   "drug": "arsenic_trioxide",
+   "file": "arsenic_trioxide.md",
+   "action": "mechanism",
+   "claim": "Tämän lääkkeen yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla kokoamissamme tiedoissa.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Arsenic Trioxide (epävirallinen käännös): ”TRISENOXin vaikutusmekanismia ei täysin tunneta. Arseenitrioksidi aiheuttaa NB4-ihmisen promyelosyyttileukemiasoluissa in vitro apoptoosille tyypillisiä morfologisia muutoksia ja DNA:n fragmentoitumista. Arseenitrioksidi aiheuttaa myös fuusioproteiinin promyelosyyttileukemia (PML)-retinoiinihapporeseptori (RAR)-alfa vaurioitumista tai hajoamista.” Englanninkielinen alkuteksti: \"The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha.\" ([DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741), versio 2022-06-30; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha.",
+     "label_version": "2022-06-30",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "101fc347-d0ad-4aee-8b06-9feb187fd741",
+     "translation": "TRISENOXin vaikutusmekanismia ei täysin tunneta. Arseenitrioksidi aiheuttaa NB4-ihmisen promyelosyyttileukemiasoluissa in vitro apoptoosille tyypillisiä morfologisia muutoksia ja DNA:n fragmentoitumista. Arseenitrioksidi aiheuttaa myös fuusioproteiinin promyelosyyttileukemia (PML)-retinoiinihapporeseptori (RAR)-alfa vaurioitumista tai hajoamista.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-atazanavir-1",
+   "drug": "atazanavir",
+   "file": "atazanavir.md",
+   "action": "mechanism",
+   "claim": "Tähän raporttiin kootuissa tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Atazanavir (epävirallinen käännös): ”Atatsanaviiri on HIV-1:n antiretroviraalinen lääke. […] Atatsanaviiri (ATV) on atsapeptidirakenteinen HIV-1-proteaasin estäjä (PI). Yhdiste estää selektiivisesti viruksen Gag- ja Gag-Pol-polyproteiinien virusspesifistä prosessointia HIV-1-infektoituneissa soluissa ja estää siten kypsien virionien muodostumisen.” Englanninkielinen alkuteksti: \"Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions.\" ([DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8), versio 2024-12-05; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8",
+     "accessed": "2026-11-20",
+     "excerpt": "Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions.",
+     "label_version": "2024-12-05",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "165cff62-b284-4a27-a65d-9ec8a5bfcdd8",
+     "translation": "Atatsanaviiri on HIV-1:n antiretroviraalinen lääke. […] Atatsanaviiri (ATV) on atsapeptidirakenteinen HIV-1-proteaasin estäjä (PI). Yhdiste estää selektiivisesti viruksen Gag- ja Gag-Pol-polyproteiinien virusspesifistä prosessointia HIV-1-infektoituneissa soluissa ja estää siten kypsien virionien muodostumisen.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-bevacizumab-1",
+   "drug": "bevacizumab",
+   "file": "bevacizumab.md",
+   "action": "mechanism",
+   "claim": "Yksityiskohtaista vaikutusmekanismia ei ole tämän raportin tiedoissa saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Bevacizumab (epävirallinen käännös): ”Bevasitsumabivalmisteet sitoutuvat VEGF:ään ja estävät VEGF:n vuorovaikutuksen sen reseptorien (Flt-1 ja KDR) kanssa endoteelisolujen pinnalla. VEGF:n vuorovaikutus reseptoriensa kanssa johtaa endoteelisolujen proliferaatioon ja uusien verisuonten muodostumiseen angiogeneesin in vitro -malleissa.” Englanninkielinen alkuteksti: \"Bevacizumab products bind VEGF and prevent the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. The interaction of VEGF with its receptors leads to endothelial cell proliferation and new blood vessel formation in in vitro models of angiogenesis.\" ([DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe), versio 2026-08-21; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe",
+     "accessed": "2026-11-20",
+     "excerpt": "Bevacizumab products bind VEGF and prevent the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. The interaction of VEGF with its receptors leads to endothelial cell proliferation and new blood vessel formation in in vitro models of angiogenesis.",
+     "label_version": "2026-08-21",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe",
+     "translation": "Bevasitsumabivalmisteet sitoutuvat VEGF:ään ja estävät VEGF:n vuorovaikutuksen sen reseptorien (Flt-1 ja KDR) kanssa endoteelisolujen pinnalla. VEGF:n vuorovaikutus reseptoriensa kanssa johtaa endoteelisolujen proliferaatioon ja uusien verisuonten muodostumiseen angiogeneesin in vitro -malleissa.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-bimatoprost-1",
+   "drug": "bimatoprost",
+   "file": "bimatoprost.md",
+   "action": "mechanism",
+   "claim": "Tähän raporttiin kootuissa tiedoissa ei ole kuvausta bimatoprostin yksityiskohtaisesta vaikutusmekanismista.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Bimatoprost (epävirallinen käännös): ”Bimatoprosti, prostaglandiinianalogi, on prostaglandiinin synteettinen rakenneanalogi, jolla on silmänpainetta alentavaa vaikutusta. Bimatoprostin uskotaan alentavan silmänpainetta ihmisillä lisäämällä kammionesteen ulosvirtausta sekä trabekkeliverkoston (tavanomainen) että uveoskleraalisen reitin (ei-tavanomainen) kautta.” Englanninkielinen alkuteksti: \"Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional).\" ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), versio 2024-10-16; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341",
+     "accessed": "2026-11-20",
+     "excerpt": "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional).",
+     "label_version": "2024-10-16",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "3f59da84-0bcc-4c84-b3e2-e215681ef341",
+     "translation": "Bimatoprosti, prostaglandiinianalogi, on prostaglandiinin synteettinen rakenneanalogi, jolla on silmänpainetta alentavaa vaikutusta. Bimatoprostin uskotaan alentavan silmänpainetta ihmisillä lisäämällä kammionesteen ulosvirtausta sekä trabekkeliverkoston (tavanomainen) että uveoskleraalisen reitin (ei-tavanomainen) kautta.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-bupivacaine-1",
+   "drug": "bupivacaine",
+   "file": "bupivacaine.md",
+   "action": "mechanism",
+   "claim": "Yksityiskohtaista vaikutusmekanismia ei ole tässä raportissa käytettävissä.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Bupivacaine (epävirallinen käännös): ”Paikallispuudutteet estävät hermoimpulssien syntymisen ja johtumisen oletettavasti nostamalla hermon sähköisen ärsytyksen kynnystä, hidastamalla hermoimpulssin etenemistä ja vähentämällä aktiopotentiaalin nousunopeutta. Yleisesti puudutuksen eteneminen riippuu vaikutuksen kohteena olevien hermosäikeiden läpimitasta, myelinisaatiosta ja johtumisnopeudesta.” Englanninkielinen alkuteksti: \"Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers.\" ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), versio 2026-11-09; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66",
+     "accessed": "2026-11-20",
+     "excerpt": "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers.",
+     "label_version": "2026-11-09",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "bb5a9e59-0f51-11df-8a39-0800200c9a66",
+     "translation": "Paikallispuudutteet estävät hermoimpulssien syntymisen ja johtumisen oletettavasti nostamalla hermon sähköisen ärsytyksen kynnystä, hidastamalla hermoimpulssin etenemistä ja vähentämällä aktiopotentiaalin nousunopeutta. Yleisesti puudutuksen eteneminen riippuu vaikutuksen kohteena olevien hermosäikeiden läpimitasta, myelinisaatiosta ja johtumisnopeudesta.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-bupropion-1",
+   "drug": "bupropion",
+   "file": "bupropion.md",
+   "action": "mechanism",
+   "claim": "Yksityiskohtaiset mekanismitiedot eivät ole tällä hetkellä saatavilla kootusta aineistosta, joten perustelu nojaa tunnettuun farmakologiaan.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Bupropion (epävirallinen käännös): ”Tarkkaa mekanismia, jolla bupropionihydrokloridia sisältävät depottabletit (SR) parantavat potilaiden kykyä pidättäytyä tupakoinnista, ei tunneta, mutta sen oletetaan liittyvän noradrenergisiin ja/tai dopaminergisiin mekanismeihin. Bupropioni on noradrenaliinin ja dopamiinin hermosolujen takaisinoton suhteellisen heikko estäjä, eikä se estä serotoniinin takaisinottoa.” Englanninkielinen alkuteksti: \"The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin.\" ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119), versio 2026-11-11; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119",
+     "accessed": "2026-11-20",
+     "excerpt": "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin.",
+     "label_version": "2026-11-11",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "dfb45438-1116-48f2-9bfe-776ebbf1e119",
+     "translation": "Tarkkaa mekanismia, jolla bupropionihydrokloridia sisältävät depottabletit (SR) parantavat potilaiden kykyä pidättäytyä tupakoinnista, ei tunneta, mutta sen oletetaan liittyvän noradrenergisiin ja/tai dopaminergisiin mekanismeihin. Bupropioni on noradrenaliinin ja dopamiinin hermosolujen takaisinoton suhteellisen heikko estäjä, eikä se estä serotoniinin takaisinottoa.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-caffeine-1",
+   "drug": "caffeine",
+   "file": "caffeine.md",
+   "action": "mechanism",
+   "claim": "Tarkempia mekanismitietoja ei ole tässä aineistossa saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Caffeine (epävirallinen käännös): ”Kofeiini on rakenteellisesti sukua muille metyyliksantiineille, teofylliinille ja teobromiinille. Se on keuhkoputkien sileälihaksia relaksoiva aine, keskushermostoa stimuloiva aine, sydänlihasta stimuloiva aine ja diureetti. Vaikka kofeiinin vaikutusmekanismia keskosten apneassa ei tunneta, useita mekanismeja on esitetty.” Englanninkielinen alkuteksti: \"Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized.\" ([DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a), versio 2026-07-29; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a",
+     "accessed": "2026-11-20",
+     "excerpt": "Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized.",
+     "label_version": "2026-07-29",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "5f38c395-0093-4afd-89ec-f96e5dc0934a",
+     "translation": "Kofeiini on rakenteellisesti sukua muille metyyliksantiineille, teofylliinille ja teobromiinille. Se on keuhkoputkien sileälihaksia relaksoiva aine, keskushermostoa stimuloiva aine, sydänlihasta stimuloiva aine ja diureetti. Vaikka kofeiinin vaikutusmekanismia keskosten apneassa ei tunneta, useita mekanismeja on esitetty.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-cemiplimab-1",
+   "drug": "cemiplimab",
+   "file": "cemiplimab.md",
+   "action": "mechanism",
+   "claim": "Tarkempaa mekanismikuvausta ei ole tässä aineistossa saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Cemiplimab (epävirallinen käännös): ”PD-1-ligandien PD-L1 ja PD-L2 sitoutuminen T-soluissa esiintyvään PD-1-reseptoriin estää T-solujen proliferaatiota ja sytokiinien tuotantoa. PD-1-ligandien ilmentyminen on lisääntynyt joissakin kasvaimissa, ja tämän signalointireitin kautta tapahtuva signalointi voi osaltaan estää aktiivisten T-solujen kasvaimiin kohdistuvaa immuunivalvontaa. […] Semiplimabi-rwlc on rekombinantti humaani immunoglobuliini G4 (IgG4) -monoklonaalinen vasta-aine, joka sitoutuu PD-1:een ja salpaa sen vuorovaikutuksen PD-L1:n ja PD-L2:n kanssa, jolloin PD-1-reitin välittämä immuunivasteen esto, mukaan lukien kasvaimen vastainen immuunivaste, vapautuu.” Englanninkielinen alkuteksti: \"Binding of the PD-1 ligands PD-L1 and PD-L2 to the PD-1 receptor found on T cells inhibits T-cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Cemiplimab-rwlc is a recombinant human immunoglobulin G4 (IgG4) monoclonal antibody that binds to PD-1 and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response.\" ([DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a), versio 2026-08-31; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a",
+     "accessed": "2026-11-20",
+     "excerpt": "Binding of the PD-1 ligands PD-L1 and PD-L2 to the PD-1 receptor found on T cells inhibits T-cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Cemiplimab-rwlc is a recombinant human immunoglobulin G4 (IgG4) monoclonal antibody that binds to PD-1 and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response.",
+     "label_version": "2026-08-31",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "4347ae1f-d397-4f18-8b70-03897e1c054a",
+     "translation": "PD-1-ligandien PD-L1 ja PD-L2 sitoutuminen T-soluissa esiintyvään PD-1-reseptoriin estää T-solujen proliferaatiota ja sytokiinien tuotantoa. PD-1-ligandien ilmentyminen on lisääntynyt joissakin kasvaimissa, ja tämän signalointireitin kautta tapahtuva signalointi voi osaltaan estää aktiivisten T-solujen kasvaimiin kohdistuvaa immuunivalvontaa. […] Semiplimabi-rwlc on rekombinantti humaani immunoglobuliini G4 (IgG4) -monoklonaalinen vasta-aine, joka sitoutuu PD-1:een ja salpaa sen vuorovaikutuksen PD-L1:n ja PD-L2:n kanssa, jolloin PD-1-reitin välittämä immuunivasteen esto, mukaan lukien kasvaimen vastainen immuunivaste, vapautuu.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-certolizumab_pegol-1",
+   "drug": "certolizumab_pegol",
+   "file": "certolizumab_pegol.md",
+   "action": "mechanism",
+   "claim": "Mekanismitietoja (MOA) ei ole tällä hetkellä saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Certolizumab Pegol (epävirallinen käännös): ”Certolitsumabipegoli sitoutuu ihmisen TNFα:aan KD-arvolla 90 pM. TNFα on keskeinen tulehdusta edistävä sytokiini, jolla on keskeinen rooli tulehdusprosesseissa. Certolitsumabipegoli neutraloi selektiivisesti TNFα:aa (IC 90 4 ng/ml ihmisen TNFα:n estossa in vitro L929-hiiren fibrosarkoomasolujen sytotoksisuusmäärityksessä), mutta ei neutraloi lymfotoksiini α:aa (TNFβ).” Englanninkielinen alkuteksti: \"Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ).\" ([DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d), versio 2026-10-29; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d",
+     "accessed": "2026-11-20",
+     "excerpt": "Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ).",
+     "label_version": "2026-10-29",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "b4c2c9dc-a0bb-4d64-a667-a67ebe88392d",
+     "translation": "Certolitsumabipegoli sitoutuu ihmisen TNFα:aan KD-arvolla 90 pM. TNFα on keskeinen tulehdusta edistävä sytokiini, jolla on keskeinen rooli tulehdusprosesseissa. Certolitsumabipegoli neutraloi selektiivisesti TNFα:aa (IC 90 4 ng/ml ihmisen TNFα:n estossa in vitro L929-hiiren fibrosarkoomasolujen sytotoksisuusmäärityksessä), mutta ei neutraloi lymfotoksiini α:aa (TNFβ).",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-crizotinib-1",
+   "drug": "crizotinib",
+   "file": "crizotinib.md",
+   "action": "mechanism",
+   "claim": "Tarkkaa vaikutusmekanismia ei ole tämän raportin tiedoissa saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Crizotinib (epävirallinen käännös): ”Kritsotinibi on reseptorityrosiinikinaasien estäjä; näihin kuuluvat ALK, hepatosyyttien kasvutekijän reseptori (HGFR, c-Met), ROS1 (c-ros) ja Recepteur d'Origine Nantais (RON). Translokaatiot voivat vaikuttaa ALK-geeniin, mikä johtaa onkogeenisten fuusioproteiinien ilmentymiseen.” Englanninkielinen alkuteksti: \"Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins.\" ([DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7), versio 2026-10-29; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7",
+     "accessed": "2026-11-20",
+     "excerpt": "Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins.",
+     "label_version": "2026-10-29",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "2a51b0de-47d6-455e-a94c-d2c737b04ff7",
+     "translation": "Kritsotinibi on reseptorityrosiinikinaasien estäjä; näihin kuuluvat ALK, hepatosyyttien kasvutekijän reseptori (HGFR, c-Met), ROS1 (c-ros) ja Recepteur d'Origine Nantais (RON). Translokaatiot voivat vaikuttaa ALK-geeniin, mikä johtaa onkogeenisten fuusioproteiinien ilmentymiseen.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-dabigatran_etexilate-1",
+   "drug": "dabigatran_etexilate",
+   "file": "dabigatran_etexilate.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytetyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Dabigatran Etexilate (epävirallinen käännös): ”Dabigatraani ja sen asyyliglukuronidit ovat kilpailevia, suoria trombiinin estäjiä. Koska trombiini (seriiniproteaasi) mahdollistaa fibrinogeenin muuttumisen fibriiniksi hyytymiskaskadin aikana, sen estäminen estää trombin muodostumisen.” Englanninkielinen alkuteksti: \"Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus.\" ([DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901), versio 2026-11-02; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901",
+     "accessed": "2026-11-20",
+     "excerpt": "Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus.",
+     "label_version": "2026-11-02",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "39ac558a-b375-f3c1-e063-6394a90aa901",
+     "translation": "Dabigatraani ja sen asyyliglukuronidit ovat kilpailevia, suoria trombiinin estäjiä. Koska trombiini (seriiniproteaasi) mahdollistaa fibrinogeenin muuttumisen fibriiniksi hyytymiskaskadin aikana, sen estäminen estää trombin muodostumisen.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-dalbavancin-1",
+   "drug": "dalbavancin",
+   "file": "dalbavancin.md",
+   "action": "mechanism",
+   "claim": "Tarkempia mekanismitietoja ei ole tässä raportissa käytetyissä tiedoissa saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Dalbavancin (epävirallinen käännös): ”Dalbavansiini on antibakteerinen lääke. […] Dalbavansiini, puolisynteettinen lipoglykopeptidi, häiritsee soluseinän synteesiä sitoutumalla muodostumassa olevan soluseinän peptidoglykaanin runkopentapeptidin D-alanyyli-D-alaniini-päätteeseen ja estää siten ristisidosten muodostumisen. Dalbavansiini on bakterisidinen in vitro Staphylococcus aureusta ja Streptococcus pyogenesta vastaan pitoisuuksina, jotka vastaavat pitoisuuksia, jotka säilyvät koko hoidon ajan suositellun annostusohjelman mukaisesti hoidetuilla ihmisillä.” Englanninkielinen alkuteksti: \"Dalbavancin is an antibacterial drug. […] Dalbavancin, a semisynthetic lipoglycopeptide, interferes with cell wall synthesis by binding to the D-alanyl-D-alanine terminus of the stem pentapeptide in nascent cell wall peptidoglycan, thus preventing cross-linking. Dalbavancin is bactericidal in vitro against Staphylococcus aureus and Streptococcus pyogenes at concentrations similar to those sustained throughout treatment in humans treated according to the recommended dosage regimen.\" ([DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c), versio 2025-01-13; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c",
+     "accessed": "2026-11-20",
+     "excerpt": "Dalbavancin is an antibacterial drug. […] Dalbavancin, a semisynthetic lipoglycopeptide, interferes with cell wall synthesis by binding to the D-alanyl-D-alanine terminus of the stem pentapeptide in nascent cell wall peptidoglycan, thus preventing cross-linking. Dalbavancin is bactericidal in vitro against Staphylococcus aureus and Streptococcus pyogenes at concentrations similar to those sustained throughout treatment in humans treated according to the recommended dosage regimen.",
+     "label_version": "2025-01-13",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "4b4674d8-4d1e-4728-8465-d42ada33fa5c",
+     "translation": "Dalbavansiini on antibakteerinen lääke. […] Dalbavansiini, puolisynteettinen lipoglykopeptidi, häiritsee soluseinän synteesiä sitoutumalla muodostumassa olevan soluseinän peptidoglykaanin runkopentapeptidin D-alanyyli-D-alaniini-päätteeseen ja estää siten ristisidosten muodostumisen. Dalbavansiini on bakterisidinen in vitro Staphylococcus aureusta ja Streptococcus pyogenesta vastaan pitoisuuksina, jotka vastaavat pitoisuuksia, jotka säilyvät koko hoidon ajan suositellun annostusohjelman mukaisesti hoidetuilla ihmisillä.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-daptomycin-1",
+   "drug": "daptomycin",
+   "file": "daptomycin.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin laadinnassa käytetyissä tiedoissa daptomysiinin yksityiskohtainen vaikutusmekanismi ei ole saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Daptomycin (epävirallinen käännös): ”Daptomysiini on antibakteerinen lääke. […] Daptomysiini sitoutuu bakteerien solukalvoihin ja aiheuttaa kalvopotentiaalin nopean depolarisaation. Tämä kalvopotentiaalin menetys estää DNA:n, RNA:n ja proteiinien synteesiä, mikä johtaa bakteerisolun kuolemaan.” Englanninkielinen alkuteksti: \"Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death.\" ([DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8), versio 2022-01-25; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8",
+     "accessed": "2026-11-20",
+     "excerpt": "Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death.",
+     "label_version": "2022-01-25",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "cb1283e1-35b8-425c-b338-d9ac0c7161f8",
+     "translation": "Daptomysiini on antibakteerinen lääke. […] Daptomysiini sitoutuu bakteerien solukalvoihin ja aiheuttaa kalvopotentiaalin nopean depolarisaation. Tämä kalvopotentiaalin menetys estää DNA:n, RNA:n ja proteiinien synteesiä, mikä johtaa bakteerisolun kuolemaan.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-daunorubicin-1",
+   "drug": "daunorubicin",
+   "file": "daunorubicin.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytettävissä olevissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Daunorubicin (epävirallinen käännös): ”Daunorubisiinilla on antimitoottista ja sytotoksista vaikutusta useiden ehdotettujen vaikutusmekanismien kautta. Daunorubisiini muodostaa komplekseja DNA:n kanssa interkaloitumalla emäsparien väliin. Se estää topoisomeraasi II:n aktiivisuutta stabiloimalla DNA–topoisomeraasi II -kompleksin, mikä estää topoisomeraasi II:n katalysoiman ligaatio-religaatioreaktion religaatiovaiheen.” Englanninkielinen alkuteksti: \"Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes.\" ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), versio 2025-05-21; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f",
+     "accessed": "2026-11-20",
+     "excerpt": "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes.",
+     "label_version": "2025-05-21",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f",
+     "translation": "Daunorubisiinilla on antimitoottista ja sytotoksista vaikutusta useiden ehdotettujen vaikutusmekanismien kautta. Daunorubisiini muodostaa komplekseja DNA:n kanssa interkaloitumalla emäsparien väliin. Se estää topoisomeraasi II:n aktiivisuutta stabiloimalla DNA–topoisomeraasi II -kompleksin, mikä estää topoisomeraasi II:n katalysoiman ligaatio-religaatioreaktion religaatiovaiheen.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-delamanid-1",
+   "drug": "delamanid",
+   "file": "delamanid.md",
+   "action": "mechanism",
+   "claim": "Delamanidin tarkkaa vaikutusmekanismia ei ole tämän raportin tiedoissa saatavilla.",
+   "replacement": "ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Delamanid vaikutusmekanismiksi (epävirallinen käännös): ”Mycobacterium tuberculosis H37Rv:n estäjä”. Englanninkielinen alkuteksti: \"Mycobacterium tuberculosis H37Rv inhibitor\" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "ChEMBL CHEMBL218650 (delamanid): drug mechanism",
+     "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650",
+     "accessed": "2026-11-20",
+     "excerpt": "Mycobacterium tuberculosis H37Rv inhibitor",
+     "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+     "chembl_id": "CHEMBL218650",
+     "translation": "Mycobacterium tuberculosis H37Rv:n estäjä",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-diflunisal-1",
+   "drug": "diflunisal",
+   "file": "diflunisal.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin varten kootuissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Diflunisal (epävirallinen käännös): ”Diflunisaalin analgeettisen ja tulehdusta estävän vaikutuksen tarkkaa mekanismia ei tunneta. Diflunisaali on prostaglandiinisyntetaasin estäjä. Eläimillä prostaglandiinit herkistävät afferentteja hermoja ja voimistavat bradykiniinin kipua aiheuttavaa vaikutusta.” Englanninkielinen alkuteksti: \"The precise mechanism of the analgesic and anti-inflammatory actions of diflunisal is not known. Diflunisal is a prostaglandin synthetase inhibitor. In animals, prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain.\" ([DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b), versio 2025-10-06; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b",
+     "accessed": "2026-11-20",
+     "excerpt": "The precise mechanism of the analgesic and anti-inflammatory actions of diflunisal is not known. Diflunisal is a prostaglandin synthetase inhibitor. In animals, prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain.",
+     "label_version": "2025-10-06",
+     "section": "Clinical Pharmacology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "725234b2-0e23-45c3-a42d-eb4e62273f9b",
+     "translation": "Diflunisaalin analgeettisen ja tulehdusta estävän vaikutuksen tarkkaa mekanismia ei tunneta. Diflunisaali on prostaglandiinisyntetaasin estäjä. Eläimillä prostaglandiinit herkistävät afferentteja hermoja ja voimistavat bradykiniinin kipua aiheuttavaa vaikutusta.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-docetaxel-1",
+   "drug": "docetaxel",
+   "file": "docetaxel.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytetyissä tiedoissa ei ole tarkkaa vaikutusmekanismikuvausta.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Docetaxel (epävirallinen käännös): ”Dosetakseli on antineoplastinen aine, joka vaikuttaa hajottamalla solujen mikrotubulusverkoston, joka on välttämätön mitoosin ja interfaasin solutoiminnoille. Dosetakseli sitoutuu vapaaseen tubuliiniin ja edistää tubuliinin kokoontumista stabiileiksi mikrotubuluksiksi samalla estäen niiden purkautumista.” Englanninkielinen alkuteksti: \"Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly.\" ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), versio 2025-12-17; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b",
+     "accessed": "2026-11-20",
+     "excerpt": "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly.",
+     "label_version": "2025-12-17",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "8fb7d980-d6c7-468b-a9f0-adff16101a4b",
+     "translation": "Dosetakseli on antineoplastinen aine, joka vaikuttaa hajottamalla solujen mikrotubulusverkoston, joka on välttämätön mitoosin ja interfaasin solutoiminnoille. Dosetakseli sitoutuu vapaaseen tubuliiniin ja edistää tubuliinin kokoontumista stabiileiksi mikrotubuluksiksi samalla estäen niiden purkautumista.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-doravirine-1",
+   "drug": "doravirine",
+   "file": "doravirine.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytetyissä tiedoissa doravirinin tarkkaa vaikutusmekanismia ei ole saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Doravirine (epävirallinen käännös): ”Doraviriini on antiretroviraalinen lääke. […] Doraviriini on pyridinonirakenteinen HIV-1:n ei-nukleosidirakenteinen käänteiskopioijaentsyymin estäjä, ja se estää HIV-1:n replikaatiota estämällä ei-kilpailevasti HIV-1:n käänteiskopioijaentsyymiä (RT). Doraviriinin 50 %:n estopitoisuus (IC 50 ) rekombinantin villityypin HIV-1 RT:n RNA-riippuvaiselle DNA-polymeraatiolle biokemiallisessa määrityksessä oli 12,2±2,0 nM (n=3).” Englanninkielinen alkuteksti: \"Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3).\" ([DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25), versio 2026-07-09; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25",
+     "accessed": "2026-11-20",
+     "excerpt": "Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3).",
+     "label_version": "2026-07-09",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "ff06e5cc-f47a-4779-816b-0e5b13e88a25",
+     "translation": "Doraviriini on antiretroviraalinen lääke. […] Doraviriini on pyridinonirakenteinen HIV-1:n ei-nukleosidirakenteinen käänteiskopioijaentsyymin estäjä, ja se estää HIV-1:n replikaatiota estämällä ei-kilpailevasti HIV-1:n käänteiskopioijaentsyymiä (RT). Doraviriinin 50 %:n estopitoisuus (IC 50 ) rekombinantin villityypin HIV-1 RT:n RNA-riippuvaiselle DNA-polymeraatiolle biokemiallisessa määrityksessä oli 12,2±2,0 nM (n=3).",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-dupilumab-1",
+   "drug": "dupilumab",
+   "file": "dupilumab.md",
+   "action": "mechanism",
+   "claim": "Tarkemmat mekanismitiedot eivät ole tämän raportin tiedoissa saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Dupilumab (epävirallinen käännös): ”Dupilumabi on ihmisen monoklonaalinen IgG4-vasta-aine, joka estää interleukiini-4:n (IL-4) ja interleukiini-13:n (IL-13) signaalinvälitystä sitoutumalla spesifisesti IL-4Rα-alayksikköön, joka on yhteinen IL-4- ja IL-13-reseptorikomplekseille. Dupilumabi estää IL-4-signaalinvälitystä tyypin I reseptorin kautta sekä sekä IL-4- että IL-13-signaalinvälitystä tyypin II reseptorin kautta.” Englanninkielinen alkuteksti: \"Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor.\" ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), versio 2026-04-22; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780",
+     "accessed": "2026-11-20",
+     "excerpt": "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor.",
+     "label_version": "2026-04-22",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "595f437d-2729-40bb-9c62-c8ece1f82780",
+     "translation": "Dupilumabi on ihmisen monoklonaalinen IgG4-vasta-aine, joka estää interleukiini-4:n (IL-4) ja interleukiini-13:n (IL-13) signaalinvälitystä sitoutumalla spesifisesti IL-4Rα-alayksikköön, joka on yhteinen IL-4- ja IL-13-reseptorikomplekseille. Dupilumabi estää IL-4-signaalinvälitystä tyypin I reseptorin kautta sekä sekä IL-4- että IL-13-signaalinvälitystä tyypin II reseptorin kautta.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-elvitegravir-1",
+   "drug": "elvitegravir",
+   "file": "elvitegravir.md",
+   "action": "mechanism",
+   "claim": "Yksityiskohtaisia mekanismitietoja ei ole tässä raportissa käytetyissä tiedoissa saatavilla, mutta tunnettu lääkeluokka on selvä.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (yhdistelmävalmiste, joka sisältää aineen Elvitegravir) (epävirallinen käännös): ”STRIBILD on antiretroviraalisten lääkkeiden elvitegraviirin (jonka vaikutusta tehostaa CYP3A:n estäjä kobisistaatti), emtrisitabiinin ja TDF:n kiinteäannoksinen yhdistelmä.” Englanninkielinen alkuteksti: \"STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF.\" ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), versio 2025-02-04; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee",
+     "accessed": "2026-11-20",
+     "excerpt": "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF.",
+     "label_version": "2025-02-04",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "74ae2a93-b267-444c-8f0f-a2a6522260ee",
+     "translation": "STRIBILD on antiretroviraalisten lääkkeiden elvitegraviirin (jonka vaikutusta tehostaa CYP3A:n estäjä kobisistaatti), emtrisitabiinin ja TDF:n kiinteäannoksinen yhdistelmä.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-ertapenem-1",
+   "drug": "ertapenem",
+   "file": "ertapenem.md",
+   "action": "mechanism",
+   "claim": "Lääkeaineen mekanismitietoja ei ole tähän raporttiin koottu aineistossa kirjattuna, joten perustelu nojaa lääkeryhmän tunnettuun vaikutustapaan.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Ertapenem (epävirallinen käännös): ”Ertapeneeminatrium on karbapeneemiantibiootti. […] Ertapeneemilla on in vitro -aktiivisuutta grampositiivisia ja gramnegatiivisia aerobisia ja anaerobisia bakteereja vastaan. Ertapeneemin bakterisidinen vaikutus johtuu soluseinän synteesin estymisestä, ja sitä välittää ertapeneemin sitoutuminen penisilliiniä sitoviin proteiineihin (PBP).” Englanninkielinen alkuteksti: \"Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs).\" ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), versio 2026-02-04; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22",
+     "accessed": "2026-11-20",
+     "excerpt": "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs).",
+     "label_version": "2026-02-04",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "33f3b99b-fa82-42e0-26bf-f49891ae3d22",
+     "translation": "Ertapeneeminatrium on karbapeneemiantibiootti. […] Ertapeneemilla on in vitro -aktiivisuutta grampositiivisia ja gramnegatiivisia aerobisia ja anaerobisia bakteereja vastaan. Ertapeneemin bakterisidinen vaikutus johtuu soluseinän synteesin estymisestä, ja sitä välittää ertapeneemin sitoutuminen penisilliiniä sitoviin proteiineihin (PBP).",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-etravirine-1",
+   "drug": "etravirine",
+   "file": "etravirine.md",
+   "action": "mechanism",
+   "claim": "Tarkempia mekanismitietoja ei ole tässä raportissa käytettävissä olevassa aineistossa.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Etravirine (epävirallinen käännös): ”Etraviriini on antiretroviraalinen lääke. […] Etraviriini on HIV-1:n NNRTI. Etraviriini sitoutuu suoraan käänteiskopioijaentsyymiin (RT) ja estää RNA-riippuvaisen ja DNA-riippuvaisen DNA-polymeraasiaktiivisuuden aiheuttamalla häiriön entsyymin katalyyttisessä kohdassa. Etraviriini ei estä ihmisen DNA-polymeraaseja α, β ja γ.” Englanninkielinen alkuteksti: \"Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ.\" ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d), versio 2023-08-15; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d",
+     "accessed": "2026-11-20",
+     "excerpt": "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ.",
+     "label_version": "2023-08-15",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "6a9cbc29-9f15-4b24-8d86-206b82887f3d",
+     "translation": "Etraviriini on antiretroviraalinen lääke. […] Etraviriini on HIV-1:n NNRTI. Etraviriini sitoutuu suoraan käänteiskopioijaentsyymiin (RT) ja estää RNA-riippuvaisen ja DNA-riippuvaisen DNA-polymeraasiaktiivisuuden aiheuttamalla häiriön entsyymin katalyyttisessä kohdassa. Etraviriini ei estä ihmisen DNA-polymeraaseja α, β ja γ.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-febuxostat-1",
+   "drug": "febuxostat",
+   "file": "febuxostat.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytetyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismikuvausta.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Febuxostat (epävirallinen käännös): ”ULORIC on ksantiinioksidaasin estäjä, joka saa aikaan hoitovaikutuksensa pienentämällä seerumin virtsahappopitoisuutta. ULORICin ei odoteta estävän muita puriinien ja pyrimidiinien synteesiin ja metaboliaan osallistuvia entsyymejä hoitopitoisuuksina.” Englanninkielinen alkuteksti: \"ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations.\" ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), versio 2025-12-24; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd",
+     "accessed": "2026-11-20",
+     "excerpt": "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations.",
+     "label_version": "2025-12-24",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "54de10ef-fe5f-4930-b91d-6bbb04c664bd",
+     "translation": "ULORIC on ksantiinioksidaasin estäjä, joka saa aikaan hoitovaikutuksensa pienentämällä seerumin virtsahappopitoisuutta. ULORICin ei odoteta estävän muita puriinien ja pyrimidiinien synteesiin ja metaboliaan osallistuvia entsyymejä hoitopitoisuuksina.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-fosaprepitant-1",
+   "drug": "fosaprepitant",
+   "file": "fosaprepitant.md",
+   "action": "mechanism",
+   "claim": "Fosaprepitantin yksityiskohtaista vaikutusmekanismia ei ole saatavilla kootuissa tiedoissa.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Fosaprepitant (epävirallinen käännös): ”Fosaprepitantti on aprepitantin aihiolääke, ja näin ollen sen antiemeettiset vaikutukset johtuvat aprepitantista. Aprepitantti on ihmisen substanssi P/neurokiniini 1 (NK-1) -reseptorien selektiivinen, suuren affiniteetin antagonisti. Aprepitantilla on vähän tai ei lainkaan affiniteettia serotoniini- (5-HT 3 ), dopamiini- ja kortikosteroidireseptoreihin, jotka ovat solunsalpaajahoidon aiheuttaman pahoinvoinnin ja oksentelun (CINV) nykyisten hoitojen kohteita.” Englanninkielinen alkuteksti: \"Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV).\" ([DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169), versio 2026-07-29; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169",
+     "accessed": "2026-11-20",
+     "excerpt": "Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV).",
+     "label_version": "2026-07-29",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "a41b7c3a-1376-43a7-b5b9-6ba2eba1e169",
+     "translation": "Fosaprepitantti on aprepitantin aihiolääke, ja näin ollen sen antiemeettiset vaikutukset johtuvat aprepitantista. Aprepitantti on ihmisen substanssi P/neurokiniini 1 (NK-1) -reseptorien selektiivinen, suuren affiniteetin antagonisti. Aprepitantilla on vähän tai ei lainkaan affiniteettia serotoniini- (5-HT 3 ), dopamiini- ja kortikosteroidireseptoreihin, jotka ovat solunsalpaajahoidon aiheuttaman pahoinvoinnin ja oksentelun (CINV) nykyisten hoitojen kohteita.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-gefitinib-1",
+   "drug": "gefitinib",
+   "file": "gefitinib.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin laatimiseen kerätyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Gefitinib (epävirallinen käännös): ”Epidermaalisen kasvutekijän reseptoria (EGFR) ilmentyy sekä normaalien solujen että syöpäsolujen pinnalla, ja sillä on rooli solujen kasvun ja proliferaation prosesseissa. Joidenkin EGFR:ää aktivoivien mutaatioiden (eksonin 19 deleetio tai eksonin 21 pistemutaatio L858R) NSCLC-soluissa on todettu edistävän kasvainsolujen kasvua, estävän apoptoosia, lisäävän angiogeenisten tekijöiden tuotantoa ja helpottavan etäpesäkkeiden muodostumisen prosesseja. […] Gefitinibi estää palautuvasti villityypin EGFR:n ja tiettyjen EGFR:ää aktivoivien mutaatioiden kinaasiaktiivisuutta ja estää reseptoriin liittyvien tyrosiinitähteiden autofosforylaation, mikä estää signaalinvälityksen alavirtaan ja salpaa EGFR-riippuvaisen proliferaation.” Englanninkielinen alkuteksti: \"The epidermal growth factor receptor (EGFR) is expressed on the cell surface of both normal and cancer cells and plays a role in the processes of cell growth and proliferation. Some EGFR activating mutations (exon 19 deletion or exon 21 point mutation L858R) within NSCLC cells have been identified as contributing to the promotion of tumor cell growth, blocking of apoptosis, increasing the production of angiogenic factors and facilitating the processes of metastasis. […] Gefitinib reversibly inhibits the kinase activity of wild-type and certain activating mutations of EGFR, preventing autophosphorylation of tyrosine residues associated with the receptor, thereby inhibiting further downstream signaling and blocking EGFR-dependent proliferation.\" ([DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41), versio 2023-02-28; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41",
+     "accessed": "2026-11-20",
+     "excerpt": "The epidermal growth factor receptor (EGFR) is expressed on the cell surface of both normal and cancer cells and plays a role in the processes of cell growth and proliferation. Some EGFR activating mutations (exon 19 deletion or exon 21 point mutation L858R) within NSCLC cells have been identified as contributing to the promotion of tumor cell growth, blocking of apoptosis, increasing the production of angiogenic factors and facilitating the processes of metastasis. […] Gefitinib reversibly inhibits the kinase activity of wild-type and certain activating mutations of EGFR, preventing autophosphorylation of tyrosine residues associated with the receptor, thereby inhibiting further downstream signaling and blocking EGFR-dependent proliferation.",
+     "label_version": "2023-02-28",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "827d60e8-7e07-41b7-c28b-49ef1c4a5a41",
+     "translation": "Epidermaalisen kasvutekijän reseptoria (EGFR) ilmentyy sekä normaalien solujen että syöpäsolujen pinnalla, ja sillä on rooli solujen kasvun ja proliferaation prosesseissa. Joidenkin EGFR:ää aktivoivien mutaatioiden (eksonin 19 deleetio tai eksonin 21 pistemutaatio L858R) NSCLC-soluissa on todettu edistävän kasvainsolujen kasvua, estävän apoptoosia, lisäävän angiogeenisten tekijöiden tuotantoa ja helpottavan etäpesäkkeiden muodostumisen prosesseja. […] Gefitinibi estää palautuvasti villityypin EGFR:n ja tiettyjen EGFR:ää aktivoivien mutaatioiden kinaasiaktiivisuutta ja estää reseptoriin liittyvien tyrosiinitähteiden autofosforylaation, mikä estää signaalinvälityksen alavirtaan ja salpaa EGFR-riippuvaisen proliferaation.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-ibuprofen-1",
+   "drug": "ibuprofen",
+   "file": "ibuprofen.md",
+   "action": "mechanism",
+   "claim": "Tarkempia mekanismitietoja ei ole tämän raportin aineistossa saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Ibuprofen (epävirallinen käännös): ”Ibuprofeenilla on analgeettisia, tulehdusta lievittäviä ja kuumetta alentavia ominaisuuksia. CALDOLORin vaikutusmekanismia, kuten muidenkaan tulehduskipulääkkeiden (NSAID) vaikutusmekanismia, ei täysin tunneta, mutta siihen liittyy syklo-oksigenaasin (COX-1 ja COX-2) estäminen.” Englanninkielinen alkuteksti: \"Ibuprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of CALDOLOR, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2).\" ([DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684), versio 2026-01-29; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684",
+     "accessed": "2026-11-20",
+     "excerpt": "Ibuprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of CALDOLOR, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2).",
+     "label_version": "2026-01-29",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "1eaa7790-f1a1-4f51-b10a-cbbaf033f684",
+     "translation": "Ibuprofeenilla on analgeettisia, tulehdusta lievittäviä ja kuumetta alentavia ominaisuuksia. CALDOLORin vaikutusmekanismia, kuten muidenkaan tulehduskipulääkkeiden (NSAID) vaikutusmekanismia, ei täysin tunneta, mutta siihen liittyy syklo-oksigenaasin (COX-1 ja COX-2) estäminen.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-irbesartan-1",
+   "drug": "irbesartan",
+   "file": "irbesartan.md",
+   "action": "mechanism",
+   "claim": "Tarkempaa mekanismikuvausta ei tämän raportin aineistossa ole saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Irbesartan (epävirallinen käännös): ”Angiotensiini II on voimakas vasokonstriktori, jota muodostuu angiotensiini I:stä angiotensiinikonvertaasin (ACE, kininaasi II) katalysoimassa reaktiossa. Angiotensiini II on reniini-angiotensiinijärjestelmän tärkein vasoaktiivinen hormoni ja tärkeä tekijä hypertension patofysiologiassa. […] Irbesartaani salpaa angiotensiini II:n verisuonia supistavat ja aldosteronin eritystä lisäävät vaikutukset sitoutumalla selektiivisesti AT 1 -angiotensiini II -reseptoriin, jota esiintyy monissa kudoksissa (esim. verisuonten sileässä lihaksessa ja lisämunuaisessa).” Englanninkielinen alkuteksti: \"Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland).\" ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), versio 2026-08-24; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98",
+     "accessed": "2026-11-20",
+     "excerpt": "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland).",
+     "label_version": "2026-08-24",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "7885b2a8-be4e-48ab-8113-4e6ab791eb98",
+     "translation": "Angiotensiini II on voimakas vasokonstriktori, jota muodostuu angiotensiini I:stä angiotensiinikonvertaasin (ACE, kininaasi II) katalysoimassa reaktiossa. Angiotensiini II on reniini-angiotensiinijärjestelmän tärkein vasoaktiivinen hormoni ja tärkeä tekijä hypertension patofysiologiassa. […] Irbesartaani salpaa angiotensiini II:n verisuonia supistavat ja aldosteronin eritystä lisäävät vaikutukset sitoutumalla selektiivisesti AT 1 -angiotensiini II -reseptoriin, jota esiintyy monissa kudoksissa (esim. verisuonten sileässä lihaksessa ja lisämunuaisessa).",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-lidocaine-1",
+   "drug": "lidocaine",
+   "file": "lidocaine.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin varten kootuissa tiedoissa ei ole tällä hetkellä yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Lidocaine (epävirallinen käännös): ”Lidokaiinihydrokloridi saa aikaan rytmihäiriöitä estävän vaikutuksen suurentamalla kammion sähköisen ärsytyksen kynnystä diastolen aikana. Tavanomaisina hoitoannoksina lidokaiinihydrokloridi ei muuta sydänlihaksen supistuvuutta, systeemistä valtimopainetta eikä absoluuttista refraktaariaikaa.” Englanninkielinen alkuteksti: \"Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period.\" ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0), versio 2026-02-20; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0",
+     "accessed": "2026-11-20",
+     "excerpt": "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period.",
+     "label_version": "2026-02-20",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f21512ea-c7c3-4766-b976-b2c0b5616bf0",
+     "translation": "Lidokaiinihydrokloridi saa aikaan rytmihäiriöitä estävän vaikutuksen suurentamalla kammion sähköisen ärsytyksen kynnystä diastolen aikana. Tavanomaisina hoitoannoksina lidokaiinihydrokloridi ei muuta sydänlihaksen supistuvuutta, systeemistä valtimopainetta eikä absoluuttista refraktaariaikaa.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-loxapine-1",
+   "drug": "loxapine",
+   "file": "loxapine.md",
+   "action": "mechanism",
+   "claim": "Aineistossa ei ole erillistä mekanismikuvausta, joten tämä perustuu lääkeluokan tunnettuun farmakologiaan.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Clinical Pharmacology” mukaan valmisteesta Loxapine (epävirallinen käännös): ”Farmakologisesti loksapiini on psykoosilääke, jonka tarkkaa vaikutustapaa ei ole selvitetty. Useilla eläinlajeilla on kuitenkin havaittu muutoksia subkortikaalisten inhibitoristen alueiden ärtyvyystasossa rauhoittumisen ilmenemismuotojen, kuten rauhoittavien vaikutusten ja aggressiivisen käyttäytymisen vaimenemisen, yhteydessä.” Englanninkielinen alkuteksti: \"Pharmacologically, loxapine is an antipsychotic for which the exact mode of action has not been established. However, changes in the level of excitability of subcortical inhibitory areas have been observed in several animal species in association with such manifestations of tranquilization as calming effects and suppression of aggressive behavior.\" ([DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e), versio 2026-11-03; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: loxapine prescribing information, Chartwell RX, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e",
+     "accessed": "2026-11-20",
+     "excerpt": "Pharmacologically, loxapine is an antipsychotic for which the exact mode of action has not been established. However, changes in the level of excitability of subcortical inhibitory areas have been observed in several animal species in association with such manifestations of tranquilization as calming effects and suppression of aggressive behavior.",
+     "label_version": "2026-11-03",
+     "section": "Clinical Pharmacology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "3e412c36-66b0-444b-833b-cea79976844e",
+     "translation": "Farmakologisesti loksapiini on psykoosilääke, jonka tarkkaa vaikutustapaa ei ole selvitetty. Useilla eläinlajeilla on kuitenkin havaittu muutoksia subkortikaalisten inhibitoristen alueiden ärtyvyystasossa rauhoittumisen ilmenemismuotojen, kuten rauhoittavien vaikutusten ja aggressiivisen käyttäytymisen vaimenemisen, yhteydessä.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-methoxy_polyethylene_glycol-epoetin_beta-1",
+   "drug": "methoxy_polyethylene_glycol-epoetin_beta",
+   "file": "methoxy_polyethylene_glycol-epoetin_beta.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin laatimiseen kootuissa tiedoissa lääkkeen vaikutusmekanismia ei ole saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Methoxy Polyethylene Glycol-Epoetin Beta (epävirallinen käännös): ”Mircera on erytropoietiinireseptorin aktivaattori, jolla on erytropoietiiniin verrattuna suurempi aktiivisuus in vivo sekä pidempi puoliintumisaika. Erytropoietiini on erytroidisolujen kehityksen ensisijainen kasvutekijä, jota tuotetaan munuaisissa ja vapautuu verenkiertoon hypoksian seurauksena.” Englanninkielinen alkuteksti: \"Mircera is an erythropoietin receptor activator with greater activity in vivo as well as increased half-life, in contrast to erythropoietin. A primary growth factor for erythroid development, erythropoietin is produced in the kidney and released into the bloodstream in response to hypoxia.\" ([DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88), versio 2026-08-14; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88",
+     "accessed": "2026-11-20",
+     "excerpt": "Mircera is an erythropoietin receptor activator with greater activity in vivo as well as increased half-life, in contrast to erythropoietin. A primary growth factor for erythroid development, erythropoietin is produced in the kidney and released into the bloodstream in response to hypoxia.",
+     "label_version": "2026-08-14",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "22c56f2a-f73c-60e7-e054-00144ff88e88",
+     "translation": "Mircera on erytropoietiinireseptorin aktivaattori, jolla on erytropoietiiniin verrattuna suurempi aktiivisuus in vivo sekä pidempi puoliintumisaika. Erytropoietiini on erytroidisolujen kehityksen ensisijainen kasvutekijä, jota tuotetaan munuaisissa ja vapautuu verenkiertoon hypoksian seurauksena.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-mycophenolate_mofetil-1",
+   "drug": "mycophenolate_mofetil",
+   "file": "mycophenolate_mofetil.md",
+   "action": "mechanism",
+   "claim": "Aineistossa mekanismitietoa ei ole kirjattu lääketietokannan MOA-kenttään, mutta ennusteen perustelutiedoissa tämä mekanismi on kuvattu.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Mycophenolate Mofetil (epävirallinen käännös): ”Mykofenolaattimofetiili (MMF) imeytyy suun kautta annon jälkeen ja hydrolysoituu mykofenolihapoksi (MPA), joka on aktiivinen metaboliitti. MPA on inosiinimonofosfaattidehydrogenaasin (IMPDH) kahden isoformin (tyyppi I ja tyyppi II) selektiivinen epäkompetitiivinen estäjä, mikä johtaa guanosiininukleotidisynteesin de novo -reitin estymiseen ja estää DNA-synteesiä.” Englanninkielinen alkuteksti: \"Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis.\" ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), versio 2026-07-31; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9",
+     "accessed": "2026-11-20",
+     "excerpt": "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis.",
+     "label_version": "2026-07-31",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9",
+     "translation": "Mykofenolaattimofetiili (MMF) imeytyy suun kautta annon jälkeen ja hydrolysoituu mykofenolihapoksi (MPA), joka on aktiivinen metaboliitti. MPA on inosiinimonofosfaattidehydrogenaasin (IMPDH) kahden isoformin (tyyppi I ja tyyppi II) selektiivinen epäkompetitiivinen estäjä, mikä johtaa guanosiininukleotidisynteesin de novo -reitin estymiseen ja estää DNA-synteesiä.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-panitumumab-1",
+   "drug": "panitumumab",
+   "file": "panitumumab.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytettävissä olevissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Panitumumab (epävirallinen käännös): ”EGFR on transmembraaninen glykoproteiini, joka kuuluu tyypin I reseptorityrosiinikinaasien alaperheeseen, johon kuuluvat EGFR, HER2, HER3 ja HER4. EGFR:ää ilmentyy konstitutiivisesti normaaleissa epiteelikudoksissa, mukaan lukien iho ja karvatupet. […] Panitumumabi sitoutuu spesifisesti EGFR:ään sekä normaaleissa soluissa että kasvainsoluissa ja estää kilpailevasti ligandien sitoutumisen EGFR:ään.” Englanninkielinen alkuteksti: \"The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR.\" ([DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2), versio 2026-06-23; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2",
+     "accessed": "2026-11-20",
+     "excerpt": "The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR.",
+     "label_version": "2026-06-23",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "e0fa4bca-f245-4d92-ae29-b0c630a315c2",
+     "translation": "EGFR on transmembraaninen glykoproteiini, joka kuuluu tyypin I reseptorityrosiinikinaasien alaperheeseen, johon kuuluvat EGFR, HER2, HER3 ja HER4. EGFR:ää ilmentyy konstitutiivisesti normaaleissa epiteelikudoksissa, mukaan lukien iho ja karvatupet. […] Panitumumabi sitoutuu spesifisesti EGFR:ään sekä normaaleissa soluissa että kasvainsoluissa ja estää kilpailevasti ligandien sitoutumisen EGFR:ään.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-pantoprazole-1",
+   "drug": "pantoprazole",
+   "file": "pantoprazole.md",
+   "action": "mechanism",
+   "claim": "PMID 19938880 ja 8882382), sillä tämän raportin pohjana olevassa aineistossa mekanismitieto ei ollut saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pantoprazole (epävirallinen käännös): ”Pantopratsoli on PPI, joka estää mahahapon tuotannon viimeisen vaiheen sitoutumalla kovalenttisesti (H +, K + )-ATPaasientsyymijärjestelmään mahalaukun parietaalisolun eritys­pinnalla. Tämä vaikutus johtaa sekä basaalisen että stimuloidun mahahapon erityksen estymiseen ärsykkeestä riippumatta.” Englanninkielinen alkuteksti: \"Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus.\" ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), versio 2026-11-06; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b",
+     "accessed": "2026-11-20",
+     "excerpt": "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus.",
+     "label_version": "2026-11-06",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b",
+     "translation": "Pantopratsoli on PPI, joka estää mahahapon tuotannon viimeisen vaiheen sitoutumalla kovalenttisesti (H +, K + )-ATPaasientsyymijärjestelmään mahalaukun parietaalisolun eritys­pinnalla. Tämä vaikutus johtaa sekä basaalisen että stimuloidun mahahapon erityksen estymiseen ärsykkeestä riippumatta.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-peginterferon_alfa-2a-1",
+   "drug": "peginterferon_alfa-2a",
+   "file": "peginterferon_alfa-2a.md",
+   "action": "mechanism",
+   "claim": "Tämän lääkkeen yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Peginterferon Alfa-2A (epävirallinen käännös): ”Pegyloitu yhdistelmä-DNA-tekniikalla tuotettu ihmisen alfa-2a-interferoni on synnynnäisen antiviraalisen immuunivasteen indusoija. […] PEGASYSin biologinen aktiivisuus on peräisin sen yhdistelmä-DNA-tekniikalla tuotetusta ihmisen α-2a-interferoniosasta. Peginterferoni α-2a sitoutuu ihmisen tyypin 1 interferonireseptoriin, mikä johtaa reseptorin dimerisaatioon. Reseptorin dimerisaatio aktivoi useita solunsisäisiä signaalinvälitysreittejä, joita välittää aluksi JAK/STAT-reitti.” Englanninkielinen alkuteksti: \"Pegylated recombinant human interferon alfa-2a is an inducer of the innate antiviral immune response. […] The biological activity of PEGASYS is derived from its recombinant human interferon α-2a moiety. Peginterferon α-2a binds to the human type 1 interferon receptor leading to receptor dimerization. Receptor dimerization activates multiple intracellular signal transduction pathways initially mediated by the JAK/STAT pathway.\" ([DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916), versio 2026-10-16; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916",
+     "accessed": "2026-11-20",
+     "excerpt": "Pegylated recombinant human interferon alfa-2a is an inducer of the innate antiviral immune response. […] The biological activity of PEGASYS is derived from its recombinant human interferon α-2a moiety. Peginterferon α-2a binds to the human type 1 interferon receptor leading to receptor dimerization. Receptor dimerization activates multiple intracellular signal transduction pathways initially mediated by the JAK/STAT pathway.",
+     "label_version": "2026-10-16",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "d9290e5b-6d40-2318-e053-2995a90a9916",
+     "translation": "Pegyloitu yhdistelmä-DNA-tekniikalla tuotettu ihmisen alfa-2a-interferoni on synnynnäisen antiviraalisen immuunivasteen indusoija. […] PEGASYSin biologinen aktiivisuus on peräisin sen yhdistelmä-DNA-tekniikalla tuotetusta ihmisen α-2a-interferoniosasta. Peginterferoni α-2a sitoutuu ihmisen tyypin 1 interferonireseptoriin, mikä johtaa reseptorin dimerisaatioon. Reseptorin dimerisaatio aktivoi useita solunsisäisiä signaalinvälitysreittejä, joita välittää aluksi JAK/STAT-reitti.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-pegvaliase-1",
+   "drug": "pegvaliase",
+   "file": "pegvaliase.md",
+   "action": "mechanism",
+   "claim": "Pegvaliaasin tarkkaa vaikutusmekanismia ei ole saatavilla tätä raporttia varten kootuissa tiedoissa.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pegvaliase (epävirallinen käännös): ”Pegvaliaasi-pqpz on PEGyloitu fenyylialaniiniammoniakkilyaasientsyymi (PAL), joka muuttaa fenyylialaniinin ammoniakiksi ja trans-kanelihapoksi. Se korvaa puutteellisen fenyylialaniinihydroksylaasientsyymin (PAH) aktiivisuuden PKU-potilailla ja vähentää veren fenyylialaniinipitoisuuksia.” Englanninkielinen alkuteksti: \"Pegvaliase-pqpz is a PEGylated phenylalanine ammonia lyase (PAL) enzyme that converts phenylalanine to ammonia and trans -cinnamic acid. It substitutes for the deficient phenylalanine hydroxylase (PAH) enzyme activity in patients with PKU and reduces blood phenylalanine concentrations.\" ([DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c), versio 2026-03-02; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c",
+     "accessed": "2026-11-20",
+     "excerpt": "Pegvaliase-pqpz is a PEGylated phenylalanine ammonia lyase (PAL) enzyme that converts phenylalanine to ammonia and trans -cinnamic acid. It substitutes for the deficient phenylalanine hydroxylase (PAH) enzyme activity in patients with PKU and reduces blood phenylalanine concentrations.",
+     "label_version": "2026-03-02",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "6dba844a-db02-44f8-8593-ce497ed9406c",
+     "translation": "Pegvaliaasi-pqpz on PEGyloitu fenyylialaniiniammoniakkilyaasientsyymi (PAL), joka muuttaa fenyylialaniinin ammoniakiksi ja trans-kanelihapoksi. Se korvaa puutteellisen fenyylialaniinihydroksylaasientsyymin (PAH) aktiivisuuden PKU-potilailla ja vähentää veren fenyylialaniinipitoisuuksia.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-phenylephrine-1",
+   "drug": "phenylephrine",
+   "file": "phenylephrine.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytetyistä tiedoista puuttuu tarkka vaikutusmekanismikuvaus.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Phenylephrine (epävirallinen käännös): ”Fenyyliefriinihydrokloridi on α-1-adrenergisen reseptorin agonisti.” Englanninkielinen alkuteksti: \"Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist.\" ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), versio 2026-03-31; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be",
+     "accessed": "2026-11-20",
+     "excerpt": "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist.",
+     "label_version": "2026-03-31",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "2f715e4e-b269-b935-d2c9-003cb29770be",
+     "translation": "Fenyyliefriinihydrokloridi on α-1-adrenergisen reseptorin agonisti.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-pitolisant-1",
+   "drug": "pitolisant",
+   "file": "pitolisant.md",
+   "action": "mechanism",
+   "claim": "DrugBankista ei saatu yksityiskohtaista vaikutusmekanismia, mutta kirjallisuus tukee tätä kuvausta.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Pitolisant (epävirallinen käännös): ”Pitolisantin vaikutusmekanismi päiväaikaisessa liiallisessa uneliaisuudessa (EDS) tai katapleksiassa 6-vuotiailla ja sitä vanhemmilla narkolepsiapotilailla on epäselvä. Sen teho voisi kuitenkin välittyä sen histamiini-3 (H3) -reseptoreihin kohdistuvan antagonisti-/käänteisagonistivaikutuksen kautta.” Englanninkielinen alkuteksti: \"The mechanism of action of pitolisant in excessive daytime sleepiness (EDS) or cataplexy in patients 6 years and older with narcolepsy is unclear. However, its efficacy could be mediated through its activity as an antagonist/inverse agonist at histamine-3 (H3) receptors.\" ([DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e), versio 2026-02-13; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism of action of pitolisant in excessive daytime sleepiness (EDS) or cataplexy in patients 6 years and older with narcolepsy is unclear. However, its efficacy could be mediated through its activity as an antagonist/inverse agonist at histamine-3 (H3) receptors.",
+     "label_version": "2026-02-13",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "8daa5562-824e-476c-9652-26ceef3d4b0e",
+     "translation": "Pitolisantin vaikutusmekanismi päiväaikaisessa liiallisessa uneliaisuudessa (EDS) tai katapleksiassa 6-vuotiailla ja sitä vanhemmilla narkolepsiapotilailla on epäselvä. Sen teho voisi kuitenkin välittyä sen histamiini-3 (H3) -reseptoreihin kohdistuvan antagonisti-/käänteisagonistivaikutuksen kautta.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-posaconazole-1",
+   "drug": "posaconazole",
+   "file": "posaconazole.md",
+   "action": "mechanism",
+   "claim": "Tarkkaa vaikutusmekanismia ei tällä hetkellä ole saatavilla kootuista tiedoista.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Posaconazole (epävirallinen käännös): ”Posakonatsoli on atsoliryhmän sienilääke. […] Posakonatsoli estää ergosterolin, sienen solukalvon keskeisen ainesosan, synteesiä estämällä sytokromi P-450 -riippuvaista lanosteroli-14α-demetylaasientsyymiä, joka vastaa lanosterolin muuttamisesta ergosteroliksi sienen solukalvossa. Tämä johtaa metyloituneiden sterolien esiasteiden kertymiseen ja ergosterolin vähenemiseen solukalvossa, mikä heikentää sienen solukalvon rakennetta ja toimintaa.” Englanninkielinen alkuteksti: \"Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane.\" ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84), versio 2026-02-13; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84",
+     "accessed": "2026-11-20",
+     "excerpt": "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane.",
+     "label_version": "2026-02-13",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "b073b082-7b57-4423-8c06-4fd4263d6f84",
+     "translation": "Posakonatsoli on atsoliryhmän sienilääke. […] Posakonatsoli estää ergosterolin, sienen solukalvon keskeisen ainesosan, synteesiä estämällä sytokromi P-450 -riippuvaista lanosteroli-14α-demetylaasientsyymiä, joka vastaa lanosterolin muuttamisesta ergosteroliksi sienen solukalvossa. Tämä johtaa metyloituneiden sterolien esiasteiden kertymiseen ja ergosterolin vähenemiseen solukalvossa, mikä heikentää sienen solukalvon rakennetta ja toimintaa.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-pretomanid-1",
+   "drug": "pretomanid",
+   "file": "pretomanid.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin laatimiseen kerätyissä tiedoissa ei ole yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohtien ”Mechanism of Action” ja ”Microbiology” mukaan valmisteesta Pretomanid (epävirallinen käännös): ”Pretomanidi on nitroimidatso-oksatsiiniryhmän antimykobakteerinen lääke. […] Pretomanid-tabletti on nitroimidatso-oksatsiiniryhmän antimykobakteerinen lääke. Pretomanidi tappaa aktiivisesti lisääntyviä M. tuberculosis -bakteereja estämällä mykolihapon biosynteesiä ja estää siten soluseinän tuotannon. Anaerobisissa olosuhteissa pretomanidi vaikuttaa ei-lisääntyviin bakteereihin hengitysmyrkkynä typpioksidin vapautumisen jälkeen.” Englanninkielinen alkuteksti: \"Pretomanid is a nitroimidazooxazine antimycobacterial drug. […] Pretomanid Tablet is a nitroimidazooxazine antimycobacterial drug. Pretomanid kills actively replicating M. tuberculosis by inhibiting mycolic acid biosynthesis, thereby blocking cell wall production. Under anaerobic conditions, against non-replicating bacteria, pretomanid acts as a respiratory poison following nitric oxide release.\" ([DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3), versio 2024-11-15; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: pretomanid prescribing information, Viatris Specialty LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3",
+     "accessed": "2026-11-20",
+     "excerpt": "Pretomanid is a nitroimidazooxazine antimycobacterial drug. […] Pretomanid Tablet is a nitroimidazooxazine antimycobacterial drug. Pretomanid kills actively replicating M. tuberculosis by inhibiting mycolic acid biosynthesis, thereby blocking cell wall production. Under anaerobic conditions, against non-replicating bacteria, pretomanid acts as a respiratory poison following nitric oxide release.",
+     "label_version": "2024-11-15",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f1906fc9-cb3c-4e13-8a4a-da76100c1bf3",
+     "translation": "Pretomanidi on nitroimidatso-oksatsiiniryhmän antimykobakteerinen lääke. […] Pretomanid-tabletti on nitroimidatso-oksatsiiniryhmän antimykobakteerinen lääke. Pretomanidi tappaa aktiivisesti lisääntyviä M. tuberculosis -bakteereja estämällä mykolihapon biosynteesiä ja estää siten soluseinän tuotannon. Anaerobisissa olosuhteissa pretomanidi vaikuttaa ei-lisääntyviin bakteereihin hengitysmyrkkynä typpioksidin vapautumisen jälkeen.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-rimegepant-1",
+   "drug": "rimegepant",
+   "file": "rimegepant.md",
+   "action": "mechanism",
+   "claim": "Tarkempia mekanismitietoja ei tässä aineistossa ole saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Rimegepant (epävirallinen käännös): ”Rimegepantti on kalsitoniinigeeniin liittyvän peptidin reseptorin antagonisti.” Englanninkielinen alkuteksti: \"Rimegepant is a calcitonin gene-related peptide receptor antagonist.\" ([DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d), versio 2026-06-04; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d",
+     "accessed": "2026-11-20",
+     "excerpt": "Rimegepant is a calcitonin gene-related peptide receptor antagonist.",
+     "label_version": "2026-06-04",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "9ef08e09-1098-35cc-e053-2a95a90a3e1d",
+     "translation": "Rimegepantti on kalsitoniinigeeniin liittyvän peptidin reseptorin antagonisti.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-risdiplam-1",
+   "drug": "risdiplam",
+   "file": "risdiplam.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin laatimiseen kootuissa tiedoissa risdiplamin tarkka vaikutusmekanismi ei ole saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Risdiplam (epävirallinen käännös): ”Risdiplaami on motoneuronien eloonjäämisen 2 (SMN2) silmukoinnin muokkaaja, joka on suunniteltu sellaisten selkäydinperäistä lihasatrofiaa (SMA) sairastavien potilaiden hoitoon, joiden sairaus johtuu kromosomin 5q mutaatioista, jotka johtavat SMN-proteiinin puutokseen. In vitro -määrityksissä ja SMA:n siirtogeenisillä eläinmalleilla tehdyissä tutkimuksissa risdiplaamin osoitettiin lisäävän eksonin 7 sisällyttämistä SMN2-lähetti-ribonukleiinihapon (mRNA) transkripteihin ja täyspitkän SMN-proteiinin tuotantoa aivoissa.” Englanninkielinen alkuteksti: \"Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain.\" ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), versio 2026-11-02; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e",
+     "accessed": "2026-11-20",
+     "excerpt": "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain.",
+     "label_version": "2026-11-02",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "eceb9a99-7191-4be5-87c3-0102707cf98e",
+     "translation": "Risdiplaami on motoneuronien eloonjäämisen 2 (SMN2) silmukoinnin muokkaaja, joka on suunniteltu sellaisten selkäydinperäistä lihasatrofiaa (SMA) sairastavien potilaiden hoitoon, joiden sairaus johtuu kromosomin 5q mutaatioista, jotka johtavat SMN-proteiinin puutokseen. In vitro -määrityksissä ja SMA:n siirtogeenisillä eläinmalleilla tehdyissä tutkimuksissa risdiplaamin osoitettiin lisäävän eksonin 7 sisällyttämistä SMN2-lähetti-ribonukleiinihapon (mRNA) transkripteihin ja täyspitkän SMN-proteiinin tuotantoa aivoissa.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-rotigotine-1",
+   "drug": "rotigotine",
+   "file": "rotigotine.md",
+   "action": "mechanism",
+   "claim": "Tässä raportissa käytetyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia (MOA).",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Rotigotine (epävirallinen käännös): ”Rotigotiini on ei-ergoliininen dopamiiniagonisti. Rotigotiinin tarkkaa vaikutusmekanismia Parkinsonin taudin hoidossa ei tunneta, mutta sen arvellaan liittyvän sen kykyyn stimuloida aivojen caudatus-putamenin dopamiinireseptoreita.” Englanninkielinen alkuteksti: \"Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain.\" ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), versio 2026-11-11; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0",
+     "accessed": "2026-11-20",
+     "excerpt": "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain.",
+     "label_version": "2026-11-11",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "939e28c5-f3a9-42c0-9a2d-8d471d82a6e0",
+     "translation": "Rotigotiini on ei-ergoliininen dopamiiniagonisti. Rotigotiinin tarkkaa vaikutusmekanismia Parkinsonin taudin hoidossa ei tunneta, mutta sen arvellaan liittyvän sen kykyyn stimuloida aivojen caudatus-putamenin dopamiinireseptoreita.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-roxadustat-1",
+   "drug": "roxadustat",
+   "file": "roxadustat.md",
+   "action": "mechanism",
+   "claim": "Tarkempaa mekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella, joten mekanistinen arvio on rajallinen.",
+   "replacement": "ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Roxadustat vaikutusmekanismiksi (epävirallinen käännös): ”Hypoksiaindusoituvan tekijän prolyylihydroksylaasin estäjä”. Englanninkielinen alkuteksti: \"Hypoxia-inducible factor prolyl hydroxylase inhibitor\" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "ChEMBL CHEMBL2338329 (roxadustat): drug mechanism",
+     "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329",
+     "accessed": "2026-11-20",
+     "excerpt": "Hypoxia-inducible factor prolyl hydroxylase inhibitor",
+     "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+     "chembl_id": "CHEMBL2338329",
+     "translation": "Hypoksiaindusoituvan tekijän prolyylihydroksylaasin estäjä",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-sebelipase_alfa-1",
+   "drug": "sebelipase_alfa",
+   "file": "sebelipase_alfa.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin laatimiseen kerätyissä tiedoissa ei ole yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "ChEMBL-tietokantaan (EMBL-EBI) on kirjattu valmisteen Sebelipase Alfa vaikutusmekanismiksi (epävirallinen käännös): ”Kolesteroliesteriä hydrolysoiva entsyymi; triglyseridejä hydrolysoiva entsyymi”. Englanninkielinen alkuteksti: \"Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme\" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism",
+     "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537",
+     "accessed": "2026-11-20",
+     "excerpt": "Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme",
+     "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+     "chembl_id": "CHEMBL3039537",
+     "translation": "Kolesteroliesteriä hydrolysoiva entsyymi; triglyseridejä hydrolysoiva entsyymi",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-temozolomide-1",
+   "drug": "temozolomide",
+   "file": "temozolomide.md",
+   "action": "mechanism",
+   "claim": "Yhteen kootuissa tiedoissa ei ole kuvausta vaikutusmekanismista.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Temozolomide (epävirallinen käännös): ”Temotsolomidi ei ole suoraan aktiivinen, vaan muuttuu fysiologisessa pH:ssa nopeasti ei-entsymaattisesti reaktiiviseksi yhdisteeksi 5-(3-metyylitriatseeni-1-yyli)-imidatsoli-4-karboksamidiksi (MTIC). MTIC:n sytotoksisuuden arvellaan johtuvan ensisijaisesti DNA:n alkyloinnista, pääasiassa guaniinin O 6- ja N 7 -asemissa, mikä aiheuttaa DNA:n kaksoisjuostekatkoksia ja johtaa ohjelmoituun solukuolemaan.” Englanninkielinen alkuteksti: \"Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death.\" ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), versio 2026-02-20; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56",
+     "accessed": "2026-11-20",
+     "excerpt": "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death.",
+     "label_version": "2026-02-20",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+     "translation": "Temotsolomidi ei ole suoraan aktiivinen, vaan muuttuu fysiologisessa pH:ssa nopeasti ei-entsymaattisesti reaktiiviseksi yhdisteeksi 5-(3-metyylitriatseeni-1-yyli)-imidatsoli-4-karboksamidiksi (MTIC). MTIC:n sytotoksisuuden arvellaan johtuvan ensisijaisesti DNA:n alkyloinnista, pääasiassa guaniinin O 6- ja N 7 -asemissa, mikä aiheuttaa DNA:n kaksoisjuostekatkoksia ja johtaa ohjelmoituun solukuolemaan.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-toremifene-1",
+   "drug": "toremifene",
+   "file": "toremifene.md",
+   "action": "mechanism",
+   "claim": "Toimintamekanismia koskevaa tarkkaa tietoa ei ole tällä hetkellä saatavilla.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Toremifene (epävirallinen käännös): ”Toremifeeni on ei-steroidinen trifenyylietyleenijohdos. Toremifeeni sitoutuu estrogeenireseptoreihin ja voi vaikuttaa estrogeenisesti, antiestrogeenisesti tai molemmilla tavoilla riippuen hoidon kestosta, eläinlajista, sukupuolesta, kohde-elimestä tai valitusta päätetapahtumasta.” Englanninkielinen alkuteksti: \"Toremifene is a nonsteroidal triphenylethylene derivative. Toremifene binds to estrogen receptors and may exert estrogenic, antiestrogenic, or both activities, depending upon the duration of treatment, animal species, gender, target organ, or endpoint selected.\" ([DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5), versio 2024-11-13; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5",
+     "accessed": "2026-11-20",
+     "excerpt": "Toremifene is a nonsteroidal triphenylethylene derivative. Toremifene binds to estrogen receptors and may exert estrogenic, antiestrogenic, or both activities, depending upon the duration of treatment, animal species, gender, target organ, or endpoint selected.",
+     "label_version": "2024-11-13",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "2cab8dd1-3a10-48e6-86ce-0e5275ed49e5",
+     "translation": "Toremifeeni on ei-steroidinen trifenyylietyleenijohdos. Toremifeeni sitoutuu estrogeenireseptoreihin ja voi vaikuttaa estrogeenisesti, antiestrogeenisesti tai molemmilla tavoilla riippuen hoidon kestosta, eläinlajista, sukupuolesta, kohde-elimestä tai valitusta päätetapahtumasta.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-trametinib-1",
+   "drug": "trametinib",
+   "file": "trametinib.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin käytettävissä olevissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismikuvausta.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Trametinib (epävirallinen käännös): ”Trametinibi on mitogeeniaktivoidun solunulkoisen signaalin säätelemän kinaasi 1:n (MEK1) ja MEK2:n aktivaation sekä MEK1- ja MEK2-kinaasiaktiivisuuden palautuva estäjä. MEK-proteiinit ovat solunulkoisen signaalin säätelemän kinaasin (ERK) reitin ylävirran säätelijöitä, ja tämä reitti edistää solujen proliferaatiota.” Englanninkielinen alkuteksti: \"Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation.\" ([DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1), versio 2026-05-07; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1",
+     "accessed": "2026-11-20",
+     "excerpt": "Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation.",
+     "label_version": "2026-05-07",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "0002ad27-779d-42ab-83b5-bc65453412a1",
+     "translation": "Trametinibi on mitogeeniaktivoidun solunulkoisen signaalin säätelemän kinaasi 1:n (MEK1) ja MEK2:n aktivaation sekä MEK1- ja MEK2-kinaasiaktiivisuuden palautuva estäjä. MEK-proteiinit ovat solunulkoisen signaalin säätelemän kinaasin (ERK) reitin ylävirran säätelijöitä, ja tämä reitti edistää solujen proliferaatiota.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-treprostinil-1",
+   "drug": "treprostinil",
+   "file": "treprostinil.md",
+   "action": "mechanism",
+   "claim": "Tämän raportin yhteydessä kootuissa tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Treprostinil (epävirallinen käännös): ”Treprostiniili on prostasykliinianalogi. Treprostiniilin tärkeimmät farmakologiset vaikutukset ovat keuhkoverenkierron ja systeemisen valtimoverenkierron suonipohjien suora laajentaminen sekä verihiutaleiden aggregaation estäminen.” Englanninkielinen alkuteksti: \"Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation.\" ([DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609), versio 2026-04-14; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609",
+     "accessed": "2026-11-20",
+     "excerpt": "Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation.",
+     "label_version": "2026-04-14",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "cbc31ab1-a80f-4b50-a3b1-39910b0fb609",
+     "translation": "Treprostiniili on prostasykliinianalogi. Treprostiniilin tärkeimmät farmakologiset vaikutukset ovat keuhkoverenkierron ja systeemisen valtimoverenkierron suonipohjien suora laajentaminen sekä verihiutaleiden aggregaation estäminen.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-varenicline-1",
+   "drug": "varenicline",
+   "file": "varenicline.md",
+   "action": "mechanism",
+   "claim": "Mekanismitietoa (MOA) ei ole tällä hetkellä saatavilla kootussa aineistossa.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Varenicline (epävirallinen käännös): ”Vareniikliini sitoutuu suurella affiniteetilla ja selektiivisesti hermosolujen α4β2-nikotiiniasetyylikoliinireseptoreihin. CHANTIX-valmisteen tehon tupakoinnin lopettamisessa uskotaan johtuvan vareniikliinin vaikutuksesta nikotiinireseptorin α4β2-alatyyppiin, jossa sen sitoutuminen saa aikaan agonistivaikutuksen ja samanaikaisesti estää nikotiinin sitoutumisen näihin reseptoreihin.” Englanninkielinen alkuteksti: \"Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors.\" ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), versio 2026-01-23; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696",
+     "accessed": "2026-11-20",
+     "excerpt": "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors.",
+     "label_version": "2026-01-23",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f0ff4f27-5185-4881-a749-c6b7a0ca5696",
+     "translation": "Vareniikliini sitoutuu suurella affiniteetilla ja selektiivisesti hermosolujen α4β2-nikotiiniasetyylikoliinireseptoreihin. CHANTIX-valmisteen tehon tupakoinnin lopettamisessa uskotaan johtuvan vareniikliinin vaikutuksesta nikotiinireseptorin α4β2-alatyyppiin, jossa sen sitoutuminen saa aikaan agonistivaikutuksen ja samanaikaisesti estää nikotiinin sitoutumisen näihin reseptoreihin.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-vilanterol-1",
+   "drug": "vilanterol",
+   "file": "vilanterol.md",
+   "action": "mechanism",
+   "claim": "Yksityiskohtaiset mekanismitiedot eivät olleet saatavilla tähän raporttiin koottuna aineistona, mutta farmakologinen perusta on tunnettu.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta fluticasone furoate and vilanterol (yhdistelmävalmiste, joka sisältää aineen Vilanterol) (epävirallinen käännös): ”Beeta 2 -adrenergisten agonistilääkkeiden, myös vilanterolin, farmakologiset vaikutukset johtuvat ainakin osittain solunsisäisen adenyylisyklaasin stimulaatiosta. Adenyylisyklaasi on entsyymi, joka katalysoi adenosiinitrifosfaatin (ATP) muuttumista syklinen-3′,5′-adenosiinimonofosfaatiksi (syklinen AMP).” Englanninkielinen alkuteksti: \"The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP).\" ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), versio 2024-11-21; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5",
+     "accessed": "2026-11-20",
+     "excerpt": "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP).",
+     "label_version": "2024-11-21",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "3a761487-c300-451a-8537-3196c00c11b5",
+     "translation": "Beeta 2 -adrenergisten agonistilääkkeiden, myös vilanterolin, farmakologiset vaikutukset johtuvat ainakin osittain solunsisäisen adenyylisyklaasin stimulaatiosta. Adenyylisyklaasi on entsyymi, joka katalysoi adenosiinitrifosfaatin (ATP) muuttumista syklinen-3′,5′-adenosiinimonofosfaatiksi (syklinen AMP).",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "fi-moa-20261120-vismodegib-1",
+   "drug": "vismodegib",
+   "file": "vismodegib.md",
+   "action": "mechanism",
+   "claim": "Tarkempia mekanismitietoja ei tässä aineistossa ole saatavilla, joten mekanismikuvaus perustuu yleisesti tunnettuun vaikutustapaan.",
+   "replacement": "Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Vismodegib (epävirallinen käännös): ”Vismodegibi on Hedgehog-signalointireitin estäjä. Vismodegibi sitoutuu Smoothened-proteiiniin ja estää sitä. Smoothened on Hedgehog-signaalinvälitykseen osallistuva transmembraaniproteiini.” Englanninkielinen alkuteksti: \"Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction.\" ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), versio 2024-12-02; haettu 2026-11-20).",
+   "summary": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+     "accessed": "2026-11-20",
+     "excerpt": "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction.",
+     "label_version": "2024-12-02",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+     "translation": "Vismodegibi on Hedgehog-signalointireitin estäjä. Vismodegibi sitoutuu Smoothened-proteiiniin ja estää sitä. Smoothened on Hedgehog-signaalinvälitykseen osallistuva transmembraaniproteiini.",
+     "translation_lang": "fi",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
   }
  ]

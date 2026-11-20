@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Panitumumab: ennustettu uusi käyttöaihe Lääkkeen aiheuttama osteoporoosi (näytön taso L5). Alkuperäinen käyttöaihe: Paksu- ja peräsuolen kasvaimet (kolorektaalikasvaimet)"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -58,7 +58,7 @@ Panitumumabi on EGFR-vasta-aine, jota on alun perin käytetty paksu- ja peräsuo
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tässä raportissa käytettävissä olevissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismia. Tiedetään, että panitumumabi on EGFR:ää (epidermaalisen kasvutekijän reseptori) estävä monoklonaalinen vasta-aine ja että sen teho kolorektaalikasvaimissa on osoitettu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Panitumumab (epävirallinen käännös): ”EGFR on transmembraaninen glykoproteiini, joka kuuluu tyypin I reseptorityrosiinikinaasien alaperheeseen, johon kuuluvat EGFR, HER2, HER3 ja HER4. EGFR:ää ilmentyy konstitutiivisesti normaaleissa epiteelikudoksissa, mukaan lukien iho ja karvatupet. […] Panitumumabi sitoutuu spesifisesti EGFR:ään sekä normaaleissa soluissa että kasvainsoluissa ja estää kilpailevasti ligandien sitoutumisen EGFR:ään.” Englanninkielinen alkuteksti: "The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR." ([DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2), versio 2026-06-23; haettu 2026-11-20). Tiedetään, että panitumumabi on EGFR:ää (epidermaalisen kasvutekijän reseptori) estävä monoklonaalinen vasta-aine ja että sen teho kolorektaalikasvaimissa on osoitettu.
 
 Yleisen biologian perusteella EGFR-signalointi voi vaikuttaa osteoblastien erilaistumiseen ja luun uudistumiseen, joten EGFR:n esto voisi teoriassa muuttaa luuaineenvaihduntaa. Tämä yhteys on kuitenkin spekulatiivinen: se ei perustu raportin aineistoon. Vaikutus voisi yhtä hyvin olla luulle haitallinen (esim. hypomagnesemiaan liittyvät vaikutukset) kuin hyödyllinen. Vaikutuksen suuntaa ei tunneta.
 
@@ -145,12 +145,13 @@ Toiseksi sijoittui **vaikea ei-proliferatiivinen diabeettinen retinopatia** (TxG
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Vectibix (EMEA/H/C/000741) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Caffeine: ennustettu uusi käyttöaihe nenäontelon sairaus (nasal cavity disease) (näytön taso L5). Alkuperäinen käyttöaihe: Apnea"
 ---
 
@@ -54,7 +54,7 @@ Kofeiini on adenosiinireseptoreihin vaikuttava vaikuttava aine, jota käytetää
 
 ## Miksi ennuste on perusteltu?
 
-Kofeiini estää adenosiinireseptoreita (A1, A2A, A2B ja A3) ja vaikuttaa myös kalsiumia vapauttaviin reseptoreihin (IP3R1 ja RyR1–3). Tarkempia mekanismitietoja ei ole tässä aineistossa saatavilla. Kofeiini on lisäksi tunnettu fosfodiesteraasin estäjä.
+Kofeiini estää adenosiinireseptoreita (A1, A2A, A2B ja A3) ja vaikuttaa myös kalsiumia vapauttaviin reseptoreihin (IP3R1 ja RyR1–3). Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Caffeine (epävirallinen käännös): ”Kofeiini on rakenteellisesti sukua muille metyyliksantiineille, teofylliinille ja teobromiinille. Se on keuhkoputkien sileälihaksia relaksoiva aine, keskushermostoa stimuloiva aine, sydänlihasta stimuloiva aine ja diureetti. Vaikka kofeiinin vaikutusmekanismia keskosten apneassa ei tunneta, useita mekanismeja on esitetty.” Englanninkielinen alkuteksti: "Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized." ([DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a), versio 2026-07-29; haettu 2026-11-20). Kofeiini on lisäksi tunnettu fosfodiesteraasin estäjä.
 
 Kirjallisuudessa on kuvattu, että kitkerän maun reseptoreita (T2R) esiintyy ihmisen hengitysteiden epiteelissä ja nenäontelossa, ja ne reagoivat kofeiiniin. Niiden mahdollinen yhteys nenäsairauksiin on vain oletus. Lisäksi on kehitetty nenään annosteltava kofeiinigeeli kognition parantamiseen univajeen jälkeen, mutta kyseessä on antoreittiä koskeva esikliininen formulaatiotutkimus, ei nenäsairauden hoito.
 
@@ -97,6 +97,19 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Tarkennus siihen, mikä nenäsairauksien alaryhmä olisi kohteena, sekä arvio antoreitin soveltuvuudesta (esim. nenäformulaatio)
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen ja turvallisuusarvio
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

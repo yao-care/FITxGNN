@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FOSAPREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "pneumocystosis", "leprosy", "Cryptococcal meningitis", "multiple endocrine neoplasia", "intracranial abscess", "retinitis", "Plasmodium falciparum malaria", "echinococcus granulosus infectious disease", "hyperargininemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Fosaprepitant: ennustettu uusi käyttöaihe Nefrogeeninen sopimattoman antidiureesin oireyhtymä (nephrogenic syndrome of inappropriate antidiuresis) (näytön taso L5). Alkuperäinen käyttöaihe: Vomiting"
 ---
 
@@ -54,7 +54,7 @@ Fosaprepitantti on aprepitantin aihiolääke ja NK1-reseptorin (tachykiniini-1) 
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Fosaprepitantin yksityiskohtaista vaikutusmekanismia ei ole saatavilla kootuissa tiedoissa. Tunnetun luokituksen mukaan se on aprepitantin aihiolääke, ja aprepitantti salpaa NK1-reseptoria, johon substanssi P sitoutuu.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Fosaprepitant (epävirallinen käännös): ”Fosaprepitantti on aprepitantin aihiolääke, ja näin ollen sen antiemeettiset vaikutukset johtuvat aprepitantista. Aprepitantti on ihmisen substanssi P/neurokiniini 1 (NK-1) -reseptorien selektiivinen, suuren affiniteetin antagonisti. Aprepitantilla on vähän tai ei lainkaan affiniteettia serotoniini- (5-HT 3 ), dopamiini- ja kortikosteroidireseptoreihin, jotka ovat solunsalpaajahoidon aiheuttaman pahoinvoinnin ja oksentelun (CINV) nykyisten hoitojen kohteita.” Englanninkielinen alkuteksti: "Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV)." ([DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169), versio 2026-07-29; haettu 2026-11-20). Tunnetun luokituksen mukaan se on aprepitantin aihiolääke, ja aprepitantti salpaa NK1-reseptoria, johon substanssi P sitoutuu.
 
 Nefrogeeninen sopimattoman antidiureesin oireyhtymä johtuu vasopressiinin V2-reseptorin (AVPR2) toiminnanlisäysmuunnoksista. Substanssi P:n ja NK1-signaloinnin ei tiedetä osallistuvan tähän reittiin. Uskottavaa mekanistista yhteyttä ei siis voida osoittaa.
 
@@ -91,6 +91,19 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen ja jäsentäminen
 - Vaikutusmekanismitietojen täydentäminen
 - Prekliiniset tutkimukset, jotka selvittävät NK1-signaloinnin mahdollista roolia AVPR2-välitteisessä antidiureesissa, ennen kuin jatkoa harkitaan
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

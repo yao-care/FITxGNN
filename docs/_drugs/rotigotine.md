@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 388
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
 description: "Rotigotine: ennustettu uusi käyttöaihe Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Restless Legs Syndrome"
@@ -59,7 +59,7 @@ TxGNN-malli ennustaa sen voivan tehota **tarkkaavaisuus- ja ylivilkkaushäiriö�
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytetyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia (MOA). Tunnetun farmakologian perusteella rotigotiini on ei-ergotiiniryhmän dopamiiniagonisti, joka vaikuttaa D3-, D2- ja D1-reseptoreihin sekä lisäksi 5-HT1A- ja alfa-2B-reseptoreihin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Rotigotine (epävirallinen käännös): ”Rotigotiini on ei-ergoliininen dopamiiniagonisti. Rotigotiinin tarkkaa vaikutusmekanismia Parkinsonin taudin hoidossa ei tunneta, mutta sen arvellaan liittyvän sen kykyyn stimuloida aivojen caudatus-putamenin dopamiinireseptoreita.” Englanninkielinen alkuteksti: "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain." ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), versio 2026-11-11; haettu 2026-11-20). Tunnetun farmakologian perusteella rotigotiini on ei-ergotiiniryhmän dopamiiniagonisti, joka vaikuttaa D3-, D2- ja D1-reseptoreihin sekä lisäksi 5-HT1A- ja alfa-2B-reseptoreihin.
 
 ADHD:n patofysiologiaan liittyy dopaminerginen ja noradrenerginen säätelyhäiriö, joten mekanistinen yhteys on uskottava. Löytyneet julkaisut ovat kuitenkin epäsuoria: kaksi käsittelee levottomien jalkojen oireyhtymää (mukaan lukien lasten lääkehoito, ja tila esiintyy usein ADHD:n kanssa), ja yksi käsittelee α2A-adrenoseptorin ja dopamiini D4 -reseptorin heteromerisaatiota, joka on merkityksellinen ADHD:n biologialle mutta ei testaa rotigotiinia.
 
@@ -145,13 +145,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niihin on tutus
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntiluvat on peruutettu, eikä valmisteyhteenvedon turvallisuustietoja ole saatavilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”sekä myyntiluvan peruuttamisen syyt” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Neupro (EMEA/H/C/000626) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
 
 <!-- review:end log -->
 

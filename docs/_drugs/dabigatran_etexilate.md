@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Dabigatran Etexilate: ennustettu uusi käyttöaihe Sklerosoiva kolangiitti (sclerosing cholangitis) (näytön taso L5). Alkuperäinen käyttöaihe: Arthroplasty, Replacement"
 ---
 
@@ -54,7 +54,7 @@ Dabigatraanieteksilaatti on suora trombiinin estäjä, jota käytetään veritul
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tässä raportissa käytetyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia. Dabigatraani tunnetaan kuitenkin suorana trombiinin estäjänä.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Dabigatran Etexilate (epävirallinen käännös): ”Dabigatraani ja sen asyyliglukuronidit ovat kilpailevia, suoria trombiinin estäjiä. Koska trombiini (seriiniproteaasi) mahdollistaa fibrinogeenin muuttumisen fibriiniksi hyytymiskaskadin aikana, sen estäminen estää trombin muodostumisen.” Englanninkielinen alkuteksti: "Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus." ([DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901), versio 2026-11-02; haettu 2026-11-20). Dabigatraani tunnetaan kuitenkin suorana trombiinin estäjänä.
 
 Mahdollinen yhteys on, että trombiini ja PAR-1-signalointi osallistuvat maksan fibroosiin ja tulehdukseen, ja trombiinin esto on joissakin prekliinisissä maksamalleissa vähentänyt fibroosia. Tämä on sklerosoivan kolangiitin osalta spekulatiivista, eikä sitä ole osoitettu tässä taudissa.
 
@@ -94,6 +94,19 @@ Tämän raportin tiedoissa ei ole valmisteyhteenvedon varoituksia tai vasta-aihe
 - Vaikutusmekanismitietojen täydentämistä
 - Valmisteyhteenvedon turvallisuustietojen (varoitukset, vasta-aiheet) selvittämistä, erityisesti verenvuotoriskin osalta maksasairaudessa
 - Tutkimussuunnitelmaa mahdollista varhaisen vaiheen tutkimusta varten
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

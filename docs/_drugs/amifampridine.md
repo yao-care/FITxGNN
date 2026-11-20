@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Amifampridine: ennustettu uusi käyttöaihe Glaukooma (näytön taso L5). Alkuperäinen käyttöaihe: Lambert-Eatonin myasteeninen oireyhtymä"
 monitor_inn: "AMIFAMPRIDINE"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
@@ -54,7 +54,7 @@ Amifampridiini on lääke, jota on alun perin käytetty Lambert-Eatonin myasteen
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytetyistä tiedoista ei ole saatavilla yksityiskohtaista vaikutusmekanismia. Yleisen farmakologisen tiedon mukaan amifampridiini (3,4-diaminopyridiini) salpaa jänniteherkkiä kaliumkanavia, pidentää presynaptista depolarisaatiota ja lisää asetyylikoliinin vapautumista hermo-lihasliitoksessa. Tämä selittää sen tehon LEMS-taudissa.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Amifampridine (epävirallinen käännös): ”Mekanismia, jolla amifampridiini saa aikaan terapeuttisen vaikutuksensa LEMS-potilailla, ei ole täysin selvitetty. Amifampridiini on laajakirjoinen kaliumkanavan salpaaja.” Englanninkielinen alkuteksti: "The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker." ([DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f), versio 2026-04-16; haettu 2026-11-20). Yleisen farmakologisen tiedon mukaan amifampridiini (3,4-diaminopyridiini) salpaa jänniteherkkiä kaliumkanavia, pidentää presynaptista depolarisaatiota ja lisää asetyylikoliinin vapautumista hermo-lihasliitoksessa. Tämä selittää sen tehon LEMS-taudissa.
 
 Yhteys glaukoomaan on toistaiseksi vain teoreettinen. Se voisi liittyä hermosolujen ärtyvyyden tai verkkokalvon gangliosolujen toiminnan muokkaamiseen, mutta tätä tukevaa mekanistista tietoa ei ole. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu. Silmään annosteluun ei myöskään ole perustetta, ja reittien yhteensopivuus on arvioimatta.
 
@@ -122,13 +122,14 @@ Muista varoituksista ja vasta-aiheista tietoja ei ole saatavilla. Tarkista ne va
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, joten valmistetta ei tällä hetkellä ole voimassa olevalla myyntiluvalla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja peruutetut myyntiluvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f) |
 
 <!-- review:end log -->
 

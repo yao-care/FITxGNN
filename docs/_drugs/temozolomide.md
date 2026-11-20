@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Temozolomide: ennustettu uusi käyttöaihe Cauda equina neoplasm (näytön taso L5). Alkuperäinen käyttöaihe: Glioma"
 ---
 
@@ -56,7 +56,7 @@ Tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **3 julkai
 
 ## Miksi ennuste on perusteltu?
 
-Yhteen kootuissa tiedoissa ei ole kuvausta vaikutusmekanismista. Yleisen farmakologisen tiedon mukaan temotsolomidi metyloi DNA:ta (guaniinin O6- ja N7-asemat sekä adeniinin N3-asema), mikä aiheuttaa DNA-vaurioita ja kasvainsolujen apoptoosin. Lääke läpäisee veri-aivoesteen ja on hyväksytty gliooman hoitoon.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Temozolomide (epävirallinen käännös): ”Temotsolomidi ei ole suoraan aktiivinen, vaan muuttuu fysiologisessa pH:ssa nopeasti ei-entsymaattisesti reaktiiviseksi yhdisteeksi 5-(3-metyylitriatseeni-1-yyli)-imidatsoli-4-karboksamidiksi (MTIC). MTIC:n sytotoksisuuden arvellaan johtuvan ensisijaisesti DNA:n alkyloinnista, pääasiassa guaniinin O 6- ja N 7 -asemissa, mikä aiheuttaa DNA:n kaksoisjuostekatkoksia ja johtaa ohjelmoituun solukuolemaan.” Englanninkielinen alkuteksti: "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), versio 2026-02-20; haettu 2026-11-20). Yleisen farmakologisen tiedon mukaan temotsolomidi metyloi DNA:ta (guaniinin O6- ja N7-asemat sekä adeniinin N3-asema), mikä aiheuttaa DNA-vaurioita ja kasvainsolujen apoptoosin. Lääke läpäisee veri-aivoesteen ja on hyväksytty gliooman hoitoon.
 
 Cauda equinan kasvaimet ovat useimmiten myksopapillaarisia ependymoomia, jotka ovat neuroepiteliaalisia kasvaimia ja jakavat osan biologiastaan gliooman kanssa. Mekanistinen yhteys on uskottava, mutta teho riippuisi todennäköisesti MGMT-promoottorin metylaatiostatuksesta, jota aineistossa ei ole raportoitu.
 
@@ -115,6 +115,19 @@ Ainoa suoraan aihetta koskeva näyttö on yksi tapauskertomus myksopapillaarises
 - Vaikutusmekanismitiedot ja MGMT-metylaatiostatuksen merkitys
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistus
 - Prospektiivinen tai rekisteripohjainen selvitys tehosta ja turvallisuudesta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera); mallin ennusteita, näytön tasoja ja johtopäätöksiä ei kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

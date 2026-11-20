@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
 description: "Gefitinib: ennustettu uusi käyttöaihe Ientenfibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Non-Small-Cell Lung"
@@ -60,7 +60,7 @@ Ennuste perustuu siis pelkästään mallin laskemaan pisteytykseen.
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin laatimiseen kerätyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia. Tunnetun tiedon perusteella gefitinibi on valikoiva EGFR-tyrosiinikinaasin estäjä, jonka teho EGFR-mutaatiopositiivisessa ei-pienisoluisessa keuhkosyövässä on osoitettu. Mekanistisesti se voisi olla sovellettavissa myös ientenfibromatoosiin.
+Yhdysvaltain FDA:n hyväksymän valmistetiedon (Prescribing Information) kohdan ”Mechanism of Action” mukaan valmisteesta Gefitinib (epävirallinen käännös): ”Epidermaalisen kasvutekijän reseptoria (EGFR) ilmentyy sekä normaalien solujen että syöpäsolujen pinnalla, ja sillä on rooli solujen kasvun ja proliferaation prosesseissa. Joidenkin EGFR:ää aktivoivien mutaatioiden (eksonin 19 deleetio tai eksonin 21 pistemutaatio L858R) NSCLC-soluissa on todettu edistävän kasvainsolujen kasvua, estävän apoptoosia, lisäävän angiogeenisten tekijöiden tuotantoa ja helpottavan etäpesäkkeiden muodostumisen prosesseja. […] Gefitinibi estää palautuvasti villityypin EGFR:n ja tiettyjen EGFR:ää aktivoivien mutaatioiden kinaasiaktiivisuutta ja estää reseptoriin liittyvien tyrosiinitähteiden autofosforylaation, mikä estää signaalinvälityksen alavirtaan ja salpaa EGFR-riippuvaisen proliferaation.” Englanninkielinen alkuteksti: "The epidermal growth factor receptor (EGFR) is expressed on the cell surface of both normal and cancer cells and plays a role in the processes of cell growth and proliferation. Some EGFR activating mutations (exon 19 deletion or exon 21 point mutation L858R) within NSCLC cells have been identified as contributing to the promotion of tumor cell growth, blocking of apoptosis, increasing the production of angiogenic factors and facilitating the processes of metastasis. […] Gefitinib reversibly inhibits the kinase activity of wild-type and certain activating mutations of EGFR, preventing autophosphorylation of tyrosine residues associated with the receptor, thereby inhibiting further downstream signaling and blocking EGFR-dependent proliferation." ([DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41), versio 2023-02-28; haettu 2026-11-20). Tunnetun tiedon perusteella gefitinibi on valikoiva EGFR-tyrosiinikinaasin estäjä, jonka teho EGFR-mutaatiopositiivisessa ei-pienisoluisessa keuhkosyövässä on osoitettu. Mekanistisesti se voisi olla sovellettavissa myös ientenfibromatoosiin.
 
 Mahdollinen yhteys olisi EGFR-välitteinen fibroblastien lisääntyminen. Tätä oletusta ei kuitenkaan tue mikään tässä käytettävissä oleva aineisto. Ennustepisteet voivat heijastaa myös verkostoetäisyyttä tietämyskuvaajassa eikä tautikohtaista mekanismia.
 
@@ -170,13 +170,14 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niiden
 
 ## Tarkistusloki
 
-Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen. Lause, jonka mukaan vaikutusmekanismitietoja ei ollut saatavilla, korvattiin otteella mainitusta virallisesta valmistetiedosta (epävirallisen käännöksen kera).
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Gefitinibin ainoa Suomessa rekisteröity myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Taulukko: Iressa (EMEA/H/C/001016) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41) |
 
 <!-- review:end log -->
 

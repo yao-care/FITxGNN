@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T22:00:07.449083+00:00",
+  "fetched_at": "2026-11-21T02:59:07.622790+00:00",
   "source": "Google News Health RSS",
   "count": 41,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "07256e16a9cd",
-      "title": "Älä koskaan syö karkkia, jos sinulla on nämä lääkkeet - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbE40X1BtdVIzTnNtZC02UTNpZzRqbFprQzZZc1VERjd1dE9TczBqa000YXd4SlJjOUY5ZElPNjFURkRWNDVHU0lPMTR1R01XOVRzSnZjV1lUN1ZLTVlSNzB4blpHSnlVOXlySnV4ak5Bc0JZZnBnWmF5Y1FwSlpxbi12MWk?oc=5",
-      "published": "2026-10-08T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "f5c71ad608ba",
       "title": "Suomeen perustetaan FinTrials vauhdittamaan kliinisiä lääke- ja laitetutkimuksia - Sosiaali- ja terveysministeriö",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXZ2UnkwWWpZenNqS0F1Y2hRdlRnTjFxNmNwN3FYRnc3Z2NKd2lkVHhqeXRQM2RjMDZIRmtjMllCMTNERzlZQ3pNc0c2eTVUREtpbFRzdFNpNVRFYkVDaHFaek9rSjBzejl1RWxGejVGMzV0VHRSdWxfU3ZDQzhvUDNFbEl1Rks0Q1ZvU2F0YnFSVWxvQzBYeVJBdG0?oc=5",
@@ -34,23 +24,13 @@
       }
     },
     {
-      "id": "cabe751ee597",
-      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HQlA2eWpzQURBTGlIUmxncEJJaUdaUWVJakc3SlVXMlRqLUpsZjZ3eEozb1lpWlB4eHNtZW5tMmZuWFlNOHRZd184OVRSdnB2VmkxN09RaE9DNWVE?oc=5",
-      "published": "2026-08-23T07:00:00+00:00",
+      "id": "07256e16a9cd",
+      "title": "Älä koskaan syö karkkia, jos sinulla on nämä lääkkeet - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbE40X1BtdVIzTnNtZC02UTNpZzRqbFprQzZZc1VERjd1dE9TczBqa000YXd4SlJjOUY5ZElPNjFURkRWNDVHU0lPMTR1R01XOVRzSnZjV1lUN1ZLTVlSNzB4blpHSnlVOXlySnV4ak5Bc0JZZnBnWmF5Y1FwSlpxbi12MWk?oc=5",
+      "published": "2026-10-08T07:00:00+00:00",
       "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "20c31c563c98",
-      "title": "Kela päätti lopettaa kalliiden lääkkeiden korvaamisen – HUSin ylilääkäri: Voi eriarvoistaa potilaita - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9SZWdYajFZb3ViLVl1LVdpVUhBejZkNVF6SWYyUHc4bVMtdlVtZWJMTmM0STVZMXkwU0luaktQWnhGQQ?oc=5",
-      "published": "2026-07-13T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -64,23 +44,23 @@
       }
     },
     {
-      "id": "74a598b8134d",
-      "title": "Kolesterolilääke ei välttämättä ole loppuiän lääke – Tutkimus haastaa tarkastelemaan lääkityksen hyötyjä ja riskejä ikäihmisillä - Seura.fi",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50QWoyVDh0c1RrX0JPYmlLc044b1FCM1FlZF85a3RfYUUyTGIzbjlxMFFFSUlPSU9OdF9zdkdiblFrNzRtc2FacmVpRDJwZ3lOWXhGYThxQlI3aUZ1Qkk1emV0aFpiVFk4cDkzcExzNDRhT2tNZkNqQW1KRQ?oc=5",
-      "published": "2026-11-18T17:16:48+00:00",
+      "id": "20c31c563c98",
+      "title": "Kela päätti lopettaa kalliiden lääkkeiden korvaamisen – HUSin ylilääkäri: Voi eriarvoistaa potilaita - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9SZWdYajFZb3ViLVl1LVdpVUhBejZkNVF6SWYyUHc4bVMtdlVtZWJMTmM0STVZMXkwU0luaktQWnhGQQ?oc=5",
+      "published": "2026-07-13T07:00:00+00:00",
       "source": {
-        "name": "Seura.fi",
-        "url": "https://seura.fi"
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
-      "id": "0f1d654831ad",
-      "title": "Lihavuuslääkkeet vievät mediahuomion – Uudet verenohennuslääkkeet eivät kiinnosta - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVUJYTFBNbXJEWXd5RlVkU2t6aFozX1pxODhQaW44Z1NQcHdsR2NCS3MzUXpkNGNPTVJxMHdhOGd2T0tUQzA1YzlJOVZzcndOd2hBYXNxd0pfMy1UX1p2cTR4eHBLWllUdVFMZXlNOThiNm12dHUyUHllM2FNMHJQRGdxX0t3eDdYU0x4ZXExTi1IUzcwY2xpRnFXVHd0WjNLcDFSdFhycE1IU2w5cHc?oc=5",
-      "published": "2026-11-13T12:00:00+00:00",
+      "id": "cabe751ee597",
+      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HQlA2eWpzQURBTGlIUmxncEJJaUdaUWVJakc3SlVXMlRqLUpsZjZ3eEozb1lpWlB4eHNtZW5tMmZuWFlNOHRZd184OVRSdnB2VmkxN09RaE9DNWVE?oc=5",
+      "published": "2026-08-23T07:00:00+00:00",
       "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -104,6 +84,16 @@
       }
     },
     {
+      "id": "115a21f2abe2",
+      "title": "Jos sinulla on nämä lääkkeet, älä syö karkkia – Nyt puhuu professori: ”Pitäisi välttää” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdklheklvMTNTSFJCdFkyS20tZlhkRF9hMnNGN2lldF9XSzRHek5nVFVuNmk2YzlHY3N5RmpkQ19CS3VNWVpDWFduZUhwRHlGTVdPQmFzbFZrSGlONFBlYUtMMDFLSDM2czM2cDIxNTdkMlJvM0d5NEprSG5ERXBHbmI5d00?oc=5",
+      "published": "2026-10-13T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "7c4f2d0880e5",
       "title": "Tämä tavallinen lääke voi aiheuttaa vatsavaivoja – näin sitä ei saisi käyttää - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hWnRpQ0l2NjU4NEtrMDg3dUNKNGxmbUxjLTd1bDViRlZzNVVDTUJHbzdzUkM5dWlrS3NvUWJoVmtVeFdlRVc3a1gtZE54WDg4OHlQR3R2WjVHeGVZ?oc=5",
@@ -114,10 +104,10 @@
       }
     },
     {
-      "id": "bc10383a5bc0",
-      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
-      "published": "2025-06-02T07:00:00+00:00",
+      "id": "6b6ff09594e3",
+      "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
+      "published": "2025-02-28T08:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -134,23 +124,43 @@
       }
     },
     {
-      "id": "6b6ff09594e3",
-      "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
-      "published": "2025-02-28T08:00:00+00:00",
+      "id": "39efd1dbc37b",
+      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava piirre - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EYnhRSVpOSmJHbkRJSS1naG9xLTRvTU10SlhjaXhhLXNXMTZWT1Ria2hsZlk4dnlQbHVBdGxSR2tyaEF6TEpSZGtyTXIzNW5pVEZRMGFkSS1wM2FL?oc=5",
+      "published": "2026-11-13T04:30:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "ba2b88693bc5",
+      "title": "Väitöstutkimus: Vältettäväksi luokiteltujen lääkkeiden käyttö on iäkkäillä yleistä - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0tamQwd2VKdF9lY0JWU2V0M3dPN0ZLczk4Sm52cXJvbExUMjZxQ2VsVmVkNW90V2FwZ3RhQUgzWndMUQ?oc=5",
+      "published": "2025-03-12T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
       }
     },
     {
-      "id": "84469cdae09d",
-      "title": "Orion lopettaa ei-addiktoivan kipulääkkeen kehittelyn – lääke ehti herättää odotuksia - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5sbWRfS3pRaGJhZnRPOFRPaTVuaGV1UFdGOGZwbER6S1NtLWg1WG1MQXNvVTMzVTdGY1JLVkJMdG93QQ?oc=5",
-      "published": "2024-10-24T07:00:00+00:00",
+      "id": "908b4cf14ccc",
+      "title": "Naiskeho, mieslääkkeet - Helsinki.fi",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sal83eUcxREU3b281RFhiXzY2TWNoZHYyX1JqTjVDbnFRR3J2Y3lOX0FvSFVJT3BZZW5kOHBhR2w4VW1hanFMSmV2LVNVTWRHNTlzRWlrSVhtSktfZEVaQjl3MXJNdGtzZ3h1OVFNWnl6RGVjZE9od3d6dzE?oc=5",
+      "published": "2025-04-28T07:00:00+00:00",
       "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
+        "name": "Helsinki.fi",
+        "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "48b50add51c2",
+      "title": "Biologisten lääkkeiden lääkevaihto apteekissa edellyttää ennakoivaa riskien hallintaa - Helsinki.fi",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWHNXajNpcmtLODBuQ2g5OFBNQlYySWVoUWdoLWJ0cjZWQm1iREo3NUNkOGNNdDNNMkROR18xc0k3ODFWdFI1bUVyTDl4dUY4S25ScU9qUHhoMHJqN3ZyZl92OHB5UE9QVjJlN0lqd1VwM1RheThXNzZfQnl2dkxldEhQMktScUtMS3JTZC1oWFNHdVhPYTRCd1E1TWxvUl8tcmlIWFZsOV9JWVUzR0NKN0pJdXV2WVpXZmE2VU1DRUwyOXVqbHV4WnVlSVBmZw?oc=5",
+      "published": "2023-02-14T08:00:00+00:00",
+      "source": {
+        "name": "Helsinki.fi",
+        "url": "https://www.helsinki.fi"
       }
     },
     {
@@ -174,16 +184,6 @@
       }
     },
     {
-      "id": "39efd1dbc37b",
-      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava piirre - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EYnhRSVpOSmJHbkRJSS1naG9xLTRvTU10SlhjaXhhLXNXMTZWT1Ria2hsZlk4dnlQbHVBdGxSR2tyaEF6TEpSZGtyTXIzNW5pVEZRMGFkSS1wM2FL?oc=5",
-      "published": "2026-11-13T04:30:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "74030c615a93",
       "title": "Tuttu lääke voi ehkäistä myös osteoporoosia - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnZW5ISEJxZlc5bnFNREJWVHZMQUtNeUFabWcwYnN4Wm1KTzdtb3EzWjcyYXk0NWlIdGpsM1pNcUlRYU92WUF6OFFiMmJ3QnZIczM3WU9GZjktN3J1?oc=5",
@@ -191,6 +191,26 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "84469cdae09d",
+      "title": "Orion lopettaa ei-addiktoivan kipulääkkeen kehittelyn – lääke ehti herättää odotuksia - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5sbWRfS3pRaGJhZnRPOFRPaTVuaGV1UFdGOGZwbER6S1NtLWg1WG1MQXNvVTMzVTdGY1JLVkJMdG93QQ?oc=5",
+      "published": "2024-10-24T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "bc10383a5bc0",
+      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
+      "published": "2025-06-02T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -204,30 +224,10 @@
       }
     },
     {
-      "id": "908b4cf14ccc",
-      "title": "Naiskeho, mieslääkkeet - Helsinki.fi",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sal83eUcxREU3b281RFhiXzY2TWNoZHYyX1JqTjVDbnFRR3J2Y3lOX0FvSFVJT3BZZW5kOHBhR2w4VW1hanFMSmV2LVNVTWRHNTlzRWlrSVhtSktfZEVaQjl3MXJNdGtzZ3h1OVFNWnl6RGVjZE9od3d6dzE?oc=5",
-      "published": "2025-04-28T07:00:00+00:00",
-      "source": {
-        "name": "Helsinki.fi",
-        "url": "https://www.helsinki.fi"
-      }
-    },
-    {
-      "id": "ba2b88693bc5",
-      "title": "Väitöstutkimus: Vältettäväksi luokiteltujen lääkkeiden käyttö on iäkkäillä yleistä - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0tamQwd2VKdF9lY0JWU2V0M3dPN0ZLczk4Sm52cXJvbExUMjZxQ2VsVmVkNW90V2FwZ3RhQUgzWndMUQ?oc=5",
-      "published": "2025-03-12T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "48b50add51c2",
-      "title": "Biologisten lääkkeiden lääkevaihto apteekissa edellyttää ennakoivaa riskien hallintaa - Helsinki.fi",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWHNXajNpcmtLODBuQ2g5OFBNQlYySWVoUWdoLWJ0cjZWQm1iREo3NUNkOGNNdDNNMkROR18xc0k3ODFWdFI1bUVyTDl4dUY4S25ScU9qUHhoMHJqN3ZyZl92OHB5UE9QVjJlN0lqd1VwM1RheThXNzZfQnl2dkxldEhQMktScUtMS3JTZC1oWFNHdVhPYTRCd1E1TWxvUl8tcmlIWFZsOV9JWVUzR0NKN0pJdXV2WVpXZmE2VU1DRUwyOXVqbHV4WnVlSVBmZw?oc=5",
-      "published": "2023-02-14T08:00:00+00:00",
+      "id": "880aa536e023",
+      "title": "Tuomas Lilius tuo laajan kokemuksen lääkkeiden vaikutuksesta ja myrkyllisten aineiden tutkimuksesta farmasian tiedekuntaan - Helsinki.fi",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQSDdFenJObVIzV0Rla1h4OEV5S1VzUjRkNzNraWQ0X0xCYmRBNWt2T1diN0J2VG1sSXdOUFFoZ19KeFZDSXh3X3duczJ0aVBuR29kelF4NUFwZzNlcDNZeWczeWdVNU12UE5lNWQ2djA0OHJveHo3NlRvdk1TRFpjRmM1LVgwa2t0bWVFcUltVnpGYXJiZjF0OGgyVEljYlRWN2dVdTNMZ1pTUENyRlpvNV9YQU1nUXI5RTdBMC0xMVJZNGZmaEJuSVprS3RZd2x5RW9OaE43V0tPeHktd25UMWVHbWRBNmtselRuRnJ0VGxjUVpUcUtyeXhVWERlWkc2cWNQYU50Zy1PYjZLamJOOXpR?oc=5",
+      "published": "2024-03-15T07:00:00+00:00",
       "source": {
         "name": "Helsinki.fi",
         "url": "https://www.helsinki.fi"
@@ -264,13 +264,13 @@
       }
     },
     {
-      "id": "880aa536e023",
-      "title": "Tuomas Lilius tuo laajan kokemuksen lääkkeiden vaikutuksesta ja myrkyllisten aineiden tutkimuksesta farmasian tiedekuntaan - Helsinki.fi",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQSDdFenJObVIzV0Rla1h4OEV5S1VzUjRkNzNraWQ0X0xCYmRBNWt2T1diN0J2VG1sSXdOUFFoZ19KeFZDSXh3X3duczJ0aVBuR29kelF4NUFwZzNlcDNZeWczeWdVNU12UE5lNWQ2djA0OHJveHo3NlRvdk1TRFpjRmM1LVgwa2t0bWVFcUltVnpGYXJiZjF0OGgyVEljYlRWN2dVdTNMZ1pTUENyRlpvNV9YQU1nUXI5RTdBMC0xMVJZNGZmaEJuSVprS3RZd2x5RW9OaE43V0tPeHktd25UMWVHbWRBNmtselRuRnJ0VGxjUVpUcUtyeXhVWERlWkc2cWNQYU50Zy1PYjZLamJOOXpR?oc=5",
-      "published": "2024-03-15T07:00:00+00:00",
+      "id": "ab6cb1071079",
+      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
+      "published": "2021-06-16T07:00:00+00:00",
       "source": {
-        "name": "Helsinki.fi",
-        "url": "https://www.helsinki.fi"
+        "name": "Helsingin Uutiset",
+        "url": "https://www.helsinginuutiset.fi"
       }
     },
     {
@@ -344,16 +344,6 @@
       }
     },
     {
-      "id": "ab6cb1071079",
-      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
-      "published": "2021-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Helsingin Uutiset",
-        "url": "https://www.helsinginuutiset.fi"
-      }
-    },
-    {
       "id": "4b498bfad176",
       "title": "Tuttua lääkettä saa naapurista hämmentävän halvalla – vertailimme lääkkeiden hinnat Suomessa, Ruotsissa ja Virossa - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2Yy1ZWGkxUXpieDliOFFxTTllckVoZEZjenhxZW9VcXF1a1ZjSEFnVTJDREoyZUpHOUZXbGNLTTFkUVc4Wk15VUt2b2tZZ1Q5aE5DSEJqbWNpS1o5?oc=5",
@@ -364,16 +354,6 @@
       }
     },
     {
-      "id": "747686273ad6",
-      "title": "Tämä yleinen lääke voi torjua syöpää - Terve.fi",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsS29wTzlSWUcwejJQdGNXUkhzd2c2bDJJUS1DNl9TU3RRQjkzWnA0WEEzZkVjaFNSc29rVTd6V09RV0VOemlpLWg1OXJ5OTF4QUU1cExhYnNOVkZhcmREc2RXNThocUxWWGd2Smc1VFpNRlFKYjFJ?oc=5",
-      "published": "2012-07-11T07:00:00+00:00",
-      "source": {
-        "name": "Terve.fi",
-        "url": "https://www.terve.fi"
-      }
-    },
-    {
       "id": "001869b5d400",
       "title": "Lääkkeiden yhteisvaikutus aiheuttaa ongelmia - Yle",
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5FTGlHTU4ta3l0cklmMmI3dWxzUWdMbVJ0d21Dd2ZiOXQ3Y0EtUUU2YnVxVTFxTVZ1QjBZWUVyaw?oc=5",
@@ -381,6 +361,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "747686273ad6",
+      "title": "Tämä yleinen lääke voi torjua syöpää - Terve.fi",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsS29wTzlSWUcwejJQdGNXUkhzd2c2bDJJUS1DNl9TU3RRQjkzWnA0WEEzZkVjaFNSc29rVTd6V09RV0VOemlpLWg1OXJ5OTF4QUU1cExhYnNOVkZhcmREc2RXNThocUxWWGd2Smc1VFpNRlFKYjFJ?oc=5",
+      "published": "2012-07-11T07:00:00+00:00",
+      "source": {
+        "name": "Terve.fi",
+        "url": "https://www.terve.fi"
       }
     },
     {
@@ -401,6 +391,16 @@
       "source": {
         "name": "Terve.fi",
         "url": "https://www.terve.fi"
+      }
+    },
+    {
+      "id": "4354fc0fe674",
+      "title": "Erektiopillerin ja Alzheimerin taudin väliltä löytyi yllättävä yhteys - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3pDXzB5MlhFZFl6TmZ5UElBVWFIZ21RVDF3TzkxNWFqMFpqNjVVM05xQnBNbWF3THhvX0JMWEoxS3J2bEY4cGpZLXhSdjI1eWtfQWpFSjNsc0FGdkFGMGV3RHlpXzlSUU9CbkNCOGdwX2ZURW1EblJjRjVfUWZtUVUxQm0?oc=5",
+      "published": "2021-12-06T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {

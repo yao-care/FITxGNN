@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etanercept: ennustettu uusi käyttöaihe Häntäluun hypermobiliteetti (hypermobility of coccyx) (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
 ---
 
@@ -75,6 +75,21 @@ Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia, jotka koskisiv
 Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ---
+
+## Suomen markkinatiedot
+
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000262 | Enbrel | etanercept | Spondylitis, Ankylosing; Arthritis, Juvenile Rheumatoid; Arthritis, Psoriatic; Psoriasis; Arthritis, Rheumato… | Voimassa |
+| EMEA/H/C/004007 | Benepali | etanercept | Arthritis, Psoriatic; Arthritis, Rheumatoid; Psoriasis | Voimassa |
+| EMEA/H/C/004192 | Erelzi | etanercept | Arthritis, Psoriatic; Psoriasis; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid; Spondylitis, Ankylosi… | Voimassa |
+| EMEA/H/C/004711 | Nepexto | etanercept | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Arthritis, Psoriatic; Spondylarthropathies; Spondyliti… | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

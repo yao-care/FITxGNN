@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desloratadine: ennustettu uusi käyttöaihe Nenäontelon sairaus (nasal cavity disease) (näytön taso L5). Alkuperäinen käyttöaihe: Rhinitis, Allergic, Perennial"
 ---
 
@@ -70,6 +70,25 @@ Tällä hetkellä aiheeseen ei ole rekisteröity kliinisiä tutkimuksia.
 |------|-----|------|------|---------|
 | [30488351](https://pubmed.ncbi.nlm.nih.gov/30488351/) | 2019 | Prekliininen (eläinmalli) | European Archives of Oto-Rhino-Laryngology | Hesperidiinin ja tymolin vaikutukset rotilla, joilla oli ovalbumiinin aiheuttama allerginen nuha. Desloratadiinia ei tutkittu. |
 | [19769798](https://pubmed.ncbi.nlm.nih.gov/19769798/) | 2009 | Prekliininen (eläinmalli) | American Journal of Rhinology & Allergy | Loratadiinin ja montelukastin yhdistelmä lievitti nenän tukkoisuutta kissamallissa. Desloratadiinia tutkittiin lisäksi pseudoefedriinin kanssa. |
+
+## Suomen markkinatiedot
+
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000310 | Azomyr | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Voimassa |
+| EMEA/H/C/000313 | Aerius | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Voimassa |
+| EMEA/H/C/000314 | Neoclarityn | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Voimassa |
+| EMEA/H/C/000772 | Aerinaze | desloratadine; pseudophedrine sulfate | Rhinitis, Allergic, Seasonal | Voimassa |
+| EMEA/H/C/002310 | Dasselta | desloratadine | Rhinitis, Allergic, Perennial; Rhinitis, Allergic, Seasonal; Urticaria | Voimassa |
+| EMEA/H/C/002404 | Desloratadine ratiopharm | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Voimassa |
+| EMEA/H/C/002419 | Desloratadine Teva | desloratadine | Rhinitis, Allergic, Perennial; Rhinitis, Allergic, Seasonal | Voimassa |
+| EMEA/H/C/002435 | Desloratadine Actavis | desloratadine | Rhinitis, Allergic, Perennial; Urticaria; Rhinitis, Allergic, Seasonal | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

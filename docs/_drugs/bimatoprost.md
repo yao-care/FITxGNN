@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost: ennustettu uusi käyttöaihe Hampaiden ja/tai ientenkudosten osatekijän sisältävä epämuodostumaoireyhtymä (malformation syndrome with odontal and/or… (näytön taso L5). Alkuperäinen käyttöa…"
 ---
 
@@ -67,6 +67,19 @@ Tälle ennustetulle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä k
 ## Kirjallisuusnäyttö
 
 Tälle ennustetulle käyttöaiheelle ei ole tällä hetkellä saatavilla kirjallisuutta.
+
+## Suomen markkinatiedot
+
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000391 | Lumigan | bimatoprost | Glaucoma, Open-Angle; Ocular Hypertension | Voimassa |
+| EMEA/H/C/000668 | Ganfort | bimatoprost; timolol | Glaucoma, Open-Angle; Ocular Hypertension | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

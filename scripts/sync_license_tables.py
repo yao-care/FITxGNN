@@ -48,7 +48,7 @@ MAX_ROWS = 20
 STATUS_FI = {"authorised": "Voimassa", "withdrawn": "Peruttu", "lapsed": "Rauennut", "expired": "Vanhentunut",
              "revoked": "Kumottu", "suspended": "Keskeytetty", "refused": "Hylätty", "not authorised": "Ei myyntilupaa"}
 # 每週排程 3b 的自我檢查（license_refresh）：改到的行除了表格列只能是這些（license_adapter.PAGE_NOTE 用同一份）
-PAGE_NOTE = (r"^(" + "|".join(re.escape(x) for x in (BEGIN, END, SOURCE, NONE_LINE))
+PAGE_NOTE = (r"^(" + "|".join(re.escape(x) for x in ("## Suomen markkinatiedot", BEGIN, END, SOURCE, NONE_LINE))
              + r"|Taulukossa näytetään \d+ näissä tiedoissa olevasta \d+ keskitetystä EU-myyntiluvasta \(voimassa olevat ensin\)\.)$")
 # --migrate：只講舊表列了幾筆的說明句（整句）
 CAPTION = re.compile(
@@ -139,13 +139,36 @@ def process(text, rows, total):
                 y += 1
             return "\n".join(_splice(lines, tb[0], y + 1, blk))
     if not secs:
-        return text
+        return (add_section(text, rows, total) if not _sections(lines) else None) or text
     a, b = secs[0]
     e = b
     while e > a + 1 and (not lines[e - 1].strip() or lines[e - 1].strip() == "---"):
         e -= 1
     return "\n".join(_splice(lines, e, e, blk))
 
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁整頁沒有市場段落、但證據包有人用集中許可紀錄的，
+# 補「## Suomen markkinatiedot」段落放程式表。位置：標題以 Turvallisuus／Johtopäätö／Tarkistusloki／Vastuuvapauslauseke 開頭的段落中最前面一個之前（安全性→結論→查核紀錄→免責聲明）。
+# noindex 頁與沒有人用紀錄的頁不補。
+ADD_SEC = "## Suomen markkinatiedot"
+ADD_BEFORE = ('Turvallisuus', 'Johtopäätö', 'Tarkistusloki', 'Vastuuvapauslauseke')
+
+
+def is_public(text):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    return not re.search(r"^noindex:\s*true", fm, re.M)
+
+
+def add_section(text, rows, total):
+    if not rows or not is_public(text):
+        return None
+    lines = text.split("\n")
+    at = next((i for pfx in ADD_BEFORE for i, l in enumerate(lines) if l.startswith("## " + pfx)), None)
+    if at is None:
+        return None
+    sec = [ADD_SEC, ""] + wrap(program_block(rows, total)) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 def drop_captions(text, protect=()):
     """--migrate：市場段落裡只講舊表列了幾筆的說明句拿掉（查核框、程式區塊、表格、查核紀錄的更正文字不動）。回傳 (新內容, 拿掉的句子)"""

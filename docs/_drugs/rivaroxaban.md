@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
 description: "Rivaroxaban: ennustettu uusi käyttöaihe Nivelreuma (rheumatoid arthritis) (näytön taso L5). Alkuperäinen käyttöaihe: Venous Thromboembolism"
@@ -85,7 +85,7 @@ Yksikään julkaisu ei tutki rivaroksabaanin tehoa nivelreuman hoidossa.
 
 <!-- review:begin fi-lic-20261106-rivaroxaban-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-rivaroxaban-1 -->
 
@@ -93,12 +93,18 @@ Yksikään julkaisu ei tutki rivaroksabaanin tehoa nivelreuman hoidossa.
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005600 | Rivaroxaban Viatris (aiemmin Rivaroxaban Mylan) | – | Laskimotromboembolia, keuhkoembolia, akuutti sepelvaltimotautioireyhtymä, aivohalvaus, sepelvaltimotauti, ääreisvaltimotauti, eteisvärinä |
-| EMEA/H/C/006643 | Rivaroxaban Koanaa | – | Laskimotromboembolia, keuhkoembolia, laskimotromboosi, aivohalvaus, embolia |
-| EMEA/H/C/005279 | Rivaroxaban Accord | – | Akuutti sepelvaltimotautioireyhtymä, sepelvaltimotauti, ääreisvaltimotauti, laskimotromboembolia, aivohalvaus, eteisvärinä, keuhkoembolia |
-| EMEA/H/C/000944 | Xarelto | – | Nivelen tekonivelleikkaus, laskimotromboembolia |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000944 | Xarelto | rivaroxaban | Arthroplasty, Replacement; Venous Thromboembolism | Voimassa |
+| EMEA/H/C/005279 | Rivaroxaban Accord | rivaroxaban | Acute Coronary Syndrome; Coronary Artery Disease; Peripheral Arterial Disease; Venous Thromboembolism; Stroke… | Voimassa |
+| EMEA/H/C/005600 | Rivaroxaban Viatris (previously Rivaroxaban Mylan) | rivaroxaban | Venous Thromboembolism; Pulmonary Embolism; Acute Coronary Syndrome; Stroke; Coronary Artery Disease; Periphe… | Voimassa |
+| EMEA/H/C/006643 | Rivaroxaban Koanaa | rivaroxaban | Venous Thromboembolism; Pulmonary Embolism; Venous Thrombosis; Stroke; Embolism | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,7 +133,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 <!-- review:begin fi-lic-20261106-rivaroxaban-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustietojen puute estää etenemisen turvallisuusseulontaan.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustietojen puute estää etenemisen turvallisuusseulontaan.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-rivaroxaban-2 -->
 
@@ -139,7 +145,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 <!-- review:begin fi-lic-20261106-rivaroxaban-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Samankaltaisuusarvio alkuperäisen ja ennustetun käyttöaiheen välillä sekä antoreittien yhteensopivuuden arviointi / Markkinatilanteen selvittäminen, koska voimassa olevia myyntilupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Samankaltaisuusarvio alkuperäisen ja ennustetun käyttöaiheen välillä sekä antoreittien yhteensopivuuden arviointi / Markkinatilanteen selvittäminen, koska voimassa olevia myyntilupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-rivaroxaban-3 -->
 
@@ -155,9 +161,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Markkinatilanteen selvittäminen, koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja t” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Markkinatilanteen selvittäminen, koska voimassa olevia myyntilupia ei ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->

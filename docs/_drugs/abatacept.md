@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abatacept: ennustettu uusi käyttöaihe Selkärankareuma (ankylosing spondylitis) (näytön taso L3). Alkuperäinen käyttöaihe: Arthritis, Psoriatic"
 ---
 
@@ -86,6 +86,16 @@ Näytön tasoksi on arvioitu L3: suoraan tätä sairautta koskevat tiedot rajoit
 ## Tiedot Suomen markkinoilta
 
 Valmiste: Orencia (Bristol-Myers Squibb Pharma EEIG), keskitetty myyntilupa (EMEA/H/C/000701), yksittäisvalmiste. Markkinatilanne: markkinoilla. Lupataulukon ja lupamäärän tuottaa sivuston ohjelma lupatiedoista.
+
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000701 | Orencia | abatacept | Arthritis, Psoriatic; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

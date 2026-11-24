@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALBUTREPENONACOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Albutrepenonacog Alfa: ennustettu uusi käyttöaihe Pseudo-von Willebrandin tauti (pseudo-von Willebrand disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hemophilia B"
 ---
 
@@ -70,9 +70,15 @@ Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/003955 | Idelvion | – | Hemofilia B |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003955 | Idelvion | albutrepenonacog alfa | Hemophilia B | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

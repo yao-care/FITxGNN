@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 258
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L2). Alkuperäinen käyttöaihe: Multiple Myeloma"
@@ -104,7 +104,7 @@ Kirjallisuudessa ei ole satunnaistettua kontrolloitua tutkimusta lenalidomidista
 
 <!-- review:begin fi-lic-20261106-lenalidomide-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa on merkitty peruutetuiksi.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa on merkitty peruutetuiksi.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-lenalidomide-1 -->
 
@@ -112,11 +112,17 @@ Kirjallisuudessa ei ole satunnaistettua kontrolloitua tutkimusta lenalidomidista
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005306 | Lenalidomide Mylan | – | Multippeli myelooma |
-| EMEA/H/C/000717 | Revlimid | – | Multippeli myelooma, manttelisolulymfooma, myelodysplastiset oireyhtymät |
-| EMEA/H/C/004857 | Lenalidomide Accord | – | Multippeli myelooma |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000717 | Revlimid | lenalidomide | Multiple Myeloma; Lymphoma, Mantle-Cell; Myelodysplastic Syndromes | Voimassa |
+| EMEA/H/C/004857 | Lenalidomide Accord | lenalidomide | Multiple Myeloma | Voimassa |
+| EMEA/H/C/005306 | Lenalidomide Mylan | lenalidomide | Multiple Myeloma | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -152,7 +158,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tälle raportille saat
 
 <!-- review:begin fi-lic-20261106-lenalidomide-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lenalidomidilla ei tällä hetkellä ole voimassa olevaa myyntilupaa Suomessa, ja turvallisuustiedot puuttuvat. Luuydinsuppression riski on merkittävä.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lenalidomidilla ei tällä hetkellä ole voimassa olevaa myyntilupaa Suomessa, ja turvallisuustiedot puuttuvat. Luuydinsuppression riski on merkittävä.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-lenalidomide-2 -->
 
@@ -165,7 +171,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tälle raportille saat
 
 <!-- review:begin fi-lic-20261106-lenalidomide-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitystä myyntilupatilanteesta Suomessa (kaikki kolme myyntilupaa on peruutettu)” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitystä myyntilupatilanteesta Suomessa (kaikki kolme myyntilupaa on peruutettu)” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-lenalidomide-3 -->
 
@@ -177,9 +183,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on merkitty peruutetuiksi” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lenalidomidilla ei tällä hetkellä ole voimassa olevaa myyntilupaa Suomessa, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”(kaikki kolme myyntilupaa on peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on merkitty peruutetuiksi” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lenalidomidilla ei tällä hetkellä ole voimassa olevaa myyntilupaa Suomessa, ja turvallisuustiedot puuttuvat” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”(kaikki kolme myyntilupaa on peruutettu)” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
 
 <!-- review:end log -->

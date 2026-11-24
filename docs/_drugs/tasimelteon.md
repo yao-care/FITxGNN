@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TASIMELTEON"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
 description: "Tasimelteon: ennustettu uusi käyttöaihe Bilateral parasagittal parieto-occipital polymicrogyria (näytön taso L5). Alkuperäinen käyttöaihe: Sleep Disorders, Circadian Rhythm"
@@ -103,15 +103,15 @@ Sijan 1 ennusteelle ei ole kirjallisuutta. Alla on sijan 2 (unettomuus) ja sijan
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/003870 | Hetlioz | – | Vuorokausirytmin unihäiriöt (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-tasimelteon-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003870 | Hetlioz | tasimelteon | Sleep Disorders, Circadian Rhythm | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003870 / Hetlioz / – / Vuorokausirytmin unihäiriöt (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Hetlioz (EMEA/H/C/003870) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-tasimelteon-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -135,7 +135,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tämän raportin aineist
 
 <!-- review:begin fi-lic-20261106-tasimelteon-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Positiiviset tulokset voisivat nostaa tason L1:een. / Suomessa tasimelteonin ainoa myyntilupa on peruutettu, mikä rajoittaa käytännön saatavuutta.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Positiiviset tulokset voisivat nostaa tason L1:een. / Suomessa tasimelteonin ainoa myyntilupa on peruutettu, mikä rajoittaa käytännön saatavuutta.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-tasimelteon-1 -->
 
@@ -147,7 +147,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tämän raportin aineist
 
 <!-- review:begin fi-lic-20261106-tasimelteon-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tasimelteonin vaikutusmekanismitietojen täydentämistä DrugBankista. / Peruutetun myyntiluvan syyn selvittämistä sekä lääkemuoto- ja antoreittitietojen täydentämistä.” Poistettu: valmisteiden kuvaus ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tasimelteonin vaikutusmekanismitietojen täydentämistä DrugBankista. / Peruutetun myyntiluvan syyn selvittämistä sekä lääkemuoto- ja antoreittitietojen täydentämistä.” Poistettu: valmisteiden kuvaus ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-tasimelteon-2 -->
 
@@ -159,9 +159,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Suomessa tasimelteonin ainoa myyntilupa on peruutettu, mikä rajoittaa käytännön saatavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Peruutetun myyntiluvan syyn selvittämistä sekä lääkemuoto- ja antoreittitietojen täydentämistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: Hetlioz (EMEA/H/C/003870) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa tasimelteonin ainoa myyntilupa on peruutettu, mikä rajoittaa käytännön saatavuutta” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Peruutetun myyntiluvan syyn selvittämistä sekä lääkemuoto- ja antoreittitietojen täydentämistä” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Hetlioz (EMEA/H/C/003870) on voimassa, ei peruutettu | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Hetlioz (tasimelteon) prescribing information, Vanda Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90) |
 
 <!-- review:end log -->

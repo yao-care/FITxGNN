@@ -3,7 +3,7 @@ layout: default
 title: Tazobactam
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 420
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Tazobactam: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -70,9 +70,15 @@ TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat lääkeain
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupa | Valmiste | Lääkemuoto | Tila |
-|------|------|------|------|
-| EMEA/H/C/003772 | ceftolozane sulfate;tazobactam sodium |  | Voimassa |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003772 | Zerbaxa | ceftolozane sulfate; tazobactam sodium | Bacterial Infections | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

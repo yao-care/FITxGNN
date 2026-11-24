@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FOSAPREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "pneumocystosis", "leprosy", "Cryptococcal meningitis", "multiple endocrine neoplasia", "intracranial abscess", "retinitis", "Plasmodium falciparum malaria", "echinococcus granulosus infectious disease", "hyperargininemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fosaprepitant: ennustettu uusi käyttöaihe Nefrogeeninen sopimattoman antidiureesin oireyhtymä (nephrogenic syndrome of inappropriate antidiuresis) (näytön taso L5). Alkuperäinen käyttöaihe: Vomiting"
 ---
 
@@ -70,9 +70,15 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000743 | Ivemend | – | Oksentelu; syöpä |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000743 | Ivemend | fosaprepitant | Vomiting; Cancer | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

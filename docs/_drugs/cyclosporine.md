@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclosporine: ennustettu uusi käyttöaihe Krooninen granulomatoottinen tauti, autosomaalinen resessiivinen (granulomatous disease, chronic, autosomal recessive) (näytön taso L5). Alkuperäinen käyttöai…"
 ---
 
@@ -74,11 +74,17 @@ Tähän käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä t
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/006250 | Vevizye | – | Keratoconjunctivitis sicca |
-| EMEA/H/C/004411 | Verkazia | – | Conjunctivitis;Keratitis |
-| EMEA/H/C/002066 | Ikervis | – | Corneal Diseases |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002066 | Ikervis | ciclosporin | Corneal Diseases | Voimassa |
+| EMEA/H/C/004411 | Verkazia | ciclosporin | Conjunctivitis; Keratitis | Voimassa |
+| EMEA/H/C/006250 | Vevizye | ciclosporin | Keratoconjunctivitis Sicca | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

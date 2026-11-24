@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylsalicylic Acid: ennustettu uusi käyttöaihe Matomainen ihoatrofia (atrophoderma vermiculata) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 3 (voimassa: 3)"
 ---
 
@@ -70,11 +70,17 @@ Tälle käyttöaiheelle ei ole saatavilla kirjallisuutta.
 
 Seuraavat valmisteet ovat voimassa olevia myyntilupia. Kaikki ovat yhdistelmävalmisteita, joissa asetyylisalisyylihappo on yhdessä klopidogreelin kanssa. Niiden perusteella ei voi päätellä, miten pelkkä asetyylisalisyylihappo on hyväksytty tai markkinoilla.
 
-| Myyntilupanumero | Valmisteen nimi | Valmistaja |
-|---------|------|------|
-| EMEA/H/C/001143 | DuoPlavin | Sanofi Winthrop Industrie |
-| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (aiemmin Clopidogrel / Acetylsalicylic acid Mylan) | Mylan Pharmaceuticals Limited |
-| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (aiemmin DuoCover) | Sanofi-Aventis Groupe |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/001143 | DuoPlavin | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Voimassa |
+| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (previously DuoCov… | clopidogrel; acetylsalicylic acid | Acute Coronary Syndrome; Myocardial Infarction | Voimassa |
+| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (previously Clop… | acetylsalicylic acid; clopidogrel hydrogen sulfate | Acute Coronary Syndrome; Myocardial Infarction | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

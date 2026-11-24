@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALISKIREN"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aliskiren: ennustettu uusi käyttöaihe Keuhkosairaudesta ja/tai hypoksiasta johtuva keuhkoverenpainetauti (pulmonary hypertension owing to lung disease and/or… (näytön taso L5). Alkuperäinen käyttöaih…"
 ---
 
@@ -75,9 +75,15 @@ Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tut
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000780 | Rasilez | – | Verenpainetauti |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000780 | Rasilez | aliskiren | Hypertension | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofatumumab: ennustettu uusi käyttöaihe Follikulaarinen lymfooma (näytön taso L2). Alkuperäinen käyttöaihe: Relapsoiva-remittoiva multippeliskleroosi"
 ---
 
@@ -95,9 +95,15 @@ Lisäksi rekisterissä on keskeytetty tutkimus NCT01397591 (3 potilasta) ja peru
 
 ## Markkinatiedot Suomessa
 
-| Lupanumero | Valmisteen nimi | Hyväksytty käyttöaihe |
-|---------|------|-----------|
-| EMEA/H/C/005410 | Kesimpta | Relapsoiva-remittoiva multippeliskleroosi |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/005410 | Kesimpta | ofatumumab | Multiple Sclerosis, Relapsing-Remitting | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 Kesimpta-valmisteen myyntilupa kattaa vain MS-taudin. Follikulaarinen lymfooma ei kuulu hyväksyttyihin käyttöaiheisiin.
 

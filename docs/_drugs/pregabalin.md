@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: ennustettu uusi käyttöaihe Tendinitis (näytön taso L5). Alkuperäinen käyttöaihe: Anxiety Disorders"
@@ -85,27 +85,28 @@ Tällä hetkellä ei ole tendiniittiin liittyviä rekisteröityjä kliinisiä tu
 
 ## Markkinatiedot Suomessa
 
-Taulukossa on 5 niistä.
+Myyntiluvat ja niiden tila ovat alla olevassa taulukossa.
 
 <!-- review:begin fi-lic-20261106-pregabalin-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 6 myyntilupaa ovat keskitettyjä EU-myyntilupia, ja ne on peruutettu. Taulukossa on 5 niistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 6 myyntilupaa ovat keskitettyjä EU-myyntilupia, ja ne on peruutettu. Taulukossa on 5 niistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pregabalin-1 -->
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Myyntilupaan hyväksytty käyttöaihe | Tila |
-|---------|------|------|-----------|------|
-| EMEA/H/C/000546 | Lyrica | Ei ilmoitettu | Epilepsia, ahdistuneisuushäiriöt, hermosärky | Voimassa |
-| EMEA/H/C/003900 | Pregabalin Zentiva | Ei ilmoitettu | Ahdistuneisuushäiriöt, epilepsia | Voimassa |
-| EMEA/H/C/003880 | Pregabalin Viatris Pharma (aiemmin Pregabalin Pfizer) | Ei ilmoitettu | Ahdistuneisuushäiriöt, epilepsia | Voimassa |
-| EMEA/H/C/004078 | Pregabalin Viatris (aiemmin Pregabalin Mylan) | Ei ilmoitettu | Ahdistuneisuushäiriöt, epilepsia | Voimassa |
-| EMEA/H/C/004010 | Pregabalin Sandoz | Ei ilmoitettu | Ahdistuneisuushäiriöt, hermosärky, epilepsia | Voimassa |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-pregabalin-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000546 | Lyrica | pregabalin | Epilepsy; Anxiety Disorders; Neuralgia | Voimassa |
+| EMEA/H/C/003880 | Pregabalin Viatris Pharma (previously Pregabalin Pfizer) | pregabalin | Anxiety Disorders; Epilepsy | Voimassa |
+| EMEA/H/C/003900 | Pregabalin Zentiva | pregabalin | Anxiety Disorders; Epilepsy | Voimassa |
+| EMEA/H/C/004010 | Pregabalin Sandoz | pregabalin | Anxiety Disorders; Neuralgia; Epilepsy | Voimassa |
+| EMEA/H/C/004024 | Pregabalin Accord | pregabalin | Anxiety Disorders; Epilepsy | Voimassa |
+| EMEA/H/C/004078 | Pregabalin Viatris (previously Pregabalin Mylan) | pregabalin | Anxiety Disorders; Epilepsy | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000546 / Lyrica / Ei ilmoitettu / Epilepsia, ahdistuneisuushäiriöt, hermosärky / Peruutettu; EMEA/H/C/003900 / Pregabalin Zentiva / Ei ilmoitettu / Ahdistuneisuushäiriöt, epilepsia / Peruutettu; EMEA/H/C/003880 / Pregabalin Viatris Pharma (aiemmin Pregabalin Pfizer) / Ei ilmoitettu / Ahdistuneisuushäiriöt, epilepsia / Peruutettu; EMEA/H/C/004078 / Pregabalin Viatris (aiemmin Pregabalin Mylan) / Ei ilmoitettu / Ahdistuneisuushäiriöt, epilepsia / Peruutettu; EMEA/H/C/004010 / Pregabalin Sandoz / Ei ilmoitettu / Ahdistuneisuushäiriöt, hermosärky, epilepsia / Peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Lyrica (EMEA/H/C/000546), Pregabalin Zentiva (EMEA/H/C/003900), Pregabalin Viatris Pharma (EMEA/H/C/003880), Pregabalin Viatris (EMEA/H/C/004078), Pregabalin Sandoz (EMEA/H/C/004010) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-pregabalin-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -140,7 +141,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 
 <!-- review:begin fi-lic-20261106-pregabalin-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliinisiä tutkimuksia ei ole, eikä kirjallisuus osoita pregabaliinin hoitavan tendiniittiä itseään. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliinisiä tutkimuksia ei ole, eikä kirjallisuus osoita pregabaliinin hoitavan tendiniittiä itseään. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pregabalin-2 -->
 
@@ -152,7 +153,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 
 <!-- review:begin fi-lic-20261106-pregabalin-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”selvitys pregabaliinivalmisteiden nykyisestä saatavuudesta Suomessa, koska keskitetyt myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”selvitys pregabaliinivalmisteiden nykyisestä saatavuudesta Suomessa, koska keskitetyt myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pregabalin-3 -->
 
@@ -166,10 +167,10 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki 6 myyntilupaa ovat keskitettyjä EU-myyntilupia, ja ne on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”koska keskitetyt myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 5 myyntilupaa (Lyrica (EMEA/H/C/000546), Pregabalin Zentiva (EMEA/H/C/003900), Pregabalin Viatris Pharma (EMEA/H/C/003880), Pregabalin Viatris (EMEA/H/C/004078), Pregabalin Sandoz (EMEA/H/C/004010)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki 6 myyntilupaa ovat keskitettyjä EU-myyntilupia, ja ne on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska keskitetyt myyntiluvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Lyrica (EMEA/H/C/000546), Pregabalin Zentiva (EMEA/H/C/003900), Pregabalin Viatris Pharma (EMEA/H/C/003880), Pregabalin Viatris (EMEA/H/C/004078), Pregabalin Sandoz (EMEA/H/C/004010)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

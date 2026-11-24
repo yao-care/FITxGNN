@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bevacizumab: ennustettu uusi käyttöaihe Epiglottiksen kasvain (epiglottis neoplasm) (näytön taso L5). Alkuperäinen käyttöaihe: Colorectal Neoplasms"
 ---
 
@@ -68,13 +68,24 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004697 | Zirabev | – | Colorectal Neoplasms;Breast Neoplasms;Carcinoma, Non-Small-Cell Lung;Carcinoma, Renal Cell;Uterine... |
-| EMEA/H/C/005574 | Avzivi | – | Colorectal Neoplasms;Carcinoma, Non-Small-Cell Lung;Carcinoma, Renal Cell;Ovarian Neoplasms;Fallop... |
-| EMEA/H/C/004728 | Mvasi | – | Carcinoma, Renal Cell;Peritoneal Neoplasms;Ovarian Neoplasms;Breast Neoplasms;Carcinoma, Non-Small... |
-| EMEA/H/C/005556 | Oyavas | – | Colorectal Neoplasms;Breast Neoplasms;Ovarian Neoplasms;Fallopian Tube Neoplasms;Peritoneal Neopla... |
-| EMEA/H/C/000582 | Avastin | – | Carcinoma, Non-Small-Cell Lung;Breast Neoplasms;Ovarian Neoplasms;Colorectal Neoplasms;Carcinoma, ... |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000582 | Avastin | bevacizumab | Carcinoma, Non-Small-Cell Lung; Breast Neoplasms; Ovarian Neoplasms; Colorectal Neoplasms; Carcinoma, Renal C… | Voimassa |
+| EMEA/H/C/004697 | Zirabev | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Carcinoma, Non-Small-Cell Lung; Carcinoma, Renal Cell; Uterine Cervic… | Voimassa |
+| EMEA/H/C/004728 | Mvasi | bevacizumab | Carcinoma, Renal Cell; Peritoneal Neoplasms; Ovarian Neoplasms; Breast Neoplasms; Carcinoma, Non-Small-Cell L… | Voimassa |
+| EMEA/H/C/005106 | Aybintio | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Voimassa |
+| EMEA/H/C/005286 | Alymsys | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Peritoneal Neoplasms; Carcinoma, Non-Small-Cell Lu… | Voimassa |
+| EMEA/H/C/005327 | Abevmy | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Voimassa |
+| EMEA/H/C/005534 | Vegzelma | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Voimassa |
+| EMEA/H/C/005556 | Oyavas | bevacizumab | Colorectal Neoplasms; Breast Neoplasms; Ovarian Neoplasms; Fallopian Tube Neoplasms; Peritoneal Neoplasms; Ca… | Voimassa |
+| EMEA/H/C/005574 | Avzivi | bevacizumab | Colorectal Neoplasms; Carcinoma, Non-Small-Cell Lung; Carcinoma, Renal Cell; Ovarian Neoplasms; Fallopian Tub… | Voimassa |
+| EMEA/H/C/005723 | Lytenava | bevacizumab | Wet Macular Degeneration | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

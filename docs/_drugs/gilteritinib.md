@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Gilteritinib"
 predicted_indications: ["bulbar polio"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gilteritinib: ennustettu uusi käyttöaihe Bulbaarinen polio (bulbar polio) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Myeloid, Acute"
 ---
 
@@ -82,9 +82,15 @@ Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004752 | Xospata | – | Akuutti myeloidinen leukemia |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004752 | Xospata | gilteritinib fumarate | Leukemia, Myeloid, Acute | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 

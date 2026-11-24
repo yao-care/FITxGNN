@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 407
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: ennustettu uusi käyttöaihe Hepatitis B virus infection (näytön taso L2). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"
@@ -109,18 +109,18 @@ Kliiniset signaalit ovat kuitenkin ristiriitaisia. Pilottitutkimuksessa virusmä
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002798 | Sovaldi | – | Krooninen C-hepatiitti (voimassa) |
-| EMEA/H/C/003850 | Harvoni | – | Krooninen C-hepatiitti (voimassa) |
-| EMEA/H/C/004210 | Epclusa | – | Krooninen C-hepatiitti (voimassa) |
-| EMEA/H/C/004350 | Vosevi | – | Krooninen C-hepatiitti (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-sofosbuvir-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002798 | Sovaldi | sofosbuvir | Hepatitis C, Chronic | Voimassa |
+| EMEA/H/C/003850 | Harvoni | ledipasvir; sofosbuvir | Hepatitis C, Chronic | Voimassa |
+| EMEA/H/C/004210 | Epclusa | sofosbuvir; velpatasvir | Hepatitis C, Chronic | Voimassa |
+| EMEA/H/C/004350 | Vosevi | sofosbuvir; velpatasvir; voxilaprevi | Hepatitis C, Chronic | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002798 / Sovaldi / – / Krooninen C-hepatiitti (peruutettu); EMEA/H/C/003850 / Harvoni / – / Krooninen C-hepatiitti (peruutettu); EMEA/H/C/004210 / Epclusa / – / Krooninen C-hepatiitti (peruutettu); EMEA/H/C/004350 / Vosevi / – / Krooninen C-hepatiitti (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Sovaldi (EMEA/H/C/002798), Harvoni (EMEA/H/C/003850), Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-sofosbuvir-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -147,7 +147,7 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 <!-- review:begin fi-lic-20261106-sofosbuvir-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliininen teho on kuitenkin vahvistamatta: pysyvää vastetta ei saavutettu ja resistenssiä ilmaantui. / Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kliininen teho on kuitenkin vahvistamatta: pysyvää vastetta ei saavutettu ja resistenssiä ilmaantui. / Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-sofosbuvir-1 -->
 
@@ -166,8 +166,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 4 myyntilupaa (Sovaldi (EMEA/H/C/002798), Harvoni (EMEA/H/C/003850), Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 4 myyntilupaa (Sovaldi (EMEA/H/C/002798), Harvoni (EMEA/H/C/003850), Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
 
 <!-- review:end log -->

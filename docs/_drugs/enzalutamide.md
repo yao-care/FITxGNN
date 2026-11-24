@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enzalutamide: ennustettu uusi käyttöaihe Eturauhasen leiomyooma (prostate leiomyoma) (näytön taso L5). Alkuperäinen käyttöaihe: Prostatic Neoplasms"
 ---
 
@@ -68,11 +68,17 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/006299 | Enzalutamide Viatris | – | Prostatic Neoplasms |
-| EMEA/H/C/002639 | Xtandi | – | Prostatic Neoplasms |
-| EMEA/H/C/006612 | Enzalutamide Accordpharma | – | Prostatic Neoplasms |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002639 | Xtandi | enzalutamide | Prostatic Neoplasms | Voimassa |
+| EMEA/H/C/006299 | Enzalutamide Viatris | enzalutamide | Prostatic Neoplasms | Voimassa |
+| EMEA/H/C/006612 | Enzalutamide Accordpharma | enzalutamide | Prostatic Neoplasms | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Syöpälääkkeen sytotoksisuus
 

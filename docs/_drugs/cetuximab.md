@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "ductal or ductular proliferation", "chondroid hamartoma", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetuximab: ennustettu uusi käyttöaihe Lapsuusiän keuhkoputken adenoomat/karsinoidit (bronchial adenomas/carcinoids childhood) (näytön taso L5). Alkuperäinen käyttöaihe: Head and Neck Neoplasms"
 ---
 
@@ -72,9 +72,15 @@ Tälle käyttöaiheelle ei ole tällä hetkellä saatavilla aiheeseen liittyvä�
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Tuotenimi | Valmistaja |
-|---------|------|------|
-| EMEA/H/C/000558 | Erbitux | Merck Europe B.V. |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000558 | Erbitux | cetuximab | Head and Neck Neoplasms; Colorectal Neoplasms | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

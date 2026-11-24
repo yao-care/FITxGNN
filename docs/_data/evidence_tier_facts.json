@@ -52,7 +52,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Zepatier (EMEA/H/C/004126) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten käyttö edellyttäisi saatavuuden selvittämistä”",
     "x": 0
    },
    {
@@ -63,7 +63,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Omidria (EMEA/H/C/003702) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa ainoa myyntilupa (Omidria) on kuitenkin peruutettu, eikä kyseinen valmiste ole päänsäryn…",
     "x": 0
    },
    {
@@ -74,7 +74,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Nevanac (EMEA/H/C/000818) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Saatavuuden varmistaminen, koska Suomen myyntilupa on peruutettu (mahdolliset muut valmisteet…",
     "x": 0
    },
    {
@@ -107,7 +107,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Adcetris (EMEA/H/C/002455) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi suomalainen myyntilupa on peruutettu ja v”",
     "x": 0
    },
    {
@@ -118,7 +118,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Sprycel (EMEA/H/C/000709), Dasatinib Accord Healthcare (EMEA/H/C/006251)) ovat…",
+    "rs": "Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -173,7 +173,7 @@
     "lt": 1,
     "lv": 1,
     "r": 5,
-    "rs": "Taulukko: Zydelig (EMEA/H/C/003843) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupa on peruutettu, tunnetut vakavat haitat (maksatoksisuus, koliitti, infektiot) ovat…",
     "x": 0
    },
    {
@@ -184,7 +184,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Harvoni (EMEA/H/C/003850) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -206,7 +206,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Xaluprine (EMEA/H/C/002022) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”(myyntilupa peruutettu)”",
     "x": 0
    },
    {
@@ -217,7 +217,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Buccolam (EMEA/H/C/002267) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei ole saatavilla, ja…",
     "x": 0
    },
    {
@@ -250,7 +250,7 @@
     "lt": 1,
     "lv": 1,
     "r": 1,
-    "rs": "Taulukko: Farydak (EMEA/H/C/003725) on voimassa, ei peruutettu",
+    "rs": "",
     "x": 0
    },
    {
@@ -261,7 +261,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Stivarga (EMEA/H/C/002573) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -272,7 +272,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Skyrizi (EMEA/H/C/004759) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”(nykyinen lupa peruutettu)”",
     "x": 0
    },
    {
@@ -294,7 +294,7 @@
     "lt": 4,
     "lv": 4,
     "r": 3,
-    "rs": "Taulukko: 4 myyntilupaa (Sovaldi (EMEA/H/C/002798), Harvoni (EMEA/H/C/003850), Epclusa (EMEA/H/C/004210)…",
+    "rs": "Poistettu: ”Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa…",
     "x": 0
    },
    {
@@ -305,7 +305,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Sunosi (EMEA/H/C/004893) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -316,7 +316,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Sunitinib Accord (EMEA/H/C/005419), Sutent (EMEA/H/C/000687)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”koska myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -327,7 +327,7 @@
     "lt": 4,
     "lv": 4,
     "r": 4,
-    "rs": "Taulukko: 4 myyntilupaa (RoActemra (EMEA/H/C/000955), Avtozma (EMEA/H/C/006196), Tyenne (EMEA/H/C/005781)…",
+    "rs": "Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia”",
     "x": 0
    },
    {
@@ -404,7 +404,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Taulukko: 2 myyntilupaa (Lenvima (EMEA/H/C/003727), Kisplyx (EMEA/H/C/004224)) ovat voimassa, ei peruutettuja",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -415,7 +415,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Mycamine (EMEA/H/C/000734 (peruutettu)) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska voimassa olevaa myyntilupaa ei ole”",
     "x": 0
    },
    {
@@ -426,7 +426,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Votrient (EMEA/H/C/001141) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -437,7 +437,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja valmisteen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -448,7 +448,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Caprelsa (EMEA/H/C/002315) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -459,7 +459,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -470,7 +470,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Xagrid (EMEA/H/C/000480), Anagrelide Viatris, aiemmin Anagrelide Mylan…",
+    "rs": "Poistettu: ”peruutettujen myyntilupien syistä”",
     "x": 0
    },
    {
@@ -503,7 +503,7 @@
     "lt": 4,
     "lv": 3,
     "r": 3,
-    "rs": "Taulukko: 3 myyntilupaa (Buvidal (EMEA/H/C/004651), Buprenorphine Neuraxpharm (EMEA/H/C/006188), Zubsolv…",
+    "rs": "Poistettu: ”Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu”",
     "x": 0
    },
    {
@@ -514,7 +514,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Orphacol (EMEA/H/C/001250) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa”",
     "x": 0
    },
    {
@@ -536,7 +536,7 @@
     "lt": 3,
     "lv": 3,
     "r": 4,
-    "rs": "Taulukko: 3 myyntilupaa (Deferasirox Mylan (EMEA/H/C/005014), Deferasirox Accord (EMEA/H/C/005156), Exjade…",
+    "rs": "Poistettu: ”koska kaikki myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -558,7 +558,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Multaq (EMEA/H/C/001043) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -580,7 +580,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Zepatier (EMEA/H/C/004126) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Valmisteella ei ole voimassa olevaa myyntilupaa Suomessa”",
     "x": 0
    },
    {
@@ -591,7 +591,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Parsabiv (EMEA/H/C/003995) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys peruutetun myyntiluvan syystä ja valmisteen saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -613,7 +613,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Fulvestrant Mylan (EMEA/H/C/004649), Faslodex (EMEA/H/C/000540)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”ja valmisteen saatavuudesta Suomessa myyntilupien peruutuksen jälkeen”",
     "x": 0
    },
    {
@@ -624,7 +624,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Ketoconazole Esteve (EMEA/H/C/003906) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi suun kautta otettavan ketokonatsolin turvallisuusprofiili (mm. maksa- ja QT-aikariskit…",
     "x": 0
    },
    {
@@ -635,7 +635,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Lopinavir/Ritonavir Viatris (EMEA/H/C/004025), Kaletra (EMEA/H/C/000368)) ovat…",
+    "rs": "Poistettu: ”ja lääkkeen myyntiluvat Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -668,7 +668,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Omidria (EMEA/H/C/003702) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja v”",
     "x": 0
    },
    {
@@ -679,7 +679,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Maviret (EMEA/H/C/004430) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa (vain peruutettu)”",
     "x": 0
    },
    {
@@ -690,7 +690,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Pravafenix (EMEA/H/C/001243) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -712,7 +712,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Vantobra (EMEA/H/C/005086), Tobi Podhaler (EMEA/H/C/002155)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”Tobramysiinillä ei lisäksi ole voimassa olevia myyntilupia Suomessa”",
     "x": 0
    },
    {
@@ -734,7 +734,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Prialt (EMEA/H/C/000551) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    }
   ],
@@ -1013,7 +1013,7 @@
     "lt": 7,
     "lv": 7,
     "r": 5,
-    "rs": "Taulukko: 5 myyntilupaa (Ximluci (EMEA/H/C/005617), Lucentis (EMEA/H/C/000715), Epruvy (EMEA/H/C/006528)…",
+    "rs": "Poistettu: ”Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö…",
     "x": 0
    },
    {
@@ -1090,7 +1090,7 @@
     "lt": 6,
     "lv": 6,
     "r": 6,
-    "rs": "Taulukko: 5 myyntilupaa (Actos (EMEA/H/C/000285), Pioglitazone Accord (EMEA/H/C/002277), Pioglitazone Actavis…",
+    "rs": "Poistettu: ”koska kaikki luvat on peruutettu”",
     "x": 0
    },
    {
@@ -1101,7 +1101,7 @@
     "lt": 6,
     "lv": 6,
     "r": 4,
-    "rs": "Taulukko: 5 myyntilupaa (Lyrica (EMEA/H/C/000546), Pregabalin Zentiva (EMEA/H/C/003900), Pregabalin Viatris…",
+    "rs": "Poistettu: ”koska keskitetyt myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1112,7 +1112,7 @@
     "lt": 6,
     "lv": 6,
     "r": 4,
-    "rs": "Taulukko: 5 myyntilupaa (Edurant (EMEA/H/C/002264), Rekambys (EMEA/H/C/005060), Juluca (EMEA/H/C/004427)…",
+    "rs": "Poistettu: ”Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu”",
     "x": 0
    },
    {
@@ -1134,7 +1134,7 @@
     "lt": 6,
     "lv": 6,
     "r": 4,
-    "rs": "Taulukko: 5 myyntilupaa (Tadalafil Lilly (EMEA/H/C/004666), Talmanco (EMEA/H/C/004297), Adcirca…",
+    "rs": "Poistettu: ”Lisäksi kaikki tadalafiilin myyntiluvat Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -1167,7 +1167,7 @@
     "lt": 5,
     "lv": 5,
     "r": 3,
-    "rs": "Taulukko: 5 myyntilupaa (Avamys (EMEA/H/C/000770), Relvar Ellipta (EMEA/H/C/002673), Revinty Ellipta…",
+    "rs": "Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1222,7 +1222,7 @@
     "lt": 5,
     "lv": 5,
     "r": 4,
-    "rs": "Taulukko: 5 myyntilupaa (Norvir (EMEA/H/C/000127), Ritonavir Viatris (EMEA/H/C/004549), Kaletra…",
+    "rs": "Poistettu: ”Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta”",
     "x": 0
    },
    {
@@ -1266,7 +1266,7 @@
     "lt": 4,
     "lv": 4,
     "r": 3,
-    "rs": "Taulukko: 4 myyntilupaa (Vimpat (EMEA/H/C/000863), Lacosamide UCB (EMEA/H/C/005243), Lacosamide Accord…",
+    "rs": "Poistettu: ”Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen”",
     "x": 0
    },
    {
@@ -1299,7 +1299,7 @@
     "lt": 4,
     "lv": 4,
     "r": 4,
-    "rs": "Taulukko: 4 myyntilupaa (Nintedanib Viatris (EMEA/H/C/006486), Ofev (EMEA/H/C/003821), Nintedanib Accord…",
+    "rs": "Poistettu: ”koska voimassa olevia myyntilupia ei ole”",
     "x": 0
    },
    {
@@ -1310,7 +1310,7 @@
     "lt": 4,
     "lv": 4,
     "r": 5,
-    "rs": "Taulukko: 4 myyntilupaa (Abraxane (EMEA/H/C/000778), Apexelsin (EMEA/H/C/005997), Naveruclif…",
+    "rs": "Poistettu: ”koska kaikki aineiston myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1398,7 +1398,7 @@
     "lt": 3,
     "lv": 3,
     "r": 3,
-    "rs": "Taulukko: 3 myyntilupaa (Soliris (EMEA/H/C/000791), Bekemv (EMEA/H/C/005652), Epysqli (EMEA/H/C/006036)) ovat…",
+    "rs": "Poistettu: ”Huomioitava, että kaikki Suomen myyntiluvat ovat peruutettuja, mikä vaikuttaa saatavuuteen”",
     "x": 0
    },
    {
@@ -1453,7 +1453,7 @@
     "lt": 3,
     "lv": 3,
     "r": 4,
-    "rs": "Taulukko: 3 myyntilupaa (PecFent (EMEA/H/C/001164), Effentora (EMEA/H/C/000833), Instanyl (EMEA/H/C/000959))…",
+    "rs": "Poistettu: ”Valmisteilla ei ole voimassa olevia myyntilupia Suomessa, ja y”",
     "x": 0
    },
    {
@@ -1486,7 +1486,7 @@
     "lt": 3,
     "lv": 3,
     "r": 5,
-    "rs": "Taulukko: 3 myyntilupaa (Tresiba (EMEA/H/C/002498), Ryzodeg (EMEA/H/C/002499), Xultophy (EMEA/H/C/002647))…",
+    "rs": "Poistettu: ”Selvitys valmisteen nykyisestä saatavuudesta ja myyntiluvan tilasta Suomessa (peruutettujen…",
     "x": 0
    },
    {
@@ -1508,7 +1508,7 @@
     "lt": 4,
     "lv": 3,
     "r": 3,
-    "rs": "Taulukko: 3 myyntilupaa (Alimta (EMEA/H/C/000564), Pemetrexed Fresenius Kabi (EMEA/H/C/003895), Pemetrexed…",
+    "rs": "Poistettu: ”Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä”",
     "x": 0
    },
    {
@@ -1519,7 +1519,7 @@
     "lt": 3,
     "lv": 3,
     "r": 5,
-    "rs": "Taulukko: 3 myyntilupaa (Pirfenidone Viatris (EMEA/H/C/005862), Esbriet (EMEA/H/C/002154), Pirfenidone axunio…",
+    "rs": "Poistettu: ”Myyntiluvan peruuntumisen syiden ja tämän vaikutuksen selvittäminen”",
     "x": 0
    },
    {
@@ -1574,7 +1574,7 @@
     "lt": 3,
     "lv": 3,
     "r": 4,
-    "rs": "Taulukko: 3 myyntilupaa (Tolvaptan Accord (EMEA/H/C/005961), Samsca (EMEA/H/C/000980), Jinarc…",
+    "rs": "Poistettu: ”Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa”",
     "x": 0
    },
    {
@@ -1585,7 +1585,7 @@
     "lt": 3,
     "lv": 3,
     "r": 4,
-    "rs": "Taulukko: 3 myyntilupaa (Potactasol (EMEA/H/C/002282), Topotecan Hospira (EMEA/H/C/001192), Hycamtin…",
+    "rs": "Poistettu: ”(kaikki luvat peruutettu)”",
     "x": 0
    },
    {
@@ -1596,7 +1596,7 @@
     "lt": 3,
     "lv": 3,
     "r": 4,
-    "rs": "Taulukko: 3 myyntilupaa (Travatan (EMEA/H/C/000390), Izba (EMEA/H/C/002738), DuoTrav (EMEA/H/C/000665)) ovat…",
+    "rs": "Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1640,7 +1640,7 @@
     "lt": 2,
     "lv": 2,
     "r": 5,
-    "rs": "Taulukko: 2 myyntilupaa (Atosiban SUN (EMEA/H/C/002329), Tractocile (EMEA/H/C/000253)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole”",
     "x": 0
    },
    {
@@ -1706,7 +1706,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Apretude (EMEA/H/C/005756), Vocabria (EMEA/H/C/004976)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”Kabotegraviirin kaikki Suomen myyntiluvat on peruutettu, joten valmiste ei ole tällä hetkellä…",
     "x": 0
    },
    {
@@ -1717,7 +1717,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Cabometyx (EMEA/H/C/004163), Cometriq (EMEA/H/C/002640)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”Suomen myyntilupien peruutuksen syy ja n”",
     "x": 0
    },
    {
@@ -1750,7 +1750,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Cubicin (EMEA/H/C/000637), Daptomycin Hospira (EMEA/H/C/004310)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”Markkinatilanteen selvitys, koska kaikki Suomen myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1794,7 +1794,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Taulukko: 2 myyntilupaa (Ozurdex (EMEA/H/C/001140), Neofordex (EMEA/H/C/004071)) ovat voimassa, ei…",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1805,7 +1805,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Pifeltro (EMEA/H/C/004747), Delstrigo (EMEA/H/C/004746)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -1849,7 +1849,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Orgalutran (EMEA/H/C/000274), Ganirelix Gedeon Richter (EMEA/H/C/005641)) ovat…",
+    "rs": "Poistettu: ”Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -1904,7 +1904,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Zyclara (EMEA/H/C/002387), Aldara (EMEA/H/C/000179)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”(kaikki luvat peruutettu)”",
     "x": 0
    },
    {
@@ -1915,7 +1915,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Catiolanze (EMEA/H/C/005933), Roclanda (EMEA/H/C/005107)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”ja Suomessa kaikki tunnetut myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1926,7 +1926,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Jylamvo (EMEA/H/C/003756), Nordimet (EMEA/H/C/003983)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja v”",
     "x": 0
    },
    {
@@ -1937,7 +1937,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Tyruko (EMEA/H/C/005752), Tysabri (EMEA/H/C/000603)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”Lisäksi Suomessa kaikki myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1948,7 +1948,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Tasigna (EMEA/H/C/000798), Nilotinib Accord (EMEA/H/C/006315)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa, ja v”",
     "x": 0
    },
    {
@@ -1970,7 +1970,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Nityr (EMEA/H/C/004582), Orfadin (EMEA/H/C/000555)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”koska kaikki myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1981,7 +1981,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Taulukko: 2 myyntilupaa (Xolair (EMEA/H/C/000606), Omlyclo (EMEA/H/C/005958)) ovat voimassa, ei peruutettuja",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -1992,7 +1992,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Alli (EMEA/H/C/000854), Xenical (EMEA/H/C/000154)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”ja kaikki myyntiluvat Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -2003,7 +2003,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Perjeta (EMEA/H/C/002547), Phesgo (EMEA/H/C/005386)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”Markkinatilanteen selvitys: Suomessa on vain peruutettuja myyntilupia”",
     "x": 0
    },
    {
@@ -2014,7 +2014,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Ozawade (EMEA/H/C/005117), Wakix (EMEA/H/C/002616)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”Myyntilupien peruutuksen syiden selvittäminen ja lääkemuotojen tiedot”",
     "x": 0
    },
    {
@@ -2036,7 +2036,7 @@
     "lt": 3,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Evista (EMEA/H/C/000184), Raloxifene Teva (EMEA/H/C/001075)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”kun voimassa olevia myyntilupia ei ole”",
     "x": 0
    },
    {
@@ -2047,7 +2047,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Taulukko: 2 myyntilupaa (Rilutek (EMEA/H/C/000109), Riluzole Zentiva (EMEA/H/C/002622)) ovat voimassa, ei…",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2058,7 +2058,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Opzelura (EMEA/H/C/005843), Jakavi (EMEA/H/C/002464)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”koska kaikki luvat on peruutettu”",
     "x": 0
    },
    {
@@ -2069,7 +2069,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Neparvis (EMEA/H/C/004343), Entresto (EMEA/H/C/004062)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”(kaikki myyntiluvat peruutettu)”",
     "x": 0
    },
    {
@@ -2080,7 +2080,7 @@
     "lt": 2,
     "lv": 2,
     "r": 5,
-    "rs": "Taulukko: 2 myyntilupaa (Vihuma (EMEA/H/C/004459), Nuwiq (EMEA/H/C/002813)) ovat voimassa, ei peruutettuja",
+    "rs": "Poistettu: ”Myyntiluvan peruutuksen syiden ja valmisteen saatavuuden selvittäminen Suomessa”",
     "x": 0
    },
    {
@@ -2091,7 +2091,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Taulukko: 2 myyntilupaa (Hyftor (EMEA/H/C/005896), Rapamune (EMEA/H/C/000273)) ovat voimassa, ei peruutettuja",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2102,7 +2102,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Trabectedin Accord (EMEA/H/C/006433), Yondelis (EMEA/H/C/000773)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja valmisteen saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -2113,7 +2113,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Taulukko: 2 myyntilupaa (Relvar Ellipta (EMEA/H/C/002673), Laventair Ellipta (EMEA/H/C/003754)) ovat…",
+    "rs": "Poistettu: ”miksi molemmat suomalaiset myyntiluvat on peruutettu ja”",
     "x": 0
    },
    {
@@ -2124,7 +2124,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Taulukko: 2 myyntilupaa (Zonegran (EMEA/H/C/000577), Zonisamide Viatris (EMEA/H/C/004127)) ovat voimassa, ei…",
+    "rs": "Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa”",
     "x": 0
    },
    {
@@ -2146,7 +2146,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Valdoxan (EMEA/H/C/000915) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Peruutetun myyntiluvan syyn ja uudelleenhakemisen mahdollisuuden selvittäminen”",
     "x": 0
    },
    {
@@ -2157,7 +2157,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa”",
     "x": 0
    },
    {
@@ -2179,7 +2179,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Alecensa (EMEA/H/C/004164) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -2190,7 +2190,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Myozyme (EMEA/H/C/000636) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupa Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -2223,7 +2223,7 @@
     "lt": 1,
     "lv": 1,
     "r": 5,
-    "rs": "Taulukko: Piqray (EMEA/H/C/004804) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan peruutuksen syiden ja nykyisen saatavuuden selvittämistä”",
     "x": 0
    },
    {
@@ -2289,7 +2289,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Strensiq (EMEA/H/C/003794) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan peruutuksen syyn ja valmisteen saatavuuden selvitys Suomessa”",
     "x": 0
    },
    {
@@ -2300,7 +2300,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Peruutetun myyntiluvan syyn ja markkinatilanteen selvittäminen”",
     "x": 0
    },
    {
@@ -2377,7 +2377,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Emblaveo (EMEA/H/C/006113 (peruutettu)) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Arvio myyntiluvan tilanteesta ja saatavuudesta Suomessa (Emblaveo peruutettu)”",
     "x": 0
    },
    {
@@ -2410,7 +2410,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Benlysta (EMEA/H/C/002015) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys peruutetun myyntiluvan syistä ja nykyisestä saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -2443,7 +2443,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Biktarvy (EMEA/H/C/004449) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Peruutettujen myyntilupien tilanteen selvittäminen”",
     "x": 0
    },
    {
@@ -2454,7 +2454,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Alunbrig (EMEA/H/C/004248) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”almisteen myyntilupa Suomessa on peruutettu, ja v”",
     "x": 0
    },
    {
@@ -2465,7 +2465,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Briviact (EMEA/H/C/003898) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupatilanteen selvittäminen (peruutuksen syy ja mahdollinen uusi lupa)”",
     "x": 0
    },
    {
@@ -2520,7 +2520,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Cablivi (EMEA/H/C/004426) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan tilan selvitys: Suomessa on vain peruutettu lupa, mikä tulee täsmentää alueellisen…",
     "x": 0
    },
    {
@@ -2531,7 +2531,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Kyprolis (EMEA/H/C/003790) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska voimassa olevia myyntilupia ei ole”",
     "x": 0
    },
    {
@@ -2564,7 +2564,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Korjuny (EMEA/H/C/005697) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupa on lisäksi peruutettu”",
     "x": 0
    },
    {
@@ -2597,7 +2597,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Zykadia (EMEA/H/C/003819) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi seritinibin myyntilupa Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -2608,7 +2608,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Brineura (EMEA/H/C/004065) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa on vain yksi peruutettu myyntilupa, ja t”",
     "x": 0
    },
    {
@@ -2663,7 +2663,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Cotellic (EMEA/H/C/003960) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -2674,7 +2674,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Elonva (EMEA/H/C/001106) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja Suomessa valmisteen ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -2784,7 +2784,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Vumerity (EMEA/H/C/005437) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja valmisteen ainoa Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -2795,7 +2795,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Dupixent (EMEA/H/C/004390) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -2883,7 +2883,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Padcev (EMEA/H/C/005392) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -2905,7 +2905,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Eurneffy (EMEA/H/C/006139) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei tällä hetkellä ole markkinoilla”",
     "x": 0
    },
    {
@@ -2927,7 +2927,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Balversa (EMEA/H/C/006050) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Ainoa tieto Suomen myyntiluvasta on peruutettu, ja v”",
     "x": 0
    },
    {
@@ -2960,7 +2960,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Evra (EMEA/H/C/000410) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja turvallisuustiedot puuttuvat”",
     "x": 0
    },
    {
@@ -2971,7 +2971,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Intelence (EMEA/H/C/000900) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupa Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -3004,7 +3004,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Fintepla (EMEA/H/C/003933) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittäminen Suomessa”",
     "x": 0
    },
    {
@@ -3026,7 +3026,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Dificlir (EMEA/H/C/002087) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3081,7 +3081,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Iressa (EMEA/H/C/001016) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -3103,7 +3103,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Teysuno (EMEA/H/C/001242) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3169,7 +3169,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi valmisteen myyntiluvat Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -3191,7 +3191,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3224,7 +3224,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Raxone (EMEA/H/C/003834) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ä siitä, miksi myyntilupa on peruutettu, sek”",
     "x": 0
    },
    {
@@ -3257,7 +3257,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Recarbrio (EMEA/H/C/004808) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -3267,8 +3267,8 @@
     "i": "Kaliumin puutostila",
     "lt": 1,
     "lv": 1,
-    "r": 2,
-    "rs": "Poistettu: ”Huomaa: tämä myyntilupa on tilaltaan peruutettu, eikä voimassa olevia myyntilupia ole”",
+    "r": 3,
+    "rs": "Seuraavat vaiheet: myyntilupa ei ole peruttu (Leqvio EMEA/H/C/005333 voimassa)",
     "x": 0
    },
    {
@@ -3279,7 +3279,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Levemir (EMEA/H/C/000528) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja Suomessa myyntilupa on vain peruutettu”",
     "x": 0
    },
    {
@@ -3301,7 +3301,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Betaferon (EMEA/H/C/000081) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”(nykyinen lupa on peruutettu)”",
     "x": 0
    },
    {
@@ -3312,7 +3312,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Yervoy (EMEA/H/C/002213 (peruutettu)) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -3323,7 +3323,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Tibsovo (EMEA/H/C/005936) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”(nykyinen lupa on peruutettu)”",
     "x": 0
    },
    {
@@ -3334,7 +3334,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Takhzyro (EMEA/H/C/004806) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -3356,7 +3356,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Aldurazyme (EMEA/H/C/000477) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Valmisteen myyntilupa Suomessa on lisäksi peruutettu”",
     "x": 0
    },
    {
@@ -3378,7 +3378,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Rayvow (EMEA/H/C/005332) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupatilanteen selvittämistä (peruutuksen syy ja mahdollinen uusi hakeminen)”",
     "x": 0
    },
    {
@@ -3389,7 +3389,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Xenleta (EMEA/H/C/005048) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lääkkeellä on Suomessa vain peruutettu myyntilupa”",
     "x": 0
    },
    {
@@ -3400,7 +3400,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Prevymis (EMEA/H/C/004536) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3411,7 +3411,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Quinsair (EMEA/H/C/002789) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -3433,7 +3433,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Constella (EMEA/H/C/002490) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Arvio markkinatilanteesta: nykyisen myyntiluvan peruutuksen syyt ja mahdolliset muut…",
     "x": 0
    },
    {
@@ -3444,7 +3444,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Lonquex (EMEA/H/C/002556) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi valmisteen myyntilupa Suomessa on peruutettu, mikä heikentää käytännön toteutettavuutta”",
     "x": 0
    },
    {
@@ -3455,7 +3455,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Lojuxta (EMEA/H/C/002578) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3488,7 +3488,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Lorviqua (EMEA/H/C/004646) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupa Suomessa on lisäksi peruutettu”",
     "x": 0
    },
    {
@@ -3521,7 +3521,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Latuda (EMEA/H/C/002713) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa”",
     "x": 0
    },
    {
@@ -3532,7 +3532,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Bronchitol (EMEA/H/C/001252) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Ainoa Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3543,7 +3543,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Celsentri (EMEA/H/C/000811) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3554,7 +3554,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Increlex (EMEA/H/C/000704) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3565,7 +3565,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Phelinun (EMEA/H/C/005173 (peruutettu)) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitystä melfalaanivalmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen”",
     "x": 0
    },
    {
@@ -3576,7 +3576,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Nucala (EMEA/H/C/003860) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupatilanteen selvittäminen (peruutuksen syy ja mahdollinen uusi lupa)”",
     "x": 0
    },
    {
@@ -3620,7 +3620,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Tuzulby (EMEA/H/C/005975) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa”",
     "x": 0
    },
    {
@@ -3631,7 +3631,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Myalepta (EMEA/H/C/004218) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys peruutetun myyntiluvan syistä ja lääkkeen saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -3653,7 +3653,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Enerzair Breezhaler (EMEA/H/C/005061) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”nykyisin peruutettu”",
     "x": 0
    },
    {
@@ -3675,7 +3675,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Atriance (EMEA/H/C/000752) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa ja y”",
     "x": 0
    },
    {
@@ -3686,7 +3686,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Viramune (EMEA/H/C/000183) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi valmiste on Suomessa peruutettu ja”",
     "x": 0
    },
    {
@@ -3719,7 +3719,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Ocrevus (EMEA/H/C/004043) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3730,7 +3730,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Oczyesa (EMEA/H/C/006322) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3741,7 +3741,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Opatanol (EMEA/H/C/000407) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupatilanteen selvitys, sillä ainoa tunnettu myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3752,7 +3752,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Tenkasi (EMEA/H/C/003785) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa”",
     "x": 0
    },
    {
@@ -3763,7 +3763,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Teysuno (EMEA/H/C/001242) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi myyntilupa on vain peruutettu eikä yhtään voimassa olevaa lupaa ole”",
     "x": 0
    },
    {
@@ -3774,7 +3774,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Kentera (EMEA/H/C/000532) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3785,7 +3785,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Ibrance (EMEA/H/C/003853) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys peruutetun myyntiluvan syystä ja nykyisestä saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -3796,7 +3796,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Invega (EMEA/H/C/000746) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupatilanteen tarkistus (aineiston mukaan vain peruutettu lupa, mikä tulee varmistaa)”",
     "x": 0
    },
    {
@@ -3807,7 +3807,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Synagis (EMEA/H/C/000257) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3818,7 +3818,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Vectibix (EMEA/H/C/000741) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa”",
     "x": 0
    },
    {
@@ -3829,7 +3829,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Oncaspar (EMEA/H/C/003789) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3851,7 +3851,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Keytruda (EMEA/H/C/003820) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa”",
     "x": 0
    },
    {
@@ -3862,7 +3862,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Pemazyre (EMEA/H/C/005266) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupatilanteen selvittäminen (peruutuksen syy ja saatavuus Suomessa)”",
     "x": 0
    },
    {
@@ -3873,7 +3873,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Elmiron (EMEA/H/C/004246) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3895,7 +3895,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi ainoa Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3906,7 +3906,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Polivy (EMEA/H/C/004870) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan peruutuksen syiden ja nykyisen saatavuuden selvittämistä”",
     "x": 0
    },
    {
@@ -3917,7 +3917,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Iclusig (EMEA/H/C/002695) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi lääke ei ole tällä hetkellä markkinoilla Suomessa (ainoa myyntilupa peruutettu), ja…",
     "x": 0
    },
    {
@@ -3928,7 +3928,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Intrarosa (EMEA/H/C/004138) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi valmisteen myyntilupa Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -3939,7 +3939,7 @@
     "lt": 1,
     "lv": 1,
     "r": 5,
-    "rs": "Taulukko: Efient (EMEA/H/C/000984 (peruutettu)) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3961,7 +3961,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Fortacin (EMEA/H/C/002693) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -3972,7 +3972,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Hemangiol (EMEA/H/C/002621) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, ja vasta-aihesignaalit koskevat myös lihassairauksia”",
     "x": 0
    },
    {
@@ -3983,7 +3983,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Resolor (EMEA/H/C/001012) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -3994,7 +3994,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Aerinaze (EMEA/H/C/000772) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Valmisteen myyntilupa on lisäksi peruutettu, ja turvallisuustiedot puuttuvat”",
     "x": 0
    },
    {
@@ -4005,7 +4005,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Isentress (EMEA/H/C/000860) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan peruuntumisen syyn selvittäminen ja saatavuuden arviointi Suomessa”",
     "x": 0
    },
    {
@@ -4038,7 +4038,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Fasturtec (EMEA/H/C/000331) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4049,7 +4049,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Ultomiris (EMEA/H/C/004954) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja Suomessa lääkkeen ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4093,7 +4093,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Byfavo (EMEA/H/C/005246) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi lääkkeellä on vain peruutettu myyntilupa uomessa, s”",
     "x": 0
    },
    {
@@ -4104,7 +4104,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Cinqaero (EMEA/H/C/003912) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4115,7 +4115,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Vydura (EMEA/H/C/005725) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan peruuttamisen syyn ja nykyisen markkinatilanteen selvittämistä”",
     "x": 0
    },
    {
@@ -4126,7 +4126,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Evrysdi (EMEA/H/C/005145) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen Suomessa”",
     "x": 0
    },
    {
@@ -4148,7 +4148,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Nplate (EMEA/H/C/000942) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittämistä Suomessa”",
     "x": 0
    },
    {
@@ -4159,7 +4159,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Besremi (EMEA/H/C/004128) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntilupatilanteen selvittämistä, sillä valmisteella ei ole voimassa olevaa myyntilupaa Suomessa”",
     "x": 0
    },
    {
@@ -4170,7 +4170,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Neupro (EMEA/H/C/000626) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”sekä myyntiluvan peruuttamisen syyt”",
     "x": 0
    },
    {
@@ -4181,7 +4181,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Evrenzo (EMEA/H/C/004871) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja Suomessa valmisteen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4192,7 +4192,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Inovelon (EMEA/H/C/000660) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys myyntiluvan peruuntumisen syystä ja valmisteen saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -4203,7 +4203,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Trodelvy (EMEA/H/C/005182) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4214,7 +4214,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Xadago (EMEA/H/C/002396) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitystä peruutetun myyntiluvan syystä ja valmisteen saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -4225,7 +4225,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Seffalair Spiromax (EMEA/H/C/004881) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4247,7 +4247,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Nexpovio (EMEA/H/C/005127) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4258,7 +4258,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Retsevmo (EMEA/H/C/005375) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4269,7 +4269,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Koselugo (EMEA/H/C/005244) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”(peruutetun luvan syy)”",
     "x": 0
    },
    {
@@ -4280,7 +4280,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys peruutetun myyntiluvan syistä”",
     "x": 0
    },
    {
@@ -4302,7 +4302,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Cholib (EMEA/H/C/002559) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja v”",
     "x": 0
    },
    {
@@ -4313,7 +4313,7 @@
     "lt": 1,
     "lv": 1,
     "r": 1,
-    "rs": "Taulukko: Nexavar (EMEA/H/C/000690) on voimassa, ei peruutettu",
+    "rs": "",
     "x": 0
    },
    {
@@ -4335,7 +4335,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Qaialdo (EMEA/H/C/005535) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska voimassa olevia myyntilupia ei ole”",
     "x": 0
    },
    {
@@ -4357,7 +4357,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Elzonris (EMEA/H/C/005031) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi lääkkeen myyntilupa uomessa on peruutettu ja s”",
     "x": 0
    },
    {
@@ -4379,7 +4379,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Hetlioz (EMEA/H/C/003870) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Peruutetun myyntiluvan syyn selvittämistä sekä lääkemuoto- ja antoreittitietojen täydentämistä”",
     "x": 0
    },
    {
@@ -4401,7 +4401,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Tecovirimat SIGA (EMEA/H/C/005248 (peruutettu)) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys Suomen myyntiluvan peruuttamisen syystä ja nykyisestä saatavuudesta”",
     "x": 0
    },
    {
@@ -4412,7 +4412,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Teysuno (EMEA/H/C/001242) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska voimassa olevaa myyntilupaa ei ole”",
     "x": 0
    },
    {
@@ -4423,7 +4423,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Foscan (EMEA/H/C/000318) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitystä temoporfiinin nykyisestä saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen”",
     "x": 0
    },
    {
@@ -4445,7 +4445,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Metalyse (EMEA/H/C/000306) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Tarkennus myyntiluvan tilasta Suomessa (peruutuksen syy ja mahdolliset muut…",
     "x": 0
    },
    {
@@ -4456,7 +4456,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Tepezza (EMEA/H/C/006396) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu”",
     "x": 0
    },
    {
@@ -4467,7 +4467,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4478,7 +4478,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Thyrogen (EMEA/H/C/000220) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4511,7 +4511,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Lonsurf (EMEA/H/C/003897) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -4533,7 +4533,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Fotivda (EMEA/H/C/004131) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys valmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen”",
     "x": 0
    },
    {
@@ -4566,7 +4566,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Fareston (EMEA/H/C/000091) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa ja”",
     "x": 0
    },
    {
@@ -4577,7 +4577,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Mekinist (EMEA/H/C/002643) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa trametinibin ainoa myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4588,7 +4588,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Enhertu (EMEA/H/C/005124) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen”",
     "x": 0
    },
    {
@@ -4599,7 +4599,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Trecondi (EMEA/H/C/004751) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi ainoa Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4610,7 +4610,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Trepulmix (EMEA/H/C/005207) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”koska ainoa lupa on peruutettu”",
     "x": 0
    },
    {
@@ -4632,7 +4632,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Esperoct (EMEA/H/C/004883) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi valmisteella ei ole voimassa olevaa myyntilupaa Suomessa”",
     "x": 0
    },
    {
@@ -4643,7 +4643,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi ainoa Suomessa tunnettu myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4665,7 +4665,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Champix (EMEA/H/C/000699) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Valmisteen myyntilupa Suomessa on peruutettu, ja t”",
     "x": 0
    },
    {
@@ -4687,7 +4687,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Brinavess (EMEA/H/C/001215) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”ja ainoa Suomen myyntilupa on peruutettu”",
     "x": 0
    },
    {
@@ -4698,7 +4698,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Visudyne (EMEA/H/C/000305) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa ja y”",
     "x": 0
    },
    {
@@ -4709,7 +4709,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Taulukko: Mepsevii (EMEA/H/C/004438) on voimassa, ei peruutettu",
+    "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
     "x": 0
    },
    {
@@ -4720,7 +4720,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Taulukko: Erivedge (EMEA/H/C/002602) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Suomessa vismodegibin myyntiluvat on peruutettu, ja t”",
     "x": 0
    },
    {
@@ -4742,7 +4742,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Brintellix (EMEA/H/C/002717) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Peruutetun myyntiluvan tilan ja syyn selvitys sekä nykyisen markkinasaatavuuden vahvistus”",
     "x": 0
    },
    {
@@ -4764,7 +4764,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Dectova (EMEA/H/C/004102) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Arviota siitä, onko valmiste ylipäätään saatavilla Suomessa myyntiluvan peruutuksen jälkeen”",
     "x": 0
    },
    {
@@ -4775,7 +4775,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Brukinsa (EMEA/H/C/004978) on voimassa, ei peruutettu",
+    "rs": "Poistettu: ”Selvitys Brukinsan myyntiluvan peruutuksen syistä ja nykyisestä saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -4786,7 +4786,7 @@
     "lt": 2,
     "lv": 1,
     "r": 4,
-    "rs": "Taulukko: Combivir (EMEA/H/C/000190) on voimassa; Trizivir (EMEA/H/C/000338) on peruutettu",
+    "rs": "Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu”",
     "x": 0
    },
    {

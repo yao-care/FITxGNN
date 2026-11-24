@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 462
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L4). Keskitetyt EU-myyntiluvat (EMA): 9 (voimassa: 9)"
@@ -113,13 +113,23 @@ Toissijaisen ennusteen (pahanlaatuinen renovaskulaarinen hypertensio) tuki:
 
 ## Myyntiluvat Suomessa
 
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004343 | Neparvis | – | Sydämen vajaatoiminta |
-| EMEA/H/C/000776 | Dafiro | – | Verenpainetauti |
-| EMEA/H/C/000716 | Exforge | – | Verenpainetauti |
-| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | – | Verenpainetauti |
-| EMEA/H/C/004062 | Entresto | – | Sydämen vajaatoiminta |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000716 | Exforge | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Voimassa |
+| EMEA/H/C/000774 | Copalia | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Voimassa |
+| EMEA/H/C/000776 | Dafiro | amlodipine; valsartan | Hypertension | Voimassa |
+| EMEA/H/C/001068 | Exforge HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Voimassa |
+| EMEA/H/C/001159 | Copalia HCT | amlodipine; valsartan; hydrochlorothiazide | Hypertension | Voimassa |
+| EMEA/H/C/001160 | Dafiro HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Voimassa |
+| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | amlodipine besilate; valsartan | Hypertension | Voimassa |
+| EMEA/H/C/004062 | Entresto | sacubitril; valsartan | Heart Failure | Voimassa |
+| EMEA/H/C/004343 | Neparvis | sacubitril; valsartan | Heart Failure | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,7 +141,7 @@ Toissijaisen ennusteen (pahanlaatuinen renovaskulaarinen hypertensio) tuki:
 
 <!-- review:begin fi-lic-20261106-valsartan-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki yhdeksän myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 9 myyntilupaa, joista 9 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki yhdeksän myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-valsartan-1 -->
 
@@ -148,7 +158,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla; ne on tarkis
 
 <!-- review:begin fi-lic-20261106-valsartan-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valsartaani on jo käytössä verenpainetaudissa, joten lisäarvo olisi pieni. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 9 myyntilupaa, joista 9 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Valsartaani on jo käytössä verenpainetaudissa, joten lisäarvo olisi pieni. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-valsartan-2 -->
 
@@ -167,8 +177,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki yhdeksän myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki yhdeksän myyntilupaa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
 
 <!-- review:end log -->

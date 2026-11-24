@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -99,19 +99,19 @@ Muut kaksi haussa mukana ollutta julkaisua (PMID 11364629 ja 9875393) liittyvät
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000127 | Norvir | – | HIV-infektiot (voimassa) |
-| EMEA/H/C/004549 | Ritonavir Viatris (aiemmin Ritonavir Mylan) | – | HIV-infektiot (voimassa) |
-| EMEA/H/C/000368 | Kaletra | – | HIV-infektiot (voimassa) |
-| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (aiemmin Ritonavir Mylan) | – | HIV-infektiot (voimassa) |
-| EMEA/H/C/005973 | Paxlovid | – | COVID-19-virusinfektio (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-ritonavir-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000127 | Norvir | ritonavir | HIV Infections | Voimassa |
+| EMEA/H/C/000368 | Kaletra | lopinavir; ritonavir | HIV Infections | Voimassa |
+| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (previously Ritonavir Mylan) | lopinavir; ritonavir | HIV Infections | Voimassa |
+| EMEA/H/C/004549 | Ritonavir Viatris (previously Ritonavir Mylan) | ritonavir | HIV Infections | Voimassa |
+| EMEA/H/C/005973 | Paxlovid | nirmatrelvir; ritonavir | COVID-19 virus infection | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000127 / Norvir / – / HIV-infektiot (peruutettu); EMEA/H/C/004549 / Ritonavir Viatris (aiemmin Ritonavir Mylan) / – / HIV-infektiot (peruutettu); EMEA/H/C/000368 / Kaletra / – / HIV-infektiot (peruutettu); EMEA/H/C/004025 / Lopinavir/Ritonavir Viatris (aiemmin Ritonavir Mylan) / – / HIV-infektiot (peruutettu); EMEA/H/C/005973 / Paxlovid / – / COVID-19-virusinfektio (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Norvir (EMEA/H/C/000127), Ritonavir Viatris (EMEA/H/C/004549), Kaletra (EMEA/H/C/000368), Lopinavir/Ritonavir Viatris (EMEA/H/C/004025), Paxlovid (EMEA/H/C/005973) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-ritonavir-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -144,7 +144,7 @@ Keskivaikeita (Moderate) ovat mm. asarboosi, hydrokortisoni, metformiini, deksam
 
 <!-- review:begin fi-lic-20261106-ritonavir-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Neurokehityshäiriöllä ei ole tunnistettavaa mekanistista yhteyttä. / Ritonaviirilla ei ole tällä hetkellä voimassa olevia myyntilupia Suomessa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Neurokehityshäiriöllä ei ole tunnistettavaa mekanistista yhteyttä. / Ritonaviirilla ei ole tällä hetkellä voimassa olevia myyntilupia Suomessa.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-ritonavir-1 -->
 
@@ -156,7 +156,7 @@ Keskivaikeita (Moderate) ovat mm. asarboosi, hydrokortisoni, metformiini, deksam
 
 <!-- review:begin fi-lic-20261106-ritonavir-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”SIV-tutkimusten täydet tekstit, jotta ritonaviirin osuus voidaan erottaa muista yhdistelmähoidon lääkkeistä / Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”SIV-tutkimusten täydet tekstit, jotta ritonaviirin osuus voidaan erottaa muista yhdistelmähoidon lääkkeistä / Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-ritonavir-2 -->
 
@@ -168,9 +168,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Ritonaviirilla ei ole tällä hetkellä voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 5 myyntilupaa (Norvir (EMEA/H/C/000127), Ritonavir Viatris (EMEA/H/C/004549), Kaletra (EMEA/H/C/000368), Lopinavir/Ritonavir Viatris (EMEA/H/C/004025), Paxlovid (EMEA/H/C/005973)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Ritonaviirilla ei ole tällä hetkellä voimassa olevia myyntilupia Suomessa” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Norvir (EMEA/H/C/000127), Ritonavir Viatris (EMEA/H/C/004549), Kaletra (EMEA/H/C/000368), Lopinavir/Ritonavir Viatris (EMEA/H/C/004025), Paxlovid (EMEA/H/C/005973)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
 
 <!-- review:end log -->

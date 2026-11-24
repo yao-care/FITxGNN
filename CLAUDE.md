@@ -15,10 +15,10 @@
 | 套用 | `scripts/apply_drug_reviews.py` | 套到 `docs/_drugs/*.md`：查核框 `<!-- review:begin id -->`、免責聲明前的查核紀錄表；可重複執行；`--check` 只檢查、`--touch` 連 last_modified_at 一起改 |
 | 頁首等級 | `src/fitxgnn/regulatory/page_format.py` | 頁首＝Quick Overview 等級格的**第一個**等級（主預測）；這是本站產線原本的行為（2026-11-12 實測，見 site_config 的 HEADER_RULE_NOTE），不照 Tw 整格取最高。頁首 N/A 且沒有預測的頁不重算 |
 | 撤回預測 | `src/fitxgnn/regulatory/withdrawn.py` | verdict=withdraw 的預測不進證據監測（`scripts/extract_drug_list.py`）、搜尋索引與 FHIR（母目錄 `.claude/rebuild_search_index.py`、`.claude/sync_fhir_levels.py` 會讀本站這支） |
-| 許可證 | `snapshots/fi_licenses.json.gz`、`scripts/build_license_snapshot.py`、`src/fitxgnn/regulatory/licenses.py` | 本站沒有程式產生的許可證表；gate 依快照驗市場段落表格的號碼屬於本藥、狀態列與張數列＝事實層、表格列狀態不跟事實相反 |
+| 許可證 | `scripts/sync_license_tables.py`（程式表前後有 `<!-- licenses:begin/end -->` 標記，2026-11-24 起）、`snapshots/fi_licenses.json.gz`、`scripts/build_license_snapshot.py`、`src/fitxgnn/regulatory/licenses.py` | 快照存事實層、本藥號碼與程式表列；gate 依快照驗程式區塊、市場段落表格的號碼屬於本藥、狀態列與張數列＝事實層、表格列狀態不跟事實相反 |
 | 刪改轉紀錄 | `scripts/reviews_from_edits.py` | 依 git 前後版本（或改寫前後目錄）把正文刪改轉成 correct 紀錄；site_config 的 COMMITS／REGEN_COMMITS 是 2026-10-31～11-06 的刪改與 AI 重產提交 |
 | 待查清單 | `docs/_data/drug_reviews_uncertain.json`、`scripts/check_original_indications.py` | 原適應症交叉驗證，只列待查、不改頁面 |
-| gate | `scripts/check_seo_docs.py` 第 17–20 項 | 紀錄都已套用、許可證＝快照、頁首＝主預測等級、撤回預測沒有對外發布 |
+| gate | `scripts/check_seo_docs.py` 第 17–20、22 項 | 紀錄都已套用、許可證＝快照（含程式表）、頁首＝主預測等級、撤回預測沒有對外發布、正文張數＝程式改寫結果 |
 
 原則（同 Tw）：基本事實照主管機關資料更正；模型預測原文不刪不改寫，只加註；證據等級與決策只經重審（rereview → rereview_result）變更。
 
@@ -35,6 +35,35 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-11-12 正文許可證張數／狀態對事實層的掃描，以 11 筆 `fi-lic-20261112-*` 更正 9 頁：crizotinib、ramucirumab（表格與決策理由寫芬蘭許可已失效）、mometasone、pioglitazone、vildagliptin（寫另幾張已撤銷）、anagrelide、bictegravir、leflunomide、tezacaftor（下一步以「已撤銷的許可」為前提）；EMA 資料這些都是 Authorised。另有約 215 頁、313 列許可證表格把 Authorised 的產品標成 peruutettu／mitätöity（母目錄 checker 的表格列狀態檢查只對 Us 生效），未在這次處理。
 2026-11-12 許可證表格列狀態：311 列（213 頁）把 EMA 現行有效（Authorised）的許可寫成 peruutettu（11 月 AI 重產照證據包錯誤狀態寫的），以 213 筆 `fi-row-20261112-*`（每張表一筆）把狀態字改成站上有效列的寫法（(voimassa)／Voimassa），其他文字不動；母目錄 `check_drug_page.py --row-status FITxGNN` 為 0。
 同時 site_config 的 MARKET_RE 由 `[Mm]arkkina` 放寬為 `[Mm]arkkin|Myyntilu|Myyntitiedot`：原本認不得「Tiedot Suomen markkinoilta／markkinoista」「Myyntiluvat／Myyntilupatiedot／Myyntitiedot Suomessa」標題（約 120 頁），這些市場段落的號碼歸屬與表格列狀態都漏驗；放寬後 gate 仍 exit 0。
+
+## 市場段落許可證表與正文張數改由程式維護（2026-11-24）
+
+用戶 2026-11-24 決定（30 站逐站做，本站做表＋B）：每週許可證排程只改得到概覽表狀態列／張數列，AI 寫的自由格式許可證表（表頭十幾種寫法、適應症欄是 AI 譯成芬蘭文的治療領域、
+狀態寫在適應症格「(voimassa)」「(peruutettu)」，2026-11-12 就以 213 筆 fi-row 紀錄人工更正過）與正文寫死的張數，會跟每週變的 EMA 資料矛盾、checker 擋頁。
+- A. `scripts/sync_license_tables.py`（照 DETxGNN 同名檔，同為 EMA 資料）：市場段落（MARKET_RE 的各種標題；「<藥>: tunnetut käyttöaiheet ja markkinatilanne」段跳過）的第一張許可證表
+  （表頭第一格含 lupa／luvan）換成程式依證據包 tfda.records 產生的「| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |」：
+  品名、成分、治療領域照 EMA 英文原文（用戶決定欄位不翻譯、表頭註明語言），Tila 照 EMA status 轉本站寫法（Authorised→Voimassa、Withdrawn→Peruttu…），Voimassa 在前、最多 20 列；
+  partial 頁表下加「Taulukossa näytetään N näissä tiedoissa olevasta M keskitetystä EU-myyntiluvasta …」，表後來源句；沒有人用集中許可時一句 NONE_LINE。段落裡沒有表的頁加在段落結尾。
+  前後 `<!-- licenses:begin/end -->`；快照存 rows／total；gate 第 18 項（licenses.py＋sync_license_tables.block_problems）擋程式區塊≠快照重算、市場段落沒有程式表。
+  接進：每週排程（`license_adapter.sync_tables`＋`PAGE_NOTE`）、`apply_drug_reviews.py`（非 --check）結尾、`build_license_snapshot.py` 結尾（`--no-rewrite` 不跑；不帶 `--ws` 時用 txgnn_ws.sh 預設工作目錄，沒有事實層就只依現有快照重排與改寫）。
+  `--migrate`（第一次換表用）拿掉只講舊表列了幾筆的說明句（CAPTION）。
+- B. `scripts/rewrite_license_counts.py`＋`src/fitxgnn/regulatory/count_prose.py`（照 Kr／My／DE 移植，芬蘭文句型：「N myyntilupaa on voimassa」「N voimassa olevaa myyntilupaa」
+  「N myyntilupaa, joista V on voimassa」「V … N:sta」「Kaikki N myyntilupaa」「voimassa on N」「Myyntilupien määrä: N」「N/M」）；有保留、講證據包、相對數、劑型或單方／複方、廠商、
+  獸用、其他國家或 Fimea、講表格筆數、預測或試驗字樣、partial 頁不改；跨過 0／1（芬蘭文 1 用主格、2 以上用分格）、molemmat 而總數不是 2、「kaikki … voimassa」而事實不符列 grammar／premise，不改。
+  gate 第 22 項擋「再跑一次會變」。
+- 2026-11-24 套用（資料 data-20261116-082921）：程式區塊 445 頁（公開 446 頁中有市場段落的 443 頁全部：AI 表 437 頁換掉、段落沒有表的 6 頁補區塊；noindex 2 頁；
+  沒有市場段落的 3 頁 etanercept、desloratadine、bimatoprost 不加）；`--migrate` 拿掉舊表說明句 3 句（amlodipine、emtricitabine、formoterol）。
+  正文張數程式改寫 0 句（句型明確的張數都已跟事實層一致；量測時市場段落有數字的句子 26 句，多是舊表說明句）。
+  錨在舊表列上的 215 筆標 superseded（fi-row-20261112-* 213 筆、fi-lic-20261112-crizotinib-1、fi-lic-20261112-pioglitazone-1）。
+  查核紀錄同 id 重發（前版存 history）：更正文字是舊表說明句的 15 筆（「Taulukossa on viisi ensimmäistä」「Viisi esimerkkiä:」「Viides taulukon ulkopuolinen lupa: Incresync…」等）改成
+  「Myyntiluvat ja niiden tila ovat alla／yllä olevassa taulukossa.」（metformin 改成「Alla olevan taulukon valmisteet ovat kaikki yhdistelmävalmisteita…」，證據包 19 張全是複方）；
+  說明框寫死「on kirjattu N myyntilupaa, joista V voimassa」的 546 筆（其中 6 筆已跟現行事實不符：abacavir、lamivudine、zidovudine 各 2 筆）改成不寫數字、指向概覽表與程式表，
+  site_config 的 T["figures"] 同步改（reviews_from_edits 之後產生的紀錄也不寫數字）。
+  另寫的寬偵測（公開頁正文講許可張數／狀態、對事實層）改前 3 句、改後 3 句：inclisiran 待辦「Peruutetun myyntilupatilanteen selvittäminen」（Leqvio 有效）以 `fi-lic-20261124-inclisiran-1` 更正，
+  其餘是 catumaxomab 的 2017 年歷史句（查核紀錄更正文字）與 vildagliptin「tyypin 2 diabetes」誤中。單方／複方標籤全量對照證據包成分欄：0 句錯。待查清單沒有新增。
+  checker 全量前後都是 0（row-status 0）；gate exit 0。last_modified_at：正文有變的 445 頁改 2026-11-24。
+- 母目錄 `.claude/license_labels/FITxGNN.json` 現在是 {"Voimassa": valid, "Peruutettu": valid}：程式表另會寫「Peruttu」（Withdrawn，cancelled），要加 "Peruttu": "cancelled" 與 preferred.cancelled
+  （「Peruutettu」記成 valid 看起來是 10 月學錯的）；本站沒改母目錄。沒加時排程的 lts.apply 可能把程式表的格改成 EMA 原文，但 sync_tables 會照證據包重排，頁面不受影響。
 
 ## 作用機轉段的資料來源與查核機制（2026-11-19）
 

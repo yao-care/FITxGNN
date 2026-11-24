@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "ABALOPARATIDE"
 drugbank_id: DB05084
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "amenorrhea (disease)", "esophageal ulcer"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abaloparatide: ennustettu uusi käyttöaihe Ei-syndrooma ruokatorven epämuodostuma (non-syndromic esophageal malformation) (näytön taso L5). Alkuperäinen käyttöaihe: Osteoporosis, Postmenopausal"
 ---
 
@@ -71,9 +71,15 @@ Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005928 | Eladynos | – | Ei kirjattu |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/005928 | Eladynos | abaloparatide | Osteoporosis, Postmenopausal; Osteoporosis | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

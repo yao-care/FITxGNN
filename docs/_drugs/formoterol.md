@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Formoterol: ennustettu uusi käyttöaihe Hengitystieepämuodostuma (respiratory malformation) (näytön taso L5). Alkuperäinen käyttöaihe: Pulmonary Disease, Chronic Obstructive"
 ---
 
@@ -68,15 +68,26 @@ Tälle ennustetulle käyttöaiheelle ei ole tällä hetkellä saatavilla kirjall
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/003745 | Duaklir Genuair | – | Keuhkoahtaumatauti |
-| EMEA/H/C/004882 | GoResp Digihaler | – | Astma; keuhkoahtaumatauti |
-| EMEA/H/C/002348 | DuoResp Spiromax | – | Keuhkoahtaumatauti; astma |
-| EMEA/H/C/004245 | Bevespi Aerosphere | – | Keuhkoahtaumatauti |
-| EMEA/H/C/003890 | BiResp Spiromax | – | Keuhkoahtaumatauti; astma |
+<!-- licenses:begin -->
 
-Taulukossa on enintään viisi valmistetta. Kaikki luetellut valmisteet ovat yhdistelmävalmisteita, joten niiden myyntilupia ei voi käyttää kuvaamaan yksittäisen vaikuttavan aineen hyväksyntää.
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002348 | DuoResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Voimassa |
+| EMEA/H/C/003745 | Duaklir Genuair | aclidinium bromide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/003890 | BiResp Spiromax | Budesonide; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive; Asthma | Voimassa |
+| EMEA/H/C/003969 | Brimica Genuair | formoterol fumarate dihydrate; aclidinium bromide | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/004245 | Bevespi Aerosphere | glycopyrronium; formoterol fumarate dihydrate | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/004257 | Trimbow | beclometasone dipropionate; formoterol fumarate dihydrate; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/004702 | Trydonis | beclometasone dipropionate; formoterol fumarate dihydrate; glycopyrronium | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/004882 | GoResp Digihaler (previously Budesonide/Formoterol Teva Pha… | Budesonide; formoterol fumarate dihydrate | Asthma; Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/004983 | Trixeo Aerosphere | formoterol fumarate dihydrate; glycopyrronium bromide; Budesonide | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/005311 | Riltrava Aerosphere | Budesonide; formoterol fumarate dihydrate; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
+
+Kaikki luetellut valmisteet ovat yhdistelmävalmisteita, joten niiden myyntilupia ei voi käyttää kuvaamaan yksittäisen vaikuttavan aineen hyväksyntää.
 
 ## Turvallisuusnäkökohdat
 

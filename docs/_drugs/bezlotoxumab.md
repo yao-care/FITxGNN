@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEZLOTOXUMAB"
 predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "pelvic varices"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bezlotoxumab: ennustettu uusi käyttöaihe Akuutti naisen lantion peritoniitti (acute female pelvic peritonitis) (näytön taso L5). Alkuperäinen käyttöaihe: Enterocolitis, Pseudomembranous"
 ---
 
@@ -70,9 +70,15 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 ## Myyntiluvat Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004136 | Zinplava | – | Ei kirjattu paikallisiin tietoihin |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004136 | Zinplava | Bezlotoxumab | Enterocolitis, Pseudomembranous | Peruttu |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

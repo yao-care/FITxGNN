@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 291
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Midazolam: ennustettu uusi käyttöaihe Unettomuus (insomnia) (näytön taso L2). Alkuperäinen käyttöaihe: Epilepsia"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -90,15 +90,15 @@ Tämä on lähempänä jo tunnetun käytön uudelleenlöytämistä kuin aitoa l�
 
 ## Myyntilupatiedot Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002267 | Buccolam (voimassa) | – | Epilepsia |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-midazolam-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002267 | Buccolam | midazolam | Epilepsy | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002267 / Buccolam (peruutettu) / – / Epilepsia” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Buccolam (EMEA/H/C/002267) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-midazolam-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -120,7 +120,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten ne 
 
 <!-- review:begin fi-lic-20261106-midazolam-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Biologinen perustelu on vahva ja vanhoja kontrolloituja tutkimuksia on (1980–1990-luvut), mutta ne ovat vanhoja, eikä viimeaikaista vahvistavaa näyttöä ole. Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei ole saatavilla, ja turvallisuustietojen keskeinen aukko estää etenemisen turvallisuusseulontaan.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Biologinen perustelu on vahva ja vanhoja kontrolloituja tutkimuksia on (1980–1990-luvut), mutta ne ovat vanhoja, eikä viimeaikaista vahvistavaa näyttöä ole. Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei ole saatavilla, ja turvallisuustietojen keskeinen aukko estää etenemisen turvallisuusseulontaan.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-midazolam-1 -->
 
@@ -139,8 +139,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei ole saatavilla, ja turvallisuustietojen keskeinen aukko estää etenemisen turva” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: Buccolam (EMEA/H/C/002267) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei ole saatavilla, ja turvallisuustietojen keskeinen aukko estää etenemisen turva” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Buccolam (EMEA/H/C/002267) on voimassa, ei peruutettu | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->

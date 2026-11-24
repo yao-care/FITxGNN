@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eltrombopag: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L5). Alkuperäinen käyttöaihe: Purpura, Thrombocytopenic, Idiopathic"
 ---
 
@@ -86,6 +86,16 @@ Kerätty aineisto sisältää vain tapauskuvauksia, katsauksia ja yhden soluvilj
 ## Suomen markkinatiedot
 
 Eltrombopagin markkinatilanne Suomessa on tietojen mukaan "markkinoilla". Lupatiedot ja niiden lukumäärä lisätään sivulle ohjelmallisesti lupatietueista.
+
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/001110 | Revolade | eltrombopag | Purpura, Thrombocytopenic, Idiopathic; Anemia, Aplastic | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

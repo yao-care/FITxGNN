@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ATEZOLIZUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atezolizumab: ennustettu uusi käyttöaihe Kohdun ligamentin adenokarsinooma (uterine ligament adenocarcinoma) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Transitional Cell"
 ---
 
@@ -68,9 +68,15 @@ Toistaiseksi ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004143 | Tecentriq | – | Carcinoma, Transitional Cell;Carcinoma, Non-Small-Cell Lung;Urologic Neoplasms;Breast Neoplasms;Small Cell Lung Carcinoma |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004143 | Tecentriq | atezolizumab | Carcinoma, Transitional Cell; Carcinoma, Non-Small-Cell Lung; Urologic Neoplasms; Breast Neoplasms; Small Cel… | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

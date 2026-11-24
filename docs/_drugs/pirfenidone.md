@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: ennustettu uusi käyttöaihe Ekstrakutaaninen mastosytooma (ensisijainen ennuste) (näytön taso L5). Alkuperäinen käyttöaihe: Idiopathic Pulmonary Fibrosis"
@@ -82,7 +82,7 @@ Kirjallisuutta löytyi vain fibroblastiselle neoplasialle (ennuste sijalla 9). M
 
 <!-- review:begin fi-lic-20261106-pirfenidone-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pirfenidone-1 -->
 
@@ -99,17 +99,17 @@ Kirjallisuutta löytyi vain fibroblastiselle neoplasialle (ennuste sijalla 9). M
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005862 | Pirfenidone Viatris | – | Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (voimassa) |
-| EMEA/H/C/002154 | Esbriet | – | Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (voimassa) |
-| EMEA/H/C/005873 | Pirfenidone axunio (aiemmin Pirfenidone AET) | – | Idiopaattinen keuhkofibroosi (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-pirfenidone-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002154 | Esbriet | Pirfenidone | Idiopathic Pulmonary Fibrosis; Lung Diseases; Respiratory Tract Diseases | Voimassa |
+| EMEA/H/C/005862 | Pirfenidone Viatris | Pirfenidone | Idiopathic Pulmonary Fibrosis; Lung Diseases; Respiratory Tract Diseases | Voimassa |
+| EMEA/H/C/005873 | Pirfenidone axunio (previously Pirfenidone AET) | Pirfenidone | Idiopathic Pulmonary Fibrosis | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005862 / Pirfenidone Viatris / – / Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (peruutettu); EMEA/H/C/002154 / Esbriet / – / Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (peruutettu); EMEA/H/C/005873 / Pirfenidone axunio (aiemmin Pirfenidone AET) / – / Idiopaattinen keuhkofibroosi (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Pirfenidone Viatris (EMEA/H/C/005862), Esbriet (EMEA/H/C/002154), Pirfenidone axunio (EMEA/H/C/005873) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-pirfenidone-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -142,7 +142,7 @@ Muuten turvallisuustiedoista, varoituksista ja vasta-aiheista, tulee tutustua va
 
 <!-- review:begin fi-lic-20261106-pirfenidone-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa hieman tuettu ennuste (fibroblastinen neoplasia) perustuu soluviljelytutkimuksiin hyvänlaatuisesta taudista, ja samalla on esiintynyt ristiriitaisia turvallisuussignaaleja kasvainten osalta. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ainoa hieman tuettu ennuste (fibroblastinen neoplasia) perustuu soluviljelytutkimuksiin hyvänlaatuisesta taudista, ja samalla on esiintynyt ristiriitaisia turvallisuussignaaleja kasvainten osalta. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pirfenidone-2 -->
 
@@ -154,7 +154,7 @@ Muuten turvallisuustiedoista, varoituksista ja vasta-aiheista, tulee tutustua va
 
 <!-- review:begin fi-lic-20261106-pirfenidone-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Turvallisuussignaalien (sarkooma, dermatofibroomat) arviointi / Myyntiluvan peruuntumisen syiden ja tämän vaikutuksen selvittäminen” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Turvallisuussignaalien (sarkooma, dermatofibroomat) arviointi / Myyntiluvan peruuntumisen syiden ja tämän vaikutuksen selvittäminen” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pirfenidone-3 -->
 
@@ -166,10 +166,10 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syiden ja tämän vaikutuksen selvittäminen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 3 myyntilupaa (Pirfenidone Viatris (EMEA/H/C/005862), Esbriet (EMEA/H/C/002154), Pirfenidone axunio (EMEA/H/C/005873)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syiden ja tämän vaikutuksen selvittäminen” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Pirfenidone Viatris (EMEA/H/C/005862), Esbriet (EMEA/H/C/002154), Pirfenidone axunio (EMEA/H/C/005873)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
 
 <!-- review:end log -->

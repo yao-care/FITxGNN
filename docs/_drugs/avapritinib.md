@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AVAPRITINIB"
 predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avapritinib: ennustettu uusi käyttöaihe Aksiaalinen spondylometafyysinen dysplasia (axial spondylometaphyseal dysplasia) (näytön taso L5). Alkuperäinen käyttöaihe: Gastrointestinal Stromal Tumors"
 ---
 
@@ -70,9 +70,15 @@ Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005208 | Ayvakyt | – | Ei kirjattu paikallisiin tietoihin |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/005208 | Ayvakyt | avapritinib | Gastrointestinal Stromal Tumors | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

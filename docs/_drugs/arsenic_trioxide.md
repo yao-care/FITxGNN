@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ARSENIC TRIOXIDE"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Arsenic Trioxide: ennustettu uusi käyttöaihe Myelodysplastinen oireyhtymä, luokittelematon (unclassified myelodysplastic syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Promyelocytic, …"
 ---
 
@@ -68,11 +68,17 @@ Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005218 | Arsenic trioxide medac | – | Hyväksytty käyttöaihe ei ole kirjattu paikallisiin tietoihin |
-| EMEA/H/C/005175 | Arsenic trioxide Accord | – | Hyväksytty käyttöaihe ei ole kirjattu paikallisiin tietoihin |
-| EMEA/H/C/000388 | Trisenox | – | Hyväksytty käyttöaihe ei ole kirjattu paikallisiin tietoihin |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000388 | Trisenox | arsenic trioxide | Leukemia, Promyelocytic, Acute | Voimassa |
+| EMEA/H/C/005175 | Arsenic trioxide Accord | arsenic trioxide | Leukemia, Promyelocytic, Acute | Voimassa |
+| EMEA/H/C/005218 | Arsenic trioxide medac | arsenic trioxide | Leukemia, Promyelocytic, Acute | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegfilgrastim: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijaisesti… (näytön taso L5). Alkuperäinen käyttöaihe: Neutropenia, kuumeinen neutropenia…"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -79,21 +79,33 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Myyntilupatiedot Suomessa
 
-Alla on lupia, joista käyttöaihetieto oli saatavilla, sekä muut keskeiset valmisteet.
+Myyntiluvat ja niiden tila ovat alla olevassa taulukossa.
 
 <!-- review:begin fi-lic-20261106-pegfilgrastim-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 11 myyntilupaa on peruutettu. Alla on lupia, joista käyttöaihetieto oli saatavilla, sekä muut keskeiset valmisteet.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 11 myyntilupaa on peruutettu. Alla on lupia, joista käyttöaihetieto oli saatavilla, sekä muut keskeiset valmisteet.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pegfilgrastim-1 -->
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000420 | Neulasta | – | Syöpä, neutropenia, kuumeinen neutropenia, solunsalpaajahoidon aiheuttama kuumeinen neutropenia |
-| EMEA/H/C/006739 | Vivlipeg | – | Neutropenia, kuumeinen neutropenia, solunsalpaajahoidon aiheuttama kuumeinen neutropenia, syöpä |
-| EMEA/H/C/006407 | Dyrupeg | – | Neutropenia, syöpä |
-| EMEA/H/C/005085 | Nyvepria | – | – |
-| EMEA/H/C/004802 | Ziextenzo | – | – |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000420 | Neulasta | pegfilgrastim | Cancer; Neutropenia; Febrile Neutropenia; Chemotherapy-Induced Febrile Neutropenia | Voimassa |
+| EMEA/H/C/003961 | Pelgraz | pegfilgrastim | – | Voimassa |
+| EMEA/H/C/004556 | Grasustek | pegfilgrastim | – | Voimassa |
+| EMEA/H/C/004700 | Pelmeg | pegfilgrastim | – | Voimassa |
+| EMEA/H/C/004780 | Stimufend | pegfilgrastim | – | Voimassa |
+| EMEA/H/C/004802 | Ziextenzo | pegfilgrastim | – | Voimassa |
+| EMEA/H/C/004915 | Fulphila | pegfilgrastim | – | Voimassa |
+| EMEA/H/C/005085 | Nyvepria | pegfilgrastim | – | Voimassa |
+| EMEA/H/C/005312 | Cegfila (previously Pegfilgrastim Mundipharma) | pegfilgrastim | – | Voimassa |
+| EMEA/H/C/006407 | Dyrupeg | pegfilgrastim | Neutropenia; Cancer | Voimassa |
+| EMEA/H/C/006739 | Vivlipeg | pegfilgrastim | Neutropenia; Febrile Neutropenia; Chemotherapy-Induced Febrile Neutropenia; Cancer | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,7 +138,7 @@ Useat näistä ovat solunsalpaajia tai sädelääkkeitä, joiden kanssa myelosup
 
 <!-- review:begin fi-lic-20261106-pegfilgrastim-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”G-CSF:n pro-inflammatorinen vaikutus voisi jopa pahentaa verkkokalvon tilaa. Lisäksi kaikki myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”G-CSF:n pro-inflammatorinen vaikutus voisi jopa pahentaa verkkokalvon tilaa. Lisäksi kaikki myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pegfilgrastim-2 -->
 
@@ -139,7 +151,7 @@ Useat näistä ovat solunsalpaajia tai sädelääkkeitä, joiden kanssa myelosup
 
 <!-- review:begin fi-lic-20261106-pegfilgrastim-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitystä siitä, onko valmistetta saatavilla Suomen markkinoilla, koska nykyiset myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitystä siitä, onko valmistetta saatavilla Suomen markkinoilla, koska nykyiset myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pegfilgrastim-3 -->
 
@@ -151,9 +163,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki 11 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”koska nykyiset myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki 11 myyntilupaa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki myyntiluvat Suomessa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska nykyiset myyntiluvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
 
 <!-- review:end log -->

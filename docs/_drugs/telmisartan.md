@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: ennustettu uusi käyttöaihe Prinzmetal angina (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension"
@@ -99,21 +99,34 @@ Prinzmetalin angiinalle ei ole löytynyt kirjallisuutta. Alla on aivoverenvuodon
 
 ## Myyntiluvat Suomessa
 
-Seuraavassa on viisi ensimmäistä.
+Myyntiluvat ja niiden tila ovat alla olevassa taulukossa.
 
 <!-- review:begin fi-lic-20261106-telmisartan-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 12 myyntilupaa on peruutettu. Seuraavassa on viisi ensimmäistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 12 myyntilupaa, joista 8 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 12 myyntilupaa on peruutettu. Seuraavassa on viisi ensimmäistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-telmisartan-1 -->
 
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000209 | Micardis | – | Hypertensio |
-| EMEA/H/C/001168 | Telmisartan Actavis | – | Hypertensio |
-| EMEA/H/C/000211 | Kinzalmono | – | Hypertensio |
-| EMEA/H/C/001196 | Tolura | – | Hypertensio |
-| EMEA/H/C/000210 | Pritor | – | Hypertensio |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000209 | Micardis | telmisartan | Hypertension | Voimassa |
+| EMEA/H/C/000413 | MicardisPlus | telmisartan; hydrochlorothiazide | Hypertension | Voimassa |
+| EMEA/H/C/001168 | Telmisartan Actavis | telmisartan | Hypertension | Voimassa |
+| EMEA/H/C/001196 | Tolura | telmisartan | Hypertension | Voimassa |
+| EMEA/H/C/001224 | Twynsta | telmisartan; amlodipine | Hypertension | Voimassa |
+| EMEA/H/C/002511 | Telmisartan Teva Pharma | telmisartan | Hypertension | Voimassa |
+| EMEA/H/C/002549 | Tolucombi | telmisartan; hydrochlorothiazide | Hypertension | Voimassa |
+| EMEA/H/C/002676 | Actelsar HCT | telmisartan; hydrochlorothiazide | Essential Hypertension | Voimassa |
+| EMEA/H/C/000210 | Pritor | telmisartan | Hypertension | Peruttu |
+| EMEA/H/C/000211 | Kinzalmono (previously Telmisartan Boehringer Ingelheim Pha… | telmisartan | Hypertension | Peruttu |
+| EMEA/H/C/000414 | PritorPlus | telmisartan; hydrochlorothiazide | Hypertension | Peruttu |
+| EMEA/H/C/000415 | Kinzalkomb | telmisartan; hydrochlorothiazide | Hypertension | Peruttu |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,7 +150,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava erikseen.
 
 <!-- review:begin fi-lic-20261106-telmisartan-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi kaikki myyntiluvat Suomessa on peruutettu ja turvallisuustiedot ovat puutteelliset.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 12 myyntilupaa, joista 8 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi kaikki myyntiluvat Suomessa on peruutettu ja turvallisuustiedot ovat puutteelliset.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-telmisartan-2 -->
 
@@ -150,7 +163,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava erikseen.
 
 <!-- review:begin fi-lic-20261106-telmisartan-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys, onko telmisartaanivalmisteita tosiasiallisesti saatavilla Suomessa, koska kaikki myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 12 myyntilupaa, joista 8 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys, onko telmisartaanivalmisteita tosiasiallisesti saatavilla Suomessa, koska kaikki myyntiluvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-telmisartan-3 -->
 
@@ -162,9 +175,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki 12 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki myyntiluvat Suomessa on peruutettu ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki 12 myyntilupaa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki myyntiluvat Suomessa on peruutettu ja t” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
 
 <!-- review:end log -->

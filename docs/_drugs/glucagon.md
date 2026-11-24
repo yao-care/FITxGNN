@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glucagon: ennustettu uusi käyttöaihe Ärtyvän suolen oireyhtymä (irritable bowel syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
 ---
 
@@ -88,10 +88,16 @@ Yksikään lähteistä ei tutki glukagonia itseään ärtyvän suolen oireyhtym�
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005391 | Ogluo | – | – |
-| EMEA/H/C/003848 | Baqsimi | – | – |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003848 | Baqsimi | Glucagon | Diabetes Mellitus | Voimassa |
+| EMEA/H/C/005391 | Ogluo | Glucagon | Diabetes Mellitus | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

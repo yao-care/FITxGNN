@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: ennustettu uusi käyttöaihe Manic bipolar affective disorder (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsies, Partial"
@@ -94,18 +94,18 @@ Mekanistinen yhteys on siis uskottava, mutta kliinisten tulosten varmentaminen o
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000863 | Vimpat | – | Epilepsia (voimassa) |
-| EMEA/H/C/005243 | Lacosamide UCB | – | Osittaisalkuinen epilepsia (voimassa) |
-| EMEA/H/C/004443 | Lacosamide Accord | – | Epilepsia (voimassa) |
-| EMEA/H/C/006047 | Lacosamide Adroiq | – | Epilepsia (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-lacosamide-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000863 | Vimpat | lacosamide | Epilepsy | Voimassa |
+| EMEA/H/C/004443 | Lacosamide Accord | lacosamide | Epilepsy | Voimassa |
+| EMEA/H/C/005243 | Lacosamide UCB | lacosamide | Epilepsies, Partial | Voimassa |
+| EMEA/H/C/006047 | Lacosamide Adroiq | lacosamide | Epilepsy | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000863 / Vimpat / – / Epilepsia (peruutettu); EMEA/H/C/005243 / Lacosamide UCB / – / Osittaisalkuinen epilepsia (peruutettu); EMEA/H/C/004443 / Lacosamide Accord / – / Epilepsia (peruutettu); EMEA/H/C/006047 / Lacosamide Adroiq / – / Epilepsia (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Vimpat (EMEA/H/C/000863), Lacosamide UCB (EMEA/H/C/005243), Lacosamide Accord (EMEA/H/C/004443), Lacosamide Adroiq (EMEA/H/C/006047) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-lacosamide-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -128,7 +128,7 @@ Varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 
 <!-- review:begin fi-lic-20261106-lacosamide-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Siksi suositus on odottaa tulosten tarkistamista. / Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Siksi suositus on odottaa tulosten tarkistamista. / Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-lacosamide-1 -->
 
@@ -165,8 +165,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 4 myyntilupaa (Vimpat (EMEA/H/C/000863), Lacosamide UCB (EMEA/H/C/005243), Lacosamide Accord (EMEA/H/C/004443), Lacosamide Adroiq (EMEA/H/C/006047)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 4 myyntilupaa (Vimpat (EMEA/H/C/000863), Lacosamide UCB (EMEA/H/C/005243), Lacosamide Accord (EMEA/H/C/004443), Lacosamide Adroiq (EMEA/H/C/006047)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: ennustettu uusi käyttöaihe Classic stiff person syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus, Type 2"
@@ -82,17 +82,25 @@ Luvat ovat EU:n keskitettyjä myyntilupia (EMEA/H/C), ja kaikkien hyväksytty k�
 
 <!-- review:begin fi-lic-20261106-vildagliptin-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki seitsemän myyntilupaa on peruutettu. Voimassa olevia vildagliptiinivalmisteita ei siis ole tässä aineistossa. Luvat ovat EU:n keskitettyjä myyntilupia (EMEA/H/C), ja kaikkien hyväksytty käyttöaihe on tyypin 2 diabetes.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki seitsemän myyntilupaa on peruutettu. Voimassa olevia vildagliptiinivalmisteita ei siis ole tässä aineistossa. Luvat ovat EU:n keskitettyjä myyntilupia (EMEA/H/C), ja kaikkien hyväksytty käyttöaihe on tyypin 2 diabetes.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-vildagliptin-1 -->
 
-| Myyntiluvan numero | Valmisteen nimi | Hyväksytty käyttöaihe |
-|---------|------|-----------|
-| EMEA/H/C/001051 | Xiliarx | Tyypin 2 diabetes |
-| EMEA/H/C/001048 | Jalra | Tyypin 2 diabetes |
-| EMEA/H/C/000771 | Galvus | Tyypin 2 diabetes |
-| EMEA/H/C/001049 | Zomarist | Tyypin 2 diabetes |
-| EMEA/H/C/000807 | Eucreas | Tyypin 2 diabetes |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000771 | Galvus | vildagliptin | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/000807 | Eucreas | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/001048 | Jalra | vildagliptin | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/001049 | Zomarist | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/001050 | Icandra (previously Vildagliptin / metformin hydrochloride… | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/001051 | Xiliarx | vildagliptin | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | metformin hydrochloride; vildagliptin | Diabetes Mellitus, Type 2 | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 Lisäksi luettelossa on kaksi muuta voimassa olevaa metformiinin kanssa yhdistettyä valmistetta: Icandra ja Vildagliptin / Metformin hydrochloride Accord.
 
@@ -149,7 +157,7 @@ Muut ennusteet, kuten jäykän ihmisen oireyhtymä, lipodystrofiat ja haiman age
 
 <!-- review:begin fi-lic-20261106-vildagliptin-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ensisijaisella ennusteella (klassinen jäykän ihmisen oireyhtymä) ei ole tutkimuksia eikä kirjallisuutta, eikä mekanistista yhteyttä voida perustella. Kaikki Suomen myyntiluvat on lisäksi peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ensisijaisella ennusteella (klassinen jäykän ihmisen oireyhtymä) ei ole tutkimuksia eikä kirjallisuutta, eikä mekanistista yhteyttä voida perustella. Kaikki Suomen myyntiluvat on lisäksi peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-vildagliptin-2 -->
 
@@ -167,8 +175,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu. Voimassa olevia vildagliptiinivalmisteita ei siis ole tässä aineistossa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu. Voimassa olevia vildagliptiinivalmisteita ei siis ole tässä aineistossa” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on lisäksi peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Icandra ja Vildagliptin / Metformin hydrochloride Accord: voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 

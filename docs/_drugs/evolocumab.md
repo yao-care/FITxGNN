@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Evolocumab: ennustettu uusi käyttöaihe Hemofilian oireinen muoto naispuolisilla kantajilla (symptomatic form of hemophilia in female carriers) (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemias"
 ---
 
@@ -70,9 +70,15 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/003766 | Repatha | – | Dyslipidemiat; hyperkolesterolemia |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003766 | Repatha | Evolocumab | Dyslipidemias; Hypercholesterolemia | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Bosentan: ennustettu uusi käyttöaihe Nivelreuma (rheumatoid arthritis) (näytön taso L5). Alkuperäinen käyttöaihe: Scleroderma, Systemic"
 ---
 
@@ -80,10 +80,16 @@ Huomautus: useimmat luetellut julkaisut käsittelevät sidekudossairauksiin liit
 
 ## Myyntiluvat Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000401 | Tracleer | – | Systeeminen skleroderma; keuhkovaltimoverenpaine |
-| EMEA/H/C/002644 | Stayveer | – | Keuhkovaltimoverenpaine; systeeminen skleroderma |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000401 | Tracleer | bosentan (as monohydrate) | Scleroderma, Systemic; Hypertension, Pulmonary | Voimassa |
+| EMEA/H/C/002644 | Stayveer | bosentan (as monohydrate) | Hypertension, Pulmonary; Scleroderma, Systemic | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

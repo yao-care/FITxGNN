@@ -5,7 +5,7 @@ parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 431
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Teriflunomide: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ TxGNN-syväoppimismalli (pistemäärä ≥ 0,99) tuotti Teriflunomide-valmisteel
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupa | Valmiste | Lääkemuoto | Tila |
-|------|------|------|------|
-| EMEA/H/C/005962 | teriflunomide |  | Voimassa |
-| EMEA/H/C/005960 | teriflunomide |  | Voimassa |
-| EMEA/H/C/002514 | teriflunomide |  | Voimassa |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002514 | Aubagio | teriflunomide | Multiple Sclerosis | Voimassa |
+| EMEA/H/C/005960 | Teriflunomide Accord | teriflunomide | Multiple Sclerosis, Relapsing-Remitting | Voimassa |
+| EMEA/H/C/005962 | Teriflunomide Viatris (previously Teriflunomide Mylan) | teriflunomide | Multiple Sclerosis, Relapsing-Remitting | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DULOXETINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Duloxetine: ennustettu uusi käyttöaihe Hyvänlaatuinen imeväisiän paroksysmaalinen kallistuskaula (benign paroxysmal torticollis of infancy) (näytön taso L5). Alkuperäinen käyttöaihe: Neuralgia"
 ---
 
@@ -68,13 +68,19 @@ Tälle käyttöaiheelle ei ole tällä hetkellä saatavilla asiaankuuluvaa kirja
 
 ## Myyntiluvat Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/003935 | Duloxetine Zentiva | – | Neuralgia; vakava masennus; ahdistuneisuushäiriöt; diabetes |
-| EMEA/H/C/003981 | Duloxetine Viatris (aiemmin Duloxetine Mylan) | – | Neuralgia; diabeettinen neuropatia; vakava masennus; ahdistuneisuushäiriöt |
-| EMEA/H/C/000545 | Yentreve | – | Stressivirtsankarkailu |
-| EMEA/H/C/000572 | Cymbalta | – | Ahdistuneisuushäiriöt; diabeettinen neuropatia; vakava masennus |
-| EMEA/H/C/004000 | Duloxetine Lilly | – | Neuralgia; diabeettinen neuropatia; vakava masennus |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000545 | Yentreve | duloxetine hydrochloride | Urinary Incontinence, Stress | Voimassa |
+| EMEA/H/C/000572 | Cymbalta | duloxetine | Anxiety Disorders; Diabetic Neuropathies; Depressive Disorder, Major | Voimassa |
+| EMEA/H/C/003935 | Duloxetine Zentiva | duloxetine | Neuralgia; Depressive Disorder, Major; Anxiety Disorders; Diabetes Mellitus | Voimassa |
+| EMEA/H/C/003981 | Duloxetine Viatris (previously Duloxetine Mylan) | duloxetine | Neuralgia; Diabetic Neuropathies; Depressive Disorder, Major; Anxiety Disorders | Voimassa |
+| EMEA/H/C/004000 | Duloxetine Lilly | duloxetine | Neuralgia; Diabetic Neuropathies; Depressive Disorder, Major | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

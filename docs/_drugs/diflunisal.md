@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DIFLUNISAL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diflunisal: ennustettu uusi käyttöaihe Akromesomeelinen dysplasia, Hunter-Thompsonin tyyppi (acromesomelic dysplasia, Hunter-Thompson type) (näytön taso L5). Alkuperäinen käyttöaihe: Amyloid Neuropat…"
 ---
 
@@ -68,9 +68,15 @@ Tästä taudista ei ole tällä hetkellä saatavilla kirjallisuutta.
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/006248 | Attrogy | – | Amyloid Neuropathies, Familial |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/006248 | Attrogy | diflunisal | Amyloid Neuropathies, Familial | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

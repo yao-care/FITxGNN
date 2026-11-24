@@ -21,11 +21,11 @@
   "items_current": 945
  },
  "reviews": {
-  "records": 1178,
+  "records": 1179,
   "pages": 432,
   "public_pages_with_records": 428,
   "by_action": {
-   "correct": 779,
+   "correct": 780,
    "mechanism": 399
   }
  },
@@ -222,197 +222,197 @@
  },
  "recent_reviews": [
   {
+   "t": "Inclisiran",
+   "u": "/drugs/inclisiran/",
+   "s": "Seuraavat vaiheet: myyntilupa ei ole peruttu (Leqvio EMEA/H/C/005333 voimassa)",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Icandra ja Vildagliptin / Metformin hydrochloride Accord: voimassa, ei peruutettu",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tezacaftor",
+   "u": "/drugs/tezacaftor/",
+   "s": "Poistettu: ”sekä peruutettujen myyntilupien tilanteesta Suomessa”",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ramucirumab",
+   "u": "/drugs/ramucirumab/",
+   "s": "Poistettu: ”ramusirumabin myyntilupa Suomessa on mitätöity”",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Mometasone",
+   "u": "/drugs/mometasone/",
+   "s": "Poistettu: ”nykyisin peruutettu”",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Leflunomide",
+   "u": "/drugs/leflunomide/",
+   "s": "Poistettu: ”peruutettujen myyntilupien syistä”",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Crizotinib",
+   "u": "/drugs/crizotinib/",
+   "s": "Poistettu: ”Suomen myyntilupa on mitätöity”",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Bictegravir",
+   "u": "/drugs/bictegravir/",
+   "s": "Poistettu: ”Peruutettujen myyntilupien tilanteen selvittäminen”",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Anagrelide",
+   "u": "/drugs/anagrelide/",
+   "s": "Poistettu: ”peruutettujen myyntilupien syistä”",
+   "d": "2026-11-12"
+  },
+  {
    "t": "Zonisamide",
    "u": "/drugs/zonisamide/",
-   "s": "Taulukko: 2 myyntilupaa (Zonegran (EMEA/H/C/000577), Zonisamide Viatris (EMEA/H/C/004127)) ovat voimassa, ei…",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa”",
+   "d": "2026-11-06"
   },
   {
    "t": "Zidovudine",
    "u": "/drugs/zidovudine/",
-   "s": "Taulukko: Combivir (EMEA/H/C/000190) on voimassa; Trizivir (EMEA/H/C/000338) on peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu”",
+   "d": "2026-11-06"
   },
   {
    "t": "Ziconotide",
    "u": "/drugs/ziconotide/",
-   "s": "Taulukko: Prialt (EMEA/H/C/000551) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”koska myyntilupa on peruutettu”",
+   "d": "2026-11-06"
   },
   {
    "t": "Zanubrutinib",
    "u": "/drugs/zanubrutinib/",
-   "s": "Taulukko: Brukinsa (EMEA/H/C/004978) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”Selvitys Brukinsan myyntiluvan peruutuksen syistä ja nykyisestä saatavuudesta Suomessa”",
+   "d": "2026-11-06"
   },
   {
    "t": "Zanamivir",
    "u": "/drugs/zanamivir/",
-   "s": "Taulukko: Dectova (EMEA/H/C/004102) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”Arviota siitä, onko valmiste ylipäätään saatavilla Suomessa myyntiluvan peruutuksen jälkeen”",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Voxilaprevir",
+   "u": "/drugs/voxilaprevir/",
+   "s": "Poistettu: ”Selvitys valmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen”",
+   "d": "2026-11-06"
   },
   {
    "t": "Vortioxetine",
    "u": "/drugs/vortioxetine/",
-   "s": "Taulukko: Brintellix (EMEA/H/C/002717) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”Peruutetun myyntiluvan tilan ja syyn selvitys sekä nykyisen markkinasaatavuuden vahvistus”",
+   "d": "2026-11-06"
   },
   {
    "t": "Vismodegib",
    "u": "/drugs/vismodegib/",
-   "s": "Taulukko: Erivedge (EMEA/H/C/002602) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”Suomessa vismodegibin myyntiluvat on peruutettu, ja t”",
+   "d": "2026-11-06"
   },
   {
    "t": "Vilanterol",
    "u": "/drugs/vilanterol/",
-   "s": "Taulukko: 2 myyntilupaa (Relvar Ellipta (EMEA/H/C/002673), Laventair Ellipta (EMEA/H/C/003754)) ovat…",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Vestronidase Alfa",
-   "u": "/drugs/vestronidase-alfa/",
-   "s": "Taulukko: Mepsevii (EMEA/H/C/004438) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”miksi molemmat suomalaiset myyntiluvat on peruutettu ja”",
+   "d": "2026-11-06"
   },
   {
    "t": "Verteporfin",
    "u": "/drugs/verteporfin/",
-   "s": "Taulukko: Visudyne (EMEA/H/C/000305) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa ja y”",
+   "d": "2026-11-06"
   },
   {
    "t": "Vernakalant",
    "u": "/drugs/vernakalant/",
-   "s": "Taulukko: Brinavess (EMEA/H/C/001215) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”ja ainoa Suomen myyntilupa on peruutettu”",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Venetoclax",
+   "u": "/drugs/venetoclax/",
+   "s": "Poistettu: ”Suomen myyntiluvan tilan selvitys: nykyinen myyntilupa on peruutettu, joten saatavuus ja…",
+   "d": "2026-11-06"
   },
   {
    "t": "Velpatasvir",
    "u": "/drugs/velpatasvir/",
-   "s": "Taulukko: 2 myyntilupaa (Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350)) ovat voimassa, ei peruutettuja",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa”",
+   "d": "2026-11-06"
   },
   {
    "t": "Varenicline",
    "u": "/drugs/varenicline/",
-   "s": "Taulukko: Champix (EMEA/H/C/000699) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "s": "Poistettu: ”Valmisteen myyntilupa Suomessa on peruutettu, ja t”",
+   "d": "2026-11-06"
   },
   {
-   "t": "Vandetanib",
-   "u": "/drugs/vandetanib/",
-   "s": "Taulukko: Caprelsa (EMEA/H/C/002315) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Tyrosine",
-   "u": "/drugs/tyrosine/",
-   "s": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Turoctocog Alfa Pegol",
-   "u": "/drugs/turoctocog-alfa-pegol/",
-   "s": "Taulukko: Esperoct (EMEA/H/C/004883) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Tryptophan",
-   "u": "/drugs/tryptophan/",
-   "s": "Taulukko: Maapliv (EMEA/H/C/005557) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Treprostinil",
-   "u": "/drugs/treprostinil/",
-   "s": "Taulukko: Trepulmix (EMEA/H/C/005207) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Treosulfan",
-   "u": "/drugs/treosulfan/",
-   "s": "Taulukko: Trecondi (EMEA/H/C/004751) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Taulukko: 3 myyntilupaa (Travatan (EMEA/H/C/000390), Izba (EMEA/H/C/002738), DuoTrav (EMEA/H/C/000665)) ovat…",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Trastuzumab Deruxtecan",
-   "u": "/drugs/trastuzumab-deruxtecan/",
-   "s": "Taulukko: Enhertu (EMEA/H/C/005124) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Trametinib",
-   "u": "/drugs/trametinib/",
-   "s": "Taulukko: Mekinist (EMEA/H/C/002643) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Trabectedin",
-   "u": "/drugs/trabectedin/",
-   "s": "Taulukko: 2 myyntilupaa (Trabectedin Accord (EMEA/H/C/006433), Yondelis (EMEA/H/C/000773)) ovat voimassa, ei…",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Toremifene",
-   "u": "/drugs/toremifene/",
-   "s": "Taulukko: Fareston (EMEA/H/C/000091) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu”",
+   "d": "2026-11-06"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Zonisamide",
-   "u": "/drugs/zonisamide/",
-   "s": "Taulukko: 2 myyntilupaa (Zonegran (EMEA/H/C/000577), Zonisamide Viatris (EMEA/H/C/004127)) ovat voimassa, ei…",
+   "t": "Inclisiran",
+   "u": "/drugs/inclisiran/",
+   "s": "Seuraavat vaiheet: myyntilupa ei ole peruttu (Leqvio EMEA/H/C/005333 voimassa)",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Icandra ja Vildagliptin / Metformin hydrochloride Accord: voimassa, ei peruutettu",
    "d": "2026-11-12"
   },
   {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "Taulukko: Combivir (EMEA/H/C/000190) on voimassa; Trizivir (EMEA/H/C/000338) on peruutettu",
+   "t": "Tezacaftor",
+   "u": "/drugs/tezacaftor/",
+   "s": "Poistettu: ”sekä peruutettujen myyntilupien tilanteesta Suomessa”",
    "d": "2026-11-12"
   },
   {
-   "t": "Ziconotide",
-   "u": "/drugs/ziconotide/",
-   "s": "Taulukko: Prialt (EMEA/H/C/000551) on voimassa, ei peruutettu",
+   "t": "Ramucirumab",
+   "u": "/drugs/ramucirumab/",
+   "s": "Poistettu: ”ramusirumabin myyntilupa Suomessa on mitätöity”",
    "d": "2026-11-12"
   },
   {
-   "t": "Zanubrutinib",
-   "u": "/drugs/zanubrutinib/",
-   "s": "Taulukko: Brukinsa (EMEA/H/C/004978) on voimassa, ei peruutettu",
+   "t": "Mometasone",
+   "u": "/drugs/mometasone/",
+   "s": "Poistettu: ”nykyisin peruutettu”",
    "d": "2026-11-12"
   },
   {
-   "t": "Zanamivir",
-   "u": "/drugs/zanamivir/",
-   "s": "Taulukko: Dectova (EMEA/H/C/004102) on voimassa, ei peruutettu",
+   "t": "Leflunomide",
+   "u": "/drugs/leflunomide/",
+   "s": "Poistettu: ”peruutettujen myyntilupien syistä”",
    "d": "2026-11-12"
   },
   {
-   "t": "Vortioxetine",
-   "u": "/drugs/vortioxetine/",
-   "s": "Taulukko: Brintellix (EMEA/H/C/002717) on voimassa, ei peruutettu",
+   "t": "Crizotinib",
+   "u": "/drugs/crizotinib/",
+   "s": "Poistettu: ”Suomen myyntilupa on mitätöity”",
    "d": "2026-11-12"
   },
   {
-   "t": "Vismodegib",
-   "u": "/drugs/vismodegib/",
-   "s": "Taulukko: Erivedge (EMEA/H/C/002602) on voimassa, ei peruutettu",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Vilanterol",
-   "u": "/drugs/vilanterol/",
-   "s": "Taulukko: 2 myyntilupaa (Relvar Ellipta (EMEA/H/C/002673), Laventair Ellipta (EMEA/H/C/003754)) ovat…",
+   "t": "Bictegravir",
+   "u": "/drugs/bictegravir/",
+   "s": "Poistettu: ”Peruutettujen myyntilupien tilanteen selvittäminen”",
    "d": "2026-11-12"
   }
  ],

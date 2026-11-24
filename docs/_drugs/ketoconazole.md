@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 241
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketoconazole: ennustettu uusi käyttöaihe Akne (näytön taso L4). Alkuperäinen käyttöaihe: Cushingin oireyhtymä"
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
@@ -97,15 +97,15 @@ Huomautus: osa kirjallisuudesta käsittelee aknea tai hiivoihin liittyviä ihott
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/003906 | Ketoconazole Esteve (aiemmin Ketoconazole HRA) | Ei tiedossa | Cushingin oireyhtymä (myyntilupa voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-ketoconazole-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003906 | Ketoconazole Esteve (previously Ketoconazole HRA) | Ketoconazole | Cushing Syndrome | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003906 / Ketoconazole Esteve (aiemmin Ketoconazole HRA) / Ei tiedossa / Cushingin oireyhtymä (myyntilupa peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Ketoconazole Esteve (EMEA/H/C/003906) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-ketoconazole-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -131,7 +131,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 
 <!-- review:begin fi-lic-20261106-ketoconazole-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö jää tasolle L4: ainoa kliininen tutkimus on pieni, ilman tuloksia ja vaiheluokittelematon, ja kirjallisuus on pääosin epäsuoraa tai laboratoriotasoa. Lisäksi suun kautta otettavan ketokonatsolin turvallisuusprofiili (mm. maksa- ja QT-aikariskit sekä runsaat yhteisvaikutukset) sekä peruutettu myyntilupa Suomessa rajoittavat etenemistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö jää tasolle L4: ainoa kliininen tutkimus on pieni, ilman tuloksia ja vaiheluokittelematon, ja kirjallisuus on pääosin epäsuoraa tai laboratoriotasoa. Lisäksi suun kautta otettavan ketokonatsolin turvallisuusprofiili (mm. maksa- ja QT-aikariskit sekä runsaat yhteisvaikutukset) sekä peruutettu myyntilupa Suomessa rajoittavat etenemistä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-ketoconazole-1 -->
 
@@ -150,8 +150,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Lisäksi suun kautta otettavan ketokonatsolin turvallisuusprofiili (mm. maksa- ja QT-aikariskit sekä runsaat yhteisvaikutukset) sekä peruutet” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: Ketoconazole Esteve (EMEA/H/C/003906) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi suun kautta otettavan ketokonatsolin turvallisuusprofiili (mm. maksa- ja QT-aikariskit sekä runsaat yhteisvaikutukset) sekä peruutet” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Ketoconazole Esteve (EMEA/H/C/003906) on voimassa, ei peruutettu | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->

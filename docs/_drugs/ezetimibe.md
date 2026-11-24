@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe: ennustettu uusi käyttöaihe Kolesterolin esterinsiirtoproteiinin puutos (cholesterol-ester transfer protein deficiency) (näytön taso L5). Alkuperäinen käyttöaihe: Hypercholesterolemia"
 ---
 
@@ -73,9 +73,15 @@ Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröi
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004959 | Nustendi | – | Hypercholesterolemia;Dyslipidemias |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004959 | Nustendi | bempedoic acid; ezetimibe | Hypercholesterolemia; Dyslipidemias | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

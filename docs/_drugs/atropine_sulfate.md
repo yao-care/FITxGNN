@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00572
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atropine Sulfate: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Myopia"
 ---
 
@@ -81,9 +81,15 @@ Mikään alla olevista julkaisuista ei tutki atropiinin tehoa migreenin hoidossa
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/006324 | Ryjunea | – | Likinäköisyys |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/006324 | Ryjunea | atropine sulfate | Myopia | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

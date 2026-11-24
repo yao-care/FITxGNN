@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenofibrate: ennustettu uusi käyttöaihe Kolesteryyliesterisiirtoproteiinin puutos (cholesterol-ester transfer protein deficiency) (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemias"
 ---
 
@@ -76,10 +76,16 @@ Yksikään julkaisu ei tutki CETP:n puutoksen hoitoa potilailla.
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002559 | Cholib | – | Dyslipidemiat |
-| EMEA/H/C/001243 | Pravafenix | – | Dyslipidemiat |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/001243 | Pravafenix | fenofibrate; pravastatin | Dyslipidemias | Voimassa |
+| EMEA/H/C/002559 | Cholib | fenofibrate; simvastatin | Dyslipidemias | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -90,7 +90,7 @@ Muiden ennusteiden tukena olevaa kirjallisuutta (valikoima):
 
 <!-- review:begin fi-lic-20261106-rilpivirine-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Yhteensä myyntilupia on 6, ja kaikki on peruutettu. Kuudes lupa (Eviplera, EMEA/H/C/002312) on myös peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Yhteensä myyntilupia on 6, ja kaikki on peruutettu. Kuudes lupa (Eviplera, EMEA/H/C/002312) on myös peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-rilpivirine-1 -->
 
@@ -108,19 +108,20 @@ Muiden ennusteiden tukena olevaa kirjallisuutta (valikoima):
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002264 | Edurant | – | HIV-infektiot (voimassa) |
-| EMEA/H/C/005060 | Rekambys | – | HIV-infektiot (voimassa) |
-| EMEA/H/C/004427 | Juluca | – | HIV-infektiot (voimassa) |
-| EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | – | HIV-infektiot (voimassa) |
-| EMEA/H/C/004156 | Odefsey | – | HIV-infektiot (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-rilpivirine-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002264 | Edurant | rilpivirine hydrochloride | HIV Infections | Voimassa |
+| EMEA/H/C/002312 | Eviplera | emtricitabine; rilpivirine hydrochloride; tenofovir disoproxil fumarate | HIV Infections | Voimassa |
+| EMEA/H/C/004156 | Odefsey | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide | HIV Infections | Voimassa |
+| EMEA/H/C/004427 | Juluca | dolutegravir sodium; rilpivirine hydrochloride | HIV Infections | Voimassa |
+| EMEA/H/C/005060 | Rekambys | rilpivirine | HIV Infections | Voimassa |
+| EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | emtricitabine; rilpivirine hydrochloride; tenofovir alafenamide fumarate | HIV Infections | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002264 / Edurant / – / HIV-infektiot (peruutettu); EMEA/H/C/005060 / Rekambys / – / HIV-infektiot (peruutettu); EMEA/H/C/004427 / Juluca / – / HIV-infektiot (peruutettu); EMEA/H/C/006491 / Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris / – / HIV-infektiot (peruutettu); EMEA/H/C/004156 / Odefsey / – / HIV-infektiot (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Edurant (EMEA/H/C/002264), Rekambys (EMEA/H/C/005060), Juluca (EMEA/H/C/004427), Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris (EMEA/H/C/006491), Odefsey (EMEA/H/C/004156) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-rilpivirine-1 -->
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 
@@ -138,7 +139,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tämän raportin ainei
 
 <!-- review:begin fi-lic-20261106-rilpivirine-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tukena on vain yksi in vitro -tutkimus, kliinisiä kokeita ei ole ja käyttöaihe on eläinlääkinnällinen. Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tukena on vain yksi in vitro -tutkimus, kliinisiä kokeita ei ole ja käyttöaihe on eläinlääkinnällinen. Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-rilpivirine-2 -->
 
@@ -156,9 +157,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Yhteensä myyntilupia on 6, ja kaikki on peruutettu. Kuudes lupa (Eviplera, EMEA/H/C/002312) on myös peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 5 myyntilupaa (Edurant (EMEA/H/C/002264), Rekambys (EMEA/H/C/005060), Juluca (EMEA/H/C/004427), Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris (EMEA/H/C/006491), Odefsey (EMEA/H/C/004156)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Yhteensä myyntilupia on 6, ja kaikki on peruutettu. Kuudes lupa (Eviplera, EMEA/H/C/002312) on myös peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Edurant (EMEA/H/C/002264), Rekambys (EMEA/H/C/005060), Juluca (EMEA/H/C/004427), Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris (EMEA/H/C/006491), Odefsey (EMEA/H/C/004156)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amikacin: ennustettu uusi käyttöaihe Paratyfoidikuume (paratyphoid fever) (näytön taso L5). Alkuperäinen käyttöaihe: Respiratory Tract Infections"
 ---
 
@@ -79,9 +79,15 @@ Alla on koottu aineistosta tärkeimmät julkaisut. Yksikään niistä ei osoita 
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005264 | Arikayce liposomal | – | Hengitystieinfektiot |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/005264 | Arikayce liposomal | amikacin sulfate | Respiratory Tract Infections | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 Tätä lupaa koskeva tieto on koottu paikallisista lupatiedoista.
 

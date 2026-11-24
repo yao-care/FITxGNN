@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brolucizumab: ennustettu uusi käyttöaihe Mitokondrion oksidatiivisen fosforylaation häiriö ydin-DNA:n poikkeavuuksien vuoksi (mitochondrial oxidative phosphoryl… (näytön taso L5). Alkuperäinen käyttö…"
 ---
 
@@ -70,9 +70,15 @@ Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004913 | Beovu | – | Kostea silmänpohjan ikärappeuma |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004913 | Beovu | brolucizumab | Wet Macular Degeneration | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

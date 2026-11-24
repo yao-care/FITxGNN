@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 442
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: ennustettu uusi käyttöaihe Selkärankareuma (ankylosing spondylitis) (näytön taso L2). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
@@ -100,18 +100,18 @@ Muista ennusteista vahvin on monen nivelen lastenreuma (polyartikulaarinen JIA),
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000955 | RoActemra | – | Nivelreuma, lastenreuma, sytokiinipäästöoireyhtymä, jättisoluarteriitti, COVID-19 (voimassa) |
-| EMEA/H/C/006196 | Avtozma | – | Nivelreuma, lastenreuma, sytokiinipäästöoireyhtymä, COVID-19 (voimassa) |
-| EMEA/H/C/005781 | Tyenne | – | Nivelreuma, sytokiinipäästöoireyhtymä, lastenreuma, COVID-19, jättisoluarteriitti (voimassa) |
-| EMEA/H/C/005984 | Tocilizumab STADA (aiemmin Tofidence) | – | Nivelreuma, COVID-19, lastenreuma (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-tocilizumab-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000955 | RoActemra | tocilizumab | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Cytokine Release Syndrome; Giant Cell Arteritis; COVID… | Voimassa |
+| EMEA/H/C/005781 | Tyenne | tocilizumab | Arthritis, Rheumatoid; Cytokine Release Syndrome; Arthritis, Juvenile Rheumatoid; COVID-19 virus infection; G… | Voimassa |
+| EMEA/H/C/005984 | Tocilizumab STADA (previously Tofidence) | tocilizumab | Arthritis, Rheumatoid; COVID-19 virus infection; Arthritis, Juvenile Rheumatoid | Voimassa |
+| EMEA/H/C/006196 | Avtozma | tocilizumab | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Cytokine Release Syndrome; COVID-19 virus infection | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000955 / RoActemra / – / Nivelreuma, lastenreuma, sytokiinipäästöoireyhtymä, jättisoluarteriitti, COVID-19 (peruutettu); EMEA/H/C/006196 / Avtozma / – / Nivelreuma, lastenreuma, sytokiinipäästöoireyhtymä, COVID-19 (peruutettu); EMEA/H/C/005781 / Tyenne / – / Nivelreuma, sytokiinipäästöoireyhtymä, lastenreuma, COVID-19, jättisoluarteriitti (peruutettu); EMEA/H/C/005984 / Tocilizumab STADA (aiemmin Tofidence) / – / Nivelreuma, COVID-19, lastenreuma (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat RoActemra (EMEA/H/C/000955), Avtozma (EMEA/H/C/006196), Tyenne (EMEA/H/C/005781), Tocilizumab STADA (EMEA/H/C/005984) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-tocilizumab-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -124,7 +124,7 @@ Muista ennusteista vahvin on monen nivelen lastenreuma (polyartikulaarinen JIA),
 
 <!-- review:begin fi-lic-20261106-tocilizumab-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia lupia ei ole.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia lupia ei ole.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-tocilizumab-1 -->
 
@@ -146,7 +146,7 @@ Muilta osin turvallisuustiedot on luettava valmisteyhteenvedosta.
 
 <!-- review:begin fi-lic-20261106-tocilizumab-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”IL-6-salpaus on mekanistisesti uskottava, mutta TNF- ja IL-17-estäjät ovat vakiintuneempia vaihtoehtoja, joten tämä on toistaiseksi tutkimuskysymys. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”IL-6-salpaus on mekanistisesti uskottava, mutta TNF- ja IL-17-estäjät ovat vakiintuneempia vaihtoehtoja, joten tämä on toistaiseksi tutkimuskysymys. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-tocilizumab-2 -->
 
@@ -172,9 +172,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 4 myyntilupaa (RoActemra (EMEA/H/C/000955), Avtozma (EMEA/H/C/006196), Tyenne (EMEA/H/C/005781), Tocilizumab STADA (EMEA/H/C/005984)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia lupia ei ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 4 myyntilupaa (RoActemra (EMEA/H/C/000955), Avtozma (EMEA/H/C/006196), Tyenne (EMEA/H/C/005781), Tocilizumab STADA (EMEA/H/C/005984)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
 
 <!-- review:end log -->

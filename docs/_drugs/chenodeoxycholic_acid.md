@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CHENODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Chenodeoxycholic Acid: ennustettu uusi käyttöaihe Homotsygoottinen familiaalinen hyperkolesterolemia (homozygous familial hypercholesterolemia) (näytön taso L5). Alkuperäinen käyttöaihe: Xanthomatosi…"
 ---
 
@@ -74,9 +74,15 @@ Julkaisu on epäsuoraa näyttöä, eikä se tutki ennustettua tautia suoraan.
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (aiemmin Chenodeoxycholic acid sigma-tau) | – | Aivojen jänteiden ksantomatoosi; synnynnäiset aineenvaihduntahäiriöt |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (previously Chenodeoxycholic… | chenodeoxycholic acid | Xanthomatosis, Cerebrotendinous; Metabolism, Inborn Errors | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

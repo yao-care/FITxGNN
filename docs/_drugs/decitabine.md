@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Decitabine: ennustettu uusi käyttöaihe Lapsuusiän refraktaarinen sytopenia (refractory cytopenia of childhood) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Myeloid"
 ---
 
@@ -83,10 +83,16 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 ## Myyntiluvat Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002221 | Dacogen | Ei kirjattu | Myeloinen leukemia |
-| EMEA/H/C/005823 | Inaqovi | Ei kirjattu | Myeloinen leukemia |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002221 | Dacogen | decitabine | Leukemia, Myeloid | Voimassa |
+| EMEA/H/C/005823 | Inaqovi | cedazuridine; decitabine | Leukemia, Myeloid | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 

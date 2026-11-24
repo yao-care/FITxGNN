@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluticasone Furoate: ennustettu uusi käyttöaihe Atooppinen ihottuma (atopic eczema) (näytön taso L5). Alkuperäinen käyttöaihe: Kausiluonteinen ja ympärivuotinen allerginen nuha (lisäksi COPD ja as…"
 monitor_inn: "FLUTICASONE FUROATE"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
@@ -88,19 +88,19 @@ Kumpikaan julkaisu ei tutki flutikasonifuroaattia ihottuman hoidossa.
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000770 | Avamys | – | Kausiluonteinen ja ympärivuotinen allerginen nuha (voimassa) |
-| EMEA/H/C/002673 | Relvar Ellipta | – | Keuhkoahtaumatauti (voimassa) |
-| EMEA/H/C/002745 | Revinty Ellipta | – | Astma (voimassa) |
-| EMEA/H/C/004363 | Trelegy Ellipta | – | Keuhkoahtaumatauti (voimassa) |
-| EMEA/H/C/004781 | Elebrato Ellipta | – | Keuhkoahtaumatauti (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-fluticasone_furoate-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000770 | Avamys | fluticasone furoate | Rhinitis, Allergic, Seasonal; Rhinitis, Allergic, Perennial | Voimassa |
+| EMEA/H/C/002673 | Relvar Ellipta | fluticasone furoate; vilanterol | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/002745 | Revinty Ellipta | fluticasone furoate; vilanterol trifenatate | Asthma | Voimassa |
+| EMEA/H/C/004363 | Trelegy Ellipta | fluticasone furoate; umeclidinium bromide; vilanterol trifenatate | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/004781 | Elebrato Ellipta | fluticasone furoate; umeclidinium bromide; vilanterol trifenatate | Pulmonary Disease, Chronic Obstructive | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000770 / Avamys / – / Kausiluonteinen ja ympärivuotinen allerginen nuha (peruutettu); EMEA/H/C/002673 / Relvar Ellipta / – / Keuhkoahtaumatauti (peruutettu); EMEA/H/C/002745 / Revinty Ellipta / – / Astma (peruutettu); EMEA/H/C/004363 / Trelegy Ellipta / – / Keuhkoahtaumatauti (peruutettu); EMEA/H/C/004781 / Elebrato Ellipta / – / Keuhkoahtaumatauti (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Avamys (EMEA/H/C/000770), Relvar Ellipta (EMEA/H/C/002673), Revinty Ellipta (EMEA/H/C/002745), Trelegy Ellipta (EMEA/H/C/004363), Elebrato Ellipta (EMEA/H/C/004781) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-fluticasone_furoate-1 -->
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 
@@ -123,7 +123,7 @@ Lisäksi kirjallisuudessa nostetaan esiin lisämunuaisen suppression mahdollisuu
 
 <!-- review:begin fi-lic-20261106-fluticasone_furoate-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste on biologisesti uskottava, mutta näyttö on vain epäsuoraa (L4): kliinisiä tutkimuksia ei ole eikä flutikasonifuroaattia ole tutkittu atooppisessa ihottumassa. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste on biologisesti uskottava, mutta näyttö on vain epäsuoraa (L4): kliinisiä tutkimuksia ei ole eikä flutikasonifuroaattia ole tutkittu atooppisessa ihottumassa. Lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-fluticasone_furoate-1 -->
 
@@ -142,8 +142,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 5 myyntilupaa (Avamys (EMEA/H/C/000770), Relvar Ellipta (EMEA/H/C/002673), Revinty Ellipta (EMEA/H/C/002745), Trelegy Ellipta (EMEA/H/C/004363), Elebrato Ellipta (EMEA/H/C/004781)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Avamys (EMEA/H/C/000770), Relvar Ellipta (EMEA/H/C/002673), Revinty Ellipta (EMEA/H/C/002745), Trelegy Ellipta (EMEA/H/C/004363), Elebrato Ellipta (EMEA/H/C/004781)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440) |
 
 <!-- review:end log -->

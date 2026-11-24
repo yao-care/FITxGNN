@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ICATIBANT"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Icatibant: ennustettu uusi käyttöaihe Toksiseen serpiinin polymerisaatioon liittyvä serpinopatia (serpinopathy with toxic serpin polymerization) (näytön taso L5)."
 ---
 
@@ -68,10 +68,16 @@ Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000899 | Firazyr | – | Perinnöllinen angioedeema |
-| EMEA/H/C/005083 | Icatibant Accord | – | Perinnöllinen angioedeema |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000899 | Firazyr | icatibant | Angioedemas, Hereditary | Voimassa |
+| EMEA/H/C/005083 | Icatibant Accord | icatibant acetate | Angioedemas, Hereditary | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 Kummankin myyntiluvan tila on voimassa.
 

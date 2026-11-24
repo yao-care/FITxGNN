@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 215
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: ennustettu uusi käyttöaihe Pälvikaljuus (alopecia areata) (näytön taso L2). Alkuperäinen käyttöaihe: Adrenal Insufficiency"
@@ -80,11 +80,17 @@ Hydrokortisoni 1 % -emulsiovoide on kuitenkin heikkotehoinen valmiste, eikä se 
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004416 | Alkindi | – | Lisämunuaisen vajaatoiminta |
-| EMEA/H/C/002185 | Plenadren | – | Lisämunuaisen vajaatoiminta |
-| EMEA/H/C/005105 | Efmody | – | Synnynnäinen lisämunuaisen liikakasvu |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002185 | Plenadren | hydrocortisone | Adrenal Insufficiency | Voimassa |
+| EMEA/H/C/004416 | Alkindi | hydrocortisone | Adrenal Insufficiency | Voimassa |
+| EMEA/H/C/005105 | Efmody | hydrocortisone | Adrenal Hyperplasia, Congenital | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

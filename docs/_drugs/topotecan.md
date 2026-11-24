@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topotecan: ennustettu uusi käyttöaihe Naisen rintasyöpä (näytön taso L5). Alkuperäinen käyttöaihe: Kohdunkaulan syöpä"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -97,17 +97,17 @@ Kliininen tuki on kuitenkin heikko. Vuoden 1997 jatkuvan infuusion tutkimuksessa
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002282 | Potactasol (voimassa) | – | Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
-| EMEA/H/C/001192 | Topotecan Hospira (voimassa) | – | Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
-| EMEA/H/C/000123 | Hycamtin (voimassa) | – | Munasarjasyöpä; kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-topotecan-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000123 | Hycamtin | topotecan | Ovarian Neoplasms; Uterine Cervical Neoplasms; Small Cell Lung Carcinoma | Voimassa |
+| EMEA/H/C/001192 | Topotecan Hospira | topotecan | Uterine Cervical Neoplasms; Small Cell Lung Carcinoma | Voimassa |
+| EMEA/H/C/002282 | Potactasol | topotecan | Uterine Cervical Neoplasms; Small Cell Lung Carcinoma | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002282 / Potactasol (peruutettu) / – / Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä; EMEA/H/C/001192 / Topotecan Hospira (peruutettu) / – / Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä; EMEA/H/C/000123 / Hycamtin (peruutettu) / – / Munasarjasyöpä; kohdunkaulan syöpä; pienisoluinen keuhkosyöpä” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Potactasol (EMEA/H/C/002282), Topotecan Hospira (EMEA/H/C/001192), Hycamtin (EMEA/H/C/000123) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-topotecan-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -147,7 +147,7 @@ Useiden lääkkeiden (mm. omepratsoli, ondansetroni, deksametasoni, morfiini) yh
 
 <!-- review:begin fi-lic-20261106-topotecan-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Vanhin monoterapiatutkimus ei osoittanut merkittävää tehoa. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Vanhin monoterapiatutkimus ei osoittanut merkittävää tehoa. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-topotecan-1 -->
 
@@ -159,7 +159,7 @@ Useiden lääkkeiden (mm. omepratsoli, ondansetroni, deksametasoni, morfiini) yh
 
 <!-- review:begin fi-lic-20261106-topotecan-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Arvio Suomen myyntilupatilanteesta (kaikki luvat peruutettu) ja saatavuudesta” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Arvio Suomen myyntilupatilanteesta (kaikki luvat peruutettu) ja saatavuudesta” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-topotecan-2 -->
 
@@ -177,9 +177,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”(kaikki luvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 3 myyntilupaa (Potactasol (EMEA/H/C/002282), Topotecan Hospira (EMEA/H/C/001192), Hycamtin (EMEA/H/C/000123)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”(kaikki luvat peruutettu)” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Potactasol (EMEA/H/C/002282), Topotecan Hospira (EMEA/H/C/001192), Hycamtin (EMEA/H/C/000123)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
 
 <!-- review:end log -->

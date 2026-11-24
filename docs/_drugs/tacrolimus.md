@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 414
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: ennustettu uusi käyttöaihe Seborrheic dermatitis (näytön taso L1). Alkuperäinen käyttöaihe: Liver Transplantation"
@@ -62,7 +62,7 @@ Muut ennustetut käyttöaiheet ovat heikommin tuettuja. Parapsoriaasista on vain
 
 <!-- review:begin fi-lic-20261106-tacrolimus-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia myyntilupia ei tähän raporttiin koottujen tietojen mukaan ole.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia myyntilupia ei tähän raporttiin koottujen tietojen mukaan ole.” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-tacrolimus-1 -->
 
@@ -90,13 +90,19 @@ Muut ennustetut käyttöaiheet ovat heikommin tuettuja. Parapsoriaasista on vain
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004435 | Tacforius | – | Maksan ja munuaisen siirto |
-| EMEA/H/C/002655 | Envarsus | – | Elinsiirteen hyljintä |
-| EMEA/H/C/000712 | Advagraf | – | Elinsiirteen hyljintä |
-| EMEA/H/C/000374 | Protopic | – | Atooppinen ihottuma |
-| EMEA/H/C/000954 | Modigraf | – | Elinsiirteen hyljintä |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000374 | Protopic | tacrolimus | Dermatitis, Atopic | Voimassa |
+| EMEA/H/C/000712 | Advagraf | tacrolimus | Graft Rejection | Voimassa |
+| EMEA/H/C/000954 | Modigraf | tacrolimus | Graft Rejection | Voimassa |
+| EMEA/H/C/002655 | Envarsus | tacrolimus | Graft Rejection | Voimassa |
+| EMEA/H/C/004435 | Tacforius | tacrolimus monohydrate | Liver Transplantation; Kidney Transplantation | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 
@@ -115,7 +121,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ni
 
 <!-- review:begin fi-lic-20261106-tacrolimus-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö on kuitenkin pääosin ylläpitohoidosta kasvoilla, ja Suomessa ei ole voimassa olevaa myyntilupaa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö on kuitenkin pääosin ylläpitohoidosta kasvoilla, ja Suomessa ei ole voimassa olevaa myyntilupaa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-tacrolimus-2 -->
 
@@ -127,7 +133,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ni
 
 <!-- review:begin fi-lic-20261106-tacrolimus-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä. / Suomen myyntilupatilanteen selvittämistä, koska kaikki lupatiedot ovat peruutettuja, sekä paikallisen lääkemuodon saatavuuden varmistamista.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä. / Suomen myyntilupatilanteen selvittämistä, koska kaikki lupatiedot ovat peruutettuja, sekä paikallisen lääkemuodon saatavuuden varmistamista.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-tacrolimus-3 -->
 
@@ -139,9 +145,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia myyntilupia ei tähän raporttiin koottujen tietojen mukaan ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”ja Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Suomen myyntilupatilanteen selvittämistä, koska kaikki lupatiedot ovat peruutettuja, sekä paikallisen lääkemuodon saatavuuden varmistamista” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia myyntilupia ei tähän raporttiin koottujen tietojen mukaan ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomen myyntilupatilanteen selvittämistä, koska kaikki lupatiedot ovat peruutettuja, sekä paikallisen lääkemuodon saatavuuden varmistamista” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->

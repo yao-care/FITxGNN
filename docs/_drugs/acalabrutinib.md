@@ -7,7 +7,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -95,6 +95,16 @@ Tällä hetkellä tähän näyttöpakettiin ei ole liittyvää kirjallisuutta.
 > **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Acalabrutinib ei ole tällä hetkellä markkinoilla Taiwanissa. TFDA-lisenssejä ei löytynyt.” Poistettu: Taiwanin mallipohjasta (TFDA) jäänyt teksti, joka ei koske tätä sivua. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-acalabrutinib-1 -->
+
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/005299 | Calquence | acalabrutinib; acalabrutinib maleate | Leukemia, Lymphocytic, Chronic, B-Cell | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 

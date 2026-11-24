@@ -7,7 +7,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -75,6 +75,16 @@ Basiliximab ei ole tällä hetkellä rekisteröity Suomessa. Markkinointihyväks
 
 > **Huomautus:** Basiliximab (Simulect®) on EMA-hyväksytty akuutin elimistön siirtymisen hylkäämisen estoon de novo -allogeneettisissa munuaisen siirroissa aikuisten ja pediatristen potilaiden osalta, mikä voi toimia perusteena tulevalle suomalaiselle markkinahakemukselle. EMA-dokumentaatioon voidaan viitata vertailulähteinä.
 
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000207 | Simulect | basiliximab | Graft Rejection; Kidney Transplantation | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
+
 ---
 
 ## Turvallisuusnäkökohdat
@@ -100,7 +110,7 @@ TxGNN-ennuste-pipeline palautti ei kandidaatti-indikaatioita basiliximabille, ja
 
 <!-- review:begin fi-lic-20261106-basiliximab-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”**Hanki turvallisuuden lähdetiedot:** Lataa ja jäsennä EMA/TFDA-pakettitarra-PDF täyttääksesi varoitus- ja vasta-aihe-kentät ennen kuin siirryt turvallisuuden seulontavaiheeseen (S1).” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 1 myyntilupaa, joista 1 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”**Hanki turvallisuuden lähdetiedot:** Lataa ja jäsennä EMA/TFDA-pakettitarra-PDF täyttääksesi varoitus- ja vasta-aihe-kentät ennen kuin siirryt turvallisuuden seulontavaiheeseen (S1).” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-basiliximab-1 -->
 
@@ -112,7 +122,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”A/TFD” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”A/TFD” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

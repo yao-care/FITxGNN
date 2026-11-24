@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Guanfacine: ennustettu uusi käyttöaihe Faciodigitogenitaalinen oireyhtymä (faciodigitogenital syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Attention Deficit Disorder with Hyperactivity"
 ---
 
@@ -78,10 +78,16 @@ Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/006312 | Paxneury | – | Tarkkaavaisuus- ja ylivilkkaushäiriö |
-| EMEA/H/C/003759 | Intuniv | – | Tarkkaavaisuus- ja ylivilkkaushäiriö |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003759 | Intuniv | guanfacine hydrochloride | Attention Deficit Disorder with Hyperactivity | Voimassa |
+| EMEA/H/C/006312 | Paxneury | guanfacine hydrochloride | Attention Deficit Disorder with Hyperactivity | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 

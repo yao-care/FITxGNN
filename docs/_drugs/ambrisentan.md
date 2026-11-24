@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ambrisentan: ennustettu uusi käyttöaihe Keuhkojen valtimolaskimomuodostuma (pulmonary arteriovenous malformation) (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
 ---
 
@@ -72,10 +72,16 @@ Toistaiseksi ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004985 | Ambrisentan Viatris (aiemmin Ambrisentan Mylan) | – | Keuhkoverenpainetauti |
-| EMEA/H/C/000839 | Volibris | – | Keuhkoverenpainetauti |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000839 | Volibris | ambrisentan | Hypertension, Pulmonary | Voimassa |
+| EMEA/H/C/004985 | Ambrisentan Viatris (previously Ambrisentan Mylan) | ambrisentan | Hypertension, Pulmonary | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

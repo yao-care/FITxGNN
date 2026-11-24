@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: ennustettu uusi käyttöaihe Immature cataract (näytön taso L5). Alkuperäinen käyttöaihe: Wet Macular Degeneration"
@@ -91,19 +91,21 @@ Kirjallisuudessa on RIDE/RISE-tutkimusten analyysejä, joissa diabeettinen retin
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005617 | Ximluci | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (voimassa) |
-| EMEA/H/C/000715 | Lucentis | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (voimassa) |
-| EMEA/H/C/006528 | Epruvy (aiemmin Ranibizumab Midas) | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, suonikalvon uudissuonittuminen, diabeteksen komplikaatiot (voimassa) |
-| EMEA/H/C/005019 | Ranivisio | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (voimassa) |
-| EMEA/H/C/006055 | Rimmyrah | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-ranibizumab-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000715 | Lucentis | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Myopia, Degenerative; Choroidal Neovasculari… | Voimassa |
+| EMEA/H/C/005019 | Ranivisio | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications | Voimassa |
+| EMEA/H/C/005545 | Byooviz | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Myopia, Degenerative | Voimassa |
+| EMEA/H/C/005617 | Ximluci | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications | Voimassa |
+| EMEA/H/C/006055 | Rimmyrah | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Myopia, Degenerative; Choroidal Neovasculari… | Voimassa |
+| EMEA/H/C/006502 | Ranluspec | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications; Retinal Vein Occlusion… | Voimassa |
+| EMEA/H/C/006528 | Epruvy (previously Ranibizumab Midas) | ranibizumab | Wet Macular Degeneration; Macular Edema; Choroidal Neovascularization; Diabetes Complications | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005617 / Ximluci / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (peruutettu); EMEA/H/C/000715 / Lucentis / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (peruutettu); EMEA/H/C/006528 / Epruvy (aiemmin Ranibizumab Midas) / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, suonikalvon uudissuonittuminen, diabeteksen komplikaatiot (peruutettu); EMEA/H/C/005019 / Ranivisio / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (peruutettu); EMEA/H/C/006055 / Rimmyrah / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Ximluci (EMEA/H/C/005617), Lucentis (EMEA/H/C/000715), Epruvy (EMEA/H/C/006528), Ranivisio (EMEA/H/C/005019), Rimmyrah (EMEA/H/C/006055) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-ranibizumab-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -115,7 +117,7 @@ Kirjallisuudessa on RIDE/RISE-tutkimusten analyysejä, joissa diabeettinen retin
 
 <!-- review:begin fi-lic-20261106-ranibizumab-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikkiaan myyntilupia on 7, ja ne ovat kaikki peruutettuja.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikkiaan myyntilupia on 7, ja ne ovat kaikki peruutettuja.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-ranibizumab-1 -->
 
@@ -132,7 +134,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla, joten 
 
 <!-- review:begin fi-lic-20261106-ranibizumab-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennustettuun käyttöaiheeseen ei ole annettu rekisteröityjä tutkimuksia, joten L1-taso perustuu kirjallisuuteen, ja suomalaiset myyntiluvat ovat kaikki peruutettuja.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennustettuun käyttöaiheeseen ei ole annettu rekisteröityjä tutkimuksia, joten L1-taso perustuu kirjallisuuteen, ja suomalaiset myyntiluvat ovat kaikki peruutettuja.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-ranibizumab-2 -->
 
@@ -143,7 +145,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla, joten 
 
 <!-- review:begin fi-lic-20261106-ranibizumab-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kirjallisuuden suhteen tarkistamista, koskevatko tulokset nimenomaan vaikeaa ei-proliferatiivista retinopatiaa. / Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 7 myyntilupaa, joista 7 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kirjallisuuden suhteen tarkistamista, koskevatko tulokset nimenomaan vaikeaa ei-proliferatiivista retinopatiaa. / Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-ranibizumab-3 -->
 
@@ -157,10 +159,10 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikkiaan myyntilupia on 7, ja ne ovat kaikki peruutettuja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”ja suomalaiset myyntiluvat ovat kaikki peruutettuja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 5 myyntilupaa (Ximluci (EMEA/H/C/005617), Lucentis (EMEA/H/C/000715), Epruvy (EMEA/H/C/006528), Ranivisio (EMEA/H/C/005019), Rimmyrah (EMEA/H/C/006055)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikkiaan myyntilupia on 7, ja ne ovat kaikki peruutettuja” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja suomalaiset myyntiluvat ovat kaikki peruutettuja” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä)” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Ximluci (EMEA/H/C/005617), Lucentis (EMEA/H/C/000715), Epruvy (EMEA/H/C/006528), Ranivisio (EMEA/H/C/005019), Rimmyrah (EMEA/H/C/006055)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
 
 <!-- review:end log -->

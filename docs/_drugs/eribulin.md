@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ERIBULIN"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eribulin: ennustettu uusi käyttöaihe Autosomaalinen resessiivinen familiaalinen Välimeren kuume (autosomal recessive familial Mediterranean fever) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Ne…"
 ---
 
@@ -68,11 +68,17 @@ Tälle ennusteelle ei ole tällä hetkellä saatavilla kirjallisuutta.
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002084 | Halaven | – | Breast Neoplasms;Liposarcoma |
-| EMEA/H/C/006134 | Mevlyq | – | Breast Neoplasms;Liposarcoma |
-| EMEA/H/C/006191 | Eribulin Baxter | – | Breast Neoplasms;Liposarcoma |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002084 | Halaven | Eribulin | Breast Neoplasms; Liposarcoma | Voimassa |
+| EMEA/H/C/006134 | Mevlyq | Eribulin mesylate | Breast Neoplasms; Liposarcoma | Voimassa |
+| EMEA/H/C/006191 | Eribulin Baxter | Eribulin mesylate | Breast Neoplasms; Liposarcoma | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

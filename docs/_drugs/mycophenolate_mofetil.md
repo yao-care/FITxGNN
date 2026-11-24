@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 296
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 description: "Mycophenolate Mofetil: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L2). Alkuperäinen käyttöaihe: Graft Rejection"
@@ -94,12 +94,18 @@ Näyttö on kuitenkin vaatimatonta. Pienet varhaiset tutkimukset ja yksi satunna
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000884 | Myfenax | – | Elinsiirteen hylkiminen (voimassa) |
-| EMEA/H/C/001218 | Myclausen | – | Elinsiirteen hylkiminen (voimassa) |
-| EMEA/H/C/000082 | CellCept | – | Elinsiirteen hylkiminen (voimassa) |
-| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Elinsiirteen hylkiminen (voimassa) |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000082 | CellCept | mycophenolate mofetil | Graft Rejection | Voimassa |
+| EMEA/H/C/000882 | Mycophenolate mofetil Teva | mycophenolate mofetil | Graft Rejection | Voimassa |
+| EMEA/H/C/000884 | Myfenax | mycophenolate mofetil | Graft Rejection | Voimassa |
+| EMEA/H/C/001218 | Myclausen | mycophenolate mofetil | Graft Rejection | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,7 +129,7 @@ Huomattavaa on, että vasta-aihelistalla ovat useat infektiot ja neutropenia, mi
 
 <!-- review:begin fi-lic-20261106-mycophenolate_mofetil-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lääkkeen immunosuppressiivinen luonne ja infektioihin liittyvät vasta-aiheet heikentävät hyöty-haittasuhdetta. Lisäksi kaikki Suomen myyntiluvat on peruttu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lääkkeen immunosuppressiivinen luonne ja infektioihin liittyvät vasta-aiheet heikentävät hyöty-haittasuhdetta. Lisäksi kaikki Suomen myyntiluvat on peruttu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-mycophenolate_mofetil-1 -->
 
@@ -142,7 +148,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruttu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->

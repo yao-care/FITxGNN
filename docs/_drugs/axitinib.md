@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Axitinib: ennustettu uusi käyttöaihe Liposarkooma (liposarcoma) (näytön taso L4). Alkuperäinen käyttöaihe: Carcinoma, Renal Cell"
 ---
 
@@ -70,10 +70,16 @@ Tällä hetkellä aiheeseen ei ole rekisteröity kliinisiä tutkimuksia.
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002406 | Inlyta | – | Carcinoma, Renal Cell |
-| EMEA/H/C/006206 | Axitinib Accord | – | Carcinoma, Renal Cell |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002406 | Inlyta | axitinib | Carcinoma, Renal Cell | Voimassa |
+| EMEA/H/C/006206 | Axitinib Accord | axitinib | Carcinoma, Renal Cell | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

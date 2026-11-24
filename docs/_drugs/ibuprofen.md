@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ibuprofen: ennustettu uusi käyttöaihe Akromesomelinen dysplasia, Hunter-Thompsonin tyyppi (acromesomelic dysplasia, Hunter-Thompson type) (näytön taso L5). Alkuperäinen käyttöaihe: Ductus Arteriosus,…"
 ---
 
@@ -70,10 +70,16 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/006129 | Ibuprofen Gen.Orph | – | Ductus Arteriosus, Patent |
-| EMEA/H/C/000549 | Pedea | – | Ductus Arteriosus, Patent |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000549 | Pedea | Ibuprofen | Ductus Arteriosus, Patent | Voimassa |
+| EMEA/H/C/006129 | Ibuprofen Gen.Orph | Ibuprofen | Ductus Arteriosus, Patent | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docetaxel: ennustettu uusi käyttöaihe Ewingin sarkooma (Ewing sarcoma) (näytön taso L2). Alkuperäinen käyttöaihe: Head and Neck Neoplasms"
 ---
 
@@ -90,11 +90,17 @@ Kliininen näyttö on kuitenkin vaatimatonta ja yhdistelmäriippuvaista. Suurin 
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupanumero | Valmiste | Valmistaja |
-|---------|------|------|
-| EMEA/H/C/002539 | Docetaxel Accord | Accord Healthcare S.L.U. |
-| EMEA/H/C/002325 | Docetaxel Kabi | Fresenius Kabi Deutschland GmbH |
-| EMEA/H/C/000073 | Taxotere | Sanofi Winthrop Industrie |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000073 | Taxotere | docetaxel | Head and Neck Neoplasms; Carcinoma, Non-Small-Cell Lung; Adenocarcinoma; Prostatic Neoplasms; Stomach Neoplas… | Voimassa |
+| EMEA/H/C/002325 | Docetaxel Kabi | docetaxel | Head and Neck Neoplasms; Carcinoma, Non-Small-Cell Lung; Adenocarcinoma; Prostatic Neoplasms; Breast Neoplasms | Voimassa |
+| EMEA/H/C/002539 | Docetaxel Accord | docetaxel | Head and Neck Neoplasms; Carcinoma, Non-Small-Cell Lung; Adenocarcinoma; Prostatic Neoplasms; Breast Neoplasms | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

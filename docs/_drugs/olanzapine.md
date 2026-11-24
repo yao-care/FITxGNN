@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: ennustettu uusi käyttöaihe Benign paroxysmal torticollis of infancy (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
@@ -105,21 +105,31 @@ Imeväisen hyvänlaatuiseen paroksysmaaliseen vinokaulaan liittyvää kirjallisu
 
 ## Markkinatiedot Suomessa
 
-Valmisteet on lueteltu alla (näytetään enintään 5).
+Myyntiluvat ja niiden tila ovat alla olevassa taulukossa.
 
 <!-- review:begin fi-lic-20261106-olanzapine-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki yhdeksän myyntilupaa ovat tilassa "peruutettu". Valmisteet on lueteltu alla (näytetään enintään 5).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 9 myyntilupaa, joista 9 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki yhdeksän myyntilupaa ovat tilassa "peruutettu". Valmisteet on lueteltu alla (näytetään enintään 5).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-olanzapine-1 -->
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000792 | Zalasta | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
-| EMEA/H/C/001088 | Olazax Disperzi | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
-| EMEA/H/C/000810 | Olanzapine Teva | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
-| EMEA/H/C/000961 | Olanzapine Viatris (aiemmin Olanzapine Mylan) | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
-| EMEA/H/C/000287 | Zyprexa Velotab | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000115 | Zyprexa | olanzapine | Schizophrenia; Bipolar Disorder | Voimassa |
+| EMEA/H/C/000287 | Zyprexa Velotab | olanzapine | Schizophrenia; Bipolar Disorder | Voimassa |
+| EMEA/H/C/000792 | Zalasta | olanzapine | Schizophrenia; Bipolar Disorder | Voimassa |
+| EMEA/H/C/000810 | Olanzapine Teva | olanzapine | Schizophrenia; Bipolar Disorder | Voimassa |
+| EMEA/H/C/000961 | Olanzapine Viatris (previously Olanzapine Mylan) | olanzapine | Schizophrenia; Bipolar Disorder | Voimassa |
+| EMEA/H/C/001085 | Olanzapine Glenmark | olanzapine | Schizophrenia; Bipolar Disorder | Voimassa |
+| EMEA/H/C/001086 | Olanzapine Glenmark Europe | olanzapine | Schizophrenia; Bipolar Disorder | Voimassa |
+| EMEA/H/C/001087 | Olazax | olanzapine | Schizophrenia; Bipolar Disorder | Voimassa |
+| EMEA/H/C/001088 | Olazax Disperzi | olanzapine | Schizophrenia; Bipolar Disorder | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -149,7 +159,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 
 <!-- review:begin fi-lic-20261106-olanzapine-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Dystymian osalta ei ole olantsapiinispesifistä kontrolloitua näyttöä, ja osa kirjallisuudesta koskee muita lääkkeitä. / Olantsapiinin myyntiluvat Suomessa on kaikki peruutettu, mikä vaikuttaa käytännön saatavuuteen.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 9 myyntilupaa, joista 9 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Dystymian osalta ei ole olantsapiinispesifistä kontrolloitua näyttöä, ja osa kirjallisuudesta koskee muita lääkkeitä. / Olantsapiinin myyntiluvat Suomessa on kaikki peruutettu, mikä vaikuttaa käytännön saatavuuteen.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-olanzapine-2 -->
 
@@ -168,8 +178,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki yhdeksän myyntilupaa ovat tilassa "peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Olantsapiinin myyntiluvat Suomessa on kaikki peruutettu, mikä vaikuttaa käytännön saatavuuteen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki yhdeksän myyntilupaa ovat tilassa "peruutettu"” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Olantsapiinin myyntiluvat Suomessa on kaikki peruutettu, mikä vaikuttaa käytännön saatavuuteen” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->

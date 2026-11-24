@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 89
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine: ennustettu uusi käyttöaihe Akuutti ajoittainen porfyria (näytön taso L4). Alkuperäinen käyttöaihe: Opioidiriippuvuus (opioidien käyttöön liittyvät häiriöt)"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "extrapyramidal and movement disease", "benign shuddering attacks"]
@@ -82,18 +82,18 @@ Ennustettuun käyttöaiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä 
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004651 | Buvidal (voimassa) | – | Opioidiriippuvuus |
-| EMEA/H/C/006188 | Buprenorphine Neuraxpharm (voimassa) | – | Opioidiriippuvuus |
-| EMEA/H/C/004407 | Zubsolv (voimassa) | – | Opioidiriippuvuus |
-| EMEA/H/C/000697 | Suboxone (peruutettu) | – | Opioidiriippuvuus |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-buprenorphine-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004407 | Zubsolv | buprenorphine hydrochloride; naloxone hydrochloride dihydrate | Opioid-Related Disorders | Voimassa |
+| EMEA/H/C/004651 | Buvidal | buprenorphine | Opioid-Related Disorders | Voimassa |
+| EMEA/H/C/006188 | Buprenorphine Neuraxpharm | buprenorphine hydrochloride | Opioid-Related Disorders | Voimassa |
+| EMEA/H/C/000697 | Suboxone | buprenorphine; naloxone | Opioid-Related Disorders | Peruttu |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004651 / Buvidal (peruutettu) / – / Opioidiriippuvuus; EMEA/H/C/006188 / Buprenorphine Neuraxpharm (peruutettu) / – / Opioidiriippuvuus; EMEA/H/C/004407 / Zubsolv (peruutettu) / – / Opioidiriippuvuus” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Buvidal (EMEA/H/C/004651), Buprenorphine Neuraxpharm (EMEA/H/C/006188), Zubsolv (EMEA/H/C/004407) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-buprenorphine-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -117,7 +117,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 
 <!-- review:begin fi-lic-20261106-buprenorphine-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistista yhteyttä sairauden patologiaan ei ole, ja lääkkeen porfyriaturvallisuus on epäselvä. / Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistista yhteyttä sairauden patologiaan ei ole, ja lääkkeen porfyriaturvallisuus on epäselvä. / Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-buprenorphine-1 -->
 
@@ -139,8 +139,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 3 myyntilupaa (Buvidal (EMEA/H/C/004651), Buprenorphine Neuraxpharm (EMEA/H/C/006188), Zubsolv (EMEA/H/C/004407)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Buvidal (EMEA/H/C/004651), Buprenorphine Neuraxpharm (EMEA/H/C/006188), Zubsolv (EMEA/H/C/004407)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
 
 <!-- review:end log -->

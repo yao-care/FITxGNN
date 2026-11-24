@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 description: "Irbesartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension"
@@ -93,7 +93,7 @@ Osa haetuista julkaisuista ei liity irbesartaaniin (yrttiuutteita koskevat tutki
 
 <!-- review:begin fi-lic-20261106-irbesartan-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kymmenen myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 10 myyntilupaa, joista 10 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kymmenen myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-irbesartan-1 -->
 
@@ -101,13 +101,24 @@ Osa haetuista julkaisuista ei liity irbesartaaniin (yrttiuutteita koskevat tutki
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/001093 | Irbesartan Teva | – | Verenpainetauti |
-| EMEA/H/C/000142 | Karvea | – | Verenpainetauti |
-| EMEA/H/C/000141 | Aprovel | – | Verenpainetauti |
-| EMEA/H/C/000785 | Irbesartan Zentiva | – | Verenpainetauti |
-| EMEA/H/C/000962 | Ifirmasta | – | Verenpainetauti |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000141 | Aprovel | irbesartan | Hypertension | Voimassa |
+| EMEA/H/C/000142 | Karvea | irbesartan | Hypertension | Voimassa |
+| EMEA/H/C/000221 | Karvezide | irbesartan; hydrochlorothiazide | Hypertension | Voimassa |
+| EMEA/H/C/000222 | CoAprovel | irbesartan; hydrochlorothiazide | Hypertension | Voimassa |
+| EMEA/H/C/000783 | Irbesartan Hydrochlorothiazide Zentiva (previously Irbesart… | irbesartan; hydrochlorothiazide | Hypertension | Voimassa |
+| EMEA/H/C/000785 | Irbesartan Zentiva (previously Irbesartan Winthrop) | irbesartan | Hypertension | Voimassa |
+| EMEA/H/C/000962 | Ifirmasta (previously Irbesartan Krka) | irbesartan hydrochloride | Hypertension | Voimassa |
+| EMEA/H/C/001093 | Irbesartan Teva | irbesartan | Hypertension | Voimassa |
+| EMEA/H/C/001112 | Irbesartan/Hydrochlorothiazide Teva | irbesartan; hydrochlorothiazide | Hypertension | Voimassa |
+| EMEA/H/C/002302 | Ifirmacombi | irbesartan; hydrochlorothiazide | Hypertension | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -144,7 +155,7 @@ Tietämysverkosta (PrimeKG) johdetut vasta-aiheisiin viittaavat yhteydet (eivät
 
 <!-- review:begin fi-lic-20261106-irbesartan-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu ja valmisteyhteenvedon turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 10 myyntilupaa, joista 10 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu ja valmisteyhteenvedon turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-irbesartan-2 -->
 
@@ -163,8 +174,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki kymmenen myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki kymmenen myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu ja v” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-20 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
 
 <!-- review:end log -->

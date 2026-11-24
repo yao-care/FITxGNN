@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glimepiride: ennustettu uusi käyttöaihe fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus, Type 2"
 ---
 
@@ -78,9 +78,15 @@ Tähän ennusteeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavi
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000680 | Tandemact | – | Diabetes Mellitus, Type 2 |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000680 | Tandemact | pioglitazone; glimepiride | Diabetes Mellitus, Type 2 | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 Huom. kyseessä on yhdistelmävalmiste, joten sen myyntilupatietoja ei voi käyttää kuvaamaan yksittäisen glimepiridivalmisteen asemaa.
 

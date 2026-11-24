@@ -3,7 +3,7 @@ layout: default
 title: Netarsudil
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 301
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-24
 description: "Netarsudil: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -70,9 +70,15 @@ Mallin Netarsudil-lääkkeelle tuottamat ehdokkaat ovat kaikki jo tunnettuja kä
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupa | Valmiste | Lääkemuoto | Tila |
-|------|------|------|------|
-| EMEA/H/C/004583 | netarsudil |  | Voimassa |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004583 | Rhokiinsa | netarsudil | Glaucoma, Open-Angle; Ocular Hypertension | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 309
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Norethisterone: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 monitor_inn: "Norethisterone"
 predicted_indications: []
@@ -48,15 +48,15 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005267 | Ryeqo (Gedeon Richter Plc.) | – | Myooma (leiomyooma); tila: voimassa |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-norethisterone-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/005267 | Ryeqo | relugolix; norethisterone acetate; estradiol hemihydrate | Leiomyoma | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005267 / Ryeqo (Gedeon Richter Plc.) / – / Myooma (leiomyooma); tila: peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Ryeqo (EMEA/H/C/005267) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-norethisterone-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -79,7 +79,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-12 | Taulukko: Ryeqo (EMEA/H/C/005267) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Ryeqo (EMEA/H/C/005267) on voimassa, ei peruutettu | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

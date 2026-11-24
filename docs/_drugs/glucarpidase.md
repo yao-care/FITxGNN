@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "GLUCARPIDASE"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glucarpidase: ennustettu uusi käyttöaihe Diabeettinen kaihi (diabetic cataract) (näytön taso L5). Alkuperäinen käyttöaihe: Metabolic Side Effects of Drugs and Substances"
 ---
 
@@ -70,9 +70,15 @@ Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
 ## Markkinatiedot Suomessa
 
-| Lupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005467 | Voraxaze | – | Lääkkeiden ja aineiden aineenvaihdunnalliset haittavaikutukset |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/005467 | Voraxaze | glucarpidase | Metabolic Side Effects of Drugs and Substances | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

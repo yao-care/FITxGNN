@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferiprone: ennustettu uusi käyttöaihe Maksaporfyria (hepatic porphyria) (näytön taso L5). Alkuperäinen käyttöaihe: beta-Thalassemia"
 ---
 
@@ -75,10 +75,16 @@ Kumpikaan julkaisu ei ole kliininen tutkimus maksaporfyriapotilailla.
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000236 | Ferriprox | Ei kirjattu | Beetatalassemia; rautakuorma |
-| EMEA/H/C/004710 | Deferiprone Lipomed | Ei kirjattu | Rautakuorma; beetatalassemia |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000236 | Ferriprox | Deferiprone | beta-Thalassemia; Iron Overload | Voimassa |
+| EMEA/H/C/004710 | Deferiprone Lipomed | Deferiprone | Iron Overload; beta-Thalassemia | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

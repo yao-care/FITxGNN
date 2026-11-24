@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aflibercept: ennustettu uusi käyttöaihe Esotropia (näytön taso L5). Alkuperäinen käyttöaihe: Kostea silmänpohjan ikärappeuma, makulaturvotus…"
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
@@ -81,21 +81,36 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Tietoa Suomen markkinoista
 
-Valmisteet on lueteltu alla (enintään 5).
+Myyntiluvat ja niiden tila ovat alla olevassa taulukossa.
 
 <!-- review:begin fi-lic-20261106-aflibercept-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 14 myyntilupaa on peruutettu. Valmisteet on lueteltu alla (enintään 5).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 14 myyntilupaa, joista 14 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 14 myyntilupaa on peruutettu. Valmisteet on lueteltu alla (enintään 5).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-aflibercept-1 -->
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002392 | Eylea | – | Kostea ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, verkkokalvon laskimotukos, suonikalvon neovaskularisaatio |
-| EMEA/H/C/002532 | Zaltrap | – | Paksusuolen ja peräsuolen syöpä |
-| EMEA/H/C/006339 | Pavblu | – | Kostea ikärappeuma, makulaturvotus, verkkokalvon laskimotukos, suonikalvon neovaskularisaatio, diabeteksen komplikaatiot |
-| EMEA/H/C/006056 | Opuviz | – | Kostea ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, verkkokalvon laskimotukos |
-| EMEA/H/C/006150 | Afqlir | – | Kostea ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, verkkokalvon laskimotukos |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002392 | Eylea | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Voimassa |
+| EMEA/H/C/002532 | Zaltrap | aflibercept | Colorectal Neoplasms | Voimassa |
+| EMEA/H/C/005899 | Eydenzelt | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Voimassa |
+| EMEA/H/C/005980 | Baiama | aflibercept | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Compl… | Voimassa |
+| EMEA/H/C/006022 | Yesafili | aflibercept | Macular Edema; Retinal Vein Occlusion; Diabetic Retinopathy; Myopia, Degenerative; Diabetes Complications | Voimassa |
+| EMEA/H/C/006056 | Opuviz | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion | Voimassa |
+| EMEA/H/C/006150 | Afqlir | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion | Voimassa |
+| EMEA/H/C/006192 | Vgenfli | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Voimassa |
+| EMEA/H/C/006282 | Eyluxvi | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion | Voimassa |
+| EMEA/H/C/006339 | Pavblu | aflibercept | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Compl… | Voimassa |
+| EMEA/H/C/006438 | Mynzepli | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Voimassa |
+| EMEA/H/C/006607 | Ahzantive | aflibercept | Wet Macular Degeneration; Macular Edema; Retinal Vein Occlusion; Choroidal Neovascularization; Diabetes Compl… | Voimassa |
+| EMEA/H/C/006745 | Eiyzey | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Voimassa |
+| EMEA/H/C/006761 | Afiveg | aflibercept | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,7 +140,7 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Valmisteyhteen
 
 <!-- review:begin fi-lic-20261106-aflibercept-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suoraa mekanistista yhteyttä esotropiaan ei ole tunnistettu, ja lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 14 myyntilupaa, joista 14 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Suoraa mekanistista yhteyttä esotropiaan ei ole tunnistettu, ja lisäksi kaikki Suomen myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-aflibercept-2 -->
 
@@ -138,7 +153,7 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Valmisteyhteen
 
 <!-- review:begin fi-lic-20261106-aflibercept-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Antoreittien yhteensopivuuden ja lääkemuotojen arviointia / Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 14 myyntilupaa, joista 14 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Antoreittien yhteensopivuuden ja lääkemuotojen arviointia / Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-aflibercept-3 -->
 
@@ -150,9 +165,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki 14 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”ja lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki 14 myyntilupaa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
 
 <!-- review:end log -->

@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB14723
 monitor_inn: "Larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Larotrectinib Sulfate: ennustettu uusi käyttöaihe Multippeli endokriininen neoplasia (multiple endocrine neoplasia) (näytön taso L5). Alkuperäinen käyttöaihe: Abdominal Neoplasms"
 ---
 
@@ -74,9 +74,15 @@ Multippeli endokriininen neoplasia (erityisesti MEN2) johtuu pääosin aktivoivi
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004919 | Vitrakvi | – | Abdominal Neoplasms |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004919 | Vitrakvi | larotrectinib sulfate | Abdominal Neoplasms | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 

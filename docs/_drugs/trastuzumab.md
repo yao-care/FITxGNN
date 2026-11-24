@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: ennustettu uusi käyttöaihe Malignant cutaneous granular cell skin tumor (näytön taso L5). Alkuperäinen käyttöaihe: Stomach Neoplasms"
@@ -106,19 +106,31 @@ Taulukossa on 10 relevanteimpaa tutkimusta, mutta tälle käyttöaiheelle on kai
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000278 | Herceptin | – | Mahalaukun syöpä; rintasyöpä |
-| EMEA/H/C/002575 | Herzuma | – | Mahalaukun syöpä; rintasyöpä |
-| EMEA/H/C/004361 | Kanjinti | – | Mahalaukun syöpä; rintasyöpä |
-| EMEA/H/C/004916 | Ogivri | – | Mahalaukun syöpä; rintasyöpä |
-| EMEA/H/C/004463 | Trazimera | – | Mahalaukun syöpä; rintasyöpä |
+<!-- licenses:begin -->
 
-Taulukossa on viisi esimerkkiä.
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000278 | Herceptin | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Voimassa |
+| EMEA/H/C/002575 | Herzuma | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Voimassa |
+| EMEA/H/C/004323 | Ontruzant | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Voimassa |
+| EMEA/H/C/004361 | Kanjinti | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Voimassa |
+| EMEA/H/C/004463 | Trazimera | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Voimassa |
+| EMEA/H/C/004916 | Ogivri | trastuzumab | Stomach Neoplasms; Breast Neoplasms | Voimassa |
+| EMEA/H/C/005209 | Zercepac | trastuzumab | Breast Neoplasms; Stomach Neoplasms | Voimassa |
+| EMEA/H/C/005386 | Phesgo | pertuzumab; trastuzumab | Breast Neoplasms | Voimassa |
+| EMEA/H/C/005769 | Herwenda | trastuzumab | Breast Neoplasms; Stomach Neoplasms | Voimassa |
+| EMEA/H/C/006219 | Dazublys | trastuzumab | Breast Neoplasms; Stomach Neoplasms | Voimassa |
+| EMEA/H/C/006252 | Tuznue | trastuzumab | Breast Neoplasms | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
+
+Myyntiluvat ja niiden tila ovat yllä olevassa taulukossa.
 
 <!-- review:begin fi-lic-20261106-trastuzumab-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 11 myyntilupaa on peruutettu, eikä voimassa olevia valmisteita ole. Taulukossa on viisi esimerkkiä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 11 myyntilupaa on peruutettu, eikä voimassa olevia valmisteita ole. Taulukossa on viisi esimerkkiä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-trastuzumab-1 -->
 
@@ -163,7 +175,7 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 <!-- review:begin fi-lic-20261106-trastuzumab-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kyseessä on pikemminkin vakiintunut käyttö kuin uusi käyttöaihe. / Suomessa kaikki myyntiluvat on peruutettu, joten saatavuus on selvitettävä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 11 myyntilupaa, joista 11 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kyseessä on pikemminkin vakiintunut käyttö kuin uusi käyttöaihe. / Suomessa kaikki myyntiluvat on peruutettu, joten saatavuus on selvitettävä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-trastuzumab-2 -->
 
@@ -183,8 +195,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki 11 myyntilupaa on peruutettu, eikä voimassa olevia valmisteita ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, joten saatavuus on selvitettävä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki 11 myyntilupaa on peruutettu, eikä voimassa olevia valmisteita ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, joten saatavuus on selvitettävä” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Cladribine: ennustettu uusi käyttöaihe Parameningeaalinen alkioperäinen rabdomyosarkooma (parameningeal embryonal rhabdomyosarcoma) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Hairy Cell"
 ---
 
@@ -72,10 +72,16 @@ Tähän ennusteeseen ei tällä hetkellä ole saatavilla aiheeseen liittyvää k
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000504 | Litak | – | Ohjelma täyttää tiedon |
-| EMEA/H/C/004230 | Mavenclad | – | Ohjelma täyttää tiedon |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000504 | Litak | Cladribine | Leukemia, Hairy Cell | Voimassa |
+| EMEA/H/C/004230 | Mavenclad | Cladribine | Multiple Sclerosis | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Solunsalpaajan ominaisuudet
 

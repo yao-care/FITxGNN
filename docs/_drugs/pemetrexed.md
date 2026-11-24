@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: ennustettu uusi käyttöaihe Pleural adenomatoid tumor (näytön taso L5). Alkuperäinen käyttöaihe: Mesothelioma"
@@ -101,18 +101,18 @@ Näyttö vatsakalvon kohdalta perustuu kuitenkin vaiheen 2 tutkimuksiin, retrosp
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000564 | Alimta | – | Mesotelioomaa; ei-pienisoluinen keuhkosyöpä (voimassa) |
-| EMEA/H/C/003905 | Pemetrexed medac | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu) |
-| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (voimassa) |
-| EMEA/H/C/003970 | Pemetrexed Pfizer (aiemmin Pemetrexed Hospira) | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-pemetrexed-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000564 | Alimta | pemetrexed | Mesothelioma; Carcinoma, Non-Small-Cell Lung | Voimassa |
+| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | pemetrexed | Carcinoma, Non-Small-Cell Lung; Mesothelioma | Voimassa |
+| EMEA/H/C/003970 | Pemetrexed Pfizer (previously Pemetrexed Hospira) | pemetrexed disodium; pemetrexed disodium hemipentahydrate | Carcinoma, Non-Small-Cell Lung; Mesothelioma | Voimassa |
+| EMEA/H/C/003905 | Pemetrexed medac | pemetrexed | Carcinoma, Non-Small-Cell Lung; Mesothelioma | Peruttu |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000564 / Alimta / – / Mesotelioomaa; ei-pienisoluinen keuhkosyöpä (peruutettu); EMEA/H/C/003905 / Pemetrexed medac / – / Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu); EMEA/H/C/003895 / Pemetrexed Fresenius Kabi / – / Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu); EMEA/H/C/003970 / Pemetrexed Pfizer (aiemmin Pemetrexed Hospira) / – / Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Alimta (EMEA/H/C/000564), Pemetrexed Fresenius Kabi (EMEA/H/C/003895), Pemetrexed Pfizer (EMEA/H/C/003970) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-pemetrexed-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -146,7 +146,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 <!-- review:begin fi-lic-20261106-pemetrexed-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Vatsakalvokohtaisia vaiheen 3 tutkimuksia ei kuitenkaan ole, joten näytön taso on L2. / Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Vatsakalvokohtaisia vaiheen 3 tutkimuksia ei kuitenkaan ole, joten näytön taso on L2. / Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pemetrexed-1 -->
 
@@ -176,8 +176,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 3 myyntilupaa (Alimta (EMEA/H/C/000564), Pemetrexed Fresenius Kabi (EMEA/H/C/003895), Pemetrexed Pfizer (EMEA/H/C/003970)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Alimta (EMEA/H/C/000564), Pemetrexed Fresenius Kabi (EMEA/H/C/003895), Pemetrexed Pfizer (EMEA/H/C/003970)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->

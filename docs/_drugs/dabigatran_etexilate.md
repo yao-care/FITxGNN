@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dabigatran Etexilate: ennustettu uusi käyttöaihe Sklerosoiva kolangiitti (sclerosing cholangitis) (näytön taso L5). Alkuperäinen käyttöaihe: Arthroplasty, Replacement"
 ---
 
@@ -72,11 +72,17 @@ Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tut
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000829 | Pradaxa | – | – |
-| EMEA/H/C/005922 | Dabigatran etexilate Teva (aiemmin Dabigatran etexilate Leon Farma) | – | – |
-| EMEA/H/C/005639 | Dabigatran Etexilate Accord | – | – |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000829 | Pradaxa | dabigatran etexilate mesilate | Arthroplasty, Replacement; Venous Thromboembolism | Voimassa |
+| EMEA/H/C/005639 | Dabigatran Etexilate Accord | dabigatran etexilate mesilate | Venous Thromboembolism; Arthroplasty, Replacement | Voimassa |
+| EMEA/H/C/005922 | Dabigatran etexilate Teva (previously Dabigatran etexilate… | dabigatran etexilate mesilate | Venous Thromboembolism; Arthroplasty, Replacement | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

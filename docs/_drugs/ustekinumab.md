@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 461
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ustekinumab: ennustettu uusi käyttöaihe Dermatiitti (näytön taso L2). Alkuperäinen käyttöaihe: Psoriasis, psoriaattinen niveltulehdus, Crohnin tauti…"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -100,21 +100,35 @@ Mekanistinen sopivuus on kuitenkin vain osittainen: atooppista ihottumaa ohjaava
 
 ## Myyntiluvat Suomessa
 
-Viisi esimerkkiä:
+Myyntiluvat ja niiden tila ovat alla olevassa taulukossa.
 
 <!-- review:begin fi-lic-20261106-ustekinumab-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 13 myyntilupaa on peruutettu. Viisi esimerkkiä:” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 13 myyntilupaa, joista 12 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 13 myyntilupaa on peruutettu. Viisi esimerkkiä:” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-ustekinumab-1 -->
 
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000958 | Stelara | – | Psoriasis, psoriaattinen niveltulehdus, Crohnin tauti, haavainen paksusuolitulehdus |
-| EMEA/H/C/006101 | Uzpruvo | – | Psoriasis, psoriaattinen niveltulehdus, Crohnin tauti, haavainen paksusuolitulehdus |
-| EMEA/H/C/005918 | Steqeyma | – | Psoriasis, psoriaattinen niveltulehdus, Crohnin tauti |
-| EMEA/H/C/006132 | Wezenla | – | Psoriasis, psoriaattinen niveltulehdus, Crohnin tauti |
-| EMEA/H/C/006183 | Pyzchiva | – | Crohnin tauti, haavainen paksusuolitulehdus, psoriaattinen niveltulehdus |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000958 | Stelara | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease; Colitis, Ulcerative | Voimassa |
+| EMEA/H/C/005805 | Fymskina | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic | Voimassa |
+| EMEA/H/C/005918 | Steqeyma | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease | Voimassa |
+| EMEA/H/C/006101 | Uzpruvo | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease; Colitis, Ulcerative | Voimassa |
+| EMEA/H/C/006132 | Wezenla | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease | Voimassa |
+| EMEA/H/C/006183 | Pyzchiva | ustekinumab | Crohn Disease; Colitis, Ulcerative; Arthritis, Psoriatic | Voimassa |
+| EMEA/H/C/006221 | Imuldosa | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic | Voimassa |
+| EMEA/H/C/006444 | Yesintek | ustekinumab | Psoriasis; Arthritis, Psoriatic; Crohn Disease | Voimassa |
+| EMEA/H/C/006467 | Usymro | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic | Voimassa |
+| EMEA/H/C/006544 | Otulfi | ustekinumab | Crohn Disease; Colitis, Ulcerative | Voimassa |
+| EMEA/H/C/006667 | Usgena | ustekinumab | Crohn Disease; Psoriasis; Arthritis, Psoriatic; Colitis, Ulcerative | Voimassa |
+| EMEA/H/C/006794 | Usrenty | ustekinumab | Crohn Disease | Voimassa |
+| EMEA/H/C/006649 | Qoyvolma | ustekinumab | Psoriasis; Arthritis, Psoriatic; Colitis, Ulcerative; Crohn Disease | Peruttu |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -141,7 +155,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 
 <!-- review:begin fi-lic-20261106-ustekinumab-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistinen sopivuus on vain osittainen, koska atooppista ihottumaa ohjaavat pääasiassa Th2-reitit. Suomessa kaikki myyntiluvat on lisäksi peruutettu, ja turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 13 myyntilupaa, joista 12 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Mekanistinen sopivuus on vain osittainen, koska atooppista ihottumaa ohjaavat pääasiassa Th2-reitit. Suomessa kaikki myyntiluvat on lisäksi peruutettu, ja turvallisuustiedot puuttuvat.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-ustekinumab-2 -->
 
@@ -159,8 +173,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki 13 myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on lisäksi peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki 13 myyntilupaa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on lisäksi peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
 
 <!-- review:end log -->

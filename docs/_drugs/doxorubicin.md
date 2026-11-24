@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxorubicin: ennustettu uusi käyttöaihe Ewingin sarkooma (Ewing sarcoma) (näytön taso L2). Alkuperäinen käyttöaihe: Breast Neoplasms"
 ---
 
@@ -92,10 +92,16 @@ Kumulatiivinen sydäntoksisuus on keskeinen varotoimi erityisesti lapsilla ja nu
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000297 | Myocet liposomal (aiemmin Myocet) | Ei ilmoitettu | Breast Neoplasms |
-| EMEA/H/C/000089 | Caelyx pegylated liposomal | Ei ilmoitettu | Sarcoma, Kaposi;Multiple Myeloma;Ovarian Neoplasms;Breast Neoplasms |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000089 | Caelyx pegylated liposomal | doxorubicin hydrochloride | Sarcoma, Kaposi; Multiple Myeloma; Ovarian Neoplasms; Breast Neoplasms | Voimassa |
+| EMEA/H/C/000297 | Myocet liposomal (previously Myocet) | doxorubicin hydrochloride | Breast Neoplasms | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

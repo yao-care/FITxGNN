@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivastigmine: ennustettu uusi käyttöaihe Glaukooma (näytön taso L5). Alkuperäinen käyttöaihe: Dementia, Alzheimerin tauti, Parkinsonin tauti"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
@@ -74,19 +74,26 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000169 | Exelon | – | Dementia, Alzheimerin tauti, Parkinsonin tauti |
-| EMEA/H/C/001029 | Nimvastid | – | Dementia, Alzheimerin tauti, Parkinsonin tauti |
-| EMEA/H/C/000255 | Prometax | – | Alzheimerin tauti, Parkinsonin tauti, dementia |
-| EMEA/H/C/001181 | Rivastigmine 1 A Pharma | – | Alzheimerin tauti, dementia, Parkinsonin tauti |
-| EMEA/H/C/001182 | Rivastigmine Hexal | – | Dementia, Alzheimerin tauti, Parkinsonin tauti |
+<!-- licenses:begin -->
 
-Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/001183).
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000169 | Exelon | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Voimassa |
+| EMEA/H/C/000255 | Prometax | rivastigmine | Alzheimer Disease; Parkinson Disease; Dementia | Voimassa |
+| EMEA/H/C/001029 | Nimvastid | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Voimassa |
+| EMEA/H/C/001181 | Rivastigmine 1 A Pharma | rivastigmine | Alzheimer Disease; Dementia; Parkinson Disease | Voimassa |
+| EMEA/H/C/001182 | Rivastigmine Hexal | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Voimassa |
+| EMEA/H/C/001183 | Rivastigmine Sandoz | rivastigmine | Dementia; Alzheimer Disease; Parkinson Disease | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
+
+Myyntiluvat ja niiden tila ovat yllä olevassa taulukossa.
 
 <!-- review:begin fi-lic-20261106-rivastigmine-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole. Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/001183).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole. Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/001183).” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-rivastigmine-1 -->
 
@@ -105,7 +112,7 @@ Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/0
 
 <!-- review:begin fi-lic-20261106-rivastigmine-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Myyntiluvat on peruutettu, ja silmään annettava valmiste vaatisi uutta kehitystä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Myyntiluvat on peruutettu, ja silmään annettava valmiste vaatisi uutta kehitystä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-rivastigmine-2 -->
 
@@ -124,8 +131,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Myyntiluvat on peruutettu, ja s” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntiluvat on peruutettu, ja s” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->

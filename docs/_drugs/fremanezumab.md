@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fremanezumab: ennustettu uusi käyttöaihe atrofoderma vermiculata (atrophoderma vermiculata) (näytön taso L5). Alkuperäinen käyttöaihe: Migraine Disorders"
 ---
 
@@ -68,9 +68,15 @@ Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004833 | Ajovy | – | Migreeni |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004833 | Ajovy | fremanezumab | Migraine Disorders | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

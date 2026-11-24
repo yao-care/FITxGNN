@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
 description: "Miglustat: ennustettu uusi käyttöaihe Autosomal ichthyosis syndrome with fatal disease course (näytön taso L5). Alkuperäinen käyttöaihe: Gaucher Disease"
@@ -100,13 +100,19 @@ Näyttö on kuitenkin ristiriitaista. Myöhäisalkuisessa Tay-Sachsin taudissa t
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000435 | Zavesca | – | Gaucherin tauti; Niemann-Pickin tauti |
-| EMEA/H/C/004016 | Yargesa | – | Gaucherin tauti |
-| EMEA/H/C/004366 | Miglustat Gen.Orph | – | Gaucherin tauti |
-| EMEA/H/C/004904 | Miglustat Dipharma | – | Gaucherin tauti |
-| EMEA/H/C/005695 | Opfolda | – | Pompen tauti (glykogeenin varastotauti tyyppi II) |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000435 | Zavesca | miglustat | Gaucher Disease; Niemann-Pick Diseases | Voimassa |
+| EMEA/H/C/004016 | Yargesa | miglustat | Gaucher Disease | Voimassa |
+| EMEA/H/C/004366 | Miglustat Gen.Orph | miglustat | Gaucher Disease | Voimassa |
+| EMEA/H/C/004904 | Miglustat Dipharma | miglustat | Gaucher Disease | Voimassa |
+| EMEA/H/C/005695 | Opfolda | miglustat | Glycogen Storage Disease Type II | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,7 +124,7 @@ Näyttö on kuitenkin ristiriitaista. Myöhäisalkuisessa Tay-Sachsin taudissa t
 
 <!-- review:begin fi-lic-20261106-miglustat-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki viisi myyntilupaa on peruutettu, joten voimassa olevaa valmistetta ei tällä hetkellä ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki viisi myyntilupaa on peruutettu, joten voimassa olevaa valmistetta ei tällä hetkellä ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-miglustat-1 -->
 
@@ -135,7 +141,7 @@ Tay-Sachsin taudille on olemassa mekanistisesti uskottava perustelu ja useita tu
 
 <!-- review:begin fi-lic-20261106-miglustat-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Hyöty on osoittautunut rajalliseksi ja ruoansulatuskanavan haittavaikutukset ovat merkittäviä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuusarviointia (S1) voida aloittaa ilman valmisteyhteenvetoa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 5 myyntilupaa, joista 5 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Hyöty on osoittautunut rajalliseksi ja ruoansulatuskanavan haittavaikutukset ovat merkittäviä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuusarviointia (S1) voida aloittaa ilman valmisteyhteenvetoa.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-miglustat-2 -->
 
@@ -156,8 +162,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on peruutettu, joten voimassa olevaa valmistetta ei tällä hetkellä ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuusarviointia (S1) voida aloittaa ilman valmisteyhteenvetoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki viisi myyntilupaa on peruutettu, joten voimassa olevaa valmistetta ei tällä hetkellä ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuusarviointia (S1) voida aloittaa ilman valmisteyhteenvetoa” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87) |
 
 <!-- review:end log -->

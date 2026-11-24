@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Entecavir: ennustettu uusi käyttöaihe Krooninen hepatiitti C -virusinfektio (chronic hepatitis C virus infection) (näytön taso L5). Alkuperäinen käyttöaihe: Hepatitis B"
 ---
 
@@ -84,11 +84,17 @@ Koska yksikään viitatuista tutkimuksista ei tutki entekaviiria HCV-infektion h
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004377 | Entecavir Viatris (aiemmin Entecavir Mylan) | – | Hepatiitti B |
-| EMEA/H/C/000623 | Baraclude | – | Krooninen hepatiitti B |
-| EMEA/H/C/004458 | Entecavir Accord | – | Krooninen hepatiitti B |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000623 | Baraclude | Entecavir | Hepatitis B, Chronic | Voimassa |
+| EMEA/H/C/004377 | Entecavir Viatris (previously Entecavir Mylan) | entecavir monohydrate | Hepatitis B | Voimassa |
+| EMEA/H/C/004458 | Entecavir Accord | Entecavir | Hepatitis B, Chronic | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

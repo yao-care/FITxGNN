@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AVIBACTAM"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Avibactam: ennustettu uusi käyttöaihe Uretertuberkuloosi (ureter tuberculosis) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 2 (voimassa: 2)"
 ---
 
@@ -69,10 +69,16 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004027 | Zavicefta | – | Bakteerin aiheuttama keuhkokuume, pehmytkudosinfektiot, keuhkokuume, virtsatieinfektiot, gramnegatiiviset bakteeri-infektiot |
-| EMEA/H/C/006113 | Emblaveo | – | Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot, sairaalahoitoon liittyvä keuhkokuume, pehmytkudosinfektiot |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004027 | Zavicefta | avibactam sodium; ceftazidime pentahydrate | Pneumonia, Bacterial; Soft Tissue Infections; Pneumonia; Urinary Tract Infections; Gram-Negative Bacterial In… | Voimassa |
+| EMEA/H/C/006113 | Emblaveo | avibactam; aztreonam | Gram-Negative Bacterial Infections; Urinary Tract Infections; Healthcare-Associated Pneumonia; Soft Tissue In… | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

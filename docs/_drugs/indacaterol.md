@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
 description: "Indacaterol: ennustettu uusi käyttöaihe Nephrogenic syndrome of inappropriate antidiuresis (näytön taso L5). Alkuperäinen käyttöaihe: Pulmonary Disease, Chronic Obstructive"
@@ -108,7 +108,7 @@ Huomautus: kaksi lähdettä (PMID 32653074 ja 34783265) on luokiteltu RCT-tyyppi
 
 <!-- review:begin fi-lic-20261106-indacaterol-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 10 myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 10 myyntilupaa, joista 8 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki 10 myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-indacaterol-1 -->
 
@@ -116,13 +116,24 @@ Huomautus: kaksi lähdettä (PMID 32653074 ja 34783265) on luokiteltu RCT-tyyppi
 
 ## Myyntiluvat Suomessa
 
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/001211 | Hirobriz Breezhaler | – | Keuhkoahtaumatauti (COPD) |
-| EMEA/H/C/001210 | Oslif Breezhaler | – | Keuhkoahtaumatauti (COPD) |
-| EMEA/H/C/001114 | Onbrez Breezhaler | – | Keuhkoahtaumatauti (COPD) |
-| EMEA/H/C/002679 | Ultibro Breezhaler | – | Keuhkoahtaumatauti (COPD) |
-| EMEA/H/C/005516 | Bemrist Breezhaler | – | Astma |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/001114 | Onbrez Breezhaler | indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/002679 | Ultibro Breezhaler | indacaterol; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/003755 | Xoterna Breezhaler | indacaterol; glycopyrronium bromide | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/003875 | Ulunar Breezhaler | glycopyrronium bromide; indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Voimassa |
+| EMEA/H/C/005061 | Enerzair Breezhaler | indacaterol; glycopyrronium bromide; mometasone | Asthma | Voimassa |
+| EMEA/H/C/005067 | Atectura Breezhaler | indacaterol acetate; mometasone furoate | Asthma | Voimassa |
+| EMEA/H/C/005516 | Bemrist Breezhaler | indacaterol; mometasone furoate | Asthma | Voimassa |
+| EMEA/H/C/005518 | Zimbus Breezhaler | glycopyrronium bromide; Indacaterol (acetate); mometasone furoate | Asthma | Voimassa |
+| EMEA/H/C/001210 | Oslif Breezhaler | indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Peruttu |
+| EMEA/H/C/001211 | Hirobriz Breezhaler | indacaterol maleate | Pulmonary Disease, Chronic Obstructive | Peruttu |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -152,7 +163,7 @@ Täydelliset turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 <!-- review:begin fi-lic-20261106-indacaterol-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö koskee pääosin jo hyväksyttyjä käyttöaiheita (astma, COPD), joten se ei osoita uutta uudelleenkäyttöä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten kaupallinen ja sääntelyllinen tilanne on epäselvä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 10 myyntilupaa, joista 8 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Näyttö koskee pääosin jo hyväksyttyjä käyttöaiheita (astma, COPD), joten se ei osoita uutta uudelleenkäyttöä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten kaupallinen ja sääntelyllinen tilanne on epäselvä.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-indacaterol-2 -->
 
@@ -171,8 +182,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki 10 myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten kaupallinen ja sääntelyllinen tilanne on epäselvä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki 10 myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten kaupallinen ja sääntelyllinen tilanne on epäselvä” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

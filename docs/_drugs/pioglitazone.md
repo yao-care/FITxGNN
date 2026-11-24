@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pioglitazone: ennustettu uusi käyttöaihe Opsismodysplasia (näytön taso L5). Alkuperäinen käyttöaihe: Tyypin 2 diabetes"
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -100,33 +100,28 @@ Haiman agenesian (sija 9) osalta haetut 7 julkaisua (mm. PMID [20859539](https:/
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000285 | Actos | – | Tyypin 2 diabetes (voimassa) |
-| EMEA/H/C/002277 | Pioglitazone Accord | – | Tyypin 2 diabetes (voimassa) |
-| EMEA/H/C/002324 | Pioglitazone Actavis | – | Tyypin 2 diabetes (voimassa) |
-| EMEA/H/C/000680 | Tandemact | – | Tyypin 2 diabetes (voimassa) |
-| EMEA/H/C/000655 | Competact | – | Tyypin 2 diabetes (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-pioglitazone-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000285 | Actos | pioglitazone hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/000655 | Competact | pioglitazone; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/000680 | Tandemact | pioglitazone; glimepiride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/002178 | Incresync | alogliptin; pioglitazone | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/002277 | Pioglitazone Accord | pioglitazone hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/002324 | Pioglitazone Actavis | pioglitazone hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000285 / Actos / – / Tyypin 2 diabetes (peruutettu); EMEA/H/C/002277 / Pioglitazone Accord / – / Tyypin 2 diabetes (peruutettu); EMEA/H/C/002324 / Pioglitazone Actavis / – / Tyypin 2 diabetes (peruutettu); EMEA/H/C/000680 / Tandemact / – / Tyypin 2 diabetes (peruutettu); EMEA/H/C/000655 / Competact / – / Tyypin 2 diabetes (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Actos (EMEA/H/C/000285), Pioglitazone Accord (EMEA/H/C/002277), Pioglitazone Actavis (EMEA/H/C/002324), Tandemact (EMEA/H/C/000680), Competact (EMEA/H/C/000655) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-pioglitazone-1 -->
+<!-- licenses:end -->
 
-Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), voimassa.
+Myyntiluvat ja niiden tila ovat yllä olevassa taulukossa.
 
 <!-- review:begin fi-lic-20261106-pioglitazone-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole. Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole. Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pioglitazone-1 -->
-
-<!-- review:begin fi-lic-20261112-pioglitazone-1 -->
-
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”(EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Incresyncin (EMEA/H/C/002178) myyntilupa on voimassa; kaikki kuusi pioglitatsonin myyntilupaa ovat voimassa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
-
-<!-- review:end fi-lic-20261112-pioglitazone-1 -->
 
 ---
 
@@ -151,7 +146,7 @@ Lääkevalmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla täss�
 
 <!-- review:begin fi-lic-20261106-pioglitazone-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennusteet perustuvat vain TxGNN-mallin pisteisiin; kliinistä tutkimusta tai kohdennettua kirjallisuutta ei ole, ja mekanistiset yhteydet ovat spekulatiivisia. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennusteet perustuvat vain TxGNN-mallin pisteisiin; kliinistä tutkimusta tai kohdennettua kirjallisuutta ei ole, ja mekanistiset yhteydet ovat spekulatiivisia. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pioglitazone-2 -->
 
@@ -164,7 +159,7 @@ Lääkevalmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla täss�
 
 <!-- review:begin fi-lic-20261106-pioglitazone-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Arvio myyntiluvan uudelleenhakemisen tai tutkimuskäytön edellytyksistä, koska kaikki luvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Arvio myyntiluvan uudelleenhakemisen tai tutkimuskäytön edellytyksistä, koska kaikki luvat on peruutettu” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pioglitazone-3 -->
 
@@ -176,11 +171,11 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole” | Korjattu (päivitetty 2026-11-12; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”koska kaikki luvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Incresync (EMEA/H/C/002178): voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 5 myyntilupaa (Actos (EMEA/H/C/000285), Pioglitazone Accord (EMEA/H/C/002277), Pioglitazone Actavis (EMEA/H/C/002324), Tandemact (EMEA/H/C/000680), Competact (EMEA/H/C/000655)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska kaikki luvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Incresync (EMEA/H/C/002178): voimassa, ei peruutettu | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Actos (EMEA/H/C/000285), Pioglitazone Accord (EMEA/H/C/002277), Pioglitazone Actavis (EMEA/H/C/002324), Tandemact (EMEA/H/C/000680), Competact (EMEA/H/C/000655)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->

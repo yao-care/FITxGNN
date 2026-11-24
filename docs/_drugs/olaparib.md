@@ -3,7 +3,7 @@ layout: default
 title: Olaparib
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 315
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Olaparib: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -70,9 +70,15 @@ TxGNN-mallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat lääkkeelle Olaparib 
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupa | Valmiste | Lääkemuoto | Tila |
-|------|------|------|------|
-| EMEA/H/C/003726 | olaparib |  | Voimassa |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003726 | Lynparza | olaparib | Ovarian Neoplasms; Breast Neoplasms; Pancreatic Neoplasms; Prostatic Neoplasms, Castration-Resistant | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

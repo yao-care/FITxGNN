@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Golimumab: ennustettu uusi käyttöaihe Häntäluun hypermobiliteetti (hypermobility of coccyx) (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Psoriatic"
 ---
 
@@ -68,11 +68,17 @@ Toistaiseksi ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000992 | Simponi | – | Arthritis, Psoriatic; Spondylitis, Ankylosing; Colitis, Ulcerative; Arthritis, Rheumatoid |
-| EMEA/H/C/006621 | Gotenfia | – | Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Non-Radiograph... |
-| EMEA/H/C/006560 | Gobivaz | – | Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Colitis, Ulcerative;... |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000992 | Simponi | golimumab | Arthritis, Psoriatic; Spondylitis, Ankylosing; Colitis, Ulcerative; Arthritis, Rheumatoid | Voimassa |
+| EMEA/H/C/006560 | Gobivaz | golimumab | Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Colitis, Ulcerativ… | Voimassa |
+| EMEA/H/C/006621 | Gotenfia | golimumab | Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Non-Radiographic A… | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 

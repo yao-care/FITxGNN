@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab: ennustettu uusi käyttöaihe Häntäluun hypermobiliteetti (hypermobility of coccyx) (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
 ---
 
@@ -69,6 +69,26 @@ Tällä hetkellä aiheesta ei ole saatavilla kirjallisuutta.
 ## Markkinatiedot Suomessa
 
 Lääkevalmisteen markkinatilanne Suomessa on paikallisten lupatietojen mukaan "markkinoilla". Lupataulukko ja lupamäärä täydentyvät ohjelmallisesti.
+
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000481 | Humira | adalimumab | Spondylitis, Ankylosing; Arthritis, Juvenile Rheumatoid; Uveitis; Colitis, Ulcerative; Psoriasis; Arthritis,… | Voimassa |
+| EMEA/H/C/004212 | Amgevita | adalimumab | Arthritis, Psoriatic; Colitis, Ulcerative; Arthritis, Juvenile Rheumatoid; Spondylitis, Ankylosing; Psoriasis… | Voimassa |
+| EMEA/H/C/004279 | Imraldi | adalimumab | Spondylitis, Ankylosing; Arthritis, Rheumatoid; Uveitis; Colitis, Ulcerative; Psoriasis; Arthritis, Psoriatic… | Voimassa |
+| EMEA/H/C/004320 | Hyrimoz | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppurativa; Coli… | Voimassa |
+| EMEA/H/C/004429 | Hulio | adalimumab | Hidradenitis Suppurativa; Psoriasis; Uveitis; Arthritis, Rheumatoid; Spondylitis, Ankylosing; Crohn Disease;… | Voimassa |
+| EMEA/H/C/004475 | Idacio | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Psoriasis; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppur… | Voimassa |
+| EMEA/H/C/004865 | Hefiya | adalimumab | Spondylitis, Ankylosing; Hidradenitis Suppurativa; Psoriasis; Arthritis, Juvenile Rheumatoid; Uveitis | Voimassa |
+| EMEA/H/C/004879 | Amsparity | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Psoriasis; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppur… | Voimassa |
+| EMEA/H/C/005188 | Yuflyma | adalimumab | Arthritis, Rheumatoid; Arthritis, Psoriatic; Psoriasis; Spondylitis, Ankylosing; Uveitis; Hidradenitis Suppur… | Voimassa |
+| EMEA/H/C/005548 | Hukyndra | adalimumab | Arthritis, Psoriatic; Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disea… | Voimassa |
+| EMEA/H/C/005947 | Libmyris | adalimumab | Arthritis, Rheumatoid; Arthritis, Juvenile Rheumatoid; Spondylitis, Ankylosing; Arthritis, Psoriatic; Psorias… | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

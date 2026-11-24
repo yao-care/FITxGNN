@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
 description: "Panobinostat: ennustettu uusi käyttöaihe Myeloinen leukemia (myeloid leukemia) (näytön taso L2). Alkuperäinen käyttöaihe: Multiple Myeloma"
@@ -94,15 +94,15 @@ Tutkimukset kohdistuvat suoraan myeloiseen leukemiaan, erityisesti AML:ään. Va
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/003725 | Farydak (voimassa) | – | Multippeli myelooma |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-panobinostat-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003725 | Farydak | panobinostat lactate anhydrous | Multiple Myeloma | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003725 / Farydak (peruutettu) / – / Multippeli myelooma” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Farydak (EMEA/H/C/003725) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-panobinostat-1 -->
+<!-- licenses:end -->
 
 ## Solunsalpaajan ominaisuudet
 
@@ -153,7 +153,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-12 | Taulukko: Farydak (EMEA/H/C/003725) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Farydak (EMEA/H/C/003725) on voimassa, ei peruutettu | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

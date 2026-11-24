@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capecitabine: ennustettu uusi käyttöaihe Mahalaukun adenokarsinooma ja mahalaukun proksimaalinen polypoosi (gastric adenocarcinoma and proximal polyposis of the… (näytön taso L5). Alkuperäinen käyttö…"
 ---
 
@@ -70,13 +70,19 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000316 | Xeloda | – | Paksusuolen kasvaimet; rintasyöpä; kolorektaalikasvaimet; mahalaukun kasvaimet |
-| EMEA/H/C/002568 | Capecitabine Medac | – | Kolorektaalikasvaimet |
-| EMEA/H/C/002605 | Ecansya (aiemmin Capecitabine Krka) | – | Paksusuolen kasvaimet; rintasyöpä; kolorektaalikasvaimet; mahalaukun kasvaimet |
-| EMEA/H/C/002386 | Capecitabine Accord | – | Paksusuolen kasvaimet; rintasyöpä; kolorektaalikasvaimet; mahalaukun kasvaimet |
-| EMEA/H/C/002362 | Capecitabine Teva | – | Paksusuolen kasvaimet; rintasyöpä; kolorektaalikasvaimet; mahalaukun kasvaimet |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000316 | Xeloda | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Voimassa |
+| EMEA/H/C/002362 | Capecitabine Teva | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Voimassa |
+| EMEA/H/C/002386 | Capecitabine Accord | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Voimassa |
+| EMEA/H/C/002568 | Capecitabine Medac | capecitabine | Colorectal Neoplasms | Voimassa |
+| EMEA/H/C/002605 | Ecansya (previously Capecitabine Krka) | capecitabine | Colonic Neoplasms; Breast Neoplasms; Colorectal Neoplasms; Stomach Neoplasms | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: ennustettu uusi käyttöaihe Fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome) (näytön taso L5). Keskitetyt EU-myyntiluvat (EMA): 19 (voimassa: 19)"
@@ -88,21 +88,41 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Alla on viisi esimerkkiä (kaikki yhdistelmävalmisteita, joissa metformiini on yhtenä vaikuttavana aineena):
+Alla olevan taulukon valmisteet ovat kaikki yhdistelmävalmisteita, joissa metformiini on yhtenä vaikuttavana aineena.
 
 <!-- review:begin fi-lic-20261106-metformin-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki myyntiluvat on peruutettu. Alla on viisi esimerkkiä (kaikki yhdistelmävalmisteita, joissa metformiini on yhtenä vaikuttavana aineena):” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 19 myyntilupaa, joista 19 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki myyntiluvat on peruutettu. Alla on viisi esimerkkiä (kaikki yhdistelmävalmisteita, joissa metformiini on yhtenä vaikuttavana aineena):” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-metformin-1 -->
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002059 | Komboglyze | – | Tyypin 2 diabetes |
-| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | – | Tyypin 2 diabetes |
-| EMEA/H/C/003770 | Synjardy | – | Tyypin 2 diabetes |
-| EMEA/H/C/005778 | Sitagliptin / Metformin hydrochloride Sun | – | Tyypin 2 diabetes |
-| EMEA/H/C/000861 | Janumet | – | Tyypin 2 diabetes |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000655 | Competact | pioglitazone; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/000807 | Eucreas | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/000861 | Janumet | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/000862 | Velmetia | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/000896 | Efficib | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/001049 | Zomarist | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/001050 | Icandra (previously Vildagliptin / metformin hydrochloride… | vildagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/001235 | Ristfor | sitagliptin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/002059 | Komboglyze | metformin hydrochloride; saxagliptin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/002279 | Jentadueto | linagliptin; metformin | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/002654 | Vipdomet | alogliptin benzoate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/002656 | Vokanamet | canagliflozin; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/002672 | Xigduo | metformin hydrochloride; dapagliflozin propanediol monohydrate | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/003770 | Synjardy | empagliflozin; metformin | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/004162 | Ebymect | dapagliflozin propanediol monohydrate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/004314 | Segluromet | ertugliflozin l-pyroglutamic acid; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/005678 | Sitagliptin / Metformin hydrochloride Mylan | sitagliptin hydrochloride monohydrate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | metformin hydrochloride; vildagliptin | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/005778 | Sitagliptin / Metformin hydrochloride Sun | sitagliptin fumarate; metformin hydrochloride | Diabetes Mellitus, Type 2 | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,7 +157,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 
 <!-- review:begin fi-lic-20261106-metformin-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste on pelkkä mallilaskenta (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä mekanistinen yhteys metformiinin vaikutukseen ole uskottava. Lisäksi Suomessa ei ole voimassa olevia metformiinia sisältäviä myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 19 myyntilupaa, joista 19 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste on pelkkä mallilaskenta (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä mekanistinen yhteys metformiinin vaikutukseen ole uskottava. Lisäksi Suomessa ei ole voimassa olevia metformiinia sisältäviä myyntilupia.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-metformin-2 -->
 
@@ -151,7 +171,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 
 <!-- review:begin fi-lic-20261106-metformin-3 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tarkistus, onko Suomessa voimassa olevia metformiinivalmisteita (nykyisessä aineistossa kaikki 19 myyntilupaa on peruutettu)” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 19 myyntilupaa, joista 19 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Tarkistus, onko Suomessa voimassa olevia metformiinivalmisteita (nykyisessä aineistossa kaikki 19 myyntilupaa on peruutettu)” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-metformin-3 -->
 
@@ -163,9 +183,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia metformiinia sisältäviä myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”(nykyisessä aineistossa kaikki 19 myyntilupaa on peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki myyntiluvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia metformiinia sisältäviä myyntilupia” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”(nykyisessä aineistossa kaikki 19 myyntilupaa on peruutettu)” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
 
 <!-- review:end log -->

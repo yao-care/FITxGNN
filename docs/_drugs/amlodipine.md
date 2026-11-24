@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amlodipine: ennustettu uusi käyttöaihe Aivorunkoinfarkti (näytön taso L5). Alkuperäinen käyttöaihe: Verenpainetauti (hypertensio)"
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -93,15 +93,24 @@ Muut ennusteet (mm. pahanlaatuinen hypertensiivinen munuaissairaus, Braddockin o
 
 ## Suomen markkinatiedot
 
-Kaikki 8 myyntilupaa 8:sta on voimassa, ja valmiste on markkinoilla. Lääkemuotoa ei ole ilmoitettu. Luvat ovat EU:n keskitettyjä myyntilupia (EMEA), ja tuotteet ovat amlodipiinin yhdistelmävalmisteita. Taulukossa on viisi ensimmäistä.
+Kaikki 8 myyntilupaa 8:sta on voimassa, ja valmiste on markkinoilla. Lääkemuotoa ei ole ilmoitettu. Luvat ovat EU:n keskitettyjä myyntilupia (EMEA), ja tuotteet ovat amlodipiinin yhdistelmävalmisteita.
 
-| Myyntiluvan numero | Tuotenimi | Hyväksytty käyttöaihe |
-|---------|------|-----------|
-| EMEA/H/C/000776 | Dafiro | Hypertensio |
-| EMEA/H/C/000716 | Exforge | Hypertensio |
-| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | Hypertensio |
-| EMEA/H/C/001224 | Twynsta | Hypertensio |
-| EMEA/H/C/000774 | Copalia | Hypertensio |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000716 | Exforge | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Voimassa |
+| EMEA/H/C/000774 | Copalia | valsartan; amlodipine (as amlodipine besilate) | Hypertension | Voimassa |
+| EMEA/H/C/000776 | Dafiro | amlodipine; valsartan | Hypertension | Voimassa |
+| EMEA/H/C/001068 | Exforge HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Voimassa |
+| EMEA/H/C/001159 | Copalia HCT | amlodipine; valsartan; hydrochlorothiazide | Hypertension | Voimassa |
+| EMEA/H/C/001160 | Dafiro HCT | valsartan; hydrochlorothiazide; amlodipine besilate | Hypertension | Voimassa |
+| EMEA/H/C/001224 | Twynsta | telmisartan; amlodipine | Hypertension | Voimassa |
+| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | amlodipine besilate; valsartan | Hypertension | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,7 +134,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tähän raporttiin koo
 
 <!-- review:begin fi-lic-20261106-amlodipine-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Aivorunkoinfarktille ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, joten ennuste on pelkkä mallin tuottama hypoteesi (L5). Lisäksi kaikki Suomen myyntiluvat on peruttu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 8 myyntilupaa, joista 8 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Aivorunkoinfarktille ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, joten ennuste on pelkkä mallin tuottama hypoteesi (L5). Lisäksi kaikki Suomen myyntiluvat on peruttu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-amlodipine-1 -->
 
@@ -144,7 +153,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruttu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruttu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->

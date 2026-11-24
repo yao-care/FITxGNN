@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: ennustettu uusi käyttöaihe Liposarkooma (liposarcoma) (näytön taso L5). Alkuperäinen käyttöaihe: Angiofibroma"
@@ -79,16 +79,16 @@ Koska yksikään viitatuista tutkimuksista ei tutki suoraan sirolimuusia pelkäs
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005896 | Hyftor | – | Angiofibrooma, tuberoosiskleroosi (voimassa) |
-| EMEA/H/C/000273 | Rapamune | – | Siirteen hylkiminen, munuaisensiirto (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-sirolimus-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000273 | Rapamune | sirolimus | Graft Rejection; Kidney Transplantation | Voimassa |
+| EMEA/H/C/005896 | Hyftor | sirolimus | Angiofibroma; Tuberous Sclerosis | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005896 / Hyftor / – / Angiofibrooma, tuberoosiskleroosi (peruutettu); EMEA/H/C/000273 / Rapamune / – / Siirteen hylkiminen, munuaisensiirto (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Hyftor (EMEA/H/C/005896), Rapamune (EMEA/H/C/000273) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-sirolimus-1 -->
+<!-- licenses:end -->
 
 ## Turvallisuushuomioita
 
@@ -123,7 +123,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-12 | Taulukko: 2 myyntilupaa (Hyftor (EMEA/H/C/005896), Rapamune (EMEA/H/C/000273)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Hyftor (EMEA/H/C/005896), Rapamune (EMEA/H/C/000273)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
 
 <!-- review:end log -->

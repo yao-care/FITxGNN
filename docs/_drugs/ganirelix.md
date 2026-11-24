@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ganirelix: ennustettu uusi käyttöaihe Hypertrikoosi (näytön taso L5). Alkuperäinen käyttöaihe: Avustetut lisääntymistekniikat, ovulaation induktio…"
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -75,16 +75,16 @@ Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000274 | Orgalutran (voimassa) | – | Avustetut lisääntymistekniikat, ovulaation induktio, naisen hedelmättömyys |
-| EMEA/H/C/005641 | Ganirelix Gedeon Richter (voimassa) | – | Avustetut lisääntymistekniikat, ovulaation induktio, naisen hedelmättömyys |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-ganirelix-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000274 | Orgalutran | ganirelix | Reproductive Techniques, Assisted; Ovulation Induction; Infertility, Female | Voimassa |
+| EMEA/H/C/005641 | Ganirelix Gedeon Richter | ganirelix acetate | Reproductive Techniques, Assisted; Ovulation Induction; Infertility, Female | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000274 / Orgalutran (peruutettu) / – / Avustetut lisääntymistekniikat, ovulaation induktio, naisen hedelmättömyys; EMEA/H/C/005641 / Ganirelix Gedeon Richter (peruutettu) / – / Avustetut lisääntymistekniikat, ovulaation induktio, naisen hedelmättömyys” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Orgalutran (EMEA/H/C/000274), Ganirelix Gedeon Richter (EMEA/H/C/005641) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-ganirelix-1 -->
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 
@@ -109,7 +109,7 @@ Varoituksista ja vasta-aiheista tarkemmat tiedot löytyvät valmisteyhteenvedost
 
 <!-- review:begin fi-lic-20261106-ganirelix-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja mekanistinen yhteys hypertrikoosiin on heikko. Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 2 myyntilupaa, joista 2 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja mekanistinen yhteys hypertrikoosiin on heikko. Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-ganirelix-1 -->
 
@@ -127,8 +127,8 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 2 myyntilupaa (Orgalutran (EMEA/H/C/000274), Ganirelix Gedeon Richter (EMEA/H/C/005641)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Orgalutran (EMEA/H/C/000274), Ganirelix Gedeon Richter (EMEA/H/C/005641)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
 
 <!-- review:end log -->

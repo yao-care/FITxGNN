@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Empagliflozin: ennustettu uusi käyttöaihe Fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus, Type 2"
 ---
 
@@ -80,9 +80,17 @@ Tällä hetkellä aiheesta ei ole saatavilla kirjallisuutta.
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/002677 | Jardiance | – | Tyypin 2 diabetes; sydämen vajaatoiminta; krooninen munuaisten vajaatoiminta |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002677 | Jardiance | empagliflozin | Diabetes Mellitus, Type 2; Heart Failure; Renal Insufficiency, Chronic | Voimassa |
+| EMEA/H/C/003770 | Synjardy | empagliflozin; metformin | Diabetes Mellitus, Type 2 | Voimassa |
+| EMEA/H/C/003833 | Glyxambi | empagliflozin; linagliptin | Diabetes Mellitus, Type 2 | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 Huomautus: muut aineistossa olevat luvat (Glyxambi, Synjardy) koskevat yhdistelmävalmisteita, joten niitä ei käytetä kuvaamaan yksittäisen vaikuttavan aineen markkinatilannetta.
 

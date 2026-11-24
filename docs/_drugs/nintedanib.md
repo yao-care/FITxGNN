@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nintedanib: ennustettu uusi käyttöaihe Dermatofibrosarcoma protuberans (näytön taso L5). Alkuperäinen käyttöaihe: Idiopaattinen keuhkofibroosi (sekä interstitiaaliset keuhkosairaudet…"
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
@@ -82,18 +82,18 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi (voimassa) |
-| EMEA/H/C/003821 | Ofev | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi, systeeminen skleroosi (voimassa) |
-| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, systeeminen skleroosi, keuhkofibroosi (voimassa) |
-| EMEA/H/C/002569 | Vargatef | – | Ei-pienisoluinen keuhkosyöpä (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-nintedanib-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/002569 | Vargatef | nintedanib | Carcinoma, Non-Small-Cell Lung | Voimassa |
+| EMEA/H/C/003821 | Ofev | nintedanib | Idiopathic Pulmonary Fibrosis; Lung Diseases, Interstitial; Pulmonary Fibrosis; Scleroderma, Systemic | Voimassa |
+| EMEA/H/C/006179 | Nintedanib Accord | nintedanib | Idiopathic Pulmonary Fibrosis; Lung Diseases, Interstitial; Scleroderma, Systemic; Pulmonary Fibrosis | Voimassa |
+| EMEA/H/C/006486 | Nintedanib Viatris | nintedanib | Idiopathic Pulmonary Fibrosis; Lung Diseases, Interstitial; Pulmonary Fibrosis | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/006486 / Nintedanib Viatris / – / Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi (peruutettu); EMEA/H/C/003821 / Ofev / – / Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi, systeeminen skleroosi (peruutettu); EMEA/H/C/006179 / Nintedanib Accord / – / Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, systeeminen skleroosi, keuhkofibroosi (peruutettu); EMEA/H/C/002569 / Vargatef / – / Ei-pienisoluinen keuhkosyöpä (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Nintedanib Viatris (EMEA/H/C/006486), Ofev (EMEA/H/C/003821), Nintedanib Accord (EMEA/H/C/006179), Vargatef (EMEA/H/C/002569) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-nintedanib-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -128,7 +128,7 @@ Varoituksia ja vasta-aiheita koskevat tiedot eivät olleet saatavilla; niiden os
 
 <!-- review:begin fi-lic-20261106-nintedanib-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Imatinibi on DFSP:ssa jo vakiintunut hoito, joten nintedanibin lisäarvo on epäselvä. Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Imatinibi on DFSP:ssa jo vakiintunut hoito, joten nintedanibin lisäarvo on epäselvä. Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-nintedanib-1 -->
 
@@ -141,7 +141,7 @@ Varoituksia ja vasta-aiheita koskevat tiedot eivät olleet saatavilla; niiden os
 
 <!-- review:begin fi-lic-20261106-nintedanib-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys valmisteen saatavuudesta Suomessa, koska voimassa olevia myyntilupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 4 myyntilupaa, joista 4 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Selvitys valmisteen saatavuudesta Suomessa, koska voimassa olevia myyntilupia ei ole” Poistettu: ilmoitettu myyntilupien määrä tai tila ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-nintedanib-2 -->
 
@@ -164,9 +164,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 4 myyntilupaa (Nintedanib Viatris (EMEA/H/C/006486), Ofev (EMEA/H/C/003821), Nintedanib Accord (EMEA/H/C/006179), Vargatef (EMEA/H/C/002569)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”koska voimassa olevia myyntilupia ei ole” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 4 myyntilupaa (Nintedanib Viatris (EMEA/H/C/006486), Ofev (EMEA/H/C/003821), Nintedanib Accord (EMEA/H/C/006179), Vargatef (EMEA/H/C/002569)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
 
 <!-- review:end log -->

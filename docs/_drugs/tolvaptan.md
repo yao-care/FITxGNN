@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: ennustettu uusi käyttöaihe Renal-hepatic-pancreatic dysplasia (näytön taso L5). Alkuperäinen käyttöaihe: Inappropriate ADH Syndrome"
@@ -93,17 +93,17 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/005961 | Tolvaptan Accord | – | Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (voimassa) |
-| EMEA/H/C/000980 | Samsca | – | Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (voimassa) |
-| EMEA/H/C/002788 | Jinarc | – | Autosomaalisesti vallitseva polykystinen munuaistauti (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-tolvaptan-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000980 | Samsca | tolvaptan | Inappropriate ADH Syndrome | Voimassa |
+| EMEA/H/C/002788 | Jinarc | tolvaptan | Polycystic Kidney, Autosomal Dominant | Voimassa |
+| EMEA/H/C/005961 | Tolvaptan Accord | tolvaptan | Inappropriate ADH Syndrome | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005961 / Tolvaptan Accord / – / Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (peruutettu); EMEA/H/C/000980 / Samsca / – / Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (peruutettu); EMEA/H/C/002788 / Jinarc / – / Autosomaalisesti vallitseva polykystinen munuaistauti (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Tolvaptan Accord (EMEA/H/C/005961), Samsca (EMEA/H/C/000980), Jinarc (EMEA/H/C/002788) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-tolvaptan-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -126,7 +126,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla tämän
 
 <!-- review:begin fi-lic-20261106-tolvaptan-1 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Alatyypille ei kuitenkaan ole omaa kliinistä näyttöä, ja Suomessa kaikki myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Alatyypille ei kuitenkaan ole omaa kliinistä näyttöä, ja Suomessa kaikki myyntiluvat on peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-tolvaptan-1 -->
 
@@ -139,7 +139,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla tämän
 
 <!-- review:begin fi-lic-20261106-tolvaptan-2 -->
 
-> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”CYP3A4-yhteisvaikutusten ja 100 yhteisvaikutuksen arviointi / Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 3 myyntilupaa, joista 3 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”CYP3A4-yhteisvaikutusten ja 100 yhteisvaikutuksen arviointi / Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa” Poistettu: väite oli ristiriidassa myyntilupatietojen kanssa (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-tolvaptan-2 -->
 
@@ -169,9 +169,9 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”ja Suomessa kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 3 myyntilupaa (Tolvaptan Accord (EMEA/H/C/005961), Samsca (EMEA/H/C/000980), Jinarc (EMEA/H/C/002788)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”ja Suomessa kaikki myyntiluvat on peruutettu” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa” | Korjattu (päivitetty 2026-11-24; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Tolvaptan Accord (EMEA/H/C/005961), Samsca (EMEA/H/C/000980), Jinarc (EMEA/H/C/002788)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-20 | "Tämän raportin yhteydessä koottu aineisto ei sisältänyt yksityiskohtaista vaikutusmekanismitietoa (MOA) lääketietokannasta. Edellä kuvattu mekanismi perustuu tunnettuun lääkeluokan farmakologiaan ja kirjallisuuteen" replaced with a sourced mechanism-of-action statement | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella (päivitetty 2026-11-20; aiempi versio tallessa lokissa) | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
 
 <!-- review:end log -->

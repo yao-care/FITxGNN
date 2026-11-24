@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 259
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: ennustettu uusi käyttöaihe Liposarkooma (liposarcoma) (näytön taso L3). Alkuperäinen käyttöaihe: Thyroid Neoplasms"
@@ -76,16 +76,16 @@ Eribuliini on mikrotubulusten estäjä, ja prekliinisissä tutkimuksissa sillä 
 
 ## Myyntiluvat Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/003727 | Lenvima | – | Kilpirauhasen kasvaimet (voimassa) |
-| EMEA/H/C/004224 | Kisplyx | – | Munuaissolusyöpä (voimassa) |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-lenvatinib-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/003727 | Lenvima | lenvatinib mesilate | Thyroid Neoplasms | Voimassa |
+| EMEA/H/C/004224 | Kisplyx | lenvatinib mesilate | Carcinoma, Renal Cell | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003727 / Lenvima / – / Kilpirauhasen kasvaimet (peruutettu); EMEA/H/C/004224 / Kisplyx / – / Munuaissolusyöpä (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Lenvima (EMEA/H/C/003727), Kisplyx (EMEA/H/C/004224) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-lenvatinib-1 -->
+<!-- licenses:end -->
 
 ## Kemoterapian tyyppiset ominaisuudet (sytotoksisuus)
 
@@ -128,7 +128,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-12 | Taulukko: 2 myyntilupaa (Lenvima (EMEA/H/C/003727), Kisplyx (EMEA/H/C/004224)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Lenvima (EMEA/H/C/003727), Kisplyx (EMEA/H/C/004224)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
 
 <!-- review:end log -->

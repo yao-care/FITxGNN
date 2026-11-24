@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cholecalciferol: ennustettu uusi käyttöaihe Akromesomelinen dysplasia, Campailla–Martinelli-tyyppi (acromesomelic dysplasia, Campailla Martinelli type) (näytön taso L5). Alkuperäinen käyttöaihe: Oste…"
 ---
 
@@ -68,11 +68,17 @@ Tälle ennusteelle ei ole tällä hetkellä saatavilla aiheeseen liittyvää kir
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000619 | Fosavance | – | Postmenopausaalinen osteoporoosi |
-| EMEA/H/C/000759 | Adrovance | – | Postmenopausaalinen osteoporoosi |
-| EMEA/H/C/001180 | Vantavo (aiemmin Alendronate sodium and colecalciferol, MSD) | – | Postmenopausaalinen osteoporoosi |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000619 | Fosavance | alendronic acid; colecalciferol | Osteoporosis, Postmenopausal | Voimassa |
+| EMEA/H/C/000759 | Adrovance | colecalciferol; alendronic acid (as sodium trihydrate) | Osteoporosis, Postmenopausal | Voimassa |
+| EMEA/H/C/001180 | Vantavo (previously Alendronate sodium and colecalciferol,… | alendronic acid; colecalciferol | Osteoporosis, Postmenopausal | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 Luettelo on kooste paikallisista myyntilupatiedoista.
 

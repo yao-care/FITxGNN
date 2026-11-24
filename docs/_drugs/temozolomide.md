@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide: ennustettu uusi käyttöaihe Cauda equina neoplasm (näytön taso L5). Alkuperäinen käyttöaihe: Glioma"
 ---
 
@@ -76,13 +76,19 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/001125 | Temozolomide Accord | – | Gliooma |
-| EMEA/H/C/001126 | Temozolomide Teva | – | Gliooma |
-| EMEA/H/C/002198 | Temozolomide Sun | – | Gliooma |
-| EMEA/H/C/000229 | Temodal | – | Gliooma |
-| EMEA/H/C/001124 | Temomedac | – | Gliooma |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000229 | Temodal | temozolomide | Glioma | Voimassa |
+| EMEA/H/C/001124 | Temomedac | temozolomide | Glioma | Voimassa |
+| EMEA/H/C/001125 | Temozolomide Accord | temozolomide | Glioma | Voimassa |
+| EMEA/H/C/001126 | Temozolomide Teva | temozolomide | Glioma | Voimassa |
+| EMEA/H/C/002198 | Temozolomide Sun | temozolomide | Glioma | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

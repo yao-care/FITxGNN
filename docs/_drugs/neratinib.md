@@ -3,7 +3,7 @@ layout: default
 title: Neratinib
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 300
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-24
 description: "Neratinib: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -70,9 +70,15 @@ TxGNN-mallin Neratinibille tuottamat ehdokkaat ovat kaikki jo tunnettuja käytt�
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupa | Valmiste | Lääkemuoto | Tila |
-|------|------|------|------|
-| EMEA/H/C/004030 | neratinib |  | Voimassa |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004030 | Nerlynx | neratinib | Breast Neoplasms | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

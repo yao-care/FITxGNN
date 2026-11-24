@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clofarabine: ennustettu uusi käyttöaihe Myeloinen leukemia (myeloid leukemia) (näytön taso L1). Alkuperäinen käyttöaihe: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
 ---
 
@@ -94,9 +94,15 @@ Alla on valikoima merkityksellisimmistä tutkimuksista (enintään 10).
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000613 | Evoltra | – | Precursor Cell Lymphoblastic Leukemia-Lymphoma |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000613 | Evoltra | clofarabine | Precursor Cell Lymphoblastic Leukemia-Lymphoma | Voimassa |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Sytotoksisuus
 

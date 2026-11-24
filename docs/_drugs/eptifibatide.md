@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eptifibatide: ennustettu uusi käyttöaihe Nivelreuma (rheumatoid arthritis) (näytön taso L5). Alkuperäinen käyttöaihe: Angina, Unstable"
 ---
 
@@ -70,10 +70,16 @@ Nivelreumaan liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
 ## Markkinatiedot Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000230 | Integrilin | – | Angina, Unstable;Myocardial Infarction |
-| EMEA/H/C/004104 | Eptifibatide Accord | – | Myocardial Infarction |
+<!-- licenses:begin -->
+
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/004104 | Eptifibatide Accord | eptifibatide | Myocardial Infarction | Voimassa |
+| EMEA/H/C/000230 | Integrilin | eptifibatide | Angina, Unstable; Myocardial Infarction | Peruttu |
+
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
+
+<!-- licenses:end -->
 
 ## Turvallisuushuomiot
 

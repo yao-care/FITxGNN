@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: ennustettu uusi käyttöaihe Bronkiitti (bronchitis) (näytön taso L5). Alkuperäinen käyttöaihe: Asthma"
@@ -81,16 +81,16 @@ Ennusteen korkea pistemäärä kuvaa mallin tilastollista assosiaatiota, ei klii
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Hyväksytty käyttöaihe |
-|---------|------|-----------|
-| EMEA/H/C/000606 | Xolair (Novartis Europharm Limited), voimassa | Astma, nokkosihottuma, nuha |
-| EMEA/H/C/005958 | Omlyclo (Celltrion Healthcare Hungary Kft.), voimassa | Astma, nokkosihottuma |
+<!-- licenses:begin -->
 
-<!-- review:begin fi-row-20261112-omalizumab-1 -->
+| Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
+|------|------|------|------|------|
+| EMEA/H/C/000606 | Xolair | omalizumab | Asthma; Urticaria; Rhinitis | Voimassa |
+| EMEA/H/C/005958 | Omlyclo | omalizumab | Asthma; Urticaria | Voimassa |
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000606 / Xolair (Novartis Europharm Limited), peruutettu / Astma, nokkosihottuma, nuha; EMEA/H/C/005958 / Omlyclo (Celltrion Healthcare Hungary Kft.), peruutettu / Astma, nokkosihottuma” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Xolair (EMEA/H/C/000606), Omlyclo (EMEA/H/C/005958) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
-<!-- review:end fi-row-20261112-omalizumab-1 -->
+<!-- licenses:end -->
 
 ## Turvallisuusnäkökohdat
 
@@ -120,7 +120,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-12 | Taulukko: 2 myyntilupaa (Xolair (EMEA/H/C/000606), Omlyclo (EMEA/H/C/005958)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Xolair (EMEA/H/C/000606), Omlyclo (EMEA/H/C/005958)) ovat voimassa, ei peruutettuja | Korvattu ohjelmallisesti tuotetulla myyntilupataulukolla (aiemmin: Korjattu) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-19 | Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta | Lause puuttuvista vaikutusmekanismitiedoista korvattu lähteellisellä otteella | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
 
 <!-- review:end log -->

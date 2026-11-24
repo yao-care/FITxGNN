@@ -55,7 +55,7 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   沒有市場段落的 3 頁 etanercept、desloratadine、bimatoprost 不加）；`--migrate` 拿掉舊表說明句 3 句（amlodipine、emtricitabine、formoterol）。
   正文張數程式改寫 0 句（句型明確的張數都已跟事實層一致；量測時市場段落有數字的句子 26 句，多是舊表說明句）。
   錨在舊表列上的 215 筆標 superseded（fi-row-20261112-* 213 筆、fi-lic-20261112-crizotinib-1、fi-lic-20261112-pioglitazone-1）。
-  查核紀錄同 id 重發（前版存 history）：更正文字是舊表說明句的 15 筆（「Taulukossa on viisi ensimmäistä」「Viisi esimerkkiä:」「Viides taulukon ulkopuolinen lupa: Incresync…」等）改成
+  查核紀錄同 id 重發 547 筆（前版存 history）：更正文字是舊表說明句的 15 筆（「Taulukossa on viisi ensimmäistä」「Viisi esimerkkiä:」「Viides taulukon ulkopuolinen lupa: Incresync…」等）改成
   「Myyntiluvat ja niiden tila ovat alla／yllä olevassa taulukossa.」（metformin 改成「Alla olevan taulukon valmisteet ovat kaikki yhdistelmävalmisteita…」，證據包 19 張全是複方）；
   說明框寫死「on kirjattu N myyntilupaa, joista V voimassa」的 546 筆（其中 6 筆已跟現行事實不符：abacavir、lamivudine、zidovudine 各 2 筆）改成不寫數字、指向概覽表與程式表，
   site_config 的 T["figures"] 同步改（reviews_from_edits 之後產生的紀錄也不寫數字）。

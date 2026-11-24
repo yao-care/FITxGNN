@@ -7,6 +7,7 @@
 
 內容（鍵＝藥物頁檔名去 .md）：
   facts：事實層那一筆（market_status、total、valid、cancelled、partial、licenses{號碼: 狀態} …）
+  rows／total：程式許可證表的表格列（最多 20 列）與總數（scripts/sync_license_tables.py rows_of；2026-11-24 起）
   own：本藥證據包 tfda.records 的許可證號（license_id 或 registration_number）、事實層 licenses 的號碼，
        加上 config/license_own_extra.json（有的站才有）逐筆附依據的補充號碼
   meta：產生日、Release tag、比對規則所在檔案
@@ -17,6 +18,7 @@
 import datetime as dt
 import gzip
 import importlib as _il
+import importlib.util
 import json
 import re
 import sys
@@ -29,6 +31,9 @@ C = _il.import_module(f"{_PKG}.regulatory.site_config").C
 SITE = C["SITE"]
 OUT = ROOT / "snapshots" / C["SNAPSHOT"]
 EXTRA = ROOT / "config" / "license_own_extra.json"
+_spec = importlib.util.spec_from_file_location("sync_license_tables", ROOT / "scripts" / "sync_license_tables.py")
+SLT = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(SLT)
 
 
 def facts(ws):
@@ -62,6 +67,9 @@ def build(ws, tag=""):
                for r in ((b or {}).get("tfda") or {}).get("records") or []} - {""}
         own = sorted(own | set((fc or {}).get("licenses") or {}) | set(extra.get(page.stem) or {}))
         drugs[page.stem] = {"bundle": key, "facts": fc, "own": own}
+        if b is not None:  # 2026-11-24：程式許可證表（scripts/sync_license_tables.py rows_of）的表格列與總數
+            r, total = SLT.rows_of(b.get("tfda") or {}, fc)
+            drugs[page.stem]["rows"], drugs[page.stem]["total"] = r[:SLT.MAX_ROWS], total
     meta = {"built": dt.date.today().isoformat(), "release_tag": tag, "pages": len(drugs),
             "rule": "事實層：tools/txgnn/.claude/dump_license_facts_20261021.py；本藥號碼：證據包 tfda.records、事實層 licenses、config/license_own_extra.json"}
     OUT.parent.mkdir(exist_ok=True)
@@ -88,8 +96,21 @@ if __name__ == "__main__":
     _dl_p = _lf_os.path.join(_dl_root, "tools", "txgnn", ".claude", "drug_meta_description.py")
     _lf_ax.register(lambda: "--check" in _lf_sys.argv or not _lf_os.path.exists(_dl_p) or _lf_chk(_lf_sp.run([_lf_sys.executable, _dl_p, "--apply", "--root", _dl_root]), "drug_meta_description.py --apply"))
     a = sys.argv[1:]
-    ws = a[a.index("--ws") + 1]
     tag = a[a.index("--release-tag") + 1] if "--release-tag" in a else ""
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
-    build(ws, tag)
+    if "--ws" in a:
+        build(a[a.index("--ws") + 1], tag)
+    else:
+        # 2026-11-24：不帶 --ws 時用 scripts/txgnn_ws.sh 的預設工作目錄；那裡沒有事實層就不重建快照，只依現有快照做下面的重排與改寫
+        import os
+        dws = Path(os.environ.get("RUNNER_TEMP") or os.environ.get("TMPDIR") or "/tmp") / f"txgnn-ws-{SITE}"
+        if (dws / ".claude/cache/license_facts" / f"{SITE}.json").exists():
+            build(dws, tag)
+        else:
+            print(f"沒有 --ws、預設工作目錄 {dws} 也沒有事實層：不重建快照，只依現有快照重排程式表、改寫正文張數")
+    # 2026-11-24：快照換了，程式許可證表與正文許可證張數跟著依新快照改寫（--no-rewrite 不跑）
+    if "--no-rewrite" not in a:
+        import subprocess
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "sync_license_tables.py")], check=True)
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "rewrite_license_counts.py")], check=True)

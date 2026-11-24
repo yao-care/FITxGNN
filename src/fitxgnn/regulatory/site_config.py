@@ -20,6 +20,7 @@ C = _json.loads(r"""{
  "DESC_LEVEL_RE": "näytön taso (L[1-5]|N/A)",
  "DESC_LEVEL_FMT": "näytön taso {lv}",
  "NA_DESC": "vain tunnetut käytöt",
+ "FIGURES_NOTE": "2026-11-24（用戶決定）：figures 原本寫死「on kirjattu {total} myyntilupaa, joista {valid} voimassa」，會跟每週資料過期；改成不寫數字、指向概覽表與程式許可證表（既有 546 筆紀錄同 id 重發）",
  "HEADER_RULE_NOTE": "2026-11-12 實測：有 Quick Overview 等級的頁，頁首等於第一個等級（427 頁）；另 4 頁是頁首 N/A、沒有預測的頁（格內只寫說明），不重算",
  "MARKET_RE": "[Mm]arkkin|Myyntilu|Myyntitiedot",
  "MARKET_RE_NOTE": "2026-11-12：市場段落標題變體（Tiedot Suomen markkinoilta／markkinoista、Myyntiluvat／Myyntilupatiedot／Myyntitiedot Suomessa）原本只認 markkina，這些段落的表格列與號碼歸屬都漏驗",
@@ -125,7 +126,7 @@ C = _json.loads(r"""{
   "intro": "Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.",
   "intro_header": "Alla on tämän sivun tarkistusloki; otsikon näytön taso seuraa pikakatsausta. Mallin ennusteita, yhteenvetotaulukkoa ja johtopäätöksiä ei ole kirjoitettu uudelleen.",
   "intro_rr": "Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja, eikä mallin ennustetekstiä ole kirjoitettu uudelleen; näytön tasoja ja päätöksiä on muutettu vain uudelleenarvioinnin tuloksen perusteella (alennus, nosto tai peruminen), ja alkuperäiset arvot ovat alla.",
-  "figures": "Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu {total} myyntilupaa, joista {valid} voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa.",
+  "figures": "Ajantasaiset myyntilupien määrät ja tilat ovat pikakatsauksessa ja markkinatietojen taulukossa.",
   "data_as_of": "EMA:n keskitetysti myönnetyt myyntiluvat, tilanne {date}",
   "notes": {
    "rewrite": "Korjattu: väite ei vastannut myyntilupatietoja ({d}), ja se korvattiin nykyisellä sanamuodolla.",

@@ -819,6 +819,17 @@
     "x": 0
    },
    {
+    "t": "Pegfilgrastim",
+    "u": "/drugs/pegfilgrastim/",
+    "l": "L5",
+    "i": "severe nonproliferative diabetic retinopathy",
+    "lt": 13,
+    "lv": 13,
+    "r": 4,
+    "rs": "Poistettu: ”koska nykyiset myyntiluvat on peruutettu”",
+    "x": 0
+   },
+   {
     "t": "Adalimumab",
     "u": "/drugs/adalimumab/",
     "l": "L5",
@@ -827,17 +838,6 @@
     "lv": 11,
     "r": 1,
     "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
-    "x": 0
-   },
-   {
-    "t": "Pegfilgrastim",
-    "u": "/drugs/pegfilgrastim/",
-    "l": "L5",
-    "i": "severe nonproliferative diabetic retinopathy",
-    "lt": 11,
-    "lv": 11,
-    "r": 4,
-    "rs": "Poistettu: ”koska nykyiset myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -882,6 +882,17 @@
     "lv": 10,
     "r": 3,
     "rs": "Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu ja v”",
+    "x": 0
+   },
+   {
+    "t": "Ranibizumab",
+    "u": "/drugs/ranibizumab/",
+    "l": "L5",
+    "i": "immature cataract",
+    "lt": 10,
+    "lv": 10,
+    "r": 5,
+    "rs": "Poistettu: ”Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö…",
     "x": 0
    },
    {
@@ -984,6 +995,17 @@
     "x": 0
    },
    {
+    "t": "Teriparatide",
+    "u": "/drugs/teriparatide/",
+    "l": "L5",
+    "i": "duodenal ulcer (disease)",
+    "lt": 8,
+    "lv": 8,
+    "r": 4,
+    "rs": "Poistettu: ”koska kaikki myyntiluvat on peruutettu”",
+    "x": 0
+   },
+   {
     "t": "Entacapone",
     "u": "/drugs/entacapone/",
     "l": "L5",
@@ -1006,25 +1028,14 @@
     "x": 0
    },
    {
-    "t": "Ranibizumab",
-    "u": "/drugs/ranibizumab/",
+    "t": "Insulin Aspart",
+    "u": "/drugs/insulin-aspart/",
     "l": "L5",
-    "i": "immature cataract",
-    "lt": 7,
+    "i": "autoimmune oophoritis",
+    "lt": 8,
     "lv": 7,
-    "r": 5,
-    "rs": "Poistettu: ”Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö…",
-    "x": 0
-   },
-   {
-    "t": "Teriparatide",
-    "u": "/drugs/teriparatide/",
-    "l": "L5",
-    "i": "duodenal ulcer (disease)",
-    "lt": 7,
-    "lv": 7,
-    "r": 4,
-    "rs": "Poistettu: ”koska kaikki myyntiluvat on peruutettu”",
+    "r": 3,
+    "rs": "Poistettu: ”Kaikki Suomen myyntiluvat on peruutettu, joten suositus riippuu valmisteen saatavuudesta ja…",
     "x": 0
    },
    {
@@ -1072,14 +1083,25 @@
     "x": 0
    },
    {
-    "t": "Insulin Aspart",
-    "u": "/drugs/insulin-aspart/",
+    "t": "Insulin Glargine",
+    "u": "/drugs/insulin-glargine/",
     "l": "L5",
-    "i": "autoimmune oophoritis",
-    "lt": 7,
+    "i": "Autoimmuuninen munasarjatulehdus",
+    "lt": 6,
+    "lv": 6,
+    "r": 4,
+    "rs": "Poistettu: ”Markkinatilanteen selvitys (kaikki myyntiluvat peruutettu)”",
+    "x": 0
+   },
+   {
+    "t": "Levodopa",
+    "u": "/drugs/levodopa/",
+    "l": "L5",
+    "i": "Rasmussenin subakuutti enkefaliitti",
+    "lt": 6,
     "lv": 6,
     "r": 3,
-    "rs": "Poistettu: ”Kaikki Suomen myyntiluvat on peruutettu, joten suositus riippuu valmisteen saatavuudesta ja…",
+    "rs": "Poistettu: ”ja kaikki Suomen myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1171,17 +1193,6 @@
     "x": 0
    },
    {
-    "t": "Insulin Glargine",
-    "u": "/drugs/insulin-glargine/",
-    "l": "L5",
-    "i": "Autoimmuuninen munasarjatulehdus",
-    "lt": 5,
-    "lv": 5,
-    "r": 4,
-    "rs": "Poistettu: ”Markkinatilanteen selvitys (kaikki myyntiluvat peruutettu)”",
-    "x": 0
-   },
-   {
     "t": "Insulin Human",
     "u": "/drugs/insulin-human/",
     "l": "L5",
@@ -1190,6 +1201,17 @@
     "lv": 5,
     "r": 3,
     "rs": "Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja vaikutusmekanismia sekä valmisteyhteenvedon…",
+    "x": 0
+   },
+   {
+    "t": "Insulin Lispro",
+    "u": "/drugs/insulin-lispro/",
+    "l": "L5",
+    "i": "Autoimmuuninen munasarjatulehdus",
+    "lt": 5,
+    "lv": 5,
+    "r": 4,
+    "rs": "Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole”",
     "x": 0
    },
    {
@@ -1248,17 +1270,6 @@
     "x": 0
    },
    {
-    "t": "Insulin Lispro",
-    "u": "/drugs/insulin-lispro/",
-    "l": "L5",
-    "i": "Autoimmuuninen munasarjatulehdus",
-    "lt": 4,
-    "lv": 4,
-    "r": 4,
-    "rs": "Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole”",
-    "x": 0
-   },
-   {
     "t": "Lacosamide",
     "u": "/drugs/lacosamide/",
     "l": "L5",
@@ -1278,17 +1289,6 @@
     "lv": 4,
     "r": 4,
     "rs": "Poistettu: ”peruutettujen myyntilupien syistä”",
-    "x": 0
-   },
-   {
-    "t": "Levodopa",
-    "u": "/drugs/levodopa/",
-    "l": "L5",
-    "i": "Rasmussenin subakuutti enkefaliitti",
-    "lt": 4,
-    "lv": 4,
-    "r": 3,
-    "rs": "Poistettu: ”ja kaikki Suomen myyntiluvat on peruutettu”",
     "x": 0
    },
    {
@@ -1512,6 +1512,17 @@
     "x": 0
    },
    {
+    "t": "Pertuzumab",
+    "u": "/drugs/pertuzumab/",
+    "l": "L5",
+    "i": "ectomesenchymoma",
+    "lt": 3,
+    "lv": 3,
+    "r": 3,
+    "rs": "Poistettu: ”Markkinatilanteen selvitys: Suomessa on vain peruutettuja myyntilupia”",
+    "x": 0
+   },
+   {
     "t": "Pirfenidone",
     "u": "/drugs/pirfenidone/",
     "l": "L5",
@@ -1597,6 +1608,17 @@
     "lv": 3,
     "r": 4,
     "rs": "Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu”",
+    "x": 0
+   },
+   {
+    "t": "Alpelisib",
+    "u": "/drugs/alpelisib/",
+    "l": "L5",
+    "i": "Keuhkoverenpainetauti",
+    "lt": 2,
+    "lv": 2,
+    "r": 5,
+    "rs": "Poistettu: ”Myyntiluvan peruutuksen syiden ja nykyisen saatavuuden selvittämistä”",
     "x": 0
    },
    {
@@ -1996,14 +2018,14 @@
     "x": 0
    },
    {
-    "t": "Pertuzumab",
-    "u": "/drugs/pertuzumab/",
+    "t": "Palbociclib",
+    "u": "/drugs/palbociclib/",
     "l": "L5",
-    "i": "ectomesenchymoma",
+    "i": "Kilpirauhasen liikatoiminta",
     "lt": 2,
     "lv": 2,
-    "r": 3,
-    "rs": "Poistettu: ”Markkinatilanteen selvitys: Suomessa on vain peruutettuja myyntilupia”",
+    "r": 4,
+    "rs": "Poistettu: ”Selvitys peruutetun myyntiluvan syystä ja nykyisestä saatavuudesta Suomessa”",
     "x": 0
    },
    {
@@ -2213,17 +2235,6 @@
     "lv": 1,
     "r": 1,
     "rs": "Lause ”vaikutusmekanismitietoja ei ole saatavilla” korvattu otteella yhdysvaltalaisesta valmistetiedosta",
-    "x": 0
-   },
-   {
-    "t": "Alpelisib",
-    "u": "/drugs/alpelisib/",
-    "l": "L5",
-    "i": "Keuhkoverenpainetauti",
-    "lt": 1,
-    "lv": 1,
-    "r": 5,
-    "rs": "Poistettu: ”Myyntiluvan peruutuksen syiden ja nykyisen saatavuuden selvittämistä”",
     "x": 0
    },
    {
@@ -3775,17 +3786,6 @@
     "lv": 1,
     "r": 3,
     "rs": "Poistettu: ”Lisäksi Suomessa ainoa myyntilupa on peruutettu”",
-    "x": 0
-   },
-   {
-    "t": "Palbociclib",
-    "u": "/drugs/palbociclib/",
-    "l": "L5",
-    "i": "Kilpirauhasen liikatoiminta",
-    "lt": 1,
-    "lv": 1,
-    "r": 4,
-    "rs": "Poistettu: ”Selvitys peruutetun myyntiluvan syystä ja nykyisestä saatavuudesta Suomessa”",
     "x": 0
    },
    {

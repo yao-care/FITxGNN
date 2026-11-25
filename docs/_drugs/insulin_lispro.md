@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Lispro: ennustettu uusi käyttöaihe Autoimmuuninen munasarjatulehdus (autoimmune oophoritis) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
@@ -51,8 +51,8 @@ TxGNN-malli ennustaa sen voivan tehota **autoimmuuniseen munasarjatulehdukseen**
 | Ennustettu uusi käyttöaihe | Autoimmuuninen munasarjatulehdus (autoimmune oophoritis) |
 | TxGNN-ennustepisteet | 0.9978 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
-| Myyntilupien määrä | 4 (voimassa: 4) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -112,6 +112,7 @@ Ensisijaisesta ennusteesta (autoimmuuninen munasarjatulehdus) ei ole saatavilla 
 | EMEA/H/C/000393 | Liprolog | insulin lispro | Diabetes Mellitus | Voimassa |
 | EMEA/H/C/004303 | Insulin lispro Sanofi | insulin lispro | Diabetes Mellitus | Voimassa |
 | EMEA/H/C/005037 | Lyumjev (previously Liumjev) | insulin lispro | Diabetes Mellitus | Voimassa |
+| EMEA/H/C/006158 | Bysumlog | insulin lispro | Diabetes Mellitus | Voimassa |
 
 Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 

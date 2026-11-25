@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: ennustettu uusi käyttöaihe Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis) (näytön taso L5). Alkuperäinen käyttöaihe: Parkinson Disease"
@@ -48,8 +48,8 @@ Levodopa on dopamiinin esiaste, jota on alun perin käytetty Parkinsonin taudin 
 | Ennustettu uusi käyttöaihe | Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis) |
 | TxGNN-ennusteen pistemäärä | 0.9906 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
-| Myyntilupien määrä | 4 (voimassa: 4) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
+| Myyntilupien määrä | 6 (voimassa: 6) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
@@ -76,6 +76,8 @@ Tunnettua mekanistista yhteyttä lääkkeen ja sairauden välillä ei ole. Korke
 | EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | levodopa; carbidopa; entacapone | Parkinson Disease | Voimassa |
 | EMEA/H/C/002785 | Corbilta (previously Levodopa/Carbidopa/Entacapone Sandoz) | levodopa; carbidopa; entacapone | Parkinson Disease | Voimassa |
 | EMEA/H/C/004786 | Inbrija | levodopa | Parkinson Disease | Voimassa |
+| EMEA/H/C/006429 | Onerji | levodopa; carbidopa | Parkinson Disease | Voimassa |
+| EMEA/H/C/006629 | Hopledo | carbidopa monohydrate; levodopa | Parkinson Disease | Voimassa |
 
 Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 

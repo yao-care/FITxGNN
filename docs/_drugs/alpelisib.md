@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "ALPELISIB"
 predicted_indications: ["pulmonary hypertension"]
 description: "Alpelisib: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
@@ -50,8 +50,8 @@ Alpelisibi on PI3K-alfa-estäjä, jota on alun perin käytetty rintasyövän hoi
 | Ennustettu uusi käyttöaihe | Keuhkoverenpainetauti (pulmonary hypertension) |
 | TxGNN-ennustepistemäärä | 0.9903 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien määrä | 1 (voimassa: 1) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -93,6 +93,7 @@ Tähän käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä t
 | Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
 |------|------|------|------|------|
 | EMEA/H/C/004804 | Piqray | alpelisib | Breast Neoplasms | Voimassa |
+| EMEA/H/C/006539 | Vijoice | alpelisib | Genetic Diseases, Inborn; Growth Disorders | Voimassa |
 
 Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 

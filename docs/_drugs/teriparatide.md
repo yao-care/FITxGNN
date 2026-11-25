@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Teriparatide: ennustettu uusi käyttöaihe Pohjukaissuolen haavauma (näytön taso L5). Alkuperäinen käyttöaihe: Osteoporoosi"
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -51,8 +51,8 @@ TxGNN-malli ennustaa sen voivan tehota **pohjukaissuolen haavaumaan** (duodenal 
 | Ennustettu uusi käyttöaihe | Pohjukaissuolen haavauma |
 | TxGNN-ennusteen pistemäärä | 0,9986 |
 | Näytön taso | L5 (vain mallin ennuste) |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 7/7) |
-| Myyntilupien määrä | 7 (voimassa: 7) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 8/8) |
+| Myyntilupien määrä | 8 (voimassa: 8) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -98,6 +98,7 @@ Myyntiluvat ja niiden tila ovat alla olevassa taulukossa.
 | EMEA/H/C/005087 | Livogiva | teriparatide | Osteoporosis | Voimassa |
 | EMEA/H/C/005793 | Teriparatide Sun | teriparatide | Osteoporosis; Osteoporosis, Postmenopausal | Voimassa |
 | EMEA/H/C/005827 | Sondelbay | teriparatide | Osteoporosis | Voimassa |
+| EMEA/H/C/006688 | Zandoriah | teriparatide | Osteoporosis; Osteoporosis, Postmenopausal | Voimassa |
 
 Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 

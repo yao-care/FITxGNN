@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: ennustettu uusi käyttöaihe Ectomesenchymoma (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
@@ -50,8 +50,8 @@ Pertutsumabi on HER2-reseptorin dimerisaatiota estävä vasta-aine, jota on alun
 | Ennustettu uusi käyttöaihe | Ectomesenchymoma |
 | TxGNN-ennustepistemäärä | 0.9971 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
-| Myyntilupien määrä | 2 (voimassa: 2) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---
@@ -97,6 +97,7 @@ Progesteronireseptoripositiivinen (PR+) rintasyöpä on reseptorien perusteella 
 |------|------|------|------|------|
 | EMEA/H/C/002547 | Perjeta | pertuzumab | Breast Neoplasms | Voimassa |
 | EMEA/H/C/005386 | Phesgo | pertuzumab; trastuzumab | Breast Neoplasms | Voimassa |
+| EMEA/H/C/006583 | Poherdy | pertuzumab | Breast Neoplasms | Voimassa |
 
 Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 

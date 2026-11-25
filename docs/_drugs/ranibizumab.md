@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: ennustettu uusi käyttöaihe Immature cataract (näytön taso L5). Alkuperäinen käyttöaihe: Wet Macular Degeneration"
@@ -52,8 +52,8 @@ Tätä suuntaa tukee **18 julkaisua**, mutta tähän käyttöaiheeseen ei ole an
 | Ennustettu uusi käyttöaihe | Immature cataract |
 | TxGNN-ennustepistemäärä | 0.9999 |
 | Näytön taso | L5 (perustuu kirjallisuuteen, ei annettuihin tutkimusrekistereihin; ks. alla) |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 7/7) |
-| Myyntilupien määrä | 7 (voimassa: 7) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 10/10) |
+| Myyntilupien määrä | 10 (voimassa: 10) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---
@@ -101,7 +101,10 @@ Kirjallisuudessa on RIDE/RISE-tutkimusten analyysejä, joissa diabeettinen retin
 | EMEA/H/C/005617 | Ximluci | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications | Voimassa |
 | EMEA/H/C/006055 | Rimmyrah | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Myopia, Degenerative; Choroidal Neovasculari… | Voimassa |
 | EMEA/H/C/006502 | Ranluspec | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetic Retinopathy; Diabetes Complications; Retinal Vein Occlusion… | Voimassa |
+| EMEA/H/C/006527 | Susvimo | ranibizumab | Wet Macular Degeneration | Voimassa |
 | EMEA/H/C/006528 | Epruvy (previously Ranibizumab Midas) | ranibizumab | Wet Macular Degeneration; Macular Edema; Choroidal Neovascularization; Diabetes Complications | Voimassa |
+| EMEA/H/C/006634 | Rexatilux | ranibizumab | Wet Macular Degeneration | Voimassa |
+| EMEA/H/C/006926 | Vislyfa | ranibizumab | Wet Macular Degeneration; Macular Edema; Diabetes Complications; Retinal Vein Occlusion; Choroidal Neovascula… | Voimassa |
 
 Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 

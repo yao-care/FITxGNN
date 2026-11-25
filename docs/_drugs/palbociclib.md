@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: ennustettu uusi käyttöaihe Kilpirauhasen liikatoiminta (hyperthyroidism) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
@@ -50,8 +50,8 @@ Palbosiklibi on CDK4/6-estäjä, jota on alun perin käytetty rintasyövän hoit
 | Ennustettu uusi käyttöaihe (sijalla 1) | Kilpirauhasen liikatoiminta (hyperthyroidism) |
 | TxGNN-ennustepistemäärä | 0.9944 |
 | Näyttötaso | L5 (sijalla 1); nivelreuma L4 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien määrä | 1 (voimassa: 1) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 Muut ennusteet: nivelreuma (0.9936, L4, tutkimuskysymys), tromboottinen sairaus (0.9932, L4, Hold) ja kilpirauhashormonin reseptori beetan mutaatiosta johtuva kilpirauhashormoniresistenssi (0.9930, L5, Hold).
@@ -90,6 +90,7 @@ Tromboosiin liittyvä kirjallisuus (esim. [36794339](https://pubmed.ncbi.nlm.nih
 | Myyntiluvan numero | Valmisteen nimi (EMA) | Vaikuttavat aineet (EMA, englanniksi) | Terapeuttinen alue (EMA, englanniksi) | Tila |
 |------|------|------|------|------|
 | EMEA/H/C/003853 | Ibrance | Palbociclib | Breast Neoplasms | Voimassa |
+| EMEA/H/C/006624 | Palbociclib Viatris | Palbociclib | Breast Neoplasms | Voimassa |
 
 Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 

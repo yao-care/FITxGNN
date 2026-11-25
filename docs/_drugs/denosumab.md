@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Denosumab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijainen en… (näytön taso L5). Alkuperäinen käyttöaihe: Luun jättisolukasvain (luukudoksen kasvaimet)"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -122,7 +122,7 @@ Myyntiluvat ja niiden tila ovat alla olevassa taulukossa.
 | EMEA/H/C/006734 | Acvybra | denosumab | Bone Resorption; Osteoporosis; Osteoporosis, Postmenopausal | Voimassa |
 | EMEA/H/C/006797 | Denosumab Intas | denosumab | Bone Resorption; Osteoporosis; Osteoporosis, Postmenopausal | Voimassa |
 
-Taulukossa näytetään 20 näissä tiedoissa olevasta 31 keskitetystä EU-myyntiluvasta (voimassa olevat ensin).
+Taulukossa näytetään 20 näissä tiedoissa olevasta 32 keskitetystä EU-myyntiluvasta (voimassa olevat ensin).
 
 Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 

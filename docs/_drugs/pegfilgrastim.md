@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Pegfilgrastim: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijaisesti… (näytön taso L5). Alkuperäinen käyttöaihe: Neutropenia, kuumeinen neutropenia…"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -51,8 +51,8 @@ TxGNN-malli ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeett
 | Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijaisesti diabeettinen retinopatia yleisesti) |
 | TxGNN-ennustepistemäärä | 0,9989 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 11/11) |
-| Myyntilupien määrä | 11 (voimassa: 11) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 13/13) |
+| Myyntilupien määrä | 13 (voimassa: 13) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -100,8 +100,10 @@ Myyntiluvat ja niiden tila ovat alla olevassa taulukossa.
 | EMEA/H/C/004915 | Fulphila | pegfilgrastim | – | Voimassa |
 | EMEA/H/C/005085 | Nyvepria | pegfilgrastim | – | Voimassa |
 | EMEA/H/C/005312 | Cegfila (previously Pegfilgrastim Mundipharma) | pegfilgrastim | – | Voimassa |
+| EMEA/H/C/006085 | Nylaspeg | pegfilgrastim | Chemotherapy-Induced Febrile Neutropenia; Neutropenia | Voimassa |
 | EMEA/H/C/006407 | Dyrupeg | pegfilgrastim | Neutropenia; Cancer | Voimassa |
 | EMEA/H/C/006739 | Vivlipeg | pegfilgrastim | Neutropenia; Febrile Neutropenia; Chemotherapy-Induced Febrile Neutropenia; Cancer | Voimassa |
+| EMEA/H/C/006937 | Cavoley | pegfilgrastim | Neutropenia | Voimassa |
 
 Lähde: EMA – Medicines output (keskitetysti myyntiluvan saaneet ihmisille tarkoitetut lääkkeet); valmisteen nimi, vaikuttavat aineet ja terapeuttinen alue alkuperäisinä englanninkielisinä. Kansalliset myyntiluvat (Fimea) ja eläinlääkkeet eivät sisälly näihin tietoihin.
 
